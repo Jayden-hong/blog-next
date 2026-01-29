@@ -1,0 +1,7 @@
+{
+  "name": "blog-next",
+  "compatibility_date": "2026-01-29",
+  "assets": {
+    "directory": "./out"
+  }
+}
