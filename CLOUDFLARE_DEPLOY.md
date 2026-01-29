@@ -90,11 +90,13 @@
 
 | 设置 | 值 |
 |------|-----|
-| Framework preset | Next.js |
-| Build command | `npm run build` |
+| Framework preset | **None** (不要选 Next.js) |
+| Build command | `npm install && npm run build` |
 | Build output directory | `out` |
 | Root directory | `/` |
-| Node.js version | `18` 或 `20` |
+| Node.js version | `18` (已在 .node-version 指定) |
+
+**⚠️ 重要**: 不要选择 "Next.js" preset，选择 "None" 或 "Static Site"！
 
 ### 环境变量（可选）
 
