@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jayden's Blog",
@@ -18,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body className={`${inter.className} antialiased min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100`}>
+      <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased min-h-screen bg-white text-neutral-900`}>
         <Header />
         <main>{children}</main>
         <Footer />
@@ -26,4 +25,3 @@ export default function RootLayout({
     </html>
   );
 }
-
