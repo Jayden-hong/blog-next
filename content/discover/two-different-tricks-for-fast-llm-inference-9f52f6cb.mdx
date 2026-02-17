@@ -1,0 +1,25 @@
+---
+title: "Two different tricks for fast LLM inference"
+source: "seangoedecke"
+category: "General"
+original_url: "https://seangoedecke.com/fast-llm-inference/"
+date: "2026-02-17"
+slug: "two-different-tricks-for-fast-llm-inference-9f52f6cb"
+---
+
+# Two different tricks for fast LLM inference
+
+**来源**: [seangoedecke](https://seangoedecke.com/fast-llm-inference/)  
+**分类**: General
+
+## AI 摘要
+
+Two different tricks for fast LLM inferenceAnthropic and OpenAI both recently announced “fast mode”: a way to interact with their best coding model at significantly higher speeds. These two versions of fast mode are very different. Anthropic’s offers up to 2.5x tokens per second (so around 170, up from Opus 4.6’s 65).
+
+---
+
+## 原文内容
+
+Two different tricks for fast LLM inferenceAnthropic and OpenAI both recently announced “fast mode”: a way to interact with their best coding model at significantly higher speeds. These two versions of fast mode are very different. Anthropic’s offers up to 2.5x tokens per second (so around 170, up from Opus 4.6’s 65). OpenAI’s offers more than 1000 tokens per second (up from GPT-5.3-Codex’s 65 tokens per second, so 15x). So OpenAI’s fast mode is six times faster than Anthropic’s1. However, Anthropic’s big advantage is that they’re serving their actual model. When you use their fast mode, you get real Opus 4.6, while when you use OpenAI’s fast mode you get GPT-5.3-Codex-Spark, not the real GPT-5.3-Codex. Spark is indeed much faster, but is a notably less capable model: good enough for many tasks, but it gets confused and messes up tool calls in ways that vanilla GPT-5.3-Codex would never do. Why the differences? The AI labs aren’t advertising the details of how their fast modes work, but I’m pretty confident it’s something like this: Anthropic’s fast mode is backed by low-batch-size inference, while OpenAI’s fast mode is backed by special monster Cerebras chips. Let me unpack that a bit. How Anthropic’s fast mode works The tradeoff at the heart of AI inference economics is batching, because the main bottleneck is memory. GPUs are very fast, but moving data onto a GPU is not. Every inference operation requires copying all the tokens of the user’s prompt2 onto the GPU before inference can start. Batching multiple users up thus increases overall throughput at the cost of making users wait for the batch to be full. A good analogy is a bus system. If you had zero batching for passengers - if, whenever someone got on a bus, the bus departed immediately - commutes would be much faster for the people who managed to get on a bus. But obviously overall throughput would be much lower, because people would be waiting at the bus stop for hours until they managed to actually get on one. Anthropic’s fast mode offering is basically a bus pass that guarantees that the bus immediately leaves as soon as you get on. It’s six times the cost, because you’re effectively paying for all the other people who could have got on the bus with you, but it’s way faster3 because you spend zero time waiting for the bus to leave. edit: I want to thank a reader for emailing me to point out that the “waiting for the bus” cost is really only paid for the first token, so that won’t affect streaming latency (just latency per turn or tool call). It’s thus better to think of the performance impact of batch size being mainly that smaller batches require fewer flops and thus execute more quickly. In my analogy, maybe it’s “lighter buses drive faster”, or something. Obviously I can’t be fully certain this is right. Maybe they have access to some new ultra-fast compute that they’re running this on, or they’re doing some algorithmic trick nobody else has thought of. But I’m pretty sure this is
+
+[阅读完整原文 →](https://seangoedecke.com/fast-llm-inference/)

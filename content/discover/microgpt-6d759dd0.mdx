@@ -1,0 +1,25 @@
+---
+title: "microgpt"
+source: "karpathy-github"
+category: "General"
+original_url: "http://karpathy.github.io/2026/02/12/microgpt/"
+date: "2026-02-17"
+slug: "microgpt-6d759dd0"
+---
+
+# microgpt
+
+**来源**: [karpathy-github](http://karpathy.github.io/2026/02/12/microgpt/)  
+**分类**: General
+
+## AI 摘要
+
+This is a brief guide to my new art project microgpt, a single file of 200 lines of pure Python with no dependencies that trains and inferences a GPT. This file contains the full algorithmic content of what is needed: dataset of documents, tokenizer, autograd engine, a GPT-2-like neural network architecture, the Adam optimizer, training loop, and inference loop. This script is the culmination of multiple projects (micrograd, makemore, nanogpt, etc.) and a decade-long obsession to simplify LLMs to their bare essentials, and I think it is beautiful 🥹.
+
+---
+
+## 原文内容
+
+This is a brief guide to my new art project microgpt, a single file of 200 lines of pure Python with no dependencies that trains and inferences a GPT. This file contains the full algorithmic content of what is needed: dataset of documents, tokenizer, autograd engine, a GPT-2-like neural network architecture, the Adam optimizer, training loop, and inference loop. Everything else is just efficiency. I cannot simplify this any further. This script is the culmination of multiple projects (micrograd, makemore, nanogpt, etc.) and a decade-long obsession to simplify LLMs to their bare essentials, and I think it is beautiful 🥹. It even breaks perfectly across 3 columns: Where to find it: This GitHub gist has the full source code: microgpt.py It’s also available on this web page: https://karpathy.ai/microgpt.html Also available as a Google Colab notebook The following is my guide on stepping an interested reader through the code. Dataset The fuel of large language models is a stream of text data, optionally separated into a set of documents. In production-grade applications, each document would be an internet web page but for microgpt we use a simpler example of 32,000 names, one per line: # Let there be an input dataset `docs`: list[str] of documents (e.g. a dataset of names) if not os.path.exists('input.txt'): import urllib.request names_url = 'https://raw.githubusercontent.com/karpathy/makemore/refs/heads/master/names.txt' urllib.request.urlretrieve(names_url, 'input.txt') docs = [l.strip() for l in open('input.txt').read().strip().split('\n') if l.strip()] # list[str] of documents random.shuffle(docs) print(f"num docs: {len(docs)}") The dataset looks like this. Each name is a document: emma olivia ava isabella sophia charlotte mia amelia harper ... (~32,000 names follow) The goal of the model is to learn the patterns in the data and then generate similar new documents that share the statistical patterns within. As a preview, by the end of the script our model will generate (“hallucinate”!) new, plausible-sounding names. Skipping ahead, we’ll get: sample 1: kamon sample 2: ann sample 3: karai sample 4: jaire sample 5: vialan sample 6: karia sample 7: yeran sample 8: anna sample 9: areli sample 10: kaina sample 11: konna sample 12: keylen sample 13: liole sample 14: alerin sample 15: earan sample 16: lenne sample 17: kana sample 18: lara sample 19: alela sample 20: anton It doesn’t look like much, but from the perspective of a model like ChatGPT, your conversation with it is just a funny looking “document”. When you initialize the document with your prompt, the model’s response from its perspective is just a statistical document completion. Tokenizer Under the hood, neural networks work with numbers, not characters, so we need a way to convert text into a sequence of integer token ids and back. Production tokenizers like tiktoken (used by GPT-4) operate on chunks of characters for efficiency, but the simplest possible tokenizer just assigns one integer 
+
+[阅读完整原文 →](http://karpathy.github.io/2026/02/12/microgpt/)

@@ -1,0 +1,25 @@
+---
+title: "2025 LLM Year in Review"
+source: "karpathy-bear"
+category: "General"
+original_url: "https://karpathy.bearblog.dev/year-in-review-2025/"
+date: "2026-02-17"
+slug: "2025-llm-year-in-review-95d29eeb"
+---
+
+# 2025 LLM Year in Review
+
+**来源**: [karpathy-bear](https://karpathy.bearblog.dev/year-in-review-2025/)  
+**分类**: General
+
+## AI 摘要
+
+2025 LLM Year in Review 19 Dec, 2025 2025 has been a strong and eventful year of progress in LLMs. The following is a list of personally notable and mildly surprising "paradigm changes" - things that altered the landscape and stood out to me conceptually. Reinforcement Learning from Verifiable Rewards (RLVR)At the start of 2025, the LLM production stack in all labs looked something like this: Pretraining (GPT-2/3 of ~2020) Supervised Finetuning (InstructGPT ~2022) and Reinforcement Learning from Human Feedback (RLHF ~2022) This was the stable and proven recipe for training a production-grade LLM for a while.
+
+---
+
+## 原文内容
+
+2025 LLM Year in Review 19 Dec, 2025 2025 has been a strong and eventful year of progress in LLMs. The following is a list of personally notable and mildly surprising "paradigm changes" - things that altered the landscape and stood out to me conceptually. 1. Reinforcement Learning from Verifiable Rewards (RLVR)At the start of 2025, the LLM production stack in all labs looked something like this: Pretraining (GPT-2/3 of ~2020) Supervised Finetuning (InstructGPT ~2022) and Reinforcement Learning from Human Feedback (RLHF ~2022) This was the stable and proven recipe for training a production-grade LLM for a while. In 2025, Reinforcement Learning from Verifiable Rewards (RLVR) emerged as the de facto new major stage to add to this mix. By training LLMs against automatically verifiable rewards across a number of environments (e.g. think math/code puzzles), the LLMs spontaneously develop strategies that look like "reasoning" to humans - they learn to break down problem solving into intermediate calculations and they learn a number of problem solving strategies for going back and forth to figure things out (see DeepSeek R1 paper for examples). These strategies would have been very difficult to achieve in the previous paradigms because it's not clear what the optimal reasoning traces and recoveries look like for the LLM - it has to find what works for it, via the optimization against rewards. Unlike the SFT and RLHF stage, which are both relatively thin/short stages (minor finetunes computationally), RLVR involves training against objective (non-gameable) reward functions which allows for a lot longer optimization. Running RLVR turned out to offer high capability/$, which gobbled up the compute that was originally intended for pretraining. Therefore, most of the capability progress of 2025 was defined by the LLM labs chewing through the overhang of this new stage and overall we saw ~similar sized LLMs but a lot longer RL runs. Also unique to this new stage, we got a whole new knob (and and associated scaling law) to control capability as a function of test time compute by generating longer reasoning traces and increasing "thinking time". OpenAI o1 (late 2024) was the very first demonstration of an RLVR model, but the o3 release (early 2025) was the obvious point of inflection where you could intuitively feel the difference. 2. Ghosts vs. Animals / Jagged Intelligence2025 is where I (and I think the rest of the industry also) first started to internalize the "shape" of LLM intelligence in a more intuitive sense. We're not "evolving/growing animals", we are "summoning ghosts". Everything about the LLM stack is different (neural architecture, training data, training algorithms, and especially optimization pressure) so it should be no surprise that we are getting very different entities in the intelligence space, which are inappropriate to think about through an animal lens. Supervision bits-wise, human neural nets are optimized for survival of a tribe in th
+
+[阅读完整原文 →](https://karpathy.bearblog.dev/year-in-review-2025/)
