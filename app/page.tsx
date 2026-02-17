@@ -46,6 +46,11 @@ export default function Home() {
                         {highlight.source}
                       </span>
                     </div>
+                    {highlight.description && (
+                      <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
+                        {highlight.description}
+                      </p>
+                    )}
                   </a>
                 ))}
                 

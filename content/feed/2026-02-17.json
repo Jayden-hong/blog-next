@@ -6,32 +6,38 @@
     {
       "title": "2025 LLM Year in Review",
       "source": "karpathy-bear",
-      "url": "https://karpathy.bearblog.dev/year-in-review-2025/"
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "description": "Karpathy 对 2025 年大语言模型发展的深度回顾，涵盖技术进展、行业趋势和未来展望。"
     },
     {
       "title": "microgpt",
       "source": "karpathy-github",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "description": "一个极简的 GPT 实现，展示了核心原理的优雅代码实现。"
     },
     {
       "title": "The AI Vampire",
       "source": "simonwillison",
-      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything"
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "description": "探讨 AI 系统如何像吸血鬼一样吸取人类创造的内容，以及这对创作者的影响。"
     },
     {
       "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
       "source": "jeffgeerling",
-      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/"
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
+      "description": "Jeff Geerling 测试 Hugging Face 推出的树莓派驱动机器人 Reachy Mini。"
     },
     {
       "title": "Two different tricks for fast LLM inference",
       "source": "seangoedecke",
-      "url": "https://seangoedecke.com/fast-llm-inference/"
+      "url": "https://seangoedecke.com/fast-llm-inference/",
+      "description": "快速大语言模型推理的两种不同技巧，优化延迟和吞吐量。"
     },
     {
       "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
       "source": "krebsonsecurity",
-      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/"
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "description": "新型 Kimwolf 僵尸网络潜伏在企业与政府网络中，安全威胁警告。"
     }
   ],
   "articles": [
