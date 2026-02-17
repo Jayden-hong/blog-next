@@ -118,7 +118,7 @@ export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
               {article.description}
             </p>
             
-            {/* Recommend Reason - 只给高分文章显示 */}
+            {/* Recommend Reason - 仅 Highlights 显示 (通过数据控制) */}
             {article.recommendReason && (
               <p className="text-xs text-neutral-400 mt-2 mono">
                 → {article.recommendReason}

@@ -74,8 +74,8 @@ export default function Home() {
                       </p>
                     )}
                     
-                    {/* Recommend Reason - 只给 Top 3 显示 */}
-                    {highlight.recommendReason && index < 3 && (
+                    {/* Recommend Reason - Highlights 都显示 */}
+                    {highlight.recommendReason && (
                       <p className="mt-1 text-xs text-neutral-400 mono">
                         → {highlight.recommendReason}
                       </p>
