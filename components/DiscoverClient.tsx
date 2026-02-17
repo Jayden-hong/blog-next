@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import Link from 'next/link';
 
 interface FeedArticle {
   title: string;
@@ -53,68 +52,80 @@ export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="搜索文章..."
-          className="w-full px-4 py-3 border border-neutral-200 dark:border-neutral-800 rounded-lg bg-white dark:bg-neutral-900"
+          className="w-full px-3 py-2 border border-neutral-200 rounded bg-white text-sm focus:outline-none focus:border-neutral-400 transition-colors"
         />
-      </div>
-
-      {/* Stats */}
-      <div className="flex items-center gap-6 mb-6 text-sm text-neutral-500">
-        <span>{filteredArticles.length} 篇文章</span>
-        {activeTag && <span>·</span>}
-        {activeTag && <span>标签: {activeTag}</span>}
       </div>
 
       {/* Tag Filter */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setActiveTag(null)}
-          className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-            !activeTag ? 'bg-blue-600 text-white' : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-600'
+          className={`px-3 py-1 text-xs transition-colors mono ${
+            !activeTag ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'
           }`}
         >
-          全部
+          ALL
         </button>
-        {allTags.map((t) => (
+        {allTags.slice(0, 8).map((t) => (
           <button
             key={t}
             onClick={() => setActiveTag(t)}
-            className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
-              activeTag === t ? 'bg-blue-600 text-white' : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-600'
+            className={`px-3 py-1 text-xs transition-colors mono ${
+              activeTag === t ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'
             }`}
           >
-            {t}
+            {t.toUpperCase()}
           </button>
         ))}
       </div>
 
       {/* Articles */}
-      <div className="grid gap-3">
+      <div className="grid gap-4">
         {filteredArticles.map((article, index) => (
           <a
             key={index}
             href={article.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 hover:border-neutral-400 transition-colors"
+            className="block border-b border-neutral-100 pb-4 last:border-0 hover:opacity-60 transition-opacity group"
           >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-0.5 rounded">
-                {article.score.toFixed(1)}
-              </span>
-              {article.tags?.slice(0, 2).map(tag => (
-                <span key={tag} className="text-xs bg-neutral-100 px-2 py-0.5 rounded text-neutral-500">
-                  {tag}
-                </span>
-              ))}
+            {/* Meta */}
+            <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
+              <span>{article.score.toFixed(1)}</span>
+              <span className="text-neutral-200">|</span>
+              <span>{article.source}</span>
+              {article.author && (
+                <>
+                  <span className="text-neutral-200">|</span>
+                  <span>{article.author}</span>
+                </>
+              )}
+              {article.tags?.[0] && (
+                <>
+                  <span className="text-neutral-200">|</span>
+                  <span>{article.tags[0]}</span>
+                </>
+              )}
             </div>
-            <h3 className="font-medium text-neutral-900">{article.title}</h3>
-            <div className="text-sm text-neutral-500 mt-1">
-              {article.author} · {article.source} · {article.date}
-            </div>
-            <p className="text-sm text-neutral-500 mt-2 line-clamp-2">{article.description}</p>
+            
+            {/* Title */}
+            <h3 className="font-medium text-neutral-900 mb-1">
+              {article.title}
+            </h3>
+            
+            {/* Description */}
+            <p className="text-sm text-neutral-500 line-clamp-2">
+              {article.description || article.recommendReason}
+            </p>
           </a>
         ))}
       </div>
+      
+      {filteredArticles.length === 0 && (
+        <p className="text-sm text-neutral-400 text-center py-12">
+          没有找到匹配的文章
+        </p>
+      )}
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { getAllTags, getLatestFeedDay } from '@/lib/feed';
 import { DiscoverClient } from '@/components/DiscoverClient';
+import { format } from 'date-fns';
 
 export const metadata = {
   title: 'Discover - Jayden',
@@ -10,16 +11,26 @@ export default function DiscoverPage() {
   const feedDay = getLatestFeedDay();
   const articles = feedDay?.articles || [];
   const allTags = getAllTags();
+  
+  // Get stats
+  const avgScore = articles.length > 0 
+    ? (articles.reduce((sum, a) => sum + (a.score || 5), 0) / articles.length).toFixed(1)
+    : '0';
 
   return (
     <div className="min-h-screen">
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-3xl mx-auto px-4 py-12">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold tracking-tight mb-2 text-neutral-900 dark:text-neutral-100">
-            Discover
-          </h1>
-          <p className="text-neutral-500">
-            每日AI推荐阅读清单
+          <div className="flex items-baseline justify-between">
+            <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+              Discover
+            </h1>
+            <span className="text-xs text-neutral-400 mono">
+              {feedDay?.date || format(new Date(), 'yyyy-MM-dd')}
+            </span>
+          </div>
+          <p className="text-sm text-neutral-500 mt-2">
+            {articles.length} articles · avg {avgScore}/10 · curated by Kimi K2.5
           </p>
         </header>
 

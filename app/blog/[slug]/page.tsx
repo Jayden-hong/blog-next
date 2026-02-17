@@ -4,7 +4,7 @@ import { format } from 'date-fns';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
-import 'highlight.js/styles/github-dark.css';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -34,33 +34,33 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   return (
     <div className="min-h-screen">
-      <article className="max-w-3xl mx-auto px-4 py-12">
+      <article className="max-w-2xl mx-auto px-4 py-12">
         {/* Header */}
         <header className="mb-10">
-          <h1 className="text-3xl font-bold tracking-tight mb-4 text-neutral-900 dark:text-neutral-100">
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900 mb-4">
             {post.title}
           </h1>
           
-          <div className="flex items-center gap-4 text-sm text-neutral-500 mb-6">
+          <div className="flex items-center gap-3 text-xs text-neutral-400 mono mb-4">
             <time dateTime={post.date}>
-              {format(new Date(post.date), 'MMMM d, yyyy')}
+              {format(new Date(post.date), 'yyyy-MM-dd')}
             </time>
             {post.author && (
               <>
-                <span>•</span>
+                <span>·</span>
                 <span>{post.author}</span>
               </>
             )}
           </div>
 
           {post.tags && post.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {post.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="text-sm text-neutral-500"
+                  className="text-xs text-neutral-400 mono"
                 >
-                  #{tag}
+                  {tag}
                 </span>
               ))}
             </div>
@@ -81,13 +81,13 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-neutral-200 dark:border-neutral-800">
-          <a
+        <footer className="mt-16 pt-8 border-t border-neutral-100">
+          <Link
             href="/blog"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
+            className="text-sm text-neutral-400 hover:text-neutral-900 transition-colors"
           >
             ← Back to Writing
-          </a>
+          </Link>
         </footer>
       </article>
     </div>

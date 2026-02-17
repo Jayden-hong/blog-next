@@ -5,114 +5,96 @@ import { format } from 'date-fns';
 
 export default function Home() {
   const feedDay = getLatestFeedDay();
-  const posts = getAllPosts().slice(0, 2);
+  const posts = getAllPosts().slice(0, 3);
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-4 py-20">
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 text-neutral-900 dark:text-neutral-100">
+      <section className="max-w-3xl mx-auto px-4 pt-16 pb-12">
+        <h1 className="text-2xl font-medium tracking-tight mb-3 text-neutral-900">
           Hey, I&apos;m Jayden
         </h1>
-        <p className="text-lg text-neutral-500 max-w-2xl">
+        <p className="text-neutral-500 leading-relaxed">
           AI 产品经理 · 工具探索者 · 一人公司实践者
         </p>
       </section>
 
       {/* Two Column Layout */}
-      <section className="max-w-6xl mx-auto px-4 pb-20">
+      <section className="max-w-3xl mx-auto px-4 pb-20">
         <div className="grid md:grid-cols-3 gap-12">
           {/* Left Column - Today's Highlights (Top 6) */}
           <div className="md:col-span-2">
-            <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
-              今日推荐
-            </h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-base font-medium text-neutral-900">
+                今日推荐
+              </h2>
+              <span className="text-xs text-neutral-400 mono">
+                {feedDay?.date || format(new Date(), 'yyyy-MM-dd')}
+              </span>
+            </div>
             
             {feedDay && feedDay.highlights.length > 0 ? (
-              <div className="grid gap-4">
-                {feedDay.highlights.map((highlight, index) => (
+              <div className="grid gap-3">
+                {feedDay.highlights.slice(0, 5).map((highlight, index) => (
                   <a
                     key={index}
                     href={highlight.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors group"
+                    className="block border-b border-neutral-100 pb-3 last:border-0 hover:opacity-60 transition-opacity group"
                   >
-                    {/* Score Badge */}
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 px-2 py-0.5 rounded">
-                        评分 {highlight.score}/10
-                      </span>
-                      <span className="text-xs text-neutral-400">
-                        {highlight.date}
-                      </span>
-                    </div>
-                    
                     {/* Title */}
-                    <h3 className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    <h3 className="font-medium text-neutral-900 mb-1">
                       {highlight.title}
                     </h3>
                     
-                    {/* Author / Source */}
-                    <div className="flex items-center gap-2 mt-1.5 text-sm text-neutral-500">
+                    {/* Meta line */}
+                    <div className="flex items-center gap-2 text-xs text-neutral-400 mono">
+                      <span>{highlight.source}</span>
                       {highlight.author && (
                         <>
-                          <span>{highlight.author}</span>
                           <span>·</span>
+                          <span>{highlight.author}</span>
                         </>
                       )}
-                      <span>{highlight.source}</span>
+                      <span className="text-neutral-300">|</span>
+                      <span>{highlight.score}/10</span>
+                      {highlight.tags?.[0] && (
+                        <>
+                          <span className="text-neutral-300">|</span>
+                          <span>{highlight.tags[0]}</span>
+                        </>
+                      )}
                     </div>
                     
-                    {/* Tags */}
-                    {highlight.tags && highlight.tags.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 mt-2">
-                        {highlight.tags.slice(0, 3).map((tag) => (
-                          <span
-                            key={tag}
-                            className="px-2 py-0.5 text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                    
-                    {/* Description */}
-                    {highlight.description && (
+                    {/* Description - only on hover or for top 3 */}
+                    {highlight.description && index < 3 && (
                       <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
                         {highlight.description}
                       </p>
-                    )}
-                    
-                    {/* Recommend Reason */}
-                    {highlight.recommendReason && (
-                      <div className="mt-2 text-xs text-blue-600 dark:text-blue-400">
-                        推荐：{highlight.recommendReason}
-                      </div>
                     )}
                   </a>
                 ))}
                 
                 <Link
                   href="/discover"
-                  className="inline-block mt-4 text-sm text-blue-600 dark:text-blue-400 hover:underline"
+                  className="inline-block mt-4 text-sm text-neutral-400 hover:text-neutral-900 transition-colors"
                 >
-                  查看更多 → 
+                  查看全部 →
                 </Link>
               </div>
             ) : (
-              <p className="text-neutral-500">No highlights available</p>
+              <p className="text-neutral-400 text-sm">今日暂无推荐</p>
             )}
           </div>
 
           {/* Right Column - Latest Writing */}
           <div>
-            <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
+            <h2 className="text-base font-medium mb-6 text-neutral-900">
               Latest Writing
             </h2>
             
-            <div className="space-y-6">
+            <div className="space-y-5">
               {posts.length > 0 ? (
                 posts.map((post) => (
                   <article key={post.slug}>
@@ -120,23 +102,23 @@ export default function Home() {
                       href={`/blog/${post.slug}`}
                       className="block group"
                     >
-                      <h3 className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-1">
+                      <h3 className="font-medium text-neutral-900 group-hover:opacity-60 transition-opacity mb-1">
                         {post.title}
                       </h3>
-                      <time className="text-sm text-neutral-400">
-                        {format(new Date(post.date), 'MMM d, yyyy')}
+                      <time className="text-xs text-neutral-400 mono">
+                        {format(new Date(post.date), 'yyyy-MM-dd')}
                       </time>
                     </Link>
                   </article>
                 ))
               ) : (
-                <p className="text-neutral-500">No posts yet</p>
+                <p className="text-neutral-400 text-sm">暂无文章</p>
               )}
               
               {posts.length > 0 && (
                 <Link
                   href="/blog"
-                  className="inline-block text-sm text-blue-600 dark:text-blue-400 hover:underline"
+                  className="inline-block text-sm text-neutral-400 hover:text-neutral-900 transition-colors"
                 >
                   View all →
                 </Link>
