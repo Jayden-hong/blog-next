@@ -25,7 +25,7 @@ export default function Home() {
           {/* Left Column - Today's Highlights */}
           <div className="md:col-span-2">
             <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
-              Today&apos;s Highlights
+              Last 24h Highlights
             </h2>
             
             {feedDay ? (
