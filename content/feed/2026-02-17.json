@@ -1,96 +1,85 @@
 {
   "date": "2026-02-17",
-  "totalSources": 28,
-  "totalArticles": 82,
+  "totalSources": 29,
+  "totalArticles": 141,
   "highlights": [
     {
       "title": "2025 LLM Year in Review",
       "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
       "source": "karpathy-bear",
-      "author": "Andrej Karpathy",
+      "author": "karpathy",
       "date": "2026-02-17",
-      "description": "Karpathy 对 2025 年大语言模型发展的深度回顾，涵盖技术进展、行业趋势和未来展望。",
+      "description": "2025 Year in Review of LLM paradigm changes",
       "tags": [
-        "AI",
-        "LLM",
+        "AI"
+      ],
+      "recommendReason": "内容深度优秀，值得精读",
+      "score": 8.5
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "Verifiability",
+      "url": "https://karpathy.bearblog.dev/verifiability/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "The impact of verifiability on the jagged frontier of LLMs",
+      "tags": [
         "Tech"
       ],
-      "recommendReason": "AI领域顶级专家的年度总结，洞察深刻",
-      "score": 9.5
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
     },
     {
       "title": "microgpt",
       "url": "http://karpathy.github.io/2026/02/12/microgpt/",
       "source": "karpathy-github",
-      "author": "Andrej Karpathy",
+      "author": "",
       "date": "2026-02-17",
-      "description": "一个极简的 GPT 实现，展示了核心原理的优雅代码实现。",
-      "tags": [
-        "AI",
-        "Code",
-        "Dev"
-      ],
-      "recommendReason": "学习GPT核心原理的最佳教程",
-      "score": 9.2
-    },
-    {
-      "title": "Testing Reachy Mini",
-      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
-      "source": "jeffgeerling",
-      "author": "Jeff Geerling",
-      "date": "2026-02-17",
-      "description": "Jeff Geerling 测试 Hugging Face 推出的树莓派驱动机器人 Reachy Mini。",
-      "tags": [
-        "Robotics",
-        "Hardware",
-        "AI"
-      ],
-      "recommendReason": "树莓派+AI机器人的前沿探索",
-      "score": 8.5
-    },
-    {
-      "title": "Two tricks for fast LLM inference",
-      "url": "https://seangoedecke.com/fast-llm-inference/",
-      "source": "seangoedecke",
-      "author": "Sean Goedecke",
-      "date": "2026-02-17",
-      "description": "快速大语言模型推理的两种不同技巧，优化延迟和吞吐量。",
-      "tags": [
-        "AI",
-        "Performance",
-        "Engineering"
-      ],
-      "recommendReason": "LLM部署优化的实用技巧",
-      "score": 8.3
-    },
-    {
-      "title": "Kimwolf Botnet Warning",
-      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-      "source": "krebsonsecurity",
-      "author": "Brian Krebs",
-      "date": "2026-02-17",
-      "description": "新型 Kimwolf 僵尸网络潜伏在企业与政府网络中，安全威胁警告。",
-      "tags": [
-        "Security",
-        "Cyberattack",
-        "News"
-      ],
-      "recommendReason": "重要安全威胁预警",
-      "score": 8.0
-    },
-    {
-      "title": "Chemical hygiene",
-      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
-      "source": "karpathy-bear",
-      "category": "AI",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 karpathy-bear 的文章：Chemical hygiene...",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
       "tags": [
         "AI"
       ],
-      "recommendReason": "karpathy-bear 的精选内容",
-      "score": 5.0
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "The AI Vampire",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p><strong><a href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\">The AI Vampire</a></",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
     }
   ],
   "articles": [
@@ -98,1153 +87,651 @@
       "title": "2025 LLM Year in Review",
       "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
       "source": "karpathy-bear",
-      "author": "Andrej Karpathy",
+      "author": "karpathy",
       "date": "2026-02-17",
-      "description": "Karpathy 对 2025 年大语言模型发展的深度回顾，涵盖技术进展、行业趋势和未来展望。",
+      "description": "2025 Year in Review of LLM paradigm changes",
       "tags": [
-        "AI",
-        "LLM",
-        "Tech"
-      ],
-      "recommendReason": "AI领域顶级专家的年度总结，洞察深刻",
-      "score": 9.5
-    },
-    {
-      "title": "microgpt",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "source": "karpathy-github",
-      "author": "Andrej Karpathy",
-      "date": "2026-02-17",
-      "description": "一个极简的 GPT 实现，展示了核心原理的优雅代码实现。",
-      "tags": [
-        "AI",
-        "Code",
-        "Dev"
-      ],
-      "recommendReason": "学习GPT核心原理的最佳教程",
-      "score": 9.2
-    },
-    {
-      "title": "Testing Reachy Mini",
-      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
-      "source": "jeffgeerling",
-      "author": "Jeff Geerling",
-      "date": "2026-02-17",
-      "description": "Jeff Geerling 测试 Hugging Face 推出的树莓派驱动机器人 Reachy Mini。",
-      "tags": [
-        "Robotics",
-        "Hardware",
         "AI"
       ],
-      "recommendReason": "树莓派+AI机器人的前沿探索",
+      "recommendReason": "内容深度优秀，值得精读",
       "score": 8.5
-    },
-    {
-      "title": "Two tricks for fast LLM inference",
-      "url": "https://seangoedecke.com/fast-llm-inference/",
-      "source": "seangoedecke",
-      "author": "Sean Goedecke",
-      "date": "2026-02-17",
-      "description": "快速大语言模型推理的两种不同技巧，优化延迟和吞吐量。",
-      "tags": [
-        "AI",
-        "Performance",
-        "Engineering"
-      ],
-      "recommendReason": "LLM部署优化的实用技巧",
-      "score": 8.3
-    },
-    {
-      "title": "Kimwolf Botnet Warning",
-      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-      "source": "krebsonsecurity",
-      "author": "Brian Krebs",
-      "date": "2026-02-17",
-      "description": "新型 Kimwolf 僵尸网络潜伏在企业与政府网络中，安全威胁警告。",
-      "tags": [
-        "Security",
-        "Cyberattack",
-        "News"
-      ],
-      "recommendReason": "重要安全威胁预警",
-      "score": 8.0
-    },
-    {
-      "title": "Chemical hygiene",
-      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
-      "source": "karpathy-bear",
-      "category": "AI",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 karpathy-bear 的文章：Chemical hygiene...",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "karpathy-bear 的精选内容",
-      "score": 5.0
     },
     {
       "title": "Auto-grading decade-old Hacker News discussions with hindsight",
       "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
       "source": "karpathy-bear",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "karpathy",
       "date": "2026-02-17",
-      "description": "来自 karpathy-bear 的文章：Auto-grading decade-old Hacker News discussions wi...",
+      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "Verifiability",
+      "url": "https://karpathy.bearblog.dev/verifiability/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "The impact of verifiability on the jagged frontier of LLMs",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
       "tags": [
         "AI"
       ],
-      "recommendReason": "karpathy-bear 的精选内容",
-      "score": 5.0
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
     },
     {
       "title": "Deep Neural Nets: 33 years ago and 33 years from now",
       "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
       "source": "karpathy-github",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 karpathy-github 的文章：Deep Neural Nets: 33 years ago and 33 years from n...",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
       "tags": [
         "AI"
       ],
-      "recommendReason": "karpathy-github 的精选内容",
-      "score": 5.0
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "The AI Vampire",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p><strong><a href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\">The AI Vampire</a></",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.3
+    },
+    {
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing in",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.2
+    },
+    {
+      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect ",
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.2
+    },
+    {
+      "title": "The Kimwolf Botnet is Stalking Your Local Network",
+      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide secur",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.2
+    },
+    {
+      "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
+      "url": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers ",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.2
+    },
+    {
+      "title": "Reflections on AI at the end of 2025",
+      "url": "\nhttp://antirez.com/news/157\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "* For years, despite functional evidence and scientific hints accumulating, certain AI researchers c",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术价值高，推荐阅读",
+      "score": 7.0
+    },
+    {
+      "title": "LLM-generated skills work, if you generate them afterwards",
+      "url": "https://seangoedecke.com/generate-skills-afterwards/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "来自 seangoedecke 的文章，探讨 LLM-generated skills work, if you genera...",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.8
+    },
+    {
+      "title": "Two different tricks for fast LLM inference",
+      "url": "https://seangoedecke.com/fast-llm-inference/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "来自 seangoedecke 的文章，探讨 Two different tricks for fast LLM infere...",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.8
+    },
+    {
+      "title": "Chemical hygiene",
+      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "An evolving guide of protecting your health from a pricemaxxing industry.",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "The space of minds",
+      "url": "https://karpathy.bearblog.dev/the-space-of-minds/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "On the space of minds and the optimizations that give rise to them.",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
     },
     {
       "title": "A from-scratch tour of Bitcoin in Python",
       "url": "http://karpathy.github.io/2021/06/21/blockchain/",
       "source": "karpathy-github",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 karpathy-github 的文章：A from-scratch tour of Bitcoin in Python...",
+      "description": "<style>\n.wrap {\n    max-width: 900px;\n}\np {\n    font-family: sans-serif;\n    font-size: 15px;\n    fo",
+      "tags": [
+        "Code"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "Short Story on AI: Forward Pass",
+      "url": "http://karpathy.github.io/2021/03/27/forward-pass/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<style>\np {\n  text-align: justify;\n}\n.post pre, .post code {\n    border: none;\n    background-color:",
       "tags": [
         "AI"
       ],
-      "recommendReason": "karpathy-github 的精选内容",
-      "score": 5.0
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "Biohacking Lite",
+      "url": "http://karpathy.github.io/2020/06/11/biohacking-lite/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p>Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
     },
     {
       "title": "Nano Banana Pro diff to webcomic",
       "url": "https://simonwillison.net/2026/Feb/17/release-notes-webcomic/#atom-everything",
       "source": "simonwillison",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 simonwillison 的文章：Nano Banana Pro diff to webcomic...",
+      "description": "<p>Given the threat of <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> b",
       "tags": [
-        "AI"
+        "Tech"
       ],
-      "recommendReason": "simonwillison 的精选内容",
-      "score": 5.0
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
     },
     {
       "title": "Qwen3.5: Towards Native Multimodal Agents",
       "url": "https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything",
       "source": "simonwillison",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 simonwillison 的文章：Qwen3.5: Towards Native Multimodal Agents...",
+      "description": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.5\">Qwen3.5: Towards Native Multimodal Agents</a></",
       "tags": [
-        "AI"
+        "Tech"
       ],
-      "recommendReason": "simonwillison 的精选内容",
-      "score": 5.0
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
     },
     {
       "title": "Two new Showboat tools: Chartroom and datasette-showboat",
       "url": "https://simonwillison.net/2026/Feb/17/chartroom-and-datasette-showboat/#atom-everything",
       "source": "simonwillison",
-      "category": "AI",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 simonwillison 的文章：Two new Showboat tools: Chartroom and datasette-sh...",
+      "description": "<p>I <a href=\"https://simonwillison.net/2026/Feb/10/showboat-and-rodney/\">introduced Showboat</a> a ",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "Rodney and Claude Code for Desktop",
+      "url": "https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p>I'm a very heavy user of <a href=\"https://code.claude.com/docs/en/claude-code-on-the-web\">Claude ",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "Patch Tuesday, January 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating ",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "On screwing up",
+      "url": "https://seangoedecke.com/screwing-up/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "来自 seangoedecke 的文章，探讨 On screwing up...",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.0
+    },
+    {
+      "title": "Large tech companies don't need heroes",
+      "url": "https://seangoedecke.com/heroism/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "来自 seangoedecke 的文章，探讨 Large tech companies don't need heroes...",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "不错的技术文章",
+      "score": 6.0
+    },
+    {
+      "title": "Getting the main thing right",
+      "url": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "来自 seangoedecke 的文章，探讨 Getting the main thing right...",
       "tags": [
         "AI"
       ],
-      "recommendReason": "simonwillison 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "We URGENTLY need a federal law forbidding AI from impersonating humans",
-      "url": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
-      "source": "garymarcus",
-      "category": "AI",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 garymarcus 的文章：We URGENTLY need a federal law forbidding AI from ...",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "garymarcus 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Irony, Irony laced with Karma, and Terror",
-      "url": "https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and",
-      "source": "garymarcus",
-      "category": "AI",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 garymarcus 的文章：Irony, Irony laced with Karma, and Terror...",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "garymarcus 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Breaking: OpenAI is probably toast",
-      "url": "https://garymarcus.substack.com/p/breaking-openai-is-probably-toast",
-      "source": "garymarcus",
-      "category": "AI",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 garymarcus 的文章：Breaking: OpenAI is probably toast...",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "garymarcus 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "My AI Adoption Journey",
-      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
-      "source": "mitchellh",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 mitchellh 的文章：My AI Adoption Journey...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "mitchellh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
-      "url": "https://mitchellh.com/writing/tripwire",
-      "source": "mitchellh",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 mitchellh 的文章：Don't Trip[wire] Yourself: Testing Error Recovery ...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "mitchellh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Finding and Fixing Ghostty's Largest Memory Leak",
-      "url": "https://mitchellh.com/writing/ghostty-memory-leak-fix",
-      "source": "mitchellh",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 mitchellh 的文章：Finding and Fixing Ghostty's Largest Memory Leak...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "mitchellh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The Final Bottleneck",
-      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
-      "source": "lucumr-pocoo",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lucumr-pocoo 的文章：The Final Bottleneck...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "lucumr-pocoo 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "A Language For Agents",
-      "url": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
-      "source": "lucumr-pocoo",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lucumr-pocoo 的文章：A Language For Agents...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "lucumr-pocoo 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Pi: The Minimal Agent Within OpenClaw",
-      "url": "https://lucumr.pocoo.org/2026/1/31/pi/",
-      "source": "lucumr-pocoo",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lucumr-pocoo 的文章：Pi: The Minimal Agent Within OpenClaw...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "lucumr-pocoo 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Diagnostics Factory",
-      "url": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
-      "source": "matklad",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 matklad 的文章：Diagnostics Factory...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "matklad 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Justifying text-wrap: pretty",
-      "url": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
-      "source": "matklad",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 matklad 的文章：Justifying text-wrap: pretty...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "matklad 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Programming Aphorisms",
-      "url": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
-      "source": "matklad",
-      "category": "Dev",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 matklad 的文章：Programming Aphorisms...",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "matklad 的精选内容",
-      "score": 5.0
+      "recommendReason": "不错的技术文章",
+      "score": 6.0
     },
     {
       "title": "AI is destroying Open Source, and it's not even good yet",
       "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
       "source": "jeffgeerling",
-      "category": "DevOps",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 jeffgeerling 的文章：AI is destroying Open Source, and it's not even go...",
+      "description": "<p>Over the weekend Ars Technica <a href=\"https://arstechnica.com/ai/2026/02/after-a-routine-code-re",
       "tags": [
-        "DevOps"
+        "AI"
       ],
-      "recommendReason": "jeffgeerling 的精选内容",
+      "recommendReason": "相关领域参考",
+      "score": 5.8
+    },
+    {
+      "title": "Automatic programming",
+      "url": "\nhttp://antirez.com/news/159\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "In my YouTube channel, for some time now I started to refer to the process of writing software using",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.8
+    },
+    {
+      "title": "Don't fall into the anti-AI hype",
+      "url": "\nhttp://antirez.com/news/158\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "I love writing software, line by line. It could be said that my career was a continuous effort to cr",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.8
+    },
+    {
+      "title": "AI is different",
+      "url": "\nhttp://antirez.com/news/155\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Regardless of their flaws, AI systems continue to impress with their ability to replicate certain hu",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.8
+    },
+    {
+      "title": "Markdown.exe",
+      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p>I've been spending time looking through \"skills\" for LLMs, and I feel like I'm the only one panic",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.8
+    },
+    {
+      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<p>When I saw <a href=\"https://www.youtube.com/watch?v=acBv3G8r-1Y\">Jensen Huang introduce the Reach",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
       "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
       "source": "jeffgeerling",
-      "category": "DevOps",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 jeffgeerling 的文章：Exploring a Modern SMPTE 2110 Broadcast Truck With...",
+      "description": "<p>In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, a",
       "tags": [
-        "DevOps"
+        "Tech"
       ],
-      "recommendReason": "jeffgeerling 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
-      "title": "Visualizing orbital velocity",
-      "url": "https://www.johndcook.com/blog/2026/02/16/hodograph/",
-      "source": "johndcook",
-      "category": "Math",
-      "author": "Unknown",
+      "title": "The first good Raspberry Pi Laptop",
+      "url": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
+      "source": "jeffgeerling",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 johndcook 的文章：Visualizing orbital velocity...",
+      "description": "<p>Ever since the <a href=\"https://www.raspberrypi.com/products/compute-module-5/\">Raspberry Pi Comp",
       "tags": [
-        "Math"
+        "Tech"
       ],
-      "recommendReason": "johndcook 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
-      "title": "Race between primes of the forms 4k + 1 and 4k + 3",
-      "url": "https://www.johndcook.com/blog/2026/02/15/chebyshev-bias/",
-      "source": "johndcook",
-      "category": "Math",
-      "author": "Unknown",
+      "title": "Ode to the AA Battery",
+      "url": "https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/",
+      "source": "jeffgeerling",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 johndcook 的文章：Race between primes of the forms 4k + 1 and 4k + 3...",
+      "description": "<p>Recently <a href=\"https://x.com/Merocle/status/2015496917472489751\">this post from @Merocle</a> c",
       "tags": [
-        "Math"
+        "Tech"
       ],
-      "recommendReason": "johndcook 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Wagon’s algorithm in Python",
-      "url": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
-      "source": "johndcook",
-      "category": "Math",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 johndcook 的文章：Wagon’s algorithm in Python...",
-      "tags": [
-        "Math"
-      ],
-      "recommendReason": "johndcook 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The Affordability Curse",
-      "url": "https://www.theatlantic.com/ideas/2025/11/democrats-cost-of-living-affordability-platform/684847/?utm_source=feed",
-      "source": "derekthompson",
-      "category": "Media",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 derekthompson 的文章：The Affordability Curse...",
-      "tags": [
-        "Media"
-      ],
-      "recommendReason": "derekthompson 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The Era of Step-on-a-Rake Capitalism",
-      "url": "https://www.theatlantic.com/ideas/archive/2025/09/trump-economic-pain-strategy/684166/?utm_source=feed",
-      "source": "derekthompson",
-      "category": "Media",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 derekthompson 的文章：The Era of Step-on-a-Rake Capitalism...",
-      "tags": [
-        "Media"
-      ],
-      "recommendReason": "derekthompson 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The No. 1 Rule for Understanding Trump",
-      "url": "https://www.theatlantic.com/politics/archive/2025/06/trump-self-destructive-agenda/683013/?utm_source=feed",
-      "source": "derekthompson",
-      "category": "Media",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 derekthompson 的文章：The No. 1 Rule for Understanding Trump...",
-      "tags": [
-        "Media"
-      ],
-      "recommendReason": "derekthompson 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_CHAR message?",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260213-00/?p=112062",
-      "source": "oldnewthing",
-      "category": "Microsoft",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 oldnewthing 的文章：How can I distinguish between the numeric keypad 0...",
-      "tags": [
-        "Microsoft"
-      ],
-      "recommendReason": "oldnewthing 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059",
-      "source": "oldnewthing",
-      "category": "Microsoft",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 oldnewthing 的文章：How can I distinguish between the numeric keypad 0...",
-      "tags": [
-        "Microsoft"
-      ],
-      "recommendReason": "oldnewthing 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
-      "source": "oldnewthing",
-      "category": "Microsoft",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 oldnewthing 的文章：How do I suppress the hover effects when I put a W...",
-      "tags": [
-        "Microsoft"
-      ],
-      "recommendReason": "oldnewthing 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "A Social Filesystem",
-      "url": "https://overreacted.io/a-social-filesystem/",
-      "source": "overreacted",
-      "category": "React",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 overreacted 的文章：A Social Filesystem...",
-      "tags": [
-        "React"
-      ],
-      "recommendReason": "overreacted 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Introducing RSC Explorer",
-      "url": "https://overreacted.io/introducing-rsc-explorer/",
-      "source": "overreacted",
-      "category": "React",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 overreacted 的文章：Introducing RSC Explorer...",
-      "tags": [
-        "React"
-      ],
-      "recommendReason": "overreacted 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Hire Me in Japan",
-      "url": "https://overreacted.io/hire-me-in-japan/",
-      "source": "overreacted",
-      "category": "React",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 overreacted 的文章：Hire Me in Japan...",
-      "tags": [
-        "React"
-      ],
-      "recommendReason": "overreacted 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Heritability of human life span is about 50% when heritability is redefined to be something different",
-      "url": "https://dynomight.net/lifespan/",
-      "source": "dynomight",
-      "category": "Science",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 dynomight 的文章：Heritability of human life span is about 50% when ...",
-      "tags": [
-        "Science"
-      ],
-      "recommendReason": "dynomight 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Why read novels?",
-      "url": "https://dynomight.net/novels/",
-      "source": "dynomight",
-      "category": "Science",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 dynomight 的文章：Why read novels?...",
-      "tags": [
-        "Science"
-      ],
-      "recommendReason": "dynomight 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Good if make prior after data instead of before",
-      "url": "https://dynomight.net/prior/",
-      "source": "dynomight",
-      "category": "Science",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 dynomight 的文章：Good if make prior after data instead of before...",
-      "tags": [
-        "Science"
-      ],
-      "recommendReason": "dynomight 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Patch Tuesday, January 2026 Edition",
-      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-      "source": "krebsonsecurity",
-      "category": "Security",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 krebsonsecurity 的文章：Patch Tuesday, January 2026 Edition...",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "krebsonsecurity 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
-      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
-      "source": "krebsonsecurity",
-      "category": "Security",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 krebsonsecurity 的文章：Who Benefited from the Aisuru and Kimwolf Botnets?...",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "krebsonsecurity 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Unreal numbers",
-      "url": "https://lcamtuf.substack.com/p/unreal-numbers",
-      "source": "lcamtuf-substack",
-      "category": "Security",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lcamtuf-substack 的文章：Unreal numbers...",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "lcamtuf-substack 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "It's all a blur",
-      "url": "https://lcamtuf.substack.com/p/its-all-a-blur",
-      "source": "lcamtuf-substack",
-      "category": "Security",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lcamtuf-substack 的文章：It's all a blur...",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "lcamtuf-substack 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "You gotta think outside the hypercube",
-      "url": "https://lcamtuf.substack.com/p/you-gotta-think-outside-the-hypercube",
-      "source": "lcamtuf-substack",
-      "category": "Security",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 lcamtuf-substack 的文章：You gotta think outside the hypercube...",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "lcamtuf-substack 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "LLM-generated skills work, if you generate them afterwards",
-      "url": "https://seangoedecke.com/generate-skills-afterwards/",
-      "source": "seangoedecke",
-      "category": "Startup",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 seangoedecke 的文章：LLM-generated skills work, if you generate them af...",
-      "tags": [
-        "Startup"
-      ],
-      "recommendReason": "seangoedecke 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "On screwing up",
-      "url": "https://seangoedecke.com/screwing-up/",
-      "source": "seangoedecke",
-      "category": "Startup",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 seangoedecke 的文章：On screwing up...",
-      "tags": [
-        "Startup"
-      ],
-      "recommendReason": "seangoedecke 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
       "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
       "source": "daringfireball",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "Daring Fireball Department of Commerce",
       "date": "2026-02-17",
-      "description": "来自 daringfireball 的文章：[Sponsor] Hands-On Workshop: Fix It Faster — Crash...",
+      "description": "<p>Learn how to connect the dots between slowdowns, crashes, and the user experience in your iOS app",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "daringfireball 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "WorkOS Pipes",
       "url": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
       "source": "daringfireball",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "John Gruber",
       "date": "2026-02-17",
-      "description": "来自 daringfireball 的文章：WorkOS Pipes...",
+      "description": "<p>My thanks to WorkOS for sponsoring DF last week. Connecting user accounts to third-party APIs alw",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "daringfireball 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Joanna Stern Signs Off From The Wall Street Journal",
       "url": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
       "source": "daringfireball",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "John Gruber",
       "date": "2026-02-17",
-      "description": "来自 daringfireball 的文章：Joanna Stern Signs Off From The Wall Street Journa...",
+      "description": "<p>Joanna Stern (last week):</p>\n\n<blockquote>\n  <p>After 12 years with The Wall Street Journal, thi",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "daringfireball 的精选内容",
+      "recommendReason": "相关领域参考",
+      "score": 5.0
+    },
+    {
+      "title": "Gurman: New Siri Might Be Delayed Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "<p>Mark Gurman, reporting for Bloomberg:</p>\n\n<blockquote>\n  <p>After planning to include the new ca",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.0
+    },
+    {
+      "title": "More MacOS 26.3 Finder Column View Silliness",
+      "url": "https://lapcatsoftware.com/articles/2026/2/4.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "<p>Jeff Johnson:</p>\n\n<blockquote>\n  <p>In today’s macOS 26.3 update, Apple implemented a “fix” for ",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "On Being A Canadian In America In 2026",
       "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
       "source": "ericmigi",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 ericmigi 的文章：On Being A Canadian In America In 2026...",
+      "description": "An Evening Out Colette Berends (I wrote a draft of post in early 2025. I picked it up and decided to",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "ericmigi 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Pebble Round 2 - The Most Stylish Pebble Ever",
       "url": "https://repebble.com/blog/pebble-round-2-the-most-stylish-pebble-ever",
       "source": "ericmigi",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 ericmigi 的文章：Pebble Round 2 - The Most Stylish Pebble Ever...",
+      "description": "We’ve finally gotten around to it The entire Pebble relaunch would not be complete without revisitin",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "ericmigi 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Pebble Relaunch - Year One Done!",
       "url": "https://ericmigi.com/blog/pebble-relaunch-year-one-done",
       "source": "ericmigi",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 ericmigi 的文章：Pebble Relaunch - Year One Done!...",
+      "description": "Thanks for sharing your pics on Twitter, Ben, Antonio, 1987haaa, Sterling and Tom! Thank you, Pebble",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "ericmigi 的精选内容",
+      "recommendReason": "相关领域参考",
+      "score": 5.0
+    },
+    {
+      "title": "Meet Pebble Index 01 - External Memory For Your Brain",
+      "url": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Catch your best ideas before they slip through your fingers Do you ever have flashes of insight or a",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.0
+    },
+    {
+      "title": "Pebble Watch Software Is Now 100% Open Source + Tick Talk #4 - PT2 Demos!",
+      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Another big Pebble update today! TLDR: Yesterday, Pebble watch software was ~95% open source. Today,",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "相关领域参考",
+      "score": 5.0
+    },
+    {
+      "title": "Scaling HNSWs",
+      "url": "\nhttp://antirez.com/news/156\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "I’m taking a few weeks of pause on my HNSWs developments (now working on some other data structure, ",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Programming is free",
       "url": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
       "source": "idiallo",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 idiallo 的文章：Programming is free...",
+      "description": "<p>A college student on his spring break contacted me for a meeting. At the time, I had my own start",
       "tags": [
-        "Tech"
+        "Dev"
       ],
-      "recommendReason": "idiallo 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
       "title": "Factional Drift: How online discussion clusters into factions",
       "url": "https://idiallo.com/blog/factional-drift-online?src=feed",
       "source": "idiallo",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 idiallo 的文章：Factional Drift: How online discussion clusters in...",
+      "description": "<p>Whenever one of my articles reaches some popularity, I tend not to participate in the discussion.",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "idiallo 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
-      "title": "Markdown.exe",
-      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
+      "title": "Last year, all my non-programmer friends built apps",
+      "url": "https://idiallo.com/blog/my-non-programmer-friends-built-apps?src=feed",
       "source": "idiallo",
-      "category": "Tech",
-      "author": "Unknown",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 idiallo 的文章：Markdown.exe...",
+      "description": "<p>Last year, all my non-programmer friends were building apps. Yet today, those apps are nowhere to",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "idiallo 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     },
     {
-      "title": "Inside an alpha-beta scintillator:",
-      "url": "https://maurycyz.com/misc/ah_teardown/",
-      "source": "maurycyz",
-      "category": "Tech",
-      "author": "Unknown",
+      "title": "Microsoft Should Watch The Expanse",
+      "url": "https://idiallo.com/blog/microsoft-should-watch-the-expanse?src=feed",
+      "source": "idiallo",
+      "author": "",
       "date": "2026-02-17",
-      "description": "来自 maurycyz 的文章：Inside an alpha-beta scintillator:...",
+      "description": "<p>My favorite piece of technology in science fiction isn't lightsabers, flying spaceships, or even ",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "maurycyz 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Notes on blog future-proofing",
-      "url": "https://maurycyz.com/misc/futureproofing/",
-      "source": "maurycyz",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 maurycyz 的文章：Notes on blog future-proofing...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "maurycyz 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Writing my own static site generator",
-      "url": "https://maurycyz.com/misc/new_ssg/",
-      "source": "maurycyz",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 maurycyz 的文章：Writing my own static site generator...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "maurycyz 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Pluralistic: The online community trilemma (16 Feb 2026)",
-      "url": "https://pluralistic.net/2026/02/16/fast-good-cheap/",
-      "source": "pluralistic",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 pluralistic 的文章：Pluralistic: The online community trilemma (16 Feb...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "pluralistic 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Pluralistic: Trump antitrust is dead (13 Feb 2026)",
-      "url": "https://pluralistic.net/2026/02/13/khanservatives/",
-      "source": "pluralistic",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 pluralistic 的文章：Pluralistic: Trump antitrust is dead (13 Feb 2026)...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "pluralistic 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Pluralistic: Doctors' union may yet save the NHS from Palantir (12 Feb 2026)",
-      "url": "https://pluralistic.net/2026/02/12/palantir-is-ice/",
-      "source": "pluralistic",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 pluralistic 的文章：Pluralistic: Doctors' union may yet save the NHS f...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "pluralistic 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
-      "url": "https://shkspr.mobi/blog/2026/02/book-review-this-is-how-they-tell-me-the-world-ends-nicole-perlroth/",
-      "source": "shkspr.mobi",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 shkspr.mobi 的文章：Book Review: This Is How They Tell Me the World En...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "shkspr.mobi 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Social Media Payments and Perverse Incentives",
-      "url": "https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/",
-      "source": "shkspr.mobi",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 shkspr.mobi 的文章：Social Media Payments and Perverse Incentives...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "shkspr.mobi 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
-      "url": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
-      "source": "shkspr.mobi",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 shkspr.mobi 的文章：Book Review: 20 Goto 10 - 10101001 facts about ret...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "shkspr.mobi 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Your feed fetcher appears to be an AI agent or crawler",
-      "url": "https://utcc.utoronto.ca/~cks/cspace-no-ai-agents.html",
-      "source": "utcc-utoronto",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 utcc-utoronto 的文章：Your feed fetcher appears to be an AI agent or cra...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "utcc-utoronto 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The Discourse has been Automated",
-      "url": "https://xeiaso.net/notes/2026/the-discourse-has-been-automated/",
-      "source": "xeiaso",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 xeiaso 的文章：The Discourse has been Automated...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "xeiaso 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Matrix ain't it chief",
-      "url": "https://xeiaso.net/notes/2026/dont-use-matrix/",
-      "source": "xeiaso",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 xeiaso 的文章：Matrix ain't it chief...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "xeiaso 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Humanity's last programming language",
-      "url": "https://xeiaso.net/blog/2026/markdownlang/",
-      "source": "xeiaso",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 xeiaso 的文章：Humanity's last programming language...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "xeiaso 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Instruction decoding in the Intel 8087 floating-point chip",
-      "url": "http://www.righto.com/feeds/8201340188892833254/comments/default",
-      "source": "righto",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 righto 的文章：Instruction decoding in the Intel 8087 floating-po...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "righto 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
-      "url": "http://www.righto.com/feeds/7538688365288775324/comments/default",
-      "source": "righto",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 righto 的文章：Notes on the Intel 8086 processor's arithmetic-log...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "righto 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Conditions in the Intel 8087 floating-point chip's microcode",
-      "url": "http://www.righto.com/feeds/52646111832574839/comments/default",
-      "source": "righto",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 righto 的文章：Conditions in the Intel 8087 floating-point chip's...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "righto 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Good riddance, 4o",
-      "url": "https://mahadk.com/posts/4o/",
-      "source": "skyfall",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 skyfall 的文章：Good riddance, 4o...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "skyfall 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "The UK paid £4.1 million for a bookmarks site",
-      "url": "https://mahadk.com/posts/ai-skills-hub/",
-      "source": "skyfall",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 skyfall 的文章：The UK paid £4.1 million for a bookmarks site...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "skyfall 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Using the M1 MacBook Air in 2026",
-      "url": "https://mahadk.com/posts/m1-mba/",
-      "source": "skyfall",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 skyfall 的文章：Using the M1 MacBook Air in 2026...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "skyfall 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Scam Telegram: Uncovering a network of groups spreading crypto drainers",
-      "url": "https://timsh.org/scam-telegram-investigation/",
-      "source": "timsh",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 timsh 的文章：Scam Telegram: Uncovering a network of groups spre...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "timsh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Why you should self-host your (vibecoded) app",
-      "url": "https://timsh.org/why-you-should-self-host/",
-      "source": "timsh",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 timsh 的文章：Why you should self-host your (vibecoded) app...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "timsh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Switching to Claude Code + VSCode inside Docker",
-      "url": "https://timsh.org/claude-inside-docker/",
-      "source": "timsh",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 timsh 的文章：Switching to Claude Code + VSCode inside Docker...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "timsh 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Why smart instruction-following makes prompt injection easier",
-      "url": "https://www.gilesthomas.com/2025/11/smart-instruction-following-and-prompt-injection",
-      "source": "gilesthomas",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 gilesthomas 的文章：Why smart instruction-following makes prompt injec...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "gilesthomas 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Writing an LLM from scratch, part 28 -- training a base model from scratch on an RTX 3090",
-      "url": "https://www.gilesthomas.com/2025/12/llm-from-scratch-28-training-a-base-model-from-scratch",
-      "source": "gilesthomas",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 gilesthomas 的文章：Writing an LLM from scratch, part 28 -- training a...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "gilesthomas 的精选内容",
-      "score": 5.0
-    },
-    {
-      "title": "Writing an LLM from scratch, part 29 -- using DistributedDataParallel to train a base model from scratch in the cloud",
-      "url": "https://www.gilesthomas.com/2026/01/llm-from-scratch-29-ddp-training-a-base-model-in-the-cloud",
-      "source": "gilesthomas",
-      "category": "Tech",
-      "author": "Unknown",
-      "date": "2026-02-17",
-      "description": "来自 gilesthomas 的文章：Writing an LLM from scratch, part 29 -- using Dist...",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "gilesthomas 的精选内容",
+      "recommendReason": "相关领域参考",
       "score": 5.0
     }
   ]
