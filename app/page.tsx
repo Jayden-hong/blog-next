@@ -68,6 +68,9 @@ export default function Home() {
                 index === 0 ? 'md:col-span-2 md:row-span-2' : ''
               }`}
             >
+              {/* 整张卡片可点击的覆盖链接 */}
+              <Link href={`/blog/${post.slug}`} className="absolute inset-0 z-10" aria-label={post.title} />
+
               {/* Cover Image Placeholder */}
               <div className={`bg-gradient-to-br ${
                 index === 0
@@ -76,13 +79,11 @@ export default function Home() {
               }`} />
 
               <div className="p-6">
-                <Link href={`/blog/${post.slug}`}>
                   <h3 className={`${
                     index === 0 ? 'text-2xl' : 'text-xl'
                   } font-bold mb-3 text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors`}>
                     {post.title}
                   </h3>
-                </Link>
 
                 <div className="flex items-center gap-3 text-sm text-gray-500 dark:text-gray-400 mb-4">
                   <time dateTime={post.date}>
