@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+// Force rebuild: 2026-02-17T12:40:00Z
 const feedDirectory = path.join(process.cwd(), 'content/feed');
 const discoverDirectory = path.join(process.cwd(), 'content/discover');
 
