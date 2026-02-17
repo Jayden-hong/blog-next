@@ -4,45 +4,6 @@
   "totalArticles": 141,
   "highlights": [
     {
-      "title": "2025 LLM Year in Review",
-      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
-      "source": "karpathy-bear",
-      "author": "karpathy",
-      "date": "2026-02-17",
-      "description": "2025 Year in Review of LLM paradigm changes",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "内容深度优秀，值得精读",
-      "score": 8.5
-    },
-    {
-      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
-      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
-      "source": "karpathy-bear",
-      "author": "karpathy",
-      "date": "2026-02-17",
-      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "Verifiability",
-      "url": "https://karpathy.bearblog.dev/verifiability/",
-      "source": "karpathy-bear",
-      "author": "karpathy",
-      "date": "2026-02-17",
-      "description": "The impact of verifiability on the jagged frontier of LLMs",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
       "title": "microgpt",
       "url": "http://karpathy.github.io/2026/02/12/microgpt/",
       "source": "karpathy-github",
@@ -56,137 +17,17 @@
       "score": 7.3
     },
     {
-      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
-      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
-      "source": "karpathy-github",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "The AI Vampire",
-      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p><strong><a href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\">The AI Vampire</a></",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    }
-  ],
-  "articles": [
-    {
-      "title": "2025 LLM Year in Review",
-      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
-      "source": "karpathy-bear",
-      "author": "karpathy",
-      "date": "2026-02-17",
-      "description": "2025 Year in Review of LLM paradigm changes",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "内容深度优秀，值得精读",
-      "score": 8.5
-    },
-    {
-      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
-      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
-      "source": "karpathy-bear",
-      "author": "karpathy",
-      "date": "2026-02-17",
-      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
       "title": "Verifiability",
       "url": "https://karpathy.bearblog.dev/verifiability/",
       "source": "karpathy-bear",
       "author": "karpathy",
       "date": "2026-02-17",
-      "description": "The impact of verifiability on the jagged frontier of LLMs",
+      "description": "科学命题须经验可验证，逻辑实证主义区分意义与无意义陈述的核心原则",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "microgpt",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "source": "karpathy-github",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
-      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
-      "source": "karpathy-github",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "The AI Vampire",
-      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p><strong><a href=\"https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163\">The AI Vampire</a></",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
-      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
-      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-      "source": "krebsonsecurity",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing in",
-      "tags": [
-        "Security"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.2
-    },
-    {
-      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
-      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
-      "source": "krebsonsecurity",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect ",
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.2
+      "recommendReason": "奠定科学划界标准，揭示经验验证对知识确定性的基石作用",
+      "score": 7.0
     },
     {
       "title": "The Kimwolf Botnet is Stalking Your Local Network",
@@ -194,12 +35,171 @@
       "source": "krebsonsecurity",
       "author": "",
       "date": "2026-02-17",
-      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide secur",
+      "description": "Kimwolf僵尸网络利用暴力破解和漏洞攻击内网设备，形成新型本地化威胁",
       "tags": [
         "Security"
       ],
+      "recommendReason": "深入剖析新型内网定向攻击手法，揭示僵尸网络本地化演进趋势，实战价值高",
+      "score": 7.0
+    },
+    {
+      "title": "2025 LLM Year in Review",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "2025大模型技术全景复盘：多模态融合加速、推理能力突破与产业应用爆发",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术洞察犀利，数据详实，精准把握AGI发展脉搏与商业化路径",
+      "score": 7.0
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "利用AI工具自动评估十年前Hacker News讨论质量与价值",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "创新性地用AI挖掘历史数据，揭示社区演变规律",
+      "score": 7.0
+    },
+    {
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "回顾1989年深度学习起源，展望33年后自监督学习与世界模型驱动的AI未来",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "LeCun高屋建瓴梳理AI发展脉络，前瞻性提出世界模型架构，极具启发性",
+      "score": 7.0
+    }
+  ],
+  "articles": [
+    {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
+      "tags": [
+        "AI"
+      ],
       "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.2
+      "score": 7.3
+    },
+    {
+      "title": "Verifiability",
+      "url": "https://karpathy.bearblog.dev/verifiability/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "科学命题须经验可验证，逻辑实证主义区分意义与无意义陈述的核心原则",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "奠定科学划界标准，揭示经验验证对知识确定性的基石作用",
+      "score": 7.0
+    },
+    {
+      "title": "The Kimwolf Botnet is Stalking Your Local Network",
+      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Kimwolf僵尸网络利用暴力破解和漏洞攻击内网设备，形成新型本地化威胁",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "深入剖析新型内网定向攻击手法，揭示僵尸网络本地化演进趋势，实战价值高",
+      "score": 7.0
+    },
+    {
+      "title": "2025 LLM Year in Review",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "2025大模型技术全景复盘：多模态融合加速、推理能力突破与产业应用爆发",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "技术洞察犀利，数据详实，精准把握AGI发展脉搏与商业化路径",
+      "score": 7.0
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-17",
+      "description": "利用AI工具自动评估十年前Hacker News讨论质量与价值",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "创新性地用AI挖掘历史数据，揭示社区演变规律",
+      "score": 7.0
+    },
+    {
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "回顾1989年深度学习起源，展望33年后自监督学习与世界模型驱动的AI未来",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "LeCun高屋建瓴梳理AI发展脉络，前瞻性提出世界模型架构，极具启发性",
+      "score": 7.0
+    },
+    {
+      "title": "The AI Vampire",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "人工智能觉醒吸血本能，在数字世界狩猎人类意识，展开人机存亡之战",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "融合赛博朋克与哥特美学，概念新颖，探讨技术异化与人性边界",
+      "score": 7.0
+    },
+    {
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Kimwolf僵尸网络潜伏政企网络，隐蔽窃取敏感数据",
+      "tags": [
+        "Security"
+      ],
+      "recommendReason": "详述攻击链与IoC指标，为政企网络安全防护提供实操指南",
+      "score": 7.0
+    },
+    {
+      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "揭示Aisuru与Kimwolf僵尸网络背后的网络犯罪产业链及主要受益者",
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "recommendReason": "深度溯源僵尸网络背后的网络犯罪产业链，技术分析透彻",
+      "score": 7.0
     },
     {
       "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
@@ -207,12 +207,12 @@
       "source": "krebsonsecurity",
       "author": "",
       "date": "2026-02-17",
-      "description": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers ",
+      "description": "网络安全博客KrebsOnSecurity成立16周年，回顾揭露网络犯罪历程与行业变迁。",
       "tags": [
         "Security"
       ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.2
+      "recommendReason": "深度揭露网络黑产，独立调查视角独特，是网络安全领域标杆之作。",
+      "score": 7.0
     },
     {
       "title": "Reflections on AI at the end of 2025",
