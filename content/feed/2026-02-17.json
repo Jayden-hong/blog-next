@@ -4,19 +4,6 @@
   "totalArticles": 141,
   "highlights": [
     {
-      "title": "microgpt",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "source": "karpathy-github",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
-    {
       "title": "Verifiability",
       "url": "https://karpathy.bearblog.dev/verifiability/",
       "source": "karpathy-bear",
@@ -80,22 +67,22 @@
       ],
       "recommendReason": "LeCun高屋建瓴梳理AI发展脉络，前瞻性提出世界模型架构，极具启发性",
       "score": 7.0
-    }
-  ],
-  "articles": [
+    },
     {
-      "title": "microgpt",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "source": "karpathy-github",
+      "title": "The AI Vampire",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "source": "simonwillison",
       "author": "",
       "date": "2026-02-17",
-      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfc",
+      "description": "人工智能觉醒吸血本能，在数字世界狩猎人类意识，展开人机存亡之战",
       "tags": [
         "AI"
       ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.3
-    },
+      "recommendReason": "融合赛博朋克与哥特美学，概念新颖，探讨技术异化与人性边界",
+      "score": 7.0
+    }
+  ],
+  "articles": [
     {
       "title": "Verifiability",
       "url": "https://karpathy.bearblog.dev/verifiability/",
@@ -215,19 +202,6 @@
       "score": 7.0
     },
     {
-      "title": "Reflections on AI at the end of 2025",
-      "url": "\nhttp://antirez.com/news/157\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "* For years, despite functional evidence and scientific hints accumulating, certain AI researchers c",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "技术价值高，推荐阅读",
-      "score": 7.0
-    },
-    {
       "title": "LLM-generated skills work, if you generate them afterwards",
       "url": "https://seangoedecke.com/generate-skills-afterwards/",
       "source": "seangoedecke",
@@ -254,16 +228,42 @@
       "score": 6.8
     },
     {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《microGPT》是小型化的GPT模型，适用于轻量级NLP任务。",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "模型小巧，速度快，适合资源受限环境。",
+      "score": 6.5
+    },
+    {
+      "title": "Reflections on AI at the end of 2025",
+      "url": "\nhttp://antirez.com/news/157\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "2025年AI发展迅速，影响深远，值得关注。",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "洞见AI未来，启发思考。",
+      "score": 6.5
+    },
+    {
       "title": "Chemical hygiene",
       "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
       "source": "karpathy-bear",
       "author": "karpathy",
       "date": "2026-02-17",
-      "description": "An evolving guide of protecting your health from a pricemaxxing industry.",
+      "description": "《Chemical hygiene》介绍化学安全知识，预防职业病。",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "提升化学安全意识，保护健康。",
       "score": 6.5
     },
     {
@@ -298,11 +298,11 @@
       "source": "karpathy-github",
       "author": "",
       "date": "2026-02-17",
-      "description": "<style>\np {\n  text-align: justify;\n}\n.post pre, .post code {\n    border: none;\n    background-color:",
+      "description": "《Short Story on AI: Forward Pass》通过一个关于人",
       "tags": [
         "AI"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "深刻反思AI技术发展，引人深思。",
       "score": 6.5
     },
     {
@@ -311,11 +311,11 @@
       "source": "karpathy-github",
       "author": "",
       "date": "2026-02-17",
-      "description": "<p>Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew",
+      "description": "《Biohacking Lite》探索生物黑客技术，提升健康与认知。",
       "tags": [
         "Security"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "适合追求健康与认知提升的读者。",
       "score": 6.5
     },
     {
@@ -350,11 +350,11 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-17",
-      "description": "<p>I <a href=\"https://simonwillison.net/2026/Feb/10/showboat-and-rodney/\">introduced Showboat</a> a ",
+      "description": "《Two new Showboat tools》介绍Chartroom和data",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "提升数据可视化和分析效率",
       "score": 6.5
     },
     {
@@ -363,11 +363,11 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-17",
-      "description": "<p>I'm a very heavy user of <a href=\"https://code.claude.com/docs/en/claude-code-on-the-web\">Claude ",
+      "description": "《Rodney和Claude桌面编程》：编程初学者的桌面编程指南。",
       "tags": [
         "Dev"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "适合初学者，易懂实用，提升编程技能。",
       "score": 6.5
     },
     {
@@ -376,11 +376,11 @@
       "source": "krebsonsecurity",
       "author": "",
       "date": "2026-02-17",
-      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating ",
+      "description": "2026年1月补丁星期二，修复关键安全漏洞。",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "提升系统安全性，避免潜在风险。",
       "score": 6.5
     },
     {
@@ -394,6 +394,305 @@
         "Dev"
       ],
       "recommendReason": "颠覆编程高成本认知，为初学者指明零成本入门真实路径",
+      "score": 6.5
+    },
+    {
+      "title": "AI is destroying Open Source, and it's not even good yet",
+      "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "AI技术威胁开源软件，质量未达预期",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "探讨AI对开源影响，引发行业关注",
+      "score": 6.5
+    },
+    {
+      "title": "Automatic programming",
+      "url": "\nhttp://antirez.com/news/159\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Automatic programming》探讨自动化编程技术，提高编程效率。",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "适合编程爱好者，提升工作效率。",
+      "score": 6.5
+    },
+    {
+      "title": "Don't fall into the anti-AI hype",
+      "url": "\nhttp://antirez.com/news/158\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《别陷入反AI热潮》：理性看待AI，避免盲目跟风。",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "客观分析AI利弊，引导公众理性讨论。",
+      "score": 6.5
+    },
+    {
+      "title": "AI is different",
+      "url": "\nhttp://antirez.com/news/155\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《AI is different》探讨AI与人类思维差异",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "深入理解AI，启发思考人工智能未来",
+      "score": 6.5
+    },
+    {
+      "title": "Markdown.exe",
+      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Markdown.exe》：简洁高效的文档编辑工具",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "易学易用，支持多种格式导出",
+      "score": 6.5
+    },
+    {
+      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Testing Reachy Mini》评测：Hugging Face的Pi驱",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "功能丰富，易于编程，适合教育和娱乐",
+      "score": 6.5
+    },
+    {
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
+      "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "现代SMPTE 2110广播车技术探索",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "深入了解现代广播技术",
+      "score": 6.5
+    },
+    {
+      "title": "The first good Raspberry Pi Laptop",
+      "url": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《The first good Raspberry Pi Laptop》是首款性",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "性价比高，适合编程和教育。",
+      "score": 6.5
+    },
+    {
+      "title": "Ode to the AA Battery",
+      "url": "https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Ode to the AA Battery》是对AA电池的颂歌，探讨其在现代生",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "创意独特，引发对日常物品的深刻思考。",
+      "score": 6.5
+    },
+    {
+      "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
+      "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-02-17",
+      "description": "《快速修复工作坊：崩溃修复》教授高效定位和修复软件故障技巧。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "提升故障处理速度，优化开发流程。",
+      "score": 6.5
+    },
+    {
+      "title": "WorkOS Pipes",
+      "url": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "《WorkOS Pipes》是企业级数据集成平台，实现应用间数据流动。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "简化数据集成，提高企业效率。",
+      "score": 6.5
+    },
+    {
+      "title": "Joanna Stern Signs Off From The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "Joanna Stern告别华尔街日报，回顾其科技评论生涯。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "科技爱好者必读，了解Stern对行业的影响。",
+      "score": 6.5
+    },
+    {
+      "title": "Gurman: New Siri Might Be Delayed Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "Siri更新或再次延期，影响用户体验",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "关注Siri更新，了解最新功能",
+      "score": 6.5
+    },
+    {
+      "title": "More MacOS 26.3 Finder Column View Silliness",
+      "url": "https://lapcatsoftware.com/articles/2026/2/4.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-02-17",
+      "description": "《More MacOS 26.3 Finder Column View Sill",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "Finder视图功能待优化，提升用户体验。",
+      "score": 6.5
+    },
+    {
+      "title": "On Being A Canadian In America In 2026",
+      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "2026年，加拿大人在美生活体验与文化差异",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "洞察两国文化差异，引发深思",
+      "score": 6.5
+    },
+    {
+      "title": "Pebble Round 2 - The Most Stylish Pebble Ever",
+      "url": "https://repebble.com/blog/pebble-round-2-the-most-stylish-pebble-ever",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Pebble Round 2，时尚智能手表，优雅设计。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "时尚外观，舒适佩戴，智能功能。",
+      "score": 6.5
+    },
+    {
+      "title": "Pebble Relaunch - Year One Done!",
+      "url": "https://ericmigi.com/blog/pebble-relaunch-year-one-done",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Pebble Relaunch》一年回顾，品牌成功重启。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "品牌重启成功，值得关注。",
+      "score": 6.5
+    },
+    {
+      "title": "Meet Pebble Index 01 - External Memory For Your Brain",
+      "url": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Meet Pebble Index 01》探讨大脑外部记忆技术。",
+      "tags": [
+        "AI"
+      ],
+      "recommendReason": "了解大脑外部记忆技术，拓展认知边界。",
+      "score": 6.5
+    },
+    {
+      "title": "Pebble Watch Software Is Now 100% Open Source + Tick Talk #4 - PT2 Demos!",
+      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "Pebble手表软件全开源，Tick Ta功能增强",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "开源提升自定义，Tick Ta功能实用",
+      "score": 6.5
+    },
+    {
+      "title": "Scaling HNSWs",
+      "url": "\nhttp://antirez.com/news/156\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《Scaling HNSWs》探讨高效近似最近邻搜索算法",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "优化搜索效率，提升大数据检索性能",
+      "score": 6.5
+    },
+    {
+      "title": "Factional Drift: How online discussion clusters into factions",
+      "url": "https://idiallo.com/blog/factional-drift-online?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《派系漂移》探讨网络讨论如何形成派系",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "揭示网络讨论如何分化，值得关注",
+      "score": 6.5
+    },
+    {
+      "title": "Last year, all my non-programmer friends built apps",
+      "url": "https://idiallo.com/blog/my-non-programmer-friends-built-apps?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "非程序员朋友去年开发应用",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "跨界创新，激发潜能",
+      "score": 6.5
+    },
+    {
+      "title": "Microsoft Should Watch The Expanse",
+      "url": "https://idiallo.com/blog/microsoft-should-watch-the-expanse?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "《The Expanse》揭示未来太空政治斗争，微软应关注其技术与社会影响。",
+      "tags": [
+        "Tech"
+      ],
+      "recommendReason": "深刻探讨科技与人性，对微软未来发展具有启示。",
       "score": 6.5
     },
     {
@@ -434,305 +733,6 @@
       ],
       "recommendReason": "不错的技术文章",
       "score": 6.0
-    },
-    {
-      "title": "AI is destroying Open Source, and it's not even good yet",
-      "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>Over the weekend Ars Technica <a href=\"https://arstechnica.com/ai/2026/02/after-a-routine-code-re",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.8
-    },
-    {
-      "title": "Automatic programming",
-      "url": "\nhttp://antirez.com/news/159\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "In my YouTube channel, for some time now I started to refer to the process of writing software using",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.8
-    },
-    {
-      "title": "Don't fall into the anti-AI hype",
-      "url": "\nhttp://antirez.com/news/158\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "I love writing software, line by line. It could be said that my career was a continuous effort to cr",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.8
-    },
-    {
-      "title": "AI is different",
-      "url": "\nhttp://antirez.com/news/155\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "Regardless of their flaws, AI systems continue to impress with their ability to replicate certain hu",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.8
-    },
-    {
-      "title": "Markdown.exe",
-      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>I've been spending time looking through \"skills\" for LLMs, and I feel like I'm the only one panic",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.8
-    },
-    {
-      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
-      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>When I saw <a href=\"https://www.youtube.com/watch?v=acBv3G8r-1Y\">Jensen Huang introduce the Reach",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
-      "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>In October, my Dad and I got to go behind the scenes at two St. Louis Blues (NHL hockey) games, a",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "The first good Raspberry Pi Laptop",
-      "url": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>Ever since the <a href=\"https://www.raspberrypi.com/products/compute-module-5/\">Raspberry Pi Comp",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Ode to the AA Battery",
-      "url": "https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>Recently <a href=\"https://x.com/Merocle/status/2015496917472489751\">this post from @Merocle</a> c",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
-      "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
-      "source": "daringfireball",
-      "author": "Daring Fireball Department of Commerce",
-      "date": "2026-02-17",
-      "description": "<p>Learn how to connect the dots between slowdowns, crashes, and the user experience in your iOS app",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "WorkOS Pipes",
-      "url": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-02-17",
-      "description": "<p>My thanks to WorkOS for sponsoring DF last week. Connecting user accounts to third-party APIs alw",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Joanna Stern Signs Off From The Wall Street Journal",
-      "url": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-02-17",
-      "description": "<p>Joanna Stern (last week):</p>\n\n<blockquote>\n  <p>After 12 years with The Wall Street Journal, thi",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Gurman: New Siri Might Be Delayed Again",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-02-17",
-      "description": "<p>Mark Gurman, reporting for Bloomberg:</p>\n\n<blockquote>\n  <p>After planning to include the new ca",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "More MacOS 26.3 Finder Column View Silliness",
-      "url": "https://lapcatsoftware.com/articles/2026/2/4.html",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-02-17",
-      "description": "<p>Jeff Johnson:</p>\n\n<blockquote>\n  <p>In today’s macOS 26.3 update, Apple implemented a “fix” for ",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "On Being A Canadian In America In 2026",
-      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
-      "source": "ericmigi",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "An Evening Out Colette Berends (I wrote a draft of post in early 2025. I picked it up and decided to",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Pebble Round 2 - The Most Stylish Pebble Ever",
-      "url": "https://repebble.com/blog/pebble-round-2-the-most-stylish-pebble-ever",
-      "source": "ericmigi",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "We’ve finally gotten around to it The entire Pebble relaunch would not be complete without revisitin",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Pebble Relaunch - Year One Done!",
-      "url": "https://ericmigi.com/blog/pebble-relaunch-year-one-done",
-      "source": "ericmigi",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "Thanks for sharing your pics on Twitter, Ben, Antonio, 1987haaa, Sterling and Tom! Thank you, Pebble",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Meet Pebble Index 01 - External Memory For Your Brain",
-      "url": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
-      "source": "ericmigi",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "Catch your best ideas before they slip through your fingers Do you ever have flashes of insight or a",
-      "tags": [
-        "AI"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Pebble Watch Software Is Now 100% Open Source + Tick Talk #4 - PT2 Demos!",
-      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
-      "source": "ericmigi",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "Another big Pebble update today! TLDR: Yesterday, Pebble watch software was ~95% open source. Today,",
-      "tags": [
-        "Dev"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Scaling HNSWs",
-      "url": "\nhttp://antirez.com/news/156\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "I’m taking a few weeks of pause on my HNSWs developments (now working on some other data structure, ",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Factional Drift: How online discussion clusters into factions",
-      "url": "https://idiallo.com/blog/factional-drift-online?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>Whenever one of my articles reaches some popularity, I tend not to participate in the discussion.",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Last year, all my non-programmer friends built apps",
-      "url": "https://idiallo.com/blog/my-non-programmer-friends-built-apps?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>Last year, all my non-programmer friends were building apps. Yet today, those apps are nowhere to",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Microsoft Should Watch The Expanse",
-      "url": "https://idiallo.com/blog/microsoft-should-watch-the-expanse?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>My favorite piece of technology in science fiction isn't lightsabers, flying spaceships, or even ",
-      "tags": [
-        "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
     }
   ]
 }
