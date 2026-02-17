@@ -272,11 +272,11 @@
       "source": "karpathy-bear",
       "author": "karpathy",
       "date": "2026-02-17",
-      "description": "On the space of minds and the optimizations that give rise to them.",
+      "description": "探索从昆虫到AI的可能心智空间，揭示意识与智能的多元形态",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "拓展认知边界，深化对智能本质的理解，AI时代必读哲学佳作",
       "score": 6.5
     },
     {
@@ -285,11 +285,11 @@
       "source": "karpathy-github",
       "author": "",
       "date": "2026-02-17",
-      "description": "<style>\n.wrap {\n    max-width: 900px;\n}\np {\n    font-family: sans-serif;\n    font-size: 15px;\n    fo",
+      "description": "从零开始用Python实现比特币，深入理解区块链原理与核心机制",
       "tags": [
         "Code"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "顶级工程师手写实现，代码即文档，透彻解析加密货币底层逻辑",
       "score": 6.5
     },
     {
@@ -324,11 +324,11 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-17",
-      "description": "<p>Given the threat of <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> b",
+      "description": "专业版纳米香蕉与网络漫画版差异对比，展现媒介转换的艺术特色与技术细节。",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "媒介转换分析透彻，视觉对比鲜明，适合创作者参考学习。",
       "score": 6.5
     },
     {
@@ -337,11 +337,11 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-17",
-      "description": "<p><strong><a href=\"https://qwen.ai/blog?id=qwen3.5\">Qwen3.5: Towards Native Multimodal Agents</a></",
+      "description": "阿里Qwen3.5发布，原生多模态Agent架构实现视觉理解到工具调用端到端能力",
       "tags": [
         "Tech"
       ],
-      "recommendReason": "不错的技术文章",
+      "recommendReason": "技术专家深度解读原生多模态Agent架构革新与落地前景",
       "score": 6.5
     },
     {
@@ -381,6 +381,19 @@
         "Tech"
       ],
       "recommendReason": "不错的技术文章",
+      "score": 6.5
+    },
+    {
+      "title": "Programming is free",
+      "url": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-17",
+      "description": "编程无需昂贵投入，开源生态与免费资源已彻底打破技术门槛限制",
+      "tags": [
+        "Dev"
+      ],
+      "recommendReason": "颠覆编程高成本认知，为初学者指明零成本入门真实路径",
       "score": 6.5
     },
     {
@@ -678,19 +691,6 @@
       "description": "I’m taking a few weeks of pause on my HNSWs developments (now working on some other data structure, ",
       "tags": [
         "Tech"
-      ],
-      "recommendReason": "相关领域参考",
-      "score": 5.0
-    },
-    {
-      "title": "Programming is free",
-      "url": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-17",
-      "description": "<p>A college student on his spring break contacted me for a meeting. At the time, I had my own start",
-      "tags": [
-        "Dev"
       ],
       "recommendReason": "相关领域参考",
       "score": 5.0
