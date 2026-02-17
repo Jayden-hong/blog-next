@@ -1,14 +1,11 @@
 import Link from 'next/link';
-import { getLatestFeedDay, getAllDiscoverArticles } from '@/lib/feed';
+import { getLatestFeedDay } from '@/lib/feed';
 import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
 
 export default function Home() {
   const feedDay = getLatestFeedDay();
   const posts = getAllPosts().slice(0, 2);
-  
-  // Get local discover articles (highlights)
-  const discoverArticles = getAllDiscoverArticles().slice(0, 5);
 
   return (
     <div className="min-h-screen">
@@ -31,38 +28,7 @@ export default function Home() {
               Last 24h Highlights
             </h2>
             
-            {discoverArticles.length > 0 ? (
-              <div className="space-y-3">
-                {discoverArticles.map((article) => (
-                  <Link
-                    key={article.slug}
-                    href={`/discover/${article.slug}`}
-                    className="block border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors group"
-                  >
-                    <div className="flex items-start justify-between gap-4">
-                      <h3 className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                        {article.title}
-                      </h3>
-                      <span className="text-xs text-neutral-400 shrink-0">
-                        {article.source}
-                      </span>
-                    </div>
-                    {article.aiSummary && (
-                      <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
-                        {article.aiSummary}
-                      </p>
-                    )}
-                  </Link>
-                ))}
-                
-                <Link
-                  href="/discover"
-                  className="inline-block mt-4 text-sm text-blue-600 dark:text-blue-400 hover:underline"
-                >
-                  View all → 
-                </Link>
-              </div>
-            ) : feedDay ? (
+            {feedDay ? (
               <div className="space-y-3">
                 {feedDay.highlights.map((highlight, index) => (
                   <a
