@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {};
 
   return {
-    title: `${post.title} - Jayden's Blog`,
+    title: `${post.title} - Jayden`,
     description: post.excerpt,
   };
 }
@@ -33,17 +33,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-      <article className="max-w-3xl mx-auto px-4 py-16">
+    <div className="min-h-screen">
+      <article className="max-w-3xl mx-auto px-4 py-12">
         {/* Header */}
-        <header className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
+        <header className="mb-10">
+          <h1 className="text-3xl font-bold tracking-tight mb-4 text-neutral-900 dark:text-neutral-100">
             {post.title}
           </h1>
           
-          <div className="flex items-center gap-4 text-gray-600 dark:text-gray-400 mb-6">
+          <div className="flex items-center gap-4 text-sm text-neutral-500 mb-6">
             <time dateTime={post.date}>
-              {format(new Date(post.date), 'yyyy年MM月dd日')}
+              {format(new Date(post.date), 'MMMM d, yyyy')}
             </time>
             {post.author && (
               <>
@@ -58,7 +58,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               {post.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full"
+                  className="text-sm text-neutral-500"
                 >
                   #{tag}
                 </span>
@@ -68,14 +68,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </header>
 
         {/* MDX Content */}
-        <div className="prose prose-lg dark:prose-invert max-w-none
-          prose-headings:text-gray-900 dark:prose-headings:text-white
-          prose-p:text-gray-700 dark:prose-p:text-gray-300
-          prose-a:text-blue-600 dark:prose-a:text-blue-400
-          prose-code:text-pink-600 dark:prose-code:text-pink-400
-          prose-pre:bg-gray-900 dark:prose-pre:bg-gray-950
-          prose-blockquote:border-blue-500
-        ">
+        <div className="prose">
           <MDXRemote
             source={post.content}
             options={{
@@ -88,12 +81,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-700">
+        <footer className="mt-16 pt-8 border-t border-neutral-200 dark:border-neutral-800">
           <a
             href="/blog"
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
-            ← 返回博客列表
+            ← Back to Writing
           </a>
         </footer>
       </article>

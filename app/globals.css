@@ -1,24 +1,81 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #ffffff;
+  --color-foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Custom prose styles for blog content */
+.prose {
+  max-width: 65ch;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold tracking-tight mb-6 mt-8;
+}
+
+.prose h2 {
+  @apply text-xl font-semibold tracking-tight mb-4 mt-6;
+}
+
+.prose h3 {
+  @apply text-lg font-semibold mb-3 mt-5;
+}
+
+.prose p {
+  @apply text-base leading-relaxed text-neutral-700 dark:text-neutral-300 mb-4;
+}
+
+.prose a {
+  @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+.prose code {
+  @apply text-pink-600 dark:text-pink-400 bg-neutral-100 dark:bg-neutral-800 px-1.5 py-0.5 rounded text-sm;
+}
+
+.prose pre {
+  @apply bg-neutral-900 dark:bg-neutral-950 text-neutral-100 p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.prose pre code {
+  @apply bg-transparent text-neutral-100 p-0;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic text-neutral-600 dark:text-neutral-400 my-4;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4 space-y-1;
+}
+
+.prose ol {
+  @apply list-decimal list-inside mb-4 space-y-1;
+}
+
+.prose li {
+  @apply text-neutral-700 dark:text-neutral-300;
+}
+
+.prose hr {
+  @apply border-neutral-200 dark:border-neutral-800 my-8;
+}
+
+.prose img {
+  @apply rounded-lg my-4;
+}
+
+/* Remove default link underline in articles */
+.prose a:not(.no-underline) {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

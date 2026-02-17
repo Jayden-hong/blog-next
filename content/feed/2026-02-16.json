@@ -1,0 +1,613 @@
+{
+  "date": "2026-02-16",
+  "totalSources": 29,
+  "totalArticles": 82,
+  "highlights": [
+    {
+      "title": "2025 LLM Year in Review",
+      "source": "karpathy-bear",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/"
+    },
+    {
+      "title": "microgpt",
+      "source": "karpathy-github",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/"
+    },
+    {
+      "title": "The AI Vampire",
+      "source": "simonwillison",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything"
+    },
+    {
+      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
+      "source": "jeffgeerling",
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/"
+    },
+    {
+      "title": "Two different tricks for fast LLM inference",
+      "source": "seangoedecke",
+      "url": "https://seangoedecke.com/fast-llm-inference/"
+    },
+    {
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "source": "krebsonsecurity",
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/"
+    }
+  ],
+  "articles": [
+    {
+      "title": "2025 LLM Year in Review",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "source": "karpathy-bear",
+      "category": "AI",
+      "isHot": true
+    },
+    {
+      "title": "Chemical hygiene",
+      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
+      "source": "karpathy-bear",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "category": "AI",
+      "isHot": true
+    },
+    {
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "source": "karpathy-github",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "A from-scratch tour of Bitcoin in Python",
+      "url": "http://karpathy.github.io/2021/06/21/blockchain/",
+      "source": "karpathy-github",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "The AI Vampire",
+      "url": "https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything",
+      "source": "simonwillison",
+      "category": "AI",
+      "isHot": true
+    },
+    {
+      "title": "Em dash",
+      "url": "https://simonwillison.net/2026/Feb/15/em-dashes/#atom-everything",
+      "source": "simonwillison",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "Deep Blue",
+      "url": "https://simonwillison.net/2026/Feb/15/deep-blue/#atom-everything",
+      "source": "simonwillison",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "We URGENTLY need a federal law forbidding AI from impersonating humans",
+      "url": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
+      "source": "garymarcus",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "Irony, Irony laced with Karma, and Terror",
+      "url": "https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and",
+      "source": "garymarcus",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "Breaking: OpenAI is probably toast",
+      "url": "https://garymarcus.substack.com/p/breaking-openai-is-probably-toast",
+      "source": "garymarcus",
+      "category": "AI",
+      "isHot": false
+    },
+    {
+      "title": "My AI Adoption Journey",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "source": "mitchellh",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
+      "url": "https://mitchellh.com/writing/tripwire",
+      "source": "mitchellh",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Finding and Fixing Ghostty's Largest Memory Leak",
+      "url": "https://mitchellh.com/writing/ghostty-memory-leak-fix",
+      "source": "mitchellh",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "The Final Bottleneck",
+      "url": "https://lucumr.pocoo.org/2026/2/13/the-final-bottleneck/",
+      "source": "lucumr-pocoo",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "A Language For Agents",
+      "url": "https://lucumr.pocoo.org/2026/2/9/a-language-for-agents/",
+      "source": "lucumr-pocoo",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Pi: The Minimal Agent Within OpenClaw",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi/",
+      "source": "lucumr-pocoo",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Diagnostics Factory",
+      "url": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
+      "source": "matklad",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Justifying text-wrap: pretty",
+      "url": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
+      "source": "matklad",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Programming Aphorisms",
+      "url": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
+      "source": "matklad",
+      "category": "Dev",
+      "isHot": false
+    },
+    {
+      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
+      "source": "jeffgeerling",
+      "category": "DevOps",
+      "isHot": true
+    },
+    {
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
+      "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "source": "jeffgeerling",
+      "category": "DevOps",
+      "isHot": false
+    },
+    {
+      "title": "The first good Raspberry Pi Laptop",
+      "url": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
+      "source": "jeffgeerling",
+      "category": "DevOps",
+      "isHot": false
+    },
+    {
+      "title": "Race between primes of the forms 4k + 1 and 4k + 3",
+      "url": "https://www.johndcook.com/blog/2026/02/15/chebyshev-bias/",
+      "source": "johndcook",
+      "category": "Math",
+      "isHot": false
+    },
+    {
+      "title": "Wagon’s algorithm in Python",
+      "url": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
+      "source": "johndcook",
+      "category": "Math",
+      "isHot": false
+    },
+    {
+      "title": "Finding a square root of -1 mod p",
+      "url": "https://www.johndcook.com/blog/2026/02/14/square-root-minus-1-mod-p/",
+      "source": "johndcook",
+      "category": "Math",
+      "isHot": false
+    },
+    {
+      "title": "The Affordability Curse",
+      "url": "https://www.theatlantic.com/ideas/2025/11/democrats-cost-of-living-affordability-platform/684847/?utm_source=feed",
+      "source": "derekthompson",
+      "category": "Media",
+      "isHot": false
+    },
+    {
+      "title": "The Era of Step-on-a-Rake Capitalism",
+      "url": "https://www.theatlantic.com/ideas/archive/2025/09/trump-economic-pain-strategy/684166/?utm_source=feed",
+      "source": "derekthompson",
+      "category": "Media",
+      "isHot": false
+    },
+    {
+      "title": "The No. 1 Rule for Understanding Trump",
+      "url": "https://www.theatlantic.com/politics/archive/2025/06/trump-self-destructive-agenda/683013/?utm_source=feed",
+      "source": "derekthompson",
+      "category": "Media",
+      "isHot": false
+    },
+    {
+      "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_CHAR message?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260213-00/?p=112062",
+      "source": "oldnewthing",
+      "category": "Microsoft",
+      "isHot": false
+    },
+    {
+      "title": "How can I distinguish between the numeric keypad 0 and the top-row 0 in the WM_KEY­DOWN message?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260212-00/?p=112059",
+      "source": "oldnewthing",
+      "category": "Microsoft",
+      "isHot": false
+    },
+    {
+      "title": "How do I suppress the hover effects when I put a Win32 common controls ListView in single-click mode?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260211-00/?p=112057",
+      "source": "oldnewthing",
+      "category": "Microsoft",
+      "isHot": false
+    },
+    {
+      "title": "A Social Filesystem",
+      "url": "https://overreacted.io/a-social-filesystem/",
+      "source": "overreacted",
+      "category": "React",
+      "isHot": false
+    },
+    {
+      "title": "Introducing RSC Explorer",
+      "url": "https://overreacted.io/introducing-rsc-explorer/",
+      "source": "overreacted",
+      "category": "React",
+      "isHot": false
+    },
+    {
+      "title": "Hire Me in Japan",
+      "url": "https://overreacted.io/hire-me-in-japan/",
+      "source": "overreacted",
+      "category": "React",
+      "isHot": false
+    },
+    {
+      "title": "Heritability of human life span is about 50% when heritability is redefined to be something different",
+      "url": "https://dynomight.net/lifespan/",
+      "source": "dynomight",
+      "category": "Science",
+      "isHot": false
+    },
+    {
+      "title": "Why read novels?",
+      "url": "https://dynomight.net/novels/",
+      "source": "dynomight",
+      "category": "Science",
+      "isHot": false
+    },
+    {
+      "title": "Good if make prior after data instead of before",
+      "url": "https://dynomight.net/prior/",
+      "source": "dynomight",
+      "category": "Science",
+      "isHot": false
+    },
+    {
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "source": "krebsonsecurity",
+      "category": "Security",
+      "isHot": true
+    },
+    {
+      "title": "Patch Tuesday, January 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+      "source": "krebsonsecurity",
+      "category": "Security",
+      "isHot": false
+    },
+    {
+      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+      "source": "krebsonsecurity",
+      "category": "Security",
+      "isHot": false
+    },
+    {
+      "title": "Unreal numbers",
+      "url": "https://lcamtuf.substack.com/p/unreal-numbers",
+      "source": "lcamtuf-substack",
+      "category": "Security",
+      "isHot": false
+    },
+    {
+      "title": "It's all a blur",
+      "url": "https://lcamtuf.substack.com/p/its-all-a-blur",
+      "source": "lcamtuf-substack",
+      "category": "Security",
+      "isHot": false
+    },
+    {
+      "title": "You gotta think outside the hypercube",
+      "url": "https://lcamtuf.substack.com/p/you-gotta-think-outside-the-hypercube",
+      "source": "lcamtuf-substack",
+      "category": "Security",
+      "isHot": false
+    },
+    {
+      "title": "Two different tricks for fast LLM inference",
+      "url": "https://seangoedecke.com/fast-llm-inference/",
+      "source": "seangoedecke",
+      "category": "Startup",
+      "isHot": true
+    },
+    {
+      "title": "On screwing up",
+      "url": "https://seangoedecke.com/screwing-up/",
+      "source": "seangoedecke",
+      "category": "Startup",
+      "isHot": false
+    },
+    {
+      "title": "Large tech companies don't need heroes",
+      "url": "https://seangoedecke.com/heroism/",
+      "source": "seangoedecke",
+      "category": "Startup",
+      "isHot": false
+    },
+    {
+      "title": "WorkOS Pipes",
+      "url": "https://workos.com/docs/pipes?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026&utm_content=no_rebuild",
+      "source": "daringfireball",
+      "category": "Tech",
+      "isHot": true
+    },
+    {
+      "title": "Joanna Stern Signs Off From The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&reflink=desktopwebshare_permalink",
+      "source": "daringfireball",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Gurman: New Siri Might Be Delayed Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
+      "source": "daringfireball",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "On Being A Canadian In America In 2026",
+      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
+      "source": "ericmigi",
+      "category": "Tech",
+      "isHot": true
+    },
+    {
+      "title": "Pebble Round 2 - The Most Stylish Pebble Ever",
+      "url": "https://repebble.com/blog/pebble-round-2-the-most-stylish-pebble-ever",
+      "source": "ericmigi",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Pebble Relaunch - Year One Done!",
+      "url": "https://ericmigi.com/blog/pebble-relaunch-year-one-done",
+      "source": "ericmigi",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Programming is free",
+      "url": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
+      "source": "idiallo",
+      "category": "Tech",
+      "isHot": true
+    },
+    {
+      "title": "Factional Drift: We cluster into factions online",
+      "url": "https://idiallo.com/blog/factional-drift-online?src=feed",
+      "source": "idiallo",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Markdown.exe",
+      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
+      "source": "idiallo",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Inside an alpha-beta scintillator:",
+      "url": "https://maurycyz.com/misc/ah_teardown/",
+      "source": "maurycyz",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Notes on blog future-proofing",
+      "url": "https://maurycyz.com/misc/futureproofing/",
+      "source": "maurycyz",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Writing my own static site generator",
+      "url": "https://maurycyz.com/misc/new_ssg/",
+      "source": "maurycyz",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Pluralistic: The online community trilemma (16 Feb 2026)",
+      "url": "https://pluralistic.net/2026/02/16/fast-good-cheap/",
+      "source": "pluralistic",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Pluralistic: Trump antitrust is dead (13 Feb 2026)",
+      "url": "https://pluralistic.net/2026/02/13/khanservatives/",
+      "source": "pluralistic",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Pluralistic: Doctors' union may yet save the NHS from Palantir (12 Feb 2026)",
+      "url": "https://pluralistic.net/2026/02/12/palantir-is-ice/",
+      "source": "pluralistic",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Book Review: This Is How They Tell Me the World Ends - Nicole Perlroth ★⯪☆☆☆",
+      "url": "https://shkspr.mobi/blog/2026/02/book-review-this-is-how-they-tell-me-the-world-ends-nicole-perlroth/",
+      "source": "shkspr.mobi",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Social Media Payments and Perverse Incentives",
+      "url": "https://shkspr.mobi/blog/2026/02/social-media-payments-and-perverse-incentives/",
+      "source": "shkspr.mobi",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Book Review: 20 Goto 10 - 10101001 facts about retro computers by Steven Goodwin ★★★★☆",
+      "url": "https://shkspr.mobi/blog/2026/02/book-review-20-goto-10-10101001-facts-about-retro-computers-by-steven-goodwin/",
+      "source": "shkspr.mobi",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Your feed fetcher appears to be an AI agent or crawler",
+      "url": "https://utcc.utoronto.ca/~cks/cspace-no-ai-agents.html",
+      "source": "utcc-utoronto",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "The Discourse has been Automated",
+      "url": "https://xeiaso.net/notes/2026/the-discourse-has-been-automated/",
+      "source": "xeiaso",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Matrix ain't it chief",
+      "url": "https://xeiaso.net/notes/2026/dont-use-matrix/",
+      "source": "xeiaso",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Humanity's last programming language",
+      "url": "https://xeiaso.net/blog/2026/markdownlang/",
+      "source": "xeiaso",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Instruction decoding in the Intel 8087 floating-point chip",
+      "url": "http://www.righto.com/feeds/8201340188892833254/comments/default",
+      "source": "righto",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
+      "url": "http://www.righto.com/feeds/7538688365288775324/comments/default",
+      "source": "righto",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Conditions in the Intel 8087 floating-point chip's microcode",
+      "url": "http://www.righto.com/feeds/52646111832574839/comments/default",
+      "source": "righto",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Good riddance, 4o",
+      "url": "https://mahadk.com/posts/4o/",
+      "source": "skyfall",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "The UK paid £4.1 million for a bookmarks site",
+      "url": "https://mahadk.com/posts/ai-skills-hub/",
+      "source": "skyfall",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Using the M1 MacBook Air in 2026",
+      "url": "https://mahadk.com/posts/m1-mba/",
+      "source": "skyfall",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Scam Telegram: Uncovering a network of groups spreading crypto drainers",
+      "url": "https://timsh.org/scam-telegram-investigation/",
+      "source": "timsh",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Why you should self-host your (vibecoded) app",
+      "url": "https://timsh.org/why-you-should-self-host/",
+      "source": "timsh",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Switching to Claude Code + VSCode inside Docker",
+      "url": "https://timsh.org/claude-inside-docker/",
+      "source": "timsh",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Why smart instruction-following makes prompt injection easier",
+      "url": "https://www.gilesthomas.com/2025/11/smart-instruction-following-and-prompt-injection",
+      "source": "gilesthomas",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 28 -- training a base model from scratch on an RTX 3090",
+      "url": "https://www.gilesthomas.com/2025/12/llm-from-scratch-28-training-a-base-model-from-scratch",
+      "source": "gilesthomas",
+      "category": "Tech",
+      "isHot": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 29 -- using DistributedDataParallel to train a base model from scratch in the cloud",
+      "url": "https://www.gilesthomas.com/2026/01/llm-from-scratch-29-ddp-training-a-base-model-in-the-cloud",
+      "source": "gilesthomas",
+      "category": "Tech",
+      "isHot": false
+    }
+  ]
+}

@@ -3,65 +3,58 @@ import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
 
 export const metadata = {
-  title: '博客文章 - Jayden\'s Blog',
-  description: 'AI、Web3、技术分享',
+  title: 'Writing - Jayden',
+  description: '个人博客文章',
 };
 
 export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-2 text-gray-900 dark:text-white">
-          📝 博客文章
-        </h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-12">
-          分享关于 AI、Web3 和技术的思考
-        </p>
+    <div className="min-h-screen">
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <header className="mb-12">
+          <h1 className="text-3xl font-bold tracking-tight mb-2 text-neutral-900 dark:text-neutral-100">
+            Writing
+          </h1>
+          <p className="text-neutral-500">
+            个人思考与技术分享
+          </p>
+        </header>
 
         <div className="space-y-8">
           {posts.length === 0 ? (
-            <p className="text-gray-500 dark:text-gray-400">暂无文章</p>
+            <p className="text-neutral-500">No posts yet</p>
           ) : (
             posts.map((post) => (
-              <article
-                key={post.slug}
-                className="relative border border-gray-200 dark:border-gray-700 rounded-lg p-6 hover:shadow-lg transition-shadow bg-white dark:bg-gray-800"
-              >
-                <Link href={`/blog/${post.slug}`} className="absolute inset-0 z-10 rounded-lg" aria-label={post.title} />
-                  <h2 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                    {post.title}
-                  </h2>
-                
-                <div className="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-4">
-                  <time dateTime={post.date}>
-                    {format(new Date(post.date), 'yyyy-MM-dd')}
-                  </time>
-                  {post.author && (
-                    <>
-                      <span>•</span>
-                      <span>{post.author}</span>
-                    </>
-                  )}
-                </div>
-
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  {post.excerpt}
-                </p>
-
-                {post.tags && post.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2">
-                    {post.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full"
-                      >
-                        #{tag}
-                      </span>
-                    ))}
+              <article key={post.slug} className="group">
+                <Link href={`/blog/${post.slug}`} className="block">
+                  <div className="flex items-baseline justify-between gap-4 mb-2">
+                    <h2 className="text-lg font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                      {post.title}
+                    </h2>
+                    <time className="text-sm text-neutral-400 shrink-0">
+                      {format(new Date(post.date), 'MMM d, yyyy')}
+                    </time>
                   </div>
-                )}
+                  
+                  <p className="text-neutral-500 text-sm mb-3">
+                    {post.excerpt}
+                  </p>
+
+                  {post.tags && post.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-2">
+                      {post.tags.slice(0, 3).map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-xs text-neutral-500"
+                        >
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </Link>
               </article>
             ))
           )}
