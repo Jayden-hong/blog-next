@@ -25,7 +25,7 @@ export default function Home() {
           {/* Left Column - Today's Highlights (Top 6) */}
           <div className="md:col-span-2">
             <h2 className="text-xl font-semibold mb-6 text-neutral-900 dark:text-neutral-100">
-              🔥 今日推荐
+              今日推荐
             </h2>
             
             {feedDay && feedDay.highlights.length > 0 ? (
@@ -88,7 +88,7 @@ export default function Home() {
                     {/* Recommend Reason */}
                     {highlight.recommendReason && (
                       <div className="mt-2 text-xs text-blue-600 dark:text-blue-400">
-                        💡 {highlight.recommendReason}
+                        推荐：{highlight.recommendReason}
                       </div>
                     )}
                   </a>
