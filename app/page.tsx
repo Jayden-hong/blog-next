@@ -3,6 +3,8 @@ import { getLatestFeedDay } from '@/lib/feed';
 import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
 
+export const revalidate = 0; // 禁用缓存
+
 export default function Home() {
   const feedDay = getLatestFeedDay();
   const posts = getAllPosts().slice(0, 3);

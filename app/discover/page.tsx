@@ -2,6 +2,8 @@ import { getAllTags, getLatestFeedDay } from '@/lib/feed';
 import { DiscoverClient } from '@/components/DiscoverClient';
 import { format } from 'date-fns';
 
+export const revalidate = 0; // 禁用缓存
+
 export const metadata = {
   title: 'Discover - Jayden',
   description: '每日AI推荐阅读清单',
