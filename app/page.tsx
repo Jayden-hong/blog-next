@@ -29,7 +29,7 @@ export default function Home() {
           <div className="md:col-span-2">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-base font-medium text-neutral-900">
-                今日推荐 <span className="text-xs text-neutral-400">v49</span>
+                今日推荐 v49 <span className="text-xs text-neutral-400">v49</span>
               </h2>
               <span className="text-xs text-neutral-400 mono">
                 {feedDay?.date || format(new Date(), 'yyyy-MM-dd')}
