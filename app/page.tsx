@@ -67,10 +67,17 @@ export default function Home() {
                       )}
                     </div>
                     
-                    {/* Description - only on hover or for top 3 */}
-                    {highlight.description && index < 3 && (
-                      <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
+                    {/* Description - 一行 */}
+                    {highlight.description && (
+                      <p className="mt-2 text-sm text-neutral-500 line-clamp-1">
                         {highlight.description}
+                      </p>
+                    )}
+                    
+                    {/* Recommend Reason - 只给 Top 3 显示 */}
+                    {highlight.recommendReason && index < 3 && (
+                      <p className="mt-1 text-xs text-neutral-400 mono">
+                        → {highlight.recommendReason}
                       </p>
                     )}
                   </a>

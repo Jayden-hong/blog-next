@@ -113,10 +113,17 @@ export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
               {article.title}
             </h3>
             
-            {/* Description */}
-            <p className="text-sm text-neutral-500 line-clamp-2">
-              {article.description || article.recommendReason}
+            {/* Description - 一行 */}
+            <p className="text-sm text-neutral-500 line-clamp-1">
+              {article.description}
             </p>
+            
+            {/* Recommend Reason - 只给高分文章显示 */}
+            {article.recommendReason && (
+              <p className="text-xs text-neutral-400 mt-2 mono">
+                → {article.recommendReason}
+              </p>
+            )}
           </a>
         ))}
       </div>
