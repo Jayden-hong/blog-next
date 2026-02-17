@@ -9,15 +9,16 @@ export interface FeedArticle {
   title: string;
   url: string;
   source: string;
-  category: string;
-  isHot?: boolean;
+  author: string;
+  date: string;
+  description: string;
+  tags: string[];
+  recommendReason: string;
+  score: number;
 }
 
-export interface FeedHighlight {
-  title: string;
-  source: string;
-  url: string;
-  description?: string;
+export interface FeedHighlight extends FeedArticle {
+  // Highlights are articles with high scores
 }
 
 export interface FeedDay {
@@ -56,16 +57,64 @@ export function getFeedDayByDate(date: string): FeedDay | null {
   return days.find((day) => day.date === date) || null;
 }
 
-export function getAllCategories(): string[] {
+export function getAllTags(): string[] {
   const days = getAllFeedDays();
-  const categories = new Set<string>();
+  const tags = new Set<string>();
   days.forEach((day) => {
-    day.articles.forEach((article) => categories.add(article.category));
+    day.articles.forEach((article) => {
+      article.tags?.forEach((tag) => tags.add(tag));
+    });
   });
-  return Array.from(categories).sort();
+  return Array.from(tags).sort();
 }
 
-// Local Discover Articles (MDX-based)
+// Get all articles from all feed days, sorted by score
+export function getAllArticles(): FeedArticle[] {
+  const days = getAllFeedDays();
+  const allArticles: FeedArticle[] = [];
+  
+  days.forEach((day) => {
+    allArticles.push(...day.articles);
+  });
+  
+  // Sort by score descending
+  return allArticles.sort((a, b) => (b.score || 0) - (a.score || 0));
+}
+
+// Get articles filtered by tag
+export function getArticlesByTag(tag: string): FeedArticle[] {
+  const allArticles = getAllArticles();
+  return allArticles.filter((article) => 
+    article.tags?.some((t) => t.toLowerCase() === tag.toLowerCase())
+  );
+}
+
+// Search articles by query
+export function searchArticles(query: string): FeedArticle[] {
+  if (!query.trim()) {
+    return getAllArticles();
+  }
+  
+  const lowerQuery = query.toLowerCase();
+  const allArticles = getAllArticles();
+  
+  return allArticles.filter((article) => {
+    const titleMatch = article.title.toLowerCase().includes(lowerQuery);
+    const descMatch = article.description?.toLowerCase().includes(lowerQuery);
+    const tagMatch = article.tags?.some((tag) => tag.toLowerCase().includes(lowerQuery));
+    const sourceMatch = article.source.toLowerCase().includes(lowerQuery);
+    const authorMatch = article.author?.toLowerCase().includes(lowerQuery);
+    
+    return titleMatch || descMatch || tagMatch || sourceMatch || authorMatch;
+  });
+}
+
+// Legacy: getAllCategories (now uses tags)
+export function getAllCategories(): string[] {
+  return getAllTags();
+}
+
+// Local Discover Articles (MDX-based) - Legacy
 export interface DiscoverArticle {
   slug: string;
   title: string;

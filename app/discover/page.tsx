@@ -1,71 +1,77 @@
-import { getAllDiscoverArticles, searchDiscoverArticles, getDiscoverArticlesByDate } from '@/lib/feed';
+import { getAllTags, getLatestFeedDay, FeedArticle } from '@/lib/feed';
 import { SearchBox, ArticleList } from '@/components/DiscoverSearch';
+import Link from 'next/link';
 import { Suspense } from 'react';
 
 export const metadata = {
   title: 'Discover - Jayden',
-  description: 'Karpathy & friends 推荐的阅读清单，每日更新',
+  description: '每日AI推荐阅读清单 - 基于质量评分的文章聚合',
 };
 
-function DiscoverContent() {
-  const articles = getAllDiscoverArticles();
-  const groupedByDate = getDiscoverArticlesByDate();
+interface DiscoverPageProps {
+  searchParams: { q?: string; tag?: string };
+}
+
+function DiscoverContent({ q, tag }: { q?: string; tag?: string }) {
+  const feedDay = getLatestFeedDay();
+  
+  // Get all articles from the feed
+  const allArticles = feedDay?.articles || [];
+  
+  // Filter articles based on search query or tag
+  let articles: FeedArticle[] = allArticles;
+  
+  if (q) {
+    const lowerQuery = q.toLowerCase();
+    articles = articles.filter((article) => 
+      article.title.toLowerCase().includes(lowerQuery) ||
+      article.description?.toLowerCase().includes(lowerQuery) ||
+      article.source.toLowerCase().includes(lowerQuery) ||
+      article.author?.toLowerCase().includes(lowerQuery) ||
+      article.tags?.some((t) => t.toLowerCase().includes(lowerQuery))
+    );
+  }
+  
+  if (tag) {
+    articles = articles.filter((article) =>
+      article.tags?.some((t) => t.toLowerCase() === tag.toLowerCase())
+    );
+  }
 
   return (
     <>
-      <SearchBox />
-      
+      {/* Stats */}
+      <div className="flex items-center gap-6 mb-6 text-sm text-neutral-500">
+        <span>{articles.length} 篇文章</span>
+        {q && (
+          <>
+            <span>·</span>
+            <span>搜索: &quot;{q}&quot;</span>
+          </>
+        )}
+        {tag && (
+          <>
+            <span>·</span>
+            <span>标签: {tag}</span>
+          </>
+        )}
+      </div>
+
       {/* Articles List */}
       <section>
         <ArticleList articles={articles} />
       </section>
-
-      {/* Date Archive (hidden when searching via JS, shown by default) */}
-      <noscript>
-        {groupedByDate.length > 0 && (
-          <section className="mt-12">
-            <h2 className="text-lg font-semibold mb-4 text-neutral-900 dark:text-neutral-100">
-              按日期归档
-            </h2>
-            {groupedByDate.map((group) => (
-              <div key={group.date} className="mb-8">
-                <h3 className="text-sm font-medium text-neutral-500 mb-3">
-                  {group.date}
-                </h3>
-                <div className="grid gap-3">
-                  {group.articles.map((article) => (
-                    <a
-                      key={article.slug}
-                      href={`/discover/${article.slug}`}
-                      className="block border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors"
-                    >
-                      <h4 className="font-medium text-neutral-900 dark:text-neutral-100">
-                        {article.title}
-                      </h4>
-                      <div className="flex items-center gap-2 mt-2">
-                        <span className="text-xs text-neutral-400">
-                          {article.source}
-                        </span>
-                        <span className="px-2 py-0.5 text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded">
-                          {article.category}
-                        </span>
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </section>
-        )}
-      </noscript>
     </>
   );
 }
 
-export default function DiscoverPage() {
-  const articles = getAllDiscoverArticles();
-  const categories = [...new Set(articles.map(a => a.category))].sort();
-  const allCategories = ['All', ...categories];
+export default function DiscoverPage({ searchParams }: DiscoverPageProps) {
+  const { q, tag } = searchParams || {};
+  const feedDay = getLatestFeedDay();
+  const allArticles = feedDay?.articles || [];
+  
+  // Get all unique tags
+  const allTags = getAllTags();
 
   return (
     <div className="min-h-screen">
@@ -76,31 +82,49 @@ export default function DiscoverPage() {
             Discover
           </h1>
           <p className="text-neutral-500">
-            Karpathy & friends 推荐的阅读清单，每日更新
+            每日AI推荐阅读清单 - 基于质量评分排序
           </p>
         </header>
 
-        {/* Stats */}
-        <div className="flex items-center gap-6 mb-6 text-sm text-neutral-500">
-          <span>{articles.length} articles</span>
-          <span>•</span>
-          <span>{categories.length} categories</span>
-        </div>
+        {/* Search Box with Suspense */}
+        <Suspense fallback={<div className="h-14 mb-6 bg-neutral-100 dark:bg-neutral-800 animate-pulse rounded-lg" />}>
+          <SearchBox />
+        </Suspense>
 
-        {/* Category Tags */}
+        {/* Tag Filter */}
         <div className="flex flex-wrap gap-2 mb-6">
-          {allCategories.map((cat) => (
-            <span
-              key={cat}
-              className="px-3 py-1.5 text-sm bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded-full hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors cursor-pointer"
+          <Link
+            href="/discover"
+            className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+              !tag
+                ? 'bg-blue-600 text-white'
+                : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-200 dark:hover:bg-neutral-700'
+            }`}
+          >
+            全部
+          </Link>
+          {allTags.map((t) => (
+            <Link
+              key={t}
+              href={`/discover?tag=${encodeURIComponent(t)}`}
+              className={`px-3 py-1.5 text-sm rounded-full transition-colors ${
+                tag === t
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-200 dark:hover:bg-neutral-700'
+              }`}
             >
-              {cat}
-            </span>
+              {t}
+            </Link>
           ))}
         </div>
 
-        <Suspense fallback={<div>Loading...</div>}>
-          <DiscoverContent />
+        {/* Content with Suspense */}
+        <Suspense fallback={<div className="space-y-3">
+          {[1,2,3].map(i => (
+            <div key={i} className="h-24 bg-neutral-100 dark:bg-neutral-800 animate-pulse rounded-lg" />
+          ))}
+        </div>}>
+          <DiscoverContent q={q} tag={tag} />
         </Suspense>
       </div>
     </div>

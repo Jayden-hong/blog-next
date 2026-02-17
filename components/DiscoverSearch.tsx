@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import Link from 'next/link';
 
 interface SearchBoxProps {
   initialQuery?: string;
@@ -18,6 +17,8 @@ export function SearchBox({ initialQuery = '' }: SearchBoxProps) {
     const q = searchParams.get('q');
     if (q !== null) {
       setQuery(q);
+    } else {
+      setQuery('');
     }
   }, [searchParams]);
 
@@ -25,6 +26,10 @@ export function SearchBox({ initialQuery = '' }: SearchBoxProps) {
     (value: string) => {
       setQuery(value);
       const params = new URLSearchParams(searchParams.toString());
+      
+      // Remove tag when searching
+      params.delete('tag');
+      
       if (value.trim()) {
         params.set('q', value);
       } else {
@@ -55,7 +60,7 @@ export function SearchBox({ initialQuery = '' }: SearchBoxProps) {
         type="text"
         value={query}
         onChange={(e) => handleSearch(e.target.value)}
-        placeholder="搜索文章标题、摘要、分类..."
+        placeholder="搜索文章标题、描述、来源..."
         className="block w-full pl-10 pr-3 py-3 border border-neutral-200 dark:border-neutral-800 rounded-lg bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
       />
       {query && (
@@ -81,19 +86,21 @@ export function SearchBox({ initialQuery = '' }: SearchBoxProps) {
   );
 }
 
-interface ArticleListProps {
-  articles: {
-    slug: string;
-    title: string;
-    source: string;
-    category: string;
-    date: string;
-    aiSummary: string;
-  }[];
+export interface FeedArticle {
+  title: string;
+  url: string;
+  source: string;
+  author: string;
+  date: string;
+  description: string;
+  tags: string[];
+  recommendReason: string;
+  score: number;
 }
 
-export function ArticleList({ articles }: ArticleListProps) {
-  if (articles.length === 0) {
+// ArticleList component - receives articles as props from server
+export function ArticleList({ articles }: { articles: FeedArticle[] }) {
+  if (!articles || articles.length === 0) {
     return (
       <p className="text-neutral-500 text-center py-12">
         没有找到匹配的文章
@@ -103,31 +110,57 @@ export function ArticleList({ articles }: ArticleListProps) {
 
   return (
     <div className="grid gap-3">
-      {articles.map((article) => (
-        <Link
-          key={article.slug}
-          href={`/discover/${article.slug}`}
+      {articles.map((article, index) => (
+        <a
+          key={`${article.url}-${index}`}
+          href={article.url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="block border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors group"
         >
           <div className="flex items-start justify-between gap-4">
             <div className="flex-1 min-w-0">
-              <h3 className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors truncate">
+              {/* Score Badge */}
+              <div className="flex items-center gap-2 mb-1.5">
+                <span className="text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 px-1.5 py-0.5 rounded">
+                  {article.score.toFixed(1)}
+                </span>
+                {article.tags && article.tags.slice(0, 2).map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-1.5 py-0.5 text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-500 rounded"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              
+              <h3 className="font-medium text-neutral-900 dark:text-neutral-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                 {article.title}
               </h3>
-              {article.aiSummary && (
-                <p className="mt-1 text-sm text-neutral-500 line-clamp-2">
-                  {article.aiSummary}
+              
+              {/* Author, Source, Date */}
+              <div className="flex items-center gap-2 mt-1.5 text-sm text-neutral-500">
+                {article.author && (
+                  <>
+                    <span>{article.author}</span>
+                    <span>·</span>
+                  </>
+                )}
+                <span>{article.source}</span>
+                <span>·</span>
+                <span>{article.date}</span>
+              </div>
+              
+              {/* Description */}
+              {article.description && (
+                <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
+                  {article.description}
                 </p>
               )}
             </div>
-            <div className="flex items-center gap-2 shrink-0">
-              <span className="text-xs text-neutral-400">{article.source}</span>
-              <span className="px-2 py-0.5 text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded">
-                {article.category}
-              </span>
-            </div>
           </div>
-        </Link>
+        </a>
       ))}
     </div>
   );
