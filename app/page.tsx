@@ -3,6 +3,7 @@ import { getLatestFeedDay } from '@/lib/feed';
 import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
 
+// BUILD_TIME: 2026-02-17 13:10:47
 export const revalidate = 0; // 禁用缓存
 
 export default function Home() {
