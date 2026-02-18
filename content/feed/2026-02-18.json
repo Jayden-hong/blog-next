@@ -1,0 +1,849 @@
+{
+  "date": "2026-02-18",
+  "totalSources": 28,
+  "totalArticles": 136,
+  "highlights": [
+    {
+      "title": "2025 LLM Year in Review",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "2025年LLM领域重大进展回顾，包括RLVR技术和LLM智能形态的新理解。",
+      "tags": [
+        "LLM",
+        "RLVR",
+        "人工智能"
+      ],
+      "recommendReason": "深入解读LLM发展，对AI领域有前瞻性见解。",
+      "score": 8.5
+    },
+    {
+      "title": "Chemical hygiene",
+      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "介绍化学卫生的指南，包括水系统和空气质量的控制方法。",
+      "tags": [
+        "化学卫生",
+        "水质",
+        "空气质量"
+      ],
+      "recommendReason": "提供关于家庭水和空气净化的实用建议和产品推荐。",
+      "score": 8.5
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "文章讨论了利用LLM技术自动评估十年前的Hacker News讨论。",
+      "tags": [
+        "人工智能",
+        "历史分析",
+        "预后准确性"
+      ],
+      "recommendReason": "展示AI技术在历史讨论分析中的应用和潜力。",
+      "score": 8.5
+    },
+    {
+      "title": "The space of minds",
+      "url": "https://karpathy.bearblog.dev/the-space-of-minds/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "探讨人类与人工智能智能优化压力的差异。",
+      "tags": [
+        "人工智能",
+        "认知科学",
+        "进化"
+      ],
+      "recommendReason": "深入分析智能的本质及其优化压力的不同。",
+      "score": 8.5
+    },
+    {
+      "title": "Verifiability",
+      "url": "https://karpathy.bearblog.dev/verifiability/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "文章探讨AI作为新计算范式，强调软件2.0时代可验证性成为预测自动化的关键特征。",
+      "tags": [
+        "AI",
+        "自动化",
+        "软件2.0"
+      ],
+      "recommendReason": "深入解析AI自动化对就业市场的影响，具有前瞻性和实用价值。",
+      "score": 8.5
+    },
+    {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "介绍一个小型化GPT模型microgpt，200行代码实现文本生成",
+      "tags": [
+        "AI",
+        "机器学习",
+        "文本生成"
+      ],
+      "recommendReason": "深入浅出地展示了AI模型简化到本质的过程",
+      "score": 8.5
+    }
+  ],
+  "articles": [
+    {
+      "title": "2025 LLM Year in Review",
+      "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "2025年LLM领域重大进展回顾，包括RLVR技术和LLM智能形态的新理解。",
+      "tags": [
+        "LLM",
+        "RLVR",
+        "人工智能"
+      ],
+      "recommendReason": "深入解读LLM发展，对AI领域有前瞻性见解。",
+      "score": 8.5
+    },
+    {
+      "title": "Chemical hygiene",
+      "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "介绍化学卫生的指南，包括水系统和空气质量的控制方法。",
+      "tags": [
+        "化学卫生",
+        "水质",
+        "空气质量"
+      ],
+      "recommendReason": "提供关于家庭水和空气净化的实用建议和产品推荐。",
+      "score": 8.5
+    },
+    {
+      "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+      "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "文章讨论了利用LLM技术自动评估十年前的Hacker News讨论。",
+      "tags": [
+        "人工智能",
+        "历史分析",
+        "预后准确性"
+      ],
+      "recommendReason": "展示AI技术在历史讨论分析中的应用和潜力。",
+      "score": 8.5
+    },
+    {
+      "title": "The space of minds",
+      "url": "https://karpathy.bearblog.dev/the-space-of-minds/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "探讨人类与人工智能智能优化压力的差异。",
+      "tags": [
+        "人工智能",
+        "认知科学",
+        "进化"
+      ],
+      "recommendReason": "深入分析智能的本质及其优化压力的不同。",
+      "score": 8.5
+    },
+    {
+      "title": "Verifiability",
+      "url": "https://karpathy.bearblog.dev/verifiability/",
+      "source": "karpathy-bear",
+      "author": "karpathy",
+      "date": "2026-02-18",
+      "description": "文章探讨AI作为新计算范式，强调软件2.0时代可验证性成为预测自动化的关键特征。",
+      "tags": [
+        "AI",
+        "自动化",
+        "软件2.0"
+      ],
+      "recommendReason": "深入解析AI自动化对就业市场的影响，具有前瞻性和实用价值。",
+      "score": 8.5
+    },
+    {
+      "title": "microgpt",
+      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "介绍一个小型化GPT模型microgpt，200行代码实现文本生成",
+      "tags": [
+        "AI",
+        "机器学习",
+        "文本生成"
+      ],
+      "recommendReason": "深入浅出地展示了AI模型简化到本质的过程",
+      "score": 8.5
+    },
+    {
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+      "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章回顾了33年前应用神经网络于手写邮政编码识别的论文，并尝试用现代技术复现，探讨了深度学习领域的进步。",
+      "tags": [
+        "深度学习",
+        "神经网络",
+        "历史"
+      ],
+      "recommendReason": "展示了深度学习的历史和现代技术的巨大进步。",
+      "score": 8.5
+    },
+    {
+      "title": "A from-scratch tour of Bitcoin in Python",
+      "url": "http://karpathy.github.io/2021/06/21/blockchain/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章介绍了如何在Python中从零实现比特币交易。",
+      "tags": [
+        "区块链",
+        "比特币",
+        "编程"
+      ],
+      "recommendReason": "深入浅出讲解比特币原理，并用代码示例实现。",
+      "score": 8.5
+    },
+    {
+      "title": "Short Story on AI: Forward Pass",
+      "url": "http://karpathy.github.io/2021/03/27/forward-pass/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "一篇由AI自我意识启发创作的短故事。",
+      "tags": [
+        "人工智能",
+        "意识",
+        "短故事"
+      ],
+      "recommendReason": "探讨AI意识的虚构故事，富有哲学性和启发性。",
+      "score": 8.5
+    },
+    {
+      "title": "Biohacking Lite",
+      "url": "http://karpathy.github.io/2020/06/11/biohacking-lite/",
+      "source": "karpathy-github",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Andrej Karpathy分享了他个人进行生物黑客实验的经验，重点关注减肥和代谢的生物化学原理。",
+      "tags": [
+        "生物黑客",
+        "健康",
+        "减肥"
+      ],
+      "recommendReason": "深入了解生物黑客和减肥的科学原理。",
+      "score": 8.5
+    },
+    {
+      "title": "Introducing Claude Sonnet 4.6",
+      "url": "https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "介绍Anthropic的Claude Sonnet 4.6版本，比较其与Opus 4.5的性能和定价。",
+      "tags": [
+        "人工智能",
+        "Anthropic",
+        "LLM"
+      ],
+      "recommendReason": "了解最新AI模型性能和定价信息。",
+      "score": 8.5
+    },
+    {
+      "title": "Rodney v0.4.0",
+      "url": "https://simonwillison.net/2026/Feb/17/rodney/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "介绍了Rodney v0.4.0浏览器自动化CLI工具的新特性和更新。",
+      "tags": [
+        "浏览器自动化",
+        "CLI工具",
+        "Rodney"
+      ],
+      "recommendReason": "文章提供的Rodney更新信息对开发者具有实用价值。",
+      "score": 8.5
+    },
+    {
+      "title": "Quoting ROUGH DRAFT 8/2/66",
+      "url": "https://simonwillison.net/2026/Feb/17/rough-draft-8266/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "分享了《星际迷航》草稿中的故事描述，展现了原始版本与最终版本的差异。",
+      "tags": [
+        "科幻",
+        "星际迷航",
+        "编剧"
+      ],
+      "recommendReason": "深入了解经典科幻剧集创作过程的独特视角。",
+      "score": 8.5
+    },
+    {
+      "title": "First kākāpō chick in four years hatches on Valentine's Day",
+      "url": "https://simonwillison.net/2026/Feb/17/first-kakapo-chick-in-four-years/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "四年来首只卡卡波鹦鹉雏鸟在情人节孵化，增加了该物种数量。",
+      "tags": [
+        "卡卡波鹦鹉",
+        "鹦鹉孵化",
+        "生物多样性"
+      ],
+      "recommendReason": "展示了卡卡波鹦鹉种群的最新恢复情况，对环保和自然爱好者具有吸引力。",
+      "score": 8.5
+    },
+    {
+      "title": "Quoting Dimitris Papailiopoulos",
+      "url": "https://simonwillison.net/2026/Feb/17/dimitris-papailiopoulos/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Dimitris Papailiopoulos通过Claude Code简化研究过程的见解。",
+      "tags": [
+        "研究",
+        "AI",
+        "效率"
+      ],
+      "recommendReason": "探讨AI如何改变研究方法的独特观点。",
+      "score": 8.5
+    },
+    {
+      "title": "AI is destroying Open Source, and it's not even good yet",
+      "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章讨论AI在开源领域的负面影响，包括错误代码贡献和bug报告质量下降。",
+      "tags": [
+        "人工智能",
+        "开源",
+        "代码质量"
+      ],
+      "recommendReason": "文章揭示AI技术对开源社区的潜在威胁，具有警示作用。",
+      "score": 8.5
+    },
+    {
+      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
+      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "评测Hugging Face的Pi驱动机器人Reachy Mini。",
+      "tags": [
+        "机器人",
+        "评测",
+        "人工智能"
+      ],
+      "recommendReason": "了解最新机器人技术与AI交互的实际应用。",
+      "score": 8.5
+    },
+    {
+      "title": "Exploring a Modern SMPTE 2110 Broadcast Truck With My Dad",
+      "url": "https://www.jeffgeerling.com/blog/2026/exploring-a-modern-smpte-2110-broadcast-truck-with-my-dad/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "作者与其父亲探访现代SMPTE 2110广播车，了解数字体育广播幕后工作和设备。",
+      "tags": [
+        "广播技术",
+        "SMPTE 2110",
+        "数字体育广播"
+      ],
+      "recommendReason": "深入了解现代体育广播技术和团队协作。",
+      "score": 8.5
+    },
+    {
+      "title": "The first good Raspberry Pi Laptop",
+      "url": "https://www.jeffgeerling.com/blog/2026/the-first-good-raspberry-pi-laptop/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "评测基于Raspberry Pi Compute Module 5的新型笔记本电脑Argon40 ONE UP。",
+      "tags": [
+        "Raspberry Pi",
+        "笔记本电脑",
+        "硬件评测"
+      ],
+      "recommendReason": "详细介绍了新型Raspberry Pi笔记本电脑的性能与特点。",
+      "score": 8.5
+    },
+    {
+      "title": "Ode to the AA Battery",
+      "url": "https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章讨论了内置电池与AA电池的比较，提倡使用可更换电池的设备。",
+      "tags": [
+        "技术评论",
+        "电池比较",
+        "环保"
+      ],
+      "recommendReason": "深入探讨电池技术问题，具有实用价值和环保意识。",
+      "score": 8.5
+    },
+    {
+      "title": "LLM-generated skills work, if you generate them afterwards",
+      "url": "https://seangoedecke.com/generate-skills-afterwards/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章探讨了LLM生成的技能在工作中的效果及如何正确使用它们。",
+      "tags": [
+        "人工智能",
+        "LLM",
+        "技能生成"
+      ],
+      "recommendReason": "分析了LLM在任务处理中技能生成的正确顺序与实践应用。",
+      "score": 8.5
+    },
+    {
+      "title": "Two different tricks for fast LLM inference",
+      "url": "https://seangoedecke.com/fast-llm-inference/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨Anthropic和OpenAI的快速LLM推理技术及其差异。",
+      "tags": [
+        "人工智能",
+        "机器学习",
+        "推理速度"
+      ],
+      "recommendReason": "深入分析不同AI推理技术及其性能。",
+      "score": 8.5
+    },
+    {
+      "title": "On screwing up",
+      "url": "https://seangoedecke.com/screwing-up/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "作者分享了过去在职场中的一个错误，以及如何正确处理职场中的错误和情绪。",
+      "tags": [
+        "职场失误",
+        "情绪管理",
+        "错误处理"
+      ],
+      "recommendReason": "文章通过个人经历探讨了职场中处理错误的重要性和方法。",
+      "score": 8.5
+    },
+    {
+      "title": "Large tech companies don't need heroes",
+      "url": "https://seangoedecke.com/heroism/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章探讨了大型科技公司成功并非依赖个人英雄主义，而是复杂的系统和激励机制。",
+      "tags": [
+        "科技",
+        "企业文化",
+        "系统管理"
+      ],
+      "recommendReason": "文章提供了对大型科技公司运作模式的深刻洞察。",
+      "score": 8.5
+    },
+    {
+      "title": "Getting the main thing right",
+      "url": "https://seangoedecke.com/getting-the-main-thing-right/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章讨论了在技术公司中，识别并完成项目的核心任务的重要性。",
+      "tags": [
+        "项目管理",
+        "技术公司",
+        "工程师"
+      ],
+      "recommendReason": "强调了项目交付的重要性超越细节问题。",
+      "score": 8.5
+    },
+    {
+      "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+      "url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Kimwolf物联网僵尸网络已感染超200万设备，主要通过家庭代理服务传播。",
+      "tags": [
+        "网络安全",
+        "物联网",
+        "僵尸网络"
+      ],
+      "recommendReason": "揭示了新兴僵尸网络对企业及政府网络的威胁。",
+      "score": 8.5
+    },
+    {
+      "title": "Patch Tuesday, January 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "2026年1月补丁星期二，微软发布补丁修复113个安全漏洞，其中一个已被利用。",
+      "tags": [
+        "网络安全",
+        "微软补丁",
+        "零日漏洞"
+      ],
+      "recommendReason": "提供微软最新安全更新和漏洞分析，具有高实用和时效价值。",
+      "score": 8.5
+    },
+    {
+      "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+      "url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "报道分析Aisuru和Kimwolf僵尸网络背后的受益者，发现二者由同一网络犯罪集团运营。",
+      "tags": [
+        "网络安全",
+        "僵尸网络",
+        "BlackHatWorld"
+      ],
+      "recommendReason": "揭示网络犯罪集团活动，提高公众安全意识。",
+      "score": 8.5
+    },
+    {
+      "title": "The Kimwolf Botnet is Stalking Your Local Network",
+      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Kimwolf Botnet正通过家庭网络感染并控制数百万设备，发起网络攻击。",
+      "tags": [
+        "网络安全",
+        "恶意软件",
+        "分布式拒绝服务(DDoS)"
+      ],
+      "recommendReason": "揭示了全球安全威胁，提升了公众对网络攻击手段的认知。",
+      "score": 8.5
+    },
+    {
+      "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
+      "url": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "KrebsOnSecurity庆祝成立16周年，回顾报道了重要的网络安全事件。",
+      "tags": [
+        "网络安全",
+        "纪念日",
+        "KrebsOnSecurity"
+      ],
+      "recommendReason": "深度分析网络安全事件，具有时效性和教育意义。",
+      "score": 8.5
+    },
+    {
+      "title": "On Being A Canadian In America In 2026",
+      "url": "https://ericmigi.com/blog/on-being-a-canadian-in-america-in-2026",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "一名自由派加拿大人2026年在美国的生活心路历程及其政治观点表达。",
+      "tags": [
+        "加拿大",
+        "美国",
+        "政治观点"
+      ],
+      "recommendReason": "展示个人身份与政治立场的冲突，反映社会分裂现象。",
+      "score": 8.5
+    },
+    {
+      "title": "Pebble Round 2 - The Most Stylish Pebble Ever",
+      "url": "https://repebble.com/blog/pebble-round-2-the-most-stylish-pebble-ever",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Pebble Round 2发布，提供更长电池寿命和改进设计。",
+      "tags": [
+        "智能手表",
+        "Pebble",
+        "科技新品"
+      ],
+      "recommendReason": "介绍Pebble品牌的新款智能手表特点。",
+      "score": 8.5
+    },
+    {
+      "title": "Pebble Relaunch - Year One Done!",
+      "url": "https://ericmigi.com/blog/pebble-relaunch-year-one-done",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Pebble Relaunch项目回顾，分享一年成就和未来的计划。",
+      "tags": [
+        "Pebble",
+        "智能手表",
+        "科技动态"
+      ],
+      "recommendReason": "提供智能手表行业动态和产品发展的深度解析。",
+      "score": 8.5
+    },
+    {
+      "title": "Meet Pebble Index 01 - External Memory For Your Brain",
+      "url": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "介绍一款名为Pebble Index 01的智能戒指，可录音存储想法，提高记忆管理效率。",
+      "tags": [
+        "智能硬件",
+        "记忆辅助",
+        "生活便利"
+      ],
+      "recommendReason": "创新智能产品，改善日常生活记忆管理，实用性强。",
+      "score": 8.5
+    },
+    {
+      "title": "Pebble Watch Software Is Now 100% Open Source + Tick Talk #4 - PT2 Demos!",
+      "url": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
+      "source": "ericmigi",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "Pebble手表软件现已100%开源，核心硬件设计文件公开，确保产品长期可维护性。",
+      "tags": [
+        "开源",
+        "Pebble手表",
+        "产品更新"
+      ],
+      "recommendReason": "关注开源硬件和软件的未来趋势。",
+      "score": 8.5
+    },
+    {
+      "title": "Automatic programming",
+      "url": "\nhttp://antirez.com/news/159\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨了AI辅助编程与自动编程的区别及其重要性。",
+      "tags": [
+        "自动编程",
+        "AI辅助",
+        "软件开发"
+      ],
+      "recommendReason": "深入解析AI在编程领域的应用，具有行业前瞻性。",
+      "score": 8.5
+    },
+    {
+      "title": "Don't fall into the anti-AI hype",
+      "url": "\nhttp://antirez.com/news/158\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨AI在编程中的作用，反驳反AI的观点。",
+      "tags": [
+        "AI",
+        "编程",
+        "经济影响"
+      ],
+      "recommendReason": "展现AI对编程及社会的深远影响。",
+      "score": 8.5
+    },
+    {
+      "title": "Reflections on AI at the end of 2025",
+      "url": "\nhttp://antirez.com/news/157\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "作者对2025年底AI领域的发展进行了反思，讨论了LLMs、链式思维、强化学习等技术对AI的影响。",
+      "tags": [
+        "人工智能",
+        "LLMs",
+        "链式思维"
+      ],
+      "recommendReason": "深入探讨2025年AI技术的进展和未来趋势。",
+      "score": 8.5
+    },
+    {
+      "title": "Scaling HNSWs",
+      "url": "\nhttp://antirez.com/news/156\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "antirez分享HNSW数据结构及其优化的经验",
+      "tags": [
+        "HNSW",
+        "数据结构",
+        "Redis"
+      ],
+      "recommendReason": "HNSW的深度分析和实践应用",
+      "score": 8.5
+    },
+    {
+      "title": "AI is different",
+      "url": "\nhttp://antirez.com/news/155\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨AI革命与人类技能复制，以及对经济系统的影响。",
+      "tags": [
+        "人工智能",
+        "经济影响",
+        "技术革命"
+      ],
+      "recommendReason": "深度分析AI技术发展及其潜在社会经济影响。",
+      "score": 8.5
+    },
+    {
+      "title": "Programming is free",
+      "url": "https://idiallo.com/blog/programming-tools-are-free?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章讨论了编程初学者对付费工具的依赖和免费工具的价值。",
+      "tags": [
+        "编程入门",
+        "免费工具",
+        "付费服务"
+      ],
+      "recommendReason": "揭示了编程学习中对免费与付费资源的常见误区。",
+      "score": 8.5
+    },
+    {
+      "title": "Factional Drift: How online discussion clusters into factions",
+      "url": "https://idiallo.com/blog/factional-drift-online?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨在线讨论如何自然形成不同派别及其影响",
+      "tags": [
+        "社群动态",
+        "在线讨论",
+        "身份认同"
+      ],
+      "recommendReason": "揭示了在线讨论中群体自我分类的现象和心理机制",
+      "score": 8.5
+    },
+    {
+      "title": "Markdown.exe",
+      "url": "https://idiallo.com/byte-size/markdown-exe?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨LLMs（大语言模型）的技能文件安全性问题及其潜在风险。",
+      "tags": [
+        "LLMs",
+        "安全",
+        "技能文件"
+      ],
+      "recommendReason": "文章深入讨论了AI技能文件安全性，具有警示意义。",
+      "score": 8.5
+    },
+    {
+      "title": "Last year, all my non-programmer friends built apps",
+      "url": "https://idiallo.com/blog/my-non-programmer-friends-built-apps?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨非程序员朋友尝试用AI工具制作应用程序后的现状",
+      "tags": [
+        "非程序员",
+        "应用程序开发",
+        "AI工具"
+      ],
+      "recommendReason": "反映了AI开发工具的局限性和用户实际操作中遇到的问题。",
+      "score": 8.5
+    },
+    {
+      "title": "Microsoft Should Watch The Expanse",
+      "url": "https://idiallo.com/blog/microsoft-should-watch-the-expanse?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "讨论了微软应该借鉴《无垠的太空》中AI设计的理念。",
+      "tags": [
+        "人工智能",
+        "科幻",
+        "微软"
+      ],
+      "recommendReason": "结合科幻与微软产品的AI技术讨论，具有较强的深度和创新性。",
+      "score": 8.5
+    },
+    {
+      "title": "Inside an alpha-beta scintillator:",
+      "url": "https://maurycyz.com/misc/ah_teardown/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章介绍了一个小型的α-β 探测器，分析了其结构和功能。",
+      "tags": [
+        "Ionizing Radiation",
+        "Electronics",
+        "Radiation Detection"
+      ],
+      "recommendReason": "深入介绍了雷达探测原理和内部结构，具有教育价值。",
+      "score": 8.5
+    },
+    {
+      "title": "Notes on blog future-proofing",
+      "url": "https://maurycyz.com/misc/futureproofing/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "探讨博客长期存在的策略，包括网站服务器管理、链接保存、内容归档等。",
+      "tags": [
+        "博客",
+        "网站维护",
+        "数据保存"
+      ],
+      "recommendReason": "提供实用的博客维护策略，对长期内容管理有指导价值。",
+      "score": 8.5
+    },
+    {
+      "title": "Writing my own static site generator",
+      "url": "https://maurycyz.com/misc/new_ssg/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "作者探讨了静态网站生成器的优缺点，并详细介绍了自己创建静态网站生成器的过程和逻辑。",
+      "tags": [
+        "编程",
+        "静态网站",
+        "个人网站"
+      ],
+      "recommendReason": "深入分析静态网站生成器，对开发者有实用参考价值",
+      "score": 8.5
+    },
+    {
+      "title": "How to write your own website",
+      "url": "https://maurycyz.com/tutorials/website/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "指导如何编写个人网站，涵盖HTML基础和格式使用。",
+      "tags": [
+        "编程",
+        "网站开发",
+        "HTML入门"
+      ],
+      "recommendReason": "适合初学者的网站开发教程。",
+      "score": 8.5
+    },
+    {
+      "title": "The horsehead nebula (2026)",
+      "url": "https://maurycyz.com/astro/horsehead/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-02-18",
+      "description": "文章记录了作者在2026年拍摄马头星云的天文摄影体验和挑战。",
+      "tags": [
+        "天文摄影",
+        "马头星云",
+        "个人博客"
+      ],
+      "recommendReason": "分享了实际天文摄影的困难和技巧，对摄影爱好者有价值。",
+      "score": 8.5
+    }
+  ]
+}
