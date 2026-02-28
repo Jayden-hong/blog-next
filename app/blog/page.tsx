@@ -21,7 +21,7 @@ export default function BlogPage() {
             Personal essays and technical writings
           </p>
           <p className="text-xs text-neutral-400 mt-4">
-            支持 AI 友好格式：在任意文章链接前添加 <code className="bg-neutral-100 px-1 rounded">/md/</code> 即可获得纯净 Markdown 版本（体积减少 70%，更适合大语言模型阅读）
+            Agent-friendly：在任意文章链接前添加 <code className="bg-neutral-100 px-1 rounded">/md/</code> 即可获得纯净 Markdown 版本（体积减少 70%，更适合大语言模型阅读）
             <br />
             示例：<code className="bg-neutral-100 px-1 rounded">/blog/daily-thoughts-2026-02-28/</code> → <code className="bg-neutral-100 px-1 rounded">/md/daily-thoughts-2026-02-28.md</code>
           </p>
