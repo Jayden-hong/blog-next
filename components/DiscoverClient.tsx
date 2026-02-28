@@ -52,9 +52,9 @@ export function DiscoverClient() {
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
       result = result.filter(a => 
-        a.title.toLowerCase().includes(q) ||
+        a.title?.toLowerCase().includes(q) ||
         a.description?.toLowerCase().includes(q) ||
-        a.source.toLowerCase().includes(q) ||
+        a.source?.toLowerCase().includes(q) ||
         a.tags?.some(t => t.toLowerCase().includes(q))
       );
     }
@@ -100,9 +100,10 @@ export function DiscoverClient() {
     );
   }
 
-  const avgScore = feedData.articles.length > 0 
-    ? (feedData.articles.reduce((sum, a) => sum + (a.score || 5), 0) / feedData.articles.length).toFixed(1)
-    : '0';
+  const articlesWithScores = feedData.articles.filter(a => a.score);
+  const avgScore = articlesWithScores.length > 0 
+    ? (articlesWithScores.reduce((sum, a) => sum + a.score, 0) / articlesWithScores.length).toFixed(1)
+    : null;
 
   return (
     <>
@@ -117,7 +118,9 @@ export function DiscoverClient() {
           </span>
         </div>
         <p className="text-sm text-neutral-500 mt-2">
-          {feedData.totalArticles} articles · avg {avgScore}/10 · curated by Kimi K2.5
+          {feedData.totalArticles} articles
+          {avgScore && ` · avg ${avgScore}/10`}
+          {avgScore && ' · curated by Kimi K2.5'}
         </p>
       </header>
 
@@ -167,8 +170,8 @@ export function DiscoverClient() {
           >
             {/* Meta */}
             <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
-              <span>{article.score.toFixed(1)}</span>
-              <span className="text-neutral-200">|</span>
+              {article.score && <span>{article.score.toFixed(1)}</span>}
+              {article.score && <span className="text-neutral-200">|</span>}
               <span>{article.source}</span>
               {article.author && (
                 <>
@@ -190,9 +193,11 @@ export function DiscoverClient() {
             </h3>
             
             {/* Description - 一行 */}
-            <p className="text-sm text-neutral-500 line-clamp-1">
-              {article.description}
-            </p>
+            {article.description && (
+              <p className="text-sm text-neutral-500 line-clamp-1">
+                {article.description}
+              </p>
+            )}
             
             {/* Recommend Reason - 仅 Highlights 显示 (通过数据控制) */}
             {article.recommendReason && (
