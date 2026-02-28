@@ -4,7 +4,7 @@ import { format } from 'date-fns';
 
 export const metadata = {
   title: 'Writing - Jayden',
-  description: '个人博客文章',
+  description: 'Personal essays and technical writings. AI-friendly markdown versions available.',
 };
 
 export default function BlogPage() {
@@ -18,7 +18,11 @@ export default function BlogPage() {
             Writing
           </h1>
           <p className="text-sm text-neutral-500 mt-2">
-            个人思考与技术分享
+            Personal essays and technical writings
+          </p>
+          <p className="text-xs text-neutral-400 mt-4 flex items-center gap-2">
+            <span>🤖</span>
+            <span>Agent-friendly: Add <code className="bg-neutral-100 px-1 rounded">/md/</code> to any article URL for clean markdown (70% smaller, perfect for LLMs)</span>
           </p>
         </header>
 

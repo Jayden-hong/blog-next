@@ -1,28 +1,10 @@
-﻿<!-- 
-🤖 AGENT FRIENDLY
-This article is available in Markdown format for optimal AI consumption.
-
-Grab it via: GET https://blog.zucchini.win/md/{slug}.md
-With header: Accept: text/markdown
-
-Benefits:
-- 70% smaller than HTML (~10KB vs ~35KB)
-- Structured frontmatter with metadata
-- Clean markdown, no styling noise
-- Perfect for LLM context windows
-
-Generated automatically on each deploy.
--->
-
----
+﻿---
 title: "Daily Read · 2026-02-28"
 date: "2026-02-28T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
 slug: "latest-brief"
-agent_friendly: true
 ---
-
 
 > 17 articles · 8.4/10 avg · 16 highlights
 
@@ -64,4 +46,3 @@ Anthropic向大型开源项目维护者免费赠送6个月Claude Max 20x计划�
 
 ---
 *2026-02-28 09:49 UTC · Kimi K2 · 94 sources*
-
