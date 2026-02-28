@@ -41,19 +41,6 @@
         "rss"
       ],
       "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/",
-      "url": "https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/",
-      "title": "2025 LLM 年度回顾与 AI 现状思考",
-      "content_text": "\n 2025 LLM 年度回顾与 AI 现状思考\n\n> 从 Karpathy 的视角看 AI 发展\n\n 2025 年发生了什么？\n\nKarpathy 在他的 [2025 年度回顾](https://karpathy.bearblog.dev/year-in-review-2025/) 中提到，AI 技术在这一年经历了从「能做什么」到「怎么做更好」的转变。LLM 的能力边界已经基本确定，关键竞",
-      "date_published": "2026-02-16",
-      "tags": [
-        "AI",
-        "LLM",
-        "年度回顾"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/rss-ai-highlights-2026-02-16.md"
     }
   ]
 }

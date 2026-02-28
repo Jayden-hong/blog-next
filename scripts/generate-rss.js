@@ -22,6 +22,9 @@ function generateRss() {
     return;
   }
 
+  // Get cutoff time (24 hours ago)
+  const cutoffTime = Date.now() - 24 * 60 * 60 * 1000;
+
   const files = fs.readdirSync(postsDir)
     .filter(f => f.endsWith('.mdx') || f.endsWith('.md'))
     .map(fileName => {
@@ -29,20 +32,21 @@ function generateRss() {
       const fullPath = path.join(postsDir, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const { data, content } = matter(fileContents);
+      const postTime = new Date(data.date || 0).getTime();
       
       return {
         slug,
         title: data.title || slug,
         date: data.date || new Date().toISOString(),
+        postTime,
         description: data.description || content.slice(0, 200).replace(/[#*_`]/g, ''),
         tags: data.tags || []
       };
     })
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 20); // Last 20 articles
+    .filter(post => post.postTime >= cutoffTime) // Only last 24h
+    .sort((a, b) => b.postTime - a.postTime);
 
   const lastBuildDate = new Date().toUTCString();
-  const firstPostDate = files[0]?.date ? new Date(files[0].date).toUTCString() : lastBuildDate;
 
   let rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
@@ -72,7 +76,7 @@ ${categories}
       <description>${escapeXml(post.description)}</description>
       <content:encoded><![CDATA[
         <p>${post.description}</p>
-        <p><a href="${mdUrl}">📄 Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="${mdUrl}">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="${postUrl}">Read on blog →</a></p>
       ]]></content:encoded>
     </item>`;
@@ -83,7 +87,7 @@ ${categories}
 </rss>`;
 
   fs.writeFileSync(path.join(outputDir, 'rss.xml'), rss, 'utf8');
-  console.log(`✓ Generated RSS feed with ${files.length} items`);
+  console.log(`✓ Generated RSS feed with ${files.length} items (last 24h)`);
   
   // Also generate JSON Feed (modern alternative)
   const jsonFeed = {
@@ -105,7 +109,7 @@ ${categories}
   };
   
   fs.writeFileSync(path.join(outputDir, 'feed.json'), JSON.stringify(jsonFeed, null, 2), 'utf8');
-  console.log(`✓ Generated JSON feed with ${files.length} items`);
+  console.log(`✓ Generated JSON feed with ${files.length} items (last 24h)`);
 }
 
 generateRss();
