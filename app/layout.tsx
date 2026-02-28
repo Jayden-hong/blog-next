@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Jayden's Blog",
-  description: "AI 产品经理的思考与实践",
+  description: "Your attention is valuable. Every day: 6 must-reads, plus my latest writing.",
 };
 
 export default function RootLayout({
