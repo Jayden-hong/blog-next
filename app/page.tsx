@@ -30,7 +30,7 @@ export default function Home() {
           <div className="md:col-span-2">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-base font-medium text-neutral-900">
-                今日推荐 v49 <span className="text-xs text-neutral-400">v49</span>
+                Daily Picks <span className="text-xs text-neutral-400">v49</span>
               </h2>
               <span className="text-xs text-neutral-400 mono">
                 {feedDay?.date || format(new Date(), 'yyyy-MM-dd')}
@@ -91,11 +91,11 @@ export default function Home() {
                   href="/discover"
                   className="inline-block mt-4 text-sm text-neutral-400 hover:text-neutral-900 transition-colors"
                 >
-                  查看全部 →
+                  View all →
                 </Link>
               </div>
             ) : (
-              <p className="text-neutral-400 text-sm">今日暂无推荐</p>
+              <p className="text-neutral-400 text-sm">No picks today</p>
             )}
           </div>
 
