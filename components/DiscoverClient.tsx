@@ -64,17 +64,39 @@ export function DiscoverClient() {
 
   if (loading) {
     return (
-      <div className="text-center py-12">
-        <p className="text-sm text-neutral-400">Loading feed...</p>
-      </div>
+      <>
+        <header className="mb-8">
+          <div className="flex items-baseline justify-between">
+            <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+              Discover
+            </h1>
+            <span className="text-xs text-neutral-400 mono">
+              Loading...
+            </span>
+          </div>
+          <p className="text-sm text-neutral-500 mt-2">
+            Curated by Kimi K2.5
+          </p>
+        </header>
+        <div className="text-center py-12">
+          <p className="text-sm text-neutral-400">Loading feed...</p>
+        </div>
+      </>
     );
   }
 
   if (!feedData) {
     return (
-      <div className="text-center py-12">
-        <p className="text-sm text-neutral-400">Failed to load feed</p>
-      </div>
+      <>
+        <header className="mb-8">
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+            Discover
+          </h1>
+          <p className="text-sm text-neutral-500 mt-2">
+            Failed to load feed
+          </p>
+        </header>
+      </>
     );
   }
 
@@ -84,17 +106,20 @@ export function DiscoverClient() {
 
   return (
     <>
-      {/* Update header with actual data */}
-      <div className="mb-8 -mt-8">
-        <div className="flex items-baseline justify-between mb-2">
+      {/* Header with actual data */}
+      <header className="mb-8">
+        <div className="flex items-baseline justify-between">
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+            Discover
+          </h1>
           <span className="text-xs text-neutral-400 mono">
             {feedData.date}
           </span>
         </div>
-        <p className="text-sm text-neutral-500">
-          {feedData.totalArticles} articles · avg {avgScore}/10
+        <p className="text-sm text-neutral-500 mt-2">
+          {feedData.totalArticles} articles · avg {avgScore}/10 · curated by Kimi K2.5
         </p>
-      </div>
+      </header>
 
       {/* Search */}
       <div className="relative mb-6">
