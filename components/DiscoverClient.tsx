@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 
 interface FeedArticle {
   title: string;
@@ -14,17 +14,36 @@ interface FeedArticle {
   score: number;
 }
 
-interface DiscoverClientProps {
+interface FeedData {
+  date: string;
+  totalSources: number;
+  totalArticles: number;
   articles: FeedArticle[];
   allTags: string[];
 }
 
-export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
+export function DiscoverClient() {
+  const [feedData, setFeedData] = useState<FeedData | null>(null);
+  const [loading, setLoading] = useState(true);
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
 
+  useEffect(() => {
+    fetch('/feed/latest.json')
+      .then(res => res.json())
+      .then(data => {
+        setFeedData(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load feed:', err);
+        setLoading(false);
+      });
+  }, []);
+
   const filteredArticles = useMemo(() => {
-    let result = articles;
+    if (!feedData) return [];
+    let result = feedData.articles;
     
     if (activeTag) {
       result = result.filter(a => a.tags?.some(t => t.toLowerCase() === activeTag.toLowerCase()));
@@ -41,10 +60,42 @@ export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
     }
     
     return result;
-  }, [articles, activeTag, searchQuery]);
+  }, [feedData, activeTag, searchQuery]);
+
+  if (loading) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-sm text-neutral-400">Loading feed...</p>
+      </div>
+    );
+  }
+
+  if (!feedData) {
+    return (
+      <div className="text-center py-12">
+        <p className="text-sm text-neutral-400">Failed to load feed</p>
+      </div>
+    );
+  }
+
+  const avgScore = feedData.articles.length > 0 
+    ? (feedData.articles.reduce((sum, a) => sum + (a.score || 5), 0) / feedData.articles.length).toFixed(1)
+    : '0';
 
   return (
     <>
+      {/* Update header with actual data */}
+      <div className="mb-8 -mt-8">
+        <div className="flex items-baseline justify-between mb-2">
+          <span className="text-xs text-neutral-400 mono">
+            {feedData.date}
+          </span>
+        </div>
+        <p className="text-sm text-neutral-500">
+          {feedData.totalArticles} articles · avg {avgScore}/10
+        </p>
+      </div>
+
       {/* Search */}
       <div className="relative mb-6">
         <input
@@ -66,7 +117,7 @@ export function DiscoverClient({ articles, allTags }: DiscoverClientProps) {
         >
           ALL
         </button>
-        {allTags.slice(0, 8).map((t) => (
+        {feedData.allTags.slice(0, 8).map((t) => (
           <button
             key={t}
             onClick={() => setActiveTag(t)}
