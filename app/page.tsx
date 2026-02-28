@@ -19,7 +19,7 @@ export default function Home() {
           No Noise Blog
         </h1>
         <p className="text-neutral-500 leading-relaxed">
-          Your attention is valuable. Every day: 6 must-reads, plus my latest notes.
+          Your attention is valuable. Every day: 6 must-reads, plus my latest writing.
         </p>
       </section>
 
