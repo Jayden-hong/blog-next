@@ -23,7 +23,7 @@ export function getAllPosts(): Post[] {
 
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames
-    .filter((fileName) => fileName.endsWith('.mdx') || fileName.endsWith('.md'))
+    .filter((fileName) => (fileName.endsWith('.mdx') || fileName.endsWith('.md')) && fileName !== 'latest-brief.mdx')
     .map((fileName) => {
       const slug = fileName.replace(/\.(mdx|md)$/, '');
       const fullPath = path.join(postsDirectory, fileName);
