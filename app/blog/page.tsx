@@ -20,18 +20,9 @@ export default function BlogPage() {
     <div className="min-h-screen">
       <div className="max-w-3xl mx-auto px-4 py-12">
         <header className="mb-10">
-          <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
-              Writing
-            </h1>
-            <a 
-              href="/rss.xml" 
-              className="text-xs text-neutral-400 hover:text-neutral-600 mono"
-              title="Subscribe via RSS"
-            >
-              RSS
-            </a>
-          </div>
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+            Writing
+          </h1>
           <p className="text-sm text-neutral-500 mt-2">
             Personal essays and technical writings
           </p>
@@ -78,6 +69,29 @@ export default function BlogPage() {
               </article>
             ))
           )}
+        </div>
+
+        {/* Subscribe Section */}
+        <div className="mt-16 pt-8 border-t border-neutral-100">
+          <h3 className="text-sm font-medium text-neutral-900 mb-3">订阅</h3>
+          <p className="text-xs text-neutral-400 mb-3">
+            RSS 订阅仅包含最近24小时的文章
+          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/rss.xml"
+              className="text-xs text-neutral-400 hover:text-neutral-900 transition-colors mono"
+            >
+              RSS Feed
+            </a>
+            <span className="text-neutral-200">·</span>
+            <a
+              href="/feed.json"
+              className="text-xs text-neutral-400 hover:text-neutral-900 transition-colors mono"
+            >
+              JSON Feed
+            </a>
+          </div>
         </div>
       </div>
     </div>
