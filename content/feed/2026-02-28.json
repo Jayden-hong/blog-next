@@ -1,97 +1,85 @@
 {
   "date": "2026-02-28",
-  "totalSources": 29,
-  "totalArticles": 141,
+  "totalSources": 3,
+  "totalArticles": 15,
   "highlights": [
     {
       "title": "2025 LLM Year in Review",
       "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "概述了2025年LLM领域的重大进展和概念变革。",
+      "date": "2025-12-20",
+      "description": "2025 Year in Review of LLM paradigm changes",
       "tags": [
-        "LLM",
-        "深度学习",
-        "人工智能"
+        "AI"
       ],
-      "recommendReason": "深度解析LLM领域新进展，对AI研究者具有指导意义。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Chemical hygiene",
       "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "文章讨论了维持化学卫生的重要性和具体措施。",
+      "date": "2025-12-22",
+      "description": "An evolving guide of protecting your health from a pricemaxxing industry.",
       "tags": [
-        "化学卫生",
-        "饮用水质",
-        "空气质量"
+        "AI"
       ],
-      "recommendReason": "提供了关于日常生活化学卫生的实用建议，具有指导意义。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Auto-grading decade-old Hacker News discussions with hindsight",
       "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "使用大型语言模型( LLM )对十年前的Hacker News讨论进行评价和分析。",
+      "date": "2025-12-10",
+      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at scale and in retrospect.",
       "tags": [
-        "人工智能",
-        "历史预测",
-        "语言模型"
+        "AI"
       ],
-      "recommendReason": "深入探讨未来预测器训练和LLM在历史评价中的应用。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "The space of minds",
       "url": "https://karpathy.bearblog.dev/the-space-of-minds/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "探讨动物智能与技术人工智能之间的根本差异及其优化压力。",
+      "date": "2025-11-29",
+      "description": "On the space of minds and the optimizations that give rise to them.",
       "tags": [
-        "人工智能",
-        "动物智能",
-        "技术优化"
+        "AI"
       ],
-      "recommendReason": "深入对比人类与AI智能的优化过程，具有前瞻性。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Verifiability",
       "url": "https://karpathy.bearblog.dev/verifiability/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "探讨AI作为新计算范式，重点在可验证性对自动化的影响",
+      "date": "2025-11-17",
+      "description": "The impact of verifiability on the jagged frontier of LLMs",
       "tags": [
-        "人工智能",
-        "自动化",
-        "计算范式"
+        "AI"
       ],
-      "recommendReason": "深度分析AI自动化发展趋势，具有前瞻性和实用价值",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "microgpt",
       "url": "http://karpathy.github.io/2026/02/12/microgpt/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "介绍一个用Python实现的极简GPT模型microgpt，包含文档、分词器、神经网络架构等",
+      "date": "2026-02-12",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfcfc;\n    font-size: 13px; /* make code smaller for ",
       "tags": [
-        "人工智能",
-        "机器学习",
-        "自然语言处理"
+        "AI"
       ],
-      "recommendReason": "展示了如何用极简代码实现复杂的语言模型",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     }
   ],
   "articles": [
@@ -100,368 +88,192 @@
       "url": "https://karpathy.bearblog.dev/year-in-review-2025/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "概述了2025年LLM领域的重大进展和概念变革。",
+      "date": "2025-12-20",
+      "description": "2025 Year in Review of LLM paradigm changes",
       "tags": [
-        "LLM",
-        "深度学习",
-        "人工智能"
+        "AI"
       ],
-      "recommendReason": "深度解析LLM领域新进展，对AI研究者具有指导意义。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Chemical hygiene",
       "url": "https://karpathy.bearblog.dev/chemical-hygiene/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "文章讨论了维持化学卫生的重要性和具体措施。",
+      "date": "2025-12-22",
+      "description": "An evolving guide of protecting your health from a pricemaxxing industry.",
       "tags": [
-        "化学卫生",
-        "饮用水质",
-        "空气质量"
+        "AI"
       ],
-      "recommendReason": "提供了关于日常生活化学卫生的实用建议，具有指导意义。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Auto-grading decade-old Hacker News discussions with hindsight",
       "url": "https://karpathy.bearblog.dev/auto-grade-hn/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "使用大型语言模型( LLM )对十年前的Hacker News讨论进行评价和分析。",
+      "date": "2025-12-10",
+      "description": "A vibe coding thought exercise on what it might look like for LLMs to scour human historical data at scale and in retrospect.",
       "tags": [
-        "人工智能",
-        "历史预测",
-        "语言模型"
+        "AI"
       ],
-      "recommendReason": "深入探讨未来预测器训练和LLM在历史评价中的应用。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "The space of minds",
       "url": "https://karpathy.bearblog.dev/the-space-of-minds/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "探讨动物智能与技术人工智能之间的根本差异及其优化压力。",
+      "date": "2025-11-29",
+      "description": "On the space of minds and the optimizations that give rise to them.",
       "tags": [
-        "人工智能",
-        "动物智能",
-        "技术优化"
+        "AI"
       ],
-      "recommendReason": "深入对比人类与AI智能的优化过程，具有前瞻性。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Verifiability",
       "url": "https://karpathy.bearblog.dev/verifiability/",
       "source": "karpathy-bear",
       "author": "karpathy",
-      "date": "2026-02-28",
-      "description": "探讨AI作为新计算范式，重点在可验证性对自动化的影响",
+      "date": "2025-11-17",
+      "description": "The impact of verifiability on the jagged frontier of LLMs",
       "tags": [
-        "人工智能",
-        "自动化",
-        "计算范式"
+        "AI"
       ],
-      "recommendReason": "深度分析AI自动化发展趋势，具有前瞻性和实用价值",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "microgpt",
       "url": "http://karpathy.github.io/2026/02/12/microgpt/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "介绍一个用Python实现的极简GPT模型microgpt，包含文档、分词器、神经网络架构等",
+      "date": "2026-02-12",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfcfc;\n    font-size: 13px; /* make code smaller for ",
       "tags": [
-        "人工智能",
-        "机器学习",
-        "自然语言处理"
+        "AI"
       ],
-      "recommendReason": "展示了如何用极简代码实现复杂的语言模型",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Deep Neural Nets: 33 years ago and 33 years from now",
       "url": "http://karpathy.github.io/2022/03/14/lecun1989/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "深度回顾神经网络的早期应用，对比现代实现的效率提升。",
+      "date": "2022-03-14",
+      "description": "<style>\n.post-header h1 {\n    font-size: 35px;\n}\n.post pre,\n.post code {\n    background-color: #fcfcfc;\n    font-size: 13px; /* make code smaller for ",
       "tags": [
-        "深度学习",
-        "神经网络",
-        "历史对比"
+        "AI"
       ],
-      "recommendReason": "展示了深度学习技术的进步和效率的显著提升。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "A from-scratch tour of Bitcoin in Python",
       "url": "http://karpathy.github.io/2021/06/21/blockchain/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "用Python实现比特币交易，探索区块链创新和椭圆曲线密码学",
+      "date": "2021-06-21",
+      "description": "<style>\n.wrap {\n    max-width: 900px;\n}\np {\n    font-family: sans-serif;\n    font-size: 15px;\n    font-weight: 300;\n    overflow-wrap: break-word; /* ",
       "tags": [
-        "比特币",
-        "区块链",
-        "Python"
+        "AI"
       ],
-      "recommendReason": "深入浅出讲比特币原理，代码示例丰富",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Short Story on AI: Forward Pass",
       "url": "http://karpathy.github.io/2021/03/27/forward-pass/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "探索人工智能意识的科幻短篇故事。",
+      "date": "2021-03-27",
+      "description": "<style>\np {\n  text-align: justify;\n}\n.post pre, .post code {\n    border: none;\n    background-color: #eee;\n}\n\n</style>\n\n<p>The inspiration for this sh",
       "tags": [
-        "人工智能",
-        "意识",
-        "科幻"
+        "AI"
       ],
-      "recommendReason": "深入探讨AI意识与自我认知，引发哲学讨论。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Biohacking Lite",
       "url": "http://karpathy.github.io/2020/06/11/biohacking-lite/",
       "source": "karpathy-github",
       "author": "",
-      "date": "2026-02-28",
-      "description": "Andrej Karpathy分享了他的健康改进之旅，包括饮食、锻炼和生物黑客实验。",
+      "date": "2020-06-11",
+      "description": "<p>Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew that you’re supposed to get some exercise and eat",
       "tags": [
-        "健康",
-        "生物黑客",
-        "营养"
+        "AI"
       ],
-      "recommendReason": "深度探讨个人健康实验和生物化学，具有启发性。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Please, please, please stop using passkeys for encrypting user data",
       "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-02-28",
-      "description": "呼吁停止使用密码密钥加密用户数据，以避免数据不可恢复的问题。",
+      "date": "2026-02-27",
+      "description": "<p><strong><a href=\"https://blog.timcappalli.me/p/passkeys-prf-warning/\">Please, please, please stop using passkeys for encrypting user data</a></stro",
       "tags": [
-        "数据安全",
-        "用户数据",
-        "加密"
+        "AI"
       ],
-      "recommendReason": "提出了用户数据加密的重要问题，具有实用价值和时效性。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
       "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-02-28",
-      "description": "文章讲述了一名AI编程怀疑论者尝试并深入探索AI编程的经历，包括将Python的scikit-learn库迁移到Rust的过程。",
+      "date": "2026-02-27",
+      "description": "<p><strong><a href=\"https://minimaxir.com/2026/02/ai-agent-coding/\">An AI agent coding skeptic tries AI agent coding, in excessive detail</a></strong>",
       "tags": [
-        "AI编程",
-        "机器学习",
-        "Rust"
+        "AI"
       ],
-      "recommendReason": "提供了AI编程领域的实践案例和最新进展。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Free Claude Max for (large project) open source maintainers",
       "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-02-28",
-      "description": "Anthropic为大型开源项目维护者提供免费的Claude Max AI服务。",
+      "date": "2026-02-27",
+      "description": "<p><strong><a href=\"https://claude.com/contact-sales/claude-for-oss\">Free Claude Max for (large project) open source maintainers</a></strong></p>\nAnth",
       "tags": [
-        "开源",
-        "AI",
-        "Anthropic"
+        "AI"
       ],
-      "recommendReason": "为开源领域带来实际利益和创新资源。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
       "url": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-02-28",
-      "description": "介绍通过HTTP范围请求使用二分查找探索Unicode码点的原型工具。",
+      "date": "2026-02-27",
+      "description": "<p><strong><a href=\"https://tools.simonwillison.net/unicode-binary-search\">Unicode Explorer using binary search over fetch() HTTP range requests</a></",
       "tags": [
-        "HTTP",
-        "Unicode",
-        "二分查找"
+        "AI"
       ],
-      "recommendReason": "结合新技术和算法的实用实验，具有时效性和实用价值。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Hoard things you know how to do",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-02-28",
-      "description": "文章讨论了如何通过积累和整合知识来提高软件工程师的工作效率。",
+      "date": "2026-02-26",
+      "description": "<p><em><a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/\">Agentic Engineering Patterns</a> ></em></p>\n    <p>Many of my tips for",
       "tags": [
-        "软件工程",
-        "知识管理",
-        "编码实践"
-      ],
-      "recommendReason": "提供了实用的知识管理技巧和代码解决方案。",
-      "score": 8.5
-    },
-    {
-      "title": "Upgrading my Open Source Pi Surveillance Server with Frigate",
-      "url": "https://www.jeffgeerling.com/blog/2026/upgrading-my-open-source-pi-surveillance-server-frigate/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "文章介绍了如何升级开源树莓派监控服务器至Frigate并分享了硬件配置和安装体验。",
-      "tags": [
-        "监控",
-        "开源",
-        "树莓派"
-      ],
-      "recommendReason": "详细实用的硬件升级指南，适合爱好者和专业人员。",
-      "score": 8.5
-    },
-    {
-      "title": "AI is destroying Open Source, and it's not even good yet",
-      "url": "https://www.jeffgeerling.com/blog/2026/ai-is-destroying-open-source/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "AI技术对开源社区的影响及带来的问题。",
-      "tags": [
-        "AI",
-        "开源软件",
-        "代码质量"
-      ],
-      "recommendReason": "探讨AI如何改变开源社区生态，具有时效性和深度。",
-      "score": 8.5
-    },
-    {
-      "title": "Testing Reachy Mini - Hugging Face's Pi powered robot",
-      "url": "https://www.jeffgeerling.com/blog/2026/testing-reachy-mini-hugging-face-robot/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "Jeff Geerling测试了Hugging Face的Pi驱动机器人Reachy Mini，并探讨了其隐私和安全问题。",
-      "tags": [
-        "人工智能",
-        "机器人",
-        "隐私"
-      ],
-      "recommendReason": "本文深入探讨了机器人与隐私安全的平衡。",
-      "score": 8.5
-    },
-    {
-      "title": "Insider amnesia",
-      "url": "https://seangoedecke.com/insider-amnesia/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "探讨为什么外行人通常错误地猜测科技公司内部问题的原因。",
-      "tags": [
-        "insider perspective",
-        "tech companies",
-        "decision-making processes"
-      ],
-      "recommendReason": "文章提供了对科技公司内部决策的深刻见解。",
-      "score": 8.5
-    },
-    {
-      "title": "What's so hard about continuous learning?",
-      "url": "https://seangoedecke.com/continuous-learning/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "探讨AI模型持续学习的难点，解释为何模型学习后不进步。",
-      "tags": [
-        "人工智能",
-        "机器学习",
-        "模型训练"
-      ],
-      "recommendReason": "深入解析人工智能领域的技术挑战。",
-      "score": 8.5
-    },
-    {
-      "title": "LLM-generated skills work, if you generate them afterwards",
-      "url": "https://seangoedecke.com/generate-skills-afterwards/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "文章讨论了LLM（大型语言模型）生成技能的效率问题，并提出了生成任务后生成技能的建议。",
-      "tags": [
-        "AI",
-        "LLM",
-        "技能生成"
-      ],
-      "recommendReason": "提供了大型语言模型使用技能的新见解。",
-      "score": 8.5
-    },
-    {
-      "title": "Two different tricks for fast LLM inference",
-      "url": "https://seangoedecke.com/fast-llm-inference/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "介绍了Anthropic和OpenAI的快速模式对比，分析了其背后的技术差异。",
-      "tags": [
-        "人工智能",
-        "深度学习",
-        "模型推理"
-      ],
-      "recommendReason": "深入解读了两大人工智能公司的技术策略。",
-      "score": 8.5
-    },
-    {
-      "title": "On screwing up",
-      "url": "https://seangoedecke.com/screwing-up/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "文章分享了作者在职场中的错误处理经历，反思了如何正确对待错误。",
-      "tags": [
-        "职场",
-        "错误处理",
-        "个人成长"
-      ],
-      "recommendReason": "真实反思职场错误，具有启发性。",
-      "score": 8.5
-    },
-    {
-      "title": "How to Securely Erase an old Hard Drive on macOS Tahoe",
-      "url": "https://www.jeffgeerling.com/blog/2026/securely-erase-hard-drive-macos-tahoe/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "<p>Apparently Apple thinks nobody with a modern Mac uses spinning rust (hard drives with platters) anymore.</p>\n<p>I plugged in a hard drive from an o",
-      "tags": [
-        "DevOps"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Frigate with Hailo for object detection on a Raspberry Pi",
-      "url": "https://www.jeffgeerling.com/blog/2026/frigate-with-hailo-for-object-detection-on-a-raspberry-pi/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "<p>I run <a href=\"https://frigate.video\">Frigate</a> to record security cameras and detect people, cars, and animals when in view. My <a href=\"https:/",
-      "tags": [
-        "DevOps"
+        "AI"
       ],
       "recommendReason": "",
       "score": 5.0
