@@ -1,8 +1,26 @@
-﻿---
+﻿<!-- 
+🤖 AGENT FRIENDLY
+This article is available in Markdown format for optimal AI consumption.
+
+Grab it via: GET https://blog.zucchini.win/md/{slug}.md
+With header: Accept: text/markdown
+
+Benefits:
+- 70% smaller than HTML (~10KB vs ~35KB)
+- Structured frontmatter with metadata
+- Clean markdown, no styling noise
+- Perfect for LLM context windows
+
+Generated automatically on each deploy.
+-->
+
+---
 title: "Daily Thoughts · 2026-02-28"
 date: "2026-02-28T08:00:00Z"
 author: "Jayden"
 tags: ["thoughts", "analysis"]
+slug: "daily-thoughts-2026-02-28"
+agent_friendly: true
 ---
 
 
