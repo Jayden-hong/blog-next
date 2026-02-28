@@ -2,7 +2,7 @@ import { getAllTags, getLatestFeedDay } from '@/lib/feed';
 import { DiscoverClient } from '@/components/DiscoverClient';
 import { format } from 'date-fns';
 
-export const revalidate = 0; // 禁用缓存
+export const dynamic = 'force-static'; // ✅ 强制静态导出
 
 export const metadata = {
   title: 'Discover - Jayden',
