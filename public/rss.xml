@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>No Noise Blog</title>
+    <link>https://blog.zucchini.win</link>
+    <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 11:52:01 GMT</lastBuildDate>
+    <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
+
+    <item>
+      <title>Daily Thoughts · 2026-02-28</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/</guid>
+      <pubDate>Sat, 28 Feb 2026 08:00:00 GMT</pubDate>
+    <category>thoughts</category>
+    <category>analysis</category>
+      <description>
+核心观点  
+AI 编程代理已从“高级自动补全”跃迁为“可独立交付生产级代码的虚拟开发者”，开源生态正成为其能力放大器。
+
+现象解读  
+Simonwillison 的实测记录里，怀疑者仅用自然语言就让 AI 在数小时内完成爬虫、清洗、重写 scikit-learn 算法并跑出正确结果；Anthropic 随即把价值 120 美元的 Claude Max 20x 免费塞给万名开源</description>
+      <content:encoded><![CDATA[
+        <p>
+核心观点  
+AI 编程代理已从“高级自动补全”跃迁为“可独立交付生产级代码的虚拟开发者”，开源生态正成为其能力放大器。
+
+现象解读  
+Simonwillison 的实测记录里，怀疑者仅用自然语言就让 AI 在数小时内完成爬虫、清洗、重写 scikit-learn 算法并跑出正确结果；Anthropic 随即把价值 120 美元的 Claude Max 20x 免费塞给万名开源</p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-02-28.md">📄 Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-02-28</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-02-28/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-02-28/</guid>
+      <pubDate>Sat, 28 Feb 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+
+1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+
+记录一位怀疑者亲测AI</description>
+      <content:encoded><![CDATA[
+        <p>
+> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+
+1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+
+记录一位怀疑者亲测AI</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-02-28.md">📄 Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-02-28/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-02-28</title>
+      <link>https://blog.zucchini.win/blog/latest-brief/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
+      <pubDate>Sat, 28 Feb 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+
+1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+
+记录一位怀疑者亲测AI</description>
+      <content:encoded><![CDATA[
+        <p>
+> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+
+1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+
+记录一位怀疑者亲测AI</p>
+        <p><a href="https://blog.zucchini.win/md/latest-brief.md">📄 Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>2025 LLM 年度回顾与 AI 现状思考</title>
+      <link>https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>LLM</category>
+    <category>年度回顾</category>
+      <description>
+ 2025 LLM 年度回顾与 AI 现状思考
+
+&gt; 从 Karpathy 的视角看 AI 发展
+
+ 2025 年发生了什么？
+
+Karpathy 在他的 [2025 年度回顾](https://karpathy.bearblog.dev/year-in-review-2025/) 中提到，AI 技术在这一年经历了从「能做什么」到「怎么做更好」的转变。LLM 的能力边界已经基本确定，关键竞</description>
+      <content:encoded><![CDATA[
+        <p>
+ 2025 LLM 年度回顾与 AI 现状思考
+
+> 从 Karpathy 的视角看 AI 发展
+
+ 2025 年发生了什么？
+
+Karpathy 在他的 [2025 年度回顾](https://karpathy.bearblog.dev/year-in-review-2025/) 中提到，AI 技术在这一年经历了从「能做什么」到「怎么做更好」的转变。LLM 的能力边界已经基本确定，关键竞</p>
+        <p><a href="https://blog.zucchini.win/md/rss-ai-highlights-2026-02-16.md">📄 Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>

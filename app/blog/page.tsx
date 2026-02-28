@@ -5,6 +5,12 @@ import { format } from 'date-fns';
 export const metadata = {
   title: 'Writing - Jayden',
   description: 'Personal essays and technical writings. AI-friendly markdown versions available.',
+  alternates: {
+    types: {
+      'application/rss+xml': 'https://blog.zucchini.win/rss.xml',
+      'application/json': 'https://blog.zucchini.win/feed.json',
+    },
+  },
 };
 
 export default function BlogPage() {
@@ -14,9 +20,18 @@ export default function BlogPage() {
     <div className="min-h-screen">
       <div className="max-w-3xl mx-auto px-4 py-12">
         <header className="mb-10">
-          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
-            Writing
-          </h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
+              Writing
+            </h1>
+            <a 
+              href="/rss.xml" 
+              className="text-xs text-neutral-400 hover:text-neutral-600 mono"
+              title="Subscribe via RSS"
+            >
+              RSS
+            </a>
+          </div>
           <p className="text-sm text-neutral-500 mt-2">
             Personal essays and technical writings
           </p>

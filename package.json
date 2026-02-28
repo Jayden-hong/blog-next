@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/export-feed.js && node scripts/generate-sitemap.js && node scripts/generate-md-exports.js",
+    "prebuild": "node scripts/export-feed.js && node scripts/generate-sitemap.js && node scripts/generate-md-exports.js && node scripts/generate-rss.js",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

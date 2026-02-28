@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://blog.zucchini.win"),
   alternates: {
     canonical: "/",
+    types: {
+      'application/rss+xml': 'https://blog.zucchini.win/rss.xml',
+      'application/json': 'https://blog.zucchini.win/feed.json',
+    },
   },
   openGraph: {
     type: "website",

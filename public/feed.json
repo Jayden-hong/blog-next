@@ -1,0 +1,59 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "No Noise Blog",
+  "home_page_url": "https://blog.zucchini.win",
+  "feed_url": "https://blog.zucchini.win/feed.json",
+  "description": "Your attention is valuable. Every day: must-reads, plus latest writing.",
+  "language": "en",
+  "items": [
+    {
+      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/",
+      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/",
+      "title": "Daily Thoughts · 2026-02-28",
+      "content_text": "\n核心观点  \nAI 编程代理已从“高级自动补全”跃迁为“可独立交付生产级代码的虚拟开发者”，开源生态正成为其能力放大器。\n\n现象解读  \nSimonwillison 的实测记录里，怀疑者仅用自然语言就让 AI 在数小时内完成爬虫、清洗、重写 scikit-learn 算法并跑出正确结果；Anthropic 随即把价值 120 美元的 Claude Max 20x 免费塞给万名开源",
+      "date_published": "2026-02-28T08:00:00Z",
+      "tags": [
+        "thoughts",
+        "analysis"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-02-28.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-02-28/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-02-28/",
+      "title": "Daily Read · 2026-02-28",
+      "content_text": "\n> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)\n\n1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison\n\n记录一位怀疑者亲测AI",
+      "date_published": "2026-02-28T06:00:00Z",
+      "tags": [
+        "daily-brief",
+        "rss"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-02-28.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/latest-brief/",
+      "url": "https://blog.zucchini.win/blog/latest-brief/",
+      "title": "Daily Read · 2026-02-28",
+      "content_text": "\n> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)\n\n1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison\n\n记录一位怀疑者亲测AI",
+      "date_published": "2026-02-28T06:00:00Z",
+      "tags": [
+        "daily-brief",
+        "rss"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/",
+      "url": "https://blog.zucchini.win/blog/rss-ai-highlights-2026-02-16/",
+      "title": "2025 LLM 年度回顾与 AI 现状思考",
+      "content_text": "\n 2025 LLM 年度回顾与 AI 现状思考\n\n> 从 Karpathy 的视角看 AI 发展\n\n 2025 年发生了什么？\n\nKarpathy 在他的 [2025 年度回顾](https://karpathy.bearblog.dev/year-in-review-2025/) 中提到，AI 技术在这一年经历了从「能做什么」到「怎么做更好」的转变。LLM 的能力边界已经基本确定，关键竞",
+      "date_published": "2026-02-16",
+      "tags": [
+        "AI",
+        "LLM",
+        "年度回顾"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/rss-ai-highlights-2026-02-16.md"
+    }
+  ]
+}
