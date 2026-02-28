@@ -4,6 +4,12 @@
   "assets": {
     "directory": "./out"
   },
+  "routes": [
+    {
+      "pattern": "blog.zucchini.win",
+      "custom_domain": true
+    }
+  ],
   "observability": {
     "enabled": false,
     "head_sampling_rate": 1,

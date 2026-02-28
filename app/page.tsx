@@ -4,7 +4,8 @@ import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
 
 // BUILD_TIME: 2026-02-17 13:10:47
-export const revalidate = 0; // 禁用缓存
+// 强制静态生成（Cloudflare Pages 需要）
+export const dynamic = 'force-static';
 
 export default function Home() {
   const feedDay = getLatestFeedDay();
