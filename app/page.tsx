@@ -16,10 +16,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-3xl mx-auto px-4 pt-16 pb-12">
         <h1 className="text-2xl font-medium tracking-tight mb-3 text-neutral-900">
-          Hey, I&apos;m Jayden
+          No Noise Blog
         </h1>
         <p className="text-neutral-500 leading-relaxed">
-          AI 产品经理 · 工具探索者 · 一人公司实践者
+          Your attention is valuable. Every day: 6 must-reads, plus my latest notes.
         </p>
       </section>
 
