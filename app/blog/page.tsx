@@ -22,6 +22,8 @@ export default function BlogPage() {
           </p>
           <p className="text-xs text-neutral-400 mt-4">
             Agent-friendly：任意文章链接前添加 <code className="bg-neutral-100 px-1 rounded">/md/</code> 即可获得纯净 Markdown 文本（预估减少 70%token消耗，减少大模型上下文噪声）
+            <br />
+            示例：<code className="bg-neutral-100 px-1 rounded">/blog/daily-thoughts-2026-02-28/</code> → <code className="bg-neutral-100 px-1 rounded">/md/daily-thoughts-2026-02-28.md</code>
           </p>
         </header>
 
