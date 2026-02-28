@@ -22,14 +22,17 @@ interface FeedData {
   allTags: string[];
 }
 
+type SortMode = 'date' | 'score';
+
 export function DiscoverClient() {
   const [feedData, setFeedData] = useState<FeedData | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTag, setActiveTag] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [sortMode, setSortMode] = useState<SortMode>('date');
 
   useEffect(() => {
-    fetch('/feed/latest.json')
+    fetch('/feed/all-articles.json')
       .then(res => res.json())
       .then(data => {
         setFeedData(data);
@@ -37,13 +40,22 @@ export function DiscoverClient() {
       })
       .catch(err => {
         console.error('Failed to load feed:', err);
-        setLoading(false);
+        fetch('/feed/latest.json')
+          .then(res => res.json())
+          .then(data => {
+            setFeedData(data);
+            setLoading(false);
+          })
+          .catch(err2 => {
+            console.error('Failed to load fallback:', err2);
+            setLoading(false);
+          });
       });
   }, []);
 
-  const filteredArticles = useMemo(() => {
+  const filteredAndSortedArticles = useMemo(() => {
     if (!feedData) return [];
-    let result = feedData.articles;
+    let result = [...feedData.articles];
     
     if (activeTag) {
       result = result.filter(a => a.tags?.some(t => t.toLowerCase() === activeTag.toLowerCase()));
@@ -59,8 +71,18 @@ export function DiscoverClient() {
       );
     }
     
+    if (sortMode === 'score') {
+      result.sort((a, b) => (b.score || 0) - (a.score || 0));
+    } else {
+      result.sort((a, b) => {
+        const dateA = new Date(a.date || '2000-01-01').getTime();
+        const dateB = new Date(b.date || '2000-01-01').getTime();
+        return dateB - dateA;
+      });
+    }
+    
     return result;
-  }, [feedData, activeTag, searchQuery]);
+  }, [feedData, activeTag, searchQuery, sortMode]);
 
   if (loading) {
     return (
@@ -70,13 +92,9 @@ export function DiscoverClient() {
             <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
               Discover
             </h1>
-            <span className="text-xs text-neutral-400 mono">
-              Loading...
-            </span>
+            <span className="text-xs text-neutral-400 mono">Loading...</span>
           </div>
-          <p className="text-sm text-neutral-500 mt-2">
-            Curated by Kimi K2.5
-          </p>
+          <p className="text-sm text-neutral-500 mt-2">Curated by Qwen 3.5</p>
         </header>
         <div className="text-center py-12">
           <p className="text-sm text-neutral-400">Loading feed...</p>
@@ -89,12 +107,8 @@ export function DiscoverClient() {
     return (
       <>
         <header className="mb-8">
-          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
-            Discover
-          </h1>
-          <p className="text-sm text-neutral-500 mt-2">
-            Failed to load feed
-          </p>
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">Discover</h1>
+          <p className="text-sm text-neutral-500 mt-2">Failed to load feed</p>
         </header>
       </>
     );
@@ -107,25 +121,19 @@ export function DiscoverClient() {
 
   return (
     <>
-      {/* Header with actual data */}
       <header className="mb-8">
         <div className="flex items-baseline justify-between">
-          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">
-            Discover
-          </h1>
-          <span className="text-xs text-neutral-400 mono">
-            {feedData.date}
-          </span>
+          <h1 className="text-2xl font-medium tracking-tight text-neutral-900">Discover</h1>
+          <span className="text-xs text-neutral-400 mono">{feedData.date}</span>
         </div>
         <p className="text-sm text-neutral-500 mt-2">
           {feedData.totalArticles} articles
           {avgScore && ` · avg ${avgScore}/10`}
-          {avgScore && ' · curated by Kimi K2.5'}
+          {avgScore && ' · curated by Qwen 3.5'}
         </p>
       </header>
 
-      {/* Search */}
-      <div className="relative mb-6">
+      <div className="relative mb-4">
         <input
           type="text"
           value={searchQuery}
@@ -135,32 +143,43 @@ export function DiscoverClient() {
         />
       </div>
 
-      {/* Tag Filter */}
+      <div className="flex items-center gap-2 mb-4 text-xs mono">
+        <span className="text-neutral-400">SORT:</span>
+        <button
+          onClick={() => setSortMode('date')}
+          className={`transition-colors ${sortMode === 'date' ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'}`}
+        >
+          DATE
+        </button>
+        <span className="text-neutral-200">|</span>
+        <button
+          onClick={() => setSortMode('score')}
+          className={`transition-colors ${sortMode === 'score' ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'}`}
+        >
+          SCORE
+        </button>
+      </div>
+
       <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setActiveTag(null)}
-          className={`px-3 py-1 text-xs transition-colors mono ${
-            !activeTag ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'
-          }`}
+          className={`px-3 py-1 text-xs transition-colors mono ${!activeTag ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'}`}
         >
           ALL
         </button>
-        {feedData.allTags.slice(0, 8).map((t) => (
+        {feedData.allTags?.slice(0, 12).map((t) => (
           <button
             key={t}
             onClick={() => setActiveTag(t)}
-            className={`px-3 py-1 text-xs transition-colors mono ${
-              activeTag === t ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'
-            }`}
+            className={`px-3 py-1 text-xs transition-colors mono ${activeTag === t ? 'text-neutral-900 underline' : 'text-neutral-400 hover:text-neutral-600'}`}
           >
             {t.toUpperCase()}
           </button>
         ))}
       </div>
 
-      {/* Articles */}
       <div className="grid gap-4">
-        {filteredArticles.map((article, index) => (
+        {filteredAndSortedArticles.map((article, index) => (
           <a
             key={index}
             href={article.url}
@@ -168,51 +187,23 @@ export function DiscoverClient() {
             rel="noopener noreferrer"
             className="block border-b border-neutral-100 pb-4 last:border-0 hover:opacity-60 transition-opacity group"
           >
-            {/* Meta */}
             <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
-              {article.score && <span>{article.score.toFixed(1)}</span>}
+              {article.score && <span className="text-neutral-900 font-medium">{article.score.toFixed(1)}</span>}
               {article.score && <span className="text-neutral-200">|</span>}
               <span>{article.source}</span>
-              {article.author && (
-                <>
-                  <span className="text-neutral-200">|</span>
-                  <span>{article.author}</span>
-                </>
-              )}
-              {article.tags?.[0] && (
-                <>
-                  <span className="text-neutral-200">|</span>
-                  <span>{article.tags[0]}</span>
-                </>
-              )}
+              {article.author && <><span className="text-neutral-200">|</span><span>{article.author}</span></>}
+              {article.date && <><span className="text-neutral-200">|</span><span>{article.date}</span></>}
+              {article.tags?.[0] && <><span className="text-neutral-200">|</span><span>{article.tags[0]}</span></>}
             </div>
-            
-            {/* Title */}
-            <h3 className="font-medium text-neutral-900 mb-1">
-              {article.title}
-            </h3>
-            
-            {/* Description - 一行 */}
-            {article.description && (
-              <p className="text-sm text-neutral-500 line-clamp-1">
-                {article.description}
-              </p>
-            )}
-            
-            {/* Recommend Reason - 仅 Highlights 显示 (通过数据控制) */}
-            {article.recommendReason && (
-              <p className="text-xs text-neutral-400 mt-2 mono">
-                → {article.recommendReason}
-              </p>
-            )}
+            <h3 className="font-medium text-neutral-900 mb-1">{article.title}</h3>
+            {article.description && <p className="text-sm text-neutral-500 line-clamp-1">{article.description}</p>}
+            {article.recommendReason && <p className="text-xs text-neutral-400 mt-2 mono">→ {article.recommendReason}</p>}
           </a>
         ))}
       </div>
       
-      {filteredArticles.length === 0 && (
-        <p className="text-sm text-neutral-400 text-center py-12">
-          没有找到匹配的文章
-        </p>
+      {filteredAndSortedArticles.length === 0 && (
+        <p className="text-sm text-neutral-400 text-center py-12">没有找到匹配的文章</p>
       )}
     </>
   );
