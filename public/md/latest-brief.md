@@ -1,4 +1,4 @@
----
+﻿---
 title: "Daily Read · 2026-02-28"
 date: "2026-02-28T06:00:00Z"
 author: "Jayden"

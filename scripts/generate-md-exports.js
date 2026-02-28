@@ -5,6 +5,9 @@ const matter = require('gray-matter');
 const postsDir = path.join(process.cwd(), 'content/posts');
 const mdOutputDir = path.join(process.cwd(), 'public/md');
 
+// UTF-8 BOM for better compatibility
+const BOM = '\uFEFF';
+
 function generateMarkdownExports() {
   if (!fs.existsSync(postsDir)) {
     console.log('No posts directory found');
@@ -26,7 +29,7 @@ function generateMarkdownExports() {
     const { data, content } = matter(fileContents);
 
     // Build markdown with frontmatter as YAML
-    const mdContent = `---
+    const mdContent = `${BOM}---
 title: "${data.title || slug}"
 date: "${data.date || ''}"
 author: "${data.author || 'Jayden'}"
@@ -36,7 +39,7 @@ tags: [${(data.tags || []).map(t => `"${t}"`).join(', ')}]
 ${content}`;
 
     const outputPath = path.join(mdOutputDir, `${slug}.md`);
-    fs.writeFileSync(outputPath, mdContent);
+    fs.writeFileSync(outputPath, mdContent, 'utf8');
     console.log(`✓ Generated /md/${slug}.md`);
   });
 
@@ -50,7 +53,7 @@ ${content}`;
   
   fs.writeFileSync(
     path.join(mdOutputDir, 'README.md'),
-    `# Markdown Exports\n\nAvailable articles in Markdown format:\n\n${indexContent}\n`
+    `${BOM}# Markdown Exports\n\nAvailable articles in Markdown format:\n\n${indexContent}\n`
   );
 
   console.log(`✓ Generated ${files.length} markdown exports in /md/`);

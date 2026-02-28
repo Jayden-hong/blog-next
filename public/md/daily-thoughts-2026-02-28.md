@@ -1,4 +1,4 @@
----
+﻿---
 title: "Daily Thoughts · 2026-02-28"
 date: "2026-02-28T08:00:00Z"
 author: "Jayden"
