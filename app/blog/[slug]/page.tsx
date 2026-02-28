@@ -5,6 +5,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -13,14 +14,31 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
 
   return {
-    title: `${post.title} - Jayden`,
-    description: post.excerpt,
+    title: post.title,
+    description: post.excerpt || `Read ${post.title} on No Noise Blog`,
+    authors: [{ name: post.author || 'Jayden' }],
+    openGraph: {
+      title: post.title,
+      description: post.excerpt || `Read ${post.title} on No Noise Blog`,
+      type: 'article',
+      publishedTime: post.date,
+      authors: [post.author || 'Jayden'],
+      tags: post.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt || `Read ${post.title} on No Noise Blog`,
+    },
+    alternates: {
+      canonical: `/blog/${slug}/`,
+    },
   };
 }
 

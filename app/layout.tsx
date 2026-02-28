@@ -4,10 +4,46 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { WebsiteJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Jayden's Blog",
+  title: {
+    default: "No Noise Blog",
+    template: "%s | No Noise Blog"
+  },
   description: "Your attention is valuable. Every day: 6 must-reads, plus my latest writing.",
+  keywords: ["tech", "AI", "programming", "daily read", "RSS", "software engineering"],
+  authors: [{ name: "Jayden" }],
+  creator: "Jayden",
+  metadataBase: new URL("https://blog.zucchini.win"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://blog.zucchini.win",
+    siteName: "No Noise Blog",
+    title: "No Noise Blog",
+    description: "Your attention is valuable. Every day: 6 must-reads, plus my latest writing.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "No Noise Blog",
+    description: "Your attention is valuable. Every day: 6 must-reads, plus my latest writing.",
+    creator: "@jaydenkahn",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -16,7 +52,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
+      <head>
+        <WebsiteJsonLd />
+      </head>
       <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased min-h-screen bg-white text-neutral-900`}>
         <Header />
         <main>{children}</main>
