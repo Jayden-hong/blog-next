@@ -1,0 +1,49 @@
+---
+title: "Daily Read · 2026-02-28"
+date: "2026-02-28T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+---
+
+
+> 17 articles · 8.4/10 avg · 16 highlights
+
+**1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything)** · 8.7/10 · simonwillison
+
+记录一位怀疑者亲测AI编程代理，从爬虫到重写scikit-learn的震撼过程。
+
+> 深度体验揭示AI编码质变，说服所有怀疑者
+
+**2. [逼近游戏：22/7与无理数](https://lcamtuf.substack.com/p/approximation-game)** · 8.7/10 · lcamtuf-substack
+
+用22/7和鸽群故事演示如何用有理数逼近无理数，揭示实数构造的惊喜。
+
+> 故事化讲数学，让抽象实数理论瞬间看得见。
+
+**3. [特朗普逼宫硅谷？](https://garymarcus.substack.com/p/did-trump-just-overplay-his-hand)** · 8.6/10 · garymarcus
+
+特朗普因AI军事化与硅谷巨头正面冲突，Gary Marcus称其或因此政策被历史铭记。
+
+> 揭示特朗普AI军事化豪赌，硅谷命运一触即发。
+
+**4. [别用通行密钥加密](https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything)** · 8.5/10 · simonwillison
+
+专家呼吁停止用易丢失的通行密钥加密用户数据，应仅用于防钓鱼登录。
+
+> 点破通行密钥误用风险，安全设计必读。
+
+**5. [Anthropic送开源维护者Claude Max](https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything)** · 8.5/10 · simonwillison
+
+Anthropic向大型开源项目维护者免费赠送6个月Claude Max 20x计划，限1万人。
+
+> 高价值AI福利，开源作者速申请
+
+**6. [Unicode 二进制搜神器](https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything)** · 8.5/10 · simonwillison
+
+作者用手机和 Claude 合作，用 HTTP Range 请求在 76MB Unicode 文件上跑二分查找，实时展示字符元数据。
+
+> 巧妙结合 Range 与二分，移动端秒查 Unicode 数据。
+
+---
+*2026-02-28 09:49 UTC · Kimi K2 · 94 sources*
+
