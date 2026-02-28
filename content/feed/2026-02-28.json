@@ -4,45 +4,49 @@
   "totalArticles": 17,
   "highlights": [
     {
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-02-27",
-      "description": "文章警告勿用 passkeys 加密用户数据，因用户易丢失密钥致数据无法恢复，建议仅用于身份认证。",
-      "tags": [
-        "安全",
-        "passkeys",
-        "加密"
-      ],
-      "recommendReason": "警示 passkeys 加密风险，防止数据不可恢复，开发者必读。",
-      "score": 8.5
-    },
-    {
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+      "title": "AI编程代理实战记",
       "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://minimaxir.com/2026/02/ai-agent-coding/\">An AI agent coding skeptic tries AI agent coding, in excessive detail</a></strong>",
+      "description": "资深开发者亲测AI编程代理，从怀疑到信服，记录用Opus/Codex重写scikit-learn的完整历程。",
       "tags": [
-        "AI"
+        "AI编程",
+        "Rust",
+        "scikit-learn"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "真实测评AI编程极限，技术细节拉满",
+      "score": 9.2
     },
     {
-      "title": "Free Claude Max for (large project) open source maintainers",
+      "title": "别再用通行密钥加密",
+      "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-27",
+      "description": "专家呼吁停止使用易丢失的通行密钥加密用户数据，应仅用于防钓鱼身份验证。",
+      "tags": [
+        "安全",
+        "通行密钥",
+        "数据加密"
+      ],
+      "recommendReason": "揭示通行密钥加密风险，实用安全建议。",
+      "score": 8.5
+    },
+    {
+      "title": "Claude Max免费赠开源维护者",
       "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://claude.com/contact-sales/claude-for-oss\">Free Claude Max for (large project) open source maintainers</a></strong></p>\nAnth",
+      "description": "Anthropic向大型开源项目维护者免费提供6个月Claude Max 20x订阅，限额1万人。",
       "tags": [
-        "AI"
+        "开源",
+        "AI",
+        "Anthropic"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "开源作者速领200美元/月AI神器",
+      "score": 8.2
     },
     {
       "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
@@ -50,7 +54,7 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://tools.simonwillison.net/unicode-binary-search\">Unicode Explorer using binary search over fetch() HTTP range requests</a></",
+      "description": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in",
       "tags": [
         "AI"
       ],
@@ -63,7 +67,7 @@
       "source": "jeffgeerling",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p>In 2024 I built a <a href=\"https://www.jeffgeerling.com/blog/2024/building-pi-frigate-nvr-axzezs-interceptor-1u-case/\">Pi Frigate NVR with Axzez's ",
+      "description": "In 2024 I built a Pi Frigate NVR with Axzez's Interceptor 1U Case , and installed it in my 19\" rack. Using a Coral TPU for object detection, it's been",
       "tags": [
         "DevOps"
       ],
@@ -76,7 +80,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "<p>Mike Masnick, writing for Techdirt:</p>\n\n<blockquote>\n  <p>Read that again. If West Virginia wins — if an actual court\norders Apple to start scanni",
+      "description": "Mike Masnick, writing for Techdirt: Read that again. If West Virginia wins — if an actual court orders Apple to start scanning iCloud for CSAM — then ",
       "tags": [
         "Tech"
       ],
@@ -86,45 +90,49 @@
   ],
   "articles": [
     {
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-02-27",
-      "description": "文章警告勿用 passkeys 加密用户数据，因用户易丢失密钥致数据无法恢复，建议仅用于身份认证。",
-      "tags": [
-        "安全",
-        "passkeys",
-        "加密"
-      ],
-      "recommendReason": "警示 passkeys 加密风险，防止数据不可恢复，开发者必读。",
-      "score": 8.5
-    },
-    {
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+      "title": "AI编程代理实战记",
       "url": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://minimaxir.com/2026/02/ai-agent-coding/\">An AI agent coding skeptic tries AI agent coding, in excessive detail</a></strong>",
+      "description": "资深开发者亲测AI编程代理，从怀疑到信服，记录用Opus/Codex重写scikit-learn的完整历程。",
       "tags": [
-        "AI"
+        "AI编程",
+        "Rust",
+        "scikit-learn"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "真实测评AI编程极限，技术细节拉满",
+      "score": 9.2
     },
     {
-      "title": "Free Claude Max for (large project) open source maintainers",
+      "title": "别再用通行密钥加密",
+      "url": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-02-27",
+      "description": "专家呼吁停止使用易丢失的通行密钥加密用户数据，应仅用于防钓鱼身份验证。",
+      "tags": [
+        "安全",
+        "通行密钥",
+        "数据加密"
+      ],
+      "recommendReason": "揭示通行密钥加密风险，实用安全建议。",
+      "score": 8.5
+    },
+    {
+      "title": "Claude Max免费赠开源维护者",
       "url": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://claude.com/contact-sales/claude-for-oss\">Free Claude Max for (large project) open source maintainers</a></strong></p>\nAnth",
+      "description": "Anthropic向大型开源项目维护者免费提供6个月Claude Max 20x订阅，限额1万人。",
       "tags": [
-        "AI"
+        "开源",
+        "AI",
+        "Anthropic"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "开源作者速领200美元/月AI神器",
+      "score": 8.2
     },
     {
       "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
@@ -132,7 +140,7 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p><strong><a href=\"https://tools.simonwillison.net/unicode-binary-search\">Unicode Explorer using binary search over fetch() HTTP range requests</a></",
+      "description": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in",
       "tags": [
         "AI"
       ],
@@ -145,7 +153,7 @@
       "source": "jeffgeerling",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p>In 2024 I built a <a href=\"https://www.jeffgeerling.com/blog/2024/building-pi-frigate-nvr-axzezs-interceptor-1u-case/\">Pi Frigate NVR with Axzez's ",
+      "description": "In 2024 I built a Pi Frigate NVR with Axzez's Interceptor 1U Case , and installed it in my 19\" rack. Using a Coral TPU for object detection, it's been",
       "tags": [
         "DevOps"
       ],
@@ -158,7 +166,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "<p>Mike Masnick, writing for Techdirt:</p>\n\n<blockquote>\n  <p>Read that again. If West Virginia wins — if an actual court\norders Apple to start scanni",
+      "description": "Mike Masnick, writing for Techdirt: Read that again. If West Virginia wins — if an actual court orders Apple to start scanning iCloud for CSAM — then ",
       "tags": [
         "Tech"
       ],
@@ -171,7 +179,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "<p><a href=\"https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/\">Rob Griffiths, writing at The Robservatory</a>:",
+      "description": "Rob Griffiths, writing at The Robservatory : So I have macOS Tahoe on my laptop, but I’m keeping my desktop Mac on macOS Sequoia for now. Which means ",
       "tags": [
         "Tech"
       ],
@@ -184,7 +192,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "Apple’s solution to this dilemma — to show the “Tap Recents to Call” in Settings if, and only if, Unified is the current view option in the Phone app ",
+      "description": "Apple’s solution to this dilemma — to show the “Tap Recents to Call” in Settings if, and only if, Unified is the current view option in the Phone app ",
       "tags": [
         "Tech"
       ],
@@ -197,7 +205,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "<p>MG Siegler, writing at Spyglass:</p>\n\n<blockquote>\n  <p>Of course, Netflix could have absorbed such a cost. It’s a $400B\ncompany (well, before this",
+      "description": "MG Siegler, writing at Spyglass: Of course, Netflix could have absorbed such a cost. It’s a $400B company (well, before this deal, anyway) — double Di",
       "tags": [
         "Tech"
       ],
@@ -210,7 +218,7 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-02-27",
-      "description": "<p>CNBC:</p>\n\n<blockquote>\n  <p>Block said Thursday it’s laying off more than 4,000 employees, or\nabout half of its head count. The stock skyrocketed ",
+      "description": "CNBC: Block said Thursday it’s laying off more than 4,000 employees, or about half of its head count. The stock skyrocketed as much as 24% in extended",
       "tags": [
         "Tech"
       ],
@@ -236,7 +244,7 @@
       "source": "idiallo",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p>How do you manage a company with 50,000 employees? You need processes that give you visibility and control across every function such as technology",
+      "description": "How do you manage a company with 50,000 employees? You need processes that give you visibility and control across every function such as technology, l",
       "tags": [
         "Tech"
       ],
@@ -249,7 +257,7 @@
       "source": "shkspr.mobi",
       "author": "",
       "date": "2026-02-27",
-      "description": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)?  This is a collection of Tweet",
+      "description": "Remember back in the early 2010s when any moderately popular Twitter account could become a book (or even a TV series)? This is a collection of Tweet-",
       "tags": [
         "Tech"
       ],
@@ -275,7 +283,7 @@
       "source": "oldnewthing",
       "author": "",
       "date": "2026-02-27",
-      "description": "<p>Making sure it triggers when you need it, and not when you don't.</p>\n<p>The post <a href=\"https://devblogs.microsoft.com/oldnewthing/20260227-00/?",
+      "description": "Making sure it triggers when you need it, and not when you don't. The post Intercepting messages inside Is­Dialog­Message , fine-tuning the message fi",
       "tags": [
         "Microsoft"
       ],
