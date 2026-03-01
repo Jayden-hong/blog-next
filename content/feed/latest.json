@@ -1,7 +1,7 @@
 {
   "date": "2026-03-01",
-  "totalSources": 7,
-  "totalArticles": 8,
+  "totalSources": 8,
+  "totalArticles": 10,
   "highlights": [
     {
       "title": "交互式讲解降认知债",
@@ -9,88 +9,88 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-28",
-      "description": "用AI生成Rust词云动画，交互式拆解算法，快速偿还看不懂代理代码的认知债。",
+      "description": "用AI生成Rust词云动画，交互式拆解算法，快速偿还代码认知债。",
       "tags": [
-        "AI代理",
+        "AI编程",
         "认知债",
-        "交互式讲解"
+        "交互式学习"
       ],
-      "recommendReason": "把黑盒算法变成可暂停动画，偿还认知债极高效。",
+      "recommendReason": "把黑盒算法变可暂停动画，秒懂原理。",
       "score": 8.5
     },
     {
-      "title": "特朗普豪赌伊朗政权更迭",
-      "url": "https://www.theatlantic.com/ideas/2026/02/trumps-iran-regime-change-attack-gamble/686190/?gift=aQyUJR7AIw1mJWdQ6Ed6yOWB4bfod1kQqCyz2RXbHaY",
+      "title": "闲聊苹果2026",
+      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
       "source": "daringfireball",
       "author": "John Gruber",
-      "date": "2026-02-28",
-      "description": "分析特朗普对伊朗发动政权更迭战争的风险与极窄成功路径。",
+      "date": "2026-03-01",
+      "description": "Gruber与Jason Snell点评2025苹果成绩单、macOS 26槽点，并展望下周新品。",
       "tags": [
-        "特朗普",
-        "伊朗",
-        "战争"
+        "播客",
+        "苹果",
+        "macOS"
       ],
-      "recommendReason": "揭示美伊战争真相，警示政策风险。",
+      "recommendReason": "资深果粉必听，犀利吐槽新系统。",
       "score": 8.5
     },
     {
-      "title": "操作系统问年龄？",
+      "title": "Redis编码模式指南",
+      "url": "\nhttp://antirez.com/news/161\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "Redis作者亲写命令文档、常用模式、配置技巧及算法示例，开发者速查手册。",
+      "tags": [
+        "redis",
+        "设计模式",
+        "性能优化"
+      ],
+      "recommendReason": "作者权威、内容全面，直接提升缓存设计效率。",
+      "score": 8.5
+    },
+    {
+      "title": "操作系统问年龄",
       "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
       "source": "idiallo",
       "author": "",
       "date": "2026-03-01",
-      "description": "作者调侃加州新法强制操作系统收集年龄，分析其荒诞与潜在执法逻辑。",
+      "description": "加州新法强制操作系统收集用户年龄，作者质疑其荒诞与无法执行。",
       "tags": [
-        "科技法律",
-        "隐私政策",
-        "讽刺评论"
+        "法律",
+        "隐私",
+        "科技评论"
       ],
-      "recommendReason": "用幽默视角戳破立法荒诞，科技人必读。",
+      "recommendReason": "用幽默笔触揭示荒诞立法，发人深省。",
       "score": 8.5
     },
     {
-      "title": "我注销ChatGPT",
-      "url": "https://idiallo.com/byte-size/im-cancelling-my-chatgpt-openai-account?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "作者因OpenAI与国防部合作宣布注销ChatGPT，指出大模型同质化严重，切换无门槛。",
-      "tags": [
-        "AI伦理",
-        "OpenAI",
-        "隐私"
-      ],
-      "recommendReason": "直面AI军用化，提供注销指引",
-      "score": 8.5
-    },
-    {
-      "title": "加州可阻拉埃收华纳",
-      "url": "https://pluralistic.net/2026/02/28/golden-mean/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "加州法律或能阻止拉里·埃里森收购华纳，剖析媒体寡头化风险与政治角力。",
-      "tags": [
-        "媒体垄断",
-        "拉里·埃里森",
-        "加州法律"
-      ],
-      "recommendReason": "揭示寡头控制媒体的新动向，法律干预看点足。",
-      "score": 8.5
-    },
-    {
-      "title": "家用电池30个月省3MWh",
-      "url": "https://shkspr.mobi/blog/2026/02/30-months-to-3mwh-some-more-home-battery-stats/",
+      "title": "战火下的英国黑人",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
       "source": "shkspr.mobi",
       "author": "",
-      "date": "2026-02-28",
-      "description": "作者用30个月实测4.8kWh Moixa电池，省3MWh电费约1000镑，分享充放电策略与回本周期。",
+      "date": "2026-03-01",
+      "description": "书评揭示二战时黑人英国人的真实经历，打破“英国无黑人”迷思。",
       "tags": [
-        "家用储能",
-        "太阳能",
-        "电价套利"
+        "二战",
+        "黑人史",
+        "书评"
       ],
-      "recommendReason": "真实数据展示家用电池收益与策略，参考价值高",
+      "recommendReason": "用一手访谈还原被遗忘的战时黑人英国群像。",
+      "score": 8.5
+    },
+    {
+      "title": "AI误杀已发生？",
+      "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "Gary Marcus质疑军用AI可能已致伊朗校园误炸，并警告技术不可靠与道德卸责风险。",
+      "tags": [
+        "AI安全",
+        "军事伦理",
+        "误炸事件"
+      ],
+      "recommendReason": "揭示AI致命误判与责任黑洞，振聋发聩。",
       "score": 8.5
     }
   ],
@@ -101,119 +101,149 @@
       "source": "simonwillison",
       "author": "",
       "date": "2026-02-28",
-      "description": "用AI生成Rust词云动画，交互式拆解算法，快速偿还看不懂代理代码的认知债。",
+      "description": "用AI生成Rust词云动画，交互式拆解算法，快速偿还代码认知债。",
       "tags": [
-        "AI代理",
+        "AI编程",
         "认知债",
-        "交互式讲解"
+        "交互式学习"
       ],
-      "recommendReason": "把黑盒算法变成可暂停动画，偿还认知债极高效。",
+      "recommendReason": "把黑盒算法变可暂停动画，秒懂原理。",
       "score": 8.5
     },
     {
-      "title": "特朗普豪赌伊朗政权更迭",
-      "url": "https://www.theatlantic.com/ideas/2026/02/trumps-iran-regime-change-attack-gamble/686190/?gift=aQyUJR7AIw1mJWdQ6Ed6yOWB4bfod1kQqCyz2RXbHaY",
+      "title": "闲聊苹果2026",
+      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
       "source": "daringfireball",
       "author": "John Gruber",
-      "date": "2026-02-28",
-      "description": "分析特朗普对伊朗发动政权更迭战争的风险与极窄成功路径。",
+      "date": "2026-03-01",
+      "description": "Gruber与Jason Snell点评2025苹果成绩单、macOS 26槽点，并展望下周新品。",
       "tags": [
-        "特朗普",
-        "伊朗",
-        "战争"
+        "播客",
+        "苹果",
+        "macOS"
       ],
-      "recommendReason": "揭示美伊战争真相，警示政策风险。",
+      "recommendReason": "资深果粉必听，犀利吐槽新系统。",
       "score": 8.5
     },
     {
-      "title": "操作系统问年龄？",
+      "title": "Redis编码模式指南",
+      "url": "\nhttp://antirez.com/news/161\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "Redis作者亲写命令文档、常用模式、配置技巧及算法示例，开发者速查手册。",
+      "tags": [
+        "redis",
+        "设计模式",
+        "性能优化"
+      ],
+      "recommendReason": "作者权威、内容全面，直接提升缓存设计效率。",
+      "score": 8.5
+    },
+    {
+      "title": "操作系统问年龄",
       "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
       "source": "idiallo",
       "author": "",
       "date": "2026-03-01",
-      "description": "作者调侃加州新法强制操作系统收集年龄，分析其荒诞与潜在执法逻辑。",
+      "description": "加州新法强制操作系统收集用户年龄，作者质疑其荒诞与无法执行。",
       "tags": [
-        "科技法律",
-        "隐私政策",
-        "讽刺评论"
+        "法律",
+        "隐私",
+        "科技评论"
       ],
-      "recommendReason": "用幽默视角戳破立法荒诞，科技人必读。",
+      "recommendReason": "用幽默笔触揭示荒诞立法，发人深省。",
       "score": 8.5
     },
     {
-      "title": "我注销ChatGPT",
-      "url": "https://idiallo.com/byte-size/im-cancelling-my-chatgpt-openai-account?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "作者因OpenAI与国防部合作宣布注销ChatGPT，指出大模型同质化严重，切换无门槛。",
-      "tags": [
-        "AI伦理",
-        "OpenAI",
-        "隐私"
-      ],
-      "recommendReason": "直面AI军用化，提供注销指引",
-      "score": 8.5
-    },
-    {
-      "title": "加州可阻拉埃收华纳",
-      "url": "https://pluralistic.net/2026/02/28/golden-mean/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "加州法律或能阻止拉里·埃里森收购华纳，剖析媒体寡头化风险与政治角力。",
-      "tags": [
-        "媒体垄断",
-        "拉里·埃里森",
-        "加州法律"
-      ],
-      "recommendReason": "揭示寡头控制媒体的新动向，法律干预看点足。",
-      "score": 8.5
-    },
-    {
-      "title": "家用电池30个月省3MWh",
-      "url": "https://shkspr.mobi/blog/2026/02/30-months-to-3mwh-some-more-home-battery-stats/",
+      "title": "战火下的英国黑人",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
       "source": "shkspr.mobi",
       "author": "",
-      "date": "2026-02-28",
-      "description": "作者用30个月实测4.8kWh Moixa电池，省3MWh电费约1000镑，分享充放电策略与回本周期。",
+      "date": "2026-03-01",
+      "description": "书评揭示二战时黑人英国人的真实经历，打破“英国无黑人”迷思。",
       "tags": [
-        "家用储能",
-        "太阳能",
-        "电价套利"
+        "二战",
+        "黑人史",
+        "书评"
       ],
-      "recommendReason": "真实数据展示家用电池收益与策略，参考价值高",
+      "recommendReason": "用一手访谈还原被遗忘的战时黑人英国群像。",
       "score": 8.5
     },
     {
-      "title": "AI圈黑幕：捐款换牌照",
-      "url": "https://garymarcus.substack.com/p/the-whole-thing-was-scam",
+      "title": "AI误杀已发生？",
+      "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
       "source": "garymarcus",
       "author": "",
-      "date": "2026-02-28",
-      "description": "Gary Marcus爆料OpenAI与政治捐款勾连，Anthropic被不公平封杀，行业沦为寡头游戏。",
+      "date": "2026-03-01",
+      "description": "Gary Marcus质疑军用AI可能已致伊朗校园误炸，并警告技术不可靠与道德卸责风险。",
       "tags": [
-        "AI监管",
-        "政治捐款",
-        "OpenAI"
+        "AI安全",
+        "军事伦理",
+        "误炸事件"
       ],
-      "recommendReason": "揭示AI监管背后的金钱政治，令人警醒。",
+      "recommendReason": "揭示AI致命误判与责任黑洞，振聋发聩。",
       "score": 8.5
     },
     {
-      "title": "Bash提取文件扩展名技巧",
-      "url": "https://www.johndcook.com/blog/2026/02/28/file-extensions-bash/",
+      "title": "Bash 的 ~- 妙用",
+      "url": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
       "source": "johndcook",
       "author": "",
-      "date": "2026-02-28",
-      "description": "用Bash参数展开快速替换扩展名，以LaTeX生成SVG为例。",
+      "date": "2026-03-01",
+      "description": "作者发现 bash 中 ~- 代表旧工作目录，可简化 diff 等跨目录操作。",
       "tags": [
-        "Bash",
-        "Shell脚本",
-        "LaTeX"
+        "bash",
+        "命令行技巧",
+        "OLDPWD"
       ],
-      "recommendReason": "一行代码解决扩展名替换，脚本极简实用。",
+      "recommendReason": "教你用 ~- 秒切目录，常见痛点一招解决。",
       "score": 8.5
+    },
+    {
+      "title": "Sentry iOS崩溃追踪",
+      "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-01",
+      "description": "手把手教你用Sentry在iOS中快速定位崩溃、性能瓶颈与日志关联",
+      "tags": [
+        "iOS",
+        "崩溃报告",
+        "性能监控"
+      ],
+      "recommendReason": "实战演示，10分钟上手Sentry iOS全流程",
+      "score": 8.3
+    },
+    {
+      "title": "Claude记忆导出提示",
+      "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "Simon Willison分享Anthropic新功能，让用户一键导出Claude保存的全部个人记忆与偏好。",
+      "tags": [
+        "AI",
+        "记忆管理",
+        "Claude"
+      ],
+      "recommendReason": "掌握AI助手记忆导出技巧，保护隐私与迁移数据。",
+      "score": 8.0
+    },
+    {
+      "title": "杀死内心的死灵",
+      "url": "https://xeiaso.net/blog/2026/killing-my-inner-necron/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "作者借“杀死内在Necron”隐喻自我革新，页面仅显反机器人验证。",
+      "tags": [
+        "自我成长",
+        "隐喻",
+        "科幻"
+      ],
+      "recommendReason": "用科幻隐喻探讨自我突破，角度新颖。",
+      "score": 6.0
     }
   ]
 }
