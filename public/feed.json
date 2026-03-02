@@ -41,18 +41,6 @@
         "rss"
       ],
       "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/",
-      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/",
-      "title": "Daily Thoughts · 2026-03-01",
-      "content_text": "\n核心观点  \nAI 正在把“读代码”转化为“看动画”，一次性抹平语言、经验与背景差异，使技术知识从稀缺品变成可暂停、回放、改参数的公共基础设施。  \n\n现象解读  \nSimon Willison 用 30 行 Python 让大模型生成 Rust 词云动画，观众可以单步执行、拖拽阈值，原本需要半天文档加调试才能建立的内存模型，三分钟就能在浏览器里“眼见为实”。同一周，Redis ",
-      "date_published": "2026-03-01T08:00:00Z",
-      "tags": [
-        "thoughts",
-        "analysis"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-01.md"
     }
   ]
 }
