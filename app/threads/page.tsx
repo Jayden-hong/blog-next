@@ -12,29 +12,36 @@ export default function ThreadsPage() {
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   
-  // Load data and URL params on mount
+  // Load data on mount
   useEffect(() => {
-    // Load threads data
     import('@/lib/xthreads').then(({ getXThreads }) => {
-      setAllThreads(getXThreads());
+      const threads = getXThreads();
+      console.log('Threads loaded:', threads.length);
+      setAllThreads(threads);
       setLoading(false);
     });
-    
-    // Read URL params
-    const params = new URLSearchParams(window.location.search);
-    setLang(params.get('lang') || 'all');
-    setPage(parseInt(params.get('page') || '1', 10));
-    
-    // Listen to URL changes (back/forward buttons)
-    const handlePopState = () => {
+  }, []);
+  
+  // Read URL params on mount and when URL changes
+  useEffect(() => {
+    const updateFromURL = () => {
       const params = new URLSearchParams(window.location.search);
-      setLang(params.get('lang') || 'all');
-      setPage(parseInt(params.get('page') || '1', 10));
+      const urlLang = params.get('lang') || 'all';
+      const urlPage = parseInt(params.get('page') || '1', 10);
+      console.log('URL params:', { urlLang, urlPage });
+      setLang(urlLang);
+      setPage(urlPage);
     };
     
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+    updateFromURL();
+    window.addEventListener('popstate', updateFromURL);
+    return () => window.removeEventListener('popstate', updateFromURL);
   }, []);
+  
+  // Debug: log state changes
+  useEffect(() => {
+    console.log('State changed:', { lang, page });
+  }, [lang, page]);
   
   if (loading) {
     return (
@@ -50,12 +57,16 @@ export default function ThreadsPage() {
     return t.lang === lang;
   });
   
+  console.log('Filtered:', { lang, total: allThreads.length, filtered: langFiltered.length });
+  
   // Pagination
   const totalItems = langFiltered.length;
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const currentPage = Math.max(1, Math.min(page, totalPages || 1));
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const threads = langFiltered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  
+  console.log('Pagination:', { currentPage, totalPages, showing: threads.length });
   
   // Counts
   const counts = {
@@ -66,10 +77,13 @@ export default function ThreadsPage() {
   
   // Navigation handler
   const navigate = (newLang: string, newPage: number) => {
+    console.log('Navigate called:', { newLang, newPage });
     const url = `/threads/?lang=${newLang}&page=${newPage}`;
     window.history.pushState({}, '', url);
     setLang(newLang);
     setPage(newPage);
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -87,6 +101,10 @@ export default function ThreadsPage() {
             {allThreads.length > 0 && (
               <span className="ml-2">· Updated: {format(new Date(allThreads[0].date), 'yyyy-MM-dd')}</span>
             )}
+          </p>
+          {/* Debug info */}
+          <p className="text-xs text-red-500 mt-2">
+            Debug: lang={lang}, page={page}, filtered={langFiltered.length}, showing={threads.length}
           </p>
         </header>
 
