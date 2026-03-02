@@ -1,7 +1,7 @@
 {
   "date": "2026-03-02",
   "totalSources": 8,
-  "totalArticles": 34,
+  "totalArticles": 35,
   "allTags": [
     "AI",
     "AI代理",
@@ -46,6 +46,7 @@
     "电价套利",
     "科幻",
     "科技法律",
+    "空内容",
     "自我成长",
     "苹果",
     "认知债",
@@ -53,12 +54,29 @@
     "讽刺评论",
     "设计模式",
     "误炸事件",
+    "防机器人",
     "隐喻",
     "隐私",
     "隐私政策",
+    "验证页面",
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "无界权杖",
+      "url": "https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "文章仅为防机器人验证页面，无实质内容。",
+      "tags": [
+        "防机器人",
+        "验证页面",
+        "空内容"
+      ],
+      "recommendReason": "无实质内容，不推荐阅读。",
+      "score": 1.0
+    },
     {
       "title": "操作系统问年龄？",
       "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
