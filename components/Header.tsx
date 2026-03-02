@@ -13,6 +13,12 @@ export default function Header() {
         
         <nav className="flex items-center gap-6">
           <Link
+            href="/threads"
+            className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
+          >
+            X Threads
+          </Link>
+          <Link
             href="/discover"
             className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
           >

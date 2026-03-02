@@ -1,0 +1,57 @@
+{
+  "lastUpdated": "2026-03-02T03:20:00Z",
+  "source": "attentionvc.ai",
+  "total": 5,
+  "threads": [
+    {
+      "id": "thread-1",
+      "title": "为什么大多数AI创业公司会失败",
+      "url": "https://twitter.com/example/status/1",
+      "author": "@startup_guru",
+      "description": "分析了过去3年100家AI创业公司的失败原因，总结了5个致命错误...",
+      "date": "2026-03-01T08:00:00Z",
+      "engagement": "12.5K likes",
+      "category": "Startup"
+    },
+    {
+      "id": "thread-2",
+      "title": "从零开始理解Transformer架构",
+      "url": "https://twitter.com/example/status/2",
+      "author": "@ai_researcher",
+      "description": "用简单的比喻解释Transformer的核心机制，适合非技术背景的人理解...",
+      "date": "2026-03-01T06:30:00Z",
+      "engagement": "8.2K likes",
+      "category": "AI"
+    },
+    {
+      "id": "thread-3",
+      "title": "2026年最值得关注的10个开源项目",
+      "url": "https://twitter.com/example/status/3",
+      "author": "@oss_watcher",
+      "description": "整理了GitHub上增长最快的开源项目，涵盖AI、数据库、开发工具等领域...",
+      "date": "2026-02-28T14:00:00Z",
+      "engagement": "15.1K likes",
+      "category": "Open Source"
+    },
+    {
+      "id": "thread-4",
+      "title": "独立开发者的盈利之路",
+      "url": "https://twitter.com/example/status/4",
+      "author": "@indie_hacker",
+      "description": "分享了我从0到月收入$5万的完整历程，包括产品选择、营销策略和心态调整...",
+      "date": "2026-02-28T09:15:00Z",
+      "engagement": "22.3K likes",
+      "category": "Indie Hacking"
+    },
+    {
+      "id": "thread-5",
+      "title": "Web3已死？一个从业者的真实观察",
+      "url": "https://twitter.com/example/status/5",
+      "author": "@web3_insider",
+      "description": "在加密行业工作4年，见证了三轮牛熊周期，分享我对当前市场的真实看法...",
+      "date": "2026-02-27T16:45:00Z",
+      "engagement": "18.7K likes",
+      "category": "Web3"
+    }
+  ]
+}
