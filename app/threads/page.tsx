@@ -7,7 +7,6 @@ export const metadata = {
   description: 'Curated long-form threads from X (Twitter)',
 };
 
-// Pagination settings
 const ITEMS_PER_PAGE = 20;
 
 interface ThreadsPageProps {
@@ -17,29 +16,27 @@ interface ThreadsPageProps {
 export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
   const allThreads = getXThreads();
   
-  // Get filter params
   const lang = (searchParams.lang as string) || 'all';
   const page = parseInt((searchParams.page as string) || '1', 10);
   
-  // Filter by language
-  const filteredThreads = lang === 'all' 
-    ? allThreads 
-    : allThreads.filter(t => t.lang === lang);
+  // Filter: exclude Japanese, keep en/zh/all
+  const langFiltered = allThreads.filter(t => {
+    if (lang === 'all') return t.lang === 'en' || t.lang === 'zh';
+    return t.lang === lang;
+  });
   
   // Pagination
-  const totalItems = filteredThreads.length;
+  const totalItems = langFiltered.length;
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const currentPage = Math.max(1, Math.min(page, totalPages || 1));
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const paginatedThreads = filteredThreads.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const threads = langFiltered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   
-  // Language counts
-  const langCounts = {
-    all: allThreads.length,
+  // Counts (excluding Japanese)
+  const counts = {
+    all: allThreads.filter(t => t.lang === 'en' || t.lang === 'zh').length,
     en: allThreads.filter(t => t.lang === 'en').length,
     zh: allThreads.filter(t => t.lang === 'zh').length,
-    ja: allThreads.filter(t => t.lang === 'ja').length,
-    other: allThreads.filter(t => !['en', 'zh', 'ja'].includes(t.lang || '')).length,
   };
 
   return (
@@ -60,46 +57,49 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
           </p>
         </header>
 
-        {/* Language Filter */}
+        {/* Language Filter - Only 3 options */}
         <div className="flex items-center gap-2 mb-8 pb-6 border-b border-neutral-100">
-          <span className="text-xs text-neutral-400 mr-2">Language:</span>
           {[
-            { key: 'all', label: 'All', count: langCounts.all },
-            { key: 'en', label: 'English', count: langCounts.en },
-            { key: 'zh', label: '中文', count: langCounts.zh },
-            { key: 'ja', label: '日本語', count: langCounts.ja },
-            { key: 'other', label: 'Other', count: langCounts.other },
-          ].map(({ key, label, count }) => (
+            { key: 'all', label: 'All' },
+            { key: 'en', label: 'English' },
+            { key: 'zh', label: '中文' },
+          ].map(({ key, label }) => (
             <Link
               key={key}
-              href={`/threads?lang=${key}${page > 1 ? '&page=1' : ''}`}
+              href={`/threads?lang=${key}&page=1`}
               className={`px-3 py-1 text-xs rounded transition-colors ${
                 lang === key 
                   ? 'bg-neutral-900 text-white' 
                   : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
               }`}
             >
-              {label} ({count})
+              {label} ({counts[key as keyof typeof counts]})
             </Link>
           ))}
         </div>
 
-        {/* Thread Count */}
+        {/* Results count */}
         <div className="flex items-center justify-between mb-6">
           <p className="text-xs text-neutral-400">
-            Showing {Math.min(startIndex + 1, totalItems)}-{Math.min(startIndex + ITEMS_PER_PAGE, totalItems)} of {totalItems} threads
+            {totalItems > 0 ? (
+              <>Showing {startIndex + 1}-{Math.min(startIndex + ITEMS_PER_PAGE, totalItems)} of {totalItems}</>
+            ) : (
+              'No results'
+            )}
           </p>
-          <p className="text-xs text-neutral-400 mono">
-            Page {currentPage} of {totalPages || 1}
-          </p>
+          {totalPages > 1 && (
+            <p className="text-xs text-neutral-400 mono">
+              Page {currentPage} / {totalPages}
+            </p>
+          )}
         </div>
 
-        {/* Threads List */}
+        {/* Threads */}
         <div className="space-y-6">
-          {paginatedThreads.length === 0 ? (
+          {threads.length === 0 ? (
             <p className="text-neutral-400 text-sm">No threads available</p>
           ) : (
-            paginatedThreads.map((thread, index) => (
+            threads.map((thread, index) => (
               <article key={thread.id} className="group border-b border-neutral-100 pb-6 last:border-0">
                 <a 
                   href={thread.url} 
@@ -107,7 +107,7 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  {/* Rank + Title row */}
+                  {/* Rank + Title */}
                   <div className="flex items-baseline gap-3 mb-1">
                     <span className="text-xs text-neutral-300 mono w-6">
                       {startIndex + index + 1}
@@ -119,13 +119,9 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                   
                   {/* Author */}
                   <div className="flex items-center gap-2 ml-9">
-                    <span className="text-xs text-neutral-400 mono">
-                      {thread.author}
-                    </span>
+                    <span className="text-xs text-neutral-400 mono">{thread.author}</span>
                     {thread.authorName && thread.authorName !== thread.author && (
-                      <span className="text-xs text-neutral-300">
-                        ({thread.authorName})
-                      </span>
+                      <span className="text-xs text-neutral-300">({thread.authorName})</span>
                     )}
                   </div>
                   
@@ -139,11 +135,9 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
                       {thread.category}
                     </span>
-                    {thread.lang && thread.lang !== 'other' && (
-                      <span className="uppercase">{thread.lang}</span>
-                    )}
+                    <span className="uppercase">{thread.lang}</span>
                     {thread.readingTime && thread.readingTime > 0 && (
-                      <span>{thread.readingTime} min read</span>
+                      <span>{thread.readingTime} min</span>
                     )}
                     {thread.wordCount && thread.wordCount > 0 && (
                       <span>{thread.wordCount.toLocaleString()} words</span>
@@ -160,11 +154,10 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
         {/* Pagination */}
         {totalPages > 1 && (
           <div className="flex items-center justify-center gap-2 mt-12 pt-6 border-t border-neutral-100">
-            {/* Previous */}
             {currentPage > 1 ? (
               <Link
                 href={`/threads?lang=${lang}&page=${currentPage - 1}`}
-                className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
+                className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 ← Prev
               </Link>
@@ -172,7 +165,6 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
               <span className="px-3 py-1 text-sm text-neutral-300">← Prev</span>
             )}
             
-            {/* Page numbers */}
             <div className="flex items-center gap-1">
               {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
                 let pageNum;
@@ -202,11 +194,10 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
               })}
             </div>
             
-            {/* Next */}
             {currentPage < totalPages ? (
               <Link
                 href={`/threads?lang=${lang}&page=${currentPage + 1}`}
-                className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
+                className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 Next →
               </Link>
