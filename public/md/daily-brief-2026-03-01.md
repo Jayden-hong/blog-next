@@ -1,0 +1,78 @@
+﻿---
+title: "Daily Read · 2026-03-01"
+date: "2026-03-01T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-01"
+---
+
+> 10 articles · 8.2/10 avg · 9 highlights (≥7.5)
+
+**1. [交互式讲解降认知债](https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything)** · 8.5/10 · simonwillison
+
+用AI生成Rust词云动画，交互式拆解算法，快速偿还代码认知债。
+
+> 把黑盒算法变可暂停动画，秒懂原理。
+
+**2. [闲聊苹果2026](https://daringfireball.net/thetalkshow/2026/02/28/ep-442)** · 8.5/10 · daringfireball
+
+Gruber与Jason Snell点评2025苹果成绩单、macOS 26槽点，并展望下周新品。
+
+> 资深果粉必听，犀利吐槽新系统。
+
+**3. [Redis编码模式指南](
+http://antirez.com/news/161
+)** · 8.5/10 · antirez
+
+Redis作者亲写命令文档、常用模式、配置技巧及算法示例，开发者速查手册。
+
+> 作者权威、内容全面，直接提升缓存设计效率。
+
+**4. [操作系统问年龄](https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed)** · 8.5/10 · idiallo
+
+加州新法强制操作系统收集用户年龄，作者质疑其荒诞与无法执行。
+
+> 用幽默笔触揭示荒诞立法，发人深省。
+
+**5. [战火下的英国黑人](https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/)** · 8.5/10 · shkspr.mobi
+
+书评揭示二战时黑人英国人的真实经历，打破“英国无黑人”迷思。
+
+> 用一手访谈还原被遗忘的战时黑人英国群像。
+
+**6. [AI误杀已发生？](https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident)** · 8.5/10 · garymarcus
+
+Gary Marcus质疑军用AI可能已致伊朗校园误炸，并警告技术不可靠与道德卸责风险。
+
+> 揭示AI致命误判与责任黑洞，振聋发聩。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [Bash 的 ~- 妙用](https://www.johndcook.com/blog/2026/03/01/tilde-dash/)** · 8.5/10 · johndcook
+
+作者发现 bash 中 ~- 代表旧工作目录，可简化 diff 等跨目录操作。
+
+> 教你用 ~- 秒切目录，常见痛点一招解决。
+
+**8. [Sentry iOS崩溃追踪](https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry)** · 8.3/10 · daringfireball
+
+手把手教你用Sentry在iOS中快速定位崩溃、性能瓶颈与日志关联
+
+> 实战演示，10分钟上手Sentry iOS全流程
+
+**9. [Claude记忆导出提示](https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything)** · 8.0/10 · simonwillison
+
+Simon Willison分享Anthropic新功能，让用户一键导出Claude保存的全部个人记忆与偏好。
+
+> 掌握AI助手记忆导出技巧，保护隐私与迁移数据。
+
+**10. [杀死内心的死灵](https://xeiaso.net/blog/2026/killing-my-inner-necron/)** · 6.0/10 · xeiaso
+
+作者借“杀死内在Necron”隐喻自我革新，页面仅显反机器人验证。
+
+> 用科幻隐喻探讨自我突破，角度新颖。
+
+---
+*2026-03-01 22:04 UTC · Kimi K2 · 94 sources*

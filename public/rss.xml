@@ -5,80 +5,150 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 11:55:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 04:49:44 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
     <item>
-      <title>Daily Thoughts · 2026-02-28</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/</guid>
-      <pubDate>Sat, 28 Feb 2026 08:00:00 GMT</pubDate>
+      <title>Daily Thoughts · 2026-03-02</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/</guid>
+      <pubDate>Mon, 02 Mar 2026 08:00:00 GMT</pubDate>
     <category>thoughts</category>
     <category>analysis</category>
       <description>
 核心观点  
-AI 编程代理已从“高级自动补全”跃迁为“可独立交付生产级代码的虚拟开发者”，开源生态正成为其能力放大器。
+个人开发者正借本地LLM与开源工具链，把“一人公司”从营销口号变成可量产的软件交付模式，传统团队边界被击穿。
 
 现象解读  
-Simonwillison 的实测记录里，怀疑者仅用自然语言就让 AI 在数小时内完成爬虫、清洗、重写 scikit-learn 算法并跑出正确结果；Anthropic 随即把价值 120 美元的 Claude Max 20x 免费塞给万名开源</description>
+Geerling 用一台 64 GB 内存的 M3 Max，把十年博客完整迁移：本地量化模型写摘要、生成 SEO 字段、自动配图，再丢进 CI 产出静态站点，全程无云端付费 token。同期 Redis 模式指南、Sentry iOS 实战分</description>
       <content:encoded><![CDATA[
         <p>
 核心观点  
-AI 编程代理已从“高级自动补全”跃迁为“可独立交付生产级代码的虚拟开发者”，开源生态正成为其能力放大器。
+个人开发者正借本地LLM与开源工具链，把“一人公司”从营销口号变成可量产的软件交付模式，传统团队边界被击穿。
 
 现象解读  
-Simonwillison 的实测记录里，怀疑者仅用自然语言就让 AI 在数小时内完成爬虫、清洗、重写 scikit-learn 算法并跑出正确结果；Anthropic 随即把价值 120 美元的 Claude Max 20x 免费塞给万名开源</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-02-28.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/">Read on blog →</a></p>
+Geerling 用一台 64 GB 内存的 M3 Max，把十年博客完整迁移：本地量化模型写摘要、生成 SEO 字段、自动配图，再丢进 CI 产出静态站点，全程无云端付费 token。同期 Redis 模式指南、Sentry iOS 实战分</p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-02.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
     <item>
-      <title>Daily Read · 2026-02-28</title>
-      <link>https://blog.zucchini.win/blog/daily-brief-2026-02-28/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-02-28/</guid>
-      <pubDate>Sat, 28 Feb 2026 06:00:00 GMT</pubDate>
+      <title>Daily Read · 2026-03-02</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-02/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-02/</guid>
+      <pubDate>Mon, 02 Mar 2026 06:00:00 GMT</pubDate>
     <category>daily-brief</category>
     <category>rss</category>
       <description>
-&gt; 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+&gt; 9 articles · 8.5/10 avg · 9 highlights (≥7.5)
 
-1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+1. [Redis编码模式指南](
+http://antirez.com/news/161
+) · 9.0/10 · antirez
 
-记录一位怀疑者亲测AI</description>
+Redis作者antirez整理的命令、数据类型、配置与算法模式文档。
+
+&gt; 官方出品，覆盖全面，可直接落地。
+
+2. [差评 macOS 26](ht</description>
       <content:encoded><![CDATA[
         <p>
-> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+> 9 articles · 8.5/10 avg · 9 highlights (≥7.5)
 
-1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+1. [Redis编码模式指南](
+http://antirez.com/news/161
+) · 9.0/10 · antirez
 
-记录一位怀疑者亲测AI</p>
-        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-02-28.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-02-28/">Read on blog →</a></p>
+Redis作者antirez整理的命令、数据类型、配置与算法模式文档。
+
+> 官方出品，覆盖全面，可直接落地。
+
+2. [差评 macOS 26](ht</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-02.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-02/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
     <item>
-      <title>Daily Read · 2026-02-28</title>
+      <title>Daily Read · 2026-03-02</title>
       <link>https://blog.zucchini.win/blog/latest-brief/</link>
       <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
-      <pubDate>Sat, 28 Feb 2026 06:00:00 GMT</pubDate>
+      <pubDate>Mon, 02 Mar 2026 06:00:00 GMT</pubDate>
     <category>daily-brief</category>
     <category>rss</category>
       <description>
-&gt; 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+&gt; 9 articles · 8.5/10 avg · 9 highlights (≥7.5)
 
-1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+1. [Redis编码模式指南](
+http://antirez.com/news/161
+) · 9.0/10 · antirez
 
-记录一位怀疑者亲测AI</description>
+Redis作者antirez整理的命令、数据类型、配置与算法模式文档。
+
+&gt; 官方出品，覆盖全面，可直接落地。
+
+2. [差评 macOS 26](ht</description>
       <content:encoded><![CDATA[
         <p>
-> 17 articles · 8.4/10 avg · 16 highlights (≥7.5)
+> 9 articles · 8.5/10 avg · 9 highlights (≥7.5)
 
-1. [AI编程代理逆袭记](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/atom-everything) · 8.7/10 · simonwillison
+1. [Redis编码模式指南](
+http://antirez.com/news/161
+) · 9.0/10 · antirez
 
-记录一位怀疑者亲测AI</p>
+Redis作者antirez整理的命令、数据类型、配置与算法模式文档。
+
+> 官方出品，覆盖全面，可直接落地。
+
+2. [差评 macOS 26](ht</p>
         <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Thoughts · 2026-03-01</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/</guid>
+      <pubDate>Sun, 01 Mar 2026 08:00:00 GMT</pubDate>
+    <category>thoughts</category>
+    <category>analysis</category>
+      <description>
+核心观点  
+AI 正在把“读代码”转化为“看动画”，一次性抹平语言、经验与背景差异，使技术知识从稀缺品变成可暂停、回放、改参数的公共基础设施。  
+
+现象解读  
+Simon Willison 用 30 行 Python 让大模型生成 Rust 词云动画，观众可以单步执行、拖拽阈值，原本需要半天文档加调试才能建立的内存模型，三分钟就能在浏览器里“眼见为实”。同一周，Redis </description>
+      <content:encoded><![CDATA[
+        <p>
+核心观点  
+AI 正在把“读代码”转化为“看动画”，一次性抹平语言、经验与背景差异，使技术知识从稀缺品变成可暂停、回放、改参数的公共基础设施。  
+
+现象解读  
+Simon Willison 用 30 行 Python 让大模型生成 Rust 词云动画，观众可以单步执行、拖拽阈值，原本需要半天文档加调试才能建立的内存模型，三分钟就能在浏览器里“眼见为实”。同一周，Redis </p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-01.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-03-01</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-01/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-01/</guid>
+      <pubDate>Sun, 01 Mar 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 10 articles · 8.2/10 avg · 9 highlights (≥7.5)
+
+1. [交互式讲解降认知债](https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/atom-everything) · 8.5/10 · simonwillison
+</description>
+      <content:encoded><![CDATA[
+        <p>
+> 10 articles · 8.2/10 avg · 9 highlights (≥7.5)
+
+1. [交互式讲解降认知债](https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/atom-everything) · 8.5/10 · simonwillison
+</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-01.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-01/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

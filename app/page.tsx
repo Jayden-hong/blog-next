@@ -37,9 +37,9 @@ export default function Home() {
               </span>
             </div>
             
-            {feedDay && feedDay.highlights.length > 0 ? (
+            {feedDay && (feedDay.highlights?.length ?? 0) > 0 ? (
               <div className="grid gap-3">
-                {feedDay.highlights.slice(0, 5).map((highlight, index) => (
+                {feedDay.highlights!.slice(0, 5).map((highlight, index) => (
                   <a
                     key={index}
                     href={highlight.url}

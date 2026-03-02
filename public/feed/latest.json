@@ -1,234 +1,267 @@
 {
-  "date": "2026-03-02",
-  "totalSources": 8,
-  "totalArticles": 9,
-  "highlights": [
+  "lastUpdated": "2026-03-02T03:34:10.970817+00:00",
+  "source": "attentionvc.ai",
+  "total": 20,
+  "threads": [
     {
-      "title": "Redis编码模式指南",
-      "url": "\nhttp://antirez.com/news/161\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "Redis作者antirez整理的命令、数据类型、配置与算法模式文档。",
-      "tags": [
-        "Redis",
-        "设计模式",
-        "性能优化"
-      ],
-      "recommendReason": "官方出品，覆盖全面，可直接落地。",
-      "score": 9
+      "id": "2010751592346030461",
+      "title": "How to fix your entire life in 1 day",
+      "url": "https://x.com/thedankoe/status/2010751592346030461",
+      "author": "@thedankoe",
+      "authorName": "DAN KOE",
+      "description": "If you're anything like me, you think new years resolutions are stupid.\nBecause most people go about changing their lives in the completely wrong way. They create these resolutions because everyone",
+      "date": "2026-01-12T16:31:52.000Z",
+      "engagement": "175.6M views · 290K likes",
+      "category": "Self Help",
+      "wordCount": 5501,
+      "readingTime": 22
     },
     {
-      "title": "差评 macOS 26",
-      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-01",
-      "description": "Gruber 与 Jason Snell 盘点 2025 Apple 成绩单，痛批 macOS Tahoe 设计倒退。",
-      "tags": [
-        "播客",
-        "苹果",
-        "macOS"
-      ],
-      "recommendReason": "苹果深度用户必听，犀利点评最新系统翻车现场。",
-      "score": 8.6
+      "id": "2021256989876109403",
+      "title": "Something Big Is Happening",
+      "url": "https://x.com/mattshumer_/status/2021256989876109403",
+      "author": "@mattshumer_",
+      "authorName": "Matt Shumer",
+      "description": "Think back to February 2020.\nIf you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren't paying close attention. The stock",
+      "date": "2026-02-10T16:16:34.000Z",
+      "engagement": "85.0M views · 117K likes",
+      "category": "Business",
+      "wordCount": 4847,
+      "readingTime": 19
     },
     {
-      "title": "新手专家与独狼称霸LLM早期",
-      "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "作者以技术架构师视角，分享用本地LLM迁移博客的经验，指出“新手专家”和“独狼”将主导LLM初期。",
-      "tags": [
-        "LLM",
-        "开发者成长",
-        "技术管理"
-      ],
-      "recommendReason": "揭示LLM时代个人开发者新机遇",
-      "score": 8.5
+      "id": "2022788750388998543",
+      "title": "It’s Official: The World Order Has Broken Down",
+      "url": "https://x.com/RayDalio/status/2022788750388998543",
+      "author": "@RayDalio",
+      "authorName": "Ray Dalio",
+      "description": "At the Munich Security Conference, the post-1945 world order was pronounced dead by most leaders and the picture behind it was laid out in the Security Report 2026, entitled “Under Destruction,” which",
+      "date": "2026-02-14T21:43:14.000Z",
+      "engagement": "79.4M views · 83K likes",
+      "category": "Politics",
+      "wordCount": 7103,
+      "readingTime": 28
     },
     {
-      "title": "Sentry iOS崩溃追踪实战",
-      "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-01",
-      "description": "手把手教你用Sentry快速定位iOS崩溃、性能瓶颈与日志，减少告警疲劳。",
-      "tags": [
-        "iOS开发",
-        "崩溃监控",
-        "性能优化"
-      ],
-      "recommendReason": "实战导向，立刻提升iOS问题排查效率。",
-      "score": 8.5
+      "id": "2013366996180574446",
+      "title": "Deloitte, a $74 billion cancer metastasized across America",
+      "url": "https://x.com/beaverd/status/2013366996180574446",
+      "author": "@beaverd",
+      "authorName": "Beaver 🦁",
+      "description": "Consulting fees\nYou were never meant to hear the name \"Deloitte\" and you were never meant to know that the government has wasted $74 billion by working with them. Quietly, Deloitte is one of the",
+      "date": "2026-01-19T21:44:33.000Z",
+      "engagement": "47.5M views · 36K likes",
+      "category": "Business",
+      "wordCount": 1032,
+      "readingTime": 4
     },
     {
-      "title": "新法强制OS问年龄",
-      "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "加州新法要求操作系统收集用户年龄，作者质疑执法难度与潜在风险。",
-      "tags": [
-        "法律",
-        "隐私",
-        "操作系统"
-      ],
-      "recommendReason": "用幽默笔触拆解荒诞新规，引人深思。",
-      "score": 8.5
+      "id": "2027682547845763418",
+      "title": "電話をしてるふり",
+      "url": "https://x.com/BKBbunbun/status/2027682547845763418",
+      "author": "@BKBbunbun",
+      "authorName": "バイク川崎バイク(BKB)🛵",
+      "description": "まただ。\nもう。\nしつこいってば。\n\n「あ……もしもしごめんパパ。もうすぐ帰るね。うんうん。そうだねうん。迎え？あ、どうしようかな。来てもらおうかな？ええと、今はね……」\n\n私はよくナンパされる。",
+      "date": "2026-02-28T09:49:26.000Z",
+      "engagement": "45.0M views · 109K likes",
+      "category": "Lifestyle",
+      "wordCount": 1784,
+      "readingTime": 5
     },
     {
-      "title": "战时黑人英国史",
-      "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "书评揭示二战期间黑人英国人的真实经历，打破“英国无黑人”迷思。",
-      "tags": [
-        "二战",
-        "黑人史",
-        "书评"
-      ],
-      "recommendReason": "用一手访谈还原被遗忘的英国黑人战时故事",
-      "score": 8.5
-    }
-  ],
-  "articles": [
-    {
-      "title": "Redis编码模式指南",
-      "url": "\nhttp://antirez.com/news/161\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "Redis作者antirez整理的命令、数据类型、配置与算法模式文档。",
-      "tags": [
-        "Redis",
-        "设计模式",
-        "性能优化"
-      ],
-      "recommendReason": "官方出品，覆盖全面，可直接落地。",
-      "score": 9
+      "id": "2022288929354035238",
+      "title": "1本",
+      "url": "https://x.com/drumerkoi/status/2022288929354035238",
+      "author": "@drumerkoi",
+      "authorName": "にしきのこい",
+      "description": "「タバコを吸ってもよろしいですか？」\n「どうぞ、ところで1日に何本くらいお吸いに？」\n「1本」\n「1本かあ」\n思ったより少ないな…。もうちょっと吸えよ。\n「もうちょっと吸ってもいいんじゃないですか？」",
+      "date": "2026-02-13T12:37:07.000Z",
+      "engagement": "43.6M views · 81K likes",
+      "category": "Lifestyle",
+      "wordCount": 465,
+      "readingTime": 1
     },
     {
-      "title": "差评 macOS 26",
-      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-01",
-      "description": "Gruber 与 Jason Snell 盘点 2025 Apple 成绩单，痛批 macOS Tahoe 设计倒退。",
-      "tags": [
-        "播客",
-        "苹果",
-        "macOS"
-      ],
-      "recommendReason": "苹果深度用户必听，犀利点评最新系统翻车现场。",
-      "score": 8.6
+      "id": "2015052151475876322",
+      "title": "考えてからでは遅すぎる",
+      "url": "https://x.com/Jumpei_Mitsui/status/2015052151475876322",
+      "author": "@Jumpei_Mitsui",
+      "authorName": "三井淳平 / Jumpei Mitsui",
+      "description": "　私は世界に24人しかいないプロのレゴビルダーの一人なのですが、去年、東京藝術大学の大学院に入学しました。",
+      "date": "2026-01-24T13:20:45.000Z",
+      "engagement": "35.0M views · 100K likes",
+      "category": "Lifestyle",
+      "wordCount": 1871,
+      "readingTime": 5
     },
     {
-      "title": "新手专家与独狼称霸LLM早期",
-      "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "作者以技术架构师视角，分享用本地LLM迁移博客的经验，指出“新手专家”和“独狼”将主导LLM初期。",
-      "tags": [
-        "LLM",
-        "开发者成长",
-        "技术管理"
-      ],
-      "recommendReason": "揭示LLM时代个人开发者新机遇",
-      "score": 8.5
+      "id": "2015784327213183053",
+      "title": "その春に行けないけど",
+      "url": "https://x.com/suisuiayaka/status/2015784327213183053",
+      "author": "@suisuiayaka",
+      "authorName": "スイスイ/エッセイスト",
+      "description": "2014年3月19日。あの日。\n初めて子供を産んだ私へ。\nかなり情報が多いかもしれないけど一気に伝えるから聞いてほしい。嘘かと思うこともあるかもしれないけど信じてほしい。\n〰️〰️〰️〰️",
+      "date": "2026-01-26T13:50:09.000Z",
+      "engagement": "33.3M views · 80K likes",
+      "category": "Lifestyle",
+      "wordCount": 1385,
+      "readingTime": 4
     },
     {
-      "title": "Sentry iOS崩溃追踪实战",
-      "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-01",
-      "description": "手把手教你用Sentry快速定位iOS崩溃、性能瓶颈与日志，减少告警疲劳。",
-      "tags": [
-        "iOS开发",
-        "崩溃监控",
-        "性能优化"
-      ],
-      "recommendReason": "实战导向，立刻提升iOS问题排查效率。",
-      "score": 8.5
+      "id": "2012220254504530043",
+      "title": "Why Young Women Moved Left While Young Men Stayed Sane",
+      "url": "https://x.com/IterIntellectus/status/2012220254504530043",
+      "author": "@IterIntellectus",
+      "authorName": "vittorio",
+      "description": "Bill Ackman quote tweeted a graph showing the partisan gap between young men and women almost doubled in 25 years. \nhttps://x.com/zarathustra5150/status/2011851505834352809?s=20\nWomen moved radically ",
+      "date": "2026-01-16T17:47:48.000Z",
+      "engagement": "31.9M views · 33K likes",
+      "category": "Politics",
+      "wordCount": 2208,
+      "readingTime": 9
     },
     {
-      "title": "新法强制OS问年龄",
-      "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "加州新法要求操作系统收集用户年龄，作者质疑执法难度与潜在风险。",
-      "tags": [
-        "法律",
-        "隐私",
-        "操作系统"
-      ],
-      "recommendReason": "用幽默笔触拆解荒诞新规，引人深思。",
-      "score": 8.5
+      "id": "2021044308036682149",
+      "title": "ママとは",
+      "url": "https://x.com/azplanetaz/status/2021044308036682149",
+      "author": "@azplanetaz",
+      "authorName": "たなか",
+      "description": "ママ。ママ。ママ。\n私はママである。母である。女である。社会人である、人間である。",
+      "date": "2026-02-10T02:11:26.000Z",
+      "engagement": "30.3M views · 48K likes",
+      "category": "Lifestyle",
+      "wordCount": 1208,
+      "readingTime": 3
     },
     {
-      "title": "战时黑人英国史",
-      "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "书评揭示二战期间黑人英国人的真实经历，打破“英国无黑人”迷思。",
-      "tags": [
-        "二战",
-        "黑人史",
-        "书评"
-      ],
-      "recommendReason": "用一手访谈还原被遗忘的英国黑人战时故事",
-      "score": 8.5
+      "id": "2025414074969063837",
+      "title": "【子供が生まれても実感が湧かない男たちへ】妊娠中にやっておくべき準備を記す",
+      "url": "https://x.com/minatoku_genkai/status/2025414074969063837",
+      "author": "@minatoku_genkai",
+      "authorName": "港区社長、限界集落へ。",
+      "description": "つわりで吐き気をもよおして「おえっ…おえっ…」てなってた\nそれをずっと聞いてる俺も辛くて、その隣で俺、真似してた。\n「おえっ笑」って言いながら。",
+      "date": "2026-02-22T03:35:20.000Z",
+      "engagement": "29.0M views · 8K likes",
+      "category": "Lifestyle",
+      "wordCount": 994,
+      "readingTime": 3
     },
     {
-      "title": "AI误杀已发生？",
-      "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
-      "source": "garymarcus",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "Gary Marcus质疑AI军事误袭致伊朗150学童死亡，警示技术与道德双重风险。",
-      "tags": [
-        "AI军事",
-        "误袭",
-        "伦理责任"
-      ],
-      "recommendReason": "揭示AI武器化致命隐患，讨论紧迫。",
-      "score": 8.5
+      "id": "2015039710180290599",
+      "title": "不眠に悩んだワイが睡眠ガチって得た「睡眠の質」をガン上げする方法",
+      "url": "https://x.com/yoppymodel/status/2015039710180290599",
+      "author": "@yoppymodel",
+      "authorName": "ヨッピー",
+      "description": "何故かワイは「なかなか寝付けない」「寝てもすぐ起きちゃう」とかそういう体質でして（きっと虚弱なんでしょうね。儚いから）、特にコロナ中は「深夜3時に寝て、そのあと早朝5時に目が覚めてもう寝れない」みたいな",
+      "date": "2026-01-24T12:31:19.000Z",
+      "engagement": "28.7M views · 46K likes",
+      "category": "Health",
+      "wordCount": 1529,
+      "readingTime": 4
     },
     {
-      "title": "Claude记忆导出提示词曝光",
-      "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "Simon Willison展示用户要求Claude完整导出记忆数据的提示词，揭示AI记忆机制。",
-      "tags": [
-        "AI记忆",
-        "提示工程",
-        "Claude"
-      ],
-      "recommendReason": "一窥AI记忆导出原始提示，学习提示工程技巧。",
-      "score": 8.2
+      "id": "2017223484242530814",
+      "title": "夫は斜め上をゆく",
+      "url": "https://x.com/nagase_h/status/2017223484242530814",
+      "author": "@nagase_h",
+      "authorName": "長瀬ほのか",
+      "description": "ある日、夫が起きてそのままの状態でぐうたらしていたので、「顔くらい洗ってくれば？」と促すと、のそのそと洗面所に向かっていった。それを背後から尾行し様子を覗き見ていたところ、なんと、眼鏡をかけたまま顔を",
+      "date": "2026-01-30T13:08:51.000Z",
+      "engagement": "27.5M views · 38K likes",
+      "category": "Lifestyle",
+      "wordCount": 1174,
+      "readingTime": 3
     },
     {
-      "title": "Bash 的 ~- 技巧",
-      "url": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "介绍 Bash 中 ~- 快捷方式，可快速引用上一工作目录，提升终端操作效率。",
-      "tags": [
-        "Shell",
-        "Bash",
-        "命令行技巧"
-      ],
-      "recommendReason": "快速掌握目录跳转小技巧，提升终端效率",
-      "score": 8.2
+      "id": "2015118722558820705",
+      "title": "White People Didn't Invent Slavery. The West Ended It. ",
+      "url": "https://x.com/thatsKAIZEN/status/2015118722558820705",
+      "author": "@thatsKAIZEN",
+      "authorName": "Kaizen D. Asiedu",
+      "description": "I almost couldn't believe what I was hearing.\n\"Yeah, she told me that they sorted the kids into two lines, by skin color. One line was for the oppressed, the other, for oppressors.\"\nThis had allegedly",
+      "date": "2026-01-24T17:45:17.000Z",
+      "engagement": "26.4M views · 15K likes",
+      "category": "Politics",
+      "wordCount": 4857,
+      "readingTime": 19
+    },
+    {
+      "id": "2025156907594571816",
+      "title": "他者の命は軽い",
+      "url": "https://x.com/masumi_asano/status/2025156907594571816",
+      "author": "@masumi_asano",
+      "authorName": "浅野真澄 / あさのますみ",
+      "description": "2025年10月。旅先で、宿泊していたヴィラが燃えた。寝ているあいだの出来事だった。命について考えさせられたあの火事のことを、ここに書いておきたい。\n10月は、夫の誕生日だった。",
+      "date": "2026-02-21T10:33:27.000Z",
+      "engagement": "24.3M views · 35K likes",
+      "category": "Other",
+      "wordCount": 1746,
+      "readingTime": 5
+    },
+    {
+      "id": "2017841630632702156",
+      "title": "人生初の飛行機ファーストクラスで天国と地獄を見た",
+      "url": "https://x.com/b_kansou/status/2017841630632702156",
+      "author": "@b_kansou",
+      "authorName": "かんそう",
+      "description": "数年前、関東を直撃した大型台風の影響で羽田-千歳間のフライトが欠航になり、唯一空きのあったのが「ファーストクラス」の座席のみだった。背に腹は代えられないと、決して安くない追加料金を払い元々のエコノミー",
+      "date": "2026-02-01T06:05:09.000Z",
+      "engagement": "24.0M views · 44K likes",
+      "category": "Lifestyle",
+      "wordCount": 957,
+      "readingTime": 3
+    },
+    {
+      "id": "2013552215097778231",
+      "title": "I'm 38. If You're in Your 20's or 30's, Read This. ",
+      "url": "https://x.com/Tim_Denning/status/2013552215097778231",
+      "author": "@Tim_Denning",
+      "authorName": "Tim Denning",
+      "description": "Getting old sucks.\nThe one positive is that as we age, we mature. That’s been the case for me. Not much fazes me anymore.\nI’ve been part of so much drama – personal bankruptcies, homeless friends, my",
+      "date": "2026-01-20T10:00:32.000Z",
+      "engagement": "23.9M views · 34K likes",
+      "category": "Self Help",
+      "wordCount": 3447,
+      "readingTime": 14
+    },
+    {
+      "id": "2021214038517227914",
+      "title": "神木隆之介くんの奥さんへ",
+      "url": "https://x.com/onepiece_kun/status/2021214038517227914",
+      "author": "@onepiece_kun",
+      "authorName": "ONE PIECEが大好きな神木【スーパーカミキカンデ】",
+      "description": "神木くん、突然こんなこと書かれてびっくりしたよね。\nでも安心して最後まで読んでほしい。奥さんと一緒にね。\n今日、神木隆之介くん、あなたが結婚するというニュースが飛び込んできました。",
+      "date": "2026-02-10T13:25:53.000Z",
+      "engagement": "23.4M views · 57K likes",
+      "category": "Entertainment",
+      "wordCount": 833,
+      "readingTime": 2
+    },
+    {
+      "id": "2014967752126324761",
+      "title": "見逃し配信ｱｰｶｲﾌﾞ.ᐟ.ᐟ",
+      "url": "https://x.com/ami_ami_pan/status/2014967752126324761",
+      "author": "@ami_ami_pan",
+      "authorName": "あみ",
+      "description": "月曜、このアカウントで配信するね.ᐟ.ᐟ\n配信場所→https://www.instagram.com/amimipan3/",
+      "date": "2026-01-24T07:45:23.000Z",
+      "engagement": "20.4M views · 8K likes",
+      "category": "Entertainment",
+      "wordCount": 12,
+      "readingTime": 1
+    },
+    {
+      "id": "2021325191360794829",
+      "title": "35歳で知る「取り返せない時間」の正体",
+      "url": "https://x.com/Via00Via/status/2021325191360794829",
+      "author": "@Via00Via",
+      "authorName": "VIA",
+      "description": "35歳という年齢は不思議な立ち位置にある。 若くもありもう若くもない。 何でもできる気もするし、同時に「もう遅いのでは」という不安も消えない。 だが35歳になるとはっきりしてくることがある。",
+      "date": "2026-02-10T20:47:34.000Z",
+      "engagement": "20.0M views · 30K likes",
+      "category": "Self Help",
+      "wordCount": 1116,
+      "readingTime": 3
     }
   ],
   "allTags": [

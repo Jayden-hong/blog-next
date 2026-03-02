@@ -63,10 +63,10 @@ export default function ThreadsPage() {
                     <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
                       {thread.category}
                     </span>
-                    {thread.readingTime > 0 && (
+                    {thread.readingTime && thread.readingTime > 0 && (
                       <span>{thread.readingTime} min read</span>
                     )}
-                    {thread.wordCount > 0 && (
+                    {thread.wordCount && thread.wordCount > 0 && (
                       <span>{thread.wordCount.toLocaleString()} words</span>
                     )}
                     <span>·</span>
