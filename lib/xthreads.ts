@@ -13,6 +13,15 @@ export interface XThread {
   category: string;
   wordCount?: number;
   readingTime?: number;
+  lang?: string;
+  rank?: number;
+  metrics?: {
+    views: number;
+    likes: number;
+    retweets: number;
+    replies: number;
+    bookmarks: number;
+  };
 }
 
 const THREADS_FILE = path.join(process.cwd(), 'content/feed/x-threads.json');

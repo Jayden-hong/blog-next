@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-02T03:34:10.970817+00:00",
+  "lastUpdated": "2026-03-02T06:15:48.195383+00:00",
   "source": "attentionvc.ai",
-  "total": 20,
+  "total": 50,
   "threads": [
     {
       "id": "2010751592346030461",
@@ -11,10 +11,19 @@
       "authorName": "DAN KOE",
       "description": "If you're anything like me, you think new years resolutions are stupid.\nBecause most people go about changing their lives in the completely wrong way. They create these resolutions because everyone",
       "date": "2026-01-12T16:31:52.000Z",
-      "engagement": "175.6M views · 290K likes",
+      "engagement": "175.6M views · 290.1K likes",
       "category": "Self Help",
       "wordCount": 5501,
-      "readingTime": 22
+      "readingTime": 22,
+      "lang": "en",
+      "rank": 1,
+      "metrics": {
+        "views": 175604344,
+        "likes": 290129,
+        "retweets": 43777,
+        "replies": 8413,
+        "bookmarks": 771152
+      }
     },
     {
       "id": "2021256989876109403",
@@ -24,10 +33,19 @@
       "authorName": "Matt Shumer",
       "description": "Think back to February 2020.\nIf you were paying close attention, you might have noticed a few people talking about a virus spreading overseas. But most of us weren't paying close attention. The stock",
       "date": "2026-02-10T16:16:34.000Z",
-      "engagement": "85.0M views · 117K likes",
+      "engagement": "85.0M views · 116.6K likes",
       "category": "Business",
       "wordCount": 4847,
-      "readingTime": 19
+      "readingTime": 19,
+      "lang": "en",
+      "rank": 2,
+      "metrics": {
+        "views": 84991691,
+        "likes": 116599,
+        "retweets": 27646,
+        "replies": 6463,
+        "bookmarks": 183261
+      }
     },
     {
       "id": "2022788750388998543",
@@ -37,10 +55,19 @@
       "authorName": "Ray Dalio",
       "description": "At the Munich Security Conference, the post-1945 world order was pronounced dead by most leaders and the picture behind it was laid out in the Security Report 2026, entitled “Under Destruction,” which",
       "date": "2026-02-14T21:43:14.000Z",
-      "engagement": "79.4M views · 83K likes",
+      "engagement": "79.4M views · 83.5K likes",
       "category": "Politics",
       "wordCount": 7103,
-      "readingTime": 28
+      "readingTime": 28,
+      "lang": "en",
+      "rank": 3,
+      "metrics": {
+        "views": 79359626,
+        "likes": 83450,
+        "retweets": 17804,
+        "replies": 3871,
+        "bookmarks": 184055
+      }
     },
     {
       "id": "2013366996180574446",
@@ -50,10 +77,19 @@
       "authorName": "Beaver 🦁",
       "description": "Consulting fees\nYou were never meant to hear the name \"Deloitte\" and you were never meant to know that the government has wasted $74 billion by working with them. Quietly, Deloitte is one of the",
       "date": "2026-01-19T21:44:33.000Z",
-      "engagement": "47.5M views · 36K likes",
+      "engagement": "47.5M views · 35.8K likes",
       "category": "Business",
       "wordCount": 1032,
-      "readingTime": 4
+      "readingTime": 4,
+      "lang": "en",
+      "rank": 4,
+      "metrics": {
+        "views": 47529366,
+        "likes": 35769,
+        "retweets": 7586,
+        "replies": 2357,
+        "bookmarks": 20989
+      }
     },
     {
       "id": "2027682547845763418",
@@ -63,10 +99,19 @@
       "authorName": "バイク川崎バイク(BKB)🛵",
       "description": "まただ。\nもう。\nしつこいってば。\n\n「あ……もしもしごめんパパ。もうすぐ帰るね。うんうん。そうだねうん。迎え？あ、どうしようかな。来てもらおうかな？ええと、今はね……」\n\n私はよくナンパされる。",
       "date": "2026-02-28T09:49:26.000Z",
-      "engagement": "45.0M views · 109K likes",
+      "engagement": "45.5M views · 110.8K likes",
       "category": "Lifestyle",
       "wordCount": 1784,
-      "readingTime": 5
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 5,
+      "metrics": {
+        "views": 45503144,
+        "likes": 110844,
+        "retweets": 11904,
+        "replies": 415,
+        "bookmarks": 28208
+      }
     },
     {
       "id": "2022288929354035238",
@@ -76,10 +121,19 @@
       "authorName": "にしきのこい",
       "description": "「タバコを吸ってもよろしいですか？」\n「どうぞ、ところで1日に何本くらいお吸いに？」\n「1本」\n「1本かあ」\n思ったより少ないな…。もうちょっと吸えよ。\n「もうちょっと吸ってもいいんじゃないですか？」",
       "date": "2026-02-13T12:37:07.000Z",
-      "engagement": "43.6M views · 81K likes",
+      "engagement": "43.6M views · 80.5K likes",
       "category": "Lifestyle",
       "wordCount": 465,
-      "readingTime": 1
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 6,
+      "metrics": {
+        "views": 43592198,
+        "likes": 80544,
+        "retweets": 5434,
+        "replies": 279,
+        "bookmarks": 12416
+      }
     },
     {
       "id": "2015052151475876322",
@@ -89,10 +143,19 @@
       "authorName": "三井淳平 / Jumpei Mitsui",
       "description": "　私は世界に24人しかいないプロのレゴビルダーの一人なのですが、去年、東京藝術大学の大学院に入学しました。",
       "date": "2026-01-24T13:20:45.000Z",
-      "engagement": "35.0M views · 100K likes",
+      "engagement": "35.0M views · 99.5K likes",
       "category": "Lifestyle",
       "wordCount": 1871,
-      "readingTime": 5
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 7,
+      "metrics": {
+        "views": 34953309,
+        "likes": 99516,
+        "retweets": 13492,
+        "replies": 169,
+        "bookmarks": 71524
+      }
     },
     {
       "id": "2015784327213183053",
@@ -102,10 +165,19 @@
       "authorName": "スイスイ/エッセイスト",
       "description": "2014年3月19日。あの日。\n初めて子供を産んだ私へ。\nかなり情報が多いかもしれないけど一気に伝えるから聞いてほしい。嘘かと思うこともあるかもしれないけど信じてほしい。\n〰️〰️〰️〰️",
       "date": "2026-01-26T13:50:09.000Z",
-      "engagement": "33.3M views · 80K likes",
+      "engagement": "33.3M views · 79.5K likes",
       "category": "Lifestyle",
       "wordCount": 1385,
-      "readingTime": 4
+      "readingTime": 4,
+      "lang": "ja",
+      "rank": 8,
+      "metrics": {
+        "views": 33347280,
+        "likes": 79547,
+        "retweets": 6508,
+        "replies": 143,
+        "bookmarks": 28423
+      }
     },
     {
       "id": "2012220254504530043",
@@ -113,12 +185,21 @@
       "url": "https://x.com/IterIntellectus/status/2012220254504530043",
       "author": "@IterIntellectus",
       "authorName": "vittorio",
-      "description": "Bill Ackman quote tweeted a graph showing the partisan gap between young men and women almost doubled in 25 years. \nhttps://x.com/zarathustra5150/status/2011851505834352809?s=20\nWomen moved radically ",
+      "description": "Bill Ackman quote tweeted a graph showing the partisan gap between young men and women almost doubled in 25 years. \nhttps://x.com/zarathustra5150/status/2011851505834352809?s=20\nWomen moved radically left. Men stayed roughly where they",
       "date": "2026-01-16T17:47:48.000Z",
-      "engagement": "31.9M views · 33K likes",
+      "engagement": "31.9M views · 32.7K likes",
       "category": "Politics",
       "wordCount": 2208,
-      "readingTime": 9
+      "readingTime": 9,
+      "lang": "en",
+      "rank": 9,
+      "metrics": {
+        "views": 31858432,
+        "likes": 32724,
+        "retweets": 6318,
+        "replies": 2050,
+        "bookmarks": 40859
+      }
     },
     {
       "id": "2021044308036682149",
@@ -128,10 +209,19 @@
       "authorName": "たなか",
       "description": "ママ。ママ。ママ。\n私はママである。母である。女である。社会人である、人間である。",
       "date": "2026-02-10T02:11:26.000Z",
-      "engagement": "30.3M views · 48K likes",
+      "engagement": "30.3M views · 48.4K likes",
       "category": "Lifestyle",
       "wordCount": 1208,
-      "readingTime": 3
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 10,
+      "metrics": {
+        "views": 30288455,
+        "likes": 48444,
+        "retweets": 4274,
+        "replies": 81,
+        "bookmarks": 24536
+      }
     },
     {
       "id": "2025414074969063837",
@@ -141,10 +231,19 @@
       "authorName": "港区社長、限界集落へ。",
       "description": "つわりで吐き気をもよおして「おえっ…おえっ…」てなってた\nそれをずっと聞いてる俺も辛くて、その隣で俺、真似してた。\n「おえっ笑」って言いながら。",
       "date": "2026-02-22T03:35:20.000Z",
-      "engagement": "29.0M views · 8K likes",
+      "engagement": "29.0M views · 8.0K likes",
       "category": "Lifestyle",
       "wordCount": 994,
-      "readingTime": 3
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 11,
+      "metrics": {
+        "views": 29014011,
+        "likes": 8035,
+        "retweets": 583,
+        "replies": 60,
+        "bookmarks": 7014
+      }
     },
     {
       "id": "2015039710180290599",
@@ -154,10 +253,19 @@
       "authorName": "ヨッピー",
       "description": "何故かワイは「なかなか寝付けない」「寝てもすぐ起きちゃう」とかそういう体質でして（きっと虚弱なんでしょうね。儚いから）、特にコロナ中は「深夜3時に寝て、そのあと早朝5時に目が覚めてもう寝れない」みたいな",
       "date": "2026-01-24T12:31:19.000Z",
-      "engagement": "28.7M views · 46K likes",
+      "engagement": "28.7M views · 45.5K likes",
       "category": "Health",
       "wordCount": 1529,
-      "readingTime": 4
+      "readingTime": 4,
+      "lang": "ja",
+      "rank": 12,
+      "metrics": {
+        "views": 28702722,
+        "likes": 45527,
+        "retweets": 4759,
+        "replies": 145,
+        "bookmarks": 41617
+      }
     },
     {
       "id": "2017223484242530814",
@@ -167,10 +275,19 @@
       "authorName": "長瀬ほのか",
       "description": "ある日、夫が起きてそのままの状態でぐうたらしていたので、「顔くらい洗ってくれば？」と促すと、のそのそと洗面所に向かっていった。それを背後から尾行し様子を覗き見ていたところ、なんと、眼鏡をかけたまま顔を",
       "date": "2026-01-30T13:08:51.000Z",
-      "engagement": "27.5M views · 38K likes",
+      "engagement": "27.5M views · 37.8K likes",
       "category": "Lifestyle",
       "wordCount": 1174,
-      "readingTime": 3
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 13,
+      "metrics": {
+        "views": 27542909,
+        "likes": 37784,
+        "retweets": 3558,
+        "replies": 117,
+        "bookmarks": 9920
+      }
     },
     {
       "id": "2015118722558820705",
@@ -180,10 +297,19 @@
       "authorName": "Kaizen D. Asiedu",
       "description": "I almost couldn't believe what I was hearing.\n\"Yeah, she told me that they sorted the kids into two lines, by skin color. One line was for the oppressed, the other, for oppressors.\"\nThis had allegedly",
       "date": "2026-01-24T17:45:17.000Z",
-      "engagement": "26.4M views · 15K likes",
+      "engagement": "26.4M views · 14.8K likes",
       "category": "Politics",
       "wordCount": 4857,
-      "readingTime": 19
+      "readingTime": 19,
+      "lang": "en",
+      "rank": 14,
+      "metrics": {
+        "views": 26441513,
+        "likes": 14813,
+        "retweets": 3704,
+        "replies": 1183,
+        "bookmarks": 7371
+      }
     },
     {
       "id": "2025156907594571816",
@@ -193,10 +319,19 @@
       "authorName": "浅野真澄 / あさのますみ",
       "description": "2025年10月。旅先で、宿泊していたヴィラが燃えた。寝ているあいだの出来事だった。命について考えさせられたあの火事のことを、ここに書いておきたい。\n10月は、夫の誕生日だった。",
       "date": "2026-02-21T10:33:27.000Z",
-      "engagement": "24.3M views · 35K likes",
+      "engagement": "24.3M views · 34.6K likes",
       "category": "Other",
       "wordCount": 1746,
-      "readingTime": 5
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 15,
+      "metrics": {
+        "views": 24254901,
+        "likes": 34586,
+        "retweets": 10313,
+        "replies": 200,
+        "bookmarks": 7545
+      }
     },
     {
       "id": "2017841630632702156",
@@ -206,10 +341,19 @@
       "authorName": "かんそう",
       "description": "数年前、関東を直撃した大型台風の影響で羽田-千歳間のフライトが欠航になり、唯一空きのあったのが「ファーストクラス」の座席のみだった。背に腹は代えられないと、決して安くない追加料金を払い元々のエコノミー",
       "date": "2026-02-01T06:05:09.000Z",
-      "engagement": "24.0M views · 44K likes",
+      "engagement": "24.0M views · 44.3K likes",
       "category": "Lifestyle",
       "wordCount": 957,
-      "readingTime": 3
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 16,
+      "metrics": {
+        "views": 23953445,
+        "likes": 44286,
+        "retweets": 5136,
+        "replies": 126,
+        "bookmarks": 11267
+      }
     },
     {
       "id": "2013552215097778231",
@@ -219,10 +363,19 @@
       "authorName": "Tim Denning",
       "description": "Getting old sucks.\nThe one positive is that as we age, we mature. That’s been the case for me. Not much fazes me anymore.\nI’ve been part of so much drama – personal bankruptcies, homeless friends, my",
       "date": "2026-01-20T10:00:32.000Z",
-      "engagement": "23.9M views · 34K likes",
+      "engagement": "23.9M views · 33.9K likes",
       "category": "Self Help",
       "wordCount": 3447,
-      "readingTime": 14
+      "readingTime": 14,
+      "lang": "en",
+      "rank": 17,
+      "metrics": {
+        "views": 23933671,
+        "likes": 33945,
+        "retweets": 4139,
+        "replies": 481,
+        "bookmarks": 73835
+      }
     },
     {
       "id": "2021214038517227914",
@@ -232,10 +385,19 @@
       "authorName": "ONE PIECEが大好きな神木【スーパーカミキカンデ】",
       "description": "神木くん、突然こんなこと書かれてびっくりしたよね。\nでも安心して最後まで読んでほしい。奥さんと一緒にね。\n今日、神木隆之介くん、あなたが結婚するというニュースが飛び込んできました。",
       "date": "2026-02-10T13:25:53.000Z",
-      "engagement": "23.4M views · 57K likes",
+      "engagement": "23.4M views · 56.9K likes",
       "category": "Entertainment",
       "wordCount": 833,
-      "readingTime": 2
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 18,
+      "metrics": {
+        "views": 23375638,
+        "likes": 56897,
+        "retweets": 5832,
+        "replies": 412,
+        "bookmarks": 8097
+      }
     },
     {
       "id": "2014967752126324761",
@@ -245,10 +407,19 @@
       "authorName": "あみ",
       "description": "月曜、このアカウントで配信するね.ᐟ.ᐟ\n配信場所→https://www.instagram.com/amimipan3/",
       "date": "2026-01-24T07:45:23.000Z",
-      "engagement": "20.4M views · 8K likes",
+      "engagement": "20.4M views · 7.7K likes",
       "category": "Entertainment",
       "wordCount": 12,
-      "readingTime": 1
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 19,
+      "metrics": {
+        "views": 20381034,
+        "likes": 7716,
+        "retweets": 277,
+        "replies": 563,
+        "bookmarks": 8983
+      }
     },
     {
       "id": "2021325191360794829",
@@ -258,10 +429,679 @@
       "authorName": "VIA",
       "description": "35歳という年齢は不思議な立ち位置にある。 若くもありもう若くもない。 何でもできる気もするし、同時に「もう遅いのでは」という不安も消えない。 だが35歳になるとはっきりしてくることがある。",
       "date": "2026-02-10T20:47:34.000Z",
-      "engagement": "20.0M views · 30K likes",
+      "engagement": "20.0M views · 29.6K likes",
       "category": "Self Help",
       "wordCount": 1116,
-      "readingTime": 3
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 20,
+      "metrics": {
+        "views": 19981254,
+        "likes": 29578,
+        "retweets": 3554,
+        "replies": 134,
+        "bookmarks": 24754
+      }
+    },
+    {
+      "id": "2012608685462220879",
+      "title": "President Trump's EXACT Tariff Playbook, A Step-by-Step Guide:",
+      "url": "https://x.com/KobeissiLetter/status/2012608685462220879",
+      "author": "@KobeissiLetter",
+      "authorName": "The Kobeissi Letter",
+      "description": "The trade war is back. We spent 12 months analyzing EVERY tariff development, here's the exact tariff playbook you need. Before we begin, Bookmark this Article, it will be your guide to the next 2-4",
+      "date": "2026-01-17T19:31:17.000Z",
+      "engagement": "19.5M views · 10.8K likes",
+      "category": "Politics",
+      "wordCount": 1165,
+      "readingTime": 5,
+      "lang": "en",
+      "rank": 21,
+      "metrics": {
+        "views": 19526706,
+        "likes": 10795,
+        "retweets": 1733,
+        "replies": 442,
+        "bookmarks": 21470
+      }
+    },
+    {
+      "id": "2018645198612648069",
+      "title": "コスプレイベントで起きた輪💥事件アーカイブ配信中…",
+      "url": "https://x.com/nooda2535/status/2018645198612648069",
+      "author": "@nooda2535",
+      "authorName": "ららとは。",
+      "description": "https://lin.ee/otoharara\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\n初めましての方に\n簡単に自己紹介させてください！\nこんにちは、乙葉ららです🌸",
+      "date": "2026-02-03T11:18:14.000Z",
+      "engagement": "19.4M views · 2.0K likes",
+      "category": "Entertainment",
+      "wordCount": 373,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 22,
+      "metrics": {
+        "views": 19435626,
+        "likes": 1983,
+        "retweets": 44,
+        "replies": 81,
+        "bookmarks": 2059
+      }
+    },
+    {
+      "id": "2016479826627133483",
+      "title": "【24時間限定無料】㊙️映像のアーカイブ送信中…",
+      "url": "https://x.com/Vysakhkp14/status/2016479826627133483",
+      "author": "@Vysakhkp14",
+      "authorName": "みとあかね🧸🫧",
+      "description": "今、私の大学生活での\nとある㊙️映像を\n【先着50名限定】で公開してます。\n無料で見れるアーカイブ動画はこちら👇\n \n【動画全編の視聴方法🎁】\n①この投稿に「いいね」「ブクマ」　\n②私のアカウントをフォロー",
+      "date": "2026-01-28T11:53:49.000Z",
+      "engagement": "19.2M views · 7.2K likes",
+      "category": "Wtf",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 23,
+      "metrics": {
+        "views": 19161023,
+        "likes": 7196,
+        "retweets": 232,
+        "replies": 595,
+        "bookmarks": 7814
+      }
+    },
+    {
+      "id": "2022891722523730213",
+      "title": "頭がいい人とは「孤独でいられる人」のこと",
+      "url": "https://x.com/naikoutetsugaku/status/2022891722523730213",
+      "author": "@naikoutetsugaku",
+      "authorName": "内向哲学",
+      "description": "「孤独でいられる人」をよく観察してみると、そこには驚くほど高い知性が隠されていることに気づかされます。\nぼくは孤独を恐れず、一人でいる時間を大切にできる人こそが、真に頭が良い人だと思っています。",
+      "date": "2026-02-15T04:32:24.000Z",
+      "engagement": "18.6M views · 15.0K likes",
+      "category": "Self Help",
+      "wordCount": 727,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 24,
+      "metrics": {
+        "views": 18616432,
+        "likes": 15044,
+        "retweets": 1472,
+        "replies": 103,
+        "bookmarks": 12966
+      }
+    },
+    {
+      "id": "2021099290765164947",
+      "title": "Every Nail to Hammer: The Definitive Case Against Steve Bannon",
+      "url": "https://x.com/ianmiles/status/2021099290765164947",
+      "author": "@ianmiles",
+      "authorName": "Ian Miles Cheong",
+      "description": "For nearly two decades, Steve Bannon has operated in the grey zones of global finance and digital culture. To the casual observer, his career looks like a series of disconnected pivots: Hollywood,",
+      "date": "2026-02-10T05:49:55.000Z",
+      "engagement": "18.1M views · 3.2K likes",
+      "category": "Politics",
+      "wordCount": 1601,
+      "readingTime": 6,
+      "lang": "en",
+      "rank": 25,
+      "metrics": {
+        "views": 18069289,
+        "likes": 3167,
+        "retweets": 888,
+        "replies": 379,
+        "bookmarks": 2573
+      }
+    },
+    {
+      "id": "2019275397234586040",
+      "title": "【結論男が悪い】妊娠期間に喧嘩をする夫婦が多い理由を言語化した",
+      "url": "https://x.com/minatoku_genkai/status/2019275397234586040",
+      "author": "@minatoku_genkai",
+      "authorName": "港区社長、限界集落へ。",
+      "description": "この話は順風満帆な経験談ではない。 限界集落で嫁がブチギレ、深夜の田舎道を脱走、警察沙汰。最悪の関係を経験した男の話だ。 （「女の激情型」クソダリィと当時は思った。この表現は許してくれ）",
+      "date": "2026-02-05T05:02:25.000Z",
+      "engagement": "16.6M views · 24.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 26,
+      "metrics": {
+        "views": 16623122,
+        "likes": 24108,
+        "retweets": 2633,
+        "replies": 66,
+        "bookmarks": 21990
+      }
+    },
+    {
+      "id": "2023377751374188903",
+      "title": "i tracked my relationships for 6 years. new friends are negative roi. here is the math. ",
+      "url": "https://x.com/the2ndfloorguy/status/2023377751374188903",
+      "author": "@the2ndfloorguy",
+      "authorName": "Pankaj",
+      "description": "recently i tweeted something that made some people really uncomfortable. i run scripts to tracks my relationships. ive been building this system called ziya - its like a personal crm for people in my",
+      "date": "2026-02-16T12:43:43.000Z",
+      "engagement": "16.4M views · 5.5K likes",
+      "category": "Self Help",
+      "wordCount": 739,
+      "readingTime": 3,
+      "lang": "en",
+      "rank": 27,
+      "metrics": {
+        "views": 16371176,
+        "likes": 5484,
+        "retweets": 352,
+        "replies": 915,
+        "bookmarks": 9118
+      }
+    },
+    {
+      "id": "2020438929934274856",
+      "title": "一度鬱になると、自分の「本体」がわからなくなる",
+      "url": "https://x.com/tsumugi_utatabi/status/2020438929934274856",
+      "author": "@tsumugi_utatabi",
+      "authorName": "詩旅 紡",
+      "description": "　鬱をまだ「落ち込む」くらいに思っていた頃、私はあかるかった。",
+      "date": "2026-02-08T10:05:53.000Z",
+      "engagement": "16.3M views · 43.7K likes",
+      "category": "Health",
+      "wordCount": 1125,
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 28,
+      "metrics": {
+        "views": 16266819,
+        "likes": 43746,
+        "retweets": 3909,
+        "replies": 40,
+        "bookmarks": 20990
+      }
+    },
+    {
+      "id": "2020820385617613287",
+      "title": "コスプレ撮影中に起きた強💥事件アーカイブ配信中…",
+      "url": "https://x.com/marihelias/status/2020820385617613287",
+      "author": "@marihelias",
+      "authorName": "おとはらら⊹˚.",
+      "description": "　　　　https://lin.ee/otoharara\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜\n★コスプレ歴3年目\n★アニメ / ゲーム /",
+      "date": "2026-02-09T11:21:39.000Z",
+      "engagement": "16.1M views · 2.1K likes",
+      "category": "Entertainment",
+      "wordCount": 395,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 29,
+      "metrics": {
+        "views": 16104505,
+        "likes": 2112,
+        "retweets": 68,
+        "replies": 131,
+        "bookmarks": 2132
+      }
+    },
+    {
+      "id": "2021412174640578833",
+      "title": "知的能力の高い人ほど、自己客観視力が高い",
+      "url": "https://x.com/naikoutetsugaku/status/2021412174640578833",
+      "author": "@naikoutetsugaku",
+      "authorName": "内向哲学",
+      "description": "本物の知性とは「自分の能力を客観視できていること」にあると思っています。\n多くの人は、自分を過大評価して自信過剰になるか、あるいは過小評価して卑屈になるかのどちらかに偏りがちです。",
+      "date": "2026-02-11T02:33:13.000Z",
+      "engagement": "15.0M views · 16.9K likes",
+      "category": "Self Help",
+      "wordCount": 310,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 30,
+      "metrics": {
+        "views": 15033130,
+        "likes": 16891,
+        "retweets": 1170,
+        "replies": 27,
+        "bookmarks": 12089
+      }
+    },
+    {
+      "id": "2025854248475320652",
+      "title": "4万円使って大阪で体格の良い男に抱かれてきた話。",
+      "url": "https://x.com/shishido_riho/status/2025854248475320652",
+      "author": "@shishido_riho",
+      "authorName": "宍戸 里帆",
+      "description": "つかれた！！！！！\n\n通っているパーソナルジムからの帰り道に思わずそう叫びそうになった。\nそれは最後の追い込みでこの世の全てにキレそうになりながらやったブルガリアンスクワットのせいだけじゃない。",
+      "date": "2026-02-23T08:44:26.000Z",
+      "engagement": "15.0M views · 13.3K likes",
+      "category": "Wtf",
+      "wordCount": 2463,
+      "readingTime": 7,
+      "lang": "ja",
+      "rank": 31,
+      "metrics": {
+        "views": 15032953,
+        "likes": 13267,
+        "retweets": 859,
+        "replies": 174,
+        "bookmarks": 5699
+      }
+    },
+    {
+      "id": "2025159454493381096",
+      "title": "ご報告があります。",
+      "url": "https://x.com/thati_naveen/status/2025159454493381096",
+      "author": "@thati_naveen",
+      "authorName": "地上最強ららたん🤍",
+      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます。\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜",
+      "date": "2026-02-21T10:43:34.000Z",
+      "engagement": "14.5M views · 4.3K likes",
+      "category": "Other",
+      "wordCount": 421,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 32,
+      "metrics": {
+        "views": 14519903,
+        "likes": 4274,
+        "retweets": 180,
+        "replies": 166,
+        "bookmarks": 4665
+      }
+    },
+    {
+      "id": "2021181124148711665",
+      "title": "【衝撃映像】VTuber3人の🍑タワー",
+      "url": "https://x.com/rute_la_belle/status/2021181124148711665",
+      "author": "@rute_la_belle",
+      "authorName": "ルゥト・ラ・ベル",
+      "description": "⚠️ 18歳未満閲覧禁止 \nこのボリューム感、この迫力…\n画面越しでも伝わる圧倒的な存在感。\n\n【内容】\n・出演: VTube3名\n・プレイ内容: おしりタワー\n・再生時間: 21:24\n\n本当に心臓が強い方のみ、",
+      "date": "2026-02-10T11:15:06.000Z",
+      "engagement": "14.4M views · 8.2K likes",
+      "category": "Wtf",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 33,
+      "metrics": {
+        "views": 14350416,
+        "likes": 8224,
+        "retweets": 214,
+        "replies": 463,
+        "bookmarks": 10490
+      }
+    },
+    {
+      "id": "2021016538749469136",
+      "title": "卒アルシリーズまとめ",
+      "url": "https://x.com/Binetsu_aiphoto/status/2021016538749469136",
+      "author": "@Binetsu_aiphoto",
+      "authorName": "BNT",
+      "description": "ご好評いただいている卒アルシリーズをまとめた記事です。\nあまり拡散されなかったポストもあるので、この際にぜひお目にかかってください(^^)",
+      "date": "2026-02-10T00:21:06.000Z",
+      "engagement": "14.1M views · 2.5K likes",
+      "category": "Other",
+      "wordCount": 112,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 34,
+      "metrics": {
+        "views": 14094249,
+        "likes": 2487,
+        "retweets": 90,
+        "replies": 16,
+        "bookmarks": 2617
+      }
+    },
+    {
+      "id": "2025464553077895630",
+      "title": "【舌が肥えると損をする】 ",
+      "url": "https://x.com/kinoppirx78/status/2025464553077895630",
+      "author": "@kinoppirx78",
+      "authorName": "木下勝寿🔥東証プライム社長兼現役マーケター",
+      "description": "１０年ほど前。会社の近くにできたサイゼリヤで食べて、あまりの旨さに感動した。\n\n安いのに最高に美味しい。\nだからこそ、行ける日は必ず行って「うまい、うまい」と喜んでいた。",
+      "date": "2026-02-22T06:55:55.000Z",
+      "engagement": "14.0M views · 3.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 580,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 35,
+      "metrics": {
+        "views": 13989954,
+        "likes": 3100,
+        "retweets": 302,
+        "replies": 144,
+        "bookmarks": 1168
+      }
+    },
+    {
+      "id": "2016925625953767804",
+      "title": "【24h限定無料】港区経営者とクリハ°で6ρ大舌乚交ｱｰｶｲﾌﾞ配信中…",
+      "url": "https://x.com/Meg_Tee6/status/2016925625953767804",
+      "author": "@Meg_Tee6",
+      "authorName": "ららです。",
+      "description": "フル動画は下のリンクタップで\nLINE登録すると見れます👇\nhttps://lin.ee/otoharara\n※押せなかったら送信終了してます。",
+      "date": "2026-01-29T17:25:16.000Z",
+      "engagement": "13.4M views · 42.0K likes",
+      "category": "Wtf",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 36,
+      "metrics": {
+        "views": 13395803,
+        "likes": 42040,
+        "retweets": 1500,
+        "replies": 1079,
+        "bookmarks": 36848
+      }
+    },
+    {
+      "id": "2023016355243479276",
+      "title": "女ADHDというデバフ",
+      "url": "https://x.com/hohop_p/status/2023016355243479276",
+      "author": "@hohop_p",
+      "authorName": "チ−カワ😼",
+      "description": "ADHDの中でも、デバフが特に多い生き物がいる。\n\n女ADHDだ。\n\n女ADHDは、ダウナーADHDになる可能性がかなり高い。",
+      "date": "2026-02-15T12:47:39.000Z",
+      "engagement": "13.3M views · 42.1K likes",
+      "category": "Health",
+      "wordCount": 718,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 37,
+      "metrics": {
+        "views": 13257111,
+        "likes": 42142,
+        "retweets": 4952,
+        "replies": 200,
+        "bookmarks": 28558
+      }
+    },
+    {
+      "id": "2016865223291130185",
+      "title": "酒を飲み過ぎたおかげで天皇陛下からレスを頂戴した話",
+      "url": "https://x.com/nagase_h/status/2016865223291130185",
+      "author": "@nagase_h",
+      "authorName": "長瀬ほのか",
+      "description": "時は2018年8月5日。北海道の短い夏、真っ只中の日曜日のこと。目を覚ますと、それはそれは酷い二日酔いであった。",
+      "date": "2026-01-29T13:25:15.000Z",
+      "engagement": "13.2M views · 50.8K likes",
+      "category": "Lifestyle",
+      "wordCount": 2545,
+      "readingTime": 7,
+      "lang": "ja",
+      "rank": 38,
+      "metrics": {
+        "views": 13186176,
+        "likes": 50795,
+        "retweets": 6773,
+        "replies": 96,
+        "bookmarks": 13633
+      }
+    },
+    {
+      "id": "2023574093648588989",
+      "title": "読書を習慣化するための12のコツ",
+      "url": "https://x.com/genkaidokusho/status/2023574093648588989",
+      "author": "@genkaidokusho",
+      "authorName": "限界読書",
+      "description": "18歳まではほぼ読書をしなかった私が、15年以上にわたり年間100冊読むようになったコツを紹介します。\n①書店に行く回数を増やす",
+      "date": "2026-02-17T01:43:54.000Z",
+      "engagement": "13.2M views · 16.3K likes",
+      "category": "Self Help",
+      "wordCount": 663,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 39,
+      "metrics": {
+        "views": 13172679,
+        "likes": 16293,
+        "retweets": 1673,
+        "replies": 26,
+        "bookmarks": 15562
+      }
+    },
+    {
+      "id": "2018233466673156430",
+      "title": "ゲボ色の日々",
+      "url": "https://x.com/isobemaswo/status/2018233466673156430",
+      "author": "@isobemaswo",
+      "authorName": "イソベマスヲ",
+      "description": "スタバで「マグカップで提供してもよろしいでしょうか？」と聞かれてしまい、断れずマグカップで受け取ってしまった。\nマグカップは重たいので紙のカップがよかった。",
+      "date": "2026-02-02T08:02:10.000Z",
+      "engagement": "12.8M views · 16.0K likes",
+      "category": "Lifestyle",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 40,
+      "metrics": {
+        "views": 12809732,
+        "likes": 15954,
+        "retweets": 451,
+        "replies": 62,
+        "bookmarks": 1735
+      }
+    },
+    {
+      "id": "2021793175535517957",
+      "title": "なぜ「足をピンと伸ばさないと射精できない」のか",
+      "url": "https://x.com/flower_25252/status/2021793175535517957",
+      "author": "@flower_25252",
+      "authorName": "高梨 | ジャップカサイ カルサイネイザン サロン 神戸三ノ宮",
+      "description": "これは、いわゆる「足ピンオナニー」の話ではありません。\n「気持ちいいからあえて伸ばしてる」とか、\n「なんとなくクセでやっちゃう」とか、\nそういうレベルの話でもないんです。\nこれはもう、",
+      "date": "2026-02-12T03:47:10.000Z",
+      "engagement": "12.6M views · 8.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 436,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 41,
+      "metrics": {
+        "views": 12602241,
+        "likes": 8123,
+        "retweets": 596,
+        "replies": 46,
+        "bookmarks": 6775
+      }
+    },
+    {
+      "id": "2018271357159838100",
+      "title": "金の使い道がなくなってきてる",
+      "url": "https://x.com/gatigatitv/status/2018271357159838100",
+      "author": "@gatigatitv",
+      "authorName": "めろん",
+      "description": "皆さんはお金が好きですか。\n私は大好きです。\nが、最近、金の使い道がそれほどないことに気づきました。\n今回はそんな記事です。\n物が安くなっている",
+      "date": "2026-02-02T10:32:43.000Z",
+      "engagement": "12.6M views · 22.0K likes",
+      "category": "Lifestyle",
+      "wordCount": 1326,
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 42,
+      "metrics": {
+        "views": 12589837,
+        "likes": 22032,
+        "retweets": 2608,
+        "replies": 181,
+        "bookmarks": 12215
+      }
+    },
+    {
+      "id": "2025529795065364721",
+      "title": "ヤベー人との交渉術",
+      "url": "https://x.com/yontengoP/status/2025529795065364721",
+      "author": "@yontengoP",
+      "authorName": "よんてんごP",
+      "description": "浅野真澄さんの記事(https://x.com/twitter/status/2025500730430509152)を読んで思ったことがあったので、ちょっと書いておく。\nいわゆる「交渉事」をしたときに、ビビるくらい話が通じない相手に遭遇した経験はないだろうか。",
+      "date": "2026-02-22T11:15:10.000Z",
+      "engagement": "12.4M views · 12.8K likes",
+      "category": "Self Help",
+      "wordCount": 2288,
+      "readingTime": 6,
+      "lang": "ja",
+      "rank": 43,
+      "metrics": {
+        "views": 12423615,
+        "likes": 12823,
+        "retweets": 3070,
+        "replies": 33,
+        "bookmarks": 10110
+      }
+    },
+    {
+      "id": "2010042119121957316",
+      "title": "If you have multiple interests, do not waste the next 2-3 years",
+      "url": "https://x.com/thedankoe/status/2010042119121957316",
+      "author": "@thedankoe",
+      "authorName": "DAN KOE",
+      "description": "Society made you think that having multiple interests was a weakness.\nGo to school.\nGet a degree.\nGet a job.\nRetire at some point.\nBut there is so much wrong with that sequence of events.\nWe don’t",
+      "date": "2026-01-10T17:32:40.000Z",
+      "engagement": "12.2M views · 34.6K likes",
+      "category": "Self Help",
+      "wordCount": 5231,
+      "readingTime": 21,
+      "lang": "en",
+      "rank": 44,
+      "metrics": {
+        "views": 12195278,
+        "likes": 34587,
+        "retweets": 5939,
+        "replies": 759,
+        "bookmarks": 79772
+      }
+    },
+    {
+      "id": "2018987096191750551",
+      "title": "死ぬほどサウナ入ってるのに一回も整ったことないしむしろ乱れてる",
+      "url": "https://x.com/b_kansou/status/2018987096191750551",
+      "author": "@b_kansou",
+      "authorName": "かんそう",
+      "description": "昔から少しでも時間あれば近所の銭湯行って風呂とサウナ入るんですけど、最近は店ぐるみで「整う」押し付けてきて最悪でした。デカデカと貼ってあるポスター見たら、\n究極の健康法！サ活！始めちゃいましょう！！",
+      "date": "2026-02-04T09:56:49.000Z",
+      "engagement": "12.1M views · 19.5K likes",
+      "category": "Lifestyle",
+      "wordCount": 0,
+      "readingTime": 0,
+      "lang": "ja",
+      "rank": 45,
+      "metrics": {
+        "views": 12052734,
+        "likes": 19464,
+        "retweets": 4321,
+        "replies": 82,
+        "bookmarks": 4073
+      }
+    },
+    {
+      "id": "2024074405442453857",
+      "title": "モラハラ彼氏いた経験ある人にしか分からないこと選手権(神回)",
+      "url": "https://x.com/bozu_108/status/2024074405442453857",
+      "author": "@bozu_108",
+      "authorName": "坊主",
+      "description": "最優秀賞\n外面だけはすごくいい\n\n金賞\n会社の上司かよってくらいに理詰めしてくる\n\n入選\n付き合う前や付き合いはじめの頃は優しくて紳士的",
+      "date": "2026-02-18T10:51:58.000Z",
+      "engagement": "11.9M views · 11.8K likes",
+      "category": "Lifestyle",
+      "wordCount": 263,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 46,
+      "metrics": {
+        "views": 11879099,
+        "likes": 11833,
+        "retweets": 1375,
+        "replies": 115,
+        "bookmarks": 3720
+      }
+    },
+    {
+      "id": "2024611780174180371",
+      "title": "AGI is here. Now harness it.",
+      "url": "https://x.com/howietl/status/2024611780174180371",
+      "author": "@howietl",
+      "authorName": "Howie Liu",
+      "description": "I've been personally burning through billions of tokens a week for the past few months as a builder. Today, I'm excited to announce Hyperagent, by Airtable.\nHyperagent gives agents a full computing",
+      "date": "2026-02-19T22:27:18.000Z",
+      "engagement": "11.8M views · 3.9K likes",
+      "category": "Ai",
+      "wordCount": 470,
+      "readingTime": 2,
+      "lang": "en",
+      "rank": 47,
+      "metrics": {
+        "views": 11849592,
+        "likes": 3859,
+        "retweets": 162,
+        "replies": 105,
+        "bookmarks": 3015
+      }
+    },
+    {
+      "id": "2015709513903677634",
+      "title": "【発達障害の多いMBTIランキング】",
+      "url": "https://x.com/CuteCreatureCli/status/2015709513903677634",
+      "author": "@CuteCreatureCli",
+      "authorName": "Z世代ADHDの憂鬱｜Prism.",
+      "description": "【第1位】INTP（論理学者）\n宇宙の真理を知り、家賃を払い忘れる。\n典型的なADHDとASDのハイブリッドであり、最強の社会不適合者である。",
+      "date": "2026-01-26T08:52:52.000Z",
+      "engagement": "11.8M views · 24.1K likes",
+      "category": "Self Help",
+      "wordCount": 363,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 48,
+      "metrics": {
+        "views": 11763801,
+        "likes": 24054,
+        "retweets": 2634,
+        "replies": 158,
+        "bookmarks": 6854
+      }
+    },
+    {
+      "id": "2012956603297964167",
+      "title": "Full guide: how to unlock extreme focus on command",
+      "url": "https://x.com/thedankoe/status/2012956603297964167",
+      "author": "@thedankoe",
+      "authorName": "DAN KOE",
+      "description": "You haven't experienced anything near what you're capable of.\nAnd if you learn how to unlock that power, you can do what most people consider impossible.\nUnfortunately, most people have the idea of",
+      "date": "2026-01-18T18:33:47.000Z",
+      "engagement": "11.7M views · 44.6K likes",
+      "category": "Self Help",
+      "wordCount": 5220,
+      "readingTime": 21,
+      "lang": "en",
+      "rank": 49,
+      "metrics": {
+        "views": 11726750,
+        "likes": 44616,
+        "retweets": 5506,
+        "replies": 4670,
+        "bookmarks": 71236
+      }
+    },
+    {
+      "id": "2015949596544110974",
+      "title": "送你保姆级的Clawdbot 的部署教程（免得在闲鱼买）",
+      "url": "https://x.com/lxfater/status/2015949596544110974",
+      "author": "@lxfater",
+      "authorName": "铁锤人",
+      "description": "你知道部署 Clawdbot 的收费教程，在闲鱼卖多少钱吗？\n几个十几元到几元不等。\n \n今天我铁锤就熬夜带你跑通Clawdbot 的本地部署和使用，你拿去赚钱也好，使用也好，随便你。\n\n本次教程主要分为三部：\n\n1. 安装",
+      "date": "2026-01-27T00:46:53.000Z",
+      "engagement": "11.6M views · 12.0K likes",
+      "category": "Ai",
+      "wordCount": 671,
+      "readingTime": 1,
+      "lang": "zh",
+      "rank": 50,
+      "metrics": {
+        "views": 11621265,
+        "likes": 11997,
+        "retweets": 2506,
+        "replies": 345,
+        "bookmarks": 18546
+      }
     }
   ],
   "allTags": [
