@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-01",
+  "date": "2026-03-02",
   "totalSources": 8,
-  "totalArticles": 33,
+  "totalArticles": 34,
   "allTags": [
     "AI",
     "AI代理",
@@ -11,6 +11,7 @@
     "Bash",
     "Claude",
     "DevOps",
+    "LLM",
     "LaTeX",
     "Microsoft",
     "OLDPWD",
@@ -33,9 +34,11 @@
     "媒体垄断",
     "家用储能",
     "崩溃报告",
+    "开发者文化",
     "性能优化",
     "性能监控",
     "战争",
+    "技术迁移",
     "拉里·埃里森",
     "播客",
     "政治捐款",
@@ -144,6 +147,21 @@
         "OLDPWD"
       ],
       "recommendReason": "教你用 ~- 秒切目录，常见痛点一招解决。",
+      "score": 8.5
+    },
+    {
+      "title": "LLM时代的新赢家",
+      "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "作者借迁移博客实测本地LLM，指出“伪专家”与“独狼”将凭灵活试错主导早期大模型浪潮。",
+      "tags": [
+        "LLM",
+        "开发者文化",
+        "技术迁移"
+      ],
+      "recommendReason": "用实战案例揭示AI协作真相，启发个人开发者抢跑。",
       "score": 8.5
     },
     {
