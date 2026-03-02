@@ -1,26 +1,33 @@
-import Link from 'next/link';
-import { getXThreads } from '@/lib/xthreads';
-import { format } from 'date-fns';
+'use client';
 
-export const metadata = {
-  title: 'X Threads - Jayden',
-  description: 'Curated long-form threads from X (Twitter)',
-};
+import { useEffect, useState } from 'react';
+import { XThread, getXThreads } from '@/lib/xthreads';
+import { format } from 'date-fns';
 
 const ITEMS_PER_PAGE = 20;
 
-interface ThreadsPageProps {
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-}
-
-export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
-  const params = await searchParams;
-  const allThreads = getXThreads();
+export default function ThreadsPage() {
+  const [allThreads] = useState<XThread[]>(getXThreads());
+  const [lang, setLang] = useState('all');
+  const [page, setPage] = useState(1);
   
-  const lang = (params.lang as string) || 'all';
-  const page = parseInt((params.page as string) || '1', 10);
+  // Read and update from URL
+  useEffect(() => {
+    const updateFromURL = () => {
+      const params = new URLSearchParams(window.location.search);
+      setLang(params.get('lang') || 'all');
+      setPage(parseInt(params.get('page') || '1', 10));
+    };
+    
+    // Initial load
+    updateFromURL();
+    
+    // Listen to URL changes (back/forward buttons)
+    window.addEventListener('popstate', updateFromURL);
+    return () => window.removeEventListener('popstate', updateFromURL);
+  }, []);
   
-  // Filter: exclude Japanese, keep en/zh/all
+  // Filter
   const langFiltered = allThreads.filter(t => {
     if (lang === 'all') return t.lang === 'en' || t.lang === 'zh';
     return t.lang === lang;
@@ -33,11 +40,19 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const threads = langFiltered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   
-  // Counts (excluding Japanese)
+  // Counts
   const counts = {
     all: allThreads.filter(t => t.lang === 'en' || t.lang === 'zh').length,
     en: allThreads.filter(t => t.lang === 'en').length,
     zh: allThreads.filter(t => t.lang === 'zh').length,
+  };
+  
+  // Navigation handler
+  const navigate = (newLang: string, newPage: number) => {
+    const url = `/threads/?lang=${newLang}&page=${newPage}`;
+    window.history.pushState({}, '', url);
+    setLang(newLang);
+    setPage(newPage);
   };
 
   return (
@@ -58,16 +73,16 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
           </p>
         </header>
 
-        {/* Language Filter - Only 3 options */}
+        {/* Language Filter */}
         <div className="flex items-center gap-2 mb-8 pb-6 border-b border-neutral-100">
           {[
             { key: 'all', label: 'All' },
             { key: 'en', label: 'English' },
             { key: 'zh', label: '中文' },
           ].map(({ key, label }) => (
-            <Link
+            <button
               key={key}
-              href={`/threads?lang=${key}&page=1`}
+              onClick={() => navigate(key, 1)}
               className={`px-3 py-1 text-xs rounded transition-colors ${
                 lang === key 
                   ? 'bg-neutral-900 text-white' 
@@ -75,7 +90,7 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
               }`}
             >
               {label} ({counts[key as keyof typeof counts]})
-            </Link>
+            </button>
           ))}
         </div>
 
@@ -108,7 +123,6 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  {/* Rank + Title */}
                   <div className="flex items-baseline gap-3 mb-1">
                     <span className="text-xs text-neutral-300 mono w-6">
                       {startIndex + index + 1}
@@ -118,7 +132,6 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     </h2>
                   </div>
                   
-                  {/* Author */}
                   <div className="flex items-center gap-2 ml-9">
                     <span className="text-xs text-neutral-400 mono">{thread.author}</span>
                     {thread.authorName && thread.authorName !== thread.author && (
@@ -126,22 +139,23 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     )}
                   </div>
                   
-                  {/* Description */}
                   <p className="text-neutral-500 text-sm mt-2 line-clamp-2 ml-9">
                     {thread.description}
                   </p>
 
-                  {/* Meta */}
                   <div className="flex items-center gap-3 mt-3 text-xs text-neutral-400 mono ml-9 flex-wrap">
                     <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
                       {thread.category}
                     </span>
-                    <Link 
-                      href={`/threads?lang=${thread.lang}&page=1`}
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        navigate(thread.lang || 'all', 1);
+                      }}
                       className="px-2 py-0.5 bg-neutral-50 hover:bg-neutral-200 rounded text-neutral-600 hover:text-neutral-900 transition-colors"
                     >
                       {(thread.lang || '').toUpperCase()}
-                    </Link>
+                    </button>
                     {thread.readingTime && thread.readingTime > 0 && (
                       <span>{thread.readingTime} min</span>
                     )}
@@ -161,12 +175,12 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
         {totalPages > 1 && (
           <div className="flex items-center justify-center gap-2 mt-12 pt-6 border-t border-neutral-100">
             {currentPage > 1 ? (
-              <Link
-                href={`/threads?lang=${lang}&page=${currentPage - 1}`}
+              <button
+                onClick={() => navigate(lang, currentPage - 1)}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 ← Prev
-              </Link>
+              </button>
             ) : (
               <span className="px-3 py-1 text-sm text-neutral-300">← Prev</span>
             )}
@@ -185,9 +199,9 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
                 }
                 
                 return (
-                  <Link
+                  <button
                     key={pageNum}
-                    href={`/threads?lang=${lang}&page=${pageNum}`}
+                    onClick={() => navigate(lang, pageNum)}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-colors ${
                       pageNum === currentPage
                         ? 'bg-neutral-900 text-white'
@@ -195,18 +209,18 @@ export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     }`}
                   >
                     {pageNum}
-                  </Link>
+                  </button>
                 );
               })}
             </div>
             
             {currentPage < totalPages ? (
-              <Link
-                href={`/threads?lang=${lang}&page=${currentPage + 1}`}
+              <button
+                onClick={() => navigate(lang, currentPage + 1)}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 Next →
-              </Link>
+              </button>
             ) : (
               <span className="px-3 py-1 text-sm text-neutral-300">Next →</span>
             )}
