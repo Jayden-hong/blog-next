@@ -135,7 +135,7 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
                       {thread.category}
                     </span>
-                    <span className="uppercase">{thread.lang}</span>
+                    <Link href={`/threads?lang=${thread.lang}&page=1`} className="hover:text-neutral-900 hover:underline">{(thread.lang || '').toUpperCase()}</Link>
                     {thread.readingTime && thread.readingTime > 0 && (
                       <span>{thread.readingTime} min</span>
                     )}
