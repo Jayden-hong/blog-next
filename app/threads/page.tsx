@@ -1,29 +1,45 @@
+'use client';
+
 import Link from 'next/link';
-import { getXThreads, XThread } from '@/lib/xthreads';
+import { useSearchParams, useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { XThread } from '@/lib/xthreads';
 import { format } from 'date-fns';
-
-export const metadata = {
-  title: 'X Threads - Jayden',
-  description: 'Curated long-form threads from X (Twitter)',
-};
-
-// Force dynamic rendering to enable searchParams
-export const dynamic = 'force-dynamic';
 
 const ITEMS_PER_PAGE = 20;
 
-interface ThreadsPageProps {
-  searchParams: { [key: string]: string | string[] | undefined };
-}
-
-export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
-  const allThreads = getXThreads();
+export default function ThreadsPage() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const [threads, setThreads] = useState<XThread[]>([]);
+  const [loading, setLoading] = useState(true);
   
-  const lang = (searchParams.lang as string) || 'all';
-  const page = parseInt((searchParams.page as string) || '1', 10);
+  const lang = searchParams.get('lang') || 'all';
+  const page = parseInt(searchParams.get('page') || '1', 10);
+  
+  useEffect(() => {
+    fetch('/api/threads')
+      .then(res => res.json())
+      .then(data => {
+        setThreads(data.threads || []);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load threads:', err);
+        setLoading(false);
+      });
+  }, []);
+  
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-neutral-400 text-sm">Loading...</p>
+      </div>
+    );
+  }
   
   // Filter: exclude Japanese, keep en/zh/all
-  const langFiltered = allThreads.filter(t => {
+  const langFiltered = threads.filter(t => {
     if (lang === 'all') return t.lang === 'en' || t.lang === 'zh';
     return t.lang === lang;
   });
@@ -33,13 +49,20 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   const currentPage = Math.max(1, Math.min(page, totalPages || 1));
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-  const threads = langFiltered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  const displayThreads = langFiltered.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   
   // Counts (excluding Japanese)
   const counts = {
-    all: allThreads.filter(t => t.lang === 'en' || t.lang === 'zh').length,
-    en: allThreads.filter(t => t.lang === 'en').length,
-    zh: allThreads.filter(t => t.lang === 'zh').length,
+    all: threads.filter(t => t.lang === 'en' || t.lang === 'zh').length,
+    en: threads.filter(t => t.lang === 'en').length,
+    zh: threads.filter(t => t.lang === 'zh').length,
+  };
+
+  const updateParams = (newLang: string, newPage: number = 1) => {
+    const params = new URLSearchParams();
+    params.set('lang', newLang);
+    params.set('page', newPage.toString());
+    router.push(`/threads?${params.toString()}`);
   };
 
   return (
@@ -54,8 +77,8 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
           </p>
           <p className="text-xs text-neutral-400 mt-4">
             Source: <a href="https://www.attentionvc.ai" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-600">AttentionVC</a>
-            {allThreads.length > 0 && (
-              <span className="ml-2">· Updated: {format(new Date(allThreads[0].date), 'yyyy-MM-dd')}</span>
+            {threads.length > 0 && (
+              <span className="ml-2">· Updated: {format(new Date(threads[0].date), 'yyyy-MM-dd')}</span>
             )}
           </p>
         </header>
@@ -67,9 +90,9 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
             { key: 'en', label: 'English' },
             { key: 'zh', label: '中文' },
           ].map(({ key, label }) => (
-            <Link
+            <button
               key={key}
-              href={`/threads?lang=${key}&page=1`}
+              onClick={() => updateParams(key, 1)}
               className={`px-3 py-1 text-xs rounded transition-colors ${
                 lang === key 
                   ? 'bg-neutral-900 text-white' 
@@ -77,7 +100,7 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
               }`}
             >
               {label} ({counts[key as keyof typeof counts]})
-            </Link>
+            </button>
           ))}
         </div>
 
@@ -99,10 +122,10 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
 
         {/* Threads */}
         <div className="space-y-6">
-          {threads.length === 0 ? (
+          {displayThreads.length === 0 ? (
             <p className="text-neutral-400 text-sm">No threads available</p>
           ) : (
-            threads.map((thread, index) => (
+            displayThreads.map((thread, index) => (
               <article key={thread.id} className="group border-b border-neutral-100 pb-6 last:border-0">
                 <a 
                   href={thread.url} 
@@ -138,7 +161,15 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
                       {thread.category}
                     </span>
-                    <Link href={`/threads?lang=${thread.lang}&page=1`} className="px-2 py-0.5 bg-neutral-50 hover:bg-neutral-200 rounded text-neutral-600 hover:text-neutral-900 transition-colors">{(thread.lang || '').toUpperCase()}</Link>
+                    <button 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        updateParams(thread.lang || 'all', 1);
+                      }}
+                      className="px-2 py-0.5 bg-neutral-50 hover:bg-neutral-200 rounded text-neutral-600 hover:text-neutral-900 transition-colors"
+                    >
+                      {(thread.lang || '').toUpperCase()}
+                    </button>
                     {thread.readingTime && thread.readingTime > 0 && (
                       <span>{thread.readingTime} min</span>
                     )}
@@ -158,12 +189,12 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
         {totalPages > 1 && (
           <div className="flex items-center justify-center gap-2 mt-12 pt-6 border-t border-neutral-100">
             {currentPage > 1 ? (
-              <Link
-                href={`/threads?lang=${lang}&page=${currentPage - 1}`}
+              <button
+                onClick={() => updateParams(lang, currentPage - 1)}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 ← Prev
-              </Link>
+              </button>
             ) : (
               <span className="px-3 py-1 text-sm text-neutral-300">← Prev</span>
             )}
@@ -182,9 +213,9 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                 }
                 
                 return (
-                  <Link
+                  <button
                     key={pageNum}
-                    href={`/threads?lang=${lang}&page=${pageNum}`}
+                    onClick={() => updateParams(lang, pageNum)}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-colors ${
                       pageNum === currentPage
                         ? 'bg-neutral-900 text-white'
@@ -192,18 +223,18 @@ export default function ThreadsPage({ searchParams }: ThreadsPageProps) {
                     }`}
                   >
                     {pageNum}
-                  </Link>
+                  </button>
                 );
               })}
             </div>
             
             {currentPage < totalPages ? (
-              <Link
-                href={`/threads?lang=${lang}&page=${currentPage + 1}`}
+              <button
+                onClick={() => updateParams(lang, currentPage + 1)}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 Next →
-              </Link>
+              </button>
             ) : (
               <span className="px-3 py-1 text-sm text-neutral-300">Next →</span>
             )}
