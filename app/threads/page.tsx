@@ -1,21 +1,24 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
-import { XThread, getXThreads } from '@/lib/xthreads';
+import { getXThreads } from '@/lib/xthreads';
 import { format } from 'date-fns';
+
+export const metadata = {
+  title: 'X Threads - Jayden',
+  description: 'Curated long-form threads from X (Twitter)',
+};
 
 const ITEMS_PER_PAGE = 20;
 
-export default function ThreadsPage() {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-  const [allThreads] = useState<XThread[]>(getXThreads());
+interface ThreadsPageProps {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}
+
+export default async function ThreadsPage({ searchParams }: ThreadsPageProps) {
+  const params = await searchParams;
+  const allThreads = getXThreads();
   
-  // Read from URL params (reactive)
-  const lang = searchParams.get('lang') || 'all';
-  const page = parseInt(searchParams.get('page') || '1', 10);
+  const lang = (params.lang as string) || 'all';
+  const page = parseInt((params.page as string) || '1', 10);
   
   // Filter: exclude Japanese, keep en/zh/all
   const langFiltered = allThreads.filter(t => {
@@ -64,7 +67,7 @@ export default function ThreadsPage() {
           ].map(({ key, label }) => (
             <Link
               key={key}
-              href={`/threads/?lang=${key}&page=1`}
+              href={`/threads?lang=${key}&page=1`}
               className={`px-3 py-1 text-xs rounded transition-colors ${
                 lang === key 
                   ? 'bg-neutral-900 text-white' 
@@ -134,7 +137,7 @@ export default function ThreadsPage() {
                       {thread.category}
                     </span>
                     <Link 
-                      href={`/threads/?lang=${thread.lang}&page=1`}
+                      href={`/threads?lang=${thread.lang}&page=1`}
                       className="px-2 py-0.5 bg-neutral-50 hover:bg-neutral-200 rounded text-neutral-600 hover:text-neutral-900 transition-colors"
                     >
                       {(thread.lang || '').toUpperCase()}
@@ -159,7 +162,7 @@ export default function ThreadsPage() {
           <div className="flex items-center justify-center gap-2 mt-12 pt-6 border-t border-neutral-100">
             {currentPage > 1 ? (
               <Link
-                href={`/threads/?lang=${lang}&page=${currentPage - 1}`}
+                href={`/threads?lang=${lang}&page=${currentPage - 1}`}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 ← Prev
@@ -184,7 +187,7 @@ export default function ThreadsPage() {
                 return (
                   <Link
                     key={pageNum}
-                    href={`/threads/?lang=${lang}&page=${pageNum}`}
+                    href={`/threads?lang=${lang}&page=${pageNum}`}
                     className={`w-8 h-8 flex items-center justify-center text-sm rounded transition-colors ${
                       pageNum === currentPage
                         ? 'bg-neutral-900 text-white'
@@ -199,7 +202,7 @@ export default function ThreadsPage() {
             
             {currentPage < totalPages ? (
               <Link
-                href={`/threads/?lang=${lang}&page=${currentPage + 1}`}
+                href={`/threads?lang=${lang}&page=${currentPage + 1}`}
                 className="px-3 py-1 text-sm text-neutral-500 hover:text-neutral-900"
               >
                 Next →
