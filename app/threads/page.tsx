@@ -7,6 +7,9 @@ export const metadata = {
   description: 'Curated long-form threads from X (Twitter)',
 };
 
+// Force dynamic rendering to enable searchParams
+export const dynamic = 'force-dynamic';
+
 const ITEMS_PER_PAGE = 20;
 
 interface ThreadsPageProps {
