@@ -18,10 +18,13 @@ export default function ThreadsPage() {
             X Threads
           </h1>
           <p className="text-sm text-neutral-500 mt-2">
-            Curated long-form threads from X (Twitter)
+            Top long-form threads from X, ranked by engagement
           </p>
           <p className="text-xs text-neutral-400 mt-4">
             Source: <a href="https://www.attentionvc.ai" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-600">AttentionVC</a>
+            {threads.length > 0 && (
+              <span className="ml-2">· Updated: {format(new Date(threads[0].date), 'yyyy-MM-dd')}</span>
+            )}
           </p>
         </header>
 
@@ -29,7 +32,7 @@ export default function ThreadsPage() {
           {threads.length === 0 ? (
             <p className="text-neutral-400 text-sm">No threads available</p>
           ) : (
-            threads.map((thread) => (
+            threads.map((thread, index) => (
               <article key={thread.id} className="group border-b border-neutral-100 pb-6 last:border-0">
                 <a 
                   href={thread.url} 
@@ -46,24 +49,28 @@ export default function ThreadsPage() {
                     </span>
                   </div>
                   
+                  {thread.authorName && thread.authorName !== thread.author && (
+                    <p className="text-xs text-neutral-400 mt-1">
+                      {thread.authorName}
+                    </p>
+                  )}
+                  
                   <p className="text-neutral-500 text-sm mt-2 line-clamp-2">
                     {thread.description}
                   </p>
 
                   <div className="flex items-center gap-3 mt-3 text-xs text-neutral-400 mono">
-                    <span>{format(new Date(thread.date), 'yyyy-MM-dd')}</span>
-                    {thread.engagement && (
-                      <>
-                        <span>·</span>
-                        <span>{thread.engagement} engagements</span>
-                      </>
+                    <span className="px-2 py-0.5 bg-neutral-100 rounded text-neutral-600">
+                      {thread.category}
+                    </span>
+                    {thread.readingTime > 0 && (
+                      <span>{thread.readingTime} min read</span>
                     )}
-                    {thread.category && (
-                      <>
-                        <span>·</span>
-                        <span>{thread.category}</span>
-                      </>
+                    {thread.wordCount > 0 && (
+                      <span>{thread.wordCount.toLocaleString()} words</span>
                     )}
+                    <span>·</span>
+                    <span>{thread.engagement}</span>
                   </div>
                 </a>
               </article>

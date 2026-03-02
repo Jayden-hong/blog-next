@@ -6,10 +6,13 @@ export interface XThread {
   title: string;
   url: string;
   author: string;
+  authorName?: string;
   description: string;
   date: string;
-  engagement?: string;
-  category?: string;
+  engagement: string;
+  category: string;
+  wordCount?: number;
+  readingTime?: number;
 }
 
 const THREADS_FILE = path.join(process.cwd(), 'content/feed/x-threads.json');
