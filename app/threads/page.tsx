@@ -9,35 +9,27 @@ export default function ThreadsPage() {
   const [allThreads, setAllThreads] = useState<XThread[]>([]);
   const [loading, setLoading] = useState(true);
   
-  // URL params state
+  // URL: /threads/en/1/ -> lang=en, page=1
   const [lang, setLang] = useState('all');
   const [page, setPage] = useState(1);
   
-  // Initialize on mount
   useEffect(() => {
-    // Load threads data
+    // Load data
     import('@/lib/xthreads').then(({ getXThreads }) => {
       setAllThreads(getXThreads());
       setLoading(false);
     });
     
-    // Parse URL params
-    const params = new URLSearchParams(window.location.search);
-    setLang(params.get('lang') || 'all');
-    setPage(parseInt(params.get('page') || '1', 10));
+    // Parse URL path: /threads/en/1/ -> lang=en, page=1
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    // pathParts = ['threads', 'en', '1', ''] or ['threads', '']
+    const langFromUrl = pathParts[1] || 'all';
+    const pageFromUrl = parseInt(pathParts[2] || '1', 10);
     
-    // Listen to popstate
-    const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      setLang(params.get('lang') || 'all');
-      setPage(parseInt(params.get('page') || '1', 10));
-    };
-    
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+    setLang(langFromUrl);
+    setPage(pageFromUrl);
   }, []);
   
-  // Memoized filtered results
   const { filtered, totalPages, currentPage, startIndex, counts } = useMemo(() => {
     const langFiltered = allThreads.filter(t => {
       if (lang === 'all') return t.lang === 'en' || t.lang === 'zh';
@@ -64,10 +56,9 @@ export default function ThreadsPage() {
     };
   }, [allThreads, lang, page]);
   
-  // Navigation - uses full page reload for static export compatibility
   const navigate = (newLang: string, newPage: number) => {
-    const url = `/threads/?lang=${newLang}&page=${newPage}`;
-    window.location.href = url; // Full page reload for static export
+    const url = `/threads/${newLang}/${newPage}/`;
+    window.location.href = url;
   };
 
   if (loading) {
@@ -89,7 +80,6 @@ export default function ThreadsPage() {
           </p>
         </header>
 
-        {/* Language Filter */}
         <div className="flex items-center gap-2 mb-8 pb-6 border-b border-neutral-100">
           {[
             { key: 'all', label: 'All' },
@@ -108,7 +98,6 @@ export default function ThreadsPage() {
           ))}
         </div>
 
-        {/* Results count */}
         <div className="flex items-center justify-between mb-6">
           <p className="text-xs text-neutral-400">
             {filtered.length > 0 ? (
@@ -118,7 +107,6 @@ export default function ThreadsPage() {
           {totalPages > 1 && <p className="text-xs text-neutral-400">Page {currentPage} / {totalPages}</p>}
         </div>
 
-        {/* Threads */}
         <div className="space-y-6">
           {filtered.length === 0 ? (
             <p className="text-neutral-400 text-sm">No threads available</p>
@@ -130,8 +118,8 @@ export default function ThreadsPage() {
                     <span className="text-xs text-neutral-300 mono w-6">{startIndex + index + 1}</span>
                     <h2 className="font-medium text-neutral-900 group-hover:opacity-60">{thread.title}</h2>
                   </div>
-                  <div className="flex items-center gap-2 ml-9">
-                    <span className="text-xs text-neutral-400 mono">{thread.author}</span>
+                  <div className="flex items-center gap-">
+                    <span ml-9 className="text-xs text-neutral-400 mono">{thread.author}</span>
                   </div>
                   <p className="text-neutral-500 text-sm mt-2 line-clamp-2 ml-9">{thread.description}</p>
                   <div className="flex items-center gap-3 mt-3 text-xs text-neutral-400 mono ml-9">
@@ -144,7 +132,6 @@ export default function ThreadsPage() {
           )}
         </div>
 
-        {/* Pagination */}
         {totalPages > 1 && (
           <div className="flex items-center justify-center gap-2 mt-12 pt-6 border-t border-neutral-100">
             <button
