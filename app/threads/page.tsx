@@ -1,14 +1,13 @@
 'use client';
 
-import Link from 'next/link';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { XThread } from '@/lib/xthreads';
 import { format } from 'date-fns';
 
 const ITEMS_PER_PAGE = 20;
 
-export default function ThreadsPage() {
+function ThreadsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [threads, setThreads] = useState<XThread[]>([]);
@@ -242,5 +241,17 @@ export default function ThreadsPage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function ThreadsPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-neutral-400 text-sm">Loading...</p>
+      </div>
+    }>
+      <ThreadsContent />
+    </Suspense>
   );
 }
