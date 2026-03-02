@@ -2,41 +2,20 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { XThread } from '@/lib/xthreads';
+import { usePathname, useSearchParams } from 'next/navigation';
+import { XThread, getXThreads } from '@/lib/xthreads';
 import { format } from 'date-fns';
 
 const ITEMS_PER_PAGE = 20;
 
 export default function ThreadsPage() {
-  const [allThreads, setAllThreads] = useState<XThread[]>([]);
-  const [lang, setLang] = useState('all');
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(true);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const [allThreads] = useState<XThread[]>(getXThreads());
   
-  // Read URL params and load data on mount
-  useEffect(() => {
-    // Parse URL params
-    const params = new URLSearchParams(window.location.search);
-    const urlLang = params.get('lang') || 'all';
-    const urlPage = parseInt(params.get('page') || '1', 10);
-    
-    setLang(urlLang);
-    setPage(urlPage);
-    
-    // Load threads data
-    import('@/lib/xthreads').then(({ getXThreads }) => {
-      setAllThreads(getXThreads());
-      setLoading(false);
-    });
-  }, []);
-  
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-neutral-400 text-sm">Loading...</p>
-      </div>
-    );
-  }
+  // Read from URL params (reactive)
+  const lang = searchParams.get('lang') || 'all';
+  const page = parseInt(searchParams.get('page') || '1', 10);
   
   // Filter: exclude Japanese, keep en/zh/all
   const langFiltered = allThreads.filter(t => {
