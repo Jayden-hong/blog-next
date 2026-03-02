@@ -53,18 +53,6 @@
         "analysis"
       ],
       "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-01.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-01/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-01/",
-      "title": "Daily Read · 2026-03-01",
-      "content_text": "\n> 10 articles · 8.2/10 avg · 9 highlights (≥7.5)\n\n1. [交互式讲解降认知债](https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/atom-everything) · 8.5/10 · simonwillison\n",
-      "date_published": "2026-03-01T06:00:00Z",
-      "tags": [
-        "daily-brief",
-        "rss"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-01.md"
     }
   ]
 }

@@ -37,7 +37,7 @@ export function getAllFeedDays(): FeedDay[] {
 
   const fileNames = fs.readdirSync(feedDirectory);
   const feedDays = fileNames
-    .filter((fileName) => fileName.endsWith('.json'))
+    .filter((fileName) => fileName.endsWith('.json') && !['all-articles.json','latest.json','x-threads.json'].includes(fileName))
     .map((fileName) => {
       const fullPath = path.join(feedDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
