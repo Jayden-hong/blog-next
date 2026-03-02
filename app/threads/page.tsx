@@ -1,31 +1,48 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { XThread, getXThreads } from '@/lib/xthreads';
+import { XThread } from '@/lib/xthreads';
 import { format } from 'date-fns';
 
 const ITEMS_PER_PAGE = 20;
 
 export default function ThreadsPage() {
-  const [allThreads] = useState<XThread[]>(getXThreads());
+  const [allThreads, setAllThreads] = useState<XThread[]>([]);
   const [lang, setLang] = useState('all');
   const [page, setPage] = useState(1);
+  const [loading, setLoading] = useState(true);
   
-  // Read and update from URL
+  // Load data and URL params on mount
   useEffect(() => {
-    const updateFromURL = () => {
+    // Load threads data
+    import('@/lib/xthreads').then(({ getXThreads }) => {
+      setAllThreads(getXThreads());
+      setLoading(false);
+    });
+    
+    // Read URL params
+    const params = new URLSearchParams(window.location.search);
+    setLang(params.get('lang') || 'all');
+    setPage(parseInt(params.get('page') || '1', 10));
+    
+    // Listen to URL changes (back/forward buttons)
+    const handlePopState = () => {
       const params = new URLSearchParams(window.location.search);
       setLang(params.get('lang') || 'all');
       setPage(parseInt(params.get('page') || '1', 10));
     };
     
-    // Initial load
-    updateFromURL();
-    
-    // Listen to URL changes (back/forward buttons)
-    window.addEventListener('popstate', updateFromURL);
-    return () => window.removeEventListener('popstate', updateFromURL);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
   }, []);
+  
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-neutral-400 text-sm">Loading...</p>
+      </div>
+    );
+  }
   
   // Filter
   const langFiltered = allThreads.filter(t => {
