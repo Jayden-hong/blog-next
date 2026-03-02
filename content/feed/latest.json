@@ -4,7 +4,7 @@
   "totalArticles": 9,
   "highlights": [
     {
-      "title": "独狼新手偷跑LLM？专家沉默真相！",
+      "title": "独狼偷跑大模型，专家为何集体闭嘴？",
       "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
       "source": "jeffgeerling",
       "author": "",
@@ -16,10 +16,11 @@
         "技术趋势"
       ],
       "recommendReason": "揭示 LLM 时代新角色，经验与视角兼具。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "独狼新手偷跑LLM？专家沉默真相！"
     },
     {
-      "title": "iOS秒抓崩溃？Sentry暗线技巧曝光！",
+      "title": "iOS崩溃秒破！Sentry藏的这招太黑了",
       "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
       "source": "daringfireball",
       "author": "John Gruber",
@@ -31,10 +32,11 @@
         "性能追踪"
       ],
       "recommendReason": "提供完整iOS监控方案，实战性强。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "iOS秒抓崩溃？Sentry暗线技巧曝光！"
     },
     {
-      "title": "macOS 26翻车现场？苹果被曝一夜回到解放前",
+      "title": "macOS 26一夜回到Windows 95？",
       "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
       "source": "daringfireball",
       "author": "John Gruber",
@@ -46,10 +48,11 @@
         "macOS"
       ],
       "recommendReason": "苹果死忠必听，一针见血指出现行系统痛点。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "macOS 26翻车现场？苹果被曝一夜回到解放前"
     },
     {
-      "title": "Redis神级速查曝光！一句封喉的调优黑话",
+      "title": "Redis作者私藏速查表：一页封神",
       "url": "\nhttp://antirez.com/news/161\n",
       "source": "antirez",
       "author": "",
@@ -61,10 +64,11 @@
         "性能优化"
       ],
       "recommendReason": "官方一手经验，模式即查即用。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "Redis神级速查曝光！一句封喉的调优黑话"
     },
     {
-      "title": "二战黑人英伦秘史：被抹去的血色真相",
+      "title": "黑人血书：二战英伦被删的暗码",
       "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
       "source": "shkspr.mobi",
       "author": "",
@@ -76,10 +80,11 @@
         "书评"
       ],
       "recommendReason": "视角独特，补足英国二战史空白。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "二战黑人英伦秘史：被抹去的血色真相"
     },
     {
-      "title": "AI误炸百童？惊天黑幕待揭！",
+      "title": "AI杀童？百命消失，谁在删真相！",
       "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
       "source": "garymarcus",
       "author": "",
@@ -91,12 +96,13 @@
         "伦理责任"
       ],
       "recommendReason": "警示AI军事化致命风险，必读。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "AI误炸百童？惊天黑幕待揭！"
     }
   ],
   "articles": [
     {
-      "title": "独狼新手偷跑LLM？专家沉默真相！",
+      "title": "独狼偷跑大模型，专家为何集体闭嘴？",
       "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
       "source": "jeffgeerling",
       "author": "",
@@ -108,10 +114,11 @@
         "技术趋势"
       ],
       "recommendReason": "揭示 LLM 时代新角色，经验与视角兼具。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "独狼新手偷跑LLM？专家沉默真相！"
     },
     {
-      "title": "iOS秒抓崩溃？Sentry暗线技巧曝光！",
+      "title": "iOS崩溃秒破！Sentry藏的这招太黑了",
       "url": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&utm_medium=paid-display&utm_campaign=general-fy27q1-evergreen&utm_content=static-ad-mobilerss-trysentry",
       "source": "daringfireball",
       "author": "John Gruber",
@@ -123,10 +130,11 @@
         "性能追踪"
       ],
       "recommendReason": "提供完整iOS监控方案，实战性强。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "iOS秒抓崩溃？Sentry暗线技巧曝光！"
     },
     {
-      "title": "macOS 26翻车现场？苹果被曝一夜回到解放前",
+      "title": "macOS 26一夜回到Windows 95？",
       "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
       "source": "daringfireball",
       "author": "John Gruber",
@@ -138,10 +146,11 @@
         "macOS"
       ],
       "recommendReason": "苹果死忠必听，一针见血指出现行系统痛点。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "macOS 26翻车现场？苹果被曝一夜回到解放前"
     },
     {
-      "title": "Redis神级速查曝光！一句封喉的调优黑话",
+      "title": "Redis作者私藏速查表：一页封神",
       "url": "\nhttp://antirez.com/news/161\n",
       "source": "antirez",
       "author": "",
@@ -153,10 +162,11 @@
         "性能优化"
       ],
       "recommendReason": "官方一手经验，模式即查即用。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "Redis神级速查曝光！一句封喉的调优黑话"
     },
     {
-      "title": "二战黑人英伦秘史：被抹去的血色真相",
+      "title": "黑人血书：二战英伦被删的暗码",
       "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
       "source": "shkspr.mobi",
       "author": "",
@@ -168,10 +178,11 @@
         "书评"
       ],
       "recommendReason": "视角独特，补足英国二战史空白。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "二战黑人英伦秘史：被抹去的血色真相"
     },
     {
-      "title": "AI误炸百童？惊天黑幕待揭！",
+      "title": "AI杀童？百命消失，谁在删真相！",
       "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
       "source": "garymarcus",
       "author": "",
@@ -183,10 +194,11 @@
         "伦理责任"
       ],
       "recommendReason": "警示AI军事化致命风险，必读。",
-      "score": 8.5
+      "score": 8.5,
+      "original_title": "AI误炸百童？惊天黑幕待揭！"
     },
     {
-      "title": "Claude记忆一键导出！Simon私藏提示泄露",
+      "title": "一键偷走Claude的大脑？Simon暗网级提示流出！",
       "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
       "source": "simonwillison",
       "author": "",
@@ -198,10 +210,11 @@
         "提示工程"
       ],
       "recommendReason": "快速掌握Claude记忆导出格式，保护个人数据。",
-      "score": 8.2
+      "score": 8.2,
+      "original_title": "Claude记忆一键导出！Simon私藏提示泄露"
     },
     {
-      "title": "~-神技闪现！一秒瞬回上一目录？",
+      "title": "~-神技曝光！一秒穿梭两个目录？",
       "url": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
       "source": "johndcook",
       "author": "",
@@ -213,10 +226,11 @@
         "命令行"
       ],
       "recommendReason": "教你用~-秒切目录，diff文件快人一步",
-      "score": 8.1
+      "score": 8.1,
+      "original_title": "~-神技闪现！一秒瞬回上一目录？"
     },
     {
-      "title": "无界权杖：它下一秒会改写谁？",
+      "title": "无界权杖空降热搜，谁将被它点名？",
       "url": "https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/",
       "source": "xeiaso",
       "author": "",
@@ -228,7 +242,8 @@
         "空内容"
       ],
       "recommendReason": "无实质内容，不推荐阅读。",
-      "score": 1.0
+      "score": 1.0,
+      "original_title": "无界权杖：它下一秒会改写谁？"
     }
   ]
 }
