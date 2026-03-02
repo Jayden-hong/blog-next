@@ -10,7 +10,7 @@
       "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/",
       "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/",
       "title": "Daily Thoughts · 2026-03-02",
-      "content_text": "\n核心观点  \n个人开发者正借本地LLM与开源工具链，把“一人公司”从营销口号变成可量产的软件交付模式，传统团队边界被击穿。\n\n现象解读  \nGeerling 用一台 64 GB 内存的 M3 Max，把十年博客完整迁移：本地量化模型写摘要、生成 SEO 字段、自动配图，再丢进 CI 产出静态站点，全程无云端付费 token。同期 Redis 模式指南、Sentry iOS 实战分",
+      "content_text": "\n核心观点  \nLLM 把“专家新手”推上前台：既懂垂直场景又敢动手调模型的独狼开发者，将在未来一年取代传统大厂实验室，成为大模型落地的第一动力。\n\n现象解读  \njeffgeerling 的观察击中要害：开源基座模型 + 低成本 GPU/云 把训练门槛拉到 5 千美元以下，一人即可跑完微调、评估、上线闭环。Redis 作者 antirez 放出“一句封喉”的调优黑话，本质是告诉开",
       "date_published": "2026-03-02T08:00:00Z",
       "tags": [
         "thoughts",
@@ -22,7 +22,7 @@
       "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-02/",
       "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-02/",
       "title": "Daily Read · 2026-03-02",
-      "content_text": "\n> 9 articles · 8.5/10 avg · 9 highlights (≥7.5)\n\n1. [Redis编码模式指南](\nhttp://antirez.com/news/161\n) · 9.0/10 · antirez\n\nRedis作者antirez整理的命令、数据类型、配置与算法模式文档。\n\n> 官方出品，覆盖全面，可直接落地。\n\n2. [差评 macOS 26](ht",
+      "content_text": "\n> 9 articles · 7.6/10 avg · 8 highlights (≥7.5)\n\n1. [独狼新手偷跑LLM？专家沉默真相！](https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/) · 8.5/10 · jeffgeerling\n\n作者以技术架构",
       "date_published": "2026-03-02T06:00:00Z",
       "tags": [
         "daily-brief",
@@ -34,7 +34,7 @@
       "id": "https://blog.zucchini.win/blog/latest-brief/",
       "url": "https://blog.zucchini.win/blog/latest-brief/",
       "title": "Daily Read · 2026-03-02",
-      "content_text": "\n> 9 articles · 8.5/10 avg · 9 highlights (≥7.5)\n\n1. [Redis编码模式指南](\nhttp://antirez.com/news/161\n) · 9.0/10 · antirez\n\nRedis作者antirez整理的命令、数据类型、配置与算法模式文档。\n\n> 官方出品，覆盖全面，可直接落地。\n\n2. [差评 macOS 26](ht",
+      "content_text": "\n> 9 articles · 7.6/10 avg · 8 highlights (≥7.5)\n\n1. [独狼新手偷跑LLM？专家沉默真相！](https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/) · 8.5/10 · jeffgeerling\n\n作者以技术架构",
       "date_published": "2026-03-02T06:00:00Z",
       "tags": [
         "daily-brief",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T06:42:55.789594+00:00",
+  "lastUpdated": "2026-03-02T07:28:02.424999+00:00",
   "source": "attentionvc.ai",
   "window": "7d",
   "total": 100,
@@ -61,10 +61,10 @@
       "lang": "en",
       "rank": 3,
       "metrics": {
-        "views": 10975927,
-        "likes": 19130,
-        "retweets": 2235,
-        "bookmarks": 86501
+        "views": 10982313,
+        "likes": 19135,
+        "retweets": 2236,
+        "bookmarks": 86508
       }
     },
     {
@@ -166,8 +166,8 @@
       "lang": "ja",
       "rank": 8,
       "metrics": {
-        "views": 9155115,
-        "likes": 5843,
+        "views": 9155708,
+        "likes": 5848,
         "retweets": 41,
         "bookmarks": 575
       }
@@ -208,7 +208,7 @@
       "lang": "ja",
       "rank": 10,
       "metrics": {
-        "views": 8338810,
+        "views": 8339483,
         "likes": 4333,
         "retweets": 396,
         "bookmarks": 3337
@@ -229,10 +229,10 @@
       "lang": "ja",
       "rank": 11,
       "metrics": {
-        "views": 7425882,
-        "likes": 2420,
+        "views": 7426697,
+        "likes": 2422,
         "retweets": 152,
-        "bookmarks": 1966
+        "bookmarks": 1967
       }
     },
     {
@@ -299,27 +299,6 @@
       }
     },
     {
-      "id": "2025824903375868209",
-      "title": "【皆様に大切なご報告。】",
-      "url": "https://x.com/oshoey/status/2025824903375868209",
-      "author": "@oshoey",
-      "authorName": "ららたん",
-      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜",
-      "date": "2026-02-23T06:47:49.000Z",
-      "engagement": "6.3M views · 2.2K likes",
-      "category": "Other",
-      "wordCount": 427,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 15,
-      "metrics": {
-        "views": 6317002,
-        "likes": 2213,
-        "retweets": 81,
-        "bookmarks": 2336
-      }
-    },
-    {
       "id": "2026143724019851401",
       "title": "人前で緊張せずに話すコツ",
       "url": "https://x.com/hiro_takai/status/2026143724019851401",
@@ -332,7 +311,7 @@
       "wordCount": 829,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 16,
+      "rank": 15,
       "metrics": {
         "views": 6278957,
         "likes": 5750,
@@ -353,12 +332,12 @@
       "wordCount": 2567,
       "readingTime": 7,
       "lang": "ja",
-      "rank": 17,
+      "rank": 16,
       "metrics": {
-        "views": 6252080,
-        "likes": 13486,
+        "views": 6254669,
+        "likes": 13490,
         "retweets": 1283,
-        "bookmarks": 23644
+        "bookmarks": 23647
       }
     },
     {
@@ -374,7 +353,7 @@
       "wordCount": 2004,
       "readingTime": 8,
       "lang": "en",
-      "rank": 18,
+      "rank": 17,
       "metrics": {
         "views": 6181298,
         "likes": 8911,
@@ -395,7 +374,7 @@
       "wordCount": 636,
       "readingTime": 3,
       "lang": "en",
-      "rank": 19,
+      "rank": 18,
       "metrics": {
         "views": 6179484,
         "likes": 8984,
@@ -416,7 +395,7 @@
       "wordCount": 1701,
       "readingTime": 7,
       "lang": "en",
-      "rank": 20,
+      "rank": 19,
       "metrics": {
         "views": 6163752,
         "likes": 11609,
@@ -437,7 +416,7 @@
       "wordCount": 1437,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 21,
+      "rank": 20,
       "metrics": {
         "views": 6108169,
         "likes": 6144,
@@ -458,7 +437,7 @@
       "wordCount": 418,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 22,
+      "rank": 21,
       "metrics": {
         "views": 5907962,
         "likes": 2843,
@@ -479,9 +458,9 @@
       "wordCount": 707,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 23,
+      "rank": 22,
       "metrics": {
-        "views": 5286564,
+        "views": 5286950,
         "likes": 5001,
         "retweets": 189,
         "bookmarks": 2605
@@ -500,7 +479,7 @@
       "wordCount": 1487,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 24,
+      "rank": 23,
       "metrics": {
         "views": 5198875,
         "likes": 21676,
@@ -521,7 +500,7 @@
       "wordCount": 914,
       "readingTime": 4,
       "lang": "en",
-      "rank": 25,
+      "rank": 24,
       "metrics": {
         "views": 5151607,
         "likes": 2120,
@@ -542,7 +521,7 @@
       "wordCount": 8329,
       "readingTime": 23,
       "lang": "ja",
-      "rank": 26,
+      "rank": 25,
       "metrics": {
         "views": 5146883,
         "likes": 14377,
@@ -563,7 +542,7 @@
       "wordCount": 202,
       "readingTime": 1,
       "lang": "ko",
-      "rank": 27,
+      "rank": 26,
       "metrics": {
         "views": 4992019,
         "likes": 17894,
@@ -584,7 +563,7 @@
       "wordCount": 2518,
       "readingTime": 6,
       "lang": "ja",
-      "rank": 28,
+      "rank": 27,
       "metrics": {
         "views": 4987511,
         "likes": 15698,
@@ -605,7 +584,7 @@
       "wordCount": 2368,
       "readingTime": 6,
       "lang": "ja",
-      "rank": 29,
+      "rank": 28,
       "metrics": {
         "views": 4922528,
         "likes": 7034,
@@ -626,7 +605,7 @@
       "wordCount": 1508,
       "readingTime": 6,
       "lang": "en",
-      "rank": 30,
+      "rank": 29,
       "metrics": {
         "views": 4892904,
         "likes": 742,
@@ -647,7 +626,7 @@
       "wordCount": 1947,
       "readingTime": 8,
       "lang": "en",
-      "rank": 31,
+      "rank": 30,
       "metrics": {
         "views": 4715473,
         "likes": 11593,
@@ -668,7 +647,7 @@
       "wordCount": 37,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 32,
+      "rank": 31,
       "metrics": {
         "views": 4564574,
         "likes": 3338,
@@ -689,7 +668,7 @@
       "wordCount": 89,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 33,
+      "rank": 32,
       "metrics": {
         "views": 4563478,
         "likes": 1645,
@@ -710,7 +689,7 @@
       "wordCount": 772,
       "readingTime": 3,
       "lang": "en",
-      "rank": 34,
+      "rank": 33,
       "metrics": {
         "views": 4447526,
         "likes": 8456,
@@ -731,7 +710,7 @@
       "wordCount": 2211,
       "readingTime": 6,
       "lang": "ja",
-      "rank": 35,
+      "rank": 34,
       "metrics": {
         "views": 4337166,
         "likes": 2455,
@@ -752,7 +731,7 @@
       "wordCount": 162,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 36,
+      "rank": 35,
       "metrics": {
         "views": 4279195,
         "likes": 18414,
@@ -773,7 +752,7 @@
       "wordCount": 1246,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 37,
+      "rank": 36,
       "metrics": {
         "views": 4268689,
         "likes": 5369,
@@ -794,10 +773,10 @@
       "wordCount": 1268,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 38,
+      "rank": 37,
       "metrics": {
-        "views": 4124214,
-        "likes": 12268,
+        "views": 4124448,
+        "likes": 12264,
         "retweets": 1944,
         "bookmarks": 2905
       }
@@ -815,7 +794,7 @@
       "wordCount": 3030,
       "readingTime": 12,
       "lang": "en",
-      "rank": 39,
+      "rank": 38,
       "metrics": {
         "views": 3986016,
         "likes": 6973,
@@ -836,7 +815,7 @@
       "wordCount": 431,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 40,
+      "rank": 39,
       "metrics": {
         "views": 3875486,
         "likes": 2537,
@@ -857,7 +836,7 @@
       "wordCount": 82,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 41,
+      "rank": 40,
       "metrics": {
         "views": 3838663,
         "likes": 3029,
@@ -878,7 +857,7 @@
       "wordCount": 464,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 42,
+      "rank": 41,
       "metrics": {
         "views": 3721940,
         "likes": 10308,
@@ -899,7 +878,7 @@
       "wordCount": 1317,
       "readingTime": 5,
       "lang": "en",
-      "rank": 43,
+      "rank": 42,
       "metrics": {
         "views": 3708238,
         "likes": 1170,
@@ -920,7 +899,7 @@
       "wordCount": 1128,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 44,
+      "rank": 43,
       "metrics": {
         "views": 3638649,
         "likes": 7116,
@@ -941,7 +920,7 @@
       "wordCount": 2697,
       "readingTime": 6,
       "lang": "zh",
-      "rank": 45,
+      "rank": 44,
       "metrics": {
         "views": 3601478,
         "likes": 4531,
@@ -962,7 +941,7 @@
       "wordCount": 390,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 46,
+      "rank": 45,
       "metrics": {
         "views": 3386997,
         "likes": 7472,
@@ -983,7 +962,7 @@
       "wordCount": 1498,
       "readingTime": 6,
       "lang": "en",
-      "rank": 47,
+      "rank": 46,
       "metrics": {
         "views": 3347400,
         "likes": 9286,
@@ -1004,12 +983,12 @@
       "wordCount": 621,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 48,
+      "rank": 47,
       "metrics": {
-        "views": 3308541,
+        "views": 3309191,
         "likes": 4556,
         "retweets": 401,
-        "bookmarks": 2856
+        "bookmarks": 2852
       }
     },
     {
@@ -1025,12 +1004,33 @@
       "wordCount": 1281,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 49,
+      "rank": 48,
       "metrics": {
         "views": 3262463,
         "likes": 2428,
         "retweets": 202,
         "bookmarks": 3506
+      }
+    },
+    {
+      "id": "2027744530124951831",
+      "title": "How to Simulate Like a Quant Desk. Every Model, Every Formula, Runnable Code",
+      "url": "https://x.com/gemchange_ltd/status/2027744530124951831",
+      "author": "@gemchange_ltd",
+      "authorName": "gemchanger",
+      "description": "This isn't a list of techniques.\nIt's a story - one that starts with a coin flip and ends with institutional-grade simulation engines.\nEach section builds on the last. Skip ahead and the math won't",
+      "date": "2026-02-28T13:55:44.000Z",
+      "engagement": "3.2M views · 5.9K likes",
+      "category": "Ai",
+      "wordCount": 1852,
+      "readingTime": 7,
+      "lang": "en",
+      "rank": 49,
+      "metrics": {
+        "views": 3179622,
+        "likes": 5891,
+        "retweets": 558,
+        "bookmarks": 24711
       }
     },
     {
@@ -1069,9 +1069,9 @@
       "lang": "ja",
       "rank": 51,
       "metrics": {
-        "views": 3122737,
-        "likes": 7958,
-        "retweets": 411,
+        "views": 3123683,
+        "likes": 7960,
+        "retweets": 409,
         "bookmarks": 6600
       }
     },
@@ -1097,27 +1097,6 @@
       }
     },
     {
-      "id": "2027744530124951831",
-      "title": "How to Simulate Like a Quant Desk. Every Model, Every Formula, Runnable Code",
-      "url": "https://x.com/gemchange_ltd/status/2027744530124951831",
-      "author": "@gemchange_ltd",
-      "authorName": "gemchanger",
-      "description": "This isn't a list of techniques.\nIt's a story - one that starts with a coin flip and ends with institutional-grade simulation engines.\nEach section builds on the last. Skip ahead and the math won't",
-      "date": "2026-02-28T13:55:44.000Z",
-      "engagement": "3.1M views · 5.7K likes",
-      "category": "Ai",
-      "wordCount": 1852,
-      "readingTime": 7,
-      "lang": "en",
-      "rank": 53,
-      "metrics": {
-        "views": 3092145,
-        "likes": 5747,
-        "retweets": 532,
-        "bookmarks": 24135
-      }
-    },
-    {
       "id": "2025846565240213837",
       "title": "倒産から2ヶ月。今の正直な日常を公開します。",
       "url": "https://x.com/shotaro_hara/status/2025846565240213837",
@@ -1130,9 +1109,9 @@
       "wordCount": 600,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 54,
+      "rank": 53,
       "metrics": {
-        "views": 2997846,
+        "views": 2998002,
         "likes": 794,
         "retweets": 32,
         "bookmarks": 439
@@ -1151,12 +1130,33 @@
       "wordCount": 1894,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 55,
+      "rank": 54,
       "metrics": {
         "views": 2963283,
         "likes": 5927,
         "retweets": 470,
         "bookmarks": 14619
+      }
+    },
+    {
+      "id": "2027718140915028321",
+      "title": "創作活動を続けられる人、続けられない人の違い 3選",
+      "url": "https://x.com/mitakamikata/status/2027718140915028321",
+      "author": "@mitakamikata",
+      "authorName": "ゆーりんち @ゲームを作っています",
+      "description": "Youtubeしかり、ゲーム開発しかり、noteしかり、色んな人がなにかコンテンツを作って発信するというケースが増えてきたと感じます。\nただ、始める人の数が増えればその分、辞める人の数も多いもの。",
+      "date": "2026-02-28T12:10:52.000Z",
+      "engagement": "2.9M views · 5.2K likes",
+      "category": "Self Help",
+      "wordCount": 591,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 55,
+      "metrics": {
+        "views": 2948563,
+        "likes": 5171,
+        "retweets": 740,
+        "bookmarks": 6140
       }
     },
     {
@@ -1237,9 +1237,9 @@
       "lang": "ja",
       "rank": 59,
       "metrics": {
-        "views": 2760030,
-        "likes": 3126,
-        "retweets": 296,
+        "views": 2760223,
+        "likes": 3125,
+        "retweets": 295,
         "bookmarks": 2637
       }
     },
@@ -1272,17 +1272,17 @@
       "authorName": "藤田シオン💙Shion Fujita",
       "description": "わたくしは、セルフネグレクトが酷かった。\n自炊なんて年に3回しかしないし、仕事以外の、切り売りしない部分のすべては無意味だと思っていた。",
       "date": "2026-02-28T06:16:30.000Z",
-      "engagement": "2.7M views · 9.9K likes",
+      "engagement": "2.7M views · 10.0K likes",
       "category": "Self Help",
       "wordCount": 1314,
       "readingTime": 4,
       "lang": "ja",
       "rank": 61,
       "metrics": {
-        "views": 2712241,
-        "likes": 9909,
-        "retweets": 1001,
-        "bookmarks": 4106
+        "views": 2733795,
+        "likes": 10016,
+        "retweets": 1019,
+        "bookmarks": 4149
       }
     },
     {
@@ -1307,27 +1307,6 @@
       }
     },
     {
-      "id": "2027718140915028321",
-      "title": "創作活動を続けられる人、続けられない人の違い 3選",
-      "url": "https://x.com/mitakamikata/status/2027718140915028321",
-      "author": "@mitakamikata",
-      "authorName": "ゆーりんち @ゲームを作っています",
-      "description": "Youtubeしかり、ゲーム開発しかり、noteしかり、色んな人がなにかコンテンツを作って発信するというケースが増えてきたと感じます。\nただ、始める人の数が増えればその分、辞める人の数も多いもの。",
-      "date": "2026-02-28T12:10:52.000Z",
-      "engagement": "2.6M views · 4.6K likes",
-      "category": "Self Help",
-      "wordCount": 591,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 63,
-      "metrics": {
-        "views": 2564835,
-        "likes": 4595,
-        "retweets": 651,
-        "bookmarks": 5481
-      }
-    },
-    {
       "id": "2027110358733980077",
       "title": " Trump WINS AGAIN in Court!",
       "url": "https://x.com/TrumpDailyPosts/status/2027110358733980077",
@@ -1340,9 +1319,9 @@
       "wordCount": 1056,
       "readingTime": 4,
       "lang": "en",
-      "rank": 64,
+      "rank": 63,
       "metrics": {
-        "views": 2448231,
+        "views": 2448873,
         "likes": 1672,
         "retweets": 172,
         "bookmarks": 163
@@ -1361,9 +1340,9 @@
       "wordCount": 1196,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 65,
+      "rank": 64,
       "metrics": {
-        "views": 2411474,
+        "views": 2411876,
         "likes": 4092,
         "retweets": 289,
         "bookmarks": 6728
@@ -1382,7 +1361,7 @@
       "wordCount": 954,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 66,
+      "rank": 65,
       "metrics": {
         "views": 2369613,
         "likes": 11316,
@@ -1403,7 +1382,7 @@
       "wordCount": 891,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 67,
+      "rank": 66,
       "metrics": {
         "views": 2325122,
         "likes": 1233,
@@ -1424,7 +1403,7 @@
       "wordCount": 102,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 68,
+      "rank": 67,
       "metrics": {
         "views": 2249137,
         "likes": 1995,
@@ -1445,7 +1424,7 @@
       "wordCount": 1124,
       "readingTime": 4,
       "lang": "en",
-      "rank": 69,
+      "rank": 68,
       "metrics": {
         "views": 2191368,
         "likes": 2834,
@@ -1466,7 +1445,7 @@
       "wordCount": 379,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 70,
+      "rank": 69,
       "metrics": {
         "views": 2055623,
         "likes": 1096,
@@ -1487,7 +1466,7 @@
       "wordCount": 3971,
       "readingTime": 9,
       "lang": "zh",
-      "rank": 71,
+      "rank": 70,
       "metrics": {
         "views": 2045645,
         "likes": 7412,
@@ -1508,7 +1487,7 @@
       "wordCount": 382,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 72,
+      "rank": 71,
       "metrics": {
         "views": 2005441,
         "likes": 4044,
@@ -1529,7 +1508,7 @@
       "wordCount": 1129,
       "readingTime": 5,
       "lang": "en",
-      "rank": 73,
+      "rank": 72,
       "metrics": {
         "views": 1980246,
         "likes": 1323,
@@ -1550,12 +1529,12 @@
       "wordCount": 880,
       "readingTime": 4,
       "lang": "en",
-      "rank": 74,
+      "rank": 73,
       "metrics": {
-        "views": 1947828,
-        "likes": 3645,
-        "retweets": 390,
-        "bookmarks": 15863
+        "views": 1948395,
+        "likes": 3647,
+        "retweets": 389,
+        "bookmarks": 15862
       }
     },
     {
@@ -1571,7 +1550,7 @@
       "wordCount": 740,
       "readingTime": 2,
       "lang": "zh",
-      "rank": 75,
+      "rank": 74,
       "metrics": {
         "views": 1911666,
         "likes": 978,
@@ -1592,7 +1571,7 @@
       "wordCount": 187,
       "readingTime": 1,
       "lang": "en",
-      "rank": 76,
+      "rank": 75,
       "metrics": {
         "views": 1869614,
         "likes": 13960,
@@ -1613,7 +1592,7 @@
       "wordCount": 1141,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 77,
+      "rank": 76,
       "metrics": {
         "views": 1831546,
         "likes": 2515,
@@ -1634,7 +1613,7 @@
       "wordCount": 351,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 78,
+      "rank": 77,
       "metrics": {
         "views": 1823840,
         "likes": 771,
@@ -1655,7 +1634,7 @@
       "wordCount": 1437,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 79,
+      "rank": 78,
       "metrics": {
         "views": 1781690,
         "likes": 1783,
@@ -1676,12 +1655,12 @@
       "wordCount": 1831,
       "readingTime": 4,
       "lang": "zh",
-      "rank": 80,
+      "rank": 79,
       "metrics": {
-        "views": 1745780,
-        "likes": 2623,
+        "views": 1746504,
+        "likes": 2622,
         "retweets": 268,
-        "bookmarks": 2477
+        "bookmarks": 2474
       }
     },
     {
@@ -1697,12 +1676,33 @@
       "wordCount": 89,
       "readingTime": 1,
       "lang": "ja",
+      "rank": 80,
+      "metrics": {
+        "views": 1725756,
+        "likes": 3115,
+        "retweets": 54,
+        "bookmarks": 2196
+      }
+    },
+    {
+      "id": "2027759832523051263",
+      "title": "Claude Cowork: The Definitive Setup Guide",
+      "url": "https://x.com/witcheer/status/2027759832523051263",
+      "author": "@witcheer",
+      "authorName": "witcheer ☯︎",
+      "description": "What Cowork Actually Is\nCowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step",
+      "date": "2026-02-28T14:56:32.000Z",
+      "engagement": "1.7M views · 2.6K likes",
+      "category": "Ai",
+      "wordCount": 1586,
+      "readingTime": 6,
+      "lang": "en",
       "rank": 81,
       "metrics": {
-        "views": 1724353,
-        "likes": 3112,
-        "retweets": 55,
-        "bookmarks": 2195
+        "views": 1718859,
+        "likes": 2562,
+        "retweets": 213,
+        "bookmarks": 12386
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "lang": "ja",
       "rank": 82,
       "metrics": {
-        "views": 1718355,
+        "views": 1718540,
         "likes": 915,
         "retweets": 72,
         "bookmarks": 1027
@@ -1741,10 +1741,10 @@
       "lang": "ja",
       "rank": 83,
       "metrics": {
-        "views": 1710633,
-        "likes": 7742,
+        "views": 1711026,
+        "likes": 7745,
         "retweets": 934,
-        "bookmarks": 5703
+        "bookmarks": 5702
       }
     },
     {
@@ -1762,7 +1762,7 @@
       "lang": "ja",
       "rank": 84,
       "metrics": {
-        "views": 1701961,
+        "views": 1702635,
         "likes": 3225,
         "retweets": 376,
         "bookmarks": 2778
@@ -2000,27 +2000,6 @@
       }
     },
     {
-      "id": "2027759832523051263",
-      "title": "Claude Cowork: The Definitive Setup Guide",
-      "url": "https://x.com/witcheer/status/2027759832523051263",
-      "author": "@witcheer",
-      "authorName": "witcheer ☯︎",
-      "description": "What Cowork Actually Is\nCowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step",
-      "date": "2026-02-28T14:56:32.000Z",
-      "engagement": "1.4M views · 2.2K likes",
-      "category": "Ai",
-      "wordCount": 1586,
-      "readingTime": 6,
-      "lang": "en",
-      "rank": 96,
-      "metrics": {
-        "views": 1444880,
-        "likes": 2173,
-        "retweets": 187,
-        "bookmarks": 10387
-      }
-    },
-    {
       "id": "2027645891100942435",
       "title": "「顔に出る」を甘く見てはいけない",
       "url": "https://x.com/hiro_takai/status/2027645891100942435",
@@ -2028,17 +2007,38 @@
       "authorName": "高井宏章",
       "description": "亡くなった「ナベツネ」こと渡邉恒雄氏は「顔に出ること」について、洞察に満ちた言葉を残しています。\n「顔に出る」ことの怖さと、「だからこそ、どんな心の持ち方をすべきか」について考えてみます。",
       "date": "2026-02-28T07:23:46.000Z",
-      "engagement": "1.4M views · 3.7K likes",
+      "engagement": "1.5M views · 3.7K likes",
       "category": "Self Help",
       "wordCount": 1289,
       "readingTime": 4,
       "lang": "ja",
+      "rank": 96,
+      "metrics": {
+        "views": 1450243,
+        "likes": 3714,
+        "retweets": 343,
+        "bookmarks": 3433
+      }
+    },
+    {
+      "id": "2028289494903103686",
+      "title": "セクハラ冤罪騒動のすべて",
+      "url": "https://x.com/maochil/status/2028289494903103686",
+      "author": "@maochil",
+      "authorName": "山田真央｜ダイニー",
+      "description": "0. この記事を書く理由\n冤罪の騒動以後、私生活でかなりの支障が出てきました。",
+      "date": "2026-03-02T02:01:14.000Z",
+      "engagement": "1.4M views · 2.0K likes",
+      "category": "Wtf",
+      "wordCount": 6650,
+      "readingTime": 17,
+      "lang": "ja",
       "rank": 97,
       "metrics": {
-        "views": 1441702,
-        "likes": 3711,
-        "retweets": 341,
-        "bookmarks": 3426
+        "views": 1390702,
+        "likes": 1983,
+        "retweets": 311,
+        "bookmarks": 1234
       }
     },
     {
@@ -2098,10 +2098,10 @@
       "lang": "ja",
       "rank": 100,
       "metrics": {
-        "views": 1363368,
+        "views": 1363741,
         "likes": 5521,
         "retweets": 460,
-        "bookmarks": 8318
+        "bookmarks": 8312
       }
     }
   ],
@@ -2113,10 +2113,8 @@
     "AI政策",
     "AI编程",
     "AI自动化",
-    "AI记忆",
     "AI辅助",
     "Anthropic",
-    "Bash",
     "BlackHatWorld",
     "Block",
     "CLI工具",
@@ -2133,6 +2131,7 @@
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
+    "Linux",
     "OLDPWD",
     "OpenAI",
     "Pebble",
@@ -2145,12 +2144,12 @@
     "Rust",
     "SMPTE 2110",
     "Security",
-    "Shell",
     "Tech",
     "UI设计",
     "Unicode",
     "Win32",
     "bash",
+    "bash技巧",
     "iOS",
     "iOS开发",
     "iOS技巧",
@@ -2184,8 +2183,10 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "命令行",
     "命令行技巧",
     "在线讨论",
+    "大模型",
     "天文摄影",
     "奈飞",
     "安全",
@@ -2199,25 +2200,25 @@
     "幽默",
     "广播技术",
     "应用程序开发",
-    "开发者成长",
+    "开发者",
     "开源",
     "微软",
     "微软补丁",
     "性能优化",
     "性能监控",
+    "性能追踪",
     "恶意软件",
     "情绪管理",
     "意识",
     "技术公司",
-    "技术管理",
     "技术评论",
+    "技术趋势",
     "技术革命",
     "技能文件",
     "技能生成",
     "推理速度",
     "提示工程",
     "播客",
-    "操作系统",
     "政治观点",
     "效率",
     "敏捷实践",
@@ -2256,11 +2257,13 @@
     "硬件评测",
     "社群动态",
     "神经网络",
+    "种族",
     "科幻",
     "科技",
     "科技动态",
     "科技新品",
     "科技评论",
+    "空内容",
     "空气质量",
     "笔记本电脑",
     "系统更新",
@@ -2289,7 +2292,7 @@
     "设计模式",
     "评测",
     "误炸事件",
-    "误袭",
+    "误靶向",
     "身份认同",
     "软件2.0",
     "软件开发",
@@ -2298,6 +2301,7 @@
     "逼近算法",
     "链式思维",
     "错误处理",
+    "防机器人",
     "隐喻",
     "隐私",
     "隐私权",
@@ -2307,6 +2311,7 @@
     "项目管理",
     "预后准确性",
     "马头星云",
+    "验证页面",
     "鹦鹉孵化",
     "黑人史"
   ]

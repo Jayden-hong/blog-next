@@ -1,50 +1,20 @@
 {
-  "totalSources": 203,
-  "totalArticles": 87,
+  "totalSources": 208,
+  "totalArticles": 88,
   "articles": [
     {
-      "title": "Redis编码模式指南",
-      "url": "\nhttp://antirez.com/news/161\n",
-      "source": "antirez",
-      "author": "",
-      "date": "2026-03-01",
-      "description": "Redis作者antirez整理的命令、数据类型、配置与算法模式文档。",
-      "tags": [
-        "Redis",
-        "设计模式",
-        "性能优化"
-      ],
-      "recommendReason": "官方出品，覆盖全面，可直接落地。",
-      "score": 9
-    },
-    {
-      "title": "差评 macOS 26",
-      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-01",
-      "description": "Gruber 与 Jason Snell 盘点 2025 Apple 成绩单，痛批 macOS Tahoe 设计倒退。",
-      "tags": [
-        "播客",
-        "苹果",
-        "macOS"
-      ],
-      "recommendReason": "苹果深度用户必听，犀利点评最新系统翻车现场。",
-      "score": 8.6
-    },
-    {
-      "title": "新手专家与独狼称霸LLM早期",
+      "title": "LLM 早期由新手独狼主导",
       "url": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
       "source": "jeffgeerling",
       "author": "",
       "date": "2026-03-01",
-      "description": "作者以技术架构师视角，分享用本地LLM迁移博客的经验，指出“新手专家”和“独狼”将主导LLM初期。",
+      "description": "作者以技术架构师视角，指出当前大模型时代“专家新手”与“独狼开发者”将率先受益并主导创新。",
       "tags": [
-        "LLM",
-        "开发者成长",
-        "技术管理"
+        "大模型",
+        "开发者",
+        "技术趋势"
       ],
-      "recommendReason": "揭示LLM时代个人开发者新机遇",
+      "recommendReason": "揭示 LLM 时代新角色，经验与视角兼具。",
       "score": 8.5
     },
     {
@@ -53,89 +23,119 @@
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-01",
-      "description": "手把手教你用Sentry快速定位iOS崩溃、性能瓶颈与日志，减少告警疲劳。",
+      "description": "手把手教你用Sentry快速定位iOS崩溃、性能瓶颈与日志关联。",
       "tags": [
         "iOS开发",
         "崩溃监控",
-        "性能优化"
+        "性能追踪"
       ],
-      "recommendReason": "实战导向，立刻提升iOS问题排查效率。",
+      "recommendReason": "提供完整iOS监控方案，实战性强。",
       "score": 8.5
     },
     {
-      "title": "新法强制OS问年龄",
-      "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
-      "source": "idiallo",
+      "title": "吐槽macOS 26",
+      "url": "https://daringfireball.net/thetalkshow/2026/02/28/ep-442",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-01",
+      "description": "Gruber与Jason Snell犀利点评2025苹果成绩单，痛批macOS 26设计倒退。",
+      "tags": [
+        "播客",
+        "苹果",
+        "macOS"
+      ],
+      "recommendReason": "苹果死忠必听，一针见血指出现行系统痛点。",
+      "score": 8.5
+    },
+    {
+      "title": "Redis编码模式速查",
+      "url": "\nhttp://antirez.com/news/161\n",
+      "source": "antirez",
       "author": "",
       "date": "2026-03-01",
-      "description": "加州新法要求操作系统收集用户年龄，作者质疑执法难度与潜在风险。",
+      "description": "Redis作者整理的命令、数据结构、配置与算法实战模式，面向LLM与开发者。",
       "tags": [
-        "法律",
-        "隐私",
-        "操作系统"
+        "Redis",
+        "设计模式",
+        "性能优化"
       ],
-      "recommendReason": "用幽默笔触拆解荒诞新规，引人深思。",
+      "recommendReason": "官方一手经验，模式即查即用。",
       "score": 8.5
     },
     {
-      "title": "战时黑人英国史",
+      "title": "战时英国黑人史",
       "url": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
       "source": "shkspr.mobi",
       "author": "",
       "date": "2026-03-01",
-      "description": "书评揭示二战期间黑人英国人的真实经历，打破“英国无黑人”迷思。",
+      "description": "书评揭示二战黑人英伦被忽视的经历与种族差异，打破刻板印象。",
       "tags": [
-        "二战",
-        "黑人史",
+        "历史",
+        "种族",
         "书评"
       ],
-      "recommendReason": "用一手访谈还原被遗忘的英国黑人战时故事",
+      "recommendReason": "视角独特，补足英国二战史空白。",
       "score": 8.5
     },
     {
-      "title": "AI误杀已发生？",
+      "title": "AI误杀疑云",
       "url": "https://garymarcus.substack.com/p/is-ai-already-killing-people-by-accident",
       "source": "garymarcus",
       "author": "",
       "date": "2026-03-01",
-      "description": "Gary Marcus质疑AI军事误袭致伊朗150学童死亡，警示技术与道德双重风险。",
+      "description": "质疑AI军事误靶向致伊朗百童丧生，揭示技术缺陷与道德卸责风险。",
       "tags": [
         "AI军事",
-        "误袭",
+        "误靶向",
         "伦理责任"
       ],
-      "recommendReason": "揭示AI武器化致命隐患，讨论紧迫。",
+      "recommendReason": "警示AI军事化致命风险，必读。",
       "score": 8.5
     },
     {
-      "title": "Claude记忆导出提示词曝光",
+      "title": "Claude记忆导出提示",
       "url": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-01",
-      "description": "Simon Willison展示用户要求Claude完整导出记忆数据的提示词，揭示AI记忆机制。",
+      "description": "Simon Willison分享Claude新功能“导入记忆”的官方提示词，教用户一键导出全部个人记忆。",
       "tags": [
-        "AI记忆",
-        "提示工程",
-        "Claude"
+        "Claude",
+        "记忆管理",
+        "提示工程"
       ],
-      "recommendReason": "一窥AI记忆导出原始提示，学习提示工程技巧。",
+      "recommendReason": "快速掌握Claude记忆导出格式，保护个人数据。",
       "score": 8.2
     },
     {
-      "title": "Bash 的 ~- 技巧",
+      "title": "Shell变量~-妙用",
       "url": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
       "source": "johndcook",
       "author": "",
       "date": "2026-03-01",
-      "description": "介绍 Bash 中 ~- 快捷方式，可快速引用上一工作目录，提升终端操作效率。",
+      "description": "介绍bash中~-快捷访问上一工作目录，让两目录间文件对比更顺手。",
       "tags": [
-        "Shell",
-        "Bash",
-        "命令行技巧"
+        "bash技巧",
+        "Linux",
+        "命令行"
       ],
-      "recommendReason": "快速掌握目录跳转小技巧，提升终端效率",
-      "score": 8.2
+      "recommendReason": "教你用~-秒切目录，diff文件快人一步",
+      "score": 8.1
+    },
+    {
+      "title": "无界权杖",
+      "url": "https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "文章仅为防机器人验证页面，无实质内容。",
+      "tags": [
+        "防机器人",
+        "验证页面",
+        "空内容"
+      ],
+      "recommendReason": "无实质内容，不推荐阅读。",
+      "score": 1
     },
     {
       "title": "交互式讲解降认知债",
@@ -150,6 +150,21 @@
         "交互式学习"
       ],
       "recommendReason": "把黑盒算法变可暂停动画，秒懂原理。",
+      "score": 8.5
+    },
+    {
+      "title": "操作系统问年龄",
+      "url": "https://idiallo.com/byte-size/how-old-are-you-asked-the-os?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-01",
+      "description": "加州新法强制操作系统收集用户年龄，作者质疑其荒诞与无法执行。",
+      "tags": [
+        "法律",
+        "隐私",
+        "科技评论"
+      ],
+      "recommendReason": "用幽默笔触揭示荒诞立法，发人深省。",
       "score": 8.5
     },
     {
@@ -1298,10 +1313,8 @@
     "AI政策",
     "AI编程",
     "AI自动化",
-    "AI记忆",
     "AI辅助",
     "Anthropic",
-    "Bash",
     "BlackHatWorld",
     "Block",
     "CLI工具",
@@ -1318,6 +1331,7 @@
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
+    "Linux",
     "OLDPWD",
     "OpenAI",
     "Pebble",
@@ -1330,12 +1344,12 @@
     "Rust",
     "SMPTE 2110",
     "Security",
-    "Shell",
     "Tech",
     "UI设计",
     "Unicode",
     "Win32",
     "bash",
+    "bash技巧",
     "iOS",
     "iOS开发",
     "iOS技巧",
@@ -1369,8 +1383,10 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "命令行",
     "命令行技巧",
     "在线讨论",
+    "大模型",
     "天文摄影",
     "奈飞",
     "安全",
@@ -1384,25 +1400,25 @@
     "幽默",
     "广播技术",
     "应用程序开发",
-    "开发者成长",
+    "开发者",
     "开源",
     "微软",
     "微软补丁",
     "性能优化",
     "性能监控",
+    "性能追踪",
     "恶意软件",
     "情绪管理",
     "意识",
     "技术公司",
-    "技术管理",
     "技术评论",
+    "技术趋势",
     "技术革命",
     "技能文件",
     "技能生成",
     "推理速度",
     "提示工程",
     "播客",
-    "操作系统",
     "政治观点",
     "效率",
     "敏捷实践",
@@ -1441,11 +1457,13 @@
     "硬件评测",
     "社群动态",
     "神经网络",
+    "种族",
     "科幻",
     "科技",
     "科技动态",
     "科技新品",
     "科技评论",
+    "空内容",
     "空气质量",
     "笔记本电脑",
     "系统更新",
@@ -1474,7 +1492,7 @@
     "设计模式",
     "评测",
     "误炸事件",
-    "误袭",
+    "误靶向",
     "身份认同",
     "软件2.0",
     "软件开发",
@@ -1483,6 +1501,7 @@
     "逼近算法",
     "链式思维",
     "错误处理",
+    "防机器人",
     "隐喻",
     "隐私",
     "隐私权",
@@ -1492,6 +1511,7 @@
     "项目管理",
     "预后准确性",
     "马头星云",
+    "验证页面",
     "鹦鹉孵化",
     "黑人史"
   ]
