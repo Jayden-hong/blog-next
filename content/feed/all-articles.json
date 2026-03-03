@@ -1,59 +1,108 @@
 {
-  "date": "2026-03-02",
-  "totalSources": 8,
-  "totalArticles": 35,
+  "date": "2026-03-03",
+  "totalSources": 9,
+  "totalArticles": 54,
   "allTags": [
     "AI",
     "AI代理",
     "AI伦理",
+    "AI内幕",
+    "AI写作",
     "AI安全",
+    "AI治理",
     "AI监管",
+    "Agentic Engineering",
+    "Anthropic",
+    "Auth0",
     "Bash",
     "Claude",
+    "Cory Doctorow",
+    "DIY硬件",
     "DevOps",
+    "Flickr",
+    "GIF优化",
+    "HTTP请求头",
     "LLM",
     "LaTeX",
+    "M4芯片",
+    "Mac技巧",
+    "Mastodon",
     "Microsoft",
+    "OAuth2",
     "OLDPWD",
     "OpenAI",
+    "Safari",
     "Security",
     "Shell脚本",
     "Tech",
+    "Time Machine",
+    "URL设计",
+    "WebAssembly",
+    "WebP",
+    "Windows开发",
     "bash",
     "iOS",
+    "iPad Air",
+    "iPhone 17e",
     "macOS",
     "redis",
     "书评",
     "二战",
     "交互式讲解",
     "伊朗",
+    "内容信任",
     "军事伦理",
+    "创作伦理",
+    "前端工具",
     "加州法律",
+    "反垄断",
     "命令行技巧",
+    "地缘政治",
+    "复古电脑",
     "太阳能",
     "媒体垄断",
     "家用储能",
+    "对话框陷阱",
     "崩溃报告",
+    "延迟系统",
     "开发者文化",
+    "微分方程",
+    "性价比",
     "性能优化",
     "性能监控",
     "战争",
     "技术迁移",
     "拉里·埃里森",
+    "控件ID",
     "播客",
     "政治捐款",
+    "政策反噬",
+    "效率工具",
+    "数值模拟",
+    "数据抓取",
+    "春季新品",
+    "末日预言",
+    "树莓派",
+    "法律战",
     "特朗普",
+    "用户体验",
     "电价套利",
+    "社交媒体礼仪",
     "科幻",
     "科技法律",
+    "科技监管",
     "空内容",
+    "窗口管理",
+    "系统Bug",
     "自我成长",
     "苹果",
+    "苹果配件",
     "认知债",
     "记忆管理",
     "讽刺评论",
     "设计模式",
     "误炸事件",
+    "配色更新",
     "防机器人",
     "隐喻",
     "隐私",
@@ -62,6 +111,291 @@
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "微延迟竟能让微分方程秒变震荡？",
+      "url": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathematica代码。",
+      "tags": [
+        "微分方程",
+        "延迟系统",
+        "数值模拟"
+      ],
+      "recommendReason": "5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。",
+      "score": 8.7
+    },
+    {
+      "title": "30年老工具秒变网页神器？",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "作者把C语言写的GIF压缩神器Gifsicle编译成WebAssembly，3分钟搭出在线拖拽优化页面，体积对比一键下载。",
+      "tags": [
+        "WebAssembly",
+        "GIF优化",
+        "前端工具"
+      ],
+      "recommendReason": "用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。",
+      "score": 8.5
+    },
+    {
+      "title": "10美元抢先版！AI大神私享信泄露",
+      "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Simon Willison 2月赞助者通讯曝光：Agentic Engineering草稿、Claude 4.6纠错实录与Kākāpō育种季独家笔记。",
+      "tags": [
+        "AI内幕",
+        "Claude",
+        "Agentic Engineering"
+      ],
+      "recommendReason": "每月10美元换AI前沿干货，提前一个月掌握大模型风向。",
+      "score": 8.5
+    },
+    {
+      "title": "208K内存跑Mac？我造了台拇指电脑",
+      "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "作者用树莓派Pico复刻超迷你Macintosh，208K内存跑System 5.3，还能接键鼠玩经典游戏。",
+      "tags": [
+        "树莓派",
+        "复古电脑",
+        "DIY硬件"
+      ],
+      "recommendReason": "低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。",
+      "score": 8.5
+    },
+    {
+      "title": "5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？",
+      "url": "https://daringfireball.net/2026/03/hazeover",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "作者亲测Alan.app与HazeOver，揭示如何用优雅方式瞬间定位前台窗口，提升macOS效率。",
+      "tags": [
+        "Mac技巧",
+        "效率工具",
+        "窗口管理"
+      ],
+      "recommendReason": "用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。",
+      "score": 8.5
+    },
+    {
+      "title": "20年前被忽略的URL神设计，还在偷偷宠用户？",
+      "url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "作者拆解Flickr极简URL背后的交互魔法，揭示键盘党最爱的隐藏效率神器。",
+      "tags": [
+        "URL设计",
+        "用户体验",
+        "Flickr"
+      ],
+      "recommendReason": "一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。",
+      "score": 8.5
+    },
+    {
+      "title": "一张图拖出两种格式？Safari 请求头藏了什么坑",
+      "url": "https://underpassapp.com/news/2025/3/4.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "开发者 Jeff Johnson 用新扩展 ChangeTheHeaders 揭开 Safari 因 Accept 头导致 WebP/PNG 差异真相。",
+      "tags": [
+        "Safari",
+        "HTTP请求头",
+        "WebP"
+      ],
+      "recommendReason": "搞清浏览器“undefined behavior”幕后机制，前端与爬虫都值得收藏。",
+      "score": 8.5
+    },
+    {
+      "title": "苹果系统Bug连环爆：10年备份噩梦你中招了吗？",
+      "url": "https://take.surf/2026/03/01/welcome-back-to-macintosh",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "资深果粉亲述Time Machine、Spotlight、Finder等核心功能多年顽疾，揭示macOS体验滑坡真相。",
+      "tags": [
+        "macOS",
+        "系统Bug",
+        "Time Machine"
+      ],
+      "recommendReason": "深度拆解苹果生态暗伤，给依赖Mac的用户一剂清醒剂与自救指南。",
+      "score": 8.5
+    },
+    {
+      "title": "谷歌告SerpApi？它反手一招要撤诉",
+      "url": "https://serpapi.com/blog/google-v-serpapi-motion-to-dismiss-why-were-in-the-right/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "SerpApi正式提交驳回动议，硬刚谷歌垄断指控，拆解“没人能拥有互联网”的法律逻辑。",
+      "tags": [
+        "反垄断",
+        "法律战",
+        "数据抓取"
+      ],
+      "recommendReason": "围观小团队如何用法律武器反击巨头垄断，给所有爬虫与数据创业者划重点。",
+      "score": 8.5
+    },
+    {
+      "title": "AI巨头竟成美军黑名单？",
+      "url": "https://stratechery.com/2026/anthropic-and-alignment/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "Anthropic被五角大楼封杀背后，AI伦理与国家安全的终极博弈。",
+      "tags": [
+        "AI治理",
+        "地缘政治",
+        "科技监管"
+      ],
+      "recommendReason": "用国际关系视角拆解AI监管暗战，看懂技术公司如何卷入大国博弈。",
+      "score": 8.5
+    },
+    {
+      "title": "五角大楼逼宫Anthropic，OpenAI躺赢？",
+      "url": "https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "特朗普政府因军事使用条款与Anthropic决裂，转向OpenAI，AI安全与军控博弈升级。",
+      "tags": [
+        "AI安全",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "recommendReason": "独家揭示AI巨头与白宫的暗战，关乎未来军事AI主导权。",
+      "score": 8.5
+    },
+    {
+      "title": "iPhone壳新色上线，你pick哪款？",
+      "url": "https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "苹果2026春季一口气更新iPhone壳、表带、斜挎绳配色，亮番石榴成C位。",
+      "tags": [
+        "苹果配件",
+        "配色更新",
+        "春季新品"
+      ],
+      "recommendReason": "第一时间看懂苹果春季配色风向，挑壳/选带不踩雷。",
+      "score": 8.5
+    },
+    {
+      "title": "M4芯iPad Air杀到！性能暴涨30%？",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "苹果突然发布M4版iPad Air，性能秒前代，价格却原地不动，3月11日开卖。",
+      "tags": [
+        "苹果",
+        "iPad Air",
+        "M4芯片"
+      ],
+      "recommendReason": "性能大升级还加量不加价，想换平板得先看完这篇。",
+      "score": 8.5
+    },
+    {
+      "title": "599 元 256G 的 iPhone 来了？",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "苹果发布史上最便宜 iPhone 17e，599 美元起却给 256G 存储 + A19 芯片",
+      "tags": [
+        "苹果",
+        "iPhone 17e",
+        "性价比"
+      ],
+      "recommendReason": "想低价体验最新 A19 性能与卫星求救，这篇文章告诉你值不值",
+      "score": 8.5
+    },
+    {
+      "title": "AI写文被嫌弃？真相让人沉默",
+      "url": "https://idiallo.com/blog/why-we-hate-llm-articles?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "借“莫·塞缪尔”假托，作者揭示AI代笔与读者信任危机，犀利反思内容创作的价值与未来。",
+      "tags": [
+        "AI写作",
+        "内容信任",
+        "创作伦理"
+      ],
+      "recommendReason": "一篇用故事包装的思考文，让你秒懂AI内容为何被反感，也照见创作者焦虑。",
+      "score": 8.5
+    },
+    {
+      "title": "转发AI聊天记录=公开自慰？",
+      "url": "https://pluralistic.net/2026/03/02/nonconsensual-slopping/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Cory Doctorow犀利吐槽：别把AI废话强加给别人，强行塞入公共对话既失礼又无效。",
+      "tags": [
+        "AI伦理",
+        "社交媒体礼仪",
+        "Cory Doctorow"
+      ],
+      "recommendReason": "帮你认清AI内容泛滥的社交雷区，学会尊重他人注意力。",
+      "score": 8.5
+    },
+    {
+      "title": "Mastodon登录也能玩？这招绝了！",
+      "url": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "用Auth0自定义连接，把去中心化Mastodon一键变成网站登录神器，作者亲授PHP脚本与完整配置。",
+      "tags": [
+        "Auth0",
+        "Mastodon",
+        "OAuth2"
+      ],
+      "recommendReason": "手把手教你绕过官方限制，让任何Mastodon实例秒变社交登录，开源代码直接抄。",
+      "score": 8.5
+    },
+    {
+      "title": "把IDCANCEL塞给非按钮？噩梦开始！",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "对话框里把IDCANCEL硬塞给非按钮控件，系统会伪造BN_CLICKED消息，引发连锁误解析与调试噩梦。",
+      "tags": [
+        "Windows开发",
+        "对话框陷阱",
+        "控件ID"
+      ],
+      "recommendReason": "提前踩坑指南，避免对话框消息错乱带来的调试地狱。",
+      "score": 8.5
+    },
+    {
+      "title": "AI末日党反加速人类？真相炸锅",
+      "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Marcus炮轰“AGI近在咫尺”派：预言全错，反而帮政客打开潘多拉AI盒子。",
+      "tags": [
+        "AI安全",
+        "政策反噬",
+        "末日预言"
+      ],
+      "recommendReason": "揭露末日叙事如何被现实政治反噬，对关心AI治理者必读。",
+      "score": 8.5
+    },
     {
       "title": "无界权杖",
       "url": "https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/",
