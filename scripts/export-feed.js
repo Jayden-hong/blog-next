@@ -45,7 +45,7 @@ try {
   }
 
   const files = fs.readdirSync(feedDir)
-    .filter(f => f.endsWith('.json') && f !== 'all-articles.json' && f !== 'latest.json')
+    .filter(f => f.endsWith('.json') && f !== 'all-articles.json' && f !== 'latest.json' && f !== 'x-threads.json')
     .sort()
     .reverse(); // Latest first
 
