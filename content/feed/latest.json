@@ -1,384 +1,308 @@
 {
   "date": "2026-03-03",
-  "totalSources": 9,
-  "totalArticles": 19,
+  "totalSources": 8,
+  "totalArticles": 17,
   "highlights": [
     {
-      "title": "微延迟竟能让微分方程秒变震荡？",
-      "url": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-02",
-      "description": "用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathematica代码。",
-      "tags": [
-        "微分方程",
-        "延迟系统",
-        "数值模拟"
-      ],
-      "recommendReason": "5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。",
-      "score": 8.7
-    },
-    {
-      "title": "30年老工具秒变网页神器？",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "title": "Gemini 3.1 Flash-Lite",
+      "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-02",
-      "description": "作者把C语言写的GIF压缩神器Gifsicle编译成WebAssembly，3分钟搭出在线拖拽优化页面，体积对比一键下载。",
+      "date": "2026-03-03",
+      "description": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out",
       "tags": [
-        "WebAssembly",
-        "GIF优化",
-        "前端工具"
+        "simonwillison"
       ],
-      "recommendReason": "用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "10美元抢先版！AI大神私享信泄露",
-      "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
-      "source": "simonwillison",
+      "title": "Giving LLMs a personality is just good engineering",
+      "url": "https://seangoedecke.com/giving-llms-a-personality/",
+      "source": "seangoedecke",
       "author": "",
-      "date": "2026-03-02",
-      "description": "Simon Willison 2月赞助者通讯曝光：Agentic Engineering草稿、Claude 4.6纠错实录与Kākāpō育种季独家笔记。",
+      "date": "2026-03-03",
+      "description": "",
       "tags": [
-        "AI内幕",
-        "Claude",
-        "Agentic Engineering"
+        "seangoedecke"
       ],
-      "recommendReason": "每月10美元换AI前沿干货，提前一个月掌握大模型风向。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "208K内存跑Mac？我造了台拇指电脑",
-      "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-02",
-      "description": "作者用树莓派Pico复刻超迷你Macintosh，208K内存跑System 5.3，还能接键鼠玩经典游戏。",
-      "tags": [
-        "树莓派",
-        "复古电脑",
-        "DIY硬件"
-      ],
-      "recommendReason": "低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。",
-      "score": 8.5
-    },
-    {
-      "title": "5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？",
-      "url": "https://daringfireball.net/2026/03/hazeover",
+      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
       "source": "daringfireball",
       "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "作者亲测Alan.app与HazeOver，揭示如何用优雅方式瞬间定位前台窗口，提升macOS效率。",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
       "tags": [
-        "Mac技巧",
-        "效率工具",
-        "窗口管理"
+        "daringfireball"
       ],
-      "recommendReason": "用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "20年前被忽略的URL神设计，还在偷偷宠用户？",
-      "url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+      "title": "New MacBook Air With M5",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
       "source": "daringfireball",
       "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "作者拆解Flickr极简URL背后的交互魔法，揭示键盘党最爱的隐藏效率神器。",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so",
       "tags": [
-        "URL设计",
-        "用户体验",
-        "Flickr"
+        "daringfireball"
       ],
-      "recommendReason": "一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
+      "url": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
     }
   ],
   "articles": [
     {
-      "title": "微延迟竟能让微分方程秒变震荡？",
-      "url": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-02",
-      "description": "用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathematica代码。",
-      "tags": [
-        "微分方程",
-        "延迟系统",
-        "数值模拟"
-      ],
-      "recommendReason": "5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。",
-      "score": 8.7
-    },
-    {
-      "title": "30年老工具秒变网页神器？",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "title": "Gemini 3.1 Flash-Lite",
+      "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-02",
-      "description": "作者把C语言写的GIF压缩神器Gifsicle编译成WebAssembly，3分钟搭出在线拖拽优化页面，体积对比一键下载。",
+      "date": "2026-03-03",
+      "description": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out",
       "tags": [
-        "WebAssembly",
-        "GIF优化",
-        "前端工具"
+        "simonwillison"
       ],
-      "recommendReason": "用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "10美元抢先版！AI大神私享信泄露",
-      "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
-      "source": "simonwillison",
+      "title": "Giving LLMs a personality is just good engineering",
+      "url": "https://seangoedecke.com/giving-llms-a-personality/",
+      "source": "seangoedecke",
       "author": "",
-      "date": "2026-03-02",
-      "description": "Simon Willison 2月赞助者通讯曝光：Agentic Engineering草稿、Claude 4.6纠错实录与Kākāpō育种季独家笔记。",
+      "date": "2026-03-03",
+      "description": "",
       "tags": [
-        "AI内幕",
-        "Claude",
-        "Agentic Engineering"
+        "seangoedecke"
       ],
-      "recommendReason": "每月10美元换AI前沿干货，提前一个月掌握大模型风向。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "208K内存跑Mac？我造了台拇指电脑",
-      "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-02",
-      "description": "作者用树莓派Pico复刻超迷你Macintosh，208K内存跑System 5.3，还能接键鼠玩经典游戏。",
+      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
       "tags": [
-        "树莓派",
-        "复古电脑",
-        "DIY硬件"
+        "daringfireball"
       ],
-      "recommendReason": "低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？",
+      "title": "New MacBook Air With M5",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
+      "url": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-03",
+      "description": "npx workos launches an AI agent , powered by Claude, that reads your project, detects your framework, and writes a complete auth integration directly ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
       "url": "https://daringfireball.net/2026/03/hazeover",
       "source": "daringfireball",
       "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "作者亲测Alan.app与HazeOver，揭示如何用优雅方式瞬间定位前台窗口，提升macOS效率。",
+      "date": "2026-03-03",
+      "description": "What HazeOver does is highlight the active window by dimming all background windows. That’s it. But it does this simple task with aplomb, and it makes",
       "tags": [
-        "Mac技巧",
-        "效率工具",
-        "窗口管理"
+        "daringfireball"
       ],
-      "recommendReason": "用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "20年前被忽略的URL神设计，还在偷偷宠用户？",
+      "title": "Unsung Heroes: Flickr’s URLs Scheme",
       "url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-02",
-      "description": "作者拆解Flickr极简URL背后的交互魔法，揭示键盘党最爱的隐藏效率神器。",
+      "description": "Marcin Wichary, writing at Unsung (which is just an incredibly good and fun weblog): Half of my education in URLs as user interface came from Flickr i",
       "tags": [
-        "URL设计",
-        "用户体验",
-        "Flickr"
+        "daringfireball"
       ],
-      "recommendReason": "一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "一张图拖出两种格式？Safari 请求头藏了什么坑",
-      "url": "https://underpassapp.com/news/2025/3/4.html",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "开发者 Jeff Johnson 用新扩展 ChangeTheHeaders 揭开 Safari 因 Accept 头导致 WebP/PNG 差异真相。",
-      "tags": [
-        "Safari",
-        "HTTP请求头",
-        "WebP"
-      ],
-      "recommendReason": "搞清浏览器“undefined behavior”幕后机制，前端与爬虫都值得收藏。",
-      "score": 8.5
-    },
-    {
-      "title": "苹果系统Bug连环爆：10年备份噩梦你中招了吗？",
-      "url": "https://take.surf/2026/03/01/welcome-back-to-macintosh",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "资深果粉亲述Time Machine、Spotlight、Finder等核心功能多年顽疾，揭示macOS体验滑坡真相。",
-      "tags": [
-        "macOS",
-        "系统Bug",
-        "Time Machine"
-      ],
-      "recommendReason": "深度拆解苹果生态暗伤，给依赖Mac的用户一剂清醒剂与自救指南。",
-      "score": 8.5
-    },
-    {
-      "title": "谷歌告SerpApi？它反手一招要撤诉",
-      "url": "https://serpapi.com/blog/google-v-serpapi-motion-to-dismiss-why-were-in-the-right/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "SerpApi正式提交驳回动议，硬刚谷歌垄断指控，拆解“没人能拥有互联网”的法律逻辑。",
-      "tags": [
-        "反垄断",
-        "法律战",
-        "数据抓取"
-      ],
-      "recommendReason": "围观小团队如何用法律武器反击巨头垄断，给所有爬虫与数据创业者划重点。",
-      "score": 8.5
-    },
-    {
-      "title": "AI巨头竟成美军黑名单？",
+      "title": "‘Anthropic and Alignment’",
       "url": "https://stratechery.com/2026/anthropic-and-alignment/",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-02",
-      "description": "Anthropic被五角大楼封杀背后，AI伦理与国家安全的终极博弈。",
+      "description": "Ben Thompson, writing at Stratechery: In fact, Amodei already answered the question: if nuclear weapons were developed by a private company, and that ",
       "tags": [
-        "AI治理",
-        "地缘政治",
-        "科技监管"
+        "daringfireball"
       ],
-      "recommendReason": "用国际关系视角拆解AI监管暗战，看懂技术公司如何卷入大国博弈。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "五角大楼逼宫Anthropic，OpenAI躺赢？",
-      "url": "https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "特朗普政府因军事使用条款与Anthropic决裂，转向OpenAI，AI安全与军控博弈升级。",
-      "tags": [
-        "AI安全",
-        "Anthropic",
-        "OpenAI"
-      ],
-      "recommendReason": "独家揭示AI巨头与白宫的暗战，关乎未来军事AI主导权。",
-      "score": 8.5
-    },
-    {
-      "title": "iPhone壳新色上线，你pick哪款？",
-      "url": "https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "苹果2026春季一口气更新iPhone壳、表带、斜挎绳配色，亮番石榴成C位。",
-      "tags": [
-        "苹果配件",
-        "配色更新",
-        "春季新品"
-      ],
-      "recommendReason": "第一时间看懂苹果春季配色风向，挑壳/选带不踩雷。",
-      "score": 8.5
-    },
-    {
-      "title": "M4芯iPad Air杀到！性能暴涨30%？",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "苹果突然发布M4版iPad Air，性能秒前代，价格却原地不动，3月11日开卖。",
-      "tags": [
-        "苹果",
-        "iPad Air",
-        "M4芯片"
-      ],
-      "recommendReason": "性能大升级还加量不加价，想换平板得先看完这篇。",
-      "score": 8.5
-    },
-    {
-      "title": "599 元 256G 的 iPhone 来了？",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-02",
-      "description": "苹果发布史上最便宜 iPhone 17e，599 美元起却给 256G 存储 + A19 芯片",
-      "tags": [
-        "苹果",
-        "iPhone 17e",
-        "性价比"
-      ],
-      "recommendReason": "想低价体验最新 A19 性能与卫星求救，这篇文章告诉你值不值",
-      "score": 8.5
-    },
-    {
-      "title": "AI写文被嫌弃？真相让人沉默",
-      "url": "https://idiallo.com/blog/why-we-hate-llm-articles?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-02",
-      "description": "借“莫·塞缪尔”假托，作者揭示AI代笔与读者信任危机，犀利反思内容创作的价值与未来。",
-      "tags": [
-        "AI写作",
-        "内容信任",
-        "创作伦理"
-      ],
-      "recommendReason": "一篇用故事包装的思考文，让你秒懂AI内容为何被反感，也照见创作者焦虑。",
-      "score": 8.5
-    },
-    {
-      "title": "转发AI聊天记录=公开自慰？",
-      "url": "https://pluralistic.net/2026/03/02/nonconsensual-slopping/",
+      "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
+      "url": "https://pluralistic.net/2026/03/03/its-a-trap-2/",
       "source": "pluralistic",
       "author": "",
-      "date": "2026-03-02",
-      "description": "Cory Doctorow犀利吐槽：别把AI废话强加给别人，强行塞入公共对话既失礼又无效。",
+      "date": "2026-03-03",
+      "description": "Today's links Supreme Court saves artists from AI: Just because you're on their side, it doesn't mean they're on your side. Hey look at this: Delights",
       "tags": [
-        "AI伦理",
-        "社交媒体礼仪",
-        "Cory Doctorow"
+        "pluralistic"
       ],
-      "recommendReason": "帮你认清AI内容泛滥的社交雷区，学会尊重他人注意力。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "Mastodon登录也能玩？这招绝了！",
-      "url": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "title": "Game Review: Unravel Two ★★★⯪☆",
+      "url": "https://shkspr.mobi/blog/2026/03/game-review-unravel-two/",
       "source": "shkspr.mobi",
       "author": "",
-      "date": "2026-03-02",
-      "description": "用Auth0自定义连接，把去中心化Mastodon一键变成网站登录神器，作者亲授PHP脚本与完整配置。",
+      "date": "2026-03-03",
+      "description": "My new year's resolution is to play more video games. Specifically co-operative games. I hate playing competitively; it's rubbish to achieve victory a",
       "tags": [
-        "Auth0",
-        "Mastodon",
-        "OAuth2"
+        "shkspr.mobi"
       ],
-      "recommendReason": "手把手教你绕过官方限制，让任何Mastodon实例秒变社交登录，开源代码直接抄。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "把IDCANCEL塞给非按钮？噩梦开始！",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
+      "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
       "source": "oldnewthing",
       "author": "",
-      "date": "2026-03-02",
-      "description": "对话框里把IDCANCEL硬塞给非按钮控件，系统会伪造BN_CLICKED消息，引发连锁误解析与调试噩梦。",
+      "date": "2026-03-03",
+      "description": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing",
       "tags": [
-        "Windows开发",
-        "对话框陷阱",
-        "控件ID"
+        "oldnewthing"
       ],
-      "recommendReason": "提前踩坑指南，避免对话框消息错乱带来的调试地狱。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
     },
     {
-      "title": "AI末日党反加速人类？真相炸锅",
+      "title": "Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”",
+      "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "LLMs are an epistemic nightmare",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "How AGI-is-nigh doomers own-goaled humanity",
       "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
       "source": "garymarcus",
       "author": "",
       "date": "2026-03-02",
-      "description": "Marcus炮轰“AGI近在咫尺”派：预言全错，反而帮政客打开潘多拉AI盒子。",
+      "description": "The road to where we are now was (mostly) paved with good intentions — but mixed with too much uncritical acceptance of hype.",
       "tags": [
-        "AI安全",
-        "政策反噬",
-        "末日预言"
+        "garymarcus"
       ],
-      "recommendReason": "揭露末日叙事如何被现实政治反噬，对关心AI治理者必读。",
-      "score": 8.5
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "An AI Odyssey, Part 1: Correctness Conundrum",
+      "url": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
     }
   ]
 }

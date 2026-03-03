@@ -1,7 +1,7 @@
 {
   "date": "2026-03-03",
-  "totalSources": 9,
-  "totalArticles": 54,
+  "totalSources": 8,
+  "totalArticles": 67,
   "allTags": [
     "AI",
     "AI代理",
@@ -41,11 +41,19 @@
     "WebP",
     "Windows开发",
     "bash",
+    "daringfireball",
+    "garymarcus",
     "iOS",
     "iPad Air",
     "iPhone 17e",
+    "johndcook",
     "macOS",
+    "oldnewthing",
+    "pluralistic",
     "redis",
+    "seangoedecke",
+    "shkspr.mobi",
+    "simonwillison",
     "书评",
     "二战",
     "交互式讲解",
@@ -111,6 +119,175 @@
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "Gemini 3.1 Flash-Lite",
+      "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Giving LLMs a personality is just good engineering",
+      "url": "https://seangoedecke.com/giving-llms-a-personality/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "",
+      "tags": [
+        "seangoedecke"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "New MacBook Air With M5",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
+      "url": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-03",
+      "description": "Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-03",
+      "description": "npx workos launches an AI agent , powered by Claude, that reads your project, detects your framework, and writes a complete auth integration directly ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
+      "url": "https://pluralistic.net/2026/03/03/its-a-trap-2/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Today's links Supreme Court saves artists from AI: Just because you're on their side, it doesn't mean they're on your side. Hey look at this: Delights",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Game Review: Unravel Two ★★★⯪☆",
+      "url": "https://shkspr.mobi/blog/2026/03/game-review-unravel-two/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "My new year's resolution is to play more video games. Specifically co-operative games. I hate playing competitively; it's rubbish to achieve victory a",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”",
+      "url": "https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "LLMs are an epistemic nightmare",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "An AI Odyssey, Part 1: Correctness Conundrum",
+      "url": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
     {
       "title": "微延迟竟能让微分方程秒变震荡？",
       "url": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
