@@ -1,7 +1,7 @@
 {
   "date": "2026-03-04",
-  "totalSources": 7,
-  "totalArticles": 67,
+  "totalSources": 10,
+  "totalArticles": 68,
   "allTags": [
     "AI",
     "AI代理",
@@ -284,6 +284,19 @@
       "description": "I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof",
       "tags": [
         "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Quoting Donald Knuth",
+      "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hyb",
+      "tags": [
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0

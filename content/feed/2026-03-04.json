@@ -1,8 +1,21 @@
 {
   "date": "2026-03-04",
-  "totalSources": 7,
-  "totalArticles": 13,
+  "totalSources": 10,
+  "totalArticles": 27,
   "highlights": [
+    {
+      "title": "Quoting Donald Knuth",
+      "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hyb",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
     {
       "title": "Gemini 3.1 Flash-Lite",
       "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
@@ -17,66 +30,53 @@
       "score": 5.0
     },
     {
-      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-03",
-      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
+      "title": "GIF optimization tool using WebAssembly and Gifsicle",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap . There's an example in the Int",
       "tags": [
-        "daringfireball"
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0
     },
     {
-      "title": "New MacBook Air With M5",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-03",
-      "description": "Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so",
+      "title": "February sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "I just sent the February edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it h",
       "tags": [
-        "daringfireball"
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0
     },
     {
-      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
-      "url": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-03",
-      "description": "Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further",
+      "title": "I built a pint-sized Macintosh",
+      "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "To kick off MARCHintosh , I built this tiny pint-sized Macintosh with a Raspberry Pi Pico: This is not my own doing—I just assembled the parts to run ",
       "tags": [
-        "daringfireball"
+        "jeffgeerling"
       ],
       "recommendReason": "",
       "score": 5.0
     },
     {
-      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
-      "source": "daringfireball",
-      "author": "John Gruber",
+      "title": "Giving LLMs a personality is just good engineering",
+      "url": "https://seangoedecke.com/giving-llms-a-personality/",
+      "source": "seangoedecke",
+      "author": "",
       "date": "2026-03-03",
-      "description": "Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an",
+      "description": "",
       "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-03",
-      "description": "Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are ",
-      "tags": [
-        "daringfireball"
+        "seangoedecke"
       ],
       "recommendReason": "",
       "score": 5.0
@@ -84,6 +84,19 @@
   ],
   "articles": [
     {
+      "title": "Quoting Donald Knuth",
+      "url": "https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hyb",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
       "title": "Gemini 3.1 Flash-Lite",
       "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
       "source": "simonwillison",
@@ -92,6 +105,58 @@
       "description": "Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out",
       "tags": [
         "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "GIF optimization tool using WebAssembly and Gifsicle",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Agentic Engineering Patterns > I like to include animated GIF demos in my online writing, often recorded using LICEcap . There's an example in the Int",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "February sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "I just sent the February edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it h",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "I built a pint-sized Macintosh",
+      "url": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "To kick off MARCHintosh , I built this tiny pint-sized Macintosh with a Raspberry Pi Pico: This is not my own doing—I just assembled the parts to run ",
+      "tags": [
+        "jeffgeerling"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Giving LLMs a personality is just good engineering",
+      "url": "https://seangoedecke.com/giving-llms-a-personality/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-03",
+      "description": "",
+      "tags": [
+        "seangoedecke"
       ],
       "recommendReason": "",
       "score": 5.0
@@ -188,12 +253,77 @@
       "score": 5.0
     },
     {
+      "title": "Unsung Heroes: Flickr’s URLs Scheme",
+      "url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "Marcin Wichary, writing at Unsung (which is just an incredibly good and fun weblog): Half of my education in URLs as user interface came from Flickr i",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "ChangeTheHeaders",
+      "url": "https://underpassapp.com/news/2025/3/4.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "During the most recent episode of The Talk Show , Jason Snell brought up a weird issue that I started running into last year. On my Mac, sometimes I’d",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Welcome (Back) to Macintosh",
+      "url": "https://take.surf/2026/03/01/welcome-back-to-macintosh",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-02",
+      "description": "Jesper, writing at Take: My hope is that Macintosh is not just one of these empires that was at the height of its power and then disintegrated because",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Mo Samuels wrote this post",
+      "url": "https://idiallo.com/blog/why-we-hate-llm-articles?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Last year, I pushed myself to write and publish every other day for the whole year. I had accumulated a large number of subjects over the years, and I",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
       "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
       "url": "https://pluralistic.net/2026/03/03/its-a-trap-2/",
       "source": "pluralistic",
       "author": "",
       "date": "2026-03-03",
       "description": "Today's links Supreme Court saves artists from AI: Just because you're on their side, it doesn't mean they're on your side. Hey look at this: Delights",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Pluralistic: No one wants to read your AI slop (02 Mar 2026)",
+      "url": "https://pluralistic.net/2026/03/02/nonconsensual-slopping/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "Today's links No one wants to read your AI slop: If you must do this, for god's sake, do it privately. Hey look at this: Delights to delectate. Object",
       "tags": [
         "pluralistic"
       ],
@@ -214,12 +344,38 @@
       "score": 5.0
     },
     {
+      "title": "Adding \"Log In With Mastodon\" to Auth0",
+      "url": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "I use Auth0 to provide social logins for the OpenBenches website. I don't want to deal with creating user accounts, managing passwords, or anything li",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
       "url": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
       "source": "oldnewthing",
       "author": "",
       "date": "2026-03-03",
       "description": "Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "You get notifications that might not make sense. The post What sort of horrible things happen if my dialog has a non-button with the control ID of IDC",
       "tags": [
         "oldnewthing"
       ],
@@ -240,12 +396,38 @@
       "score": 5.0
     },
     {
+      "title": "How AGI-is-nigh doomers own-goaled humanity",
+      "url": "https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "The road to where we are now was (mostly) paved with good intentions — but mixed with too much uncritical acceptance of hype.",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
       "url": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
       "source": "johndcook",
       "author": "",
       "date": "2026-03-03",
       "description": "I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Differential equation with a small delay",
+      "url": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-02",
+      "description": "In grad school I specialized in differential equations, but never worked with delay-differential equations, equations specifying that a solution depen",
       "tags": [
         "johndcook"
       ],
