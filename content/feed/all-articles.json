@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-04",
-  "totalSources": 10,
-  "totalArticles": 68,
+  "date": "2026-03-05",
+  "totalSources": 9,
+  "totalArticles": 80,
   "allTags": [
     "AI",
     "AI代理",
@@ -42,10 +42,12 @@
     "Windows开发",
     "bash",
     "daringfireball",
+    "dynomight",
     "garymarcus",
     "iOS",
     "iPad Air",
     "iPhone 17e",
+    "idiallo",
     "johndcook",
     "macOS",
     "oldnewthing",
@@ -119,6 +121,162 @@
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "Anti-patterns: things to avoid",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Something is afoot in the land of Qwen",
+      "url": "https://simonwillison.net/2026/Mar/4/qwen/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "★ Thoughts and Observations on the MacBook Neo",
+      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-04",
+      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Studio Display vs. Studio Display XDR",
+      "url": "https://www.apple.com/displays/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-04",
+      "description": "Not sure if this page was there yesterday, but the main “Displays” page at Apple’s website is a spec-by-spec comparison between the regular and XDR mo",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Compatibility Notes on the New Studio Displays",
+      "url": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-04",
+      "description": "Juli Clover, at MacRumors, notes that neither the new Studio Display nor the Studio Display XDR are compatible with Intel-based Macs . (I’m curious wh",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
+      "url": "https://sixcolors.com/post/2026/03/apple-gives-in-to-temptation-and-renames-its-cpu-cores/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-04",
+      "description": "Jason Snell, Six Colors: Here’s the backstory: With every new generation of Apple’s Mac-series processors, I’ve gotten the impression from Apple execs",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Interruption-Driven Development",
+      "url": "https://idiallo.com/blog/interruption-driven-development?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "I have a hard time listening to music while working. I know a lot of people do it, but whenever I need to focus on a problem, I have to hunt down the ",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "How many hours do you need to work to afford a pint of beer?",
+      "url": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in ",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Maybe there’s a pattern here?",
+      "url": "https://dynomight.net/pattern/",
+      "source": "dynomight",
+      "author": "dynomight",
+      "date": "2026-03-04",
+      "description": "Inventors and impacts",
+      "tags": [
+        "dynomight"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query­Performance­Co",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "From logistic regression to AI",
+      "url": "https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "It is sometimes said that neural networks are “just” logistic regression. (Remember neural networks? LLMs are neural networks, but nobody talks about ",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "An AI Odyssey, Part 2: Prompting Peril",
+      "url": "https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-04",
+      "description": "I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improv",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
     {
       "title": "Gemini 3.1 Flash-Lite",
       "url": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
