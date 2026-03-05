@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-03T00:04:13.094106+00:00",
+  "lastUpdated": "2026-03-05T00:03:15.672293+00:00",
   "source": "attentionvc.ai",
   "window": "7d",
   "total": 100,
@@ -12,38 +12,80 @@
       "authorName": "バイク川崎バイク(BKB)🛵",
       "description": "まただ。\nもう。\nしつこいってば。\n\n「あ……もしもしごめんパパ。もうすぐ帰るね。うんうん。そうだねうん。迎え？あ、どうしようかな。来てもらおうかな？ええと、今はね……」\n\n私はよくナンパされる。",
       "date": "2026-02-28T09:49:26.000Z",
-      "engagement": "46.6M views · 113.4K likes",
+      "engagement": "46.9M views · 113.9K likes",
       "category": "Lifestyle",
       "wordCount": 1784,
       "readingTime": 5,
       "lang": "ja",
       "rank": 1,
       "metrics": {
-        "views": 46563775,
-        "likes": 113353,
-        "retweets": 12192,
-        "bookmarks": 28668
+        "views": 46939989,
+        "likes": 113943,
+        "retweets": 12265,
+        "bookmarks": 28588
       }
     },
     {
-      "id": "2026717574776631556",
-      "title": "How to set up Claude Cowork the right way(so it actually does your work while you step away)",
-      "url": "https://x.com/heynavtoor/status/2026717574776631556",
-      "author": "@heynavtoor",
-      "authorName": "Nav Toor",
-      "description": "The people who are \"getting\" AI in 2026 aren’t the ones writing the cleverest prompts.\nThey’re the ones who figured out Cowork.\nI started using Claude Cowork the week it launched in January 2026.",
-      "date": "2026-02-25T17:54:59.000Z",
-      "engagement": "11.0M views · 19.2K likes",
-      "category": "Ai",
-      "wordCount": 3132,
-      "readingTime": 13,
-      "lang": "en",
+      "id": "2028064785162719440",
+      "title": "30日間毎朝5時起きしたら何が起きるのか",
+      "url": "https://x.com/cozeblog/status/2028064785162719440",
+      "author": "@cozeblog",
+      "authorName": "こーずぶろぐ",
+      "description": "「早起きすれば人生変わる」\n（I Woke Up At 5AM For 30 Days Straight 要約）\n実際に30日間、毎朝5時に起き続けた結果から見えたのは\n“早起き＝根性論”ではなく\n 生活と脳の仕組みの話でした。",
+      "date": "2026-03-01T11:08:19.000Z",
+      "engagement": "12.3M views · 8.3K likes",
+      "category": "Self Help",
+      "wordCount": 655,
+      "readingTime": 2,
+      "lang": "ja",
       "rank": 2,
       "metrics": {
-        "views": 11015567,
-        "likes": 19180,
-        "retweets": 2241,
-        "bookmarks": 86619
+        "views": 12328181,
+        "likes": 8346,
+        "retweets": 502,
+        "bookmarks": 7586
+      }
+    },
+    {
+      "id": "2028451284521722278",
+      "title": "【メンズ必見】女性が興醒めするエッチ中の男性の行動5選 ",
+      "url": "https://x.com/drinkbar/status/2028451284521722278",
+      "author": "@drinkbar",
+      "authorName": "夢顎んく",
+      "description": "・喘ぎ声を聞いて羊が集まってくる\n・今回のセックステーマが画面の右上に表示されている\n・遅漏すぎてニンテンドーダイレクトがあるたびトレンドに「射精」が上がる\n・折れてる方の手で揉む\n・審判を買収する",
+      "date": "2026-03-02T12:44:07.000Z",
+      "engagement": "12.2M views · 22.6K likes",
+      "category": "Wtf",
+      "wordCount": 570,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 3,
+      "metrics": {
+        "views": 12219895,
+        "likes": 22636,
+        "retweets": 2204,
+        "bookmarks": 6711
+      }
+    },
+    {
+      "id": "2028051118736179587",
+      "title": "頭蓋骨と自律神経系とテンセグリティの関係 ｜ 顔がゆるむと全身がゆるむ理由",
+      "url": "https://x.com/ninnikinene/status/2028051118736179587",
+      "author": "@ninnikinene",
+      "authorName": "仁木洸平🌲｜NIKI Kohei｜@MTR Method Lab®︎",
+      "description": "「心の問題」を「張力構造の問題」としてみる視点を変えた場合。\nうつや不眠が単なる心の弱さではなく、“頭の構造が疲弊しているサイン”としてみえる可能性もあるのではないでしょうか??",
+      "date": "2026-03-01T10:14:00.000Z",
+      "engagement": "10.9M views · 1.5K likes",
+      "category": "Health",
+      "wordCount": 512,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 4,
+      "metrics": {
+        "views": 10900778,
+        "likes": 1542,
+        "retweets": 131,
+        "bookmarks": 2729
       }
     },
     {
@@ -54,38 +96,17 @@
       "authorName": "安斎 響市 @転職デビル",
       "description": "「仕事ができない人」って、いますよね。\nどこの職場にも、一人や二人はいると思います。\n\nそういう人と付き合うのって、かなりストレスが溜まります。\n会議や打ち合わせに毎回、何かと理由を付けて遅刻してくる",
       "date": "2026-02-28T07:04:31.000Z",
-      "engagement": "10.3M views · 4.1K likes",
+      "engagement": "10.3M views · 4.2K likes",
       "category": "Self Help",
       "wordCount": 1222,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 3,
+      "rank": 5,
       "metrics": {
-        "views": 10271457,
-        "likes": 4100,
-        "retweets": 380,
-        "bookmarks": 4995
-      }
-    },
-    {
-      "id": "2026599157650313277",
-      "title": "【イーロン・マスク】生産性を上げる７つの鉄則",
-      "url": "https://x.com/Kenmaeda77/status/2026599157650313277",
-      "author": "@Kenmaeda77",
-      "authorName": "前田謙一郎 Ken Maeda",
-      "description": "イーロン・マスクは2018年4月17日にTeslaの全従業員宛に以下のメールを送り、生産性を上げるための避けるべき鉄則を明らかにした。（私も当時はテスラに在籍しており覚えている）",
-      "date": "2026-02-25T10:04:26.000Z",
-      "engagement": "9.9M views · 10.2K likes",
-      "category": "Self Help",
-      "wordCount": 691,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 4,
-      "metrics": {
-        "views": 9940223,
-        "likes": 10227,
-        "retweets": 1120,
-        "bookmarks": 13133
+        "views": 10315038,
+        "likes": 4150,
+        "retweets": 384,
+        "bookmarks": 5015
       }
     },
     {
@@ -96,17 +117,38 @@
       "authorName": "Commentary Donald J. Trump Posts From Truth Social",
       "description": "🚨BREAKING: Trump Video Announcement on Military Action against Iran Mullahs Below - 2.28.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti",
       "date": "2026-02-28T09:33:49.000Z",
-      "engagement": "9.7M views · 2.5K likes",
+      "engagement": "9.8M views · 2.5K likes",
       "category": "Politics",
       "wordCount": 985,
       "readingTime": 4,
       "lang": "en",
-      "rank": 5,
+      "rank": 6,
       "metrics": {
-        "views": 9676804,
-        "likes": 2549,
-        "retweets": 511,
-        "bookmarks": 183
+        "views": 9772116,
+        "likes": 2491,
+        "retweets": 501,
+        "bookmarks": 184
+      }
+    },
+    {
+      "id": "2028478546122014876",
+      "title": "今期の市長退職金を不支給としました",
+      "url": "https://x.com/TakashimaR_2023/status/2028478546122014876",
+      "author": "@TakashimaR_2023",
+      "authorName": "高島りょうすけ｜芦屋市長",
+      "description": "今期の市長の任期満了時に支給される予定だった退職手当、約2300万円を私に支給しない（受け取らない）ことにしました。本日の市議会本会議で条例改正案を全会一致で可決いただき、正式決定です。",
+      "date": "2026-03-02T14:32:27.000Z",
+      "engagement": "9.5M views · 7.6K likes",
+      "category": "Politics",
+      "wordCount": 1772,
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 7,
+      "metrics": {
+        "views": 9526264,
+        "likes": 7623,
+        "retweets": 470,
+        "bookmarks": 595
       }
     },
     {
@@ -122,12 +164,12 @@
       "wordCount": 124,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 6,
+      "rank": 8,
       "metrics": {
-        "views": 9157751,
+        "views": 9160929,
         "likes": 5845,
         "retweets": 41,
-        "bookmarks": 574
+        "bookmarks": 569
       }
     },
     {
@@ -143,96 +185,33 @@
       "wordCount": 763,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 7,
-      "metrics": {
-        "views": 8728240,
-        "likes": 10500,
-        "retweets": 876,
-        "bookmarks": 11813
-      }
-    },
-    {
-      "id": "2026490092265812039",
-      "title": "20代のサボりは、あとでバカ高い利子がつくらしい",
-      "url": "https://x.com/hiyoko_hosa/status/2026490092265812039",
-      "author": "@hiyoko_hosa",
-      "authorName": "ひよこ補佐",
-      "description": "毎日定時ダッシュで、土日はスマホ見てゴロゴロ。\n「プライベート優先なんで」って言うのがカッコいい。\n\n SNSを見れば「無理しないで自分を大切に」って優しい言葉ばっかり流れてくるし。",
-      "date": "2026-02-25T02:51:03.000Z",
-      "engagement": "8.3M views · 4.3K likes",
-      "category": "Self Help",
-      "wordCount": 817,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 8,
-      "metrics": {
-        "views": 8342884,
-        "likes": 4335,
-        "retweets": 398,
-        "bookmarks": 3331
-      }
-    },
-    {
-      "id": "2028051118736179587",
-      "title": "頭蓋骨と自律神経系とテンセグリティの関係 ｜ 顔がゆるむと全身がゆるむ理由",
-      "url": "https://x.com/ninnikinene/status/2028051118736179587",
-      "author": "@ninnikinene",
-      "authorName": "仁木洸平🌲｜NIKI Kohei｜@MTR Method Lab®︎",
-      "description": "「心の問題」を「張力構造の問題」としてみる視点を変えた場合。\nうつや不眠が単なる心の弱さではなく、“頭の構造が疲弊しているサイン”としてみえる可能性もあるのではないでしょうか??",
-      "date": "2026-03-01T10:14:00.000Z",
-      "engagement": "7.9M views · 1.2K likes",
-      "category": "Health",
-      "wordCount": 512,
-      "readingTime": 1,
-      "lang": "ja",
       "rank": 9,
       "metrics": {
-        "views": 7864584,
-        "likes": 1156,
-        "retweets": 92,
-        "bookmarks": 2113
+        "views": 8746149,
+        "likes": 10475,
+        "retweets": 873,
+        "bookmarks": 11771
       }
     },
     {
-      "id": "2028064785162719440",
-      "title": "30日間毎朝5時起きしたら何が起きるのか",
-      "url": "https://x.com/cozeblog/status/2028064785162719440",
-      "author": "@cozeblog",
-      "authorName": "こーずぶろぐ",
-      "description": "「早起きすれば人生変わる」\n（I Woke Up At 5AM For 30 Days Straight 要約）\n実際に30日間、毎朝5時に起き続けた結果から見えたのは\n“早起き＝根性論”ではなく\n 生活と脳の仕組みの話でした。",
-      "date": "2026-03-01T11:08:19.000Z",
-      "engagement": "7.8M views · 7.0K likes",
-      "category": "Self Help",
-      "wordCount": 655,
-      "readingTime": 2,
-      "lang": "ja",
+      "id": "2028923492125819287",
+      "title": "Highguard’s final update arriving soon. Thank you for playing with us.",
+      "url": "https://x.com/PlayHighguard/status/2028923492125819287",
+      "author": "@PlayHighguard",
+      "authorName": "Highguard",
+      "description": "Today we’re sharing difficult news. We have made the decision to permanently shut down Highguard on March 12.\nSince launch, more than 2 million players stepped into Highguard’s world. You shared",
+      "date": "2026-03-03T20:00:30.000Z",
+      "engagement": "7.8M views · 16.9K likes",
+      "category": "Entertainment",
+      "wordCount": 175,
+      "readingTime": 1,
+      "lang": "en",
       "rank": 10,
       "metrics": {
-        "views": 7805967,
-        "likes": 7025,
-        "retweets": 418,
-        "bookmarks": 6386
-      }
-    },
-    {
-      "id": "2026613210523058553",
-      "title": "女は「こんなの初めて」で沼り、 男は「この子自慢したい」で沼る。",
-      "url": "https://x.com/dekiai114/status/2026613210523058553",
-      "author": "@dekiai114",
-      "authorName": "なにわちゃん",
-      "description": "男は「優越感」で沼る。\n・隣に連れて歩きたい…\n・友達にはよ紹介したい…\nみたいに「オレのスペックあがるやん」\nって女子に男は深く沼る。\n\n\n男ってな、「プライドの塊」なんよ。",
-      "date": "2026-02-25T11:00:16.000Z",
-      "engagement": "7.4M views · 2.4K likes",
-      "category": "Lifestyle",
-      "wordCount": 406,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 11,
-      "metrics": {
-        "views": 7430674,
-        "likes": 2422,
-        "retweets": 153,
-        "bookmarks": 1966
+        "views": 7783921,
+        "likes": 16874,
+        "retweets": 1370,
+        "bookmarks": 2598
       }
     },
     {
@@ -243,38 +222,38 @@
       "authorName": "Zack Shapiro",
       "description": "How I Actually Practice Law with AI in 2026\nA few months ago, the night before a client’s acquisition was set to close, the buyer’s counsel sent a letter demanding that several key deal terms be",
       "date": "2026-02-27T14:26:54.000Z",
-      "engagement": "7.2M views · 7.5K likes",
+      "engagement": "7.6M views · 7.8K likes",
       "category": "Ai",
       "wordCount": 3607,
       "readingTime": 14,
       "lang": "en",
-      "rank": 12,
+      "rank": 11,
       "metrics": {
-        "views": 7211319,
-        "likes": 7510,
-        "retweets": 1070,
-        "bookmarks": 21207
+        "views": 7589562,
+        "likes": 7773,
+        "retweets": 1112,
+        "bookmarks": 21680
       }
     },
     {
-      "id": "2026736314272591924",
-      "title": "The third era of AI software development",
-      "url": "https://x.com/mntruell/status/2026736314272591924",
-      "author": "@mntruell",
-      "authorName": "Michael Truell",
-      "description": "When we started building Cursor a few years ago, most code was written one keystroke at a time. Tab autocomplete changed that and opened the first era of AI-assisted coding.\nThen agents arrived, and",
-      "date": "2026-02-25T19:09:26.000Z",
-      "engagement": "6.8M views · 9.5K likes",
-      "category": "Ai",
-      "wordCount": 636,
-      "readingTime": 3,
-      "lang": "en",
-      "rank": 13,
+      "id": "2028061386203427018",
+      "title": "わずか30日でフランス語を流暢にした語学習得法",
+      "url": "https://x.com/cozeblog/status/2028061386203427018",
+      "author": "@cozeblog",
+      "authorName": "こーずぶろぐ",
+      "description": "30日で“別人レベル”まで語学力を引き上げる方法\n結論から言うと、\n語学の伸びは「才能」ではなく\n 接触時間 × 密度 でほぼ決まります。\n伸びない人は能力が低いのではなく、",
+      "date": "2026-03-01T10:54:48.000Z",
+      "engagement": "7.1M views · 13.3K likes",
+      "category": "Self Help",
+      "wordCount": 676,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 12,
       "metrics": {
-        "views": 6828615,
-        "likes": 9539,
-        "retweets": 1223,
-        "bookmarks": 24466
+        "views": 7092329,
+        "likes": 13276,
+        "retweets": 1286,
+        "bookmarks": 19318
       }
     },
     {
@@ -290,33 +269,12 @@
       "wordCount": 1939,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 14,
+      "rank": 13,
       "metrics": {
-        "views": 6727894,
-        "likes": 6484,
-        "retweets": 624,
-        "bookmarks": 1968
-      }
-    },
-    {
-      "id": "2026235132668268839",
-      "title": "株で絶対やっちゃいけないこと。",
-      "url": "https://x.com/papagiitax/status/2026235132668268839",
-      "author": "@papagiitax",
-      "authorName": "ギータ@-2400万円",
-      "description": "メタプラネット株で大事なお金、9000万円を1000万円にしちゃいました〜⭐︎\n\n信用買いにて3500万円を損切りで失い\n現物の評価額減でマイナス4500万\nでピーク時より計8000万円の資産を失ったことになりますね。",
-      "date": "2026-02-24T09:57:55.000Z",
-      "engagement": "6.6M views · 5.2K likes",
-      "category": "Lifestyle",
-      "wordCount": 1955,
-      "readingTime": 5,
-      "lang": "ja",
-      "rank": 15,
-      "metrics": {
-        "views": 6596971,
-        "likes": 5181,
-        "retweets": 552,
-        "bookmarks": 2863
+        "views": 6742126,
+        "likes": 6485,
+        "retweets": 623,
+        "bookmarks": 1956
       }
     },
     {
@@ -327,143 +285,17 @@
       "authorName": "roro",
       "description": "사회초년생 여성의 돈은 세상 사람들이 공공재라고 생각하는 경우가 많습니다. 경험이 적고 사회 시스템에 대해 잘 모를 것이라고 생각해서인지 떠보려고 하는 사람들이 많은데요. 그래서 실제로 어떤 방식으로 돈을",
       "date": "2026-03-01T04:48:10.000Z",
-      "engagement": "6.5M views · 19.1K likes",
+      "engagement": "6.7M views · 19.3K likes",
       "category": "Lifestyle",
       "wordCount": 202,
       "readingTime": 1,
       "lang": "ko",
-      "rank": 16,
+      "rank": 14,
       "metrics": {
-        "views": 6459000,
-        "likes": 19118,
-        "retweets": 5614,
-        "bookmarks": 16146
-      }
-    },
-    {
-      "id": "2026143724019851401",
-      "title": "人前で緊張せずに話すコツ",
-      "url": "https://x.com/hiro_takai/status/2026143724019851401",
-      "author": "@hiro_takai",
-      "authorName": "高井宏章",
-      "description": "世の中には「人前で話すのは苦手」という人がいる。\nなのに「どうしても」という場面がありますよね。\n\n私はよく人前でしゃべるし、あまり苦にもなりません。",
-      "date": "2026-02-24T03:54:42.000Z",
-      "engagement": "6.3M views · 5.8K likes",
-      "category": "Self Help",
-      "wordCount": 829,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 17,
-      "metrics": {
-        "views": 6282460,
-        "likes": 5752,
-        "retweets": 349,
-        "bookmarks": 6065
-      }
-    },
-    {
-      "id": "2026421155150844223",
-      "title": "マネージャーの評価基準（シート・動画付き）",
-      "url": "https://x.com/meiku_shiba/status/2026421155150844223",
-      "author": "@meiku_shiba",
-      "authorName": "長村禎庸｜EVeM（イーブン）",
-      "description": "はじめに\nマネージャーを評価する基準というのはありそうでないなと感じていました。",
-      "date": "2026-02-24T22:17:07.000Z",
-      "engagement": "6.3M views · 13.5K likes",
-      "category": "Business",
-      "wordCount": 2567,
-      "readingTime": 7,
-      "lang": "ja",
-      "rank": 18,
-      "metrics": {
-        "views": 6261168,
-        "likes": 13496,
-        "retweets": 1281,
-        "bookmarks": 23650
-      }
-    },
-    {
-      "id": "2026757796390449382",
-      "title": "The 10am Drop: How Jane Street Broke Bitcoin's Price",
-      "url": "https://x.com/1914ad/status/2026757796390449382",
-      "author": "@1914ad",
-      "authorName": "Justin Bechler #BIP-110",
-      "description": "Bitcoin should be at least $150,000 right now and everyone knows it.\nYesterday, a federal lawsuit was filed in Manhattan that explains exactly why it isn't.\nLet's connect three threads for the first",
-      "date": "2026-02-25T20:34:48.000Z",
-      "engagement": "6.2M views · 11.6K likes",
-      "category": "Crypto",
-      "wordCount": 1701,
-      "readingTime": 7,
-      "lang": "en",
-      "rank": 19,
-      "metrics": {
-        "views": 6188119,
-        "likes": 11616,
-        "retweets": 2371,
-        "bookmarks": 10934
-      }
-    },
-    {
-      "id": "2026125293149163694",
-      "title": "It's Too Obvious. What If AI Doesn't Actually End The World?",
-      "url": "https://x.com/KobeissiLetter/status/2026125293149163694",
-      "author": "@KobeissiLetter",
-      "authorName": "The Kobeissi Letter",
-      "description": "The stock market just erased -$800 BILLION in market cap because AI \"taking over the world\" is becoming the consensus view. That view is too obvious. And the \"obvious\" trade never actually wins.\nThe",
-      "date": "2026-02-24T02:41:28.000Z",
-      "engagement": "6.2M views · 8.9K likes",
-      "category": "Ai",
-      "wordCount": 2004,
-      "readingTime": 8,
-      "lang": "en",
-      "rank": 20,
-      "metrics": {
-        "views": 6185269,
-        "likes": 8914,
-        "retweets": 1259,
-        "bookmarks": 18256
-      }
-    },
-    {
-      "id": "2026630111349682250",
-      "title": "疲れてる人ほど読んでほしい。ワシントン州立大学も発表した旅行と人生満足度の関係。",
-      "url": "https://x.com/masahiro_h1209/status/2026630111349682250",
-      "author": "@masahiro_h1209",
-      "authorName": "まさひろ丨堀江理宏",
-      "description": "最近、なんとなく疲れている。\n休みはあるのに回復しない。\n\n気分転換したほうがいいのは分かるけど、旅行に行く元気まではない。\nこういう時、ありますよね。\n僕自身、旅行が大好きです。",
-      "date": "2026-02-25T12:07:26.000Z",
-      "engagement": "6.1M views · 6.1K likes",
-      "category": "Lifestyle",
-      "wordCount": 1437,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 21,
-      "metrics": {
-        "views": 6115527,
-        "likes": 6145,
-        "retweets": 811,
-        "bookmarks": 5765
-      }
-    },
-    {
-      "id": "2026228180642931049",
-      "title": "頭の良さは、顔に出る",
-      "url": "https://x.com/naikoutetsugaku/status/2026228180642931049",
-      "author": "@naikoutetsugaku",
-      "authorName": "内向哲学",
-      "description": "頭の良さは顔に出ると思ってます。\nもっと正確に言えば「表情」に出ます。\n\n頭がいい人の顔つきの特徴は「穏やか」です。\n内省的で、落ち着いていて、変に感情的じゃない。",
-      "date": "2026-02-24T09:30:18.000Z",
-      "engagement": "5.9M views · 2.8K likes",
-      "category": "Self Help",
-      "wordCount": 418,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 22,
-      "metrics": {
-        "views": 5909338,
-        "likes": 2843,
-        "retweets": 204,
-        "bookmarks": 1863
+        "views": 6700861,
+        "likes": 19297,
+        "retweets": 5674,
+        "bookmarks": 16230
       }
     },
     {
@@ -474,17 +306,101 @@
       "authorName": "Commentary Donald J. Trump Posts From Truth Social",
       "description": "🚨New Trump Post, Poll & Video Below - 03.01.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti @TrumpDailyPosts 3.01.26\nPresident Trump just sank Iran's",
       "date": "2026-03-01T17:57:28.000Z",
-      "engagement": "5.8M views · 2.2K likes",
+      "engagement": "6.3M views · 2.3K likes",
       "category": "Wtf",
       "wordCount": 914,
       "readingTime": 4,
       "lang": "en",
-      "rank": 23,
+      "rank": 15,
       "metrics": {
-        "views": 5813010,
-        "likes": 2237,
-        "retweets": 202,
-        "bookmarks": 423
+        "views": 6266586,
+        "likes": 2259,
+        "retweets": 207,
+        "bookmarks": 428
+      }
+    },
+    {
+      "id": "2028934740116676836",
+      "title": "TRUMP Makes Iran Order \"Effective Immediately\" ",
+      "url": "https://x.com/TrumpDailyPosts/status/2028934740116676836",
+      "author": "@TrumpDailyPosts",
+      "authorName": "Commentary Donald J. Trump Posts From Truth Social",
+      "description": "🚨New Trump Post & Complete Information Below - 03.03.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti @TrumpDailyPosts 3.03.26\nTrump secures Gulf",
+      "date": "2026-03-03T20:45:12.000Z",
+      "engagement": "6.0M views · 2.0K likes",
+      "category": "Politics",
+      "wordCount": 882,
+      "readingTime": 4,
+      "lang": "en",
+      "rank": 16,
+      "metrics": {
+        "views": 6006423,
+        "likes": 1988,
+        "retweets": 262,
+        "bookmarks": 518
+      }
+    },
+    {
+      "id": "2028289494903103686",
+      "title": "セクハラ冤罪騒動のすべて",
+      "url": "https://x.com/maochil/status/2028289494903103686",
+      "author": "@maochil",
+      "authorName": "山田真央｜ダイニー",
+      "description": "0. この記事を書く理由\n冤罪の騒動以後、私生活でかなりの支障が出てきました。",
+      "date": "2026-03-02T02:01:14.000Z",
+      "engagement": "5.9M views · 3.3K likes",
+      "category": "Wtf",
+      "wordCount": 6650,
+      "readingTime": 17,
+      "lang": "ja",
+      "rank": 17,
+      "metrics": {
+        "views": 5948680,
+        "likes": 3315,
+        "retweets": 566,
+        "bookmarks": 1924
+      }
+    },
+    {
+      "id": "2028731732510621906",
+      "title": "「すみません、少し遅れます」この一言がもたらす信用残高の大暴落",
+      "url": "https://x.com/Via00Via/status/2028731732510621906",
+      "author": "@Via00Via",
+      "authorName": "VIA",
+      "description": "「すみません、少し遅れます...」\n何気ない一言ですが、この“少し”が信用残高を削っていることに気づいている人は多くありません。\n遅れること自体が問題なのではなく“曖昧にすること”が問題です。",
+      "date": "2026-03-03T07:18:31.000Z",
+      "engagement": "5.7M views · 942 likes",
+      "category": "Self Help",
+      "wordCount": 479,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 18,
+      "metrics": {
+        "views": 5712551,
+        "likes": 942,
+        "retweets": 71,
+        "bookmarks": 776
+      }
+    },
+    {
+      "id": "2028613683832598802",
+      "title": "You Died Last Night and the Person Reading This Is Not Who Went to Sleep",
+      "url": "https://x.com/JIMMYEDGAR/status/2028613683832598802",
+      "author": "@JIMMYEDGAR",
+      "authorName": "jimmy",
+      "description": "I want to be very clear about something before I start. I am not being metaphorical. I am not being poetic. I am not using \"died\" as a figure of speech. I am telling you, with as much sincerity as I",
+      "date": "2026-03-02T23:29:26.000Z",
+      "engagement": "5.6M views · 10.3K likes",
+      "category": "Wtf",
+      "wordCount": 2097,
+      "readingTime": 8,
+      "lang": "en",
+      "rank": 19,
+      "metrics": {
+        "views": 5648413,
+        "likes": 10278,
+        "retweets": 1055,
+        "bookmarks": 19380
       }
     },
     {
@@ -495,38 +411,17 @@
       "authorName": "さんご@ビキニ日本一",
       "description": "記事の最後にAIにコピペ可能なカロリー計算プロンプト付き。\nフルタイムワーキングマザー。ビキニアスリート。3足の草鞋を履きながら有酸素ほぼ無しで−15kg。\n私がやったのは、「やらないこと」を決めること",
       "date": "2026-02-28T08:24:08.000Z",
-      "engagement": "5.3M views · 21.8K likes",
+      "engagement": "5.6M views · 22.1K likes",
       "category": "Health",
       "wordCount": 1487,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 24,
+      "rank": 20,
       "metrics": {
-        "views": 5307748,
-        "likes": 21823,
-        "retweets": 2261,
-        "bookmarks": 37251
-      }
-    },
-    {
-      "id": "2026937383913169255",
-      "title": "結局、Claudeって何ができるんだよ！全機能完全紹介【2026年最新版】",
-      "url": "https://x.com/ADHDHSP249834/status/2026937383913169255",
-      "author": "@ADHDHSP249834",
-      "authorName": "まな｜AI×コンテンツビジネスの極意",
-      "description": "結局、Claudeって何ができるんだよ！\nChatGPT、Gemini、Claude。\n2026年、AIを使ってない人はもうほぼいないと思います。\nでも、こんなこと思ってませんか？",
-      "date": "2026-02-26T08:28:25.000Z",
-      "engagement": "5.2M views · 14.4K likes",
-      "category": "Ai",
-      "wordCount": 8329,
-      "readingTime": 23,
-      "lang": "ja",
-      "rank": 25,
-      "metrics": {
-        "views": 5175528,
-        "likes": 14416,
-        "retweets": 1214,
-        "bookmarks": 32132
+        "views": 5593162,
+        "likes": 22116,
+        "retweets": 2303,
+        "bookmarks": 37651
       }
     },
     {
@@ -537,17 +432,59 @@
       "authorName": "Anime Updates",
       "description": "Shogakukan released a Second Official Statement amid public backlash regarding its handling of allegations of complicity, acknowledging its failure to properly address the child sexual abuse case",
       "date": "2026-02-28T19:35:26.000Z",
-      "engagement": "5.1M views · 790 likes",
+      "engagement": "5.3M views · 814 likes",
       "category": "News",
       "wordCount": 1508,
       "readingTime": 6,
       "lang": "en",
-      "rank": 26,
+      "rank": 21,
       "metrics": {
-        "views": 5141409,
-        "likes": 790,
-        "retweets": 200,
-        "bookmarks": 352
+        "views": 5285517,
+        "likes": 814,
+        "retweets": 208,
+        "bookmarks": 356
+      }
+    },
+    {
+      "id": "2028858539196690691",
+      "title": "President Trump's CONFLICT Playbook, An Investor's Step-by-Step Guide:",
+      "url": "https://x.com/KobeissiLetter/status/2028858539196690691",
+      "author": "@KobeissiLetter",
+      "authorName": "The Kobeissi Letter",
+      "description": "The Iran war is escalating. We have spent the last 12 months analyzing EVERY geopolitical conflict involving President Trump. What's coming next? Here is our CLEAR guide to what is coming next and",
+      "date": "2026-03-03T15:42:24.000Z",
+      "engagement": "5.3M views · 3.9K likes",
+      "category": "Politics",
+      "wordCount": 2962,
+      "readingTime": 12,
+      "lang": "en",
+      "rank": 22,
+      "metrics": {
+        "views": 5261684,
+        "likes": 3935,
+        "retweets": 646,
+        "bookmarks": 7664
+      }
+    },
+    {
+      "id": "2026937383913169255",
+      "title": "結局、Claudeって何ができるんだよ！全機能完全紹介【2026年最新版】",
+      "url": "https://x.com/ADHDHSP249834/status/2026937383913169255",
+      "author": "@ADHDHSP249834",
+      "authorName": "まな｜AI×コンテンツビジネスの極意",
+      "description": "結局、Claudeって何ができるんだよ！\nChatGPT、Gemini、Claude。\n2026年、AIを使ってない人はもうほぼいないと思います。\nでも、こんなこと思ってませんか？",
+      "date": "2026-02-26T08:28:25.000Z",
+      "engagement": "5.2M views · 14.5K likes",
+      "category": "Ai",
+      "wordCount": 8329,
+      "readingTime": 23,
+      "lang": "ja",
+      "rank": 23,
+      "metrics": {
+        "views": 5222555,
+        "likes": 14470,
+        "retweets": 1217,
+        "bookmarks": 32181
       }
     },
     {
@@ -563,12 +500,33 @@
       "wordCount": 2518,
       "readingTime": 6,
       "lang": "ja",
-      "rank": 27,
+      "rank": 24,
       "metrics": {
-        "views": 4997805,
-        "likes": 15707,
+        "views": 5014395,
+        "likes": 15708,
         "retweets": 3594,
-        "bookmarks": 14584
+        "bookmarks": 14561
+      }
+    },
+    {
+      "id": "2028598844481839335",
+      "title": "手取り25万以下の人が今月中に解約すべきもの全リスト",
+      "url": "https://x.com/career_koumei/status/2028598844481839335",
+      "author": "@career_koumei",
+      "authorName": "キャリア孔明",
+      "description": "手取り25万以下で「お金がない」と言っている人。\n本当にお金がないんじゃない。 毎月、気づかないうちに捨てている。\n給料が入って、家賃が引かれて、食費が出て、「あれ、もう残ってない」",
+      "date": "2026-03-02T22:30:28.000Z",
+      "engagement": "4.9M views · 6.8K likes",
+      "category": "Lifestyle",
+      "wordCount": 2361,
+      "readingTime": 6,
+      "lang": "ja",
+      "rank": 25,
+      "metrics": {
+        "views": 4900168,
+        "likes": 6801,
+        "retweets": 473,
+        "bookmarks": 9309
       }
     },
     {
@@ -579,38 +537,38 @@
       "authorName": "七武ななみ",
       "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/shichibu_nanami/\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなければ、終了しています。\n【自己紹介】\nプライベートカフェを\n現役を中退して1人でやっています！\n〚Anime",
       "date": "2026-02-27T23:04:06.000Z",
-      "engagement": "4.6M views · 1.6K likes",
+      "engagement": "4.7M views · 1.6K likes",
       "category": "Wtf",
       "wordCount": 89,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 28,
+      "rank": 26,
       "metrics": {
-        "views": 4610033,
-        "likes": 1633,
-        "retweets": 40,
-        "bookmarks": 1443
+        "views": 4655298,
+        "likes": 1636,
+        "retweets": 39,
+        "bookmarks": 1440
       }
     },
     {
-      "id": "2028289494903103686",
-      "title": "セクハラ冤罪騒動のすべて",
-      "url": "https://x.com/maochil/status/2028289494903103686",
-      "author": "@maochil",
-      "authorName": "山田真央｜ダイニー",
-      "description": "0. この記事を書く理由\n冤罪の騒動以後、私生活でかなりの支障が出てきました。",
-      "date": "2026-03-02T02:01:14.000Z",
-      "engagement": "4.3M views · 3.1K likes",
-      "category": "Wtf",
-      "wordCount": 6650,
-      "readingTime": 17,
-      "lang": "ja",
-      "rank": 29,
+      "id": "2028470330247803361",
+      "title": "Claude Cowork Masterclass for Beginners (full tutorial)",
+      "url": "https://x.com/coreyganim/status/2028470330247803361",
+      "author": "@coreyganim",
+      "authorName": "Corey Ganim",
+      "description": "Most people are still using Claude like a chatbot. Ask a question, get an answer, repeat.\nThat's leaving 90% of the value on the table.\nClaude Cowork turns Claude into an autonomous coworker who can",
+      "date": "2026-03-02T13:59:48.000Z",
+      "engagement": "4.5M views · 6.4K likes",
+      "category": "Ai",
+      "wordCount": 943,
+      "readingTime": 4,
+      "lang": "en",
+      "rank": 27,
       "metrics": {
-        "views": 4304305,
-        "likes": 3141,
-        "retweets": 542,
-        "bookmarks": 1842
+        "views": 4492775,
+        "likes": 6394,
+        "retweets": 822,
+        "bookmarks": 31214
       }
     },
     {
@@ -626,54 +584,12 @@
       "wordCount": 1246,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 30,
+      "rank": 28,
       "metrics": {
-        "views": 4294761,
-        "likes": 5382,
-        "retweets": 605,
-        "bookmarks": 5258
-      }
-    },
-    {
-      "id": "2026494582729617789",
-      "title": "厳正なる抽選を行った結果、残念ながら今回はチケットをご用意することができませんでした。",
-      "url": "https://x.com/b_kansou/status/2026494582729617789",
-      "author": "@b_kansou",
-      "authorName": "かんそう",
-      "description": "この度は抽選にお申し込みいただきありがとうございました。先般お申し込みいただきましたチケットにつきまして、\n厳正なる抽選を行った結果、残念ながら今回はチケットをご用意することができませんでした。",
-      "date": "2026-02-25T03:08:53.000Z",
-      "engagement": "4.1M views · 12.3K likes",
-      "category": "Other",
-      "wordCount": 1268,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 31,
-      "metrics": {
-        "views": 4125705,
-        "likes": 12262,
-        "retweets": 1944,
-        "bookmarks": 2901
-      }
-    },
-    {
-      "id": "2026308695399784913",
-      "title": "The Complete Guide: Claude for Excel",
-      "url": "https://x.com/ArmanHezarkhani/status/2026308695399784913",
-      "author": "@ArmanHezarkhani",
-      "authorName": "Arman Hezarkhani",
-      "description": "I've helped hundreds of companies through their AI transformation. The single most common question I get—from CFOs, ops leads, analysts, founders—is some version of the same thing:\n\"How do I automate",
-      "date": "2026-02-24T14:50:14.000Z",
-      "engagement": "4.0M views · 7.0K likes",
-      "category": "Ai",
-      "wordCount": 3030,
-      "readingTime": 12,
-      "lang": "en",
-      "rank": 32,
-      "metrics": {
-        "views": 3991896,
-        "likes": 6972,
-        "retweets": 1240,
-        "bookmarks": 21988
+        "views": 4308431,
+        "likes": 5371,
+        "retweets": 603,
+        "bookmarks": 5226
       }
     },
     {
@@ -684,38 +600,59 @@
       "authorName": "ゆーりんち @ゲームを作っています",
       "description": "Youtubeしかり、ゲーム開発しかり、noteしかり、色んな人がなにかコンテンツを作って発信するというケースが増えてきたと感じます。\nただ、始める人の数が増えればその分、辞める人の数も多いもの。",
       "date": "2026-02-28T12:10:52.000Z",
-      "engagement": "3.9M views · 6.6K likes",
+      "engagement": "4.0M views · 6.8K likes",
       "category": "Self Help",
       "wordCount": 591,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 33,
+      "rank": 29,
       "metrics": {
-        "views": 3914535,
-        "likes": 6643,
-        "retweets": 968,
-        "bookmarks": 7639
+        "views": 4006324,
+        "likes": 6760,
+        "retweets": 990,
+        "bookmarks": 7695
       }
     },
     {
-      "id": "2026114798283571308",
-      "title": "「多動の呪い」を凄まじい推進力に変える、才能の飼い慣らし方",
-      "url": "https://x.com/shinkaron/status/2026114798283571308",
-      "author": "@shinkaron",
-      "authorName": "規格外",
-      "description": "多動傾向を持つ人は、常に脳内で同時多発的に発生する思考の暴風に晒されている。",
-      "date": "2026-02-24T01:59:45.000Z",
-      "engagement": "3.9M views · 2.5K likes",
-      "category": "Self Help",
-      "wordCount": 431,
-      "readingTime": 1,
+      "id": "2027666793150767417",
+      "title": "Claude Coworkの始め方ガイド",
+      "url": "https://x.com/taichi_we/status/2027666793150767417",
+      "author": "@taichi_we",
+      "authorName": "長谷川｜Levela CTO",
+      "description": "あなたが休んでいる間に、AIが仕事してくれる\n2026年、AIをうまく使っている人たちは 「すごいプロンプト」を書いている人ではありません。\n本当に差がついているのは、 AIと一緒に働く「仕組み」を作った人です。",
+      "date": "2026-02-28T08:46:50.000Z",
+      "engagement": "3.9M views · 7.4K likes",
+      "category": "Ai",
+      "wordCount": 1894,
+      "readingTime": 5,
       "lang": "ja",
-      "rank": 34,
+      "rank": 30,
       "metrics": {
-        "views": 3879023,
-        "likes": 2536,
-        "retweets": 234,
-        "bookmarks": 3666
+        "views": 3854460,
+        "likes": 7423,
+        "retweets": 598,
+        "bookmarks": 18325
+      }
+    },
+    {
+      "id": "2028594702791176310",
+      "title": "Amzonプライム会員の99％は特典を使いこなせていない",
+      "url": "https://x.com/hina_money35/status/2028594702791176310",
+      "author": "@hina_money35",
+      "authorName": "ひなパパ🐶",
+      "description": "みなさんは「Amazonプライム会員」ですか？\n\n月額600円、年間プランは年5,900円。他のサブスクと比べても比較的安いので、入ってる人も多いのでは？と思うけど、",
+      "date": "2026-03-02T22:14:01.000Z",
+      "engagement": "3.9M views · 3.0K likes",
+      "category": "Lifestyle",
+      "wordCount": 894,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 31,
+      "metrics": {
+        "views": 3853468,
+        "likes": 3047,
+        "retweets": 158,
+        "bookmarks": 4644
       }
     },
     {
@@ -731,12 +668,12 @@
       "wordCount": 82,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 35,
+      "rank": 32,
       "metrics": {
-        "views": 3839133,
-        "likes": 3025,
+        "views": 3839938,
+        "likes": 3027,
         "retweets": 38,
-        "bookmarks": 397
+        "bookmarks": 393
       }
     },
     {
@@ -752,12 +689,12 @@
       "wordCount": 464,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 36,
+      "rank": 33,
       "metrics": {
-        "views": 3754253,
-        "likes": 10276,
-        "retweets": 320,
-        "bookmarks": 8859
+        "views": 3799292,
+        "likes": 10261,
+        "retweets": 318,
+        "bookmarks": 8837
       }
     },
     {
@@ -773,75 +710,12 @@
       "wordCount": 1128,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 37,
+      "rank": 34,
       "metrics": {
-        "views": 3668313,
-        "likes": 7135,
-        "retweets": 871,
-        "bookmarks": 10015
-      }
-    },
-    {
-      "id": "2026215490062897241",
-      "title": "教你如何配置小火箭规则，防止裸奔",
-      "url": "https://x.com/bozhou_ai/status/2026215490062897241",
-      "author": "@bozhou_ai",
-      "authorName": "泊舟",
-      "description": "上个月我一个朋友找我，说他推特账号被封了。\n他很郁闷，说自己就正常刷刷推特，看看新闻，怎么就被封了呢？\n我让他把小火箭的配置发给我看了一下，马上就明白了。他根本没配置规则，所有流量都在乱走。",
-      "date": "2026-02-24T08:39:52.000Z",
-      "engagement": "3.6M views · 4.5K likes",
-      "category": "Tech",
-      "wordCount": 2697,
-      "readingTime": 6,
-      "lang": "zh",
-      "rank": 38,
-      "metrics": {
-        "views": 3610512,
-        "likes": 4546,
-        "retweets": 875,
-        "bookmarks": 7765
-      }
-    },
-    {
-      "id": "2027666793150767417",
-      "title": "Claude Coworkの始め方ガイド",
-      "url": "https://x.com/taichi_we/status/2027666793150767417",
-      "author": "@taichi_we",
-      "authorName": "長谷川｜Levela CTO",
-      "description": "あなたが休んでいる間に、AIが仕事してくれる\n2026年、AIをうまく使っている人たちは 「すごいプロンプト」を書いている人ではありません。\n本当に差がついているのは、 AIと一緒に働く「仕組み」を作った人です。",
-      "date": "2026-02-28T08:46:50.000Z",
-      "engagement": "3.5M views · 7.1K likes",
-      "category": "Ai",
-      "wordCount": 1894,
-      "readingTime": 5,
-      "lang": "ja",
-      "rank": 39,
-      "metrics": {
-        "views": 3532259,
-        "likes": 7053,
-        "retweets": 575,
-        "bookmarks": 17471
-      }
-    },
-    {
-      "id": "2027463795355095314",
-      "title": "Lessons from Building Claude Code: Seeing like an Agent ",
-      "url": "https://x.com/trq212/status/2027463795355095314",
-      "author": "@trq212",
-      "authorName": "Thariq",
-      "description": "One of the hardest parts of building an agent harness is constructing its action space.\nClaude acts through Tool Calling, but there are a number of ways tools can be constructed in the Claude API with",
-      "date": "2026-02-27T19:20:11.000Z",
-      "engagement": "3.4M views · 9.5K likes",
-      "category": "Ai",
-      "wordCount": 1498,
-      "readingTime": 6,
-      "lang": "en",
-      "rank": 40,
-      "metrics": {
-        "views": 3449976,
-        "likes": 9487,
-        "retweets": 1116,
-        "bookmarks": 26108
+        "views": 3694125,
+        "likes": 7136,
+        "retweets": 867,
+        "bookmarks": 9981
       }
     },
     {
@@ -852,38 +726,59 @@
       "authorName": "gemchanger",
       "description": "This isn't a list of techniques.\nIt's a story - one that starts with a coin flip and ends with institutional-grade simulation engines.\nEach section builds on the last. Skip ahead and the math won't",
       "date": "2026-02-28T13:55:44.000Z",
-      "engagement": "3.4M views · 6.3K likes",
+      "engagement": "3.6M views · 6.5K likes",
       "category": "Ai",
       "wordCount": 1852,
       "readingTime": 7,
       "lang": "en",
-      "rank": 41,
+      "rank": 35,
       "metrics": {
-        "views": 3411642,
-        "likes": 6255,
-        "retweets": 647,
-        "bookmarks": 25745
+        "views": 3609223,
+        "likes": 6527,
+        "retweets": 713,
+        "bookmarks": 26422
       }
     },
     {
-      "id": "2026506754079785392",
-      "title": "【引退。】レ💥フ°事件アーカイブ配信中…",
-      "url": "https://x.com/oshoey/status/2026506754079785392",
-      "author": "@oshoey",
-      "authorName": "ららたん",
-      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nココ\n👆👆👆👆👆👆👆👆👆👆👆👆👆\nをタップで見れます\n※押せなかったら送信終了してます\n【経緯について🔻】\n \n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡",
-      "date": "2026-02-25T03:57:15.000Z",
-      "engagement": "3.4M views · 7.5K likes",
-      "category": "Wtf",
-      "wordCount": 390,
-      "readingTime": 1,
+      "id": "2029075711596925433",
+      "title": "パンツを脱がない性行為の幅が広ければ広いほどよい",
+      "url": "https://x.com/shimodamisaki/status/2029075711596925433",
+      "author": "@shimodamisaki",
+      "authorName": "下田美咲@エッセイスト",
+      "description": "キスやセックスだけが性行為の男はつまらない、と思う。\nいや、つまらないと言っても別に友達には全然なれるけど、男として見るなら、彼氏やら夫というひと枠に選ぶ人材としては、私なら物足りない。",
+      "date": "2026-03-04T06:05:22.000Z",
+      "engagement": "3.6M views · 6.8K likes",
+      "category": "Lifestyle",
+      "wordCount": 1746,
+      "readingTime": 5,
       "lang": "ja",
-      "rank": 42,
+      "rank": 36,
       "metrics": {
-        "views": 3396540,
-        "likes": 7464,
-        "retweets": 332,
-        "bookmarks": 6234
+        "views": 3576756,
+        "likes": 6794,
+        "retweets": 498,
+        "bookmarks": 4794
+      }
+    },
+    {
+      "id": "2027463795355095314",
+      "title": "Lessons from Building Claude Code: Seeing like an Agent ",
+      "url": "https://x.com/trq212/status/2027463795355095314",
+      "author": "@trq212",
+      "authorName": "Thariq",
+      "description": "One of the hardest parts of building an agent harness is constructing its action space.\nClaude acts through Tool Calling, but there are a number of ways tools can be constructed in the Claude API with",
+      "date": "2026-02-27T19:20:11.000Z",
+      "engagement": "3.5M views · 9.7K likes",
+      "category": "Ai",
+      "wordCount": 1498,
+      "readingTime": 6,
+      "lang": "en",
+      "rank": 37,
+      "metrics": {
+        "views": 3520593,
+        "likes": 9728,
+        "retweets": 1157,
+        "bookmarks": 26399
       }
     },
     {
@@ -899,12 +794,33 @@
       "wordCount": 1281,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 43,
+      "rank": 38,
       "metrics": {
-        "views": 3265505,
-        "likes": 2427,
-        "retweets": 202,
-        "bookmarks": 3499
+        "views": 3270153,
+        "likes": 2428,
+        "retweets": 201,
+        "bookmarks": 3488
+      }
+    },
+    {
+      "id": "2028904166895112617",
+      "title": "How I'd Become a Quant If I Had to Start Over Tomorrow",
+      "url": "https://x.com/gemchange_ltd/status/2028904166895112617",
+      "author": "@gemchange_ltd",
+      "authorName": "gemchanger",
+      "description": "In 2025, entry-level quants at top firms pulled $300K-$500K total comp.\nAI/ML hiring in finance grew 88% year-over-year.\nThis article is everything I wish someone had handed me when i started my path",
+      "date": "2026-03-03T18:43:43.000Z",
+      "engagement": "3.2M views · 7.4K likes",
+      "category": "Business",
+      "wordCount": 2585,
+      "readingTime": 10,
+      "lang": "en",
+      "rank": 39,
+      "metrics": {
+        "views": 3236224,
+        "likes": 7424,
+        "retweets": 642,
+        "bookmarks": 28888
       }
     },
     {
@@ -920,54 +836,33 @@
       "wordCount": 963,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 44,
+      "rank": 40,
       "metrics": {
-        "views": 3174254,
-        "likes": 3262,
-        "retweets": 512,
-        "bookmarks": 1543
+        "views": 3183116,
+        "likes": 3265,
+        "retweets": 511,
+        "bookmarks": 1535
       }
     },
     {
-      "id": "2026180848413036890",
-      "title": "【引退の報告】レ💥フ°事件について",
-      "url": "https://x.com/ami__231/status/2026180848413036890",
-      "author": "@ami__231",
-      "authorName": "乙葉らら🩵🤍",
-      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n【経緯について🔻】\n \n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡",
-      "date": "2026-02-24T06:22:13.000Z",
-      "engagement": "3.1M views · 8.0K likes",
-      "category": "Wtf",
-      "wordCount": 416,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 45,
-      "metrics": {
-        "views": 3126638,
-        "likes": 7951,
-        "retweets": 404,
-        "bookmarks": 6590
-      }
-    },
-    {
-      "id": "2026119311845441837",
-      "title": "鬱の回復を一番邪魔するのは、症状ではなく「お金の不安」だった。",
-      "url": "https://x.com/shibuya_tsuzuru/status/2026119311845441837",
-      "author": "@shibuya_tsuzuru",
-      "authorName": "渋谷 綴 | うつ病回復記🌾",
-      "description": "銀行口座の残高が、今月も1万円を切った。 医師は「休みましょう」と言った。 休めない理由は、症状ではなかった、お金だ。\n \n休めと言われても\n銀行口座の残高が、\n1万円を切った。今月もだ...。",
-      "date": "2026-02-24T02:17:42.000Z",
-      "engagement": "3.1M views · 5.9K likes",
+      "id": "2028676460983328858",
+      "title": "鬱になり始めると、「暇だなあ」と思わなくなる",
+      "url": "https://x.com/tsumugi_utatabi/status/2028676460983328858",
+      "author": "@tsumugi_utatabi",
+      "authorName": "詩旅 紡",
+      "description": "「暇だなあ」と感じられなくなったとき、心はもう限界かもしれない。",
+      "date": "2026-03-03T03:38:53.000Z",
+      "engagement": "3.0M views · 2.6K likes",
       "category": "Health",
-      "wordCount": 1117,
-      "readingTime": 3,
+      "wordCount": 553,
+      "readingTime": 2,
       "lang": "ja",
-      "rank": 46,
+      "rank": 41,
       "metrics": {
-        "views": 3095679,
-        "likes": 5874,
-        "retweets": 1039,
-        "bookmarks": 4596
+        "views": 3047047,
+        "likes": 2612,
+        "retweets": 323,
+        "bookmarks": 1480
       }
     },
     {
@@ -983,54 +878,12 @@
       "wordCount": 58,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 47,
+      "rank": 42,
       "metrics": {
-        "views": 2851236,
+        "views": 2852479,
         "likes": 2574,
-        "retweets": 125,
-        "bookmarks": 375
-      }
-    },
-    {
-      "id": "2026590204874682580",
-      "title": "Here's your ultimate guide to conquering low libido (as a man).",
-      "url": "https://x.com/Helios_Movement/status/2026590204874682580",
-      "author": "@Helios_Movement",
-      "authorName": "George Ferman",
-      "description": "It's George.\nYes, this guide will massively help you resolve this issue but most of you shouldn't click on this. \nYou won't read it. It will be \"too long\", you will want a \"tldr\", you will want a",
-      "date": "2026-02-25T09:28:51.000Z",
-      "engagement": "2.8M views · 719 likes",
-      "category": "Health",
-      "wordCount": 11013,
-      "readingTime": 44,
-      "lang": "en",
-      "rank": 48,
-      "metrics": {
-        "views": 2800706,
-        "likes": 719,
-        "retweets": 49,
-        "bookmarks": 3042
-      }
-    },
-    {
-      "id": "2026366781984588177",
-      "title": "How to Secretarymaxx Your Girl",
-      "url": "https://x.com/rawknuckle/status/2026366781984588177",
-      "author": "@rawknuckle",
-      "authorName": "RAW",
-      "description": "Your girl is bored out of her mind and it’s all your fault. She follows orders from her boss five days a week but the man she actually loves won’t give her a single task. Most guys are out here doing",
-      "date": "2026-02-24T18:41:03.000Z",
-      "engagement": "2.8M views · 11.8K likes",
-      "category": "Wtf",
-      "wordCount": 2172,
-      "readingTime": 9,
-      "lang": "en",
-      "rank": 49,
-      "metrics": {
-        "views": 2781324,
-        "likes": 11770,
-        "retweets": 565,
-        "bookmarks": 21645
+        "retweets": 124,
+        "bookmarks": 374
       }
     },
     {
@@ -1041,17 +894,17 @@
       "authorName": "藤田シオン💙Shion Fujita",
       "description": "わたくしは、セルフネグレクトが酷かった。\n自炊なんて年に3回しかしないし、仕事以外の、切り売りしない部分のすべては無意味だと思っていた。",
       "date": "2026-02-28T06:16:30.000Z",
-      "engagement": "2.8M views · 10.3K likes",
+      "engagement": "2.8M views · 10.4K likes",
       "category": "Self Help",
       "wordCount": 1314,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 50,
+      "rank": 43,
       "metrics": {
-        "views": 2778792,
-        "likes": 10335,
-        "retweets": 1061,
-        "bookmarks": 4239
+        "views": 2805460,
+        "likes": 10448,
+        "retweets": 1081,
+        "bookmarks": 4241
       }
     },
     {
@@ -1067,12 +920,54 @@
       "wordCount": 592,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 51,
+      "rank": 44,
       "metrics": {
-        "views": 2754927,
-        "likes": 1542,
+        "views": 2764940,
+        "likes": 1540,
         "retweets": 136,
-        "bookmarks": 923
+        "bookmarks": 912
+      }
+    },
+    {
+      "id": "2029032869738496135",
+      "title": "NotebookLMの全機能を、本気で全部書く。【2026年完全版】",
+      "url": "https://x.com/ai_jitan/status/2029032869738496135",
+      "author": "@ai_jitan",
+      "authorName": "えーたん/AI×時短で仕事効率化",
+      "description": "これは、NotebookLMの「すべて」を1本にまとめた記事です。\n断言します。2026年現在、ビジネスパーソンが最も使い倒すべきAIツールはNotebookLMです。",
+      "date": "2026-03-04T03:15:08.000Z",
+      "engagement": "2.7M views · 7.6K likes",
+      "category": "Ai",
+      "wordCount": 13143,
+      "readingTime": 35,
+      "lang": "ja",
+      "rank": 45,
+      "metrics": {
+        "views": 2728940,
+        "likes": 7643,
+        "retweets": 711,
+        "bookmarks": 18533
+      }
+    },
+    {
+      "id": "2028752028021719079",
+      "title": "月収5万から1,000万まで全部経験した僕のリアルな生活の変化",
+      "url": "https://x.com/Xxx_note_xx/status/2028752028021719079",
+      "author": "@Xxx_note_xx",
+      "authorName": "らっこ | noteで2億円🦦",
+      "description": "月収が上がると、生活はどう変わるのか。 気になる人、多いと思います。",
+      "date": "2026-03-03T08:39:10.000Z",
+      "engagement": "2.5M views · 1.1K likes",
+      "category": "Self Help",
+      "wordCount": 1913,
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 46,
+      "metrics": {
+        "views": 2538908,
+        "likes": 1108,
+        "retweets": 49,
+        "bookmarks": 1061
       }
     },
     {
@@ -1088,12 +983,12 @@
       "wordCount": 1141,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 52,
+      "rank": 47,
       "metrics": {
-        "views": 2484906,
-        "likes": 3216,
-        "retweets": 263,
-        "bookmarks": 3529
+        "views": 2517428,
+        "likes": 3238,
+        "retweets": 266,
+        "bookmarks": 3534
       }
     },
     {
@@ -1109,33 +1004,33 @@
       "wordCount": 1056,
       "readingTime": 4,
       "lang": "en",
-      "rank": 53,
+      "rank": 48,
       "metrics": {
-        "views": 2451285,
-        "likes": 1672,
+        "views": 2454561,
+        "likes": 1670,
         "retweets": 172,
         "bookmarks": 163
       }
     },
     {
-      "id": "2026174798733447557",
-      "title": "インプレゾンビさんから見たインプレゾンビの根絶方法",
-      "url": "https://x.com/masayasan201911/status/2026174798733447557",
-      "author": "@masayasan201911",
-      "authorName": "ูุุุุุุุุุุุุุุุุุุ𐬯𐬀𐬠𐬀𐬔𐬎𐬠𐬛 𐬰𐬀𐬥𐬌𐬐𐬀🦋",
-      "description": "こんにちは、インプレゾンビです。\n\nインプレゾンビをするにあたり、日本は最高の場所です。なぜなら、日本Xでインプレゾンビにとってメリットがたくさんあるからなんです。",
-      "date": "2026-02-24T05:58:11.000Z",
-      "engagement": "2.4M views · 11.3K likes",
-      "category": "Wtf",
-      "wordCount": 954,
-      "readingTime": 2,
+      "id": "2028435707736592416",
+      "title": "本を読みに、空港に行く",
+      "url": "https://x.com/onyorogramer/status/2028435707736592416",
+      "author": "@onyorogramer",
+      "authorName": "onyoro",
+      "description": "　何度か空港に行ったことがあるけれど、実は飛行機に乗ったのはそのうち１往復だけで、じゃああとは何をしに行ったのかと聞かれれば、「本を読みに行った」とか「考え事をしに行った」になると思う。",
+      "date": "2026-03-02T11:42:13.000Z",
+      "engagement": "2.4M views · 5.4K likes",
+      "category": "Lifestyle",
+      "wordCount": 973,
+      "readingTime": 3,
       "lang": "ja",
-      "rank": 54,
+      "rank": 49,
       "metrics": {
-        "views": 2372505,
-        "likes": 11319,
-        "retweets": 3269,
-        "bookmarks": 3889
+        "views": 2372342,
+        "likes": 5441,
+        "retweets": 409,
+        "bookmarks": 3366
       }
     },
     {
@@ -1146,17 +1041,38 @@
       "authorName": "jacob",
       "description": "most people hear \"ai agent\" and think, oh cool, it sends my emails for me.\nno. stop.\ni'm going to show you how we built a content engine that clips, scripts, and distributes pop culture content across",
       "date": "2026-02-28T18:40:40.000Z",
-      "engagement": "2.3M views · 3.0K likes",
+      "engagement": "2.4M views · 3.0K likes",
       "category": "Ai",
       "wordCount": 1124,
       "readingTime": 4,
       "lang": "en",
-      "rank": 55,
+      "rank": 50,
       "metrics": {
-        "views": 2331123,
-        "likes": 2991,
+        "views": 2361855,
+        "likes": 2998,
         "retweets": 173,
-        "bookmarks": 14032
+        "bookmarks": 13974
+      }
+    },
+    {
+      "id": "2027759832523051263",
+      "title": "Claude Cowork: The Definitive Setup Guide",
+      "url": "https://x.com/witcheer/status/2027759832523051263",
+      "author": "@witcheer",
+      "authorName": "witcheer ☯︎",
+      "description": "What Cowork Actually Is\nCowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step",
+      "date": "2026-02-28T14:56:32.000Z",
+      "engagement": "2.3M views · 3.3K likes",
+      "category": "Ai",
+      "wordCount": 1586,
+      "readingTime": 6,
+      "lang": "en",
+      "rank": 51,
+      "metrics": {
+        "views": 2344350,
+        "likes": 3299,
+        "retweets": 273,
+        "bookmarks": 16010
       }
     },
     {
@@ -1172,54 +1088,54 @@
       "wordCount": 891,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 56,
+      "rank": 52,
       "metrics": {
-        "views": 2326910,
-        "likes": 1233,
-        "retweets": 103,
-        "bookmarks": 1137
+        "views": 2328918,
+        "likes": 1229,
+        "retweets": 101,
+        "bookmarks": 1133
       }
     },
     {
-      "id": "2026794408235130881",
-      "title": "🤱全裸Lパイ包み授乳ムービー公開中🤱",
-      "url": "https://x.com/SmithAyue36077/status/2026794408235130881",
-      "author": "@SmithAyue36077",
-      "authorName": "七武ななみ",
-      "description": "【ココ】をタップするとすぐに見れます。\n誰でも見れますが、すぐに非公開に\nするのでお早めに💦\n \n \n \n【自己紹介】\nプライベートカフェを\n現役を中退して1人でやっています！\n〚Anime",
-      "date": "2026-02-25T23:00:17.000Z",
-      "engagement": "2.3M views · 2.0K likes",
-      "category": "Wtf",
-      "wordCount": 102,
+      "id": "2028761749059780823",
+      "title": "頭脳の深さは顔に出る、頭脳の浅さも顔に出る",
+      "url": "https://x.com/yumaevo/status/2028761749059780823",
+      "author": "@yumaevo",
+      "authorName": "yuma@内向哲学",
+      "description": "頭の良さは顔に出ると思ってます。\nもっと正確に言えば「表情」に出ます。\n\n頭がいい人の顔つきの特徴は「穏やか」です。\n内省的で、落ち着いていて、変に感情的じゃない。",
+      "date": "2026-03-03T09:17:48.000Z",
+      "engagement": "2.3M views · 827 likes",
+      "category": "Self Help",
+      "wordCount": 418,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 57,
+      "rank": 53,
       "metrics": {
-        "views": 2252733,
-        "likes": 1993,
-        "retweets": 49,
-        "bookmarks": 1414
+        "views": 2271327,
+        "likes": 827,
+        "retweets": 76,
+        "bookmarks": 631
       }
     },
     {
-      "id": "2027759832523051263",
-      "title": "Claude Cowork: The Definitive Setup Guide",
-      "url": "https://x.com/witcheer/status/2027759832523051263",
-      "author": "@witcheer",
-      "authorName": "witcheer ☯︎",
-      "description": "What Cowork Actually Is\nCowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step",
-      "date": "2026-02-28T14:56:32.000Z",
-      "engagement": "2.2M views · 3.2K likes",
-      "category": "Ai",
-      "wordCount": 1586,
-      "readingTime": 6,
+      "id": "2028789486734152029",
+      "title": "HOW TO 1000x YOUR LIFE ",
+      "url": "https://x.com/digiii/status/2028789486734152029",
+      "author": "@digiii",
+      "authorName": "Digi",
+      "description": "Have more fun. \nLet them be. \nBe delusionally optimistic. \n\nYou are \"locked in\" and losing, the guy who is winning is doing these three simple things.\nBOOKMARK THIS IF YOU WANT TO WIN. \n \nHAVE MORE",
+      "date": "2026-03-03T11:08:01.000Z",
+      "engagement": "2.2M views · 5.2K likes",
+      "category": "Self Help",
+      "wordCount": 677,
+      "readingTime": 3,
       "lang": "en",
-      "rank": 58,
+      "rank": 54,
       "metrics": {
-        "views": 2234921,
-        "likes": 3194,
-        "retweets": 265,
-        "bookmarks": 15575
+        "views": 2202623,
+        "likes": 5157,
+        "retweets": 504,
+        "bookmarks": 14410
       }
     },
     {
@@ -1230,80 +1146,17 @@
       "authorName": "はくくん🍌🩺",
       "description": "※さくっと。1分で読めます。\n\nこれは医学的にもすでにはっきりしていることですが、男性と女性では性欲の根本が全然違います。\n\nわかりやすく\n男女の性欲傾向ランキングBEST3を\n紹介しましょう。\n \n<男性>",
       "date": "2026-03-01T11:15:30.000Z",
-      "engagement": "2.2M views · 916 likes",
+      "engagement": "2.2M views · 915 likes",
       "category": "Lifestyle",
       "wordCount": 351,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 59,
+      "rank": 55,
       "metrics": {
-        "views": 2169753,
-        "likes": 916,
+        "views": 2188773,
+        "likes": 915,
         "retweets": 50,
-        "bookmarks": 1025
-      }
-    },
-    {
-      "id": "2026115170561556536",
-      "title": "英単語、ノートに書いて覚えようとしてる人。  その努力、かなり遠回りかもしれません。",
-      "url": "https://x.com/markenglish09/status/2026115170561556536",
-      "author": "@markenglish09",
-      "authorName": "マーク",
-      "description": "昔の私は完全にこのタイプでした。\n「書いて覚えるのが正解」だと信じて、\n単語帳を1語ずつノートに書き写してました。\n時間もかかるし、手も疲れるし、\n1ページ終わるころにはぐったり。\nでも書き終えた直後は、",
-      "date": "2026-02-24T02:01:14.000Z",
-      "engagement": "2.1M views · 1.1K likes",
-      "category": "Self Help",
-      "wordCount": 379,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 60,
-      "metrics": {
-        "views": 2056312,
-        "likes": 1096,
-        "retweets": 97,
-        "bookmarks": 1647
-      }
-    },
-    {
-      "id": "2026235176150581282",
-      "title": "OpenClaw 从新手到中级完整教程",
-      "url": "https://x.com/stark_nico99/status/2026235176150581282",
-      "author": "@stark_nico99",
-      "authorName": "Nicolechan",
-      "description": "最后更新： 2026 年 2 月\n📚 目录\n什么是 OpenClaw\n新手阶段：基础入门\n进阶阶段：实用技能\n中级阶段：高级应用\n实践任务清单\n常见问题解答\n学习资源\n什么是 OpenClaw\nOpenClaw（曾用名 ClawdBot/Moltbot）是 2026",
-      "date": "2026-02-24T09:58:06.000Z",
-      "engagement": "2.1M views · 7.4K likes",
-      "category": "Tech",
-      "wordCount": 3971,
-      "readingTime": 9,
-      "lang": "zh",
-      "rank": 61,
-      "metrics": {
-        "views": 2052807,
-        "likes": 7430,
-        "retweets": 2141,
-        "bookmarks": 12219
-      }
-    },
-    {
-      "id": "2026695587404591500",
-      "title": "【24時間限定】レ💥フ°事件アーカイブ配信中…",
-      "url": "https://x.com/ami__231/status/2026695587404591500",
-      "author": "@ami__231",
-      "authorName": "乙葉らら🩵🤍",
-      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜",
-      "date": "2026-02-25T16:27:36.000Z",
-      "engagement": "2.0M views · 4.0K likes",
-      "category": "Wtf",
-      "wordCount": 382,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 62,
-      "metrics": {
-        "views": 2008746,
-        "likes": 4041,
-        "retweets": 179,
-        "bookmarks": 3659
+        "bookmarks": 1022
       }
     },
     {
@@ -1319,75 +1172,12 @@
       "wordCount": 1129,
       "readingTime": 5,
       "lang": "en",
-      "rank": 63,
+      "rank": 56,
       "metrics": {
-        "views": 2003117,
-        "likes": 1329,
-        "retweets": 232,
-        "bookmarks": 131
-      }
-    },
-    {
-      "id": "2026300104504676798",
-      "title": "4 AI Side Hustles Paying $2,000-$12,000/Month (step-by-step guide)",
-      "url": "https://x.com/coreyganim/status/2026300104504676798",
-      "author": "@coreyganim",
-      "authorName": "Corey Ganim",
-      "description": "You probably saw the viral posts about how 84% of the world has never used AI.\nTalk to any business owner over 35 for five minutes. \nAsk them what Claude is. Watch the blank stare. \nThat gap between",
-      "date": "2026-02-24T14:16:06.000Z",
-      "engagement": "2.0M views · 3.6K likes",
-      "category": "Business",
-      "wordCount": 880,
-      "readingTime": 4,
-      "lang": "en",
-      "rank": 64,
-      "metrics": {
-        "views": 1952226,
-        "likes": 3650,
-        "retweets": 392,
-        "bookmarks": 15860
-      }
-    },
-    {
-      "id": "2027139558324699161",
-      "title": "🔥把百姓吓着了！中共高官这东西发网上了！ ",
-      "url": "https://x.com/zhihui999/status/2027139558324699161",
-      "author": "@zhihui999",
-      "authorName": "海外爆料",
-      "description": "近日，一张标注“郑拓彬”的退休待遇明细在网络流传，引发巨大震荡。截图显示，其职级为“正部级”。公开资料显示，郑拓彬曾任对外贸易经济合作部部长，属正部级高官。\n \n👇这份流出的1月份待遇单显示：",
-      "date": "2026-02-26T21:51:47.000Z",
-      "engagement": "1.9M views · 978 likes",
-      "category": "Politics",
-      "wordCount": 740,
-      "readingTime": 2,
-      "lang": "zh",
-      "rank": 65,
-      "metrics": {
-        "views": 1917261,
-        "likes": 978,
-        "retweets": 178,
-        "bookmarks": 584
-      }
-    },
-    {
-      "id": "2027808045946835050",
-      "title": "U.S. Forces Launch Operation Epic Fury",
-      "url": "https://x.com/CENTCOM/status/2027808045946835050",
-      "author": "@CENTCOM",
-      "authorName": "U.S. Central Command",
-      "description": "TAMPA, Fla. – U.S. Central Command (CENTCOM) commenced Operation Epic Fury, Feb. 28, at the direction of the President of the United States.\nU.S. and partner forces began striking targets at 1:15 am",
-      "date": "2026-02-28T18:08:07.000Z",
-      "engagement": "1.9M views · 14.1K likes",
-      "category": "News",
-      "wordCount": 187,
-      "readingTime": 1,
-      "lang": "en",
-      "rank": 66,
-      "metrics": {
-        "views": 1908905,
-        "likes": 14106,
-        "retweets": 2702,
-        "bookmarks": 910
+        "views": 2014841,
+        "likes": 1318,
+        "retweets": 228,
+        "bookmarks": 132
       }
     },
     {
@@ -1398,17 +1188,164 @@
       "authorName": "なにわちゃん",
       "description": "男を「見上げすぎない」のがコツ。\n・「明日忙しいかな？」より「空いてたらいこ🍻\n・「会えたら会いたい😢」より「次も楽しみ🥹」\n\nみたいに「おんなじ目線で誘う」んよ。\n\nデート誘う時とかもな、",
       "date": "2026-03-01T08:31:36.000Z",
-      "engagement": "1.8M views · 1.3K likes",
+      "engagement": "2.0M views · 1.5K likes",
       "category": "Lifestyle",
       "wordCount": 421,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 67,
+      "rank": 57,
       "metrics": {
-        "views": 1845446,
-        "likes": 1335,
-        "retweets": 80,
-        "bookmarks": 1017
+        "views": 2013581,
+        "likes": 1451,
+        "retweets": 95,
+        "bookmarks": 1104
+      }
+    },
+    {
+      "id": "2028148844891152554",
+      "title": "17 Best Practices That Make Claude Cowork 100x More Powerful",
+      "url": "https://x.com/heynavtoor/status/2028148844891152554",
+      "author": "@heynavtoor",
+      "authorName": "Nav Toor",
+      "description": "I’ve been using Claude Cowork since January 12, the day it launched.\n \nIn seven weeks, I’ve run over 400 Cowork sessions. I’ve tested every plugin, every connector, every slash command. I’ve broken it",
+      "date": "2026-03-01T16:42:20.000Z",
+      "engagement": "2.0M views · 3.3K likes",
+      "category": "Ai",
+      "wordCount": 3390,
+      "readingTime": 14,
+      "lang": "en",
+      "rank": 58,
+      "metrics": {
+        "views": 1969860,
+        "likes": 3271,
+        "retweets": 491,
+        "bookmarks": 13354
+      }
+    },
+    {
+      "id": "2027808045946835050",
+      "title": "U.S. Forces Launch Operation Epic Fury",
+      "url": "https://x.com/CENTCOM/status/2027808045946835050",
+      "author": "@CENTCOM",
+      "authorName": "U.S. Central Command",
+      "description": "TAMPA, Fla. – U.S. Central Command (CENTCOM) commenced Operation Epic Fury, Feb. 28, at the direction of the President of the United States.\nU.S. and partner forces began striking targets at 1:15 am",
+      "date": "2026-02-28T18:08:07.000Z",
+      "engagement": "1.9M views · 14.2K likes",
+      "category": "News",
+      "wordCount": 187,
+      "readingTime": 1,
+      "lang": "en",
+      "rank": 59,
+      "metrics": {
+        "views": 1932562,
+        "likes": 14160,
+        "retweets": 2699,
+        "bookmarks": 913
+      }
+    },
+    {
+      "id": "2027139558324699161",
+      "title": "🔥把百姓吓着了！中共高官这东西发网上了！ ",
+      "url": "https://x.com/zhihui999/status/2027139558324699161",
+      "author": "@zhihui999",
+      "authorName": "海外爆料",
+      "description": "近日，一张标注“郑拓彬”的退休待遇明细在网络流传，引发巨大震荡。截图显示，其职级为“正部级”。公开资料显示，郑拓彬曾任对外贸易经济合作部部长，属正部级高官。\n \n👇这份流出的1月份待遇单显示：",
+      "date": "2026-02-26T21:51:47.000Z",
+      "engagement": "1.9M views · 980 likes",
+      "category": "Politics",
+      "wordCount": 740,
+      "readingTime": 2,
+      "lang": "zh",
+      "rank": 60,
+      "metrics": {
+        "views": 1924311,
+        "likes": 980,
+        "retweets": 178,
+        "bookmarks": 584
+      }
+    },
+    {
+      "id": "2028863493789884431",
+      "title": "Introducing Seasons in Marathon",
+      "url": "https://x.com/MarathonTheGame/status/2028863493789884431",
+      "author": "@MarathonTheGame",
+      "authorName": "Marathon",
+      "description": "With Marathon’s launch around the corner, we want to take a minute to share how we’re approaching seasons and our plans for Season 1 and beyond. \nSeasons Overview\nSeasons in Marathon last about three",
+      "date": "2026-03-03T16:02:06.000Z",
+      "engagement": "1.9M views · 9.4K likes",
+      "category": "Entertainment",
+      "wordCount": 1180,
+      "readingTime": 5,
+      "lang": "en",
+      "rank": 61,
+      "metrics": {
+        "views": 1873299,
+        "likes": 9416,
+        "retweets": 986,
+        "bookmarks": 1238
+      }
+    },
+    {
+      "id": "2028817484724551951",
+      "title": "美伊开战后，我们做了一个「信息差粉碎机」",
+      "url": "https://x.com/immersivetran/status/2028817484724551951",
+      "author": "@immersivetran",
+      "authorName": "沉浸式翻译",
+      "description": "美伊冲突爆发后的前 6 个小时，我们观察到一个现象：\n中文互联网上最热的帖子，信息源是一张截图。截图来自一个 Telegram 频道。那个频道转的是一条阿拉伯语推文。那条推文引用的是一个未经证实的消息。",
+      "date": "2026-03-03T12:59:16.000Z",
+      "engagement": "1.9M views · 2.8K likes",
+      "category": "Ai",
+      "wordCount": 669,
+      "readingTime": 1,
+      "lang": "zh",
+      "rank": 62,
+      "metrics": {
+        "views": 1869916,
+        "likes": 2845,
+        "retweets": 567,
+        "bookmarks": 2807
+      }
+    },
+    {
+      "id": "2028998441687499147",
+      "title": "アウトプットの生産性を大きく向上させるコツ",
+      "url": "https://x.com/genkaidokusho/status/2028998441687499147",
+      "author": "@genkaidokusho",
+      "authorName": "限界読書",
+      "description": "アウトプットの生産性を上げたいと思う人は多いはずです。私も例に漏れずそう考えており、これまでアウトプットの生産性が高い人を観察したり、直接その秘訣を聞いて回ったりしてきました。",
+      "date": "2026-03-04T00:58:20.000Z",
+      "engagement": "1.8M views · 3.5K likes",
+      "category": "Self Help",
+      "wordCount": 554,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 63,
+      "metrics": {
+        "views": 1843082,
+        "likes": 3473,
+        "retweets": 309,
+        "bookmarks": 6174
+      }
+    },
+    {
+      "id": "2028844691475910659",
+      "title": "35歳を超えて敵がいないということは人間的に見込みがないことである。",
+      "url": "https://x.com/Via00Via/status/2028844691475910659",
+      "author": "@Via00Via",
+      "authorName": "VIA",
+      "description": "今は亡き 野村克也 さんの言葉にこんな一節がある。\n「35歳を超えて敵がいないということは人間的に見込みがないことである。何かを成し遂げようとすれば敵は当然できる」\nこの言葉は“生き方”への警告だ。",
+      "date": "2026-03-03T14:47:23.000Z",
+      "engagement": "1.8M views · 5.6K likes",
+      "category": "Self Help",
+      "wordCount": 475,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 64,
+      "metrics": {
+        "views": 1834385,
+        "likes": 5624,
+        "retweets": 649,
+        "bookmarks": 3005
       }
     },
     {
@@ -1424,33 +1361,54 @@
       "wordCount": 1426,
       "readingTime": 3,
       "lang": "zh",
-      "rank": 68,
+      "rank": 65,
       "metrics": {
-        "views": 1798519,
-        "likes": 1560,
-        "retweets": 275,
-        "bookmarks": 1753
+        "views": 1831103,
+        "likes": 1577,
+        "retweets": 278,
+        "bookmarks": 1761
       }
     },
     {
-      "id": "2026768485913866670",
-      "title": "40歳を前にして気づいた、一生嫉妬し続ける人の共通点",
-      "url": "https://x.com/RIKUHIRO7/status/2026768485913866670",
-      "author": "@RIKUHIRO7",
-      "authorName": "りくひろ",
-      "description": "40歳を目前にして、周りの友人たちの幸福度に、はっきりと差がついていることに気がついた。\n仕事は安定し、収入も十分。\nそれでも、人の話を最後まで聞けずに自分の話ばかりする人もいれば、",
-      "date": "2026-02-25T21:17:17.000Z",
-      "engagement": "1.8M views · 1.8K likes",
+      "id": "2027521153032695819",
+      "title": "職場でこっそりやってみたら、周りと差がついた5つのこと",
+      "url": "https://x.com/hiyoko_hosa/status/2027521153032695819",
+      "author": "@hiyoko_hosa",
+      "authorName": "ひよこ補佐",
+      "description": "「成長しなきゃとは思ってるけど、何をすればいいかわからない」\nずっとそうでした。\n副業？勉強？家帰ったら無理。 残業してスキルアップ？それも無理。",
+      "date": "2026-02-27T23:08:07.000Z",
+      "engagement": "1.8M views · 3.1K likes",
       "category": "Self Help",
-      "wordCount": 1437,
-      "readingTime": 4,
+      "wordCount": 797,
+      "readingTime": 2,
       "lang": "ja",
-      "rank": 69,
+      "rank": 66,
       "metrics": {
-        "views": 1783655,
-        "likes": 1778,
-        "retweets": 144,
-        "bookmarks": 1574
+        "views": 1765391,
+        "likes": 3147,
+        "retweets": 219,
+        "bookmarks": 3116
+      }
+    },
+    {
+      "id": "2028414472545825172",
+      "title": "【脳を取り戻す】“刺激中毒”から抜け出す9つの方法",
+      "url": "https://x.com/cozeblog/status/2028414472545825172",
+      "author": "@cozeblog",
+      "authorName": "こーずぶろぐ",
+      "description": "YouTubeで1,300万回以上再生されている\n【“刺激中毒”から抜け出す方法】\n「DOPAMINE DETOX | How To Take Back Control Over Your Life」\nこの動画は、\n✔ やる気が出ない\n✔ 集中できない\n✔ 勉強が続かない\n✔",
+      "date": "2026-03-02T10:17:51.000Z",
+      "engagement": "1.8M views · 3.2K likes",
+      "category": "Self Help",
+      "wordCount": 866,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 67,
+      "metrics": {
+        "views": 1754686,
+        "likes": 3201,
+        "retweets": 312,
+        "bookmarks": 3756
       }
     },
     {
@@ -1466,54 +1424,33 @@
       "wordCount": 89,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 70,
+      "rank": 68,
       "metrics": {
-        "views": 1733062,
-        "likes": 3108,
+        "views": 1743384,
+        "likes": 3092,
         "retweets": 56,
-        "bookmarks": 2195
+        "bookmarks": 2175
       }
     },
     {
-      "id": "2026540133869043789",
-      "title": "39歳で気づいた。30歳から絶対やっておけばよかったこと",
-      "url": "https://x.com/takasbn/status/2026540133869043789",
-      "author": "@takasbn",
-      "authorName": "鈴木貴博｜継げなかったアトツギ",
-      "description": "今30代の人に絶対伝えたいことがある。一昨日誕生日でした🎂39歳になって、ようやく分かったことがある。\n正直30歳の時の自分は、まだ若いと思っていた。\n時間もあると思っていた。",
-      "date": "2026-02-25T06:09:53.000Z",
-      "engagement": "1.7M views · 915 likes",
-      "category": "Self Help",
-      "wordCount": 1052,
-      "readingTime": 3,
-      "lang": "ja",
-      "rank": 71,
+      "id": "2028814227004395561",
+      "title": "How To Be A World-Class Agentic Engineer",
+      "url": "https://x.com/systematicls/status/2028814227004395561",
+      "author": "@systematicls",
+      "authorName": "sysls",
+      "description": "Introduction\nYou're a developer. You're using Claude and Codex CLI and you're wondering everyday if you're sufficiently juicing the shit out of Claude or Codex. Once in awhile you're seeing it doing",
+      "date": "2026-03-03T12:46:19.000Z",
+      "engagement": "1.7M views · 5.5K likes",
+      "category": "Ai",
+      "wordCount": 3617,
+      "readingTime": 14,
+      "lang": "en",
+      "rank": 69,
       "metrics": {
-        "views": 1719366,
-        "likes": 915,
-        "retweets": 72,
-        "bookmarks": 1026
-      }
-    },
-    {
-      "id": "2026279758414406085",
-      "title": "色気の正体はエロさじゃない ",
-      "url": "https://x.com/yauyuism/status/2026279758414406085",
-      "author": "@yauyuism",
-      "authorName": "やうゆ",
-      "description": "色気はエロさとセットで語られやすいけど、この二つは全くの別物だ。エロさは目に入る。色気は、目を離せなくなる。何も露出してないのに「もっと知りたい」と思わせる人がいる。あの引力の正体は、見た目じゃなくて",
-      "date": "2026-02-24T12:55:15.000Z",
-      "engagement": "1.7M views · 7.7K likes",
-      "category": "Lifestyle",
-      "wordCount": 598,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 72,
-      "metrics": {
-        "views": 1712821,
-        "likes": 7744,
-        "retweets": 934,
-        "bookmarks": 5698
+        "views": 1730189,
+        "likes": 5505,
+        "retweets": 588,
+        "bookmarks": 18174
       }
     },
     {
@@ -1529,11 +1466,11 @@
       "wordCount": 912,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 73,
+      "rank": 70,
       "metrics": {
-        "views": 1704814,
-        "likes": 3226,
-        "retweets": 376,
+        "views": 1709854,
+        "likes": 3230,
+        "retweets": 377,
         "bookmarks": 2779
       }
     },
@@ -1550,33 +1487,12 @@
       "wordCount": 626,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 74,
+      "rank": 71,
       "metrics": {
-        "views": 1698311,
-        "likes": 1090,
-        "retweets": 78,
-        "bookmarks": 1597
-      }
-    },
-    {
-      "id": "2026758489276821655",
-      "title": "Never Apply to Another Job Again",
-      "url": "https://x.com/LindsayCasale/status/2026758489276821655",
-      "author": "@LindsayCasale",
-      "authorName": "Lindsay Casale π²",
-      "description": "The job market sucks right now. \n\nIt seems like every week I have a friend who's either been laid off or secretly looking for their next opportunity. I love helping people grow in their careers so I",
-      "date": "2026-02-25T20:37:33.000Z",
-      "engagement": "1.7M views · 2.3K likes",
-      "category": "Self Help",
-      "wordCount": 715,
-      "readingTime": 3,
-      "lang": "en",
-      "rank": 75,
-      "metrics": {
-        "views": 1661417,
-        "likes": 2314,
-        "retweets": 209,
-        "bookmarks": 6519
+        "views": 1703690,
+        "likes": 1093,
+        "retweets": 77,
+        "bookmarks": 1595
       }
     },
     {
@@ -1592,12 +1508,12 @@
       "wordCount": 1215,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 76,
+      "rank": 72,
       "metrics": {
-        "views": 1652357,
+        "views": 1659846,
         "likes": 2773,
         "retweets": 247,
-        "bookmarks": 4425
+        "bookmarks": 4417
       }
     },
     {
@@ -1613,12 +1529,12 @@
       "wordCount": 618,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 77,
+      "rank": 73,
       "metrics": {
-        "views": 1639753,
+        "views": 1643030,
         "likes": 606,
         "retweets": 30,
-        "bookmarks": 508
+        "bookmarks": 503
       }
     },
     {
@@ -1634,12 +1550,12 @@
       "wordCount": 3191,
       "readingTime": 8,
       "lang": "ja",
-      "rank": 78,
+      "rank": 74,
       "metrics": {
-        "views": 1602501,
+        "views": 1608161,
         "likes": 1735,
         "retweets": 129,
-        "bookmarks": 1965
+        "bookmarks": 1964
       }
     },
     {
@@ -1655,7 +1571,7 @@
       "wordCount": 7465,
       "readingTime": 16,
       "lang": "zh",
-      "rank": 79,
+      "rank": 75,
       "metrics": {
         "views": 1577636,
         "likes": 5655,
@@ -1671,17 +1587,17 @@
       "authorName": "ますたけ",
       "description": "2025年6400万円のフルローンを組んで家を買いました。住宅ローンってどう組むのが賢いの？ってことをまとめてみたので、これからローンを組もうと思ってる方はぜひどうぞ。",
       "date": "2026-02-28T01:56:39.000Z",
-      "engagement": "1.6M views · 3.5K likes",
+      "engagement": "1.6M views · 3.4K likes",
       "category": "Lifestyle",
       "wordCount": 1476,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 80,
+      "rank": 76,
       "metrics": {
-        "views": 1555193,
-        "likes": 3452,
+        "views": 1561549,
+        "likes": 3444,
         "retweets": 172,
-        "bookmarks": 4323
+        "bookmarks": 4319
       }
     },
     {
@@ -1697,54 +1613,33 @@
       "wordCount": 1451,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 81,
+      "rank": 77,
       "metrics": {
-        "views": 1553252,
-        "likes": 2169,
-        "retweets": 238,
-        "bookmarks": 2112
+        "views": 1557231,
+        "likes": 2167,
+        "retweets": 236,
+        "bookmarks": 2106
       }
     },
     {
-      "id": "2026466690574463291",
-      "title": "Anthropic vient de tuer le bac+5",
-      "url": "https://x.com/BetterCallMedhi/status/2026466690574463291",
-      "author": "@BetterCallMedhi",
-      "authorName": "Mehdi (e/λ)",
-      "description": "j’ai coupé le monde quelques minutes, téléphone retourné, silence total car j’ai systématiquement besoin de cette solitude là et de ce silence pour que les idées cessent de flotter et commencent à se",
-      "date": "2026-02-25T01:18:03.000Z",
-      "engagement": "1.5M views · 2.6K likes",
-      "category": "Ai",
-      "wordCount": 1014,
-      "readingTime": 4,
+      "id": "2028513589263249652",
+      "title": "\"Çabalayan Erkek\"",
+      "url": "https://x.com/zfrkrslnn/status/2028513589263249652",
+      "author": "@zfrkrslnn",
+      "authorName": "Zafer Karaaslan",
+      "description": "Son zamanlarda kadın kısmının sosyal medyada haykırdıkları şeylerden biri: çabalayan erkek. Gittikçe popülerleşen bu söyleme göre kadınlar çabalayan erkekleri tercih ediyor. Peki burada çaba derken,",
+      "date": "2026-03-02T16:51:42.000Z",
+      "engagement": "1.5M views · 600 likes",
+      "category": "Lifestyle",
+      "wordCount": 1225,
+      "readingTime": 5,
       "lang": "en",
-      "rank": 82,
+      "rank": 78,
       "metrics": {
-        "views": 1482968,
-        "likes": 2589,
-        "retweets": 527,
-        "bookmarks": 4659
-      }
-    },
-    {
-      "id": "2027521153032695819",
-      "title": "職場でこっそりやってみたら、周りと差がついた5つのこと",
-      "url": "https://x.com/hiyoko_hosa/status/2027521153032695819",
-      "author": "@hiyoko_hosa",
-      "authorName": "ひよこ補佐",
-      "description": "「成長しなきゃとは思ってるけど、何をすればいいかわからない」\nずっとそうでした。\n副業？勉強？家帰ったら無理。 残業してスキルアップ？それも無理。",
-      "date": "2026-02-27T23:08:07.000Z",
-      "engagement": "1.5M views · 2.8K likes",
-      "category": "Self Help",
-      "wordCount": 797,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 83,
-      "metrics": {
-        "views": 1479259,
-        "likes": 2771,
-        "retweets": 191,
-        "bookmarks": 2694
+        "views": 1511307,
+        "likes": 600,
+        "retweets": 43,
+        "bookmarks": 848
       }
     },
     {
@@ -1760,12 +1655,33 @@
       "wordCount": 1289,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 84,
+      "rank": 79,
       "metrics": {
-        "views": 1470972,
-        "likes": 3725,
-        "retweets": 343,
-        "bookmarks": 3440
+        "views": 1494727,
+        "likes": 3729,
+        "retweets": 344,
+        "bookmarks": 3425
+      }
+    },
+    {
+      "id": "2028111088449896826",
+      "title": "How to make $1M in 2026 using Claude Memory (step by step business plan)",
+      "url": "https://x.com/ideabrowser/status/2028111088449896826",
+      "author": "@ideabrowser",
+      "authorName": "Idea Browser",
+      "description": "Claude just launched memory imports. Here is the step-by-step playbook to build a $1M/yr business. \n\nClaude just launched memory imports.\nThat means you can migrate anyone from ChatGPT to Claude in 60",
+      "date": "2026-03-01T14:12:18.000Z",
+      "engagement": "1.5M views · 3.6K likes",
+      "category": "Business",
+      "wordCount": 479,
+      "readingTime": 2,
+      "lang": "en",
+      "rank": 80,
+      "metrics": {
+        "views": 1481970,
+        "likes": 3639,
+        "retweets": 355,
+        "bookmarks": 13293
       }
     },
     {
@@ -1776,17 +1692,59 @@
       "authorName": "規格外",
       "description": "私は、怠惰で無能な自分をいかに導き、育てるかという、果てなき問いに半生を捧げてきた。",
       "date": "2026-02-26T08:42:56.000Z",
-      "engagement": "1.5M views · 849 likes",
+      "engagement": "1.5M views · 851 likes",
       "category": "Self Help",
       "wordCount": 786,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 85,
+      "rank": 81,
       "metrics": {
-        "views": 1465729,
-        "likes": 849,
+        "views": 1473404,
+        "likes": 851,
         "retweets": 60,
         "bookmarks": 991
+      }
+    },
+    {
+      "id": "2028683943034433736",
+      "title": "30代から「化ける男」と「枯れる男」の境界線",
+      "url": "https://x.com/minemoto_jun/status/2028683943034433736",
+      "author": "@minemoto_jun",
+      "authorName": "峯本 純",
+      "description": "第1章：「かわし方」を覚えた瞬間に、男の成長は止まる\n30代も中盤に差し掛かると、仕事の「型」が見えてきます。",
+      "date": "2026-03-03T04:08:37.000Z",
+      "engagement": "1.4M views · 2.2K likes",
+      "category": "Self Help",
+      "wordCount": 1856,
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 82,
+      "metrics": {
+        "views": 1436239,
+        "likes": 2244,
+        "retweets": 128,
+        "bookmarks": 2289
+      }
+    },
+    {
+      "id": "2028241348370076021",
+      "title": "職場の「要領がいい人」、あれは才能じゃなくて技術だった",
+      "url": "https://x.com/ysk_motoyama/status/2028241348370076021",
+      "author": "@ysk_motoyama",
+      "authorName": "もとやま",
+      "description": "「要領がいい」の正体に初めて気づいたのは、大学3年のときでした。\n僕は大学1、2年の頃、学内にほとんど友達がいませんでした。\nインカレのサークルに入っていたので、大学の中に知り合いが少なかったんですよね。",
+      "date": "2026-03-01T22:49:55.000Z",
+      "engagement": "1.4M views · 2.0K likes",
+      "category": "Self Help",
+      "wordCount": 2402,
+      "readingTime": 7,
+      "lang": "ja",
+      "rank": 83,
+      "metrics": {
+        "views": 1396239,
+        "likes": 2007,
+        "retweets": 157,
+        "bookmarks": 2290
       }
     },
     {
@@ -1802,33 +1760,12 @@
       "wordCount": 490,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 86,
+      "rank": 84,
       "metrics": {
-        "views": 1379505,
-        "likes": 3707,
-        "retweets": 364,
-        "bookmarks": 4026
-      }
-    },
-    {
-      "id": "2028148844891152554",
-      "title": "17 Best Practices That Make Claude Cowork 100x More Powerful",
-      "url": "https://x.com/heynavtoor/status/2028148844891152554",
-      "author": "@heynavtoor",
-      "authorName": "Nav Toor",
-      "description": "I’ve been using Claude Cowork since January 12, the day it launched.\n \nIn seven weeks, I’ve run over 400 Cowork sessions. I’ve tested every plugin, every connector, every slash command. I’ve broken it",
-      "date": "2026-03-01T16:42:20.000Z",
-      "engagement": "1.4M views · 2.7K likes",
-      "category": "Ai",
-      "wordCount": 3390,
-      "readingTime": 14,
-      "lang": "en",
-      "rank": 87,
-      "metrics": {
-        "views": 1379305,
-        "likes": 2651,
-        "retweets": 380,
-        "bookmarks": 11691
+        "views": 1382678,
+        "likes": 3704,
+        "retweets": 360,
+        "bookmarks": 4009
       }
     },
     {
@@ -1844,33 +1781,54 @@
       "wordCount": 1024,
       "readingTime": 3,
       "lang": "zh",
-      "rank": 88,
+      "rank": 85,
       "metrics": {
-        "views": 1378372,
-        "likes": 1619,
+        "views": 1379433,
+        "likes": 1617,
         "retweets": 89,
         "bookmarks": 643
       }
     },
     {
-      "id": "2028061386203427018",
-      "title": "わずか30日でフランス語を流暢にした語学習得法",
-      "url": "https://x.com/cozeblog/status/2028061386203427018",
-      "author": "@cozeblog",
-      "authorName": "こーずぶろぐ",
-      "description": "30日で“別人レベル”まで語学力を引き上げる方法\n結論から言うと、\n語学の伸びは「才能」ではなく\n 接触時間 × 密度 でほぼ決まります。\n伸びない人は能力が低いのではなく、",
-      "date": "2026-03-01T10:54:48.000Z",
-      "engagement": "1.4M views · 3.7K likes",
+      "id": "2028303315000541371",
+      "title": "いつまでも、感情のゴミ箱にされてる",
+      "url": "https://x.com/yayo_1coaching/status/2028303315000541371",
+      "author": "@yayo_1coaching",
+      "authorName": "やよい",
+      "description": "また電話が鳴る。\n出る前から分かる。\n今日も愚痴だ。\n「ちょっと聞いて」から始まって、\n気づけば1時間。\n相手は軽くなって切る。\nわたしは、どっと疲れる。\n誰かの不満を受け止めている。",
+      "date": "2026-03-02T02:56:09.000Z",
+      "engagement": "1.4M views · 1.1K likes",
       "category": "Self Help",
-      "wordCount": 676,
-      "readingTime": 2,
+      "wordCount": 510,
+      "readingTime": 1,
       "lang": "ja",
-      "rank": 89,
+      "rank": 86,
       "metrics": {
-        "views": 1371306,
-        "likes": 3652,
-        "retweets": 347,
-        "bookmarks": 4697
+        "views": 1375822,
+        "likes": 1127,
+        "retweets": 88,
+        "bookmarks": 656
+      }
+    },
+    {
+      "id": "2028220457556787268",
+      "title": "40歳を前にして気づいた、子どもを縛る“お金の教育”",
+      "url": "https://x.com/RIKUHIRO7/status/2028220457556787268",
+      "author": "@RIKUHIRO7",
+      "authorName": "りくひろ",
+      "description": "40歳を目前にして、周りの友人たちの幸福度に、はっきりと差がついていることに気がついた。\n外食も旅行も行きたい。\n子どもの習い事もさせてあげたい。\n家のローンで悩みたくない。",
+      "date": "2026-03-01T21:26:54.000Z",
+      "engagement": "1.4M views · 1.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 1557,
+      "readingTime": 4,
+      "lang": "ja",
+      "rank": 87,
+      "metrics": {
+        "views": 1375204,
+        "likes": 1079,
+        "retweets": 69,
+        "bookmarks": 1432
       }
     },
     {
@@ -1886,12 +1844,33 @@
       "wordCount": 3082,
       "readingTime": 12,
       "lang": "en",
-      "rank": 90,
+      "rank": 88,
       "metrics": {
-        "views": 1366621,
-        "likes": 4021,
-        "retweets": 392,
-        "bookmarks": 15762
+        "views": 1373565,
+        "likes": 4031,
+        "retweets": 395,
+        "bookmarks": 15797
+      }
+    },
+    {
+      "id": "2028334420898537779",
+      "title": "偏差値50未満の人間と群れていると、あなたの偏差値も50未満になる",
+      "url": "https://x.com/yumaevo/status/2028334420898537779",
+      "author": "@yumaevo",
+      "authorName": "yuma@内向哲学",
+      "description": "かなり刺激的なタイトルになってしまいましたが、これは事実だと思っています。",
+      "date": "2026-03-02T04:59:45.000Z",
+      "engagement": "1.4M views · 779 likes",
+      "category": "Self Help",
+      "wordCount": 310,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 89,
+      "metrics": {
+        "views": 1371197,
+        "likes": 779,
+        "retweets": 102,
+        "bookmarks": 477
       }
     },
     {
@@ -1907,117 +1886,33 @@
       "wordCount": 1745,
       "readingTime": 5,
       "lang": "ja",
+      "rank": 90,
+      "metrics": {
+        "views": 1368962,
+        "likes": 5512,
+        "retweets": 458,
+        "bookmarks": 8282
+      }
+    },
+    {
+      "id": "2028402041392177506",
+      "title": "女は「雑に扱われて冷める」けど、男は「愛を伝えられすぎて冷める」",
+      "url": "https://x.com/dekiai114/status/2028402041392177506",
+      "author": "@dekiai114",
+      "authorName": "なにわちゃん",
+      "description": "男は「ガン見されすぎ」で冷める。\n・疲れてるのにラブ伝えられる\n・将来の話やたらとされる\n・自分のためにすぐ予定開ける　\n\nみたいに「こっちしか見てへん」と疲れちゃうんよ。",
+      "date": "2026-03-02T09:28:27.000Z",
+      "engagement": "1.3M views · 753 likes",
+      "category": "Lifestyle",
+      "wordCount": 355,
+      "readingTime": 1,
+      "lang": "ja",
       "rank": 91,
       "metrics": {
-        "views": 1365397,
-        "likes": 5519,
-        "retweets": 460,
-        "bookmarks": 8305
-      }
-    },
-    {
-      "id": "2028303315000541371",
-      "title": "いつまでも、感情のゴミ箱にされてる",
-      "url": "https://x.com/yayo_1coaching/status/2028303315000541371",
-      "author": "@yayo_1coaching",
-      "authorName": "やよい",
-      "description": "また電話が鳴る。\n出る前から分かる。\n今日も愚痴だ。\n「ちょっと聞いて」から始まって、\n気づけば1時間。\n相手は軽くなって切る。\nわたしは、どっと疲れる。\n誰かの不満を受け止めている。",
-      "date": "2026-03-02T02:56:09.000Z",
-      "engagement": "1.3M views · 1.1K likes",
-      "category": "Self Help",
-      "wordCount": 510,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 92,
-      "metrics": {
-        "views": 1341910,
-        "likes": 1087,
-        "retweets": 86,
-        "bookmarks": 639
-      }
-    },
-    {
-      "id": "2026402164944552190",
-      "title": "【引退】レ💥フ°事件アーカイブ配信中…",
-      "url": "https://x.com/ami__231/status/2026402164944552190",
-      "author": "@ami__231",
-      "authorName": "乙葉らら🩵🤍",
-      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://lin.ee/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n【経緯について🔻】\n \n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡",
-      "date": "2026-02-24T21:01:39.000Z",
-      "engagement": "1.3M views · 5.6K likes",
-      "category": "Other",
-      "wordCount": 371,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 93,
-      "metrics": {
-        "views": 1313527,
-        "likes": 5598,
-        "retweets": 255,
-        "bookmarks": 5300
-      }
-    },
-    {
-      "id": "2026530349518565743",
-      "title": "保育園児の「チクチク言葉」と大人がやってる誹謗中傷 ",
-      "url": "https://x.com/aikonnor/status/2026530349518565743",
-      "author": "@aikonnor",
-      "authorName": "今野良介",
-      "description": "うちの娘が通う保育園の年長組では、友達を傷つけるような言葉を「チクチク言葉」と名付けて、友達にそういうことを言ってはいけないと教えているらしい。\n「おまえ」\n「だいっきらい」\n「しね」\n「ぶっころす」",
-      "date": "2026-02-25T05:31:01.000Z",
-      "engagement": "1.3M views · 4.2K likes",
-      "category": "Lifestyle",
-      "wordCount": 1511,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 94,
-      "metrics": {
-        "views": 1309247,
-        "likes": 4183,
-        "retweets": 678,
-        "bookmarks": 2361
-      }
-    },
-    {
-      "id": "2026433492368978424",
-      "title": "忘却力は知性の証明。脳の空白こそが大爆発をもたらす純度の高いガソリン",
-      "url": "https://x.com/shinkaron/status/2026433492368978424",
-      "author": "@shinkaron",
-      "authorName": "規格外",
-      "description": "「忘れること」を悪とし、記憶できない己を恥じる罪悪感に囚われている人が多い。\nしかし、多動傾向（ADHD）を抱えながら戦う我々は、そんな常識こそ、それこそ忘れてしまったほうがいい。",
-      "date": "2026-02-24T23:06:08.000Z",
-      "engagement": "1.3M views · 984 likes",
-      "category": "Self Help",
-      "wordCount": 324,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 95,
-      "metrics": {
-        "views": 1300512,
-        "likes": 984,
-        "retweets": 71,
-        "bookmarks": 880
-      }
-    },
-    {
-      "id": "2028068836386418772",
-      "title": "恋人の「朝の対応」で、その人の本性がわかるという話",
-      "url": "https://x.com/yauyuism/status/2028068836386418772",
-      "author": "@yauyuism",
-      "authorName": "やうゆ",
-      "description": "恋人とお泊まりした朝、遅刻ギリギリの時間に目が覚めた時の相手の対応で、その人の本質がかなり見える。起こさずに寝かせておく、「今日休めば？」と言う。一見優しく見えるこの二つは、実は全然優しくない。",
-      "date": "2026-03-01T11:24:24.000Z",
-      "engagement": "1.3M views · 3.6K likes",
-      "category": "Lifestyle",
-      "wordCount": 461,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 96,
-      "metrics": {
-        "views": 1281443,
-        "likes": 3624,
-        "retweets": 187,
-        "bookmarks": 1921
+        "views": 1349335,
+        "likes": 753,
+        "retweets": 38,
+        "bookmarks": 504
       }
     },
     {
@@ -2033,54 +1928,117 @@
       "wordCount": 847,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 97,
+      "rank": 92,
       "metrics": {
-        "views": 1281413,
-        "likes": 1175,
-        "retweets": 106,
-        "bookmarks": 944
+        "views": 1337642,
+        "likes": 1203,
+        "retweets": 109,
+        "bookmarks": 960
       }
     },
     {
-      "id": "2028470330247803361",
-      "title": "Claude Cowork Masterclass for Beginners (full tutorial)",
-      "url": "https://x.com/coreyganim/status/2028470330247803361",
-      "author": "@coreyganim",
-      "authorName": "Corey Ganim",
-      "description": "Most people are still using Claude like a chatbot. Ask a question, get an answer, repeat.\nThat's leaving 90% of the value on the table.\nClaude Cowork turns Claude into an autonomous coworker who can",
-      "date": "2026-03-02T13:59:48.000Z",
-      "engagement": "1.3M views · 2.0K likes",
-      "category": "Ai",
-      "wordCount": 943,
+      "id": "2028665745392214214",
+      "title": "【24h限定】レ💥フ°事件アーカイブ配信中…",
+      "url": "https://x.com/vardhanchanana/status/2028665745392214214",
+      "author": "@vardhanchanana",
+      "authorName": "らららんど🏰",
+      "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://fanclub.com/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜",
+      "date": "2026-03-03T02:56:19.000Z",
+      "engagement": "1.3M views · 741 likes",
+      "category": "Wtf",
+      "wordCount": 382,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 93,
+      "metrics": {
+        "views": 1334942,
+        "likes": 741,
+        "retweets": 24,
+        "bookmarks": 728
+      }
+    },
+    {
+      "id": "2028776995782553932",
+      "title": "ADHDの日常",
+      "url": "https://x.com/azplanetaz/status/2028776995782553932",
+      "author": "@azplanetaz",
+      "authorName": "たなか",
+      "description": "　日常つったって私の日常なんかキチガイみたいに慌ただしく無力で奇天烈なんですよ。本当に。",
+      "date": "2026-03-03T10:18:23.000Z",
+      "engagement": "1.3M views · 1.6K likes",
+      "category": "Health",
+      "wordCount": 1552,
       "readingTime": 4,
-      "lang": "en",
-      "rank": 98,
+      "lang": "ja",
+      "rank": 94,
       "metrics": {
-        "views": 1260944,
-        "likes": 2040,
-        "retweets": 267,
-        "bookmarks": 11382
+        "views": 1331562,
+        "likes": 1596,
+        "retweets": 97,
+        "bookmarks": 889
       }
     },
     {
-      "id": "2026562680551780555",
-      "title": "両親が不仲だった家庭で育つと、なぜ恋愛で消耗するのか",
-      "url": "https://x.com/e98SnMZJchhlqjt/status/2026562680551780555",
-      "author": "@e98SnMZJchhlqjt",
-      "authorName": "井上陽平｜トラウマケア専門こころのえ相談室",
-      "description": "両親の仲が悪い家庭で育った子どもは、心のどこかで誓います。\n「自分は絶対に、あんな家庭をつくらない」と。\nだから恋愛や結婚に対して、とても真面目になる。\n誠実であろうとする。",
-      "date": "2026-02-25T07:39:29.000Z",
-      "engagement": "1.2M views · 6.4K likes",
+      "id": "2028287721375248619",
+      "title": "本を読まない人が「思考退化」していく理由",
+      "url": "https://x.com/naikoutetsugaku/status/2028287721375248619",
+      "author": "@naikoutetsugaku",
+      "authorName": "内向哲学",
+      "description": "知の鮮度を保つために最も有効なのは、読書を習慣にすることだと思っています。\n自分の頭の中だけで考えていると、どうしても思考の風通しが悪くなり、考え方はどんどん凝り固まってしまいます。",
+      "date": "2026-03-02T01:54:11.000Z",
+      "engagement": "1.3M views · 901 likes",
+      "category": "Self Help",
+      "wordCount": 359,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 95,
+      "metrics": {
+        "views": 1322791,
+        "likes": 901,
+        "retweets": 96,
+        "bookmarks": 780
+      }
+    },
+    {
+      "id": "2028343068345487378",
+      "title": "3月キャッシュレスキャンペーン最効率活用方法",
+      "url": "https://x.com/tomor1nn/status/2028343068345487378",
+      "author": "@tomor1nn",
+      "authorName": "ともりPay",
+      "description": "3月のキャッシュレスキャンペーンが乱立してるので、ともり流最効率の使い方を考えてみた。\n全部で３章構成\n・【すぐやれ】\n・【3月決済の使い分けはこれ】\n・【余力あればこれもやれ】\nそれではスタート↓",
+      "date": "2026-03-02T05:34:06.000Z",
+      "engagement": "1.3M views · 1.5K likes",
       "category": "Lifestyle",
-      "wordCount": 787,
+      "wordCount": 622,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 99,
+      "rank": 96,
       "metrics": {
-        "views": 1244852,
-        "likes": 6368,
-        "retweets": 788,
-        "bookmarks": 3435
+        "views": 1315755,
+        "likes": 1505,
+        "retweets": 101,
+        "bookmarks": 2755
+      }
+    },
+    {
+      "id": "2028068836386418772",
+      "title": "恋人の「朝の対応」で、その人の本性がわかるという話",
+      "url": "https://x.com/yauyuism/status/2028068836386418772",
+      "author": "@yauyuism",
+      "authorName": "やうゆ",
+      "description": "恋人とお泊まりした朝、遅刻ギリギリの時間に目が覚めた時の相手の対応で、その人の本質がかなり見える。起こさずに寝かせておく、「今日休めば？」と言う。一見優しく見えるこの二つは、実は全然優しくない。",
+      "date": "2026-03-01T11:24:24.000Z",
+      "engagement": "1.3M views · 3.6K likes",
+      "category": "Lifestyle",
+      "wordCount": 461,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 97,
+      "metrics": {
+        "views": 1302190,
+        "likes": 3618,
+        "retweets": 187,
+        "bookmarks": 1893
       }
     },
     {
@@ -2091,17 +2049,59 @@
       "authorName": "Morph",
       "description": "no man wants to look feminine yet so many do\nlooking masculine is actually simple, you just have to make the right decisions when it comes to the factors that influence it\nif you are unaware of these",
       "date": "2026-02-26T22:54:25.000Z",
-      "engagement": "1.2M views · 823 likes",
+      "engagement": "1.2M views · 820 likes",
       "category": "Self Help",
       "wordCount": 846,
       "readingTime": 3,
       "lang": "en",
+      "rank": 98,
+      "metrics": {
+        "views": 1247746,
+        "likes": 820,
+        "retweets": 38,
+        "bookmarks": 2033
+      }
+    },
+    {
+      "id": "2028412281399410836",
+      "title": "アルゴリズムと壁打ちしたら万バズ15回したから全員やったほうがいい",
+      "url": "https://x.com/misojiyuu/status/2028412281399410836",
+      "author": "@misojiyuu",
+      "authorName": "yumi",
+      "description": "ここ二週間でインプレッション5,500万\n万バズは15回ありました。\nアルゴリズムを読み解いて投稿を少し変えただけです。\n皆も絶対やったほうがいいという提案です。",
+      "date": "2026-03-02T10:09:08.000Z",
+      "engagement": "1.2M views · 3.3K likes",
+      "category": "Business",
+      "wordCount": 1789,
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 99,
+      "metrics": {
+        "views": 1234698,
+        "likes": 3341,
+        "retweets": 201,
+        "bookmarks": 7358
+      }
+    },
+    {
+      "id": "2029035759852728813",
+      "title": "\"لا أنت حارس للنجوم  ولا أنت غارس للقمر ‏أعظم حروبك خيال وأقصر دروبك سفر\" ",
+      "url": "https://x.com/Rahaf_Seaa/status/2029035759852728813",
+      "author": "@Rahaf_Seaa",
+      "authorName": "سِعة",
+      "description": "ليش مهم ما تحمل نفسك أكثر من طاقتها؟\nبهالحياة ما في حال ثابت تتغير الأحوال ويتغير تعاملنا مع المعطيات والأحداث والقصص اللي تصير بحياتنا سواء المتوقع منها أو اللامتوقع نسمع بكل مكان عن الصلابة النفسية",
+      "date": "2026-03-04T03:26:37.000Z",
+      "engagement": "1.2M views · 9.3K likes",
+      "category": "Self Help",
+      "wordCount": 527,
+      "readingTime": 2,
+      "lang": "other",
       "rank": 100,
       "metrics": {
-        "views": 1244197,
-        "likes": 823,
-        "retweets": 38,
-        "bookmarks": 2042
+        "views": 1200703,
+        "likes": 9309,
+        "retweets": 1005,
+        "bookmarks": 5681
       }
     }
   ]

@@ -5,128 +5,28 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 05:23:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 08:30:17 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
     <item>
-      <title>Daily Thoughts · 2026-03-03</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-03/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-03/</guid>
-      <pubDate>Tue, 03 Mar 2026 08:00:00 GMT</pubDate>
-    <category>thoughts</category>
-    <category>analysis</category>
-      <description>
-核心观点  
-“离线级”性能正被 WebAssembly 拉回浏览器，古早命令行工具秒变即点即用的 Web 服务，前端进入“后云化”本地算力时代。
-
-现象解读  
-Gifsicle 诞生于 1997 年，至今仍是 GIF 压缩标杆，却长期局限于本地脚本。作者用 Emscripten 一键编译为 WASM，3 分钟套上拖放 UI，浏览器内完成 90% 体积削减，全程零后端、零带宽成</description>
-      <content:encoded><![CDATA[
-        <p>
-核心观点  
-“离线级”性能正被 WebAssembly 拉回浏览器，古早命令行工具秒变即点即用的 Web 服务，前端进入“后云化”本地算力时代。
-
-现象解读  
-Gifsicle 诞生于 1997 年，至今仍是 GIF 压缩标杆，却长期局限于本地脚本。作者用 Emscripten 一键编译为 WASM，3 分钟套上拖放 UI，浏览器内完成 90% 体积削减，全程零后端、零带宽成</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-03.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-03/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-03</title>
-      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-03/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-03/</guid>
-      <pubDate>Tue, 03 Mar 2026 06:00:00 GMT</pubDate>
+      <title>Daily Read · 2026-03-05</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-05/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-05/</guid>
+      <pubDate>Thu, 05 Mar 2026 06:00:00 GMT</pubDate>
     <category>daily-brief</category>
     <category>rss</category>
       <description>
-&gt; 19 articles · 8.5/10 avg · 19 highlights (≥7.5)
+&gt; 25 articles · 5.0/10 avg · 0 highlights (≥7.5)
 
-1. [微延迟竟能让微分方程秒变震荡？](https://www.johndcook.com/blog/2026/03/02/small-delay/) · 8.7/10 · johndcook
-
-用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathema</description>
+1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/atom-everything) · 5.0/10 · simo</description>
       <content:encoded><![CDATA[
         <p>
-> 19 articles · 8.5/10 avg · 19 highlights (≥7.5)
+> 25 articles · 5.0/10 avg · 0 highlights (≥7.5)
 
-1. [微延迟竟能让微分方程秒变震荡？](https://www.johndcook.com/blog/2026/03/02/small-delay/) · 8.7/10 · johndcook
-
-用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathema</p>
-        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-03.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-03/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-03</title>
-      <link>https://blog.zucchini.win/blog/latest-brief/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
-      <pubDate>Tue, 03 Mar 2026 06:00:00 GMT</pubDate>
-    <category>daily-brief</category>
-    <category>rss</category>
-      <description>
-&gt; 19 articles · 8.5/10 avg · 19 highlights (≥7.5)
-
-1. [微延迟竟能让微分方程秒变震荡？](https://www.johndcook.com/blog/2026/03/02/small-delay/) · 8.7/10 · johndcook
-
-用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathema</description>
-      <content:encoded><![CDATA[
-        <p>
-> 19 articles · 8.5/10 avg · 19 highlights (≥7.5)
-
-1. [微延迟竟能让微分方程秒变震荡？](https://www.johndcook.com/blog/2026/03/02/small-delay/) · 8.7/10 · johndcook
-
-用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathema</p>
-        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Thoughts · 2026-03-02</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/</guid>
-      <pubDate>Mon, 02 Mar 2026 08:00:00 GMT</pubDate>
-    <category>thoughts</category>
-    <category>analysis</category>
-      <description>
-核心观点  
-LLM 把“专家新手”推上前台：既懂垂直场景又敢动手调模型的独狼开发者，将在未来一年取代传统大厂实验室，成为大模型落地的第一动力。
-
-现象解读  
-jeffgeerling 的观察击中要害：开源基座模型 + 低成本 GPU/云 把训练门槛拉到 5 千美元以下，一人即可跑完微调、评估、上线闭环。Redis 作者 antirez 放出“一句封喉”的调优黑话，本质是告诉开</description>
-      <content:encoded><![CDATA[
-        <p>
-核心观点  
-LLM 把“专家新手”推上前台：既懂垂直场景又敢动手调模型的独狼开发者，将在未来一年取代传统大厂实验室，成为大模型落地的第一动力。
-
-现象解读  
-jeffgeerling 的观察击中要害：开源基座模型 + 低成本 GPU/云 把训练门槛拉到 5 千美元以下，一人即可跑完微调、评估、上线闭环。Redis 作者 antirez 放出“一句封喉”的调优黑话，本质是告诉开</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-02.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-02</title>
-      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-02/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-02/</guid>
-      <pubDate>Mon, 02 Mar 2026 06:00:00 GMT</pubDate>
-    <category>daily-brief</category>
-    <category>rss</category>
-      <description>
-&gt; 9 articles · 7.6/10 avg · 8 highlights (≥7.5)
-
-1. [独狼新手偷跑LLM？专家沉默真相！](https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/) · 8.5/10 · jeffgeerling
-
-作者以技术架构</description>
-      <content:encoded><![CDATA[
-        <p>
-> 9 articles · 7.6/10 avg · 8 highlights (≥7.5)
-
-1. [独狼新手偷跑LLM？专家沉默真相！](https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/) · 8.5/10 · jeffgeerling
-
-作者以技术架构</p>
-        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-02.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-02/">Read on blog →</a></p>
+1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/atom-everything) · 5.0/10 · simo</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-05.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-05/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

@@ -3,7 +3,7 @@ title: "Daily Read · --help"
 date: "--helpT06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "latest-brief"
+slug: "daily-brief---help"
 ---
 
 > 25 articles · 5.0/10 avg · 0 highlights (≥7.5)

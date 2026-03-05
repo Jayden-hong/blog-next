@@ -6,125 +6,79 @@ tags: ["daily-brief", "rss"]
 slug: "daily-brief-2026-03-03"
 ---
 
-> 19 articles · 8.5/10 avg · 19 highlights (≥7.5)
+> 17 articles · 5.0/10 avg · 0 highlights (≥7.5)
 
-**1. [微延迟竟能让微分方程秒变震荡？](https://www.johndcook.com/blog/2026/03/02/small-delay/)** · 8.7/10 · johndcook
+**1. [Gemini 3.1 Flash-Lite](https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything)** · 5.0/10 · simonwillison
 
-用一张图告诉你，延迟τ只要超过0.4，指数衰减立刻秒变持续震荡，附可直接跑的Mathematica代码。
+Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out
 
-> 5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。
+**2. [Giving LLMs a personality is just good engineering](https://seangoedecke.com/giving-llms-a-personality/)** · 5.0/10 · seangoedecke
 
-**2. [30年老工具秒变网页神器？](https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything)** · 8.5/10 · simonwillison
 
-作者把C语言写的GIF压缩神器Gifsicle编译成WebAssembly，3分钟搭出在线拖拽优化页面，体积对比一键下载。
 
-> 用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。
+**3. [Apple Announces Updated Studio Display and All-New Studio Display XDR](https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/)** · 5.0/10 · daringfireball
 
-**3. [10美元抢先版！AI大神私享信泄露](https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything)** · 8.5/10 · simonwillison
+Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u
 
-Simon Willison 2月赞助者通讯曝光：Agentic Engineering草稿、Claude 4.6纠错实录与Kākāpō育种季独家笔记。
+**4. [New MacBook Air With M5](https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/)** · 5.0/10 · daringfireball
 
-> 每月10美元换AI前沿干货，提前一个月掌握大模型风向。
+Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so
 
-**4. [208K内存跑Mac？我造了台拇指电脑](https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/)** · 8.5/10 · jeffgeerling
+**5. [Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’](https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/)** · 5.0/10 · daringfireball
 
-作者用树莓派Pico复刻超迷你Macintosh，208K内存跑System 5.3，还能接键鼠玩经典游戏。
+Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further
 
-> 低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。
+**6. [Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips](https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/)** · 5.0/10 · daringfireball
 
-**5. [5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？](https://daringfireball.net/2026/03/hazeover)** · 8.5/10 · daringfireball
-
-作者亲测Alan.app与HazeOver，揭示如何用优雅方式瞬间定位前台窗口，提升macOS效率。
-
-> 用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。
-
-**6. [20年前被忽略的URL神设计，还在偷偷宠用户？](https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/)** · 8.5/10 · daringfireball
-
-作者拆解Flickr极简URL背后的交互魔法，揭示键盘党最爱的隐藏效率神器。
-
-> 一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。
+Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an
 
 ---
 
 **More articles from the past 24 hours:**
 
-**7. [一张图拖出两种格式？Safari 请求头藏了什么坑](https://underpassapp.com/news/2025/3/4.html)** · 8.5/10 · daringfireball
+**7. [Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/)** · 5.0/10 · daringfireball
 
-开发者 Jeff Johnson 用新扩展 ChangeTheHeaders 揭开 Safari 因 Accept 头导致 WebP/PNG 差异真相。
+Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are 
 
-> 搞清浏览器“undefined behavior”幕后机制，前端与爬虫都值得收藏。
+**8. [[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase](https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026)** · 5.0/10 · daringfireball
 
-**8. [苹果系统Bug连环爆：10年备份噩梦你中招了吗？](https://take.surf/2026/03/01/welcome-back-to-macintosh)** · 8.5/10 · daringfireball
+npx workos launches an AI agent , powered by Claude, that reads your project, detects your framework, and writes a complete auth integration directly 
 
-资深果粉亲述Time Machine、Spotlight、Finder等核心功能多年顽疾，揭示macOS体验滑坡真相。
+**9. [★ HazeOver — Mac Utility for Highlighting the Frontmost Window](https://daringfireball.net/2026/03/hazeover)** · 5.0/10 · daringfireball
 
-> 深度拆解苹果生态暗伤，给依赖Mac的用户一剂清醒剂与自救指南。
+What HazeOver does is highlight the active window by dimming all background windows. That’s it. But it does this simple task with aplomb, and it makes
 
-**9. [谷歌告SerpApi？它反手一招要撤诉](https://serpapi.com/blog/google-v-serpapi-motion-to-dismiss-why-were-in-the-right/)** · 8.5/10 · daringfireball
+**10. [Unsung Heroes: Flickr’s URLs Scheme](https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/)** · 5.0/10 · daringfireball
 
-SerpApi正式提交驳回动议，硬刚谷歌垄断指控，拆解“没人能拥有互联网”的法律逻辑。
+Marcin Wichary, writing at Unsung (which is just an incredibly good and fun weblog): Half of my education in URLs as user interface came from Flickr i
 
-> 围观小团队如何用法律武器反击巨头垄断，给所有爬虫与数据创业者划重点。
+**11. [‘Anthropic and Alignment’](https://stratechery.com/2026/anthropic-and-alignment/)** · 5.0/10 · daringfireball
 
-**10. [AI巨头竟成美军黑名单？](https://stratechery.com/2026/anthropic-and-alignment/)** · 8.5/10 · daringfireball
+Ben Thompson, writing at Stratechery: In fact, Amodei already answered the question: if nuclear weapons were developed by a private company, and that 
 
-Anthropic被五角大楼封杀背后，AI伦理与国家安全的终极博弈。
+**12. [Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)](https://pluralistic.net/2026/03/03/its-a-trap-2/)** · 5.0/10 · pluralistic
 
-> 用国际关系视角拆解AI监管暗战，看懂技术公司如何卷入大国博弈。
+Today's links Supreme Court saves artists from AI: Just because you're on their side, it doesn't mean they're on your side. Hey look at this: Delights
 
-**11. [五角大楼逼宫Anthropic，OpenAI躺赢？](https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9)** · 8.5/10 · daringfireball
+**13. [Game Review: Unravel Two ★★★⯪☆](https://shkspr.mobi/blog/2026/03/game-review-unravel-two/)** · 5.0/10 · shkspr.mobi
 
-特朗普政府因军事使用条款与Anthropic决裂，转向OpenAI，AI安全与军控博弈升级。
+My new year's resolution is to play more video games. Specifically co-operative games. I hate playing competitively; it's rubbish to achieve victory a
 
-> 独家揭示AI巨头与白宫的暗战，关乎未来军事AI主导权。
+**14. [Just for fun: A survey of write protect notches on floppy disks and other media](https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104)** · 5.0/10 · oldnewthing
 
-**12. [iPhone壳新色上线，你pick哪款？](https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/)** · 8.5/10 · daringfireball
+Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing
 
-苹果2026春季一口气更新iPhone壳、表带、斜挎绳配色，亮番石榴成C位。
+**15. [Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”](https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts)** · 5.0/10 · garymarcus
 
-> 第一时间看懂苹果春季配色风向，挑壳/选带不踩雷。
+LLMs are an epistemic nightmare
 
-**13. [M4芯iPad Air杀到！性能暴涨30%？](https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/)** · 8.5/10 · daringfireball
+**16. [How AGI-is-nigh doomers own-goaled humanity](https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled)** · 5.0/10 · garymarcus
 
-苹果突然发布M4版iPad Air，性能秒前代，价格却原地不动，3月11日开卖。
+The road to where we are now was (mostly) paved with good intentions — but mixed with too much uncritical acceptance of hype.
 
-> 性能大升级还加量不加价，想换平板得先看完这篇。
+**17. [An AI Odyssey, Part 1: Correctness Conundrum](https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/)** · 5.0/10 · johndcook
 
-**14. [599 元 256G 的 iPhone 来了？](https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/)** · 8.5/10 · daringfireball
-
-苹果发布史上最便宜 iPhone 17e，599 美元起却给 256G 存储 + A19 芯片
-
-> 想低价体验最新 A19 性能与卫星求救，这篇文章告诉你值不值
-
-**15. [AI写文被嫌弃？真相让人沉默](https://idiallo.com/blog/why-we-hate-llm-articles?src=feed)** · 8.5/10 · idiallo
-
-借“莫·塞缪尔”假托，作者揭示AI代笔与读者信任危机，犀利反思内容创作的价值与未来。
-
-> 一篇用故事包装的思考文，让你秒懂AI内容为何被反感，也照见创作者焦虑。
-
-**16. [转发AI聊天记录=公开自慰？](https://pluralistic.net/2026/03/02/nonconsensual-slopping/)** · 8.5/10 · pluralistic
-
-Cory Doctorow犀利吐槽：别把AI废话强加给别人，强行塞入公共对话既失礼又无效。
-
-> 帮你认清AI内容泛滥的社交雷区，学会尊重他人注意力。
-
-**17. [Mastodon登录也能玩？这招绝了！](https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/)** · 8.5/10 · shkspr.mobi
-
-用Auth0自定义连接，把去中心化Mastodon一键变成网站登录神器，作者亲授PHP脚本与完整配置。
-
-> 手把手教你绕过官方限制，让任何Mastodon实例秒变社交登录，开源代码直接抄。
-
-**18. [把IDCANCEL塞给非按钮？噩梦开始！](https://devblogs.microsoft.com/oldnewthing/20260302-53/?p=112098)** · 8.5/10 · oldnewthing
-
-对话框里把IDCANCEL硬塞给非按钮控件，系统会伪造BN_CLICKED消息，引发连锁误解析与调试噩梦。
-
-> 提前踩坑指南，避免对话框消息错乱带来的调试地狱。
-
-**19. [AI末日党反加速人类？真相炸锅](https://garymarcus.substack.com/p/how-agi-is-nigh-doomers-own-goaled)** · 8.5/10 · garymarcus
-
-Marcus炮轰“AGI近在咫尺”派：预言全错，反而帮政客打开潘多拉AI盒子。
-
-> 揭露末日叙事如何被现实政治反噬，对关心AI治理者必读。
+I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof
 
 ---
-*2026-03-03 00:03 UTC · Kimi K2 · 94 sources*
+*2026-03-03 22:12 UTC · Kimi K2 · 94 sources*
