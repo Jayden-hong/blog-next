@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-05",
-  "totalSources": 9,
-  "totalArticles": 80,
+  "date": "2026-03-06",
+  "totalSources": 10,
+  "totalArticles": 88,
   "allTags": [
     "AI",
     "AI代理",
@@ -49,7 +49,9 @@
     "iPhone 17e",
     "idiallo",
     "johndcook",
+    "lucumr-pocoo",
     "macOS",
+    "matklad",
     "oldnewthing",
     "pluralistic",
     "redis",
@@ -121,6 +123,110 @@
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a \"clean room\" implementation of",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
+      "url": "https://www.youtube.com/watch?v=U37Ds3RvyoM",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-05",
+      "description": "In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
+      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Today's links Blowtorching the frog: If I must have enemies, let them be impatient ones. Hey look at this: Delights to delectate. Object permanence: B",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared ",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "AI And The Ship of Theseus",
+      "url": "https://lucumr.pocoo.org/2026/3/5/theseus/",
+      "source": "lucumr-pocoo",
+      "author": "Armin Ronacher",
+      "date": "2026-03-05",
+      "description": "Because code gets cheaper and cheaper to write, this includes re-implementations. I mentioned recently that I had an AI port one of my libraries to an",
+      "tags": [
+        "lucumr-pocoo"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives",
+      "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "“The problem comes down to how A.I. chatbots are fundamentally designed”",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "JJ LSP Follow Up",
+      "url": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
+      "source": "matklad",
+      "author": "Alex Kladov",
+      "date": "2026-03-05",
+      "description": "In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol.",
+      "tags": [
+        "matklad"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
     {
       "title": "Anti-patterns: things to avoid",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
