@@ -9,7 +9,7 @@ export default function OfficePage() {
   return (
     <div style={{ width: '100%', height: '100vh', margin: 0, padding: 0 }}>
       <iframe 
-        src="/office-zucchini.html" 
+        src="/office.html" 
         style={{ width: '100%', height: '100%', border: 'none' }}
         title="Zucchini Office"
       />
