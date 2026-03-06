@@ -7,6 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function OfficePage() {
-  // 直接重定向到静态 HTML 文件
-  redirect('/office.html');
+  // 使用简化版离线页面（避免 HTTPS/HTTP 混合内容问题）
+  redirect('/office-v2.html');
 }
