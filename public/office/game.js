@@ -1,5 +1,5 @@
 // API 配置 - 指向后端服务器
-const API_BASE = "http://34.220.93.56:18791";
+const API_BASE = "";  // 使用相对路径或空（同域）
 
 // Star Office UI - 游戏主逻辑
 // 依赖: layout.js（必须在这个之前加载）
