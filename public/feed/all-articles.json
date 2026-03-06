@@ -1,15 +1,60 @@
 {
-  "date": "2026-03-05",
-  "totalSources": 219,
-  "totalArticles": 128,
+  "date": "2026-03-06",
+  "totalSources": 226,
+  "totalArticles": 131,
   "articles": [
     {
-      "title": "Anti-patterns: things to avoid",
+      "title": "只用一行标题，他就骗AI发布了恶意软件",
+      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "攻击者通过构造恶意GitHub Issue标题注入Prompt，诱导AI执行命令，利用GitHub Actions缓存投毒机制窃取发布密钥，最终成功发布恶意版本。",
+      "tags": [
+        "AI安全",
+        "供应链攻击",
+        "Prompt Injection"
+      ],
+      "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
+      "score": 8.8
+    },
+    {
+      "title": "AI代码直接提交？这是团队最大的隐形杀手",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-04",
-      "description": "Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co",
+      "description": "AI编程时代的第一条铁律：绝不要把未经审查的AI生成代码丢给同事Review。Simon Willison详述Agentic Engineering中最危险的反模式。",
+      "tags": [
+        "AI辅助编程",
+        "代码审查",
+        "软件工程"
+      ],
+      "recommendReason": "直指AI编程最易被忽视的团队协作陷阱，提供了可立即落地的代码审查责任清单。",
+      "score": 8.6
+    },
+    {
+      "title": "AI几小时重写代码，就能规避开源协议？原作者怒揭真相",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "chardet库维护者声称用AI完全重写代码并改为MIT许可，原作者Mark Pilgrim指出这违反LGPL，揭开AI时代开源许可证执行的新难题。",
+      "tags": [
+        "开源协议",
+        "AI编程",
+        "软件版权"
+      ],
+      "recommendReason": "揭示AI编程时代开源许可证执行的法律灰色地带，对开发者和法务人员具有重要警示意义。",
+      "score": 8.5
+    },
+    {
+      "title": "Introducing GPT‑5.4",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio",
       "tags": [
         "simonwillison"
       ],
@@ -1844,6 +1889,7 @@
     "AI编程",
     "AI自动化",
     "AI辅助",
+    "AI辅助编程",
     "Anthropic",
     "BlackHatWorld",
     "Block",
@@ -1866,6 +1912,7 @@
     "OpenAI",
     "Pebble",
     "Pebble手表",
+    "Prompt Injection",
     "RLVR",
     "Radiation Detection",
     "Raspberry Pi",
@@ -1907,10 +1954,12 @@
     "产品更新",
     "人工智能",
     "付费服务",
+    "代码审查",
     "代码质量",
     "企业文化",
     "伦理责任",
     "估值争议",
+    "供应链攻击",
     "健康",
     "僵尸网络",
     "免费工具",
@@ -1943,6 +1992,7 @@
     "应用程序开发",
     "开发者",
     "开源",
+    "开源协议",
     "微软",
     "微软补丁",
     "性能优化",
@@ -2036,7 +2086,9 @@
     "误靶向",
     "身份认同",
     "软件2.0",
+    "软件工程",
     "软件开发",
+    "软件版权",
     "进化",
     "通行密钥",
     "逼近算法",

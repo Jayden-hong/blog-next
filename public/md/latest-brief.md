@@ -1,28 +1,28 @@
 ﻿---
-title: "Daily Read · --help"
-date: "--helpT06:00:00Z"
+title: "Daily Read · 2026-03-06"
+date: "2026-03-06T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
 slug: "latest-brief"
 ---
 
-> 25 articles · 5.0/10 avg · 0 highlights (≥7.5)
+> 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
 
-**1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything)** · 5.0/10 · simonwillison
+**1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/#atom-everything)** · 5.0/10 · simonwillison
+
+Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a "clean room" implementation of
+
+**2. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything)** · 5.0/10 · simonwillison
 
 Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co
 
-**2. [Something is afoot in the land of Qwen](https://simonwillison.net/2026/Mar/4/qwen/#atom-everything)** · 5.0/10 · simonwillison
+**3. [Something is afoot in the land of Qwen](https://simonwillison.net/2026/Mar/4/qwen/#atom-everything)** · 5.0/10 · simonwillison
 
 I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop
 
-**3. [Quoting Donald Knuth](https://simonwillison.net/2026/Mar/3/donald-knuth/#atom-everything)** · 5.0/10 · simonwillison
+**4. [Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’](https://www.youtube.com/watch?v=U37Ds3RvyoM)** · 5.0/10 · daringfireball
 
-Shock! Shock! I learned yesterday that an open problem I'd been working on for several weeks had just been solved by Claude Opus 4.6 - Anthropic's hyb
-
-**4. [Gemini 3.1 Flash-Lite](https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything)** · 5.0/10 · simonwillison
-
-Gemini 3.1 Flash-Lite Google's latest model is an update to their inexpensive Flash-Lite family. At $0.25/million tokens of input and $1.5/million out
+In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor
 
 **5. [★ Thoughts and Observations on the MacBook Neo](https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo)** · 5.0/10 · daringfireball
 
@@ -48,69 +48,57 @@ Jason Snell, Six Colors: Here’s the backstory: With every new generation of Ap
 
 Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u
 
-**10. [New MacBook Air With M5](https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/)** · 5.0/10 · daringfireball
-
-Apple Newsroom: MacBook Air now comes standard with double the starting storage at 512GB with faster SSD technology, and is configurable up to 4TB, so
-
-**11. [Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’](https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/)** · 5.0/10 · daringfireball
-
-Joe Rossignol, MacRumors: A regulatory document for a “MacBook Neo” (Model A3404) has appeared on Apple’s website. Unfortunately, there are no further
-
-**12. [Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips](https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/)** · 5.0/10 · daringfireball
+**10. [Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips](https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/)** · 5.0/10 · daringfireball
 
 Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an
 
-**13. [Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/)** · 5.0/10 · daringfireball
+**11. [Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/)** · 5.0/10 · daringfireball
 
 Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are 
 
-**14. [[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase](https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026)** · 5.0/10 · daringfireball
-
-npx workos launches an AI agent , powered by Claude, that reads your project, detects your framework, and writes a complete auth integration directly 
-
-**15. [Interruption-Driven Development](https://idiallo.com/blog/interruption-driven-development?src=feed)** · 5.0/10 · idiallo
+**12. [Interruption-Driven Development](https://idiallo.com/blog/interruption-driven-development?src=feed)** · 5.0/10 · idiallo
 
 I have a hard time listening to music while working. I know a lot of people do it, but whenever I need to focus on a problem, I have to hunt down the 
 
-**16. [Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)](https://pluralistic.net/2026/03/03/its-a-trap-2/)** · 5.0/10 · pluralistic
+**13. [Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction](https://pluralistic.net/2026/03/05/executive-dysfunction/)** · 5.0/10 · pluralistic
 
-Today's links Supreme Court saves artists from AI: Just because you're on their side, it doesn't mean they're on your side. Hey look at this: Delights
+Today's links Blowtorching the frog: If I must have enemies, let them be impatient ones. Hey look at this: Delights to delectate. Object permanence: B
 
-**17. [How many hours do you need to work to afford a pint of beer?](https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/)** · 5.0/10 · shkspr.mobi
+**14. [Book Review: Katabasis by R. F. Kuang ★★★★⯪](https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/)** · 5.0/10 · shkspr.mobi
+
+I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t
+
+**15. [How many hours do you need to work to afford a pint of beer?](https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/)** · 5.0/10 · shkspr.mobi
 
 I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in 
 
-**18. [Game Review: Unravel Two ★★★⯪☆](https://shkspr.mobi/blog/2026/03/game-review-unravel-two/)** · 5.0/10 · shkspr.mobi
+**16. [The mystery of the posted message that was dispatched before reaching the main message loop](https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114)** · 5.0/10 · oldnewthing
 
-My new year's resolution is to play more video games. Specifically co-operative games. I hate playing competitively; it's rubbish to achieve victory a
+Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared 
 
-**19. [Maybe there’s a pattern here?](https://dynomight.net/pattern/)** · 5.0/10 · dynomight
-
-Inventors and impacts
-
-**20. [Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails](https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110)** · 5.0/10 · oldnewthing
+**17. [Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails](https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110)** · 5.0/10 · oldnewthing
 
 Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query­Performance­Co
 
-**21. [Just for fun: A survey of write protect notches on floppy disks and other media](https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104)** · 5.0/10 · oldnewthing
+**18. [AI And The Ship of Theseus](https://lucumr.pocoo.org/2026/3/5/theseus/)** · 5.0/10 · lucumr-pocoo
 
-Just some useless trivia. The post Just for fun: A survey of write protect notches on floppy disks and other media appeared first on The Old New Thing
+Because code gets cheaper and cheaper to write, this includes re-implementations. I mentioned recently that I had an AI port one of my libraries to an
 
-**22. [Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”](https://garymarcus.substack.com/p/breaking-sycophantic-ai-distorts)** · 5.0/10 · garymarcus
+**19. [Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives](https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your)** · 5.0/10 · garymarcus
 
-LLMs are an epistemic nightmare
+“The problem comes down to how A.I. chatbots are fundamentally designed”
 
-**23. [From logistic regression to AI](https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/)** · 5.0/10 · johndcook
+**20. [From logistic regression to AI](https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/)** · 5.0/10 · johndcook
 
 It is sometimes said that neural networks are “just” logistic regression. (Remember neural networks? LLMs are neural networks, but nobody talks about 
 
-**24. [An AI Odyssey, Part 2: Prompting Peril](https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/)** · 5.0/10 · johndcook
+**21. [An AI Odyssey, Part 2: Prompting Peril](https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/)** · 5.0/10 · johndcook
 
 I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improv
 
-**25. [An AI Odyssey, Part 1: Correctness Conundrum](https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/)** · 5.0/10 · johndcook
+**22. [JJ LSP Follow Up](https://matklad.github.io/2026/03/05/jj-lsp-followup.html)** · 5.0/10 · matklad
 
-I recently talked with a contact who repeated what he’d heard regarding agentic AI systems—namely, that they can greatly increase productivity in prof
+In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol.
 
 ---
-*2026-03-05 08:18 UTC · Kimi K2 · 94 sources*
+*2026-03-06 02:52 UTC · Kimi K2 · 94 sources*

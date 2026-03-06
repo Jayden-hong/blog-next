@@ -5,10 +5,76 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 08:30:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 05:04:24 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
+    <item>
+      <title>每日观点 · 2026年3月6日</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-06/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-06/</guid>
+      <pubDate>Fri, 06 Mar 2026 08:00:00 GMT</pubDate>
+    <category>每日观点</category>
+    <category>深度分析</category>
+    <category>AI竞争</category>
+    <category>硬件趋势</category>
+      <description>
+核心观点：
+苹果M5芯片全产品线布局与Gemini 3.1 Flash-Lite大幅降价同时发生，标志着AI硬件与模型成本进入&quot;双轨竞争&quot;新阶段，端侧算力与云端推理的性价比同时达到临界点。
+
+现象解读：
+苹果在同一天将M5芯片覆盖MacBook Air、Pro、Studio全系，并推出MacBook Neo新分支，半年迭代节奏明显提速。与此同时，Google将Gemini 3.1</description>
+      <content:encoded><![CDATA[
+        <p>
+核心观点：
+苹果M5芯片全产品线布局与Gemini 3.1 Flash-Lite大幅降价同时发生，标志着AI硬件与模型成本进入"双轨竞争"新阶段，端侧算力与云端推理的性价比同时达到临界点。
+
+现象解读：
+苹果在同一天将M5芯片覆盖MacBook Air、Pro、Studio全系，并推出MacBook Neo新分支，半年迭代节奏明显提速。与此同时，Google将Gemini 3.1</p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-06.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-06/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-03-06</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-06/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-06/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
+
+1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/atom-ever</description>
+      <content:encoded><![CDATA[
+        <p>
+> 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
+
+1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/atom-ever</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-06.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-06/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-03-06</title>
+      <link>https://blog.zucchini.win/blog/latest-brief/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
+      <pubDate>Fri, 06 Mar 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
+
+1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/atom-ever</description>
+      <content:encoded><![CDATA[
+        <p>
+> 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
+
+1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/atom-ever</p>
+        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
     <item>
       <title>Daily Read · 2026-03-05</title>
       <link>https://blog.zucchini.win/blog/daily-brief-2026-03-05/</link>

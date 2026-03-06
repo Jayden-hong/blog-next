@@ -1,28 +1,60 @@
 {
   "date": "2026-03-06",
-  "totalSources": 10,
-  "totalArticles": 22,
+  "totalSources": 1,
+  "totalArticles": 5,
   "highlights": [
     {
-      "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
-      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "title": "只用一行标题，他就骗AI发布了恶意软件",
+      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-05",
-      "description": "Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a \"clean room\" implementation of",
+      "date": "2026-03-06",
+      "description": "攻击者通过构造恶意GitHub Issue标题注入Prompt，诱导AI执行命令，利用GitHub Actions缓存投毒机制窃取发布密钥，最终成功发布恶意版本。",
       "tags": [
-        "simonwillison"
+        "AI安全",
+        "供应链攻击",
+        "Prompt Injection"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
+      "score": 8.8
     },
     {
-      "title": "Anti-patterns: things to avoid",
+      "title": "AI代码直接提交？这是团队最大的隐形杀手",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-04",
-      "description": "Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co",
+      "description": "AI编程时代的第一条铁律：绝不要把未经审查的AI生成代码丢给同事Review。Simon Willison详述Agentic Engineering中最危险的反模式。",
+      "tags": [
+        "AI辅助编程",
+        "代码审查",
+        "软件工程"
+      ],
+      "recommendReason": "直指AI编程最易被忽视的团队协作陷阱，提供了可立即落地的代码审查责任清单。",
+      "score": 8.6
+    },
+    {
+      "title": "AI几小时重写代码，就能规避开源协议？原作者怒揭真相",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "chardet库维护者声称用AI完全重写代码并改为MIT许可，原作者Mark Pilgrim指出这违反LGPL，揭开AI时代开源许可证执行的新难题。",
+      "tags": [
+        "开源协议",
+        "AI编程",
+        "软件版权"
+      ],
+      "recommendReason": "揭示AI编程时代开源许可证执行的法律灰色地带，对开发者和法务人员具有重要警示意义。",
+      "score": 8.5
+    },
+    {
+      "title": "Introducing GPT‑5.4",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio",
       "tags": [
         "simonwillison"
       ],
@@ -38,45 +70,6 @@
       "description": "I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop",
       "tags": [
         "simonwillison"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
-      "url": "https://www.youtube.com/watch?v=U37Ds3RvyoM",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-05",
-      "description": "In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "★ Thoughts and Observations on the MacBook Neo",
-      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-05",
-      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Studio Display vs. Studio Display XDR",
-      "url": "https://www.apple.com/displays/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Not sure if this page was there yesterday, but the main “Displays” page at Apple’s website is a spec-by-spec comparison between the regular and XDR mo",
-      "tags": [
-        "daringfireball"
       ],
       "recommendReason": "",
       "score": 5.0
@@ -84,25 +77,57 @@
   ],
   "articles": [
     {
-      "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
-      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "title": "只用一行标题，他就骗AI发布了恶意软件",
+      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-05",
-      "description": "Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a \"clean room\" implementation of",
+      "date": "2026-03-06",
+      "description": "攻击者通过构造恶意GitHub Issue标题注入Prompt，诱导AI执行命令，利用GitHub Actions缓存投毒机制窃取发布密钥，最终成功发布恶意版本。",
       "tags": [
-        "simonwillison"
+        "AI安全",
+        "供应链攻击",
+        "Prompt Injection"
       ],
-      "recommendReason": "",
-      "score": 5.0
+      "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
+      "score": 8.8
     },
     {
-      "title": "Anti-patterns: things to avoid",
+      "title": "AI代码直接提交？这是团队最大的隐形杀手",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-04",
-      "description": "Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co",
+      "description": "AI编程时代的第一条铁律：绝不要把未经审查的AI生成代码丢给同事Review。Simon Willison详述Agentic Engineering中最危险的反模式。",
+      "tags": [
+        "AI辅助编程",
+        "代码审查",
+        "软件工程"
+      ],
+      "recommendReason": "直指AI编程最易被忽视的团队协作陷阱，提供了可立即落地的代码审查责任清单。",
+      "score": 8.6
+    },
+    {
+      "title": "AI几小时重写代码，就能规避开源协议？原作者怒揭真相",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "chardet库维护者声称用AI完全重写代码并改为MIT许可，原作者Mark Pilgrim指出这违反LGPL，揭开AI时代开源许可证执行的新难题。",
+      "tags": [
+        "开源协议",
+        "AI编程",
+        "软件版权"
+      ],
+      "recommendReason": "揭示AI编程时代开源许可证执行的法律灰色地带，对开发者和法务人员具有重要警示意义。",
+      "score": 8.5
+    },
+    {
+      "title": "Introducing GPT‑5.4",
+      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio",
       "tags": [
         "simonwillison"
       ],
@@ -118,253 +143,6 @@
       "description": "I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop",
       "tags": [
         "simonwillison"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
-      "url": "https://www.youtube.com/watch?v=U37Ds3RvyoM",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-05",
-      "description": "In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "★ Thoughts and Observations on the MacBook Neo",
-      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-05",
-      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Studio Display vs. Studio Display XDR",
-      "url": "https://www.apple.com/displays/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Not sure if this page was there yesterday, but the main “Displays” page at Apple’s website is a spec-by-spec comparison between the regular and XDR mo",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Compatibility Notes on the New Studio Displays",
-      "url": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Juli Clover, at MacRumors, notes that neither the new Studio Display nor the Studio Display XDR are compatible with Intel-based Macs . (I’m curious wh",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
-      "url": "https://sixcolors.com/post/2026/03/apple-gives-in-to-temptation-and-renames-its-cpu-cores/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Jason Snell, Six Colors: Here’s the backstory: With every new generation of Apple’s Mac-series processors, I’ve gotten the impression from Apple execs",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are ",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Interruption-Driven Development",
-      "url": "https://idiallo.com/blog/interruption-driven-development?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-04",
-      "description": "I have a hard time listening to music while working. I know a lot of people do it, but whenever I need to focus on a problem, I have to hunt down the ",
-      "tags": [
-        "idiallo"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
-      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "Today's links Blowtorching the frog: If I must have enemies, let them be impatient ones. Hey look at this: Delights to delectate. Object permanence: B",
-      "tags": [
-        "pluralistic"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
-      "url": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t",
-      "tags": [
-        "shkspr.mobi"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "How many hours do you need to work to afford a pint of beer?",
-      "url": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-04",
-      "description": "I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in ",
-      "tags": [
-        "shkspr.mobi"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared ",
-      "tags": [
-        "oldnewthing"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-04",
-      "description": "Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query­Performance­Co",
-      "tags": [
-        "oldnewthing"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "AI And The Ship of Theseus",
-      "url": "https://lucumr.pocoo.org/2026/3/5/theseus/",
-      "source": "lucumr-pocoo",
-      "author": "Armin Ronacher",
-      "date": "2026-03-05",
-      "description": "Because code gets cheaper and cheaper to write, this includes re-implementations. I mentioned recently that I had an AI port one of my libraries to an",
-      "tags": [
-        "lucumr-pocoo"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives",
-      "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
-      "source": "garymarcus",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "“The problem comes down to how A.I. chatbots are fundamentally designed”",
-      "tags": [
-        "garymarcus"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "From logistic regression to AI",
-      "url": "https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-04",
-      "description": "It is sometimes said that neural networks are “just” logistic regression. (Remember neural networks? LLMs are neural networks, but nobody talks about ",
-      "tags": [
-        "johndcook"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "An AI Odyssey, Part 2: Prompting Peril",
-      "url": "https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-04",
-      "description": "I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improv",
-      "tags": [
-        "johndcook"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "JJ LSP Follow Up",
-      "url": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
-      "source": "matklad",
-      "author": "Alex Kladov",
-      "date": "2026-03-05",
-      "description": "In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol.",
-      "tags": [
-        "matklad"
       ],
       "recommendReason": "",
       "score": 5.0
