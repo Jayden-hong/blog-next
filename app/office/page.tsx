@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Zucchini Office | Zucchini',
@@ -7,6 +6,13 @@ export const metadata: Metadata = {
 };
 
 export default function OfficePage() {
-  // 使用定制版页面（Zucchini 专属）
-  redirect('/office-zucchini.html');
+  return (
+    <div style={{ width: '100%', height: '100vh', margin: 0, padding: 0 }}>
+      <iframe 
+        src="/office-zucchini.html" 
+        style={{ width: '100%', height: '100%', border: 'none' }}
+        title="Zucchini Office"
+      />
+    </div>
+  );
 }
