@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
   title: 'Star Office | Zucchini',
@@ -6,13 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function OfficePage() {
-  return (
-    <div className="w-full h-screen">
-      <iframe 
-        src="/office/index.html" 
-        className="w-full h-full border-0"
-        title="Star Office"
-      />
-    </div>
-  );
+  // 直接重定向到静态 HTML 文件
+  redirect('/office.html');
 }

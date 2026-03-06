@@ -5,7 +5,7 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 05:49:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 09:34:56 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
@@ -73,26 +73,6 @@
 1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/atom-ever</p>
         <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-05</title>
-      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-05/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-05/</guid>
-      <pubDate>Thu, 05 Mar 2026 06:00:00 GMT</pubDate>
-    <category>daily-brief</category>
-    <category>rss</category>
-      <description>
-&gt; 25 articles · 5.0/10 avg · 0 highlights (≥7.5)
-
-1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/atom-everything) · 5.0/10 · simo</description>
-      <content:encoded><![CDATA[
-        <p>
-> 25 articles · 5.0/10 avg · 0 highlights (≥7.5)
-
-1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/atom-everything) · 5.0/10 · simo</p>
-        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-05.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-05/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

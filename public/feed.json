@@ -43,18 +43,6 @@
         "rss"
       ],
       "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-05/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-05/",
-      "title": "Daily Read · 2026-03-05",
-      "content_text": "\n> 25 articles · 5.0/10 avg · 0 highlights (≥7.5)\n\n1. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/atom-everything) · 5.0/10 · simo",
-      "date_published": "2026-03-05T06:00:00Z",
-      "tags": [
-        "daily-brief",
-        "rss"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-05.md"
     }
   ]
 }
