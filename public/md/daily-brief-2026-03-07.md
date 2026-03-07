@@ -1,7 +1,9 @@
----
+﻿---
 title: "Daily Read · 2026-03-07"
 date: "2026-03-07T06:00:00Z"
+author: "Jayden"
 tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-07"
 ---
 
 > 16 articles · 6.8/10 avg · 8 highlights (≥7.5)
@@ -91,5 +93,4 @@ Hard-won wisdom from a week of fluorescent lights and beeping machines.
 “The problem comes down to how A.I. chatbots are fundamentally designed”
 
 ---
-*2026-03-07 15:37 UTC · Kimi K2 · 94 sources*
-
+*2026-03-07 00:15 UTC · Kimi K2 · 94 sources*

@@ -1,104 +1,96 @@
 ﻿---
-title: "Daily Read · 2026-03-06"
-date: "2026-03-06T06:00:00Z"
+title: "Daily Read · 2026-03-07"
+date: "2026-03-07T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
 slug: "latest-brief"
 ---
 
-> 22 articles · 5.0/10 avg · 0 highlights (≥7.5)
+> 16 articles · 6.8/10 avg · 8 highlights (≥7.5)
 
-**1. [Can coding agents relicense open source through a “clean room” implementation of code?](https://simonwillison.net/2026/Mar/5/chardet/#atom-everything)** · 5.0/10 · simonwillison
+**1. [一个Issue标题劫持AI发布系统？](https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything)** · 8.8/10 · simonwillison
 
-Over the past few months it's become clear that coding agents are extraordinarily good at building a weird version of a "clean room" implementation of
+黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。
 
-**2. [Anti-patterns: things to avoid](https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything)** · 5.0/10 · simonwillison
+> 揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。
 
-Agentic Engineering Patterns > There are some behaviors that are anti-patterns in our weird new world of agentic engineering. Inflicting unreviewed co
+**2. [周五敢部署吗？Rails代码审计的灵魂拷问](https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything)** · 8.5/10 · simonwillison
 
-**3. [Something is afoot in the land of Qwen](https://simonwillison.net/2026/Mar/4/qwen/#atom-everything)** · 5.0/10 · simonwillison
+Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。
 
-I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop
+> 一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。
 
-**4. [Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’](https://www.youtube.com/watch?v=U37Ds3RvyoM)** · 5.0/10 · daringfireball
+**3. [AI写的代码通过了测试，为什么还会崩溃？](https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything)** · 8.5/10 · simonwillison
 
-In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor
+别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。
 
-**5. [★ Thoughts and Observations on the MacBook Neo](https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo)** · 5.0/10 · daringfireball
+> 填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。
 
-The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent
+**4. [维护13年后，他用AI把LGPL代码改成了MIT](https://simonwillison.net/2026/Mar/5/chardet/#atom-everything)** · 8.5/10 · simonwillison
 
-**6. [Studio Display vs. Studio Display XDR](https://www.apple.com/displays/)** · 5.0/10 · daringfireball
+AI编程助手几小时完成传统需数月的"洁净室"重写，chardet库维护者试图将协议从LGPL改为MIT，原作者怒斥侵权，揭开AI时代开源许可的法律灰色地带。
 
-Not sure if this page was there yesterday, but the main “Displays” page at Apple’s website is a spec-by-spec comparison between the regular and XDR mo
+> 这是AI时代开源社区面临的全新法律挑战，关乎每一位开发者的代码所有权与使用权边界。
+
+**5. [软件工程正在消亡？亲历者的十年生存预警](https://seangoedecke.com/will-my-job-still-exist/)** · 8.5/10 · seangoedecke
+
+资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。
+
+> 来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。
+
+**6. [比温水煮青蛙更可怕的，是这种'慢动作'认知盲区](https://pluralistic.net/2026/03/05/executive-dysfunction/)** · 8.5/10 · pluralistic
+
+借用致命路口的几何隐喻与'煮青蛙'寓言，剖析人类为何对气候危机等渐进式灾难存在系统性认知盲区，直到为时已晚才察觉危险。
+
+> 揭示那些'看得见却想不到'的致命风险，帮你建立对渐进式危机的敏锐嗅觉。
 
 ---
 
 **More articles from the past 24 hours:**
 
-**7. [Compatibility Notes on the New Studio Displays](https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/)** · 5.0/10 · daringfireball
+**7. [监控文件删除却拿不到属性？Windows API这个坑怎么填](https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116)** · 8.5/10 · oldnewthing
 
-Juli Clover, at MacRumors, notes that neither the new Studio Display nor the Studio Display XDR are compatible with Intel-based Macs . (I’m curious wh
+解析ReadDirectoryChangesW在文件删除时仅返回文件名的限制，介绍通过内存缓存或ReadDirectoryChangesExW获取被删文件详细信息的解决方案。
 
-**8. [‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’](https://sixcolors.com/post/2026/03/apple-gives-in-to-temptation-and-renames-its-cpu-cores/)** · 5.0/10 · daringfireball
+> Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。
 
-Jason Snell, Six Colors: Here’s the backstory: With every new generation of Apple’s Mac-series processors, I’ve gotten the impression from Apple execs
+**8. [你的消息被“截胡”了？揭秘Windows消息循环隐藏陷阱](https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114)** · 8.5/10 · oldnewthing
 
-**9. [Apple Announces Updated Studio Display and All-New Studio Display XDR](https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/)** · 5.0/10 · daringfireball
+解析Windows消息机制常见误区：PostMessage的消息为何在到达主循环前就被处理？揭示GetMessage/PeekMessage可在任意代码点分发消息的底层原理。
 
-Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u
+> Raymond Chen深度剖析Windows消息分发机制，帮你避免初始化阶段的竞争条件陷阱。
 
-**10. [Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips](https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/)** · 5.0/10 · daringfireball
+**9. [Anthropic and the Pentagon](https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything)** · 5.0/10 · simonwillison
 
-Apple Newsroom: Apple today announced the latest 14- and 16-inch MacBook Pro with the all-new M5 Pro and M5 Max, bringing game-changing performance an
+Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and
 
-**11. [Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/)** · 5.0/10 · daringfireball
+**10. [Introducing GPT‑5.4](https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything)** · 5.0/10 · simonwillison
 
-Apple Newsroom: Apple today announced M5 Pro and M5 Max, the world’s most advanced chips for pro laptops, powering the new MacBook Pro. The chips are 
+Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio
 
-**12. [Interruption-Driven Development](https://idiallo.com/blog/interruption-driven-development?src=feed)** · 5.0/10 · idiallo
+**11. [A PTP Wall Clock is impractical and a little too precise](https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/)** · 5.0/10 · jeffgeerling
 
-I have a hard time listening to music while working. I know a lot of people do it, but whenever I need to focus on a problem, I have to hunt down the 
+After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock h
 
-**13. [Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction](https://pluralistic.net/2026/03/05/executive-dysfunction/)** · 5.0/10 · pluralistic
+**12. [It Depends](https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed)** · 5.0/10 · idiallo
 
-Today's links Blowtorching the frog: If I must have enemies, let them be impatient ones. Hey look at this: Delights to delectate. Object permanence: B
+That's the answer I would always get from the lead developer on my team, many years ago. I wanted clear, concise answers from someone with experience,
+
+**13. [Firmware Update for the Treedix TRX5-0816 Cable Tester](https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/)** · 5.0/10 · shkspr.mobi
+
+Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few mino
 
 **14. [Book Review: Katabasis by R. F. Kuang ★★★★⯪](https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/)** · 5.0/10 · shkspr.mobi
 
 I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t
 
-**15. [How many hours do you need to work to afford a pint of beer?](https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/)** · 5.0/10 · shkspr.mobi
+**15. [Advice for staying in the hospital for a week](https://xeiaso.net/blog/2026/hospital-advice/)** · 5.0/10 · xeiaso
 
-I dropped into a pub in central London and ordered two pints of draught beer. Obviously the price of everything is nuts these days - and doubly so in 
+Hard-won wisdom from a week of fluorescent lights and beeping machines.
 
-**16. [The mystery of the posted message that was dispatched before reaching the main message loop](https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114)** · 5.0/10 · oldnewthing
-
-Perhaps it's because you dispatched it. The post The mystery of the posted message that was dispatched before reaching the main message loop appeared 
-
-**17. [Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails](https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110)** · 5.0/10 · oldnewthing
-
-Of course, anything can happen if you break the rules. The post Aha, I found a counterexample to the documentation that says that Query­Performance­Co
-
-**18. [AI And The Ship of Theseus](https://lucumr.pocoo.org/2026/3/5/theseus/)** · 5.0/10 · lucumr-pocoo
-
-Because code gets cheaper and cheaper to write, this includes re-implementations. I mentioned recently that I had an AI port one of my libraries to an
-
-**19. [Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives](https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your)** · 5.0/10 · garymarcus
+**16. [Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives](https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your)** · 5.0/10 · garymarcus
 
 “The problem comes down to how A.I. chatbots are fundamentally designed”
 
-**20. [From logistic regression to AI](https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/)** · 5.0/10 · johndcook
-
-It is sometimes said that neural networks are “just” logistic regression. (Remember neural networks? LLMs are neural networks, but nobody talks about 
-
-**21. [An AI Odyssey, Part 2: Prompting Peril](https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/)** · 5.0/10 · johndcook
-
-I was working with a colleague recently on a project involving the use of the OpenAI API. I brought up the idea that, perhaps it is possible to improv
-
-**22. [JJ LSP Follow Up](https://matklad.github.io/2026/03/05/jj-lsp-followup.html)** · 5.0/10 · matklad
-
-In Majjit LSP, I described an idea of implementing Magit style UX for jj once and for all, leveraging LSP protocol.
-
 ---
-*2026-03-06 02:52 UTC · Kimi K2 · 94 sources*
+*2026-03-07 00:15 UTC · Kimi K2 · 94 sources*

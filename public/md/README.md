@@ -13,6 +13,7 @@ Clean markdown versions of all articles. Perfect for AI consumption.
 - [daily-brief-2026-03-04](/md/daily-brief-2026-03-04.md)
 - [daily-brief-2026-03-05](/md/daily-brief-2026-03-05.md)
 - [daily-brief-2026-03-06](/md/daily-brief-2026-03-06.md)
+- [daily-brief-2026-03-07](/md/daily-brief-2026-03-07.md)
 - [daily-thoughts-2026-02-28](/md/daily-thoughts-2026-02-28.md)
 - [daily-thoughts-2026-03-01](/md/daily-thoughts-2026-03-01.md)
 - [daily-thoughts-2026-03-02](/md/daily-thoughts-2026-03-02.md)

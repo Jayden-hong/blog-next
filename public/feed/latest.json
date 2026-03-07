@@ -1,125 +1,232 @@
 {
-  "date": "2026-03-06",
-  "totalSources": 1,
-  "totalArticles": 5,
+  "date": "2026-03-07",
+  "totalSources": 9,
+  "totalArticles": 16,
   "highlights": [
     {
-      "title": "只用一行标题，他就骗AI发布了恶意软件",
+      "title": "一个Issue标题劫持AI发布系统？",
       "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "攻击者通过构造恶意GitHub Issue标题注入Prompt，诱导AI执行命令，利用GitHub Actions缓存投毒机制窃取发布密钥，最终成功发布恶意版本。",
+      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
       "tags": [
         "AI安全",
-        "供应链攻击",
-        "Prompt Injection"
+        "提示词注入",
+        "供应链攻击"
       ],
-      "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
+      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
       "score": 8.8
     },
     {
-      "title": "AI代码直接提交？这是团队最大的隐形杀手",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
+      "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-04",
-      "description": "AI编程时代的第一条铁律：绝不要把未经审查的AI生成代码丢给同事Review。Simon Willison详述Agentic Engineering中最危险的反模式。",
+      "date": "2026-03-06",
+      "description": "Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。",
       "tags": [
-        "AI辅助编程",
-        "代码审查",
-        "软件工程"
+        "Rails",
+        "代码审计",
+        "技术债务"
       ],
-      "recommendReason": "直指AI编程最易被忽视的团队协作陷阱，提供了可立即落地的代码审查责任清单。",
-      "score": 8.6
+      "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
+      "score": 8.5
     },
     {
-      "title": "AI几小时重写代码，就能规避开源协议？原作者怒揭真相",
+      "title": "AI写的代码通过了测试，为什么还会崩溃？",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。",
+      "tags": [
+        "AI编程",
+        "软件测试",
+        "Agent"
+      ],
+      "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
+      "score": 8.5
+    },
+    {
+      "title": "维护13年后，他用AI把LGPL代码改成了MIT",
       "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-05",
-      "description": "chardet库维护者声称用AI完全重写代码并改为MIT许可，原作者Mark Pilgrim指出这违反LGPL，揭开AI时代开源许可证执行的新难题。",
+      "description": "AI编程助手几小时完成传统需数月的\"洁净室\"重写，chardet库维护者试图将协议从LGPL改为MIT，原作者怒斥侵权，揭开AI时代开源许可的法律灰色地带。",
       "tags": [
         "开源协议",
-        "AI编程",
-        "软件版权"
+        "AI编程助手",
+        "法律争议"
       ],
-      "recommendReason": "揭示AI编程时代开源许可证执行的法律灰色地带，对开发者和法务人员具有重要警示意义。",
+      "recommendReason": "这是AI时代开源社区面临的全新法律挑战，关乎每一位开发者的代码所有权与使用权边界。",
       "score": 8.5
     },
     {
-      "title": "Introducing GPT‑5.4",
-      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
-      "source": "simonwillison",
+      "title": "软件工程正在消亡？亲历者的十年生存预警",
+      "url": "https://seangoedecke.com/will-my-job-still-exist/",
+      "source": "seangoedecke",
       "author": "",
-      "date": "2026-03-05",
-      "description": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio",
+      "date": "2026-03-06",
+      "description": "资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。",
       "tags": [
-        "simonwillison"
+        "AI替代",
+        "软件工程",
+        "职业危机"
       ],
-      "recommendReason": "",
-      "score": 5
+      "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
+      "score": 8.5
     },
     {
-      "title": "Something is afoot in the land of Qwen",
-      "url": "https://simonwillison.net/2026/Mar/4/qwen/#atom-everything",
-      "source": "simonwillison",
+      "title": "比温水煮青蛙更可怕的，是这种'慢动作'认知盲区",
+      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
+      "source": "pluralistic",
       "author": "",
-      "date": "2026-03-04",
-      "description": "I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop",
+      "date": "2026-03-05",
+      "description": "借用致命路口的几何隐喻与'煮青蛙'寓言，剖析人类为何对气候危机等渐进式灾难存在系统性认知盲区，直到为时已晚才察觉危险。",
       "tags": [
-        "simonwillison"
+        "认知科学",
+        "气候变化",
+        "思维模型"
       ],
-      "recommendReason": "",
-      "score": 5
+      "recommendReason": "揭示那些'看得见却想不到'的致命风险，帮你建立对渐进式危机的敏锐嗅觉。",
+      "score": 8.5
     }
   ],
   "articles": [
     {
-      "title": "只用一行标题，他就骗AI发布了恶意软件",
+      "title": "一个Issue标题劫持AI发布系统？",
       "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "攻击者通过构造恶意GitHub Issue标题注入Prompt，诱导AI执行命令，利用GitHub Actions缓存投毒机制窃取发布密钥，最终成功发布恶意版本。",
+      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
       "tags": [
         "AI安全",
-        "供应链攻击",
-        "Prompt Injection"
+        "提示词注入",
+        "供应链攻击"
       ],
-      "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
+      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
       "score": 8.8
     },
     {
-      "title": "AI代码直接提交？这是团队最大的隐形杀手",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
+      "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-04",
-      "description": "AI编程时代的第一条铁律：绝不要把未经审查的AI生成代码丢给同事Review。Simon Willison详述Agentic Engineering中最危险的反模式。",
+      "date": "2026-03-06",
+      "description": "Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。",
       "tags": [
-        "AI辅助编程",
-        "代码审查",
-        "软件工程"
+        "Rails",
+        "代码审计",
+        "技术债务"
       ],
-      "recommendReason": "直指AI编程最易被忽视的团队协作陷阱，提供了可立即落地的代码审查责任清单。",
-      "score": 8.6
+      "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
+      "score": 8.5
     },
     {
-      "title": "AI几小时重写代码，就能规避开源协议？原作者怒揭真相",
+      "title": "AI写的代码通过了测试，为什么还会崩溃？",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。",
+      "tags": [
+        "AI编程",
+        "软件测试",
+        "Agent"
+      ],
+      "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
+      "score": 8.5
+    },
+    {
+      "title": "维护13年后，他用AI把LGPL代码改成了MIT",
       "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-05",
-      "description": "chardet库维护者声称用AI完全重写代码并改为MIT许可，原作者Mark Pilgrim指出这违反LGPL，揭开AI时代开源许可证执行的新难题。",
+      "description": "AI编程助手几小时完成传统需数月的\"洁净室\"重写，chardet库维护者试图将协议从LGPL改为MIT，原作者怒斥侵权，揭开AI时代开源许可的法律灰色地带。",
       "tags": [
         "开源协议",
-        "AI编程",
-        "软件版权"
+        "AI编程助手",
+        "法律争议"
       ],
-      "recommendReason": "揭示AI编程时代开源许可证执行的法律灰色地带，对开发者和法务人员具有重要警示意义。",
+      "recommendReason": "这是AI时代开源社区面临的全新法律挑战，关乎每一位开发者的代码所有权与使用权边界。",
       "score": 8.5
+    },
+    {
+      "title": "软件工程正在消亡？亲历者的十年生存预警",
+      "url": "https://seangoedecke.com/will-my-job-still-exist/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。",
+      "tags": [
+        "AI替代",
+        "软件工程",
+        "职业危机"
+      ],
+      "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
+      "score": 8.5
+    },
+    {
+      "title": "比温水煮青蛙更可怕的，是这种'慢动作'认知盲区",
+      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "借用致命路口的几何隐喻与'煮青蛙'寓言，剖析人类为何对气候危机等渐进式灾难存在系统性认知盲区，直到为时已晚才察觉危险。",
+      "tags": [
+        "认知科学",
+        "气候变化",
+        "思维模型"
+      ],
+      "recommendReason": "揭示那些'看得见却想不到'的致命风险，帮你建立对渐进式危机的敏锐嗅觉。",
+      "score": 8.5
+    },
+    {
+      "title": "监控文件删除却拿不到属性？Windows API这个坑怎么填",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "解析ReadDirectoryChangesW在文件删除时仅返回文件名的限制，介绍通过内存缓存或ReadDirectoryChangesExW获取被删文件详细信息的解决方案。",
+      "tags": [
+        "Windows开发",
+        "文件系统监控",
+        "API设计"
+      ],
+      "recommendReason": "Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。",
+      "score": 8.5
+    },
+    {
+      "title": "你的消息被“截胡”了？揭秘Windows消息循环隐藏陷阱",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "解析Windows消息机制常见误区：PostMessage的消息为何在到达主循环前就被处理？揭示GetMessage/PeekMessage可在任意代码点分发消息的底层原理。",
+      "tags": [
+        "Windows编程",
+        "消息循环",
+        "Win32开发"
+      ],
+      "recommendReason": "Raymond Chen深度剖析Windows消息分发机制，帮你避免初始化阶段的竞争条件陷阱。",
+      "score": 8.5
+    },
+    {
+      "title": "Anthropic and the Pentagon",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
     },
     {
       "title": "Introducing GPT‑5.4",
@@ -135,14 +242,79 @@
       "score": 5
     },
     {
-      "title": "Something is afoot in the land of Qwen",
-      "url": "https://simonwillison.net/2026/Mar/4/qwen/#atom-everything",
-      "source": "simonwillison",
+      "title": "A PTP Wall Clock is impractical and a little too precise",
+      "url": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
+      "source": "jeffgeerling",
       "author": "",
-      "date": "2026-03-04",
-      "description": "I'm behind on writing about Qwen 3.5, a truly remarkable family of open weight models released by Alibaba's Qwen team over the past few weeks. I'm hop",
+      "date": "2026-03-06",
+      "description": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock h",
       "tags": [
-        "simonwillison"
+        "jeffgeerling"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "It Depends",
+      "url": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "That's the answer I would always get from the lead developer on my team, many years ago. I wanted clear, concise answers from someone with experience,",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
+      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few mino",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Advice for staying in the hospital for a week",
+      "url": "https://xeiaso.net/blog/2026/hospital-advice/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Hard-won wisdom from a week of fluorescent lights and beeping machines.",
+      "tags": [
+        "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives",
+      "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-05",
+      "description": "“The problem comes down to how A.I. chatbots are fundamentally designed”",
+      "tags": [
+        "garymarcus"
       ],
       "recommendReason": "",
       "score": 5
@@ -154,10 +326,14 @@
     "AI安全",
     "AI工具",
     "AI政策",
+    "AI替代",
     "AI编程",
+    "AI编程助手",
     "AI自动化",
     "AI辅助",
     "AI辅助编程",
+    "API设计",
+    "Agent",
     "Anthropic",
     "BlackHatWorld",
     "Block",
@@ -183,6 +359,7 @@
     "Prompt Injection",
     "RLVR",
     "Radiation Detection",
+    "Rails",
     "Raspberry Pi",
     "Redis",
     "Rodney",
@@ -193,6 +370,9 @@
     "UI设计",
     "Unicode",
     "Win32",
+    "Win32开发",
+    "Windows开发",
+    "Windows编程",
     "bash",
     "bash技巧",
     "daringfireball",
@@ -212,6 +392,7 @@
     "seangoedecke",
     "shkspr.mobi",
     "simonwillison",
+    "xeiaso",
     "个人博客",
     "个人网站",
     "书店文化",
@@ -223,6 +404,7 @@
     "人工智能",
     "付费服务",
     "代码审查",
+    "代码审计",
     "代码质量",
     "企业文化",
     "伦理责任",
@@ -263,12 +445,14 @@
     "开源协议",
     "微软",
     "微软补丁",
+    "思维模型",
     "性能优化",
     "性能监控",
     "性能追踪",
     "恶意软件",
     "情绪管理",
     "意识",
+    "技术债务",
     "技术公司",
     "技术评论",
     "技术趋势",
@@ -277,6 +461,7 @@
     "技能生成",
     "推理速度",
     "提示工程",
+    "提示词注入",
     "播客",
     "政治观点",
     "效率",
@@ -286,6 +471,7 @@
     "数据保存",
     "数据加密",
     "数据结构",
+    "文件系统监控",
     "文本生成",
     "星际迷航",
     "智能手表",
@@ -295,11 +481,14 @@
     "机器学习",
     "树莓派",
     "比特币",
+    "气候变化",
     "水质",
     "法律",
+    "法律争议",
     "流媒体",
     "流程管理",
     "浏览器自动化",
+    "消息循环",
     "消息过滤",
     "深度学习",
     "物联网",
@@ -337,6 +526,7 @@
     "网站维护",
     "网络安全",
     "美国",
+    "职业危机",
     "职场失误",
     "自动化",
     "自动编程",
@@ -356,6 +546,7 @@
     "软件2.0",
     "软件工程",
     "软件开发",
+    "软件测试",
     "软件版权",
     "进化",
     "通行密钥",
