@@ -1,6 +1,15 @@
 // API 配置 - 指向后端服务器
 const API_BASE = "";  // 使用相对路径或空（同域）
 
+// 离线模式配置
+const OFFLINE_MODE = {
+  enabled: false,  // 是否处于离线模式
+  checkInterval: 30000,  // 检查后端是否恢复的时间间隔 (30秒)
+  lastCheck: 0,
+  retryCount: 0,
+  maxRetries: 3  // 连续失败3次后进入离线模式
+};
+
 // Star Office UI - 游戏主逻辑
 // 依赖: layout.js（必须在这个之前加载）
 
@@ -626,8 +635,13 @@ function update(time) {
     }
   }
 
+  // 错误 bug 动画 - 只在真正的错误状态显示，离线模式不显示
   if (window.errorBug) {
-    if (effectiveStateForServer === 'error') {
+    // 离线模式下完全不显示错误 bug
+    if (OFFLINE_MODE.enabled) {
+      window.errorBug.setVisible(false);
+      window.errorBug.anims.stop();
+    } else if (effectiveStateForServer === 'error') {
       window.errorBug.setVisible(true);
       if (!window.errorBug.anims.isPlaying || window.errorBug.anims.currentAnim?.key !== 'error_bug') {
         window.errorBug.anims.play('error_bug', true);
@@ -690,10 +704,50 @@ function normalizeState(s) {
   return s;
 }
 
+// 离线模式状态显示
+function enterOfflineMode() {
+  if (!OFFLINE_MODE.enabled) {
+    OFFLINE_MODE.enabled = true;
+    console.log('[Star Office] 进入离线模式');
+    typewriterTarget = '[离线模式] 后端连接失败，显示默认状态';
+    typewriterText = '';
+    typewriterIndex = 0;
+  }
+}
+
+function exitOfflineMode() {
+  if (OFFLINE_MODE.enabled) {
+    OFFLINE_MODE.enabled = false;
+    OFFLINE_MODE.retryCount = 0;
+    console.log('[Star Office] 退出离线模式，恢复正常连接');
+  }
+}
+
 function fetchStatus() {
-  fetch(API_BASE + '/status')
-    .then(response => response.json())
+  // 如果处于离线模式，检查是否应该重试
+  if (OFFLINE_MODE.enabled) {
+    const now = Date.now();
+    if (now - OFFLINE_MODE.lastCheck < OFFLINE_MODE.checkInterval) {
+      return;  // 还没到检查时间
+    }
+    OFFLINE_MODE.lastCheck = now;
+  }
+
+  fetch(API_BASE + '/status', { 
+    method: 'GET',
+    headers: { 'Accept': 'application/json' },
+    // 添加超时，避免长时间等待
+    signal: AbortSignal.timeout ? AbortSignal.timeout(5000) : undefined
+  })
+    .then(response => {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
+    })
     .then(data => {
+      // 成功获取数据，重置离线模式
+      exitOfflineMode();
+      OFFLINE_MODE.retryCount = 0;
+
       const nextState = normalizeState(data.state);
       const stateInfo = STATES[nextState] || STATES.idle;
       const changed = (pendingDesiredState === null) && (nextState !== currentState);
@@ -774,9 +828,40 @@ function fetchStatus() {
       }
     })
     .catch(error => {
-      typewriterTarget = '连接失败，正在重试...';
-      typewriterText = '';
-      typewriterIndex = 0;
+      OFFLINE_MODE.retryCount++;
+      console.log('[Star Office] 连接失败 (' + OFFLINE_MODE.retryCount + '/' + OFFLINE_MODE.maxRetries + '):', error.message);
+      
+      if (OFFLINE_MODE.retryCount >= OFFLINE_MODE.maxRetries) {
+        enterOfflineMode();
+        // 在离线模式下，保持 idle 状态，不显示错误动画
+        if (currentState !== 'idle') {
+          currentState = 'idle';
+          pendingDesiredState = null;
+          // 重置到 idle 状态
+          if (game.textures.exists('sofa_busy')) {
+            sofa.setTexture('sofa_busy');
+            sofa.anims.play('sofa_busy', true);
+          }
+          star.setVisible(false);
+          star.anims.stop();
+          if (window.starWorking) {
+            window.starWorking.setVisible(false);
+            window.starWorking.anims.stop();
+          }
+          if (serverroom) {
+            serverroom.anims.stop();
+            serverroom.setFrame(0);
+          }
+          if (window.errorBug) {
+            window.errorBug.setVisible(false);
+            window.errorBug.anims.stop();
+          }
+        }
+      } else {
+        typewriterTarget = '连接失败，正在重试... (' + OFFLINE_MODE.retryCount + '/' + OFFLINE_MODE.maxRetries + ')';
+        typewriterText = '';
+        typewriterIndex = 0;
+      }
     });
 }
 
@@ -902,18 +987,35 @@ function showCatBubble() {
 }
 
 function fetchAgents() {
-  fetch(API_BASE + '/agents?t=' + Date.now(), { cache: 'no-store' })
+  // 离线模式下不获取 agents
+  if (OFFLINE_MODE.enabled) {
+    // 清除所有现有 agent
+    for (let id in agents) {
+      if (agents[id]) {
+        agents[id].destroy();
+        delete agents[id];
+      }
+    }
+    return;
+  }
+
+  fetch(API_BASE + '/agents?t=' + Date.now(), { 
+    cache: 'no-store',
+    signal: AbortSignal.timeout ? AbortSignal.timeout(5000) : undefined
+  })
     .then(response => response.json())
     .then(data => {
       if (!Array.isArray(data)) return;
       // 重置位置计数器
       areaPositionCounters = { breakroom: 0, writing: 0, error: 0 };
+      // 只显示前 5 个 agent，避免屏幕太乱
+      const limitedData = data.slice(0, 5);
       // 处理每个 agent
-      for (let agent of data) {
+      for (let agent of limitedData) {
         renderAgent(agent);
       }
       // 移除不再存在的 agent
-      const currentIds = new Set(data.map(a => a.agentId));
+      const currentIds = new Set(limitedData.map(a => a.agentId));
       for (let id in agents) {
         if (!currentIds.has(id)) {
           if (agents[id]) {
@@ -925,6 +1027,13 @@ function fetchAgents() {
     })
     .catch(error => {
       console.error('拉取 agents 失败:', error);
+      // 出错时清除所有 agent
+      for (let id in agents) {
+        if (agents[id]) {
+          agents[id].destroy();
+          delete agents[id];
+        }
+      }
     });
 }
 
@@ -957,40 +1066,56 @@ function renderAgent(agent) {
   if (authStatus === 'rejected') alpha = 0.4;
   if (authStatus === 'offline') alpha = 0.5;
 
+  // 根据状态选择图标
+  const STATE_ICONS = {
+    idle: '😴',
+    writing: '✍️',
+    researching: '🔍',
+    executing: '⚡',
+    error: '❌',
+    syncing: '🔄'
+  };
+  
+  const state = agent.state || 'idle';
+  const icon = STATE_ICONS[state] || STATE_ICONS.idle;
+
   if (!agents[agentId]) {
-    // 新建 agent
+    // 新建 agent - 用图标表示工作状态
     const container = game.add.container(baseX, baseY);
-    container.setDepth(1200 + (isMain ? 100 : 0)); // 放到最顶层！
+    container.setDepth(1200 + (isMain ? 100 : 0));
 
-    // 像素小人：用星星图标，更明显
-    const starIcon = game.add.text(0, 0, '⭐', {
+    // 状态图标
+    const iconText = game.add.text(0, 0, icon, {
       fontFamily: 'ArkPixel, monospace',
-      fontSize: '32px'
+      fontSize: '24px'
     }).setOrigin(0.5);
-    starIcon.name = 'starIcon';
+    iconText.name = 'icon';
 
-    // 名字标签（漂浮）
-    const nameTag = game.add.text(0, -36, name, {
+    // 名字标签
+    const nameTag = game.add.text(0, -28, name, {
       fontFamily: 'ArkPixel, monospace',
-      fontSize: '14px',
-      fill: '#' + nameColor.toString(16).padStart(6, '0'),
+      fontSize: '10px',
+      fill: '#ffffff',
       stroke: '#000',
-      strokeThickness: 3,
-      backgroundColor: 'rgba(255,255,255,0.95)'
+      strokeThickness: 2
     }).setOrigin(0.5);
     nameTag.name = 'nameTag';
+    nameTag.setVisible(false);
 
-    // 状态小点（绿色/黄色/红色）
-    let dotColor = 0x64748b;
-    if (authStatus === 'approved') dotColor = 0x22c55e;
-    if (authStatus === 'pending') dotColor = 0xf59e0b;
-    if (authStatus === 'rejected') dotColor = 0xef4444;
-    if (authStatus === 'offline') dotColor = 0x94a3b8;
-    const statusDot = game.add.circle(20, -20, 5, dotColor, alpha);
-    statusDot.setStrokeStyle(2, 0x000000, alpha);
-    statusDot.name = 'statusDot';
-
-    container.add([starIcon, statusDot, nameTag]);
+    container.add([iconText, nameTag]);
+    
+    // 悬停显示名字
+    container.setSize(30, 30);
+    container.setInteractive();
+    container.on('pointerover', () => {
+      nameTag.setVisible(true);
+      iconText.setScale(1.2);
+    });
+    container.on('pointerout', () => {
+      nameTag.setVisible(false);
+      iconText.setScale(1);
+    });
+    
     agents[agentId] = container;
   } else {
     // 更新 agent
@@ -999,21 +1124,16 @@ function renderAgent(agent) {
     container.setAlpha(alpha);
     container.setDepth(1200 + (isMain ? 100 : 0));
 
-    // 更新名字和颜色（如果变化）
-    const nameTag = container.getAt(2);
+    // 更新图标
+    const iconText = container.getAt(0);
+    if (iconText && iconText.name === 'icon') {
+      iconText.setText(icon);
+    }
+    
+    // 更新名字
+    const nameTag = container.getAt(1);
     if (nameTag && nameTag.name === 'nameTag') {
       nameTag.setText(name);
-      nameTag.setFill('#' + (NAME_TAG_COLORS[authStatus] || NAME_TAG_COLORS.default).toString(16).padStart(6, '0'));
-    }
-    // 更新状态点颜色
-    const statusDot = container.getAt(1);
-    if (statusDot && statusDot.name === 'statusDot') {
-      let dotColor = 0x64748b;
-      if (authStatus === 'approved') dotColor = 0x22c55e;
-      if (authStatus === 'pending') dotColor = 0xf59e0b;
-      if (authStatus === 'rejected') dotColor = 0xef4444;
-      if (authStatus === 'offline') dotColor = 0x94a3b8;
-      statusDot.fillColor = dotColor;
     }
   }
 }
