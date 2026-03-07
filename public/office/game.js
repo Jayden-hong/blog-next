@@ -1,5 +1,6 @@
 // API 配置 - 指向后端服务器
-const API_BASE = "";  // 使用相对路径或空（同域）
+// 使用 Cloudflare Worker 代理，避免跨域问题
+const API_BASE = "https://office-api.zucchini.win";
 
 // 离线模式配置
 const OFFLINE_MODE = {
