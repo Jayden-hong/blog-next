@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-06",
-  "totalSources": 1,
-  "totalArticles": 90,
+  "date": "2026-03-07",
+  "totalSources": 9,
+  "totalArticles": 99,
   "allTags": [
     "AI",
     "AI代理",
@@ -9,8 +9,12 @@
     "AI内幕",
     "AI写作",
     "AI安全",
+    "AI替代",
     "AI治理",
     "AI监管",
+    "AI编程",
+    "API设计",
+    "Agent",
     "Agentic Engineering",
     "Anthropic",
     "Auth0",
@@ -32,6 +36,7 @@
     "OLDPWD",
     "OpenAI",
     "Prompt Injection",
+    "Rails",
     "Safari",
     "Security",
     "Shell脚本",
@@ -49,6 +54,7 @@
     "iPad Air",
     "iPhone 17e",
     "idiallo",
+    "jeffgeerling",
     "johndcook",
     "lucumr-pocoo",
     "macOS",
@@ -59,9 +65,11 @@
     "seangoedecke",
     "shkspr.mobi",
     "simonwillison",
+    "xeiaso",
     "书评",
     "二战",
     "交互式讲解",
+    "代码审计",
     "伊朗",
     "供应链攻击",
     "内容信任",
@@ -85,6 +93,7 @@
     "性能优化",
     "性能监控",
     "战争",
+    "技术债务",
     "技术迁移",
     "拉里·埃里森",
     "控件ID",
@@ -94,6 +103,7 @@
     "效率工具",
     "数值模拟",
     "数据抓取",
+    "文件系统监控",
     "春季新品",
     "末日预言",
     "树莓派",
@@ -108,6 +118,7 @@
     "空内容",
     "窗口管理",
     "系统Bug",
+    "职业危机",
     "自我成长",
     "苹果",
     "苹果配件",
@@ -116,6 +127,8 @@
     "讽刺评论",
     "设计模式",
     "误炸事件",
+    "软件工程",
+    "软件测试",
     "配色更新",
     "防机器人",
     "隐喻",
@@ -139,6 +152,131 @@
       ],
       "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
       "score": 8.8
+    },
+    {
+      "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。",
+      "tags": [
+        "Rails",
+        "代码审计",
+        "技术债务"
+      ],
+      "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
+      "score": 8.5
+    },
+    {
+      "title": "AI写的代码通过了测试，为什么还会崩溃？",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。",
+      "tags": [
+        "AI编程",
+        "软件测试",
+        "Agent"
+      ],
+      "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
+      "score": 8.5
+    },
+    {
+      "title": "软件工程正在消亡？亲历者的十年生存预警",
+      "url": "https://seangoedecke.com/will-my-job-still-exist/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。",
+      "tags": [
+        "AI替代",
+        "软件工程",
+        "职业危机"
+      ],
+      "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
+      "score": 8.5
+    },
+    {
+      "title": "监控文件删除却拿不到属性？Windows API这个坑怎么填",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "解析ReadDirectoryChangesW在文件删除时仅返回文件名的限制，介绍通过内存缓存或ReadDirectoryChangesExW获取被删文件详细信息的解决方案。",
+      "tags": [
+        "Windows开发",
+        "文件系统监控",
+        "API设计"
+      ],
+      "recommendReason": "Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。",
+      "score": 8.5
+    },
+    {
+      "title": "Anthropic and the Pentagon",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "A PTP Wall Clock is impractical and a little too precise",
+      "url": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock h",
+      "tags": [
+        "jeffgeerling"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "It Depends",
+      "url": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "That's the answer I would always get from the lead developer on my team, many years ago. I wanted clear, concise answers from someone with experience,",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
+      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few mino",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Advice for staying in the hospital for a week",
+      "url": "https://xeiaso.net/blog/2026/hospital-advice/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Hard-won wisdom from a week of fluorescent lights and beeping machines.",
+      "tags": [
+        "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5.0
     },
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
