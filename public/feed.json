@@ -32,18 +32,6 @@
         "rss"
       ],
       "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-08.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/latest-brief/",
-      "url": "https://blog.zucchini.win/blog/latest-brief/",
-      "title": "Daily Read · 2026-03-08",
-      "content_text": "\n> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)\n\n1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic\n\n揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断",
-      "date_published": "2026-03-08T06:00:00Z",
-      "tags": [
-        "daily-brief",
-        "rss"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
     }
   ]
 }

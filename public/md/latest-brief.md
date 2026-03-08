@@ -1,6 +1,6 @@
 ﻿---
-title: "Daily Read · 2026-03-08"
-date: "2026-03-08T06:00:00Z"
+title: "Daily Read · --translate"
+date: "--translateT06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
 slug: "latest-brief"
@@ -127,4 +127,4 @@ At 4 AM in recovery, the machines that never sleep turned out to be exactly the 
 It’s about time
 
 ---
-*2026-03-08 13:11 UTC · Kimi K2 · 94 sources*
+*2026-03-08 14:17 UTC · Kimi K2 · 94 sources*

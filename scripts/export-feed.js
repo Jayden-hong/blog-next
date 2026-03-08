@@ -102,11 +102,42 @@ try {
     }
   });
 
+  // Generate highlights from high-scoring unique articles
+  const highScoreArticles = uniqueArticles
+    .filter(a => a.score >= 7.5)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 6);
+
+  // Get URL → slug mapping from translated MDX files
+  const articlesDir = path.join(__dirname, '../content/articles');
+  const urlToSlug = {};
+  if (fs.existsSync(articlesDir)) {
+    fs.readdirSync(articlesDir).forEach(filename => {
+      if (!filename.endsWith('.mdx')) return;
+      const slug = filename.slice(0, -4);
+      const content = fs.readFileSync(path.join(articlesDir, filename), 'utf8');
+      const urlMatch = content.match(/^url:\s*["']?(.+?)["']?\s*$/m);
+      if (urlMatch) {
+        urlToSlug[urlMatch[1].trim().replace(/^["']|["']$/g, '')] = slug;
+      }
+    });
+  }
+
+  // Mark translated status and add slugs
+  const highlights = highScoreArticles.map(article => {
+    const url = article.url;
+    if (urlToSlug[url]) {
+      return { ...article, translated: true, slug: urlToSlug[url] };
+    }
+    return { ...article, translated: false, slug: null };
+  });
+
   const allArticlesOutput = {
     date: latestData.date,
     totalSources: allTags.length, // Approximation
     totalArticles: uniqueArticles.length,
     articles: uniqueArticles,
+    highlights,
     allTags
   };
   

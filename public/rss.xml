@@ -5,7 +5,7 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 14:08:24 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 15:40:37 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
@@ -58,30 +58,6 @@ AI 正在重塑攻击面与防御范式——从 Cline 的 prompt 注入供应�
 揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断</p>
         <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-08.md">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-08/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-08</title>
-      <link>https://blog.zucchini.win/blog/latest-brief/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
-      <pubDate>Sun, 08 Mar 2026 06:00:00 GMT</pubDate>
-    <category>daily-brief</category>
-    <category>rss</category>
-      <description>
-&gt; 23 articles · 6.6/10 avg · 11 highlights (≥7.5)
-
-1. [这个被谷歌&apos;杀死&apos;的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic
-
-揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断</description>
-      <content:encoded><![CDATA[
-        <p>
-> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)
-
-1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic
-
-揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断</p>
-        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

@@ -1,7 +1,9 @@
----
+﻿---
 title: "Daily Read · --translate"
 date: "--translateT06:00:00Z"
+author: "Jayden"
 tags: ["daily-brief", "rss"]
+slug: "daily-brief---translate"
 ---
 
 > 23 articles · 6.6/10 avg · 11 highlights (≥7.5)
@@ -126,4 +128,3 @@ It’s about time
 
 ---
 *2026-03-08 14:17 UTC · Kimi K2 · 94 sources*
-
