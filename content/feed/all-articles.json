@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-07",
-  "totalSources": 9,
-  "totalArticles": 99,
+  "date": "2026-03-08",
+  "totalSources": 10,
+  "totalArticles": 113,
   "allTags": [
     "AI",
     "AI代理",
@@ -23,6 +23,7 @@
     "Cory Doctorow",
     "DIY硬件",
     "DevOps",
+    "Epic Games",
     "Flickr",
     "GIF优化",
     "HTTP请求头",
@@ -36,6 +37,7 @@
     "OLDPWD",
     "OpenAI",
     "Prompt Injection",
+    "RSS",
     "Rails",
     "Safari",
     "Security",
@@ -51,6 +53,7 @@
     "dynomight",
     "garymarcus",
     "iOS",
+    "iOS漏洞",
     "iPad Air",
     "iPhone 17e",
     "idiallo",
@@ -59,6 +62,7 @@
     "lucumr-pocoo",
     "macOS",
     "matklad",
+    "maurycyz",
     "oldnewthing",
     "pluralistic",
     "redis",
@@ -66,13 +70,18 @@
     "shkspr.mobi",
     "simonwillison",
     "xeiaso",
+    "乔布斯",
     "书评",
     "二战",
+    "互联网开放",
     "交互式讲解",
+    "产品哲学",
+    "人工智能伦理",
     "代码审计",
     "伊朗",
     "供应链攻击",
     "内容信任",
+    "内容变现",
     "军事伦理",
     "创作伦理",
     "前端工具",
@@ -82,10 +91,13 @@
     "地缘政治",
     "复古电脑",
     "太阳能",
+    "威胁情报",
     "媒体垄断",
     "家用储能",
     "对话框陷阱",
     "崩溃报告",
+    "平台垄断",
+    "平台经济",
     "延迟系统",
     "开发者文化",
     "微分方程",
@@ -109,18 +121,24 @@
     "树莓派",
     "法律战",
     "特朗普",
+    "独立博客",
     "用户体验",
     "电价套利",
     "社交媒体礼仪",
     "科幻",
+    "科技人物",
+    "科技史",
+    "科技媒体",
     "科技法律",
     "科技监管",
     "空内容",
     "窗口管理",
     "系统Bug",
+    "网络安全",
     "职业危机",
     "自我成长",
     "苹果",
+    "苹果战略",
     "苹果配件",
     "认知债",
     "记忆管理",
@@ -138,6 +156,133 @@
     "黑人史"
   ],
   "articles": [
+    {
+      "title": "这个被遗忘的技术，正在拯救被巨头毁掉的互联网",
+      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "Cory Doctorow解析RSS如何对抗互联网平台的「enshittification」恶化趋势，揭秘Google Reader被扼杀背后的商业阴谋，重申开放协议对信息自主权的重要性。",
+      "tags": [
+        "RSS",
+        "互联网开放",
+        "平台垄断"
+      ],
+      "recommendReason": "在算法投喂和广告泛滥的时代，这篇文章为你指明了一条回归清爽网络体验的明路。",
+      "score": 8.7
+    },
+    {
+      "title": "你的iPhone曾被谁监控？谷歌揭秘跨国漏洞黑市",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "谷歌曝光神秘iOS漏洞工具包\"Coruna\"，含5条攻击链23个漏洞，横跨监控软件商、俄罗斯间谍组织和中国黑客团伙，揭示二手零日漏洞地下交易市场。",
+      "tags": [
+        "网络安全",
+        "iOS漏洞",
+        "威胁情报"
+      ],
+      "recommendReason": "揭秘国家级黑客组织与商业监控公司共享漏洞武器的内幕，为iPhone用户提供关键安全预警。",
+      "score": 8.5
+    },
+    {
+      "title": "董事会没冤枉他？Altman「不坦诚」实锤曝光",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altmans-greed-and-dishonesty",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "Gary Marcus揭露Sam Altman从AI明星沦为争议焦点，分析OpenAI董事会解雇真相及当前抵制浪潮，直指权力与品格的冲突。",
+      "tags": [
+        "OpenAI",
+        "人工智能伦理",
+        "科技人物"
+      ],
+      "recommendReason": "揭示AI巨头掌门人的信任危机，为理解OpenAI权力博弈与行业道德困境提供尖锐视角。",
+      "score": 8.5
+    },
+    {
+      "title": "1周7万元，小众博客凭什么这么贵？",
+      "url": "https://daringfireball.net/feeds/sponsors/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "揭秘顶级独立博客Daring Fireball的赞助模式：11000美元/周的定价逻辑、20万RSS订阅用户的价值，以及小众科技媒体的高阶变现策略。",
+      "tags": [
+        "独立博客",
+        "内容变现",
+        "科技媒体"
+      ],
+      "recommendReason": "揭示顶级独立博客的稀缺商业价值，为内容创作者和广告主提供高阶变现参考样本。",
+      "score": 8.0
+    },
+    {
+      "title": "50年前的'黑客'怎么作案？答案比电影还离谱",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "书评1975年网络安全先驱著作，揭秘磁带勒索、电传欺诈等史前计算机犯罪，对比今昔安全防护演变。",
+      "tags": [
+        "网络安全",
+        "科技史",
+        "书评"
+      ],
+      "recommendReason": "以史为鉴，看半个世纪前的'电子犯罪'如何暴露至今仍存在的安全漏洞。",
+      "score": 8.0
+    },
+    {
+      "title": "Codex for Open Source",
+      "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downl",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "‘The Window Chrome of Our Discontent’",
+      "url": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "Nick Heer, writing at Pixel Envy, uses Pages (from 2009 through today) to illustrate Apple’s march toward putting “greater focus on your content” by m",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Remove annoying banners",
+      "url": "https://maurycyz.com/projects/fixsite/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "This is a small javascript snippet that removes most annoying website elements: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-",
+      "tags": [
+        "maurycyz"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Using Clankers to Help Me Process Surgery",
+      "url": "https://xeiaso.net/blog/2026/surgery-recovery-clankers/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "At 4 AM in recovery, the machines that never sleep turned out to be exactly the right company.",
+      "tags": [
+        "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
     {
       "title": "只用一行标题，他就骗AI发布了恶意软件",
       "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
@@ -214,6 +359,36 @@
       "score": 8.5
     },
     {
+      "title": "打败谷歌的男人，终于说出了真相",
+      "url": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Epic CEO Tim Sweeney在赢得对谷歌反垄断诉讼后接受专访，首次详细披露诉讼内幕、胜利意义及对应用商店垄断格局的颠覆性影响。",
+      "tags": [
+        "反垄断",
+        "Epic Games",
+        "平台经济"
+      ],
+      "recommendReason": "第一手揭秘科技巨头反垄断胜诉背后的战略思考与未来布局。",
+      "score": 8.5
+    },
+    {
+      "title": "乔布斯说500美元只能做垃圾，但...",
+      "url": "https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "解读苹果不做低价Mac的深层逻辑，探讨在坚守品质DNA的前提下，苹果是否可能以独特方式进入上网本市场。",
+      "tags": [
+        "苹果战略",
+        "产品哲学",
+        "乔布斯"
+      ],
+      "recommendReason": "揭秘苹果宁愿放弃市场份额也不妥协品质的商业逻辑，理解高端定位背后的战略定力。",
+      "score": 8.0
+    },
+    {
       "title": "Anthropic and the Pentagon",
       "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
       "source": "simonwillison",
@@ -274,6 +449,45 @@
       "description": "Hard-won wisdom from a week of fluorescent lights and beeping machines.",
       "tags": [
         "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
+      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Sean Hollister, writing for The Verge: But Google has finally muzzled Tim Sweeney. It’s right there in a binding term sheet for his settlement with Go",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "The MacBook Neo’s Price, Looking to the Past and Future",
+      "url": "https://x.com/ethan_is_online/status/2029331836137291941?s=42",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Ethan W. Anderson, on Twitter/X: I’ve plotted the most expensive McDonald’s burger and the least expensive MacBook over time. This analysis projects t",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "‘Never the Same Game Twice’",
+      "url": "https://johnmccoy.org/2026/03/05/never-the-same-game-twice/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "John McCoy: From around 1970 to 1980, the Salem, Massachusetts-based Parker Brothers (now a brand of Hasbro) published games whose innovative and fanc",
+      "tags": [
+        "daringfireball"
       ],
       "recommendReason": "",
       "score": 5.0
