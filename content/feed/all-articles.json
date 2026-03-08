@@ -170,7 +170,7 @@
       ],
       "recommendReason": "在算法投喂和广告泛滥的时代，这篇文章为你指明了一条回归清爽网络体验的明路。",
       "score": 8.7,
-      "slug": "这个被遗忘的技术-正在拯救被巨头毁掉的互联网"
+      "slug": "article-1"
     },
     {
       "title": "你的iPhone曾被谁监控？谷歌揭秘跨国漏洞黑市",
@@ -186,7 +186,7 @@
       ],
       "recommendReason": "揭秘国家级黑客组织与商业监控公司共享漏洞武器的内幕，为iPhone用户提供关键安全预警。",
       "score": 8.5,
-      "slug": "你的iphone曾被谁监控-谷歌揭秘跨国漏洞黑市"
+      "slug": "iphone"
     },
     {
       "title": "董事会没冤枉他？Altman「不坦诚」实锤曝光",
@@ -202,7 +202,7 @@
       ],
       "recommendReason": "揭示AI巨头掌门人的信任危机，为理解OpenAI权力博弈与行业道德困境提供尖锐视角。",
       "score": 8.5,
-      "slug": "董事会没冤枉他-altman-不坦诚-实锤曝光"
+      "slug": "altman"
     },
     {
       "title": "1周7万元，小众博客凭什么这么贵？",
@@ -218,7 +218,7 @@
       ],
       "recommendReason": "揭示顶级独立博客的稀缺商业价值，为内容创作者和广告主提供高阶变现参考样本。",
       "score": 8.0,
-      "slug": "1周7万元-小众博客凭什么这么贵"
+      "slug": "1-7"
     },
     {
       "title": "50年前的'黑客'怎么作案？答案比电影还离谱",
@@ -234,7 +234,7 @@
       ],
       "recommendReason": "以史为鉴，看半个世纪前的'电子犯罪'如何暴露至今仍存在的安全漏洞。",
       "score": 8.0,
-      "slug": "50年前的-黑客-怎么作案-答案比电影还离谱"
+      "slug": "50"
     },
     {
       "title": "Codex for Open Source",
@@ -306,7 +306,7 @@
       ],
       "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
       "score": 8.8,
-      "slug": "只用一行标题-他就骗ai发布了恶意软件"
+      "slug": "ai"
     },
     {
       "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
@@ -322,7 +322,7 @@
       ],
       "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
       "score": 8.5,
-      "slug": "周五敢部署吗-rails代码审计的灵魂拷问"
+      "slug": "rails"
     },
     {
       "title": "AI写的代码通过了测试，为什么还会崩溃？",
@@ -338,7 +338,7 @@
       ],
       "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
       "score": 8.5,
-      "slug": "ai写的代码通过了测试-为什么还会崩溃"
+      "slug": "ai"
     },
     {
       "title": "软件工程正在消亡？亲历者的十年生存预警",
@@ -354,7 +354,7 @@
       ],
       "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
       "score": 8.5,
-      "slug": "软件工程正在消亡-亲历者的十年生存预警"
+      "slug": "article-13"
     },
     {
       "title": "监控文件删除却拿不到属性？Windows API这个坑怎么填",
@@ -370,7 +370,7 @@
       ],
       "recommendReason": "Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。",
       "score": 8.5,
-      "slug": "监控文件删除却拿不到属性-windows-api这个坑怎么填"
+      "slug": "windows-api"
     },
     {
       "title": "打败谷歌的男人，终于说出了真相",
@@ -386,7 +386,7 @@
       ],
       "recommendReason": "第一手揭秘科技巨头反垄断胜诉背后的战略思考与未来布局。",
       "score": 8.5,
-      "slug": "打败谷歌的男人-终于说出了真相"
+      "slug": "article-15"
     },
     {
       "title": "乔布斯说500美元只能做垃圾，但...",
@@ -402,7 +402,7 @@
       ],
       "recommendReason": "揭秘苹果宁愿放弃市场份额也不妥协品质的商业逻辑，理解高端定位背后的战略定力。",
       "score": 8.0,
-      "slug": "乔布斯说500美元只能做垃圾-但"
+      "slug": "500"
     },
     {
       "title": "Anthropic and the Pentagon",
@@ -1020,7 +1020,7 @@
       ],
       "recommendReason": "5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。",
       "score": 8.7,
-      "slug": "微延迟竟能让微分方程秒变震荡"
+      "slug": "article-60"
     },
     {
       "title": "30年老工具秒变网页神器？",
@@ -1036,7 +1036,7 @@
       ],
       "recommendReason": "用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。",
       "score": 8.5,
-      "slug": "30年老工具秒变网页神器"
+      "slug": "30"
     },
     {
       "title": "10美元抢先版！AI大神私享信泄露",
@@ -1052,7 +1052,7 @@
       ],
       "recommendReason": "每月10美元换AI前沿干货，提前一个月掌握大模型风向。",
       "score": 8.5,
-      "slug": "10美元抢先版-ai大神私享信泄露"
+      "slug": "10-ai"
     },
     {
       "title": "208K内存跑Mac？我造了台拇指电脑",
@@ -1068,7 +1068,7 @@
       ],
       "recommendReason": "低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。",
       "score": 8.5,
-      "slug": "208k内存跑mac-我造了台拇指电脑"
+      "slug": "208k-mac"
     },
     {
       "title": "5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？",
@@ -1084,7 +1084,7 @@
       ],
       "recommendReason": "用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。",
       "score": 8.5,
-      "slug": "5美元解决mac窗口迷航-这款老工具为何让老用户离不开"
+      "slug": "5-mac"
     },
     {
       "title": "20年前被忽略的URL神设计，还在偷偷宠用户？",
@@ -1100,7 +1100,7 @@
       ],
       "recommendReason": "一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。",
       "score": 8.5,
-      "slug": "20年前被忽略的url神设计-还在偷偷宠用户"
+      "slug": "20-url"
     },
     {
       "title": "一张图拖出两种格式？Safari 请求头藏了什么坑",
@@ -1116,7 +1116,7 @@
       ],
       "recommendReason": "搞清浏览器“undefined behavior”幕后机制，前端与爬虫都值得收藏。",
       "score": 8.5,
-      "slug": "一张图拖出两种格式-safari-请求头藏了什么坑"
+      "slug": "safari"
     },
     {
       "title": "苹果系统Bug连环爆：10年备份噩梦你中招了吗？",
@@ -1132,7 +1132,7 @@
       ],
       "recommendReason": "深度拆解苹果生态暗伤，给依赖Mac的用户一剂清醒剂与自救指南。",
       "score": 8.5,
-      "slug": "苹果系统bug连环爆-10年备份噩梦你中招了吗"
+      "slug": "bug-10"
     },
     {
       "title": "谷歌告SerpApi？它反手一招要撤诉",
@@ -1148,7 +1148,7 @@
       ],
       "recommendReason": "围观小团队如何用法律武器反击巨头垄断，给所有爬虫与数据创业者划重点。",
       "score": 8.5,
-      "slug": "谷歌告serpapi-它反手一招要撤诉"
+      "slug": "serpapi"
     },
     {
       "title": "AI巨头竟成美军黑名单？",
@@ -1164,7 +1164,7 @@
       ],
       "recommendReason": "用国际关系视角拆解AI监管暗战，看懂技术公司如何卷入大国博弈。",
       "score": 8.5,
-      "slug": "ai巨头竟成美军黑名单"
+      "slug": "ai"
     },
     {
       "title": "五角大楼逼宫Anthropic，OpenAI躺赢？",
@@ -1180,7 +1180,7 @@
       ],
       "recommendReason": "独家揭示AI巨头与白宫的暗战，关乎未来军事AI主导权。",
       "score": 8.5,
-      "slug": "五角大楼逼宫anthropic-openai躺赢"
+      "slug": "anthropic-openai"
     },
     {
       "title": "iPhone壳新色上线，你pick哪款？",
@@ -1196,7 +1196,7 @@
       ],
       "recommendReason": "第一时间看懂苹果春季配色风向，挑壳/选带不踩雷。",
       "score": 8.5,
-      "slug": "iphone壳新色上线-你pick哪款"
+      "slug": "iphone-pick"
     },
     {
       "title": "M4芯iPad Air杀到！性能暴涨30%？",
@@ -1212,7 +1212,7 @@
       ],
       "recommendReason": "性能大升级还加量不加价，想换平板得先看完这篇。",
       "score": 8.5,
-      "slug": "m4芯ipad-air杀到-性能暴涨30"
+      "slug": "m4-ipad-air-30"
     },
     {
       "title": "599 元 256G 的 iPhone 来了？",
@@ -1228,7 +1228,7 @@
       ],
       "recommendReason": "想低价体验最新 A19 性能与卫星求救，这篇文章告诉你值不值",
       "score": 8.5,
-      "slug": "599-元-256g-的-iphone-来了"
+      "slug": "599-256g-iphone"
     },
     {
       "title": "AI写文被嫌弃？真相让人沉默",
@@ -1244,7 +1244,7 @@
       ],
       "recommendReason": "一篇用故事包装的思考文，让你秒懂AI内容为何被反感，也照见创作者焦虑。",
       "score": 8.5,
-      "slug": "ai写文被嫌弃-真相让人沉默"
+      "slug": "ai"
     },
     {
       "title": "转发AI聊天记录=公开自慰？",
@@ -1260,7 +1260,7 @@
       ],
       "recommendReason": "帮你认清AI内容泛滥的社交雷区，学会尊重他人注意力。",
       "score": 8.5,
-      "slug": "转发ai聊天记录-公开自慰"
+      "slug": "ai"
     },
     {
       "title": "Mastodon登录也能玩？这招绝了！",
@@ -1276,7 +1276,7 @@
       ],
       "recommendReason": "手把手教你绕过官方限制，让任何Mastodon实例秒变社交登录，开源代码直接抄。",
       "score": 8.5,
-      "slug": "mastodon登录也能玩-这招绝了"
+      "slug": "mastodon"
     },
     {
       "title": "把IDCANCEL塞给非按钮？噩梦开始！",
@@ -1292,7 +1292,7 @@
       ],
       "recommendReason": "提前踩坑指南，避免对话框消息错乱带来的调试地狱。",
       "score": 8.5,
-      "slug": "把idcancel塞给非按钮-噩梦开始"
+      "slug": "idcancel"
     },
     {
       "title": "AI末日党反加速人类？真相炸锅",
@@ -1308,7 +1308,7 @@
       ],
       "recommendReason": "揭露末日叙事如何被现实政治反噬，对关心AI治理者必读。",
       "score": 8.5,
-      "slug": "ai末日党反加速人类-真相炸锅"
+      "slug": "ai"
     },
     {
       "title": "无界权杖",
@@ -1324,7 +1324,7 @@
       ],
       "recommendReason": "无实质内容，不推荐阅读。",
       "score": 1.0,
-      "slug": "无界权杖"
+      "slug": "article-79"
     },
     {
       "title": "操作系统问年龄？",
@@ -1340,7 +1340,7 @@
       ],
       "recommendReason": "用幽默视角戳破立法荒诞，科技人必读。",
       "score": 8.5,
-      "slug": "操作系统问年龄"
+      "slug": "article-80"
     },
     {
       "title": "闲聊苹果2026",
@@ -1356,7 +1356,7 @@
       ],
       "recommendReason": "资深果粉必听，犀利吐槽新系统。",
       "score": 8.5,
-      "slug": "闲聊苹果2026"
+      "slug": "2026"
     },
     {
       "title": "Redis编码模式指南",
@@ -1372,7 +1372,7 @@
       ],
       "recommendReason": "作者权威、内容全面，直接提升缓存设计效率。",
       "score": 8.5,
-      "slug": "redis编码模式指南"
+      "slug": "redis"
     },
     {
       "title": "战火下的英国黑人",
@@ -1388,7 +1388,7 @@
       ],
       "recommendReason": "用一手访谈还原被遗忘的战时黑人英国群像。",
       "score": 8.5,
-      "slug": "战火下的英国黑人"
+      "slug": "article-83"
     },
     {
       "title": "AI误杀已发生？",
@@ -1404,7 +1404,7 @@
       ],
       "recommendReason": "揭示AI致命误判与责任黑洞，振聋发聩。",
       "score": 8.5,
-      "slug": "ai误杀已发生"
+      "slug": "ai"
     },
     {
       "title": "Bash 的 ~- 妙用",
@@ -1420,7 +1420,7 @@
       ],
       "recommendReason": "教你用 ~- 秒切目录，常见痛点一招解决。",
       "score": 8.5,
-      "slug": "bash-的-妙用"
+      "slug": "bash"
     },
     {
       "title": "LLM时代的新赢家",
@@ -1436,7 +1436,7 @@
       ],
       "recommendReason": "用实战案例揭示AI协作真相，启发个人开发者抢跑。",
       "score": 8.5,
-      "slug": "llm时代的新赢家"
+      "slug": "llm"
     },
     {
       "title": "Sentry iOS崩溃追踪",
@@ -1452,7 +1452,7 @@
       ],
       "recommendReason": "实战演示，10分钟上手Sentry iOS全流程",
       "score": 8.3,
-      "slug": "sentry-ios崩溃追踪"
+      "slug": "sentry-ios"
     },
     {
       "title": "Claude记忆导出提示",
@@ -1468,7 +1468,7 @@
       ],
       "recommendReason": "掌握AI助手记忆导出技巧，保护隐私与迁移数据。",
       "score": 8.0,
-      "slug": "claude记忆导出提示"
+      "slug": "claude"
     },
     {
       "title": "杀死内心的死灵",
@@ -1484,7 +1484,7 @@
       ],
       "recommendReason": "用科幻隐喻探讨自我突破，角度新颖。",
       "score": 6.0,
-      "slug": "杀死内心的死灵"
+      "slug": "article-89"
     },
     {
       "title": "交互式讲解降认知债",
@@ -1500,7 +1500,7 @@
       ],
       "recommendReason": "把黑盒算法变成可暂停动画，偿还认知债极高效。",
       "score": 8.5,
-      "slug": "交互式讲解降认知债"
+      "slug": "article-90"
     },
     {
       "title": "特朗普豪赌伊朗政权更迭",
@@ -1516,7 +1516,7 @@
       ],
       "recommendReason": "揭示美伊战争真相，警示政策风险。",
       "score": 8.5,
-      "slug": "特朗普豪赌伊朗政权更迭"
+      "slug": "article-91"
     },
     {
       "title": "我注销ChatGPT",
@@ -1532,7 +1532,7 @@
       ],
       "recommendReason": "直面AI军用化，提供注销指引",
       "score": 8.5,
-      "slug": "我注销chatgpt"
+      "slug": "chatgpt"
     },
     {
       "title": "加州可阻拉埃收华纳",
@@ -1548,7 +1548,7 @@
       ],
       "recommendReason": "揭示寡头控制媒体的新动向，法律干预看点足。",
       "score": 8.5,
-      "slug": "加州可阻拉埃收华纳"
+      "slug": "article-93"
     },
     {
       "title": "家用电池30个月省3MWh",
@@ -1564,7 +1564,7 @@
       ],
       "recommendReason": "真实数据展示家用电池收益与策略，参考价值高",
       "score": 8.5,
-      "slug": "家用电池30个月省3mwh"
+      "slug": "30-3mwh"
     },
     {
       "title": "AI圈黑幕：捐款换牌照",
@@ -1580,7 +1580,7 @@
       ],
       "recommendReason": "揭示AI监管背后的金钱政治，令人警醒。",
       "score": 8.5,
-      "slug": "ai圈黑幕-捐款换牌照"
+      "slug": "ai"
     },
     {
       "title": "Bash提取文件扩展名技巧",
@@ -1596,7 +1596,7 @@
       ],
       "recommendReason": "一行代码解决扩展名替换，脚本极简实用。",
       "score": 8.5,
-      "slug": "bash提取文件扩展名技巧"
+      "slug": "bash"
     },
     {
       "title": "Approximation game",

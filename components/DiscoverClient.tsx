@@ -13,6 +13,7 @@ interface FeedArticle {
   tags: string[];
   recommendReason: string;
   score: number;
+  slug?: string;
 }
 
 interface FeedData {
@@ -147,11 +148,12 @@ export function DiscoverClient() {
           </h2>
           <div className="grid gap-3">
             {dailyPicks.map((article, index) => {
-              const slug = article.title
+              // Use slug from JSON if available, otherwise generate it (fallback)
+              const slug = article.slug || article.title
                 .toLowerCase()
                 .replace(/[^a-z0-9]+/g, '-')
                 .replace(/^-+|-+$/g, '')
-                .slice(0, 100);
+                .slice(0, 100) || `article-${index}`;
               return (
                 <Link
                   key={index}
@@ -221,12 +223,12 @@ export function DiscoverClient() {
 
       <div className="grid gap-4">
         {filteredAndSortedArticles.map((article, index) => {
-          // Generate slug (must match Python backend logic)
-          const slug = article.title
+          // Use slug from JSON if available, otherwise generate it (fallback)
+          const slug = article.slug || article.title
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, '-')
             .replace(/^-+|-+$/g, '')
-            .slice(0, 100);
+            .slice(0, 100) || `article-${index}`;
           return (
           <Link
             key={index}
