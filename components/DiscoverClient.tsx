@@ -181,7 +181,12 @@ export function DiscoverClient() {
 
       <div className="grid gap-4">
         {filteredAndSortedArticles.map((article, index) => {
-          const slug = encodeURIComponent(article.title.toLowerCase().replace(/\s+/g, '-'));
+          // Generate slug (must match Python backend logic)
+          const slug = article.title
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '')
+            .slice(0, 100);
           return (
           <Link
             key={index}

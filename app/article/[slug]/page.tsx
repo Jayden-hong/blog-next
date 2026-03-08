@@ -1,126 +1,118 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ExternalLink, ArrowLeft } from 'lucide-react';
-import { translateArticleEditorial } from '@/lib/ai-translator';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import remarkGfm from 'remark-gfm';
+import rehypeHighlight from 'rehype-highlight';
 
-interface ArticleData {
-  title: string;
-  url: string;
-  source: string;
-  author: string;
-  date: string;
-  description: string;
-  tags: string[];
-  recommendReason: string;
-  score: number;
-}
+// Force static generation
+export const dynamic = 'force-static';
 
-async function getArticle(slug: string): Promise<ArticleData | null> {
-  try {
-    // 从 feed 数据中获取文章
-    const response = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'https://blog.zucchini.win'}/feed/all-articles.json`, {
-      cache: 'no-store'
-    });
-    const data = await response.json();
-    
-    // 根据 slug 查找文章（slug 是 URL 编码后的标题）
-    const article = data.articles.find((a: ArticleData) => 
-      encodeURIComponent(a.title.toLowerCase().replace(/\s+/g, '-')) === slug
-    );
-    
-    return article || null;
-  } catch (error) {
-    console.error('Failed to fetch article:', error);
-    return null;
-  }
-}
-
-
-
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
-  const article = await getArticle(params.slug);
+// Generate static params for all articles
+export async function generateStaticParams() {
+  const articlesDir = path.join(process.cwd(), 'content/articles');
   
-  if (!article) {
+  // Check if directory exists
+  if (!fs.existsSync(articlesDir)) {
+    return [];
+  }
+  
+  const files = fs.readdirSync(articlesDir);
+  
+  return files
+    .filter(file => file.endsWith('.mdx'))
+    .map(file => ({
+      slug: file.replace('.mdx', ''),
+    }));
+}
+
+interface ArticlePageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { slug } = await params;
+  
+  // Read MDX file
+  const articlesDir = path.join(process.cwd(), 'content/articles');
+  const filePath = path.join(articlesDir, `${slug}.mdx`);
+  
+  if (!fs.existsSync(filePath)) {
     notFound();
   }
-
-  const translatedContent = await translateArticleEditorial(article);
-
+  
+  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const { data, content } = matter(fileContent);
+  
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-3xl mx-auto px-4 py-12">
-        {/* 返回按钮 */}
-        <Link 
-          href="/discover" 
-          className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-8 transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          返回发现页
-        </Link>
-
-        {/* 文章头部 */}
-        <article className="prose prose-lg max-w-none">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {article.title}
-          </h1>
-
-          {/* 元信息 */}
-          <div className="flex items-center gap-4 text-sm text-gray-600 mb-8 not-prose">
-            <span>{article.source}</span>
-            <span>•</span>
-            <span>{article.author}</span>
-            <span>•</span>
-            <time>{new Date(article.date).toLocaleDateString('zh-CN')}</time>
-            <span>•</span>
-            <span className="text-amber-600 font-medium">评分: {article.score}/10</span>
-          </div>
-
-          {/* 标签 */}
-          <div className="flex flex-wrap gap-2 mb-8 not-prose">
-            {article.tags.map(tag => (
-              <span 
-                key={tag}
-                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-
-          {/* 原文链接（顶部） */}
-          <a
-            href={article.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors no-underline mb-8"
+    <div className="min-h-screen bg-[#FAFAF8]">
+      {/* Header */}
+      <header className="border-b border-gray-200 bg-white">
+        <div className="container mx-auto max-w-4xl px-6 py-4">
+          <Link 
+            href="/discover" 
+            className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
           >
-            阅读原文
-            <ExternalLink className="w-4 h-4" />
-          </a>
+            <ArrowLeft className="w-4 h-4" />
+            Back to Discover
+          </Link>
+        </div>
+      </header>
 
-          {/* 转译内容 */}
-          <div 
-            className="mt-8 text-gray-800 leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: translatedContent.replace(/\n/g, '<br />') }}
+      {/* Article */}
+      <article className="container mx-auto max-w-4xl px-6 py-12">
+        {/* Title */}
+        <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">
+          {data.title}
+        </h1>
+
+        {/* Meta */}
+        <div className="flex items-center gap-4 text-sm text-gray-600 mb-8 pb-8 border-b border-gray-200">
+          <span>{data.source}</span>
+          <span>·</span>
+          <span>Score: {data.score}/10</span>
+          {data.url && (
+            <>
+              <span>·</span>
+              <a 
+                href={data.url} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-700 transition-colors"
+              >
+                Original Article <ExternalLink className="w-3 h-3" />
+              </a>
+            </>
+          )}
+        </div>
+
+        {/* Content */}
+        <div className="prose prose-lg max-w-none
+          prose-headings:font-serif prose-headings:font-bold
+          prose-h1:text-3xl prose-h1:mt-8 prose-h1:mb-4
+          prose-h2:text-2xl prose-h2:mt-6 prose-h2:mb-3
+          prose-h3:text-xl prose-h3:mt-4 prose-h3:mb-2
+          prose-p:mb-4 prose-p:leading-relaxed prose-p:text-gray-800
+          prose-a:text-blue-600 prose-a:hover:text-blue-700 prose-a:underline
+          prose-ul:list-disc prose-ul:pl-6 prose-ul:mb-4 prose-ul:space-y-2
+          prose-ol:list-decimal prose-ol:pl-6 prose-ol:mb-4 prose-ol:space-y-2
+          prose-blockquote:border-l-4 prose-blockquote:border-gray-300 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:my-4
+          prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-mono
+        ">
+          <MDXRemote 
+            source={content}
+            options={{
+              mdxOptions: {
+                remarkPlugins: [remarkGfm],
+                rehypePlugins: [rehypeHighlight],
+              },
+            }}
           />
-
-          {/* 原文链接（底部） */}
-          <div className="mt-12 pt-8 border-t border-gray-200 not-prose">
-            <a
-              href={article.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
-            >
-              查看完整原文
-              <ExternalLink className="w-4 h-4" />
-            </a>
-          </div>
-        </article>
-      </div>
+        </div>
+      </article>
     </div>
   );
 }
-
-// 静态生成（可选，如果文章数量不多可以预生成）
-export const dynamic = 'force-dynamic'; // 先用动态渲染，避免构建时出错

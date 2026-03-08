@@ -1,227 +1,272 @@
 {
-  "date": "2026-03-07",
-  "totalSources": 9,
-  "totalArticles": 16,
+  "date": "2026-03-08",
+  "totalSources": 10,
+  "totalArticles": 23,
   "highlights": [
     {
-      "title": "一个Issue标题劫持AI发布系统？",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
+      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
+      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
+      "source": "pluralistic",
       "author": "",
-      "date": "2026-03-06",
-      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
+      "date": "2026-03-07",
+      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
       "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
+        "RSS",
+        "数字权利",
+        "反平台垄断"
       ],
-      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
+      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
       "score": 8.8
     },
     {
-      "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
+      "title": "Rails代码审计：9个让CTO失眠的灵魂拷问",
       "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。",
+      "description": "Ally Piechowski针对不同角色设计的Rails审计清单，通过9个关键问题揭示技术债务、部署风险与产品阻塞点。",
       "tags": [
         "Rails",
         "代码审计",
         "技术债务"
       ],
-      "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
+      "recommendReason": "提供了一份可直接落地的代码库健康诊断框架，帮助技术管理者快速识别隐藏风险与团队瓶颈。",
       "score": 8.5
     },
     {
-      "title": "AI写的代码通过了测试，为什么还会崩溃？",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "title": "最讲道德的AI公司，为何接下五角大楼订单？",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。",
+      "description": "AI模型日益同质化，Anthropic靠「道德人设」差异化竞争，但Pentagon合同暴露了其商业现实与伦理标榜的深层矛盾。",
       "tags": [
-        "AI编程",
-        "软件测试",
-        "Agent"
+        "AI伦理",
+        "Anthropic",
+        "军事AI"
       ],
-      "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
+      "recommendReason": "透过军事合同风波，看清AI公司「道德光环」背后的市场逻辑与身份焦虑。",
       "score": 8.5
     },
     {
-      "title": "维护13年后，他用AI把LGPL代码改成了MIT",
-      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "AI编程助手几小时完成传统需数月的\"洁净室\"重写，chardet库维护者试图将协议从LGPL改为MIT，原作者怒斥侵权，揭开AI时代开源许可的法律灰色地带。",
-      "tags": [
-        "开源协议",
-        "AI编程助手",
-        "法律争议"
-      ],
-      "recommendReason": "这是AI时代开源社区面临的全新法律挑战，关乎每一位开发者的代码所有权与使用权边界。",
-      "score": 8.5
-    },
-    {
-      "title": "软件工程正在消亡？亲历者的十年生存预警",
-      "url": "https://seangoedecke.com/will-my-job-still-exist/",
-      "source": "seangoedecke",
-      "author": "",
+      "title": "反谷歌斗士被禁言8年？Epic CEO签了沉默契约",
+      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "source": "daringfireball",
+      "author": "John Gruber",
       "date": "2026-03-06",
-      "description": "资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。",
+      "description": "Epic CEO签署协议承诺2032年前不批评Google Play，这场科技巨头与游戏大亨的和解背后藏着什么交易？",
       "tags": [
-        "AI替代",
-        "软件工程",
-        "职业危机"
+        "Epic Games",
+        "Google Play",
+        "科技诉讼"
       ],
-      "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
+      "recommendReason": "揭示了科技巨头如何通过法律协议控制舆论批评，对理解平台垄断与言论边界具有重要参考价值。",
       "score": 8.5
     },
     {
-      "title": "比温水煮青蛙更可怕的，是这种'慢动作'认知盲区",
-      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
-      "source": "pluralistic",
+      "title": "网页弹窗太烦人？这段代码一键清除所有干扰",
+      "url": "https://maurycyz.com/projects/fixsite/",
+      "source": "maurycyz",
       "author": "",
-      "date": "2026-03-05",
-      "description": "借用致命路口的几何隐喻与'煮青蛙'寓言，剖析人类为何对气候危机等渐进式灾难存在系统性认知盲区，直到为时已晚才察觉危险。",
+      "date": "2026-03-07",
+      "description": "分享一段极简JavaScript代码，可一键移除网页固定横幅、Cookie弹窗和跟随导航栏，还附赠书签小工具与强制深浅色模式方案。",
       "tags": [
-        "认知科学",
-        "气候变化",
-        "思维模型"
+        "JavaScript",
+        "浏览器工具",
+        "网页优化"
       ],
-      "recommendReason": "揭示那些'看得见却想不到'的致命风险，帮你建立对渐进式危机的敏锐嗅觉。",
+      "recommendReason": "提供即开即用的浏览器书签工具，彻底解决网页视觉干扰问题，还你纯净阅读体验。",
+      "score": 8.5
+    },
+    {
+      "title": "50年前的黑客圣经？这本书预言了现代网络犯罪",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "回顾1975年的计算机犯罪实录，揭示技术虽迭代但安全漏洞本质未变，法律滞后的困境至今依然",
+      "tags": [
+        "网络安全",
+        "科技史",
+        "书评"
+      ],
+      "recommendReason": "透过半世纪前的计算机犯罪档案，看清技术演进中永恒的安全本质",
       "score": 8.5
     }
   ],
   "articles": [
     {
-      "title": "一个Issue标题劫持AI发布系统？",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
+      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
+      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
+      "source": "pluralistic",
       "author": "",
-      "date": "2026-03-06",
-      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
+      "date": "2026-03-07",
+      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
       "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
+        "RSS",
+        "数字权利",
+        "反平台垄断"
       ],
-      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
+      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
       "score": 8.8
     },
     {
-      "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
+      "title": "Rails代码审计：9个让CTO失眠的灵魂拷问",
       "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "Ally Piechowski提出的Rails代码库审计清单，针对开发者、CTO和业务方设计8个尖锐问题，揭露被阻塞的功能、隐藏的技术债务和悄然下线的业务逻辑。",
+      "description": "Ally Piechowski针对不同角色设计的Rails审计清单，通过9个关键问题揭示技术债务、部署风险与产品阻塞点。",
       "tags": [
         "Rails",
         "代码审计",
         "技术债务"
       ],
-      "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
+      "recommendReason": "提供了一份可直接落地的代码库健康诊断框架，帮助技术管理者快速识别隐藏风险与团队瓶颈。",
       "score": 8.5
     },
     {
-      "title": "AI写的代码通过了测试，为什么还会崩溃？",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "别让自动化测试骗了你！本文揭秘如何让AI代理像人类一样手动验证代码，发现自动化测试遗漏的致命bug，提供Python、Web API等实战技巧。",
-      "tags": [
-        "AI编程",
-        "软件测试",
-        "Agent"
-      ],
-      "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
-      "score": 8.5
-    },
-    {
-      "title": "维护13年后，他用AI把LGPL代码改成了MIT",
-      "url": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "AI编程助手几小时完成传统需数月的\"洁净室\"重写，chardet库维护者试图将协议从LGPL改为MIT，原作者怒斥侵权，揭开AI时代开源许可的法律灰色地带。",
-      "tags": [
-        "开源协议",
-        "AI编程助手",
-        "法律争议"
-      ],
-      "recommendReason": "这是AI时代开源社区面临的全新法律挑战，关乎每一位开发者的代码所有权与使用权边界。",
-      "score": 8.5
-    },
-    {
-      "title": "软件工程正在消亡？亲历者的十年生存预警",
-      "url": "https://seangoedecke.com/will-my-job-still-exist/",
-      "source": "seangoedecke",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "资深软件工程师反思AI对编程职业的颠覆，探讨从初级到高级工程师的替代危机与行业未来走向。",
-      "tags": [
-        "AI替代",
-        "软件工程",
-        "职业危机"
-      ],
-      "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
-      "score": 8.5
-    },
-    {
-      "title": "比温水煮青蛙更可怕的，是这种'慢动作'认知盲区",
-      "url": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "借用致命路口的几何隐喻与'煮青蛙'寓言，剖析人类为何对气候危机等渐进式灾难存在系统性认知盲区，直到为时已晚才察觉危险。",
-      "tags": [
-        "认知科学",
-        "气候变化",
-        "思维模型"
-      ],
-      "recommendReason": "揭示那些'看得见却想不到'的致命风险，帮你建立对渐进式危机的敏锐嗅觉。",
-      "score": 8.5
-    },
-    {
-      "title": "监控文件删除却拿不到属性？Windows API这个坑怎么填",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "解析ReadDirectoryChangesW在文件删除时仅返回文件名的限制，介绍通过内存缓存或ReadDirectoryChangesExW获取被删文件详细信息的解决方案。",
-      "tags": [
-        "Windows开发",
-        "文件系统监控",
-        "API设计"
-      ],
-      "recommendReason": "Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。",
-      "score": 8.5
-    },
-    {
-      "title": "你的消息被“截胡”了？揭秘Windows消息循环隐藏陷阱",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "解析Windows消息机制常见误区：PostMessage的消息为何在到达主循环前就被处理？揭示GetMessage/PeekMessage可在任意代码点分发消息的底层原理。",
-      "tags": [
-        "Windows编程",
-        "消息循环",
-        "Win32开发"
-      ],
-      "recommendReason": "Raymond Chen深度剖析Windows消息分发机制，帮你避免初始化阶段的竞争条件陷阱。",
-      "score": 8.5
-    },
-    {
-      "title": "Anthropic and the Pentagon",
+      "title": "最讲道德的AI公司，为何接下五角大楼订单？",
       "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "Anthropic and the Pentagon This piece by Bruce Schneier and Nathan E. Sanders is the most thoughtful and grounded coverage I've seen of the recent and",
+      "description": "AI模型日益同质化，Anthropic靠「道德人设」差异化竞争，但Pentagon合同暴露了其商业现实与伦理标榜的深层矛盾。",
+      "tags": [
+        "AI伦理",
+        "Anthropic",
+        "军事AI"
+      ],
+      "recommendReason": "透过军事合同风波，看清AI公司「道德光环」背后的市场逻辑与身份焦虑。",
+      "score": 8.5
+    },
+    {
+      "title": "反谷歌斗士被禁言8年？Epic CEO签了沉默契约",
+      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Epic CEO签署协议承诺2032年前不批评Google Play，这场科技巨头与游戏大亨的和解背后藏着什么交易？",
+      "tags": [
+        "Epic Games",
+        "Google Play",
+        "科技诉讼"
+      ],
+      "recommendReason": "揭示了科技巨头如何通过法律协议控制舆论批评，对理解平台垄断与言论边界具有重要参考价值。",
+      "score": 8.5
+    },
+    {
+      "title": "网页弹窗太烦人？这段代码一键清除所有干扰",
+      "url": "https://maurycyz.com/projects/fixsite/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "分享一段极简JavaScript代码，可一键移除网页固定横幅、Cookie弹窗和跟随导航栏，还附赠书签小工具与强制深浅色模式方案。",
+      "tags": [
+        "JavaScript",
+        "浏览器工具",
+        "网页优化"
+      ],
+      "recommendReason": "提供即开即用的浏览器书签工具，彻底解决网页视觉干扰问题，还你纯净阅读体验。",
+      "score": 8.5
+    },
+    {
+      "title": "50年前的黑客圣经？这本书预言了现代网络犯罪",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "回顾1975年的计算机犯罪实录，揭示技术虽迭代但安全漏洞本质未变，法律滞后的困境至今依然",
+      "tags": [
+        "网络安全",
+        "科技史",
+        "书评"
+      ],
+      "recommendReason": "透过半世纪前的计算机犯罪档案，看清技术演进中永恒的安全本质",
+      "score": 8.5
+    },
+    {
+      "title": "别乱升级！这款USB测试仪的v4.0是个陷阱",
+      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "作者揭秘Treedix线缆测试仪固件更新陷阱：v4.0需硬件改版，旧设备只能升到v2.4.06，并提供Windows独家升级教程。",
+      "tags": [
+        "固件升级",
+        "USB测试仪",
+        "硬件评测"
+      ],
+      "recommendReason": "揭露了固件版本与硬件绑定的隐藏限制，并提供独家升级避坑指南。",
+      "score": 8.5
+    },
+    {
+      "title": "文件被删了却查不到信息？Windows API这个坑怎么填",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "使用ReadDirectoryChangesW监控目录时，收到删除通知后无法获取文件属性。微软资深工程师揭秘如何通过维护缓存或ReadDirectoryChangesExW解决这一盲区。",
+      "tags": [
+        "Windows开发",
+        "文件系统监控",
+        "API技巧"
+      ],
+      "recommendReason": "微软元老级工程师亲授Windows文件监控的隐秘陷阱与解决方案，开发者的避坑指南。",
+      "score": 8.5
+    },
+    {
+      "title": "一行命令集成企业级登录？这个CLI杀疯了",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "WorkOS发布AI驱动CLI工具，一行命令自动检测框架、安装SDK并生成集成代码，2分钟完成AuthKit企业级认证接入，告别繁琐配置。",
+      "tags": [
+        "前端开发",
+        "身份认证",
+        "CLI工具"
+      ],
+      "recommendReason": "开发者必备：将原本数小时的SSO集成工作压缩到2分钟，AI自动化生成代码，极大提升开发效率。",
+      "score": 8.2
+    },
+    {
+      "title": "比游戏更惊艳的是包装？揭秘70年代这场被遗忘的设计革命",
+      "url": "https://johnmccoy.org/2026/03/05/never-the-same-game-twice/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "追溯1970年代Parker Brothers被通用磨坊收购后的转型，探讨其如何融合波普艺术与欧普艺术，创造出颠覆传统的桌游视觉美学，并与同时代竞争对手形成鲜明对比。",
+      "tags": [
+        "平面设计",
+        "复古文化",
+        "游戏历史"
+      ],
+      "recommendReason": "挖掘被忽视的设计史细节，展现商业并购如何意外催生视觉美学革命，对设计师与复古文化爱好者极具启发。",
+      "score": 8
+    },
+    {
+      "title": "一个广告位11万，谁在为\"果粉\"买单？",
+      "url": "https://daringfireball.net/feeds/sponsors/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "揭秘顶级科技博客Daring Fireball的赞助玩法：每周11000美元，精准触达20万Mac极客与设计师，月活250万的高端受众，目前仍有少量档期开放。",
+      "tags": [
+        "科技媒体",
+        "广告投放",
+        "自媒体变现"
+      ],
+      "recommendReason": "揭示小众高端内容的商业变现逻辑，为品牌精准投放和自媒体运营提供顶级案例参考。",
+      "score": 7.5
+    },
+    {
+      "title": "Codex for Open Source",
+      "url": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downl",
       "tags": [
         "simonwillison"
       ],
@@ -229,12 +274,12 @@
       "score": 5
     },
     {
-      "title": "Introducing GPT‑5.4",
-      "url": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "title": "Agentic manual testing",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
       "source": "simonwillison",
       "author": "",
-      "date": "2026-03-05",
-      "description": "Introducing GPT‑5.4 Two new API models: gpt-5.4 and gpt-5.4-pro , also available in ChatGPT and Codex CLI. August 31st 2025 knowledge cutoff, 1 millio",
+      "date": "2026-03-06",
+      "description": "Agentic Engineering Patterns > The defining characteristic of a coding agent is that it can execute the code that it writes. This is what makes coding",
       "tags": [
         "simonwillison"
       ],
@@ -255,6 +300,84 @@
       "score": 5
     },
     {
+      "title": "Google’s Threat Intelligence Group on Coruna, a Powerful iOS Exploit Kit of Mysterious Origin",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "Google Threat Intelligence Group, earlier this week: Google Threat Intelligence Group (GTIG) has identified a new and powerful exploit kit targeting A",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "‘The Window Chrome of Our Discontent’",
+      "url": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "Nick Heer, writing at Pixel Envy, uses Pages (from 2009 through today) to illustrate Apple’s march toward putting “greater focus on your content” by m",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
+      "url": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "The Verge: Sean Hollister: What would you say the differences are between the Apple and Google cases? Tim Sweeney: I would say Apple was ice and Googl",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "The MacBook Neo’s Price, Looking to the Past and Future",
+      "url": "https://x.com/ethan_is_online/status/2029331836137291941?s=42",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Ethan W. Anderson, on Twitter/X: I’ve plotted the most expensive McDonald’s burger and the least expensive MacBook over time. This analysis projects t",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Another Steve Jobs Quote on Lower-Priced Macs",
+      "url": "https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Steve Jobs, on Apple’s quarterly results call back in October 2008 : There are some customers which we choose not to serve. We don’t know how to make ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "★ Thoughts and Observations on the MacBook Neo",
+      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
       "title": "It Depends",
       "url": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
       "source": "idiallo",
@@ -268,38 +391,12 @@
       "score": 5
     },
     {
-      "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
-      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "Last year I reviewed the Treedix USB Cable Tester - a handy device for testing the capabilities of all your USB cables. I noted that it had a few mino",
-      "tags": [
-        "shkspr.mobi"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
-      "url": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-05",
-      "description": "I'm a fan of R.F. Kuang's books - but this is the first which I've found laugh-out-loud funny. What if your University advisor died and the only way t",
-      "tags": [
-        "shkspr.mobi"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Advice for staying in the hospital for a week",
-      "url": "https://xeiaso.net/blog/2026/hospital-advice/",
+      "title": "Using Clankers to Help Me Process Surgery",
+      "url": "https://xeiaso.net/blog/2026/surgery-recovery-clankers/",
       "source": "xeiaso",
       "author": "",
-      "date": "2026-03-06",
-      "description": "Hard-won wisdom from a week of fluorescent lights and beeping machines.",
+      "date": "2026-03-07",
+      "description": "At 4 AM in recovery, the machines that never sleep turned out to be exactly the right company.",
       "tags": [
         "xeiaso"
       ],
@@ -307,12 +404,12 @@
       "score": 5
     },
     {
-      "title": "Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives",
-      "url": "https://garymarcus.substack.com/p/dont-trust-generative-ai-to-do-your",
+      "title": "BREAKING: Sam Altman’s greed and dishonesty are finally catching up to him",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altmans-greed-and-dishonesty",
       "source": "garymarcus",
       "author": "",
-      "date": "2026-03-05",
-      "description": "“The problem comes down to how A.I. chatbots are fundamentally designed”",
+      "date": "2026-03-07",
+      "description": "It’s about time",
       "tags": [
         "garymarcus"
       ],
@@ -322,6 +419,7 @@
   ],
   "allTags": [
     "AI",
+    "AI伦理",
     "AI军事",
     "AI安全",
     "AI工具",
@@ -332,6 +430,7 @@
     "AI自动化",
     "AI辅助",
     "AI辅助编程",
+    "API技巧",
     "API设计",
     "Agent",
     "Anthropic",
@@ -343,11 +442,14 @@
     "Code",
     "Dev",
     "Electronics",
+    "Epic Games",
     "Frigate",
+    "Google Play",
     "HNSW",
     "HTML入门",
     "HTTP Range",
     "Ionizing Radiation",
+    "JavaScript",
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
@@ -358,6 +460,7 @@
     "Pebble手表",
     "Prompt Injection",
     "RLVR",
+    "RSS",
     "Radiation Detection",
     "Rails",
     "Raspberry Pi",
@@ -368,6 +471,7 @@
     "Security",
     "Tech",
     "UI设计",
+    "USB测试仪",
     "Unicode",
     "Win32",
     "Win32开发",
@@ -413,9 +517,11 @@
     "健康",
     "僵尸网络",
     "免费工具",
+    "军事AI",
     "军事伦理",
     "减肥",
     "分布式拒绝服务(DDoS)",
+    "前端开发",
     "加拿大",
     "化学卫生",
     "区块链",
@@ -423,9 +529,12 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "反平台垄断",
     "命令行",
     "命令行技巧",
+    "固件升级",
     "在线讨论",
+    "复古文化",
     "大模型",
     "天文摄影",
     "奈飞",
@@ -436,8 +545,10 @@
     "崩溃报告",
     "崩溃监控",
     "工程师",
+    "平面设计",
     "并购",
     "幽默",
+    "广告投放",
     "广播技术",
     "应用程序开发",
     "开发者",
@@ -467,6 +578,7 @@
     "效率",
     "敏捷实践",
     "数字体育广播",
+    "数字权利",
     "数学科普",
     "数据保存",
     "数据加密",
@@ -487,10 +599,12 @@
     "法律争议",
     "流媒体",
     "流程管理",
+    "浏览器工具",
     "浏览器自动化",
     "消息循环",
     "消息过滤",
     "深度学习",
+    "游戏历史",
     "物联网",
     "特朗普",
     "环保",
@@ -509,8 +623,11 @@
     "科幻",
     "科技",
     "科技动态",
+    "科技史",
+    "科技媒体",
     "科技新品",
     "科技评论",
+    "科技诉讼",
     "空内容",
     "空气质量",
     "笔记本电脑",
@@ -525,11 +642,13 @@
     "网站开发",
     "网站维护",
     "网络安全",
+    "网页优化",
     "美国",
     "职业危机",
     "职场失误",
     "自动化",
     "自动编程",
+    "自媒体变现",
     "自我成长",
     "苹果",
     "融资",
@@ -543,6 +662,7 @@
     "误炸事件",
     "误靶向",
     "身份认同",
+    "身份认证",
     "软件2.0",
     "软件工程",
     "软件开发",

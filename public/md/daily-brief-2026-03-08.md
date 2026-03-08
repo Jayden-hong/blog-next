@@ -3,7 +3,7 @@ title: "Daily Read · 2026-03-08"
 date: "2026-03-08T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "latest-brief"
+slug: "daily-brief-2026-03-08"
 ---
 
 > 23 articles · 6.6/10 avg · 11 highlights (≥7.5)

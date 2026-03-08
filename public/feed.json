@@ -7,23 +7,38 @@
   "language": "en",
   "items": [
     {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-07/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-07/",
-      "title": "Daily Read · 2026-03-07",
-      "content_text": "\n> 16 articles · 6.8/10 avg · 8 highlights (≥7.5)\n\n1. [一个Issue标题劫持AI发布系统？](https://simonwillison.net/2026/Mar/6/clinejection/atom-everything) · 8.8/10 · simonwillison\n\n黑客利用Prompt注入操控Cline的AI issu",
-      "date_published": "2026-03-07T06:00:00Z",
+      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/",
+      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/",
+      "title": "每日观点 · 2026年3月8日",
+      "content_text": "\n核心观点：\nAI 正在重塑攻击面与防御范式——从 Cline 的 prompt 注入供应链攻击，到 RSS 对抗互联网「恶化」的开放协议价值，再到 AI 公司道德人设与军事实战的张力，我们正处于技术伦理与安全的十字路口。\n\n现象解读：\n今日 RSS 聚合的 24 篇文章中，安全与权力结构主题尤为突出。Cline AI 被 prompt 注入攻击导致 NPM 密钥泄露，是首个公开的",
+      "date_published": "2026-03-08T08:00:00Z",
+      "tags": [
+        "每日观点",
+        "深度分析",
+        "AI安全",
+        "供应链攻击",
+        "开放协议"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-08.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-08/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-08/",
+      "title": "Daily Read · 2026-03-08",
+      "content_text": "\n> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)\n\n1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic\n\n揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断",
+      "date_published": "2026-03-08T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-07.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-08.md"
     },
     {
       "id": "https://blog.zucchini.win/blog/latest-brief/",
       "url": "https://blog.zucchini.win/blog/latest-brief/",
-      "title": "Daily Read · 2026-03-07",
-      "content_text": "\n> 16 articles · 6.8/10 avg · 8 highlights (≥7.5)\n\n1. [一个Issue标题劫持AI发布系统？](https://simonwillison.net/2026/Mar/6/clinejection/atom-everything) · 8.8/10 · simonwillison\n\n黑客利用Prompt注入操控Cline的AI issu",
-      "date_published": "2026-03-07T06:00:00Z",
+      "title": "Daily Read · 2026-03-08",
+      "content_text": "\n> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)\n\n1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic\n\n揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断",
+      "date_published": "2026-03-08T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"

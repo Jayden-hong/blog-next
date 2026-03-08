@@ -93,4 +93,4 @@ Hard-won wisdom from a week of fluorescent lights and beeping machines.
 “The problem comes down to how A.I. chatbots are fundamentally designed”
 
 ---
-*2026-03-07 00:15 UTC · Kimi K2 · 94 sources*
+*2026-03-07 22:12 UTC · Kimi K2 · 94 sources*
