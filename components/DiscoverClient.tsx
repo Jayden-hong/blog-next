@@ -14,6 +14,7 @@ interface FeedArticle {
   recommendReason: string;
   score: number;
   slug?: string;
+  translated?: boolean;
 }
 
 interface FeedData {
@@ -223,16 +224,20 @@ export function DiscoverClient() {
 
       <div className="grid gap-4">
         {filteredAndSortedArticles.map((article, index) => {
-          // Use slug from JSON if available, otherwise generate it (fallback)
-          const slug = article.slug || article.title
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, '-')
-            .replace(/^-+|-+$/g, '')
-            .slice(0, 100) || `article-${index}`;
+          // Determine link target based on translation status
+          const linkHref = article.translated && article.slug 
+            ? `/article/${article.slug}`
+            : article.url;
+          
+          const LinkWrapper = article.translated && article.slug ? Link : 'a';
+          const linkProps = article.translated && article.slug 
+            ? { href: linkHref }
+            : { href: linkHref, target: "_blank", rel: "noopener noreferrer" };
+          
           return (
-          <Link
+          <LinkWrapper
             key={index}
-            href={`/article/${slug}`}
+            {...linkProps}
             className="block border-b border-neutral-100 pb-4 last:border-0 hover:opacity-60 transition-opacity group"
           >
             <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
@@ -242,11 +247,12 @@ export function DiscoverClient() {
               {article.author && <><span className="text-neutral-200">|</span><span>{article.author}</span></>}
               {article.date && <><span className="text-neutral-200">|</span><span>{article.date}</span></>}
               {article.tags?.[0] && <><span className="text-neutral-200">|</span><span>{article.tags[0]}</span></>}
+              {!article.translated && <><span className="text-neutral-200">|</span><span className="text-amber-600">原文</span></>}
             </div>
             <h3 className="font-medium text-neutral-900 mb-1">{article.title}</h3>
             {article.description && <p className="text-sm text-neutral-500 line-clamp-1">{article.description}</p>}
             {article.recommendReason && <p className="text-xs text-neutral-400 mt-2 mono">→ {article.recommendReason}</p>}
-          </Link>
+          </LinkWrapper>
         );
         })}
       </div>
