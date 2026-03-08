@@ -21,6 +21,7 @@ interface FeedData {
   totalArticles: number;
   articles: FeedArticle[];
   allTags: string[];
+  highlights?: FeedArticle[];
 }
 
 type SortMode = 'date' | 'score';
@@ -120,6 +121,9 @@ export function DiscoverClient() {
     ? (articlesWithScores.reduce((sum, a) => sum + a.score, 0) / articlesWithScores.length).toFixed(1)
     : null;
 
+  // Daily Picks: 使用 highlights 字段（Top 6 文章）
+  const dailyPicks = feedData.highlights || [];
+
   return (
     <>
       <header className="mb-8">
@@ -133,6 +137,42 @@ export function DiscoverClient() {
           {avgScore && ' · curated by Qwen 3.5'}
         </p>
       </header>
+
+      {/* Daily Picks Section */}
+      {dailyPicks.length > 0 && (
+        <section className="mb-8">
+          <h2 className="text-sm font-medium text-neutral-900 mb-4 flex items-center gap-2">
+            <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
+            Daily Picks
+          </h2>
+          <div className="grid gap-3">
+            {dailyPicks.map((article, index) => {
+              const slug = article.title
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/^-+|-+$/g, '')
+                .slice(0, 100);
+              return (
+                <Link
+                  key={index}
+                  href={`/article/${slug}`}
+                  className="block p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 transition-colors group"
+                >
+                  <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
+                    <span className="text-amber-600 font-medium">{article.score?.toFixed(1)}</span>
+                    <span className="text-neutral-200">|</span>
+                    <span>{article.source}</span>
+                    {article.date && <><span className="text-neutral-200">|</span><span>{article.date}</span></>}
+                  </div>
+                  <h3 className="font-medium text-neutral-900 mb-1 group-hover:text-amber-700 transition-colors">{article.title}</h3>
+                  {article.description && <p className="text-sm text-neutral-500 line-clamp-2">{article.description}</p>}
+                  {article.recommendReason && <p className="text-xs text-neutral-400 mt-2 mono">→ {article.recommendReason}</p>}
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <div className="relative mb-4">
         <input
