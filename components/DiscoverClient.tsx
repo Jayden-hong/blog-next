@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
+import Link from 'next/link';
 
 interface FeedArticle {
   title: string;
@@ -179,12 +180,12 @@ export function DiscoverClient() {
       </div>
 
       <div className="grid gap-4">
-        {filteredAndSortedArticles.map((article, index) => (
-          <a
+        {filteredAndSortedArticles.map((article, index) => {
+          const slug = encodeURIComponent(article.title.toLowerCase().replace(/\s+/g, '-'));
+          return (
+          <Link
             key={index}
-            href={article.url}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={`/article/${slug}`}
             className="block border-b border-neutral-100 pb-4 last:border-0 hover:opacity-60 transition-opacity group"
           >
             <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
@@ -198,8 +199,9 @@ export function DiscoverClient() {
             <h3 className="font-medium text-neutral-900 mb-1">{article.title}</h3>
             {article.description && <p className="text-sm text-neutral-500 line-clamp-1">{article.description}</p>}
             {article.recommendReason && <p className="text-xs text-neutral-400 mt-2 mono">→ {article.recommendReason}</p>}
-          </a>
-        ))}
+          </Link>
+        );
+        })}
       </div>
       
       {filteredAndSortedArticles.length === 0 && (
