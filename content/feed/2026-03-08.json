@@ -1,294 +1,264 @@
 {
   "date": "2026-03-08",
   "totalSources": 10,
-  "totalArticles": 24,
+  "totalArticles": 23,
   "highlights": [
     {
-      "title": "当AI成为内鬼：一个Issue标题如何劫持VS Code插件发版流程",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "安全研究员通过提示词注入操控Cline的AI Issue分类器，利用GitHub Actions缓存投毒机制，成功窃取NPM发布密钥并植入恶意版本，揭示AI时代供应链攻击的新范式。",
-      "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
-      ],
-      "recommendReason": "首个公开披露针对AI Agent工作流的完整攻击链，为使用AI自动化CI/CD的开发者敲响警钟。",
-      "score": 9.2
-    },
-    {
-      "title": "这个被遗忘的技术，正在拯救被巨头毁掉的互联网",
+      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
       "url": "https://pluralistic.net/2026/03/07/reader-mode/",
       "source": "pluralistic",
       "author": "",
       "date": "2026-03-07",
-      "description": "Cory Doctorow解析RSS如何对抗互联网平台的「enshittification」恶化趋势，揭秘Google Reader被扼杀背后的商业阴谋，重申开放协议对信息自主权的重要性。",
+      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
       "tags": [
         "RSS",
-        "互联网开放",
-        "平台垄断"
+        "数字权利",
+        "反平台垄断"
       ],
-      "recommendReason": "在算法投喂和广告泛滥的时代，这篇文章为你指明了一条回归清爽网络体验的明路。",
-      "score": 8.7
+      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
+      "score": 8.8
     },
     {
-      "title": "道德AI接下军方大单？Anthropic的人设悖论",
+      "title": "Rails代码审计：9个让CTO失眠的灵魂拷问",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Ally Piechowski针对不同角色设计的Rails审计清单，通过9个关键问题揭示技术债务、部署风险与产品阻塞点。",
+      "tags": [
+        "Rails",
+        "代码审计",
+        "技术债务"
+      ],
+      "recommendReason": "提供了一份可直接落地的代码库健康诊断框架，帮助技术管理者快速识别隐藏风险与团队瓶颈。",
+      "score": 8.5
+    },
+    {
+      "title": "最讲道德的AI公司，为何接下五角大楼订单？",
       "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
       "source": "simonwillison",
       "author": "",
       "date": "2026-03-06",
-      "description": "AI模型日益商品化，Anthropic通过与五角大楼合作塑造差异化品牌，安全专家Bruce Schneier深度剖析其道德定位与商业现实间的张力。",
+      "description": "AI模型日益同质化，Anthropic靠「道德人设」差异化竞争，但Pentagon合同暴露了其商业现实与伦理标榜的深层矛盾。",
       "tags": [
         "AI伦理",
         "Anthropic",
-        "五角大楼"
+        "军事AI"
       ],
-      "recommendReason": "安全领域泰斗Bruce Schneier执笔，揭示AI巨头在道德人设与军事实战之间的真实博弈，看懂模型同质化时代的生存法则。",
+      "recommendReason": "透过军事合同风波，看清AI公司「道德光环」背后的市场逻辑与身份焦虑。",
       "score": 8.5
     },
     {
-      "title": "用树莓派复刻万元级授时时钟，我踩了哪些坑",
-      "url": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "详解如何用120美元硬件搭建PTP精确时间协议挂钟，包含Raspberry Pi配置、LED矩阵组装及PTP同步实战。",
-      "tags": [
-        "PTP协议",
-        "树莓派DIY",
-        "硬件时钟"
-      ],
-      "recommendReason": "手把手教你用低成本硬件搭建专业级PTP授时时钟，极客必备的网络时间同步可视化方案。",
-      "score": 8.5
-    },
-    {
-      "title": "还在手写认证代码？这个AI工具2分钟帮你搞定",
-      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "WorkOS发布全新CLI工具，通过AI自动检测框架、安装SDK并生成集成代码，让开发者告别繁琐的身份验证配置，一键实现AuthKit完整集成。",
-      "tags": [
-        "开发工具",
-        "身份验证",
-        "AI自动化"
-      ],
-      "recommendReason": "对于需要快速集成身份验证的开发者，这款工具将数小时的手工配置压缩至2分钟，是提升开发效率的利器。",
-      "score": 8.5
-    },
-    {
-      "title": "你的iPhone曾被谁监控？谷歌揭秘跨国漏洞黑市",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "谷歌曝光神秘iOS漏洞工具包\"Coruna\"，含5条攻击链23个漏洞，横跨监控软件商、俄罗斯间谍组织和中国黑客团伙，揭示二手零日漏洞地下交易市场。",
-      "tags": [
-        "网络安全",
-        "iOS漏洞",
-        "威胁情报"
-      ],
-      "recommendReason": "揭秘国家级黑客组织与商业监控公司共享漏洞武器的内幕，为iPhone用户提供关键安全预警。",
-      "score": 8.5
-    }
-  ],
-  "articles": [
-    {
-      "title": "当AI成为内鬼：一个Issue标题如何劫持VS Code插件发版流程",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "安全研究员通过提示词注入操控Cline的AI Issue分类器，利用GitHub Actions缓存投毒机制，成功窃取NPM发布密钥并植入恶意版本，揭示AI时代供应链攻击的新范式。",
-      "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
-      ],
-      "recommendReason": "首个公开披露针对AI Agent工作流的完整攻击链，为使用AI自动化CI/CD的开发者敲响警钟。",
-      "score": 9.2
-    },
-    {
-      "title": "这个被遗忘的技术，正在拯救被巨头毁掉的互联网",
-      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-07",
-      "description": "Cory Doctorow解析RSS如何对抗互联网平台的「enshittification」恶化趋势，揭秘Google Reader被扼杀背后的商业阴谋，重申开放协议对信息自主权的重要性。",
-      "tags": [
-        "RSS",
-        "互联网开放",
-        "平台垄断"
-      ],
-      "recommendReason": "在算法投喂和广告泛滥的时代，这篇文章为你指明了一条回归清爽网络体验的明路。",
-      "score": 8.7
-    },
-    {
-      "title": "道德AI接下军方大单？Anthropic的人设悖论",
-      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "AI模型日益商品化，Anthropic通过与五角大楼合作塑造差异化品牌，安全专家Bruce Schneier深度剖析其道德定位与商业现实间的张力。",
-      "tags": [
-        "AI伦理",
-        "Anthropic",
-        "五角大楼"
-      ],
-      "recommendReason": "安全领域泰斗Bruce Schneier执笔，揭示AI巨头在道德人设与军事实战之间的真实博弈，看懂模型同质化时代的生存法则。",
-      "score": 8.5
-    },
-    {
-      "title": "用树莓派复刻万元级授时时钟，我踩了哪些坑",
-      "url": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
-      "source": "jeffgeerling",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "详解如何用120美元硬件搭建PTP精确时间协议挂钟，包含Raspberry Pi配置、LED矩阵组装及PTP同步实战。",
-      "tags": [
-        "PTP协议",
-        "树莓派DIY",
-        "硬件时钟"
-      ],
-      "recommendReason": "手把手教你用低成本硬件搭建专业级PTP授时时钟，极客必备的网络时间同步可视化方案。",
-      "score": 8.5
-    },
-    {
-      "title": "还在手写认证代码？这个AI工具2分钟帮你搞定",
-      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "WorkOS发布全新CLI工具，通过AI自动检测框架、安装SDK并生成集成代码，让开发者告别繁琐的身份验证配置，一键实现AuthKit完整集成。",
-      "tags": [
-        "开发工具",
-        "身份验证",
-        "AI自动化"
-      ],
-      "recommendReason": "对于需要快速集成身份验证的开发者，这款工具将数小时的手工配置压缩至2分钟，是提升开发效率的利器。",
-      "score": 8.5
-    },
-    {
-      "title": "你的iPhone曾被谁监控？谷歌揭秘跨国漏洞黑市",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "谷歌曝光神秘iOS漏洞工具包\"Coruna\"，含5条攻击链23个漏洞，横跨监控软件商、俄罗斯间谍组织和中国黑客团伙，揭示二手零日漏洞地下交易市场。",
-      "tags": [
-        "网络安全",
-        "iOS漏洞",
-        "威胁情报"
-      ],
-      "recommendReason": "揭秘国家级黑客组织与商业监控公司共享漏洞武器的内幕，为iPhone用户提供关键安全预警。",
-      "score": 8.5
-    },
-    {
-      "title": "打败谷歌的男人，终于说出了真相",
-      "url": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+      "title": "反谷歌斗士被禁言8年？Epic CEO签了沉默契约",
+      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-06",
-      "description": "Epic CEO Tim Sweeney在赢得对谷歌反垄断诉讼后接受专访，首次详细披露诉讼内幕、胜利意义及对应用商店垄断格局的颠覆性影响。",
+      "description": "Epic CEO签署协议承诺2032年前不批评Google Play，这场科技巨头与游戏大亨的和解背后藏着什么交易？",
       "tags": [
-        "反垄断",
         "Epic Games",
-        "平台经济"
+        "Google Play",
+        "科技诉讼"
       ],
-      "recommendReason": "第一手揭秘科技巨头反垄断胜诉背后的战略思考与未来布局。",
+      "recommendReason": "揭示了科技巨头如何通过法律协议控制舆论批评，对理解平台垄断与言论边界具有重要参考价值。",
       "score": 8.5
     },
     {
-      "title": "别急着刷v4.0！这个USB测试仪的更新暗藏玄机",
-      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "Treedix线缆测试仪隐藏固件更新曝光，详解v2.4.06与v4.0硬件版本差异，附Windows升级教程及避坑指南。",
-      "tags": [
-        "硬件评测",
-        "固件升级",
-        "USB设备"
-      ],
-      "recommendReason": "独家揭秘厂商未公开渠道分发的固件更新，避免误刷硬件不兼容版本导致设备变砖。",
-      "score": 8.5
-    },
-    {
-      "title": "文件删除了却查不到属性？这个Windows API坑了太多人",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "深度解析ReadDirectoryChangesW的设计局限：为何删除通知只返回文件名？Raymond Chen详解如何通过缓存机制获取被删文件的类型、大小等关键信息。",
-      "tags": [
-        "Windows开发",
-        "API设计",
-        "文件系统监控"
-      ],
-      "recommendReason": "Windows开发者的必读避坑指南，揭示文件监控API的底层设计逻辑与实战缓存策略。",
-      "score": 8.5
-    },
-    {
-      "title": "董事会没冤枉他？Altman「不坦诚」实锤曝光",
-      "url": "https://garymarcus.substack.com/p/breaking-sam-altmans-greed-and-dishonesty",
-      "source": "garymarcus",
+      "title": "网页弹窗太烦人？这段代码一键清除所有干扰",
+      "url": "https://maurycyz.com/projects/fixsite/",
+      "source": "maurycyz",
       "author": "",
       "date": "2026-03-07",
-      "description": "Gary Marcus揭露Sam Altman从AI明星沦为争议焦点，分析OpenAI董事会解雇真相及当前抵制浪潮，直指权力与品格的冲突。",
+      "description": "分享一段极简JavaScript代码，可一键移除网页固定横幅、Cookie弹窗和跟随导航栏，还附赠书签小工具与强制深浅色模式方案。",
       "tags": [
-        "OpenAI",
-        "人工智能伦理",
-        "科技人物"
+        "JavaScript",
+        "浏览器工具",
+        "网页优化"
       ],
-      "recommendReason": "揭示AI巨头掌门人的信任危机，为理解OpenAI权力博弈与行业道德困境提供尖锐视角。",
+      "recommendReason": "提供即开即用的浏览器书签工具，彻底解决网页视觉干扰问题，还你纯净阅读体验。",
       "score": 8.5
     },
     {
-      "title": "1周7万元，小众博客凭什么这么贵？",
-      "url": "https://daringfireball.net/feeds/sponsors/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "揭秘顶级独立博客Daring Fireball的赞助模式：11000美元/周的定价逻辑、20万RSS订阅用户的价值，以及小众科技媒体的高阶变现策略。",
-      "tags": [
-        "独立博客",
-        "内容变现",
-        "科技媒体"
-      ],
-      "recommendReason": "揭示顶级独立博客的稀缺商业价值，为内容创作者和广告主提供高阶变现参考样本。",
-      "score": 8.0
-    },
-    {
-      "title": "乔布斯说500美元只能做垃圾，但...",
-      "url": "https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-06",
-      "description": "解读苹果不做低价Mac的深层逻辑，探讨在坚守品质DNA的前提下，苹果是否可能以独特方式进入上网本市场。",
-      "tags": [
-        "苹果战略",
-        "产品哲学",
-        "乔布斯"
-      ],
-      "recommendReason": "揭秘苹果宁愿放弃市场份额也不妥协品质的商业逻辑，理解高端定位背后的战略定力。",
-      "score": 8.0
-    },
-    {
-      "title": "50年前的'黑客'怎么作案？答案比电影还离谱",
+      "title": "50年前的黑客圣经？这本书预言了现代网络犯罪",
       "url": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
       "source": "shkspr.mobi",
       "author": "",
       "date": "2026-03-07",
-      "description": "书评1975年网络安全先驱著作，揭秘磁带勒索、电传欺诈等史前计算机犯罪，对比今昔安全防护演变。",
+      "description": "回顾1975年的计算机犯罪实录，揭示技术虽迭代但安全漏洞本质未变，法律滞后的困境至今依然",
       "tags": [
         "网络安全",
         "科技史",
         "书评"
       ],
-      "recommendReason": "以史为鉴，看半个世纪前的'电子犯罪'如何暴露至今仍存在的安全漏洞。",
+      "recommendReason": "透过半世纪前的计算机犯罪档案，看清技术演进中永恒的安全本质",
+      "score": 8.5
+    }
+  ],
+  "articles": [
+    {
+      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
+      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
+      "tags": [
+        "RSS",
+        "数字权利",
+        "反平台垄断"
+      ],
+      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
+      "score": 8.8
+    },
+    {
+      "title": "Rails代码审计：9个让CTO失眠的灵魂拷问",
+      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "Ally Piechowski针对不同角色设计的Rails审计清单，通过9个关键问题揭示技术债务、部署风险与产品阻塞点。",
+      "tags": [
+        "Rails",
+        "代码审计",
+        "技术债务"
+      ],
+      "recommendReason": "提供了一份可直接落地的代码库健康诊断框架，帮助技术管理者快速识别隐藏风险与团队瓶颈。",
+      "score": 8.5
+    },
+    {
+      "title": "最讲道德的AI公司，为何接下五角大楼订单？",
+      "url": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "AI模型日益同质化，Anthropic靠「道德人设」差异化竞争，但Pentagon合同暴露了其商业现实与伦理标榜的深层矛盾。",
+      "tags": [
+        "AI伦理",
+        "Anthropic",
+        "军事AI"
+      ],
+      "recommendReason": "透过军事合同风波，看清AI公司「道德光环」背后的市场逻辑与身份焦虑。",
+      "score": 8.5
+    },
+    {
+      "title": "反谷歌斗士被禁言8年？Epic CEO签了沉默契约",
+      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "Epic CEO签署协议承诺2032年前不批评Google Play，这场科技巨头与游戏大亨的和解背后藏着什么交易？",
+      "tags": [
+        "Epic Games",
+        "Google Play",
+        "科技诉讼"
+      ],
+      "recommendReason": "揭示了科技巨头如何通过法律协议控制舆论批评，对理解平台垄断与言论边界具有重要参考价值。",
+      "score": 8.5
+    },
+    {
+      "title": "网页弹窗太烦人？这段代码一键清除所有干扰",
+      "url": "https://maurycyz.com/projects/fixsite/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "分享一段极简JavaScript代码，可一键移除网页固定横幅、Cookie弹窗和跟随导航栏，还附赠书签小工具与强制深浅色模式方案。",
+      "tags": [
+        "JavaScript",
+        "浏览器工具",
+        "网页优化"
+      ],
+      "recommendReason": "提供即开即用的浏览器书签工具，彻底解决网页视觉干扰问题，还你纯净阅读体验。",
+      "score": 8.5
+    },
+    {
+      "title": "50年前的黑客圣经？这本书预言了现代网络犯罪",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "回顾1975年的计算机犯罪实录，揭示技术虽迭代但安全漏洞本质未变，法律滞后的困境至今依然",
+      "tags": [
+        "网络安全",
+        "科技史",
+        "书评"
+      ],
+      "recommendReason": "透过半世纪前的计算机犯罪档案，看清技术演进中永恒的安全本质",
+      "score": 8.5
+    },
+    {
+      "title": "别乱升级！这款USB测试仪的v4.0是个陷阱",
+      "url": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "作者揭秘Treedix线缆测试仪固件更新陷阱：v4.0需硬件改版，旧设备只能升到v2.4.06，并提供Windows独家升级教程。",
+      "tags": [
+        "固件升级",
+        "USB测试仪",
+        "硬件评测"
+      ],
+      "recommendReason": "揭露了固件版本与硬件绑定的隐藏限制，并提供独家升级避坑指南。",
+      "score": 8.5
+    },
+    {
+      "title": "文件被删了却查不到信息？Windows API这个坑怎么填",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "使用ReadDirectoryChangesW监控目录时，收到删除通知后无法获取文件属性。微软资深工程师揭秘如何通过维护缓存或ReadDirectoryChangesExW解决这一盲区。",
+      "tags": [
+        "Windows开发",
+        "文件系统监控",
+        "API技巧"
+      ],
+      "recommendReason": "微软元老级工程师亲授Windows文件监控的隐秘陷阱与解决方案，开发者的避坑指南。",
+      "score": 8.5
+    },
+    {
+      "title": "一行命令集成企业级登录？这个CLI杀疯了",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "WorkOS发布AI驱动CLI工具，一行命令自动检测框架、安装SDK并生成集成代码，2分钟完成AuthKit企业级认证接入，告别繁琐配置。",
+      "tags": [
+        "前端开发",
+        "身份认证",
+        "CLI工具"
+      ],
+      "recommendReason": "开发者必备：将原本数小时的SSO集成工作压缩到2分钟，AI自动化生成代码，极大提升开发效率。",
+      "score": 8.2
+    },
+    {
+      "title": "比游戏更惊艳的是包装？揭秘70年代这场被遗忘的设计革命",
+      "url": "https://johnmccoy.org/2026/03/05/never-the-same-game-twice/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-06",
+      "description": "追溯1970年代Parker Brothers被通用磨坊收购后的转型，探讨其如何融合波普艺术与欧普艺术，创造出颠覆传统的桌游视觉美学，并与同时代竞争对手形成鲜明对比。",
+      "tags": [
+        "平面设计",
+        "复古文化",
+        "游戏历史"
+      ],
+      "recommendReason": "挖掘被忽视的设计史细节，展现商业并购如何意外催生视觉美学革命，对设计师与复古文化爱好者极具启发。",
       "score": 8.0
+    },
+    {
+      "title": "一个广告位11万，谁在为\"果粉\"买单？",
+      "url": "https://daringfireball.net/feeds/sponsors/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "揭秘顶级科技博客Daring Fireball的赞助玩法：每周11000美元，精准触达20万Mac极客与设计师，月活250万的高端受众，目前仍有少量档期开放。",
+      "tags": [
+        "科技媒体",
+        "广告投放",
+        "自媒体变现"
+      ],
+      "recommendReason": "揭示小众高端内容的商业变现逻辑，为品牌精准投放和自媒体运营提供顶级案例参考。",
+      "score": 7.5
     },
     {
       "title": "Codex for Open Source",
@@ -297,19 +267,6 @@
       "author": "",
       "date": "2026-03-07",
       "description": "Codex for Open Source Anthropic announced six months of free Claude Max for maintainers of popular open source projects (5,000+ stars or 1M+ NPM downl",
-      "tags": [
-        "simonwillison"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
-      "title": "Quoting Ally Piechowski",
-      "url": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "Questions for developers: “What’s the one area you’re afraid to touch?” “When’s the last time you deployed on a Friday?” “What broke in production in ",
       "tags": [
         "simonwillison"
       ],
@@ -330,6 +287,32 @@
       "score": 5.0
     },
     {
+      "title": "A PTP Wall Clock is impractical and a little too precise",
+      "url": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-06",
+      "description": "After seeing Oliver Ettlin's 39C3 presentation Excuse me, what precise time is It? , I wanted to replicate the PTP ( Precision Time Protocol ) clock h",
+      "tags": [
+        "jeffgeerling"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "Google’s Threat Intelligence Group on Coruna, a Powerful iOS Exploit Kit of Mysterious Origin",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "Google Threat Intelligence Group, earlier this week: Google Threat Intelligence Group (GTIG) has identified a new and powerful exploit kit targeting A",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
       "title": "‘The Window Chrome of Our Discontent’",
       "url": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
       "source": "daringfireball",
@@ -343,12 +326,12 @@
       "score": 5.0
     },
     {
-      "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
-      "url": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
+      "url": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-06",
-      "description": "Sean Hollister, writing for The Verge: But Google has finally muzzled Tim Sweeney. It’s right there in a binding term sheet for his settlement with Go",
+      "description": "The Verge: Sean Hollister: What would you say the differences are between the Apple and Google cases? Tim Sweeney: I would say Apple was ice and Googl",
       "tags": [
         "daringfireball"
       ],
@@ -369,12 +352,12 @@
       "score": 5.0
     },
     {
-      "title": "‘Never the Same Game Twice’",
-      "url": "https://johnmccoy.org/2026/03/05/never-the-same-game-twice/",
+      "title": "Another Steve Jobs Quote on Lower-Priced Macs",
+      "url": "https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-06",
-      "description": "John McCoy: From around 1970 to 1980, the Salem, Massachusetts-based Parker Brothers (now a brand of Hasbro) published games whose innovative and fanc",
+      "description": "Steve Jobs, on Apple’s quarterly results call back in October 2008 : There are some customers which we choose not to serve. We don’t know how to make ",
       "tags": [
         "daringfireball"
       ],
@@ -382,12 +365,12 @@
       "score": 5.0
     },
     {
-      "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
-      "url": "https://www.youtube.com/watch?v=U37Ds3RvyoM",
+      "title": "★ Thoughts and Observations on the MacBook Neo",
+      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
       "source": "daringfireball",
       "author": "John Gruber",
       "date": "2026-03-06",
-      "description": "In August 2007, Apple held a Mac event in the Infinite Loop Town Hall auditorium. New iMacs , iLife ’08 (major updates to iPhoto and iMovie), and iWor",
+      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
       "tags": [
         "daringfireball"
       ],
@@ -408,19 +391,6 @@
       "score": 5.0
     },
     {
-      "title": "Remove annoying banners",
-      "url": "https://maurycyz.com/projects/fixsite/",
-      "source": "maurycyz",
-      "author": "",
-      "date": "2026-03-07",
-      "description": "This is a small javascript snippet that removes most annoying website elements: /* HTML tags, keywords, commands */ h-n {color: #F27;} /* Values */ h-",
-      "tags": [
-        "maurycyz"
-      ],
-      "recommendReason": "",
-      "score": 5.0
-    },
-    {
       "title": "Using Clankers to Help Me Process Surgery",
       "url": "https://xeiaso.net/blog/2026/surgery-recovery-clankers/",
       "source": "xeiaso",
@@ -429,6 +399,19 @@
       "description": "At 4 AM in recovery, the machines that never sleep turned out to be exactly the right company.",
       "tags": [
         "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5.0
+    },
+    {
+      "title": "BREAKING: Sam Altman’s greed and dishonesty are finally catching up to him",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altmans-greed-and-dishonesty",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-07",
+      "description": "It’s about time",
+      "tags": [
+        "garymarcus"
       ],
       "recommendReason": "",
       "score": 5.0
