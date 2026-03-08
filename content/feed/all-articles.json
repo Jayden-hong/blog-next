@@ -169,7 +169,8 @@
         "平台垄断"
       ],
       "recommendReason": "在算法投喂和广告泛滥的时代，这篇文章为你指明了一条回归清爽网络体验的明路。",
-      "score": 8.7
+      "score": 8.7,
+      "slug": "这个被遗忘的技术-正在拯救被巨头毁掉的互联网"
     },
     {
       "title": "你的iPhone曾被谁监控？谷歌揭秘跨国漏洞黑市",
@@ -184,7 +185,8 @@
         "威胁情报"
       ],
       "recommendReason": "揭秘国家级黑客组织与商业监控公司共享漏洞武器的内幕，为iPhone用户提供关键安全预警。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "你的iphone曾被谁监控-谷歌揭秘跨国漏洞黑市"
     },
     {
       "title": "董事会没冤枉他？Altman「不坦诚」实锤曝光",
@@ -199,7 +201,8 @@
         "科技人物"
       ],
       "recommendReason": "揭示AI巨头掌门人的信任危机，为理解OpenAI权力博弈与行业道德困境提供尖锐视角。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "董事会没冤枉他-altman-不坦诚-实锤曝光"
     },
     {
       "title": "1周7万元，小众博客凭什么这么贵？",
@@ -214,7 +217,8 @@
         "科技媒体"
       ],
       "recommendReason": "揭示顶级独立博客的稀缺商业价值，为内容创作者和广告主提供高阶变现参考样本。",
-      "score": 8.0
+      "score": 8.0,
+      "slug": "1周7万元-小众博客凭什么这么贵"
     },
     {
       "title": "50年前的'黑客'怎么作案？答案比电影还离谱",
@@ -229,7 +233,8 @@
         "书评"
       ],
       "recommendReason": "以史为鉴，看半个世纪前的'电子犯罪'如何暴露至今仍存在的安全漏洞。",
-      "score": 8.0
+      "score": 8.0,
+      "slug": "50年前的-黑客-怎么作案-答案比电影还离谱"
     },
     {
       "title": "Codex for Open Source",
@@ -242,7 +247,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "codex-for-open-source"
     },
     {
       "title": "‘The Window Chrome of Our Discontent’",
@@ -255,7 +261,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "the-window-chrome-of-our-discontent"
     },
     {
       "title": "Remove annoying banners",
@@ -268,7 +275,8 @@
         "maurycyz"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "remove-annoying-banners"
     },
     {
       "title": "Using Clankers to Help Me Process Surgery",
@@ -281,7 +289,8 @@
         "xeiaso"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "using-clankers-to-help-me-process-surgery"
     },
     {
       "title": "只用一行标题，他就骗AI发布了恶意软件",
@@ -296,7 +305,8 @@
         "Prompt Injection"
       ],
       "recommendReason": "揭示了AI自动化工作流中的新型供应链攻击面，对使用AI Agent的开发者具有重要警示意义。",
-      "score": 8.8
+      "score": 8.8,
+      "slug": "只用一行标题-他就骗ai发布了恶意软件"
     },
     {
       "title": "周五敢部署吗？Rails代码审计的灵魂拷问",
@@ -311,7 +321,8 @@
         "技术债务"
       ],
       "recommendReason": "一份可直接落地的Rails项目体检清单，用8个尖锐问题帮你发现那些'没人敢碰'的代码和'被悄悄放弃'的功能。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "周五敢部署吗-rails代码审计的灵魂拷问"
     },
     {
       "title": "AI写的代码通过了测试，为什么还会崩溃？",
@@ -326,7 +337,8 @@
         "Agent"
       ],
       "recommendReason": "填补了AI代码生成与可靠交付之间的关键空白，提供可立即落地的代理测试模式。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai写的代码通过了测试-为什么还会崩溃"
     },
     {
       "title": "软件工程正在消亡？亲历者的十年生存预警",
@@ -341,7 +353,8 @@
         "职业危机"
       ],
       "recommendReason": "来自一线工程师的真实焦虑与深度洞察，揭示AI时代程序员职业存亡的残酷真相与应对思考。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "软件工程正在消亡-亲历者的十年生存预警"
     },
     {
       "title": "监控文件删除却拿不到属性？Windows API这个坑怎么填",
@@ -356,7 +369,8 @@
         "API设计"
       ],
       "recommendReason": "Raymond Chen深入解析Windows文件监控API的设计哲学与race condition处理，提供高可用的缓存架构思路，是开发文件同步工具的必读技术指南。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "监控文件删除却拿不到属性-windows-api这个坑怎么填"
     },
     {
       "title": "打败谷歌的男人，终于说出了真相",
@@ -371,7 +385,8 @@
         "平台经济"
       ],
       "recommendReason": "第一手揭秘科技巨头反垄断胜诉背后的战略思考与未来布局。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "打败谷歌的男人-终于说出了真相"
     },
     {
       "title": "乔布斯说500美元只能做垃圾，但...",
@@ -386,7 +401,8 @@
         "乔布斯"
       ],
       "recommendReason": "揭秘苹果宁愿放弃市场份额也不妥协品质的商业逻辑，理解高端定位背后的战略定力。",
-      "score": 8.0
+      "score": 8.0,
+      "slug": "乔布斯说500美元只能做垃圾-但"
     },
     {
       "title": "Anthropic and the Pentagon",
@@ -399,7 +415,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "anthropic-and-the-pentagon"
     },
     {
       "title": "A PTP Wall Clock is impractical and a little too precise",
@@ -412,7 +429,8 @@
         "jeffgeerling"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "a-ptp-wall-clock-is-impractical-and-a-little-too-precise"
     },
     {
       "title": "It Depends",
@@ -425,7 +443,8 @@
         "idiallo"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "it-depends"
     },
     {
       "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
@@ -438,7 +457,8 @@
         "shkspr.mobi"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "firmware-update-for-the-treedix-trx5-0816-cable-tester"
     },
     {
       "title": "Advice for staying in the hospital for a week",
@@ -451,7 +471,8 @@
         "xeiaso"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "advice-for-staying-in-the-hospital-for-a-week"
     },
     {
       "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
@@ -464,7 +485,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "tim-sweeney-signed-away-his-right-to-criticize-google-s-play-store-until-2032"
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -477,7 +499,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "the-macbook-neo-s-price-looking-to-the-past-and-future"
     },
     {
       "title": "‘Never the Same Game Twice’",
@@ -490,7 +513,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "never-the-same-game-twice"
     },
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
@@ -503,7 +527,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "can-coding-agents-relicense-open-source-through-a-clean-room-implementation-of-code"
     },
     {
       "title": "Steve Jobs in 2007, on Apple’s Pursuit of PC Market Share: ‘We Just Can’t Ship Junk’",
@@ -516,7 +541,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "steve-jobs-in-2007-on-apple-s-pursuit-of-pc-market-share-we-just-can-t-ship-junk"
     },
     {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
@@ -529,7 +555,8 @@
         "pluralistic"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "pluralistic-blowtorching-the-frog-05-mar-2026-executive-dysfunction"
     },
     {
       "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
@@ -542,7 +569,8 @@
         "shkspr.mobi"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "book-review-katabasis-by-r-f-kuang"
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -555,7 +583,8 @@
         "oldnewthing"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "the-mystery-of-the-posted-message-that-was-dispatched-before-reaching-the-main-message-loop"
     },
     {
       "title": "AI And The Ship of Theseus",
@@ -568,7 +597,8 @@
         "lucumr-pocoo"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "ai-and-the-ship-of-theseus"
     },
     {
       "title": "Don’t trust Generative AI to do your taxes — and don’t trust it with people’s lives",
@@ -581,7 +611,8 @@
         "garymarcus"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "don-t-trust-generative-ai-to-do-your-taxes-and-don-t-trust-it-with-people-s-lives"
     },
     {
       "title": "JJ LSP Follow Up",
@@ -594,7 +625,8 @@
         "matklad"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "jj-lsp-follow-up"
     },
     {
       "title": "Introducing GPT‑5.4",
@@ -607,7 +639,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "introducing-gpt-5-4"
     },
     {
       "title": "Anti-patterns: things to avoid",
@@ -620,7 +653,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "anti-patterns-things-to-avoid"
     },
     {
       "title": "Something is afoot in the land of Qwen",
@@ -633,7 +667,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "something-is-afoot-in-the-land-of-qwen"
     },
     {
       "title": "★ Thoughts and Observations on the MacBook Neo",
@@ -646,7 +681,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "thoughts-and-observations-on-the-macbook-neo"
     },
     {
       "title": "Studio Display vs. Studio Display XDR",
@@ -659,7 +695,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "studio-display-vs-studio-display-xdr"
     },
     {
       "title": "Compatibility Notes on the New Studio Displays",
@@ -672,7 +709,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "compatibility-notes-on-the-new-studio-displays"
     },
     {
       "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
@@ -685,7 +723,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "in-other-words-batman-has-become-superman-and-robin-has-become-batman"
     },
     {
       "title": "Interruption-Driven Development",
@@ -698,7 +737,8 @@
         "idiallo"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "interruption-driven-development"
     },
     {
       "title": "How many hours do you need to work to afford a pint of beer?",
@@ -711,7 +751,8 @@
         "shkspr.mobi"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer"
     },
     {
       "title": "Maybe there’s a pattern here?",
@@ -724,7 +765,8 @@
         "dynomight"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "maybe-there-s-a-pattern-here"
     },
     {
       "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
@@ -737,7 +779,8 @@
         "oldnewthing"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "aha-i-found-a-counterexample-to-the-documentation-that-says-that-query-performance-counter-never-fai"
     },
     {
       "title": "From logistic regression to AI",
@@ -750,7 +793,8 @@
         "johndcook"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "from-logistic-regression-to-ai"
     },
     {
       "title": "An AI Odyssey, Part 2: Prompting Peril",
@@ -763,7 +807,8 @@
         "johndcook"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "an-ai-odyssey-part-2-prompting-peril"
     },
     {
       "title": "Gemini 3.1 Flash-Lite",
@@ -776,7 +821,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "gemini-3-1-flash-lite"
     },
     {
       "title": "Giving LLMs a personality is just good engineering",
@@ -789,7 +835,8 @@
         "seangoedecke"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "giving-llms-a-personality-is-just-good-engineering"
     },
     {
       "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
@@ -802,7 +849,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "apple-announces-updated-studio-display-and-all-new-studio-display-xdr"
     },
     {
       "title": "New MacBook Air With M5",
@@ -815,7 +863,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "new-macbook-air-with-m5"
     },
     {
       "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
@@ -828,7 +877,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "apple-might-have-prematurely-leaked-the-name-macbook-neo"
     },
     {
       "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
@@ -841,7 +891,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "apple-introduces-macbook-pro-models-with-m5-pro-and-m5-max-chips"
     },
     {
       "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
@@ -854,7 +905,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "apple-debuts-m5-pro-and-m5-max-and-renames-its-m-series-cpu-cores"
     },
     {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
@@ -867,7 +919,8 @@
         "daringfireball"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "sponsor-npx-workos-an-ai-agent-that-writes-auth-directly-into-your-codebase"
     },
     {
       "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
@@ -880,7 +933,8 @@
         "pluralistic"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "pluralistic-supreme-court-saves-artists-from-ai-03-mar-2026"
     },
     {
       "title": "Game Review: Unravel Two ★★★⯪☆",
@@ -893,7 +947,8 @@
         "shkspr.mobi"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "game-review-unravel-two"
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -906,7 +961,8 @@
         "oldnewthing"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "just-for-fun-a-survey-of-write-protect-notches-on-floppy-disks-and-other-media"
     },
     {
       "title": "Breaking: “sycophantic AI distorts belief, manufacturing certainty where there should be doubt”",
@@ -919,7 +975,8 @@
         "garymarcus"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "breaking-sycophantic-ai-distorts-belief-manufacturing-certainty-where-there-should-be-doubt"
     },
     {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
@@ -932,7 +989,8 @@
         "johndcook"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "an-ai-odyssey-part-1-correctness-conundrum"
     },
     {
       "title": "Quoting Donald Knuth",
@@ -945,7 +1003,8 @@
         "simonwillison"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "quoting-donald-knuth"
     },
     {
       "title": "微延迟竟能让微分方程秒变震荡？",
@@ -960,7 +1019,8 @@
         "数值模拟"
       ],
       "recommendReason": "5分钟读懂延迟微分方程的临界阈值，附可复现代码，科研与工程都能直接用。",
-      "score": 8.7
+      "score": 8.7,
+      "slug": "微延迟竟能让微分方程秒变震荡"
     },
     {
       "title": "30年老工具秒变网页神器？",
@@ -975,7 +1035,8 @@
         "前端工具"
       ],
       "recommendReason": "用AI+WASM把命令行古早神器搬进浏览器，省流90%的GIF体积，前端即学即用。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "30年老工具秒变网页神器"
     },
     {
       "title": "10美元抢先版！AI大神私享信泄露",
@@ -990,7 +1051,8 @@
         "Agentic Engineering"
       ],
       "recommendReason": "每月10美元换AI前沿干货，提前一个月掌握大模型风向。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "10美元抢先版-ai大神私享信泄露"
     },
     {
       "title": "208K内存跑Mac？我造了台拇指电脑",
@@ -1005,7 +1067,8 @@
         "DIY硬件"
       ],
       "recommendReason": "低成本复刻经典Macintosh，手把手教你把Mac OS装进拇指大小的Pico。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "208k内存跑mac-我造了台拇指电脑"
     },
     {
       "title": "5美元解决Mac窗口迷航！这款老工具为何让老用户离不开？",
@@ -1020,7 +1083,8 @@
         "窗口管理"
       ],
       "recommendReason": "用10%的亮度差异换来全天专注，比“画框”更优雅，值得每位Mac用户一试。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "5美元解决mac窗口迷航-这款老工具为何让老用户离不开"
     },
     {
       "title": "20年前被忽略的URL神设计，还在偷偷宠用户？",
@@ -1035,7 +1099,8 @@
         "Flickr"
       ],
       "recommendReason": "一篇让你重新审视浏览器地址栏的短文，学会用可读可猜的链接提升日常效率。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "20年前被忽略的url神设计-还在偷偷宠用户"
     },
     {
       "title": "一张图拖出两种格式？Safari 请求头藏了什么坑",
@@ -1050,7 +1115,8 @@
         "WebP"
       ],
       "recommendReason": "搞清浏览器“undefined behavior”幕后机制，前端与爬虫都值得收藏。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "一张图拖出两种格式-safari-请求头藏了什么坑"
     },
     {
       "title": "苹果系统Bug连环爆：10年备份噩梦你中招了吗？",
@@ -1065,7 +1131,8 @@
         "Time Machine"
       ],
       "recommendReason": "深度拆解苹果生态暗伤，给依赖Mac的用户一剂清醒剂与自救指南。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "苹果系统bug连环爆-10年备份噩梦你中招了吗"
     },
     {
       "title": "谷歌告SerpApi？它反手一招要撤诉",
@@ -1080,7 +1147,8 @@
         "数据抓取"
       ],
       "recommendReason": "围观小团队如何用法律武器反击巨头垄断，给所有爬虫与数据创业者划重点。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "谷歌告serpapi-它反手一招要撤诉"
     },
     {
       "title": "AI巨头竟成美军黑名单？",
@@ -1095,7 +1163,8 @@
         "科技监管"
       ],
       "recommendReason": "用国际关系视角拆解AI监管暗战，看懂技术公司如何卷入大国博弈。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai巨头竟成美军黑名单"
     },
     {
       "title": "五角大楼逼宫Anthropic，OpenAI躺赢？",
@@ -1110,7 +1179,8 @@
         "OpenAI"
       ],
       "recommendReason": "独家揭示AI巨头与白宫的暗战，关乎未来军事AI主导权。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "五角大楼逼宫anthropic-openai躺赢"
     },
     {
       "title": "iPhone壳新色上线，你pick哪款？",
@@ -1125,7 +1195,8 @@
         "春季新品"
       ],
       "recommendReason": "第一时间看懂苹果春季配色风向，挑壳/选带不踩雷。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "iphone壳新色上线-你pick哪款"
     },
     {
       "title": "M4芯iPad Air杀到！性能暴涨30%？",
@@ -1140,7 +1211,8 @@
         "M4芯片"
       ],
       "recommendReason": "性能大升级还加量不加价，想换平板得先看完这篇。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "m4芯ipad-air杀到-性能暴涨30"
     },
     {
       "title": "599 元 256G 的 iPhone 来了？",
@@ -1155,7 +1227,8 @@
         "性价比"
       ],
       "recommendReason": "想低价体验最新 A19 性能与卫星求救，这篇文章告诉你值不值",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "599-元-256g-的-iphone-来了"
     },
     {
       "title": "AI写文被嫌弃？真相让人沉默",
@@ -1170,7 +1243,8 @@
         "创作伦理"
       ],
       "recommendReason": "一篇用故事包装的思考文，让你秒懂AI内容为何被反感，也照见创作者焦虑。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai写文被嫌弃-真相让人沉默"
     },
     {
       "title": "转发AI聊天记录=公开自慰？",
@@ -1185,7 +1259,8 @@
         "Cory Doctorow"
       ],
       "recommendReason": "帮你认清AI内容泛滥的社交雷区，学会尊重他人注意力。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "转发ai聊天记录-公开自慰"
     },
     {
       "title": "Mastodon登录也能玩？这招绝了！",
@@ -1200,7 +1275,8 @@
         "OAuth2"
       ],
       "recommendReason": "手把手教你绕过官方限制，让任何Mastodon实例秒变社交登录，开源代码直接抄。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "mastodon登录也能玩-这招绝了"
     },
     {
       "title": "把IDCANCEL塞给非按钮？噩梦开始！",
@@ -1215,7 +1291,8 @@
         "控件ID"
       ],
       "recommendReason": "提前踩坑指南，避免对话框消息错乱带来的调试地狱。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "把idcancel塞给非按钮-噩梦开始"
     },
     {
       "title": "AI末日党反加速人类？真相炸锅",
@@ -1230,7 +1307,8 @@
         "末日预言"
       ],
       "recommendReason": "揭露末日叙事如何被现实政治反噬，对关心AI治理者必读。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai末日党反加速人类-真相炸锅"
     },
     {
       "title": "无界权杖",
@@ -1245,7 +1323,8 @@
         "空内容"
       ],
       "recommendReason": "无实质内容，不推荐阅读。",
-      "score": 1.0
+      "score": 1.0,
+      "slug": "无界权杖"
     },
     {
       "title": "操作系统问年龄？",
@@ -1260,7 +1339,8 @@
         "讽刺评论"
       ],
       "recommendReason": "用幽默视角戳破立法荒诞，科技人必读。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "操作系统问年龄"
     },
     {
       "title": "闲聊苹果2026",
@@ -1275,7 +1355,8 @@
         "macOS"
       ],
       "recommendReason": "资深果粉必听，犀利吐槽新系统。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "闲聊苹果2026"
     },
     {
       "title": "Redis编码模式指南",
@@ -1290,7 +1371,8 @@
         "性能优化"
       ],
       "recommendReason": "作者权威、内容全面，直接提升缓存设计效率。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "redis编码模式指南"
     },
     {
       "title": "战火下的英国黑人",
@@ -1305,7 +1387,8 @@
         "书评"
       ],
       "recommendReason": "用一手访谈还原被遗忘的战时黑人英国群像。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "战火下的英国黑人"
     },
     {
       "title": "AI误杀已发生？",
@@ -1320,7 +1403,8 @@
         "误炸事件"
       ],
       "recommendReason": "揭示AI致命误判与责任黑洞，振聋发聩。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai误杀已发生"
     },
     {
       "title": "Bash 的 ~- 妙用",
@@ -1335,7 +1419,8 @@
         "OLDPWD"
       ],
       "recommendReason": "教你用 ~- 秒切目录，常见痛点一招解决。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "bash-的-妙用"
     },
     {
       "title": "LLM时代的新赢家",
@@ -1350,7 +1435,8 @@
         "技术迁移"
       ],
       "recommendReason": "用实战案例揭示AI协作真相，启发个人开发者抢跑。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "llm时代的新赢家"
     },
     {
       "title": "Sentry iOS崩溃追踪",
@@ -1365,7 +1451,8 @@
         "性能监控"
       ],
       "recommendReason": "实战演示，10分钟上手Sentry iOS全流程",
-      "score": 8.3
+      "score": 8.3,
+      "slug": "sentry-ios崩溃追踪"
     },
     {
       "title": "Claude记忆导出提示",
@@ -1380,7 +1467,8 @@
         "Claude"
       ],
       "recommendReason": "掌握AI助手记忆导出技巧，保护隐私与迁移数据。",
-      "score": 8.0
+      "score": 8.0,
+      "slug": "claude记忆导出提示"
     },
     {
       "title": "杀死内心的死灵",
@@ -1395,7 +1483,8 @@
         "科幻"
       ],
       "recommendReason": "用科幻隐喻探讨自我突破，角度新颖。",
-      "score": 6.0
+      "score": 6.0,
+      "slug": "杀死内心的死灵"
     },
     {
       "title": "交互式讲解降认知债",
@@ -1410,7 +1499,8 @@
         "交互式讲解"
       ],
       "recommendReason": "把黑盒算法变成可暂停动画，偿还认知债极高效。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "交互式讲解降认知债"
     },
     {
       "title": "特朗普豪赌伊朗政权更迭",
@@ -1425,7 +1515,8 @@
         "战争"
       ],
       "recommendReason": "揭示美伊战争真相，警示政策风险。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "特朗普豪赌伊朗政权更迭"
     },
     {
       "title": "我注销ChatGPT",
@@ -1440,7 +1531,8 @@
         "隐私"
       ],
       "recommendReason": "直面AI军用化，提供注销指引",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "我注销chatgpt"
     },
     {
       "title": "加州可阻拉埃收华纳",
@@ -1455,7 +1547,8 @@
         "加州法律"
       ],
       "recommendReason": "揭示寡头控制媒体的新动向，法律干预看点足。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "加州可阻拉埃收华纳"
     },
     {
       "title": "家用电池30个月省3MWh",
@@ -1470,7 +1563,8 @@
         "电价套利"
       ],
       "recommendReason": "真实数据展示家用电池收益与策略，参考价值高",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "家用电池30个月省3mwh"
     },
     {
       "title": "AI圈黑幕：捐款换牌照",
@@ -1485,7 +1579,8 @@
         "OpenAI"
       ],
       "recommendReason": "揭示AI监管背后的金钱政治，令人警醒。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "ai圈黑幕-捐款换牌照"
     },
     {
       "title": "Bash提取文件扩展名技巧",
@@ -1500,7 +1595,8 @@
         "LaTeX"
       ],
       "recommendReason": "一行代码解决扩展名替换，脚本极简实用。",
-      "score": 8.5
+      "score": 8.5,
+      "slug": "bash提取文件扩展名技巧"
     },
     {
       "title": "Approximation game",
@@ -1513,7 +1609,8 @@
         "Security"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "approximation-game"
     },
     {
       "title": "Please, please, please stop using passkeys for encrypting user data",
@@ -1526,7 +1623,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "please-please-please-stop-using-passkeys-for-encrypting-user-data"
     },
     {
       "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
@@ -1539,7 +1637,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "an-ai-agent-coding-skeptic-tries-ai-agent-coding-in-excessive-detail"
     },
     {
       "title": "Free Claude Max for (large project) open source maintainers",
@@ -1552,7 +1651,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "free-claude-max-for-large-project-open-source-maintainers"
     },
     {
       "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
@@ -1565,7 +1665,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "unicode-explorer-using-binary-search-over-fetch-http-range-requests"
     },
     {
       "title": "Upgrading my Open Source Pi Surveillance Server with Frigate",
@@ -1578,7 +1679,8 @@
         "DevOps"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "upgrading-my-open-source-pi-surveillance-server-with-frigate"
     },
     {
       "title": "West Virginia’s Anti-Apple CSAM Lawsuit Would Help Child Predators Walk Free",
@@ -1591,7 +1693,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "west-virginia-s-anti-apple-csam-lawsuit-would-help-child-predators-walk-free"
     },
     {
       "title": "How to Block the ‘Upgrade to Tahoe’ Alerts and System Settings Indicator",
@@ -1604,7 +1707,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "how-to-block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator"
     },
     {
       "title": "★ A Sometimes-Hidden Setting Controls What Happens When You Tap a Call in the iOS 26 Phone App",
@@ -1617,7 +1721,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "a-sometimes-hidden-setting-controls-what-happens-when-you-tap-a-call-in-the-ios-26-phone-app"
     },
     {
       "title": "TUDUMB",
@@ -1630,7 +1735,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "tudumb"
     },
     {
       "title": "Block Lays Off 4,000 (of 10,000) Employees",
@@ -1643,7 +1749,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "block-lays-off-4-000-of-10-000-employees"
     },
     {
       "title": "★ My 2025 Apple Report Card",
@@ -1656,7 +1763,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "my-2025-apple-report-card"
     },
     {
       "title": "We Need Process, But Process Gets in the Way",
@@ -1669,7 +1777,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "we-need-process-but-process-gets-in-the-way"
     },
     {
       "title": "Book Review: Weird Things Customers Say in Bookshops by Jen Campbell ★★☆☆☆",
@@ -1682,7 +1791,8 @@
         "Tech"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "book-review-weird-things-customers-say-in-bookshops-by-jen-campbell"
     },
     {
       "title": "Intercepting messages inside Is­Dialog­Message, fine-tuning the message filter",
@@ -1695,7 +1805,8 @@
         "Microsoft"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "intercepting-messages-inside-is-dialog-message-fine-tuning-the-message-filter"
     },
     {
       "title": "Did Trump just overplay his hand?",
@@ -1708,7 +1819,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "did-trump-just-overplay-his-hand"
     },
     {
       "title": "Does OpenAI’s new financing make sense?",
@@ -1721,7 +1833,8 @@
         "AI"
       ],
       "recommendReason": "",
-      "score": 5.0
+      "score": 5.0,
+      "slug": "does-openai-s-new-financing-make-sense"
     }
   ]
 }
