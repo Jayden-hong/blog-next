@@ -123,9 +123,6 @@ export function DiscoverClient() {
     ? (articlesWithScores.reduce((sum, a) => sum + a.score, 0) / articlesWithScores.length).toFixed(1)
     : null;
 
-  // Daily Picks: 使用 highlights 字段（Top 6 文章）
-  const dailyPicks = feedData.highlights || [];
-
   return (
     <>
       <header className="mb-8">
@@ -139,48 +136,6 @@ export function DiscoverClient() {
           {avgScore && ' · curated by Qwen 3.5'}
         </p>
       </header>
-
-      {/* Daily Picks Section */}
-      {dailyPicks.length > 0 && (
-        <section className="mb-8">
-          <h2 className="text-sm font-medium text-neutral-900 mb-4 flex items-center gap-2">
-            <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
-            Daily Picks
-          </h2>
-          <div className="grid gap-3">
-            {dailyPicks.map((article, index) => {
-              // Determine link target based on translation status
-              const linkHref = article.translated && article.slug 
-                ? `/article/${article.slug}`
-                : article.url;
-              
-              const LinkWrapper = article.translated && article.slug ? Link : 'a';
-              const linkProps = article.translated && article.slug 
-                ? { href: linkHref }
-                : { href: linkHref, target: "_blank", rel: "noopener noreferrer" };
-              
-              return (
-                <LinkWrapper
-                  key={index}
-                  {...linkProps}
-                  className="block p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 transition-colors group"
-                >
-                  <div className="flex items-center gap-2 text-xs text-neutral-400 mono mb-2">
-                    <span className="text-amber-600 font-medium">{article.score?.toFixed(1)}</span>
-                    <span className="text-neutral-200">|</span>
-                    <span>{article.source}</span>
-                    {article.date && <><span className="text-neutral-200">|</span><span>{article.date}</span></>}
-                    {!article.translated && <><span className="text-neutral-200">|</span><span className="text-amber-600">原文</span></>}
-                  </div>
-                  <h3 className="font-medium text-neutral-900 mb-1 group-hover:text-amber-700 transition-colors">{article.title}</h3>
-                  {article.description && <p className="text-sm text-neutral-500 line-clamp-2">{article.description}</p>}
-                  {article.recommendReason && <p className="text-xs text-neutral-400 mt-2 mono">→ {article.recommendReason}</p>}
-                </LinkWrapper>
-              );
-            })}
-          </div>
-        </section>
-      )}
 
       <div className="relative mb-4">
         <input

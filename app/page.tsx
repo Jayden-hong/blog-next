@@ -2,6 +2,29 @@ import Link from 'next/link';
 import { getLatestFeedDay } from '@/lib/feed';
 import { getAllPosts } from '@/lib/posts';
 import { format } from 'date-fns';
+import fs from 'fs';
+import path from 'path';
+
+// 获取已转译文章的 slug 映射
+function getTranslatedSlugs() {
+  const articlesDir = path.join(process.cwd(), 'content', 'articles');
+  const slugs: Record<string, string> = {};
+  
+  if (!fs.existsSync(articlesDir)) return slugs;
+  
+  const files = fs.readdirSync(articlesDir);
+  for (const file of files) {
+    if (!file.endsWith('.mdx')) continue;
+    const content = fs.readFileSync(path.join(articlesDir, file), 'utf8');
+    const urlMatch = content.match(/url:\s*["']([^"']+)["']/);
+    if (urlMatch) {
+      const url = urlMatch[1];
+      const slug = file.replace('.mdx', '');
+      slugs[url] = slug;
+    }
+  }
+  return slugs;
+}
 
 // BUILD_TIME: 2026-02-17 13:10:47
 // 强制静态生成（Cloudflare Pages 需要）
@@ -10,6 +33,7 @@ export const dynamic = 'force-static';
 export default function Home() {
   const feedDay = getLatestFeedDay();
   const posts = getAllPosts().slice(0, 3);
+  const translatedSlugs = getTranslatedSlugs();
 
   return (
     <div className="min-h-screen">
@@ -39,14 +63,23 @@ export default function Home() {
             
             {feedDay && (feedDay.highlights?.length ?? 0) > 0 ? (
               <div className="grid gap-3">
-                {feedDay.highlights!.slice(0, 5).map((highlight, index) => (
-                  <a
-                    key={index}
-                    href={highlight.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block border-b border-neutral-100 pb-3 last:border-0 hover:opacity-60 transition-opacity group"
-                  >
+                {feedDay.highlights!.slice(0, 5).map((highlight, index) => {
+                  // 优先使用转译页面链接
+                  const slug = translatedSlugs[highlight.url];
+                  const linkHref = slug ? `/article/${slug}` : highlight.url;
+                  const isTranslated = !!slug;
+                  
+                  const Component = slug ? Link : 'a';
+                  const linkProps = slug 
+                    ? { href: linkHref }
+                    : { href: linkHref, target: "_blank", rel: "noopener noreferrer" };
+                  
+                  return (
+                    <Component
+                      key={index}
+                      {...linkProps}
+                      className="block border-b border-neutral-100 pb-3 last:border-0 hover:opacity-60 transition-opacity group"
+                    >
                     {/* Title */}
                     <h3 className="font-medium text-neutral-900 mb-1">
                       {highlight.title}
@@ -84,8 +117,11 @@ export default function Home() {
                         → {highlight.recommendReason}
                       </p>
                     )}
-                  </a>
-                ))}
+                    {isTranslated && (
+                      <span className="mt-1 inline-block text-xs text-amber-600 mono">转译</span>
+                    )}
+                  </Component>
+                );})}
                 
                 <Link
                   href="/discover"
