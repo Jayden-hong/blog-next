@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-03-07T00:15:54.853438+00:00",
+  "lastUpdated": "2026-03-08T00:22:40.390674+00:00",
   "source": "attentionvc.ai",
   "window": "7d",
   "total": 100,
   "threads": [
     {
-      "id": "2027682547845763418",
-      "title": "電話をしてるふり",
-      "url": "https://x.com/BKBbunbun/status/2027682547845763418",
-      "author": "@BKBbunbun",
-      "authorName": "バイク川崎バイク(BKB)🛵",
-      "description": "まただ。\nもう。\nしつこいってば。\n\n「あ……もしもしごめんパパ。もうすぐ帰るね。うんうん。そうだねうん。迎え？あ、どうしようかな。来てもらおうかな？ええと、今はね……」\n\n私はよくナンパされる。",
-      "date": "2026-02-28T09:49:26.000Z",
-      "engagement": "47.1M views · 114.0K likes",
-      "category": "Lifestyle",
-      "wordCount": 1784,
-      "readingTime": 5,
-      "lang": "ja",
+      "id": "2030151922968318104",
+      "title": "Grok 4.20 vs Woke AI",
+      "url": "https://x.com/TheRabbitHole/status/2030151922968318104",
+      "author": "@TheRabbitHole",
+      "authorName": "The Rabbit Hole",
+      "description": "Grok 4.20 was recently released by xAI, so I decided to compare how it answers questions compared to other tools like OpenAI’s ChatGPT and Google’s Gemini. Three tests were performed:\nWoke Turing Test",
+      "date": "2026-03-07T05:21:51.000Z",
+      "engagement": "21.9M views · 2.1K likes",
+      "category": "Ai",
+      "wordCount": 947,
+      "readingTime": 4,
+      "lang": "en",
       "rank": 1,
       "metrics": {
-        "views": 47076997,
-        "likes": 113954,
-        "retweets": 12255,
-        "bookmarks": 28460
+        "views": 21926460,
+        "likes": 2127,
+        "retweets": 586,
+        "bookmarks": 1153
       }
     },
     {
@@ -33,17 +33,17 @@
       "authorName": "こーずぶろぐ",
       "description": "「早起きすれば人生変わる」\n（I Woke Up At 5AM For 30 Days Straight 要約）\n実際に30日間、毎朝5時に起き続けた結果から見えたのは\n“早起き＝根性論”ではなく\n 生活と脳の仕組みの話でした。",
       "date": "2026-03-01T11:08:19.000Z",
-      "engagement": "12.3M views · 8.3K likes",
+      "engagement": "12.4M views · 8.3K likes",
       "category": "Self Help",
       "wordCount": 655,
       "readingTime": 2,
       "lang": "ja",
       "rank": 2,
       "metrics": {
-        "views": 12348747,
-        "likes": 8325,
+        "views": 12354614,
+        "likes": 8312,
         "retweets": 501,
-        "bookmarks": 7543
+        "bookmarks": 7511
       }
     },
     {
@@ -61,10 +61,10 @@
       "lang": "ja",
       "rank": 3,
       "metrics": {
-        "views": 12258720,
-        "likes": 22648,
-        "retweets": 2210,
-        "bookmarks": 6655
+        "views": 12266457,
+        "likes": 22649,
+        "retweets": 2212,
+        "bookmarks": 6611
       }
     },
     {
@@ -75,38 +75,17 @@
       "authorName": "仁木洸平🌲｜NIKI Kohei｜@MTR Method Lab®︎",
       "description": "「心の問題」を「張力構造の問題」としてみる視点を変えた場合。\nうつや不眠が単なる心の弱さではなく、“頭の構造が疲弊しているサイン”としてみえる可能性もあるのではないでしょうか??",
       "date": "2026-03-01T10:14:00.000Z",
-      "engagement": "11.6M views · 1.7K likes",
+      "engagement": "11.9M views · 1.7K likes",
       "category": "Health",
       "wordCount": 512,
       "readingTime": 1,
       "lang": "ja",
       "rank": 4,
       "metrics": {
-        "views": 11587878,
-        "likes": 1677,
-        "retweets": 145,
-        "bookmarks": 2917
-      }
-    },
-    {
-      "id": "2027641044385628401",
-      "title": "「仕事ができない人」の取り扱い方法",
-      "url": "https://x.com/AnzaiKyo1/status/2027641044385628401",
-      "author": "@AnzaiKyo1",
-      "authorName": "安斎 響市 @転職デビル",
-      "description": "「仕事ができない人」って、いますよね。\nどこの職場にも、一人や二人はいると思います。\n\nそういう人と付き合うのって、かなりストレスが溜まります。\n会議や打ち合わせに毎回、何かと理由を付けて遅刻してくる",
-      "date": "2026-02-28T07:04:31.000Z",
-      "engagement": "10.3M views · 4.2K likes",
-      "category": "Self Help",
-      "wordCount": 1222,
-      "readingTime": 3,
-      "lang": "ja",
-      "rank": 5,
-      "metrics": {
-        "views": 10329575,
-        "likes": 4154,
-        "retweets": 381,
-        "bookmarks": 5015
+        "views": 11865538,
+        "likes": 1713,
+        "retweets": 151,
+        "bookmarks": 2953
       }
     },
     {
@@ -117,38 +96,17 @@
       "authorName": "はじめん",
       "description": "「頭がいい人ってどんな人？」\nこの質問、よくありますよね。\nでも僕は\n かなりシンプルな答えだと思っています。\n\nいつもはライフハックや自己管理の話が多いですが、\n今日はちょっと雑学っぽいテーマで。",
       "date": "2026-03-05T09:00:02.000Z",
-      "engagement": "9.8M views · 4.1K likes",
+      "engagement": "10.0M views · 4.2K likes",
       "category": "Self Help",
       "wordCount": 1434,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 6,
+      "rank": 5,
       "metrics": {
-        "views": 9832704,
-        "likes": 4098,
-        "retweets": 376,
-        "bookmarks": 3776
-      }
-    },
-    {
-      "id": "2027678616536936591",
-      "title": "Trump: Military Action on Iran Mullahs \"HAS BEGUN\"",
-      "url": "https://x.com/TrumpDailyPosts/status/2027678616536936591",
-      "author": "@TrumpDailyPosts",
-      "authorName": "Commentary Donald J. Trump Posts From Truth Social",
-      "description": "🚨BREAKING: Trump Video Announcement on Military Action against Iran Mullahs Below - 2.28.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti",
-      "date": "2026-02-28T09:33:49.000Z",
-      "engagement": "9.8M views · 2.5K likes",
-      "category": "Politics",
-      "wordCount": 985,
-      "readingTime": 4,
-      "lang": "en",
-      "rank": 7,
-      "metrics": {
-        "views": 9784088,
-        "likes": 2480,
-        "retweets": 486,
-        "bookmarks": 184
+        "views": 10018087,
+        "likes": 4241,
+        "retweets": 391,
+        "bookmarks": 3940
       }
     },
     {
@@ -164,12 +122,12 @@
       "wordCount": 1772,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 8,
+      "rank": 6,
       "metrics": {
-        "views": 9538594,
+        "views": 9541269,
         "likes": 7625,
         "retweets": 469,
-        "bookmarks": 590
+        "bookmarks": 585
       }
     },
     {
@@ -185,12 +143,12 @@
       "wordCount": 676,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 9,
+      "rank": 7,
       "metrics": {
-        "views": 8782789,
-        "likes": 16090,
-        "retweets": 1566,
-        "bookmarks": 23629
+        "views": 8809096,
+        "likes": 16085,
+        "retweets": 1568,
+        "bookmarks": 23598
       }
     },
     {
@@ -201,17 +159,17 @@
       "authorName": "jimmy",
       "description": "I want to be very clear about something before I start. I am not being metaphorical. I am not being poetic. I am not using \"died\" as a figure of speech. I am telling you, with as much sincerity as I",
       "date": "2026-03-02T23:29:26.000Z",
-      "engagement": "8.4M views · 14.1K likes",
+      "engagement": "8.4M views · 14.2K likes",
       "category": "Wtf",
       "wordCount": 2097,
       "readingTime": 8,
       "lang": "en",
-      "rank": 10,
+      "rank": 8,
       "metrics": {
-        "views": 8386741,
-        "likes": 14102,
-        "retweets": 1469,
-        "bookmarks": 25627
+        "views": 8414390,
+        "likes": 14164,
+        "retweets": 1487,
+        "bookmarks": 25607
       }
     },
     {
@@ -227,12 +185,12 @@
       "wordCount": 175,
       "readingTime": 1,
       "lang": "en",
-      "rank": 11,
+      "rank": 9,
       "metrics": {
-        "views": 8366444,
-        "likes": 17076,
-        "retweets": 1377,
-        "bookmarks": 2590
+        "views": 8398192,
+        "likes": 17093,
+        "retweets": 1379,
+        "bookmarks": 2576
       }
     },
     {
@@ -248,12 +206,54 @@
       "wordCount": 1746,
       "readingTime": 5,
       "lang": "ja",
+      "rank": 10,
+      "metrics": {
+        "views": 8031682,
+        "likes": 12725,
+        "retweets": 970,
+        "bookmarks": 8784
+      }
+    },
+    {
+      "id": "2028904166895112617",
+      "title": "How I'd Become a Quant If I Had to Start Over Tomorrow",
+      "url": "https://x.com/gemchange_ltd/status/2028904166895112617",
+      "author": "@gemchange_ltd",
+      "authorName": "gemchanger",
+      "description": "In 2025, entry-level quants at top firms pulled $300K-$500K total comp.\nAI/ML hiring in finance grew 88% year-over-year.\nThis article is everything I wish someone had handed me when i started my path",
+      "date": "2026-03-03T18:43:43.000Z",
+      "engagement": "6.9M views · 11.7K likes",
+      "category": "Business",
+      "wordCount": 2585,
+      "readingTime": 10,
+      "lang": "en",
+      "rank": 11,
+      "metrics": {
+        "views": 6948980,
+        "likes": 11684,
+        "retweets": 1256,
+        "bookmarks": 43570
+      }
+    },
+    {
+      "id": "2029503182758703241",
+      "title": "Breaking Downに4年間も出続けた男の末路。",
+      "url": "https://x.com/daisuke_sdsk/status/2029503182758703241",
+      "author": "@daisuke_sdsk",
+      "authorName": "10人ニキ【鈴木 大輔】",
+      "description": "「最近、みんなの心が離れてるよ。」\nBreaking Down19のオーディションの休憩中に溝口さんに言われた一言だ。\nこの言葉が刺さった。\n正直、薄々わかってた。\nでも認めたくなかった。\nBreaking Downに出て約3年。",
+      "date": "2026-03-05T10:23:59.000Z",
+      "engagement": "6.8M views · 1.3K likes",
+      "category": "Entertainment",
+      "wordCount": 499,
+      "readingTime": 1,
+      "lang": "ja",
       "rank": 12,
       "metrics": {
-        "views": 7990443,
-        "likes": 12722,
-        "retweets": 969,
-        "bookmarks": 8821
+        "views": 6843655,
+        "likes": 1303,
+        "retweets": 52,
+        "bookmarks": 215
       }
     },
     {
@@ -271,10 +271,10 @@
       "lang": "ja",
       "rank": 13,
       "metrics": {
-        "views": 6789292,
+        "views": 6791436,
         "likes": 1193,
-        "retweets": 91,
-        "bookmarks": 963
+        "retweets": 90,
+        "bookmarks": 961
       }
     },
     {
@@ -292,73 +292,10 @@
       "lang": "ko",
       "rank": 14,
       "metrics": {
-        "views": 6736466,
+        "views": 6747955,
         "likes": 19347,
         "retweets": 5665,
-        "bookmarks": 16207
-      }
-    },
-    {
-      "id": "2029503182758703241",
-      "title": "Breaking Downに4年間も出続けた男の末路。",
-      "url": "https://x.com/daisuke_sdsk/status/2029503182758703241",
-      "author": "@daisuke_sdsk",
-      "authorName": "10人ニキ【鈴木 大輔】",
-      "description": "「最近、みんなの心が離れてるよ。」\nBreaking Down19のオーディションの休憩中に溝口さんに言われた一言だ。\nこの言葉が刺さった。\n正直、薄々わかってた。\nでも認めたくなかった。\nBreaking Downに出て約3年。",
-      "date": "2026-03-05T10:23:59.000Z",
-      "engagement": "6.7M views · 1.3K likes",
-      "category": "Entertainment",
-      "wordCount": 499,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 15,
-      "metrics": {
-        "views": 6663072,
-        "likes": 1281,
-        "retweets": 52,
-        "bookmarks": 216
-      }
-    },
-    {
-      "id": "2027661079858581709",
-      "title": "【最大-15kg】40代フルタイムワーキングマザーの超効率ダイエット",
-      "url": "https://x.com/35210re/status/2027661079858581709",
-      "author": "@35210re",
-      "authorName": "さんご@ビキニ日本一",
-      "description": "記事の最後にAIにコピペ可能なカロリー計算プロンプト付き。\nフルタイムワーキングマザー。ビキニアスリート。3足の草鞋を履きながら有酸素ほぼ無しで−15kg。\n私がやったのは、「やらないこと」を決めること",
-      "date": "2026-02-28T08:24:08.000Z",
-      "engagement": "6.6M views · 23.8K likes",
-      "category": "Health",
-      "wordCount": 1487,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 16,
-      "metrics": {
-        "views": 6617165,
-        "likes": 23792,
-        "retweets": 2493,
-        "bookmarks": 41052
-      }
-    },
-    {
-      "id": "2028904166895112617",
-      "title": "How I'd Become a Quant If I Had to Start Over Tomorrow",
-      "url": "https://x.com/gemchange_ltd/status/2028904166895112617",
-      "author": "@gemchange_ltd",
-      "authorName": "gemchanger",
-      "description": "In 2025, entry-level quants at top firms pulled $300K-$500K total comp.\nAI/ML hiring in finance grew 88% year-over-year.\nThis article is everything I wish someone had handed me when i started my path",
-      "date": "2026-03-03T18:43:43.000Z",
-      "engagement": "6.6M views · 11.5K likes",
-      "category": "Business",
-      "wordCount": 2585,
-      "readingTime": 10,
-      "lang": "en",
-      "rank": 17,
-      "metrics": {
-        "views": 6605356,
-        "likes": 11509,
-        "retweets": 1231,
-        "bookmarks": 43094
+        "bookmarks": 16191
       }
     },
     {
@@ -374,12 +311,12 @@
       "wordCount": 2402,
       "readingTime": 7,
       "lang": "ja",
-      "rank": 18,
+      "rank": 15,
       "metrics": {
-        "views": 6295327,
-        "likes": 4580,
-        "retweets": 367,
-        "bookmarks": 6700
+        "views": 6306449,
+        "likes": 4581,
+        "retweets": 368,
+        "bookmarks": 6688
       }
     },
     {
@@ -390,17 +327,38 @@
       "authorName": "Commentary Donald J. Trump Posts From Truth Social",
       "description": "🚨New Trump Post, Poll & Video Below - 03.01.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti @TrumpDailyPosts 3.01.26\nPresident Trump just sank Iran's",
       "date": "2026-03-01T17:57:28.000Z",
-      "engagement": "6.3M views · 2.3K likes",
+      "engagement": "6.3M views · 2.2K likes",
       "category": "Wtf",
       "wordCount": 914,
       "readingTime": 4,
       "lang": "en",
-      "rank": 19,
+      "rank": 16,
       "metrics": {
-        "views": 6278672,
-        "likes": 2257,
-        "retweets": 206,
-        "bookmarks": 423
+        "views": 6281132,
+        "likes": 2250,
+        "retweets": 205,
+        "bookmarks": 422
+      }
+    },
+    {
+      "id": "2028858539196690691",
+      "title": "President Trump's CONFLICT Playbook, An Investor's Step-by-Step Guide:",
+      "url": "https://x.com/KobeissiLetter/status/2028858539196690691",
+      "author": "@KobeissiLetter",
+      "authorName": "The Kobeissi Letter",
+      "description": "The Iran war is escalating. We have spent the last 12 months analyzing EVERY geopolitical conflict involving President Trump. What's coming next? Here is our CLEAR guide to what is coming next and",
+      "date": "2026-03-03T15:42:24.000Z",
+      "engagement": "6.3M views · 4.4K likes",
+      "category": "Politics",
+      "wordCount": 2962,
+      "readingTime": 12,
+      "lang": "en",
+      "rank": 17,
+      "metrics": {
+        "views": 6279766,
+        "likes": 4382,
+        "retweets": 769,
+        "bookmarks": 8607
       }
     },
     {
@@ -416,11 +374,11 @@
       "wordCount": 882,
       "readingTime": 4,
       "lang": "en",
-      "rank": 20,
+      "rank": 18,
       "metrics": {
-        "views": 6181419,
-        "likes": 2067,
-        "retweets": 281,
+        "views": 6192537,
+        "likes": 2063,
+        "retweets": 280,
         "bookmarks": 525
       }
     },
@@ -432,38 +390,17 @@
       "authorName": "山田真央｜ダイニー",
       "description": "0. この記事を書く理由\n冤罪の騒動以後、私生活でかなりの支障が出てきました。",
       "date": "2026-03-02T02:01:14.000Z",
-      "engagement": "6.0M views · 3.3K likes",
+      "engagement": "6.1M views · 3.3K likes",
       "category": "Wtf",
       "wordCount": 6650,
       "readingTime": 17,
       "lang": "ja",
-      "rank": 21,
+      "rank": 19,
       "metrics": {
-        "views": 6040042,
-        "likes": 3334,
+        "views": 6051565,
+        "likes": 3330,
         "retweets": 569,
-        "bookmarks": 1920
-      }
-    },
-    {
-      "id": "2028858539196690691",
-      "title": "President Trump's CONFLICT Playbook, An Investor's Step-by-Step Guide:",
-      "url": "https://x.com/KobeissiLetter/status/2028858539196690691",
-      "author": "@KobeissiLetter",
-      "authorName": "The Kobeissi Letter",
-      "description": "The Iran war is escalating. We have spent the last 12 months analyzing EVERY geopolitical conflict involving President Trump. What's coming next? Here is our CLEAR guide to what is coming next and",
-      "date": "2026-03-03T15:42:24.000Z",
-      "engagement": "5.9M views · 4.2K likes",
-      "category": "Politics",
-      "wordCount": 2962,
-      "readingTime": 12,
-      "lang": "en",
-      "rank": 22,
-      "metrics": {
-        "views": 5947679,
-        "likes": 4161,
-        "retweets": 689,
-        "bookmarks": 8063
+        "bookmarks": 1911
       }
     },
     {
@@ -474,38 +411,38 @@
       "authorName": "えーたん/AI×時短で仕事効率化",
       "description": "これは、NotebookLMの「すべて」を1本にまとめた記事です。\n断言します。2026年現在、ビジネスパーソンが最も使い倒すべきAIツールはNotebookLMです。",
       "date": "2026-03-04T03:15:08.000Z",
-      "engagement": "5.8M views · 13.3K likes",
+      "engagement": "5.9M views · 13.6K likes",
       "category": "Ai",
       "wordCount": 13143,
       "readingTime": 35,
       "lang": "ja",
-      "rank": 23,
+      "rank": 20,
       "metrics": {
-        "views": 5767723,
-        "likes": 13260,
-        "retweets": 1247,
-        "bookmarks": 31541
+        "views": 5948830,
+        "likes": 13558,
+        "retweets": 1269,
+        "bookmarks": 32039
       }
     },
     {
-      "id": "2027830020823978362",
-      "title": "Amid Mounting Child Sexual Abuse Cover-Up Allegations, Shogakukan Issues Second Statement",
-      "url": "https://x.com/animeupdates/status/2027830020823978362",
-      "author": "@animeupdates",
-      "authorName": "Anime Updates",
-      "description": "Shogakukan released a Second Official Statement amid public backlash regarding its handling of allegations of complicity, acknowledging its failure to properly address the child sexual abuse case",
-      "date": "2026-02-28T19:35:26.000Z",
-      "engagement": "5.3M views · 821 likes",
-      "category": "News",
-      "wordCount": 1508,
-      "readingTime": 6,
-      "lang": "en",
-      "rank": 24,
+      "id": "2029916109282161009",
+      "title": "婚活市場が地獄のオーディションと化している理由",
+      "url": "https://x.com/yauyuism/status/2029916109282161009",
+      "author": "@yauyuism",
+      "authorName": "やうゆ",
+      "description": "婚活市場が地獄だと言われて久しいが、地獄の正体を構造で説明できる人は少ない。答えはシンプルだ。「女性の求めるスペックを持った男性が、市場にほとんどいない」。これだけだ。需要と供給が根本から壊れている。",
+      "date": "2026-03-06T13:44:49.000Z",
+      "engagement": "5.9M views · 4.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 948,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 21,
       "metrics": {
-        "views": 5311951,
-        "likes": 821,
-        "retweets": 207,
-        "bookmarks": 357
+        "views": 5914799,
+        "likes": 4076,
+        "retweets": 523,
+        "bookmarks": 2536
       }
     },
     {
@@ -521,12 +458,12 @@
       "wordCount": 2361,
       "readingTime": 6,
       "lang": "ja",
-      "rank": 25,
+      "rank": 22,
       "metrics": {
-        "views": 4952456,
-        "likes": 6782,
-        "retweets": 471,
-        "bookmarks": 9254
+        "views": 4956983,
+        "likes": 6763,
+        "retweets": 470,
+        "bookmarks": 9214
       }
     },
     {
@@ -542,33 +479,12 @@
       "wordCount": 943,
       "readingTime": 4,
       "lang": "en",
-      "rank": 26,
+      "rank": 23,
       "metrics": {
-        "views": 4680859,
-        "likes": 6497,
-        "retweets": 827,
-        "bookmarks": 31456
-      }
-    },
-    {
-      "id": "2027679535362400609",
-      "title": "嫌いな人をぶっ壊す、サイコパスの手法をシェアしたい",
-      "url": "https://x.com/OnebookofMAG/status/2027679535362400609",
-      "author": "@OnebookofMAG",
-      "authorName": "川岸宏司｜DIL COO",
-      "description": "さて、本当にあった怖い話をしよう。\n\n私の友人に、職場の大嫌いな人には「やっておくよ/任せてよ」と全力で優しく接する…というやつがいます。\n\nちなみに理由を聞いたら、",
-      "date": "2026-02-28T09:37:28.000Z",
-      "engagement": "4.3M views · 5.4K likes",
-      "category": "Self Help",
-      "wordCount": 1246,
-      "readingTime": 3,
-      "lang": "ja",
-      "rank": 27,
-      "metrics": {
-        "views": 4313504,
-        "likes": 5357,
-        "retweets": 601,
-        "bookmarks": 5206
+        "views": 4732086,
+        "likes": 6523,
+        "retweets": 832,
+        "bookmarks": 31483
       }
     },
     {
@@ -579,38 +495,17 @@
       "authorName": "こーずぶろぐ",
       "description": "毎朝5時に起きたら人生は変わるのか？\nYouTubeで300万回以上再生されている\n 「I Woke Up at 5AM For 30 Days」 が、想像以上に本質的でした。\n結論から言うと──\n人生を変えたのは\n「5時」という数字ではない。",
       "date": "2026-03-03T11:23:58.000Z",
-      "engagement": "4.1M views · 1.8K likes",
+      "engagement": "4.2M views · 1.8K likes",
       "category": "Self Help",
       "wordCount": 654,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 28,
+      "rank": 24,
       "metrics": {
-        "views": 4146017,
-        "likes": 1762,
+        "views": 4150419,
+        "likes": 1759,
         "retweets": 110,
-        "bookmarks": 1657
-      }
-    },
-    {
-      "id": "2027718140915028321",
-      "title": "創作活動を続けられる人、続けられない人の違い 3選",
-      "url": "https://x.com/mitakamikata/status/2027718140915028321",
-      "author": "@mitakamikata",
-      "authorName": "ゆーりんち @ゲームを作っています",
-      "description": "Youtubeしかり、ゲーム開発しかり、noteしかり、色んな人がなにかコンテンツを作って発信するというケースが増えてきたと感じます。\nただ、始める人の数が増えればその分、辞める人の数も多いもの。",
-      "date": "2026-02-28T12:10:52.000Z",
-      "engagement": "4.0M views · 6.8K likes",
-      "category": "Self Help",
-      "wordCount": 591,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 29,
-      "metrics": {
-        "views": 4021217,
-        "likes": 6761,
-        "retweets": 993,
-        "bookmarks": 7679
+        "bookmarks": 1647
       }
     },
     {
@@ -626,33 +521,12 @@
       "wordCount": 894,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 30,
+      "rank": 25,
       "metrics": {
-        "views": 3897570,
-        "likes": 3036,
+        "views": 3901795,
+        "likes": 3024,
         "retweets": 157,
-        "bookmarks": 4600
-      }
-    },
-    {
-      "id": "2027666793150767417",
-      "title": "Claude Coworkの始め方ガイド",
-      "url": "https://x.com/taichi_we/status/2027666793150767417",
-      "author": "@taichi_we",
-      "authorName": "長谷川｜Levela CTO",
-      "description": "あなたが休んでいる間に、AIが仕事してくれる\n2026年、AIをうまく使っている人たちは 「すごいプロンプト」を書いている人ではありません。\n本当に差がついているのは、 AIと一緒に働く「仕組み」を作った人です。",
-      "date": "2026-02-28T08:46:50.000Z",
-      "engagement": "3.9M views · 7.4K likes",
-      "category": "Ai",
-      "wordCount": 1894,
-      "readingTime": 5,
-      "lang": "ja",
-      "rank": 31,
-      "metrics": {
-        "views": 3873082,
-        "likes": 7417,
-        "retweets": 598,
-        "bookmarks": 18320
+        "bookmarks": 4585
       }
     },
     {
@@ -663,59 +537,17 @@
       "authorName": "VIA",
       "description": "今は亡き 野村克也 さんの言葉にこんな一節がある。\n「35歳を超えて敵がいないということは人間的に見込みがないことである。何かを成し遂げようとすれば敵は当然できる」\nこの言葉は“生き方”への警告だ。",
       "date": "2026-03-03T14:47:23.000Z",
-      "engagement": "3.7M views · 6.6K likes",
+      "engagement": "3.8M views · 6.6K likes",
       "category": "Self Help",
       "wordCount": 475,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 32,
+      "rank": 26,
       "metrics": {
-        "views": 3744897,
-        "likes": 6648,
-        "retweets": 819,
-        "bookmarks": 3796
-      }
-    },
-    {
-      "id": "2027744530124951831",
-      "title": "How to Simulate Like a Quant Desk. Every Model, Every Formula, Runnable Code",
-      "url": "https://x.com/gemchange_ltd/status/2027744530124951831",
-      "author": "@gemchange_ltd",
-      "authorName": "gemchanger",
-      "description": "This isn't a list of techniques.\nIt's a story - one that starts with a coin flip and ends with institutional-grade simulation engines.\nEach section builds on the last. Skip ahead and the math won't",
-      "date": "2026-02-28T13:55:44.000Z",
-      "engagement": "3.6M views · 6.6K likes",
-      "category": "Ai",
-      "wordCount": 1852,
-      "readingTime": 7,
-      "lang": "en",
-      "rank": 33,
-      "metrics": {
-        "views": 3644114,
-        "likes": 6555,
-        "retweets": 710,
-        "bookmarks": 26460
-      }
-    },
-    {
-      "id": "2027585124620243244",
-      "title": "ChatGPTに寝取られる",
-      "url": "https://x.com/tomoyafujino/status/2027585124620243244",
-      "author": "@tomoyafujino",
-      "authorName": "藤野智哉@精神科医",
-      "description": "「その感覚、すごく正しい」\n最近、チャッピーに相談すると、こんな小気味よい返事が返ってくる。\n\nまずは肯定。\nとりあえず共感。\nそこからの言い回しもやたらと知的で、それっぽい。",
-      "date": "2026-02-28T03:22:19.000Z",
-      "engagement": "3.2M views · 3.3K likes",
-      "category": "Ai",
-      "wordCount": 963,
-      "readingTime": 3,
-      "lang": "ja",
-      "rank": 34,
-      "metrics": {
-        "views": 3186834,
-        "likes": 3264,
-        "retweets": 511,
-        "bookmarks": 1531
+        "views": 3754378,
+        "likes": 6644,
+        "retweets": 820,
+        "bookmarks": 3793
       }
     },
     {
@@ -726,17 +558,80 @@
       "authorName": "AI Edge",
       "description": "The only guide you need to master Claude from zero.\nLast week, Anthropic shipped its best suite of Claude features yet. \nIf you're still using ChatGPT, this is the nail in the coffin.\nI've been using",
       "date": "2026-03-04T16:33:04.000Z",
-      "engagement": "3.2M views · 4.5K likes",
+      "engagement": "3.5M views · 4.9K likes",
       "category": "Ai",
       "wordCount": 1527,
       "readingTime": 6,
       "lang": "en",
-      "rank": 35,
+      "rank": 27,
       "metrics": {
-        "views": 3182672,
-        "likes": 4548,
-        "retweets": 756,
-        "bookmarks": 18422
+        "views": 3537819,
+        "likes": 4899,
+        "retweets": 802,
+        "bookmarks": 19600
+      }
+    },
+    {
+      "id": "2029809882850099273",
+      "title": "AI使った「ワークスロップ」を他人に押し付けるな",
+      "url": "https://x.com/shin_sasaki19/status/2029809882850099273",
+      "author": "@shin_sasaki19",
+      "authorName": "Shin丨AI×プロダクト開発の専門家🤵🏻",
+      "description": "最近生成AIを仕事で使う人が一気に増えましたね。私自身もかなり使っていますし、もうAIなしで仕事をする感覚には戻れません。ですが、その一方で明らかに増えたものがあります。それが、作る側は楽になっているのに",
+      "date": "2026-03-06T06:42:42.000Z",
+      "engagement": "3.3M views · 3.4K likes",
+      "category": "Ai",
+      "wordCount": 2787,
+      "readingTime": 7,
+      "lang": "ja",
+      "rank": 28,
+      "metrics": {
+        "views": 3316224,
+        "likes": 3368,
+        "retweets": 655,
+        "bookmarks": 3825
+      }
+    },
+    {
+      "id": "2029699731539255640",
+      "title": "My chief of staff, Claude Code",
+      "url": "https://x.com/jimprosser/status/2029699731539255640",
+      "author": "@jimprosser",
+      "authorName": "Jim Prosser",
+      "description": "The dream of modern personalized technology has always been some kind of perfect digital assistant—a chief of staff that triages your inbox, organizes your day, and handles the operational overhead of",
+      "date": "2026-03-05T23:25:00.000Z",
+      "engagement": "3.3M views · 5.2K likes",
+      "category": "Ai",
+      "wordCount": 1839,
+      "readingTime": 7,
+      "lang": "en",
+      "rank": 29,
+      "metrics": {
+        "views": 3267632,
+        "likes": 5176,
+        "retweets": 378,
+        "bookmarks": 22379
+      }
+    },
+    {
+      "id": "2029711655702335962",
+      "title": "Geminiで仕事を効率化する具体的手法6選",
+      "url": "https://x.com/sales_muscle/status/2029711655702335962",
+      "author": "@sales_muscle",
+      "authorName": "OneBiz（スモビジ研究）by Levela",
+      "description": "GeminiをただのチャットAIとして使っているなら、その実力の半分も引き出せていません。 \n文章の要約、アイデア出し、壁打ち。\nどれも便利ですが、それはChatGPTでもClaudeでもできることです。",
+      "date": "2026-03-06T00:12:23.000Z",
+      "engagement": "3.1M views · 5.3K likes",
+      "category": "Ai",
+      "wordCount": 3577,
+      "readingTime": 9,
+      "lang": "ja",
+      "rank": 30,
+      "metrics": {
+        "views": 3094763,
+        "likes": 5269,
+        "retweets": 349,
+        "bookmarks": 13741
       }
     },
     {
@@ -752,54 +647,117 @@
       "wordCount": 553,
       "readingTime": 2,
       "lang": "ja",
+      "rank": 31,
+      "metrics": {
+        "views": 3071112,
+        "likes": 2625,
+        "retweets": 322,
+        "bookmarks": 1471
+      }
+    },
+    {
+      "id": "2029859190106378402",
+      "title": "男、「顔が可愛い女」に恋をし、一生を捧げるのは「情緒が安定した賢い女」。 ",
+      "url": "https://x.com/erika_aisare/status/2029859190106378402",
+      "author": "@erika_aisare",
+      "authorName": "エリカ@脱セフレした愛され妻",
+      "description": "男が最初に食いつくのは「顔」です。\nでも、男が最後に「一生、俺の隣にいてくれ」と懇願するのは圧倒的に「情緒が安定した賢い女」なんです。なぜ情緒不安定な女は、本命レースで脱落するのか？\n\nそれは、",
+      "date": "2026-03-06T09:58:38.000Z",
+      "engagement": "3.0M views · 1.7K likes",
+      "category": "Lifestyle",
+      "wordCount": 362,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 32,
+      "metrics": {
+        "views": 2975117,
+        "likes": 1736,
+        "retweets": 137,
+        "bookmarks": 1065
+      }
+    },
+    {
+      "id": "2029892841712054737",
+      "title": "舐められる人の共通点",
+      "url": "https://x.com/seiyujuku/status/2029892841712054737",
+      "author": "@seiyujuku",
+      "authorName": "かつとし",
+      "description": "はっきり言います。\n人は、思っている以上に「態度」で判断されています。能力や実績より先に、「この人はどう扱っていい人か」を一瞬で見極められている。\n\nだからこそ、舐められない人には共通点があります。",
+      "date": "2026-03-06T12:12:21.000Z",
+      "engagement": "3.0M views · 1.6K likes",
+      "category": "Self Help",
+      "wordCount": 214,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 33,
+      "metrics": {
+        "views": 2972929,
+        "likes": 1639,
+        "retweets": 132,
+        "bookmarks": 2144
+      }
+    },
+    {
+      "id": "2029766505983004965",
+      "title": "What Has Happened to Tucker Carlson?",
+      "url": "https://x.com/GadSaad/status/2029766505983004965",
+      "author": "@GadSaad",
+      "authorName": "Gad Saad",
+      "description": "Whenever I see an individual with whom I have had a personal relationship take positions that are deeply concerning, I face a conundrum.  On the one hand, I feel a sense of loyalty toward our",
+      "date": "2026-03-06T03:50:20.000Z",
+      "engagement": "2.8M views · 14.8K likes",
+      "category": "Politics",
+      "wordCount": 646,
+      "readingTime": 3,
+      "lang": "en",
+      "rank": 34,
+      "metrics": {
+        "views": 2847287,
+        "likes": 14828,
+        "retweets": 1887,
+        "bookmarks": 2008
+      }
+    },
+    {
+      "id": "2029482646212862011",
+      "title": "不幸な男を「救ってあげたい」と思うのは、メサイアコンプ女子の特徴",
+      "url": "https://x.com/loveshare0001/status/2029482646212862011",
+      "author": "@loveshare0001",
+      "authorName": "みつき",
+      "description": "「 この人は私が救ってあげないと… 」と思ってしまう女性たちがいる。彼女たちは、\n・クズ男\n・繊細な男\n・回避型の男\n・心に闇（病み）を抱えた男\nこういった男性を好きになると、無性に放っておけなくなる。",
+      "date": "2026-03-05T09:02:23.000Z",
+      "engagement": "2.8M views · 2.1K likes",
+      "category": "Lifestyle",
+      "wordCount": 969,
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 35,
+      "metrics": {
+        "views": 2831376,
+        "likes": 2104,
+        "retweets": 303,
+        "bookmarks": 1492
+      }
+    },
+    {
+      "id": "2029405334734029083",
+      "title": "『婚活適正価格』",
+      "url": "https://x.com/shoichirosm/status/2029405334734029083",
+      "author": "@shoichirosm",
+      "authorName": "PuANDA",
+      "description": "マッチングアプリで知り合った女と恵比寿のイタリアンで向かい合っているのであるが、向かい合っているというこの状態がそもそも何なのかというと、これは世間一般にデートと呼ばれる行為であって、デートというのは",
+      "date": "2026-03-05T03:55:10.000Z",
+      "engagement": "2.8M views · 5.3K likes",
+      "category": "Lifestyle",
+      "wordCount": 1593,
+      "readingTime": 4,
+      "lang": "zh",
       "rank": 36,
       "metrics": {
-        "views": 3068186,
-        "likes": 2623,
-        "retweets": 321,
-        "bookmarks": 1472
-      }
-    },
-    {
-      "id": "2027628961304650077",
-      "title": "33歳で「ご自愛」を覚えた",
-      "url": "https://x.com/shion0_25mg/status/2027628961304650077",
-      "author": "@shion0_25mg",
-      "authorName": "藤田シオン💙Shion Fujita",
-      "description": "わたくしは、セルフネグレクトが酷かった。\n自炊なんて年に3回しかしないし、仕事以外の、切り売りしない部分のすべては無意味だと思っていた。",
-      "date": "2026-02-28T06:16:30.000Z",
-      "engagement": "2.8M views · 10.5K likes",
-      "category": "Self Help",
-      "wordCount": 1314,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 37,
-      "metrics": {
-        "views": 2830543,
-        "likes": 10500,
-        "retweets": 1089,
-        "bookmarks": 4227
-      }
-    },
-    {
-      "id": "2027626918217216114",
-      "title": "婚活中は溝の口や北千住で買い物しないで恵比寿や有楽町に行って！",
-      "url": "https://x.com/koakumamt/status/2027626918217216114",
-      "author": "@koakumamt",
-      "authorName": "菊乃＠婚活アドバイザー",
-      "description": "山手線（新宿〜渋谷〜東京辺り）に乗っていると、髪にスタイリング剤をつけていない男性の方が少ない。\n女性の目からみて「清潔感がある」男性の割合がグッと高くなるのだ。",
-      "date": "2026-02-28T06:08:23.000Z",
-      "engagement": "2.8M views · 1.5K likes",
-      "category": "Lifestyle",
-      "wordCount": 592,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 38,
-      "metrics": {
-        "views": 2768536,
-        "likes": 1539,
-        "retweets": 136,
-        "bookmarks": 910
+        "views": 2769749,
+        "likes": 5294,
+        "retweets": 688,
+        "bookmarks": 2759
       }
     },
     {
@@ -810,17 +768,17 @@
       "authorName": "sysls",
       "description": "Introduction\nYou're a developer. You're using Claude and Codex CLI and you're wondering everyday if you're sufficiently juicing the shit out of Claude or Codex. Once in awhile you're seeing it doing",
       "date": "2026-03-03T12:46:19.000Z",
-      "engagement": "2.7M views · 7.3K likes",
+      "engagement": "2.7M views · 7.4K likes",
       "category": "Ai",
       "wordCount": 3617,
       "readingTime": 14,
       "lang": "en",
-      "rank": 39,
+      "rank": 37,
       "metrics": {
-        "views": 2693776,
-        "likes": 7307,
-        "retweets": 847,
-        "bookmarks": 23125
+        "views": 2717752,
+        "likes": 7353,
+        "retweets": 858,
+        "bookmarks": 23197
       }
     },
     {
@@ -836,33 +794,12 @@
       "wordCount": 943,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 40,
+      "rank": 38,
       "metrics": {
-        "views": 2634013,
-        "likes": 1736,
-        "retweets": 118,
-        "bookmarks": 1687
-      }
-    },
-    {
-      "id": "2029405334734029083",
-      "title": "『婚活適正価格』",
-      "url": "https://x.com/shoichirosm/status/2029405334734029083",
-      "author": "@shoichirosm",
-      "authorName": "PuANDA",
-      "description": "マッチングアプリで知り合った女と恵比寿のイタリアンで向かい合っているのであるが、向かい合っているというこの状態がそもそも何なのかというと、これは世間一般にデートと呼ばれる行為であって、デートというのは",
-      "date": "2026-03-05T03:55:10.000Z",
-      "engagement": "2.6M views · 5.1K likes",
-      "category": "Lifestyle",
-      "wordCount": 1593,
-      "readingTime": 4,
-      "lang": "zh",
-      "rank": 41,
-      "metrics": {
-        "views": 2592324,
-        "likes": 5146,
-        "retweets": 666,
-        "bookmarks": 2687
+        "views": 2637569,
+        "likes": 1738,
+        "retweets": 117,
+        "bookmarks": 1685
       }
     },
     {
@@ -878,12 +815,12 @@
       "wordCount": 1913,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 42,
+      "rank": 39,
       "metrics": {
-        "views": 2570234,
-        "likes": 1123,
+        "views": 2572069,
+        "likes": 1121,
         "retweets": 52,
-        "bookmarks": 1080
+        "bookmarks": 1075
       }
     },
     {
@@ -899,12 +836,33 @@
       "wordCount": 1141,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 43,
+      "rank": 40,
       "metrics": {
-        "views": 2522294,
-        "likes": 3239,
+        "views": 2524518,
+        "likes": 3240,
         "retweets": 266,
-        "bookmarks": 3528
+        "bookmarks": 3522
+      }
+    },
+    {
+      "id": "2029497427837722949",
+      "title": "ヒカルさんの凄いところ。",
+      "url": "https://x.com/hirox246/status/2029497427837722949",
+      "author": "@hirox246",
+      "authorName": "ひろゆき",
+      "description": "10年くらい前に姫路でやっている頃から仲良くさせて貰ってますが、昔はヒカルくんと呼んでました。",
+      "date": "2026-03-05T10:01:07.000Z",
+      "engagement": "2.5M views · 5.7K likes",
+      "category": "Entertainment",
+      "wordCount": 435,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 41,
+      "metrics": {
+        "views": 2463025,
+        "likes": 5746,
+        "retweets": 461,
+        "bookmarks": 736
       }
     },
     {
@@ -920,96 +878,12 @@
       "wordCount": 973,
       "readingTime": 3,
       "lang": "ja",
-      "rank": 44,
+      "rank": 42,
       "metrics": {
-        "views": 2387016,
-        "likes": 5463,
-        "retweets": 416,
-        "bookmarks": 3363
-      }
-    },
-    {
-      "id": "2027816234964946977",
-      "title": "This OpenClaw AI Agent Made Me $10K Clipping Pop Culture Content...",
-      "url": "https://x.com/jacobgrowth/status/2027816234964946977",
-      "author": "@jacobgrowth",
-      "authorName": "jacob",
-      "description": "most people hear \"ai agent\" and think, oh cool, it sends my emails for me.\nno. stop.\ni'm going to show you how we built a content engine that clips, scripts, and distributes pop culture content across",
-      "date": "2026-02-28T18:40:40.000Z",
-      "engagement": "2.4M views · 3.0K likes",
-      "category": "Ai",
-      "wordCount": 1124,
-      "readingTime": 4,
-      "lang": "en",
-      "rank": 45,
-      "metrics": {
-        "views": 2371880,
-        "likes": 2999,
-        "retweets": 173,
-        "bookmarks": 13935
-      }
-    },
-    {
-      "id": "2027759832523051263",
-      "title": "Claude Cowork: The Definitive Setup Guide",
-      "url": "https://x.com/witcheer/status/2027759832523051263",
-      "author": "@witcheer",
-      "authorName": "witcheer ☯︎",
-      "description": "What Cowork Actually Is\nCowork is an agentic desktop tool built into the Claude Desktop app. It gives Claude direct read/write access to folders on your computer, the ability to execute multi-step",
-      "date": "2026-02-28T14:56:32.000Z",
-      "engagement": "2.4M views · 3.3K likes",
-      "category": "Ai",
-      "wordCount": 1586,
-      "readingTime": 6,
-      "lang": "en",
-      "rank": 46,
-      "metrics": {
-        "views": 2358666,
-        "likes": 3314,
-        "retweets": 276,
-        "bookmarks": 16029
-      }
-    },
-    {
-      "id": "2029497427837722949",
-      "title": "ヒカルさんの凄いところ。",
-      "url": "https://x.com/hirox246/status/2029497427837722949",
-      "author": "@hirox246",
-      "authorName": "ひろゆき",
-      "description": "10年くらい前に姫路でやっている頃から仲良くさせて貰ってますが、昔はヒカルくんと呼んでました。",
-      "date": "2026-03-05T10:01:07.000Z",
-      "engagement": "2.3M views · 5.4K likes",
-      "category": "Entertainment",
-      "wordCount": 435,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 47,
-      "metrics": {
-        "views": 2310989,
-        "likes": 5435,
-        "retweets": 442,
-        "bookmarks": 727
-      }
-    },
-    {
-      "id": "2028761749059780823",
-      "title": "頭脳の深さは顔に出る、頭脳の浅さも顔に出る",
-      "url": "https://x.com/yumaevo/status/2028761749059780823",
-      "author": "@yumaevo",
-      "authorName": "yuma@内向哲学",
-      "description": "頭の良さは顔に出ると思ってます。\nもっと正確に言えば「表情」に出ます。\n\n頭がいい人の顔つきの特徴は「穏やか」です。\n内省的で、落ち着いていて、変に感情的じゃない。",
-      "date": "2026-03-03T09:17:48.000Z",
-      "engagement": "2.3M views · 832 likes",
-      "category": "Self Help",
-      "wordCount": 418,
-      "readingTime": 1,
-      "lang": "ja",
-      "rank": 48,
-      "metrics": {
-        "views": 2288847,
-        "likes": 832,
-        "retweets": 75,
-        "bookmarks": 633
+        "views": 2391275,
+        "likes": 5470,
+        "retweets": 417,
+        "bookmarks": 3355
       }
     },
     {
@@ -1025,12 +899,54 @@
       "wordCount": 677,
       "readingTime": 3,
       "lang": "en",
-      "rank": 49,
+      "rank": 43,
       "metrics": {
-        "views": 2284713,
-        "likes": 5272,
-        "retweets": 522,
-        "bookmarks": 14475
+        "views": 2309141,
+        "likes": 5294,
+        "retweets": 524,
+        "bookmarks": 14502
+      }
+    },
+    {
+      "id": "2028111088449896826",
+      "title": "How to make $1M in 2026 using Claude Memory (step by step business plan)",
+      "url": "https://x.com/ideabrowser/status/2028111088449896826",
+      "author": "@ideabrowser",
+      "authorName": "Idea Browser",
+      "description": "Claude just launched memory imports. Here is the step-by-step playbook to build a $1M/yr business. \n\nClaude just launched memory imports.\nThat means you can migrate anyone from ChatGPT to Claude in 60",
+      "date": "2026-03-01T14:12:18.000Z",
+      "engagement": "2.3M views · 4.5K likes",
+      "category": "Business",
+      "wordCount": 479,
+      "readingTime": 2,
+      "lang": "en",
+      "rank": 44,
+      "metrics": {
+        "views": 2303233,
+        "likes": 4454,
+        "retweets": 413,
+        "bookmarks": 16891
+      }
+    },
+    {
+      "id": "2028761749059780823",
+      "title": "頭脳の深さは顔に出る、頭脳の浅さも顔に出る",
+      "url": "https://x.com/yumaevo/status/2028761749059780823",
+      "author": "@yumaevo",
+      "authorName": "yuma@内向哲学",
+      "description": "頭の良さは顔に出ると思ってます。\nもっと正確に言えば「表情」に出ます。\n\n頭がいい人の顔つきの特徴は「穏やか」です。\n内省的で、落ち着いていて、変に感情的じゃない。",
+      "date": "2026-03-03T09:17:48.000Z",
+      "engagement": "2.3M views · 834 likes",
+      "category": "Self Help",
+      "wordCount": 418,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 45,
+      "metrics": {
+        "views": 2290312,
+        "likes": 834,
+        "retweets": 75,
+        "bookmarks": 632
       }
     },
     {
@@ -1041,17 +957,17 @@
       "authorName": "秘密結社＋M",
       "description": "おれは、誰であれ、人の欲求、欲望、を、自分への期待として背負わないようにしている。\n人の欲求、欲望を期待として背負い、自分のなかに責任感を発生させてしまう。考えてみれば、これは「親」の態度である。",
       "date": "2026-03-04T12:08:11.000Z",
-      "engagement": "2.2M views · 2.6K likes",
+      "engagement": "2.3M views · 2.6K likes",
       "category": "Lifestyle",
       "wordCount": 575,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 50,
+      "rank": 46,
       "metrics": {
-        "views": 2248437,
-        "likes": 2625,
+        "views": 2258373,
+        "likes": 2624,
         "retweets": 286,
-        "bookmarks": 2094
+        "bookmarks": 2093
       }
     },
     {
@@ -1067,12 +983,33 @@
       "wordCount": 554,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 51,
+      "rank": 47,
       "metrics": {
-        "views": 2194061,
-        "likes": 4080,
-        "retweets": 374,
-        "bookmarks": 6983
+        "views": 2200383,
+        "likes": 4072,
+        "retweets": 375,
+        "bookmarks": 6969
+      }
+    },
+    {
+      "id": "2029712944867725722",
+      "title": "GPT 5.4 proに小説を書かせたらびっくりするくらい面白かった",
+      "url": "https://x.com/Suzacque/status/2029712944867725722",
+      "author": "@Suzacque",
+      "authorName": "朱雀 | SUZACQUE",
+      "description": "今日リリースされた最新のGPT 5.4 proに小説を書かせてみました。\nプロンプトは「青空を見上げたら白い月の代わりに地球が浮かんでいた、から始まる小説を書いて」だけです。\n以下が出力された小説です。",
+      "date": "2026-03-06T00:17:30.000Z",
+      "engagement": "2.2M views · 4.1K likes",
+      "category": "Ai",
+      "wordCount": 2321,
+      "readingTime": 6,
+      "lang": "ja",
+      "rank": 48,
+      "metrics": {
+        "views": 2197678,
+        "likes": 4129,
+        "retweets": 844,
+        "bookmarks": 3076
       }
     },
     {
@@ -1083,17 +1020,17 @@
       "authorName": "はくくん🍌🩺",
       "description": "※さくっと。1分で読めます。\n\nこれは医学的にもすでにはっきりしていることですが、男性と女性では性欲の根本が全然違います。\n\nわかりやすく\n男女の性欲傾向ランキングBEST3を\n紹介しましょう。\n \n<男性>",
       "date": "2026-03-01T11:15:30.000Z",
-      "engagement": "2.2M views · 914 likes",
+      "engagement": "2.2M views · 910 likes",
       "category": "Lifestyle",
       "wordCount": 351,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 52,
+      "rank": 49,
       "metrics": {
-        "views": 2193836,
-        "likes": 914,
+        "views": 2195412,
+        "likes": 910,
         "retweets": 50,
-        "bookmarks": 1019
+        "bookmarks": 1011
       }
     },
     {
@@ -1109,33 +1046,33 @@
       "wordCount": 886,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 53,
+      "rank": 50,
       "metrics": {
-        "views": 2158077,
-        "likes": 3629,
+        "views": 2163684,
+        "likes": 3626,
         "retweets": 385,
-        "bookmarks": 1517
+        "bookmarks": 1513
       }
     },
     {
-      "id": "2029482646212862011",
-      "title": "不幸な男を「救ってあげたい」と思うのは、メサイアコンプ女子の特徴",
-      "url": "https://x.com/loveshare0001/status/2029482646212862011",
-      "author": "@loveshare0001",
-      "authorName": "みつき",
-      "description": "「 この人は私が救ってあげないと… 」と思ってしまう女性たちがいる。彼女たちは、\n・クズ男\n・繊細な男\n・回避型の男\n・心に闇（病み）を抱えた男\nこういった男性を好きになると、無性に放っておけなくなる。",
-      "date": "2026-03-05T09:02:23.000Z",
-      "engagement": "2.1M views · 1.8K likes",
-      "category": "Lifestyle",
-      "wordCount": 969,
-      "readingTime": 3,
-      "lang": "ja",
-      "rank": 54,
+      "id": "2029684318659125293",
+      "title": "Operation Epic Fury: Iran’s Declining Capabilities and Emerging Strategy",
+      "url": "https://x.com/HudsonInstitute/status/2029684318659125293",
+      "author": "@HudsonInstitute",
+      "authorName": "Hudson Institute",
+      "description": "Below Hudson Institute Senior Fellow Can Kasapoğlu (@ckasapoglu1) assesses the military situation in Iran and across the Middle East as the United States and Israel continue to conduct air strikes",
+      "date": "2026-03-05T22:23:45.000Z",
+      "engagement": "2.1M views · 1.5K likes",
+      "category": "Politics",
+      "wordCount": 2423,
+      "readingTime": 10,
+      "lang": "en",
+      "rank": 51,
       "metrics": {
-        "views": 2094653,
-        "likes": 1809,
-        "retweets": 245,
-        "bookmarks": 1305
+        "views": 2135910,
+        "likes": 1478,
+        "retweets": 308,
+        "bookmarks": 2246
       }
     },
     {
@@ -1151,54 +1088,12 @@
       "wordCount": 3390,
       "readingTime": 14,
       "lang": "en",
-      "rank": 55,
+      "rank": 52,
       "metrics": {
-        "views": 2031403,
-        "likes": 3313,
-        "retweets": 496,
-        "bookmarks": 13457
-      }
-    },
-    {
-      "id": "2028111088449896826",
-      "title": "How to make $1M in 2026 using Claude Memory (step by step business plan)",
-      "url": "https://x.com/ideabrowser/status/2028111088449896826",
-      "author": "@ideabrowser",
-      "authorName": "Idea Browser",
-      "description": "Claude just launched memory imports. Here is the step-by-step playbook to build a $1M/yr business. \n\nClaude just launched memory imports.\nThat means you can migrate anyone from ChatGPT to Claude in 60",
-      "date": "2026-03-01T14:12:18.000Z",
-      "engagement": "2.0M views · 4.2K likes",
-      "category": "Business",
-      "wordCount": 479,
-      "readingTime": 2,
-      "lang": "en",
-      "rank": 56,
-      "metrics": {
-        "views": 2021882,
-        "likes": 4181,
-        "retweets": 391,
-        "bookmarks": 15625
-      }
-    },
-    {
-      "id": "2027870429520822655",
-      "title": "NEW Trump Post: Khamenei Dead – Justice Served ",
-      "url": "https://x.com/TrumpDailyPosts/status/2027870429520822655",
-      "author": "@TrumpDailyPosts",
-      "authorName": "Commentary Donald J. Trump Posts From Truth Social",
-      "description": "🚨New Trump Post, Poll & Video Below - 2.28.26\n──────────────────────────────\n \n \n \nX Article by Todd Cefaratti @TrumpDailyPosts 2.28.26\nKhamenei's death delivers justice",
-      "date": "2026-02-28T22:16:01.000Z",
-      "engagement": "2.0M views · 1.3K likes",
-      "category": "Wtf",
-      "wordCount": 1129,
-      "readingTime": 5,
-      "lang": "en",
-      "rank": 57,
-      "metrics": {
-        "views": 2018146,
-        "likes": 1323,
-        "retweets": 226,
-        "bookmarks": 132
+        "views": 2039755,
+        "likes": 3324,
+        "retweets": 499,
+        "bookmarks": 13471
       }
     },
     {
@@ -1214,12 +1109,12 @@
       "wordCount": 421,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 58,
+      "rank": 53,
       "metrics": {
-        "views": 2016858,
-        "likes": 1451,
+        "views": 2017871,
+        "likes": 1452,
         "retweets": 94,
-        "bookmarks": 1101
+        "bookmarks": 1100
       }
     },
     {
@@ -1235,33 +1130,33 @@
       "wordCount": 669,
       "readingTime": 1,
       "lang": "zh",
-      "rank": 59,
+      "rank": 54,
       "metrics": {
-        "views": 1982030,
-        "likes": 2926,
-        "retweets": 588,
-        "bookmarks": 2864
+        "views": 1989100,
+        "likes": 2930,
+        "retweets": 590,
+        "bookmarks": 2865
       }
     },
     {
-      "id": "2027808045946835050",
-      "title": "U.S. Forces Launch Operation Epic Fury",
-      "url": "https://x.com/CENTCOM/status/2027808045946835050",
-      "author": "@CENTCOM",
-      "authorName": "U.S. Central Command",
-      "description": "TAMPA, Fla. – U.S. Central Command (CENTCOM) commenced Operation Epic Fury, Feb. 28, at the direction of the President of the United States.\nU.S. and partner forces began striking targets at 1:15 am",
-      "date": "2026-02-28T18:08:07.000Z",
-      "engagement": "1.9M views · 14.2K likes",
-      "category": "News",
-      "wordCount": 187,
-      "readingTime": 1,
+      "id": "2029650297229037590",
+      "title": "How Long Can This Last? Watch Our \"Key\" Indicator.",
+      "url": "https://x.com/KobeissiLetter/status/2029650297229037590",
+      "author": "@KobeissiLetter",
+      "authorName": "The Kobeissi Letter",
+      "description": "The world's MOST pressing question: How long will the war in Iran last? Current data says there is a single KEY indicator you should be watching. History and the data all align, here's what you need",
+      "date": "2026-03-05T20:08:34.000Z",
+      "engagement": "2.0M views · 1.6K likes",
+      "category": "Politics",
+      "wordCount": 2100,
+      "readingTime": 8,
       "lang": "en",
-      "rank": 60,
+      "rank": 55,
       "metrics": {
-        "views": 1942827,
-        "likes": 14164,
-        "retweets": 2704,
-        "bookmarks": 915
+        "views": 1962766,
+        "likes": 1621,
+        "retweets": 272,
+        "bookmarks": 2621
       }
     },
     {
@@ -1277,12 +1172,12 @@
       "wordCount": 1180,
       "readingTime": 5,
       "lang": "en",
-      "rank": 61,
+      "rank": 56,
       "metrics": {
-        "views": 1937977,
-        "likes": 9489,
+        "views": 1942293,
+        "likes": 9488,
         "retweets": 997,
-        "bookmarks": 1227
+        "bookmarks": 1223
       }
     },
     {
@@ -1298,75 +1193,75 @@
       "wordCount": 200,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 62,
+      "rank": 57,
       "metrics": {
-        "views": 1892099,
-        "likes": 2375,
+        "views": 1904697,
+        "likes": 2383,
         "retweets": 146,
-        "bookmarks": 4698
+        "bookmarks": 4716
       }
     },
     {
-      "id": "2029650297229037590",
-      "title": "How Long Can This Last? Watch Our \"Key\" Indicator.",
-      "url": "https://x.com/KobeissiLetter/status/2029650297229037590",
-      "author": "@KobeissiLetter",
-      "authorName": "The Kobeissi Letter",
-      "description": "The world's MOST pressing question: How long will the war in Iran last? Current data says there is a single KEY indicator you should be watching. History and the data all align, here's what you need",
-      "date": "2026-03-05T20:08:34.000Z",
-      "engagement": "1.9M views · 1.6K likes",
-      "category": "Politics",
-      "wordCount": 2100,
-      "readingTime": 8,
+      "id": "2029514946640322593",
+      "title": "How to set up Claude Cowork (to level up from ChatGPT):",
+      "url": "https://x.com/rubenhassid/status/2029514946640322593",
+      "author": "@rubenhassid",
+      "authorName": "Ruben Hassid",
+      "description": "You just switched from ChatGPT to Claude. But you’re still not using Cowork.\nWhen Claude released it, software stocks lost $830 billion in 6 days because of it.\nAnd since I published my guide ‘Claude’",
+      "date": "2026-03-05T11:10:44.000Z",
+      "engagement": "1.9M views · 1.1K likes",
+      "category": "Ai",
+      "wordCount": 3072,
+      "readingTime": 12,
       "lang": "en",
-      "rank": 63,
+      "rank": 58,
       "metrics": {
-        "views": 1889779,
-        "likes": 1577,
-        "retweets": 267,
-        "bookmarks": 2589
+        "views": 1898385,
+        "likes": 1056,
+        "retweets": 153,
+        "bookmarks": 4323
       }
     },
     {
-      "id": "2029684318659125293",
-      "title": "Operation Epic Fury: Iran’s Declining Capabilities and Emerging Strategy",
-      "url": "https://x.com/HudsonInstitute/status/2029684318659125293",
-      "author": "@HudsonInstitute",
-      "authorName": "Hudson Institute",
-      "description": "Below Hudson Institute Senior Fellow Can Kasapoğlu (@ckasapoglu1) assesses the military situation in Iran and across the Middle East as the United States and Israel continue to conduct air strikes",
-      "date": "2026-03-05T22:23:45.000Z",
-      "engagement": "1.8M views · 1.3K likes",
-      "category": "Politics",
-      "wordCount": 2423,
-      "readingTime": 10,
-      "lang": "en",
-      "rank": 64,
-      "metrics": {
-        "views": 1844472,
-        "likes": 1316,
-        "retweets": 283,
-        "bookmarks": 2042
-      }
-    },
-    {
-      "id": "2027649405457965115",
-      "title": "世界属于会说英文的中国人",
-      "url": "https://x.com/hotpot_dao/status/2027649405457965115",
-      "author": "@hotpot_dao",
-      "authorName": "brother bing / 饼兄 Σ:",
-      "description": "春节前和一个 00 后聊天，他喝了一口果汁，突然来了一句：“现在硅谷卷 AI 的，基本都是会说英文的中国人。”他还顺带补了一句：“如果一家 AI 公司没有 ABC 当 CMO，基本是活不下去的。”\n你随便刷一刷 Ins 和",
-      "date": "2026-02-28T07:37:44.000Z",
-      "engagement": "1.8M views · 1.6K likes",
+      "id": "2029772238388711432",
+      "title": "すべての管理職が共通してやるべきことは、５つしかない。",
+      "url": "https://x.com/Books_Apps/status/2029772238388711432",
+      "author": "@Books_Apps",
+      "authorName": "安達裕哉",
+      "description": "あらゆる組織において、すべての管理職が共通してやるべきことは５つしかない。\n逆に言えば、この５つをしっかりやることが前提となる。",
+      "date": "2026-03-06T04:13:07.000Z",
+      "engagement": "1.9M views · 1.4K likes",
       "category": "Business",
-      "wordCount": 1426,
-      "readingTime": 3,
-      "lang": "zh",
-      "rank": 65,
+      "wordCount": 883,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 59,
       "metrics": {
-        "views": 1839454,
-        "likes": 1584,
-        "retweets": 280,
-        "bookmarks": 1764
+        "views": 1887456,
+        "likes": 1444,
+        "retweets": 121,
+        "bookmarks": 2735
+      }
+    },
+    {
+      "id": "2029763122903535995",
+      "title": "あいつが頑張ってました",
+      "url": "https://x.com/yuusaku_buddica/status/2029763122903535995",
+      "author": "@yuusaku_buddica",
+      "authorName": "中野優作｜CAR and LIFE.",
+      "description": "部下に手柄を譲れる幹部は少ない。\n「優作さん、先月数字が伸びたのは彼らが頑張ったんです。褒めてやってください」\nBUDDICAの歓迎会で些細だけど嬉しい出来事がありました。",
+      "date": "2026-03-06T03:36:54.000Z",
+      "engagement": "1.8M views · 2.1K likes",
+      "category": "Business",
+      "wordCount": 872,
+      "readingTime": 2,
+      "lang": "ja",
+      "rank": 60,
+      "metrics": {
+        "views": 1818966,
+        "likes": 2058,
+        "retweets": 177,
+        "bookmarks": 1393
       }
     },
     {
@@ -1382,54 +1277,12 @@
       "wordCount": 866,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 66,
+      "rank": 61,
       "metrics": {
-        "views": 1787655,
-        "likes": 3231,
-        "retweets": 316,
-        "bookmarks": 3776
-      }
-    },
-    {
-      "id": "2029766505983004965",
-      "title": "What Has Happened to Tucker Carlson?",
-      "url": "https://x.com/GadSaad/status/2029766505983004965",
-      "author": "@GadSaad",
-      "authorName": "Gad Saad",
-      "description": "Whenever I see an individual with whom I have had a personal relationship take positions that are deeply concerning, I face a conundrum.  On the one hand, I feel a sense of loyalty toward our",
-      "date": "2026-03-06T03:50:20.000Z",
-      "engagement": "1.7M views · 12.0K likes",
-      "category": "Politics",
-      "wordCount": 646,
-      "readingTime": 3,
-      "lang": "en",
-      "rank": 67,
-      "metrics": {
-        "views": 1740771,
-        "likes": 12043,
-        "retweets": 1512,
-        "bookmarks": 1630
-      }
-    },
-    {
-      "id": "2027563566606520824",
-      "title": "住宅ローンをこれから組む人へ",
-      "url": "https://x.com/master_k1805/status/2027563566606520824",
-      "author": "@master_k1805",
-      "authorName": "ますたけ",
-      "description": "2025年6400万円のフルローンを組んで家を買いました。住宅ローンってどう組むのが賢いの？ってことをまとめてみたので、これからローンを組もうと思ってる方はぜひどうぞ。",
-      "date": "2026-02-28T01:56:39.000Z",
-      "engagement": "1.7M views · 3.6K likes",
-      "category": "Lifestyle",
-      "wordCount": 1476,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 68,
-      "metrics": {
-        "views": 1731873,
-        "likes": 3599,
-        "retweets": 185,
-        "bookmarks": 4537
+        "views": 1791879,
+        "likes": 3220,
+        "retweets": 317,
+        "bookmarks": 3761
       }
     },
     {
@@ -1440,38 +1293,38 @@
       "authorName": "くみこ",
       "description": "「許す」って、損した気持ちのまま笑顔を作ることだと思ってた。\n傷ついたのは自分なのに、なぜか先に折れなきゃいけない気がして。 \n「もう気にしてないよ」って言えた瞬間だけが、「許せた証明」みたいな空気。",
       "date": "2026-03-04T21:00:33.000Z",
-      "engagement": "1.7M views · 3.8K likes",
+      "engagement": "1.8M views · 3.9K likes",
       "category": "Self Help",
       "wordCount": 1257,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 69,
+      "rank": 62,
       "metrics": {
-        "views": 1728599,
-        "likes": 3830,
-        "retweets": 501,
-        "bookmarks": 4653
+        "views": 1764720,
+        "likes": 3878,
+        "retweets": 513,
+        "bookmarks": 4700
       }
     },
     {
-      "id": "2027627655647076716",
-      "title": "「いい人」を卒業しないと詰む。",
-      "url": "https://x.com/leon_mindhack/status/2027627655647076716",
-      "author": "@leon_mindhack",
-      "authorName": "かわの|営業が人生を変える",
-      "description": "少し強い言い方に聞こえるかもしれない。でも、個人で収入を伸ばしていきたいなら、「いい人」で居続けることが足かせになる瞬間があると思ってる。ここで言う“いい人”というのは、人として優しいとか誠実という意味",
-      "date": "2026-02-28T06:11:19.000Z",
-      "engagement": "1.7M views · 1.1K likes",
-      "category": "Self Help",
-      "wordCount": 626,
-      "readingTime": 2,
+      "id": "2029888553069735960",
+      "title": "「悪いパクリ」と「良いパクリ」",
+      "url": "https://x.com/mitakamikata/status/2029888553069735960",
+      "author": "@mitakamikata",
+      "authorName": "ゆーりんち @ゲームを作っています",
+      "description": "ほとんどの創作者が、「〇〇みたいな作品を作りたい」といった気持ちから創作を始めていると思います。\n\nパクリというのは創造の基本です。\n『進撃の巨人』ですら、「『マブラヴ",
+      "date": "2026-03-06T11:55:19.000Z",
+      "engagement": "1.8M views · 3.2K likes",
+      "category": "Other",
+      "wordCount": 1155,
+      "readingTime": 3,
       "lang": "ja",
-      "rank": 70,
+      "rank": 63,
       "metrics": {
-        "views": 1705806,
-        "likes": 1091,
-        "retweets": 77,
-        "bookmarks": 1593
+        "views": 1756535,
+        "likes": 3250,
+        "retweets": 608,
+        "bookmarks": 2719
       }
     },
     {
@@ -1487,12 +1340,33 @@
       "wordCount": 527,
       "readingTime": 2,
       "lang": "other",
-      "rank": 71,
+      "rank": 64,
       "metrics": {
-        "views": 1634975,
-        "likes": 12543,
-        "retweets": 1386,
-        "bookmarks": 7578
+        "views": 1647074,
+        "likes": 12527,
+        "retweets": 1384,
+        "bookmarks": 7562
+      }
+    },
+    {
+      "id": "2029928471632224486",
+      "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code.",
+      "url": "https://x.com/KatanaLarp/status/2029928471632224486",
+      "author": "@KatanaLarp",
+      "authorName": "Hōrōshi バガボンド",
+      "description": "One of the simplest tests you can run on a database:\nDoing a primary key lookup on 100 rows.\nSQLite takes 0.09 ms. An LLM-generated Rust rewrite takes 1,815.43 ms.\nIt's not a misplaced comma! The",
+      "date": "2026-03-06T14:33:56.000Z",
+      "engagement": "1.6M views · 4.1K likes",
+      "category": "Ai",
+      "wordCount": 4073,
+      "readingTime": 16,
+      "lang": "en",
+      "rank": 65,
+      "metrics": {
+        "views": 1616290,
+        "likes": 4076,
+        "retweets": 478,
+        "bookmarks": 8162
       }
     },
     {
@@ -1508,33 +1382,12 @@
       "wordCount": 1856,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 72,
+      "rank": 66,
       "metrics": {
-        "views": 1596789,
-        "likes": 2358,
+        "views": 1599671,
+        "likes": 2355,
         "retweets": 134,
-        "bookmarks": 2419
-      }
-    },
-    {
-      "id": "2029699731539255640",
-      "title": "My chief of staff, Claude Code",
-      "url": "https://x.com/jimprosser/status/2029699731539255640",
-      "author": "@jimprosser",
-      "authorName": "Jim Prosser",
-      "description": "The dream of modern personalized technology has always been some kind of perfect digital assistant—a chief of staff that triages your inbox, organizes your day, and handles the operational overhead of",
-      "date": "2026-03-05T23:25:00.000Z",
-      "engagement": "1.6M views · 2.5K likes",
-      "category": "Ai",
-      "wordCount": 1839,
-      "readingTime": 7,
-      "lang": "en",
-      "rank": 73,
-      "metrics": {
-        "views": 1556453,
-        "likes": 2546,
-        "retweets": 171,
-        "bookmarks": 12429
+        "bookmarks": 2411
       }
     },
     {
@@ -1545,59 +1398,38 @@
       "authorName": "Zafer Karaaslan",
       "description": "Son zamanlarda kadın kısmının sosyal medyada haykırdıkları şeylerden biri: çabalayan erkek. Gittikçe popülerleşen bu söyleme göre kadınlar çabalayan erkekleri tercih ediyor. Peki burada çaba derken,",
       "date": "2026-03-02T16:51:42.000Z",
-      "engagement": "1.5M views · 601 likes",
+      "engagement": "1.5M views · 599 likes",
       "category": "Lifestyle",
       "wordCount": 1225,
       "readingTime": 5,
       "lang": "en",
-      "rank": 74,
+      "rank": 67,
       "metrics": {
-        "views": 1516874,
-        "likes": 601,
+        "views": 1518140,
+        "likes": 599,
         "retweets": 43,
-        "bookmarks": 838
+        "bookmarks": 833
       }
     },
     {
-      "id": "2027645891100942435",
-      "title": "「顔に出る」を甘く見てはいけない",
-      "url": "https://x.com/hiro_takai/status/2027645891100942435",
-      "author": "@hiro_takai",
-      "authorName": "高井宏章",
-      "description": "亡くなった「ナベツネ」こと渡邉恒雄氏は「顔に出ること」について、洞察に満ちた言葉を残しています。\n「顔に出る」ことの怖さと、「だからこそ、どんな心の持ち方をすべきか」について考えてみます。",
-      "date": "2026-02-28T07:23:46.000Z",
-      "engagement": "1.5M views · 3.7K likes",
-      "category": "Self Help",
-      "wordCount": 1289,
-      "readingTime": 4,
+      "id": "2030144925480931402",
+      "title": "愛嬌の正体",
+      "url": "https://x.com/M_imai_CEREBRIX/status/2030144925480931402",
+      "author": "@M_imai_CEREBRIX",
+      "authorName": "今井晶也｜セレブリックス",
+      "description": "ついに愛嬌の正体を掴めた気がします。\n——最近、AIの話を本当によく見ます。\n論理的に考えること。正しい答えを導くこと。確からしい結論を出すこと。こういうことはもう人間じゃなくてもいいよね、という話です。",
+      "date": "2026-03-07T04:54:03.000Z",
+      "engagement": "1.5M views · 742 likes",
+      "category": "Ai",
+      "wordCount": 1273,
+      "readingTime": 3,
       "lang": "ja",
-      "rank": 75,
+      "rank": 68,
       "metrics": {
-        "views": 1497697,
-        "likes": 3732,
-        "retweets": 344,
-        "bookmarks": 3418
-      }
-    },
-    {
-      "id": "2029772238388711432",
-      "title": "すべての管理職が共通してやるべきことは、５つしかない。",
-      "url": "https://x.com/Books_Apps/status/2029772238388711432",
-      "author": "@Books_Apps",
-      "authorName": "安達裕哉",
-      "description": "あらゆる組織において、すべての管理職が共通してやるべきことは５つしかない。\n逆に言えば、この５つをしっかりやることが前提となる。",
-      "date": "2026-03-06T04:13:07.000Z",
-      "engagement": "1.5M views · 1.3K likes",
-      "category": "Business",
-      "wordCount": 883,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 76,
-      "metrics": {
-        "views": 1491494,
-        "likes": 1285,
-        "retweets": 106,
-        "bookmarks": 2407
+        "views": 1502853,
+        "likes": 742,
+        "retweets": 52,
+        "bookmarks": 815
       }
     },
     {
@@ -1613,12 +1445,33 @@
       "wordCount": 23305,
       "readingTime": 49,
       "lang": "zh",
-      "rank": 77,
+      "rank": 69,
       "metrics": {
-        "views": 1464471,
-        "likes": 1878,
-        "retweets": 445,
-        "bookmarks": 1992
+        "views": 1486029,
+        "likes": 1889,
+        "retweets": 448,
+        "bookmarks": 1995
+      }
+    },
+    {
+      "id": "2029680516568600933",
+      "title": "Services: The New Software",
+      "url": "https://x.com/JulienBek/status/2029680516568600933",
+      "author": "@JulienBek",
+      "authorName": "Julien Bek",
+      "description": "The next $1T company will be a software company masquerading as a services firm.\n\nEvery founder building an AI tool is asking the same question: what happens when the next version of Claude makes my",
+      "date": "2026-03-05T22:08:39.000Z",
+      "engagement": "1.5M views · 3.1K likes",
+      "category": "Ai",
+      "wordCount": 1371,
+      "readingTime": 5,
+      "lang": "en",
+      "rank": 70,
+      "metrics": {
+        "views": 1480856,
+        "likes": 3083,
+        "retweets": 395,
+        "bookmarks": 8736
       }
     },
     {
@@ -1629,17 +1482,17 @@
       "authorName": "らららんど🏰",
       "description": "👇👇👇👇👇👇👇👇👇👇👇👇👇\nhttps://fanclub.com/otoharara\n👆👆👆👆👆👆👆👆👆👆👆👆👆\n※押せなかったら送信終了してます\n｡.ꕤ‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿‿ꕤ.｡\nこんにちは、乙葉ららです🌸\n \n〜経歴〜",
       "date": "2026-03-03T02:56:19.000Z",
-      "engagement": "1.4M views · 776 likes",
+      "engagement": "1.5M views · 785 likes",
       "category": "Wtf",
       "wordCount": 382,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 78,
+      "rank": 71,
       "metrics": {
-        "views": 1434050,
-        "likes": 776,
-        "retweets": 29,
-        "bookmarks": 751
+        "views": 1462232,
+        "likes": 785,
+        "retweets": 28,
+        "bookmarks": 761
       }
     },
     {
@@ -1655,12 +1508,12 @@
       "wordCount": 1557,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 79,
+      "rank": 72,
       "metrics": {
-        "views": 1378360,
-        "likes": 1079,
+        "views": 1379374,
+        "likes": 1078,
         "retweets": 68,
-        "bookmarks": 1429
+        "bookmarks": 1427
       }
     },
     {
@@ -1676,12 +1529,12 @@
       "wordCount": 510,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 80,
+      "rank": 73,
       "metrics": {
-        "views": 1377447,
+        "views": 1377960,
         "likes": 1128,
         "retweets": 88,
-        "bookmarks": 655
+        "bookmarks": 654
       }
     },
     {
@@ -1692,17 +1545,38 @@
       "authorName": "yuma@内向哲学",
       "description": "かなり刺激的なタイトルになってしまいましたが、これは事実だと思っています。",
       "date": "2026-03-02T04:59:45.000Z",
-      "engagement": "1.4M views · 777 likes",
+      "engagement": "1.4M views · 778 likes",
       "category": "Self Help",
       "wordCount": 310,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 81,
+      "rank": 74,
       "metrics": {
-        "views": 1375546,
-        "likes": 777,
+        "views": 1377093,
+        "likes": 778,
         "retweets": 101,
-        "bookmarks": 475
+        "bookmarks": 474
+      }
+    },
+    {
+      "id": "2029300832920113286",
+      "title": "大好きだからこそ大嫌い",
+      "url": "https://x.com/yumenochikara39/status/2029300832920113286",
+      "author": "@yumenochikara39",
+      "authorName": "こうめい｜親育て先生",
+      "description": "学習塾で働いていると、\n子どもたちの本音を聞くことがある。\nある日、中学生の男の子が\nぽつりと言った。\n「俺さ、親のこと嫌いなんよ」\n少し驚いた。\nでも理由を聞いて、\n僕は納得してしまった。",
+      "date": "2026-03-04T20:59:55.000Z",
+      "engagement": "1.4M views · 1.4K likes",
+      "category": "Self Help",
+      "wordCount": 1559,
+      "readingTime": 4,
+      "lang": "ja",
+      "rank": 75,
+      "metrics": {
+        "views": 1358336,
+        "likes": 1443,
+        "retweets": 132,
+        "bookmarks": 1784
       }
     },
     {
@@ -1718,12 +1592,12 @@
       "wordCount": 1552,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 82,
+      "rank": 76,
       "metrics": {
-        "views": 1356291,
+        "views": 1357730,
         "likes": 1624,
         "retweets": 100,
-        "bookmarks": 890
+        "bookmarks": 887
       }
     },
     {
@@ -1734,59 +1608,17 @@
       "authorName": "なにわちゃん",
       "description": "男は「ガン見されすぎ」で冷める。\n・疲れてるのにラブ伝えられる\n・将来の話やたらとされる\n・自分のためにすぐ予定開ける　\n\nみたいに「こっちしか見てへん」と疲れちゃうんよ。",
       "date": "2026-03-02T09:28:27.000Z",
-      "engagement": "1.4M views · 753 likes",
+      "engagement": "1.4M views · 751 likes",
       "category": "Lifestyle",
       "wordCount": 355,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 83,
+      "rank": 77,
       "metrics": {
-        "views": 1352970,
-        "likes": 753,
+        "views": 1353863,
+        "likes": 751,
         "retweets": 38,
         "bookmarks": 506
-      }
-    },
-    {
-      "id": "2029300832920113286",
-      "title": "大好きだからこそ大嫌い",
-      "url": "https://x.com/yumenochikara39/status/2029300832920113286",
-      "author": "@yumenochikara39",
-      "authorName": "こうめい｜親育て先生",
-      "description": "学習塾で働いていると、\n子どもたちの本音を聞くことがある。\nある日、中学生の男の子が\nぽつりと言った。\n「俺さ、親のこと嫌いなんよ」\n少し驚いた。\nでも理由を聞いて、\n僕は納得してしまった。",
-      "date": "2026-03-04T20:59:55.000Z",
-      "engagement": "1.3M views · 1.4K likes",
-      "category": "Self Help",
-      "wordCount": 1559,
-      "readingTime": 4,
-      "lang": "ja",
-      "rank": 84,
-      "metrics": {
-        "views": 1349322,
-        "likes": 1437,
-        "retweets": 132,
-        "bookmarks": 1779
-      }
-    },
-    {
-      "id": "2027591763767296349",
-      "title": "職場で鬱になりやすい人の第一印象は、「暗い」わけではない",
-      "url": "https://x.com/tsumugi_utatabi/status/2027591763767296349",
-      "author": "@tsumugi_utatabi",
-      "authorName": "詩旅 紡",
-      "description": "　私は入社直後、いつも明るく積極的だった。\n\n「何でもやります」と突き進み、「いい人が入ったね」と言われる。",
-      "date": "2026-02-28T03:48:41.000Z",
-      "engagement": "1.3M views · 1.2K likes",
-      "category": "Self Help",
-      "wordCount": 847,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 85,
-      "metrics": {
-        "views": 1339840,
-        "likes": 1202,
-        "retweets": 109,
-        "bookmarks": 956
       }
     },
     {
@@ -1802,12 +1634,33 @@
       "wordCount": 622,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 86,
+      "rank": 78,
       "metrics": {
-        "views": 1330142,
+        "views": 1337427,
         "likes": 1514,
-        "retweets": 102,
-        "bookmarks": 2762
+        "retweets": 101,
+        "bookmarks": 2771
+      }
+    },
+    {
+      "id": "2029681200189636717",
+      "title": "The Long Game and the Conservative Right",
+      "url": "https://x.com/DefiyantlyFree/status/2029681200189636717",
+      "author": "@DefiyantlyFree",
+      "authorName": "Insurrection Barbie",
+      "description": "How a Network of Political Catholic Integralists, Russian Ideologues, and Media Provocateurs Are Systematically Dismantling the Evangelical Foundation of the American Right\n\nThe conventional framework",
+      "date": "2026-03-05T22:11:22.000Z",
+      "engagement": "1.3M views · 3.5K likes",
+      "category": "Politics",
+      "wordCount": 8363,
+      "readingTime": 33,
+      "lang": "en",
+      "rank": 79,
+      "metrics": {
+        "views": 1330057,
+        "likes": 3479,
+        "retweets": 1247,
+        "bookmarks": 4101
       }
     },
     {
@@ -1818,17 +1671,17 @@
       "authorName": "内向哲学",
       "description": "知の鮮度を保つために最も有効なのは、読書を習慣にすることだと思っています。\n自分の頭の中だけで考えていると、どうしても思考の風通しが悪くなり、考え方はどんどん凝り固まってしまいます。",
       "date": "2026-03-02T01:54:11.000Z",
-      "engagement": "1.3M views · 903 likes",
+      "engagement": "1.3M views · 907 likes",
       "category": "Self Help",
       "wordCount": 359,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 87,
+      "rank": 80,
       "metrics": {
-        "views": 1328040,
-        "likes": 903,
+        "views": 1329877,
+        "likes": 907,
         "retweets": 96,
-        "bookmarks": 781
+        "bookmarks": 780
       }
     },
     {
@@ -1844,33 +1697,12 @@
       "wordCount": 461,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 88,
+      "rank": 81,
       "metrics": {
-        "views": 1303770,
-        "likes": 3614,
+        "views": 1304620,
+        "likes": 3616,
         "retweets": 187,
         "bookmarks": 1885
-      }
-    },
-    {
-      "id": "2029763122903535995",
-      "title": "あいつが頑張ってました",
-      "url": "https://x.com/yuusaku_buddica/status/2029763122903535995",
-      "author": "@yuusaku_buddica",
-      "authorName": "中野優作｜CAR and LIFE.",
-      "description": "部下に手柄を譲れる幹部は少ない。\n「優作さん、先月数字が伸びたのは彼らが頑張ったんです。褒めてやってください」\nBUDDICAの歓迎会で些細だけど嬉しい出来事がありました。",
-      "date": "2026-03-06T03:36:54.000Z",
-      "engagement": "1.3M views · 1.6K likes",
-      "category": "Business",
-      "wordCount": 872,
-      "readingTime": 2,
-      "lang": "ja",
-      "rank": 89,
-      "metrics": {
-        "views": 1282881,
-        "likes": 1576,
-        "retweets": 129,
-        "bookmarks": 1013
       }
     },
     {
@@ -1881,17 +1713,17 @@
       "authorName": "hoeem",
       "description": "I know this sounds like another AI hype piece. \nBut 92% of people using AI are using it wrong.\nI enrolled on the best AI courses to tell you what nobody is telling you: how to become AI fluent.\nYou",
       "date": "2026-03-04T21:38:09.000Z",
-      "engagement": "1.3M views · 2.8K likes",
+      "engagement": "1.3M views · 2.9K likes",
       "category": "Ai",
       "wordCount": 1785,
       "readingTime": 7,
       "lang": "en",
-      "rank": 90,
+      "rank": 82,
       "metrics": {
-        "views": 1268787,
-        "likes": 2841,
-        "retweets": 342,
-        "bookmarks": 10186
+        "views": 1279429,
+        "likes": 2851,
+        "retweets": 343,
+        "bookmarks": 10195
       }
     },
     {
@@ -1907,33 +1739,33 @@
       "wordCount": 1789,
       "readingTime": 5,
       "lang": "ja",
-      "rank": 91,
+      "rank": 83,
       "metrics": {
-        "views": 1267562,
-        "likes": 3352,
-        "retweets": 200,
-        "bookmarks": 7352
+        "views": 1274969,
+        "likes": 3356,
+        "retweets": 199,
+        "bookmarks": 7346
       }
     },
     {
-      "id": "2029680516568600933",
-      "title": "Services: The New Software",
-      "url": "https://x.com/JulienBek/status/2029680516568600933",
-      "author": "@JulienBek",
-      "authorName": "Julien Bek",
-      "description": "The next $1T company will be a software company masquerading as a services firm.\n\nEvery founder building an AI tool is asking the same question: what happens when the next version of Claude makes my",
-      "date": "2026-03-05T22:08:39.000Z",
-      "engagement": "1.2M views · 2.7K likes",
-      "category": "Ai",
-      "wordCount": 1371,
-      "readingTime": 5,
-      "lang": "en",
-      "rank": 92,
+      "id": "2029764009084473518",
+      "title": "世界を「高解像度」で見る人ほど、孤独になりやすい",
+      "url": "https://x.com/naikoutetsugaku/status/2029764009084473518",
+      "author": "@naikoutetsugaku",
+      "authorName": "内向哲学",
+      "description": "あなたがどこか周囲と馴染めず、いつも独りになってしまうのは、見えている世界の解像度が周りの人より高いからだと思っています。",
+      "date": "2026-03-06T03:40:25.000Z",
+      "engagement": "1.3M views · 607 likes",
+      "category": "Self Help",
+      "wordCount": 296,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 84,
       "metrics": {
-        "views": 1228261,
-        "likes": 2699,
-        "retweets": 356,
-        "bookmarks": 7531
+        "views": 1253439,
+        "likes": 607,
+        "retweets": 57,
+        "bookmarks": 474
       }
     },
     {
@@ -1949,12 +1781,12 @@
       "wordCount": 705,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 93,
+      "rank": 85,
       "metrics": {
-        "views": 1218619,
-        "likes": 4590,
-        "retweets": 1418,
-        "bookmarks": 465
+        "views": 1225228,
+        "likes": 4598,
+        "retweets": 1421,
+        "bookmarks": 469
       }
     },
     {
@@ -1965,17 +1797,17 @@
       "authorName": "Payao/詩人",
       "description": "感受性が高くて生きづらい人は、世界の解像度が高すぎるんだと思う。小さな光にも気づける代わりに、些細な棘にも気づいてしまう。",
       "date": "2026-03-04T09:59:04.000Z",
-      "engagement": "1.2M views · 4.4K likes",
+      "engagement": "1.2M views · 4.5K likes",
       "category": "Self Help",
       "wordCount": 725,
       "readingTime": 2,
       "lang": "ja",
-      "rank": 94,
+      "rank": 86,
       "metrics": {
-        "views": 1201349,
-        "likes": 4447,
-        "retweets": 493,
-        "bookmarks": 2485
+        "views": 1204956,
+        "likes": 4450,
+        "retweets": 489,
+        "bookmarks": 2481
       }
     },
     {
@@ -1986,17 +1818,59 @@
       "authorName": "Berryxia.AI",
       "description": "申明：本文来自𝕏@Shubham Saboo 大神，我整理翻译中文！大家可以关注一波！\n我唯一做的事，就是跟它们说话。\n不是调prompt，不是换模型，不是重构架构。就是说话，给反馈，看着它们把内容记下来。",
       "date": "2026-03-03T03:08:51.000Z",
-      "engagement": "1.2M views · 3.6K likes",
+      "engagement": "1.2M views · 3.7K likes",
       "category": "Ai",
       "wordCount": 2576,
       "readingTime": 6,
       "lang": "zh",
-      "rank": 95,
+      "rank": 87,
       "metrics": {
-        "views": 1172327,
-        "likes": 3640,
-        "retweets": 995,
-        "bookmarks": 7869
+        "views": 1192367,
+        "likes": 3673,
+        "retweets": 1004,
+        "bookmarks": 7929
+      }
+    },
+    {
+      "id": "2029618540140273741",
+      "title": "旧海湾秩序的终结，一场远隔四十年的利益再分配",
+      "url": "https://x.com/Areskapitalon/status/2029618540140273741",
+      "author": "@Areskapitalon",
+      "authorName": "Aelia Capitolina",
+      "description": "几乎没有人在讨论一个更根本的问题：伊朗战争摧毁的，远远超过一个最高领袖的生命或一支海军。它摧毁的是一个维持了将近四十年的利益均衡结构，而这个结构的瓦解将重塑全球能源格局、金融市场和地缘政治秩序。",
+      "date": "2026-03-05T18:02:23.000Z",
+      "engagement": "1.2M views · 1.6K likes",
+      "category": "Politics",
+      "wordCount": 4773,
+      "readingTime": 10,
+      "lang": "zh",
+      "rank": 88,
+      "metrics": {
+        "views": 1172514,
+        "likes": 1567,
+        "retweets": 462,
+        "bookmarks": 2013
+      }
+    },
+    {
+      "id": "2029531720295530856",
+      "title": "中身どうなってるか見…",
+      "url": "https://x.com/destroy_sama_/status/2029531720295530856",
+      "author": "@destroy_sama_",
+      "authorName": "ですとろ👾",
+      "description": "尿道とかお肉が映ってるから我の健康チェックもばっちり◎\n※黄色いおしょんが映るから注意してくれよな。\n\nいくで？3.2.1…\nどうでしょうか。我は健康でしょうか。\nこれのフルがなんと❝一瞬だけ❞再販してます。",
+      "date": "2026-03-05T12:17:23.000Z",
+      "engagement": "1.2M views · 3.7K likes",
+      "category": "Wtf",
+      "wordCount": 44,
+      "readingTime": 1,
+      "lang": "ja",
+      "rank": 89,
+      "metrics": {
+        "views": 1171069,
+        "likes": 3699,
+        "retweets": 92,
+        "bookmarks": 3006
       }
     },
     {
@@ -2012,12 +1886,12 @@
       "wordCount": 1392,
       "readingTime": 4,
       "lang": "ja",
-      "rank": 96,
+      "rank": 90,
       "metrics": {
-        "views": 1160934,
-        "likes": 7063,
-        "retweets": 533,
-        "bookmarks": 8747
+        "views": 1164253,
+        "likes": 7058,
+        "retweets": 532,
+        "bookmarks": 8732
       }
     },
     {
@@ -2033,11 +1907,11 @@
       "wordCount": 457,
       "readingTime": 1,
       "lang": "ja",
-      "rank": 97,
+      "rank": 91,
       "metrics": {
-        "views": 1155456,
-        "likes": 3335,
-        "retweets": 353,
+        "views": 1158584,
+        "likes": 3338,
+        "retweets": 356,
         "bookmarks": 1257
       }
     },
@@ -2049,59 +1923,185 @@
       "authorName": "Darshak Rana ⚡️",
       "description": "This number sequence has haunted mathematicians, artists, architects, and philosophers for over 800 years.\n0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144…\nEach number is the sum of the two before it.",
       "date": "2026-03-03T17:01:02.000Z",
-      "engagement": "1.1M views · 3.0K likes",
+      "engagement": "1.2M views · 3.0K likes",
       "category": "Other",
       "wordCount": 2468,
       "readingTime": 10,
       "lang": "en",
-      "rank": 98,
+      "rank": 92,
       "metrics": {
-        "views": 1149579,
-        "likes": 2965,
-        "retweets": 665,
-        "bookmarks": 6109
+        "views": 1155452,
+        "likes": 2976,
+        "retweets": 667,
+        "bookmarks": 6113
       }
     },
     {
-      "id": "2029531720295530856",
-      "title": "中身どうなってるか見…",
-      "url": "https://x.com/destroy_sama_/status/2029531720295530856",
-      "author": "@destroy_sama_",
-      "authorName": "ですとろ👾",
-      "description": "尿道とかお肉が映ってるから我の健康チェックもばっちり◎\n※黄色いおしょんが映るから注意してくれよな。\n\nいくで？3.2.1…\nどうでしょうか。我は健康でしょうか。\nこれのフルがなんと❝一瞬だけ❞再販してます。",
-      "date": "2026-03-05T12:17:23.000Z",
-      "engagement": "1.1M views · 3.7K likes",
-      "category": "Wtf",
-      "wordCount": 44,
+      "id": "2028962694146212234",
+      "title": "【実体験】時代のブームに乗れば資産1億円くらいは誰でも到達できる",
+      "url": "https://x.com/kou_investor9/status/2028962694146212234",
+      "author": "@kou_investor9",
+      "authorName": "こう",
+      "description": "25歳で資産1億円と聞くと、天才か、運が良かっただけだろうと思うかもしれない。\n私も最初はそう思っていた。すごい人たちの話だと。",
+      "date": "2026-03-03T22:36:17.000Z",
+      "engagement": "1.1M views · 800 likes",
+      "category": "Crypto",
+      "wordCount": 993,
+      "readingTime": 3,
+      "lang": "ja",
+      "rank": 93,
+      "metrics": {
+        "views": 1108734,
+        "likes": 800,
+        "retweets": 45,
+        "bookmarks": 1479
+      }
+    },
+    {
+      "id": "2029135385478218122",
+      "title": "彼氏ができる人、できない人の違い。",
+      "url": "https://x.com/aqua_blanca/status/2029135385478218122",
+      "author": "@aqua_blanca",
+      "authorName": "激カラムーチョちゃん",
+      "description": "婚活がうまくいく人と、いかない人。\nその違いは、実はとてもシンプル。\n「人は見た目が9割」を理解できるひとは、成功する。\n美意識は姿勢に出る。\n自信は歩き方に出る。\n清潔感は髪や髭に出る。\n年齢は首に出る。",
+      "date": "2026-03-04T10:02:30.000Z",
+      "engagement": "1.1M views · 1.6K likes",
+      "category": "Lifestyle",
+      "wordCount": 346,
       "readingTime": 1,
+      "lang": "ja",
+      "rank": 94,
+      "metrics": {
+        "views": 1103073,
+        "likes": 1630,
+        "retweets": 125,
+        "bookmarks": 1240
+      }
+    },
+    {
+      "id": "2030116169060077657",
+      "title": "帰宅後2時間で子ども寝かせるのはムリゲー",
+      "url": "https://x.com/gmamanoikuji/status/2030116169060077657",
+      "author": "@gmamanoikuji",
+      "authorName": "山本久美子（じママ）",
+      "description": "早寝共働きで子育てをしながら、家庭の帰宅後ルーティンがうまく回っているママたちの例として、 3人のママの帰宅後ルーティンを紹介しました。",
+      "date": "2026-03-07T02:59:47.000Z",
+      "engagement": "1.1M views · 554 likes",
+      "category": "Lifestyle",
+      "wordCount": 1806,
+      "readingTime": 5,
+      "lang": "ja",
+      "rank": 95,
+      "metrics": {
+        "views": 1102603,
+        "likes": 554,
+        "retweets": 51,
+        "bookmarks": 739
+      }
+    },
+    {
+      "id": "2028439270533554671",
+      "title": "ThreadsとXのアルゴリズムの違い",
+      "url": "https://x.com/nekasegi/status/2028439270533554671",
+      "author": "@nekasegi",
+      "authorName": "寝稼ぎさん",
+      "description": "Xで半年間毎日投稿してフォロワー50人だった人間が、 Threadsに切り替えて1年7ヶ月で累計1億の売上を作りました。\n寝稼ぎと申します。\n記事へのたくさんのリクエストありがとうございました。",
+      "date": "2026-03-02T11:56:23.000Z",
+      "engagement": "1.1M views · 2.6K likes",
+      "category": "Business",
+      "wordCount": 4390,
+      "readingTime": 12,
+      "lang": "ja",
+      "rank": 96,
+      "metrics": {
+        "views": 1094411,
+        "likes": 2591,
+        "retweets": 180,
+        "bookmarks": 6734
+      }
+    },
+    {
+      "id": "2029830611796693013",
+      "title": "田舎公立中・最恐世代の卒業式で、一人を除く全員がGacktに見えた話",
+      "url": "https://x.com/kugatsu_main/status/2029830611796693013",
+      "author": "@kugatsu_main",
+      "authorName": "九月",
+      "description": "僕の通っていた田舎の公立中学校は、何世代かに一回、マジでめっちゃ荒れる中学校だった。",
+      "date": "2026-03-06T08:05:04.000Z",
+      "engagement": "1.1M views · 1.6K likes",
+      "category": "Other",
+      "wordCount": 1341,
+      "readingTime": 4,
+      "lang": "ja",
+      "rank": 97,
+      "metrics": {
+        "views": 1093581,
+        "likes": 1566,
+        "retweets": 255,
+        "bookmarks": 342
+      }
+    },
+    {
+      "id": "2029866735177011492",
+      "title": "42歳からのフルローン。2カ月で決めた中古マンション ",
+      "url": "https://x.com/hiranotomoki/status/2029866735177011492",
+      "author": "@hiranotomoki",
+      "authorName": "Tomoki Hirano / UB",
+      "description": "人生で後悔していることが、いくつかある。若いときに海外を放浪しなかったこと。20代でスタートアップに飛び込まなかったこと。そして——せめて5年前に「マンションを買わなかったこと」である。",
+      "date": "2026-03-06T10:28:37.000Z",
+      "engagement": "1.1M views · 1.5K likes",
+      "category": "Lifestyle",
+      "wordCount": 2372,
+      "readingTime": 6,
+      "lang": "ja",
+      "rank": 98,
+      "metrics": {
+        "views": 1087247,
+        "likes": 1503,
+        "retweets": 94,
+        "bookmarks": 1046
+      }
+    },
+    {
+      "id": "2029390822089892294",
+      "title": "出世スピードで同期を置き去りにする方法",
+      "url": "https://x.com/oinu_koinu_13/status/2029390822089892294",
+      "author": "@oinu_koinu_13",
+      "authorName": "おいぬさん｜新入社員のミカタ",
+      "description": "出世スピードが爆伸びする人は、\nﾏｼﾞでたったこれだけで同期を置き去りにしてる↓\n新卒「先輩…正直、なんで同期のアイツだけ評価されてんのか分かんないんです」",
+      "date": "2026-03-05T02:57:30.000Z",
+      "engagement": "1.1M views · 1.0K likes",
+      "category": "Self Help",
+      "wordCount": 1625,
+      "readingTime": 4,
       "lang": "ja",
       "rank": 99,
       "metrics": {
-        "views": 1125304,
-        "likes": 3659,
-        "retweets": 91,
-        "bookmarks": 3060
+        "views": 1070665,
+        "likes": 1035,
+        "retweets": 64,
+        "bookmarks": 1240
       }
     },
     {
-      "id": "2027727005001912617",
-      "title": "【無●正】24cm巨根de失神SEXレッスン動画を無料配信中... 🎁",
-      "url": "https://x.com/MollyColli91825/status/2027727005001912617",
-      "author": "@MollyColli91825",
-      "authorName": "みとあかね🧸",
-      "description": "👇👇👇\nココ\n👆👆👆\nをタップで無料視聴できます🎁(※本日配信終了)\n \n👇5つの動画のうち1つで一瞬モザ無し\n \n \n \n \n \n \n \n \n \n \n🔻🔻🔻\nココ\n🔺🔺🔺\nをタップで無料視聴できます🎁(※24時で有料)",
-      "date": "2026-02-28T12:46:05.000Z",
-      "engagement": "1.1M views · 1.1K likes",
-      "category": "Wtf",
-      "wordCount": 153,
-      "readingTime": 1,
+      "id": "2030184188838826370",
+      "title": "ブラックロックで「解約制限」が発動された。284兆円市場に何が起きているか。 ",
+      "url": "https://x.com/tousika1/status/2030184188838826370",
+      "author": "@tousika1",
+      "authorName": "BNF.bot",
+      "description": "世界最大の資産運用会社ブラックロック。運用資産は約1500兆円。iSharesというETFブランドで知られ、NISAで積立している人の多くが間接的にお世話になっている会社だ。",
+      "date": "2026-03-07T07:30:04.000Z",
+      "engagement": "1.0M views · 2.1K likes",
+      "category": "Business",
+      "wordCount": 1718,
+      "readingTime": 5,
       "lang": "ja",
       "rank": 100,
       "metrics": {
-        "views": 1123435,
-        "likes": 1100,
-        "retweets": 47,
-        "bookmarks": 830
+        "views": 1036934,
+        "likes": 2111,
+        "retweets": 445,
+        "bookmarks": 1513
       }
     }
   ]
