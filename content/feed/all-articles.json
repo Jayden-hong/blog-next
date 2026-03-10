@@ -1,13 +1,14 @@
 {
-  "date": "2026-03-09",
+  "date": "2026-03-10",
   "totalSources": 11,
-  "totalArticles": 180,
+  "totalArticles": 190,
   "allTags": [
     "AI",
     "AI伦理",
     "AI军事",
     "AI安全",
     "AI工具",
+    "AI幻觉",
     "AI政策",
     "AI替代",
     "AI编程",
@@ -18,6 +19,7 @@
     "AI隐私",
     "API技巧",
     "Anthropic",
+    "App推荐",
     "BlackHatWorld",
     "Block",
     "C++",
@@ -39,10 +41,13 @@
     "LLMs",
     "Linux",
     "MacBook Neo",
+    "Mathematica",
     "OpenAI",
     "Pebble",
     "Pebble手表",
     "PostgreSQL",
+    "Python",
+    "Python验证",
     "RLVR",
     "RSS",
     "Radiation Detection",
@@ -53,6 +58,7 @@
     "Rust",
     "SCP基金会",
     "SMPTE 2110",
+    "SymPy",
     "Tech",
     "UI设计",
     "USB测试仪",
@@ -65,6 +71,7 @@
     "daringfireball",
     "dynomight",
     "garymarcus",
+    "gilesthomas",
     "iOS开发",
     "iOS技巧",
     "idiallo",
@@ -80,12 +87,14 @@
     "shkspr.mobi",
     "simonwillison",
     "xeiaso",
+    "三角函数",
     "个人博客",
     "个人网站",
     "书店文化",
     "书评",
     "二分查找",
     "交互式学习",
+    "产品思维",
     "产品更新",
     "人工智能",
     "人机关系",
@@ -112,10 +121,12 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "双曲函数",
     "反平台垄断",
     "命令行",
     "固件升级",
     "在线讨论",
+    "复分析",
     "复古文化",
     "大模型",
     "天文摄影",
@@ -148,6 +159,7 @@
     "技术债务",
     "技术公司",
     "技术感悟",
+    "技术批评",
     "技术评论",
     "技术趋势",
     "技术革命",
@@ -159,10 +171,13 @@
     "播客",
     "政治观点",
     "效率",
+    "效率工具",
     "敏捷实践",
     "数字体育广播",
     "数字权利",
+    "数学技巧",
     "数学科普",
+    "数学计算",
     "数据保存",
     "数据加密",
     "数据库优化",
@@ -170,6 +185,7 @@
     "数据结构",
     "文件系统监控",
     "文本生成",
+    "时间管理",
     "星际迷航",
     "智能手表",
     "智能硬件",
@@ -254,6 +270,7 @@
     "裁员",
     "计算机历史",
     "认知债",
+    "认知心理学",
     "认知科学",
     "记忆管理",
     "记忆辅助",
@@ -393,6 +410,136 @@
   ],
   "articles": [
     {
+      "title": "AI不会犯错只会'幻觉'？揭秘术语背后的免责话术",
+      "slug": "ai不会犯错只会-幻觉-揭秘术语背后的免责话术",
+      "url": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "文章剖析AI行业如何将模型错误重新包装为'幻觉'，从修辞学角度揭示这一术语如何巧妙转移责任，并呼吁AI学会承认'我不知道'。",
+      "tags": [
+        "人工智能",
+        "AI幻觉",
+        "技术批评"
+      ],
+      "recommendReason": "戳破AI术语的修辞陷阱，用犀利视角重新审视'幻觉'背后的责任逃避问题。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "结构化思维已死？AI替你想事的时代来了",
+      "slug": "结构化思维已死-ai替你想事的时代来了",
+      "url": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "人们正从结构化应用转向自然语言交互，宁愿让AI处理繁琐的数据整理，揭示了认知外包时代的人性偏好与产品设计冲突。",
+      "tags": [
+        "人工智能",
+        "认知心理学",
+        "产品思维"
+      ],
+      "recommendReason": "深刻剖析AI时代用户行为背后的心理机制，为理解人机交互未来趋势提供独特视角。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "SymPy拒绝简化你的公式？90%用户踩过的复数陷阱",
+      "slug": "sympy拒绝简化你的公式-90-用户踩过的复数陷阱",
+      "url": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "深入解析Python符号计算库SymPy的简化机制，揭秘双曲函数表达式背后的数学定义域陷阱，教你如何通过指定变量范围获得预期简化结果。",
+      "tags": [
+        "Python",
+        "SymPy",
+        "数学计算"
+      ],
+      "recommendReason": "不仅给代码方案，更讲清数学原理，避免你在符号计算中陷入'为什么化简不了'的困惑。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Mathematica拒给√(x²-1)，竟藏着这个数学陷阱",
+      "slug": "mathematica拒给-x-1-竟藏着这个数学陷阱",
+      "url": "https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "揭秘Mathematica为何不简化sinh(arccosh(x))，深入解析复平面上分支切割与反双曲函数定义的微妙关系。",
+      "tags": [
+        "Mathematica",
+        "复分析",
+        "双曲函数"
+      ],
+      "recommendReason": "从软件\"异常\"行为切入，用具体案例揭示复分析中分支切割的深层数学原理。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "穿短裤进IBM被嘲讽？微软工程师一句话回怼",
+      "slug": "穿短裤进ibm被嘲讽-微软工程师一句话回怼",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "微软工程师派驻IBM时因穿短裤被指\"着装随意\"，一句\"我每天都这么穿\"机智回应，展现了硅谷休闲文化与蓝色巨人严格规范的激烈碰撞。",
+      "tags": [
+        "科技史",
+        "企业文化",
+        "微软"
+      ],
+      "recommendReason": "一窥科技巨头间截然不同的企业文化差异与职场智慧。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
+      "slug": "pluralistic-ad-tech-is-fascist-tech-10-mar-2026",
+      "url": "https://pluralistic.net/2026/03/10/ice-tech/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "Today's links Ad-tech is fascist tech: Surveillance advertising is just surveillance. Hey look at this: Delights to delectate. Object permanence: Wash",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "“A spate of outages, including incidents tied to the use of AI coding tools”, right on schedule",
+      "slug": "a-spate-of-outages-including-incidents-tied-to-the-use-of-ai-coding-tools-right-on-schedule",
+      "url": "https://garymarcus.substack.com/p/a-spate-of-outages-including-incidents",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "Some with “high blast radius”",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32e -- Interventions: the learning rate",
+      "slug": "writing-an-llm-from-scratch-part-32e-interventions-the-learning-rate",
+      "url": "https://www.gilesthomas.com/2026/03/llm-from-scratch-32e-interventions-learning-rate",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "I'm still working on improving the test loss for a from-scratch GPT-2 small base model, trained on code based on Sebastian Raschka 's book \" Build a L",
+      "tags": [
+        "gilesthomas"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "祖传代码引入新库就崩溃？这个C++陷阱90%人踩过",
       "slug": "祖传代码引入新库就崩溃-这个c-陷阱90-人踩过",
       "url": "https://devblogs.microsoft.com/oldnewthing/20260309-00/?p=112118",
@@ -512,6 +659,23 @@
       "translated": false
     },
     {
+      "title": "sin(arccos(x))等于啥？一张表破解所有三角复合",
+      "slug": "sin-arccos-x-等于啥-一张表破解所有三角复合",
+      "url": "https://www.johndcook.com/blog/2026/03/09/trig-composition-table/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "文章整理了三角函数与反函数复合的14种基本形式，提供6×6速查表及Python验证代码，用几何直观和随机点测试双重方法解决复杂计算记忆难题。",
+      "tags": [
+        "数学技巧",
+        "Python验证",
+        "三角函数"
+      ],
+      "recommendReason": "用几何直观和代码实证双重视角，彻底破解三角函数复合公式的记忆难题。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "3分钟逼你签千字合同？购票页面的法律陷阱",
       "slug": "3分钟逼你签千字合同-购票页面的法律陷阱",
       "url": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
@@ -526,6 +690,23 @@
       ],
       "recommendReason": "从日常购票细节切入，揭示数字产品设计中普遍存在的权利不对等与霸王条款问题，兼具技术观察和法律思考。",
       "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "这款时间管理App，把健康数据变成了日记？",
+      "slug": "这款时间管理app-把健康数据变成了日记",
+      "url": "https://www.finalist.works/finalist-36/",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-09",
+      "description": "Finalist 3.6更新解析：新增子任务、日历书签，创新整合HealthKit健康数据至日记，支持锁屏与Siri快捷操作，重新定义智能日程管理。",
+      "tags": [
+        "效率工具",
+        "App推荐",
+        "时间管理"
+      ],
+      "recommendReason": "想找一个能把日程、日记和健康数据打通的iOS工具？Finalist 3.6的整合思路值得体验。",
+      "score": 8.0,
       "translated": false
     },
     {
