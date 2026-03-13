@@ -5,59 +5,105 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 16:03:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 05:30:17 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
     <item>
-      <title>每日观点 · 2026年3月8日</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/</guid>
-      <pubDate>Sun, 08 Mar 2026 08:00:00 GMT</pubDate>
-    <category>每日观点</category>
-    <category>深度分析</category>
-    <category>AI安全</category>
-    <category>供应链攻击</category>
-    <category>开放协议</category>
-      <description>
-核心观点：
-AI 正在重塑攻击面与防御范式——从 Cline 的 prompt 注入供应链攻击，到 RSS 对抗互联网「恶化」的开放协议价值，再到 AI 公司道德人设与军事实战的张力，我们正处于技术伦理与安全的十字路口。
-
-现象解读：
-今日 RSS 聚合的 24 篇文章中，安全与权力结构主题尤为突出。Cline AI 被 prompt 注入攻击导致 NPM 密钥泄露，是首个公开的</description>
-      <content:encoded><![CDATA[
-        <p>
-核心观点：
-AI 正在重塑攻击面与防御范式——从 Cline 的 prompt 注入供应链攻击，到 RSS 对抗互联网「恶化」的开放协议价值，再到 AI 公司道德人设与军事实战的张力，我们正处于技术伦理与安全的十字路口。
-
-现象解读：
-今日 RSS 聚合的 24 篇文章中，安全与权力结构主题尤为突出。Cline AI 被 prompt 注入攻击导致 NPM 密钥泄露，是首个公开的</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-08.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-03-08</title>
-      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-08/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-08/</guid>
-      <pubDate>Sun, 08 Mar 2026 06:00:00 GMT</pubDate>
+      <title>Daily Read · 2026-03-13</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-13/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-13/</guid>
+      <pubDate>Fri, 13 Mar 2026 06:00:00 GMT</pubDate>
     <category>daily-brief</category>
     <category>rss</category>
       <description>
-&gt; 23 articles · 6.6/10 avg · 11 highlights (≥7.5)
+&gt; 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
 
-1. [这个被谷歌&apos;杀死&apos;的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic
+1. [AI不会犯错只会&apos;幻觉&apos;？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
 
-揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断</description>
+文章剖析AI行业如何将模型错误重新包装为&apos;幻觉&apos;</description>
       <content:encoded><![CDATA[
         <p>
-> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)
+> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
 
-1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic
+1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
 
-揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断</p>
-        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-08.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-08/">Read on blog →</a></p>
+文章剖析AI行业如何将模型错误重新包装为'幻觉'</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-13.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-13/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-03-13</title>
+      <link>https://blog.zucchini.win/blog/latest-brief/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
+      <pubDate>Fri, 13 Mar 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
+
+1. [AI不会犯错只会&apos;幻觉&apos;？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
+
+文章剖析AI行业如何将模型错误重新包装为&apos;幻觉&apos;</description>
+      <content:encoded><![CDATA[
+        <p>
+> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
+
+1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
+
+文章剖析AI行业如何将模型错误重新包装为'幻觉'</p>
+        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>每日观点 - 2026-03-13</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+    <category>每日观点</category>
+    <category>AI</category>
+    <category>产品思考</category>
+      <description>
+随着AI技术的飞速发展，其责任归属和伦理问题逐渐成为公众讨论的焦点。今天的主题/趋势是：AI技术的进步带来了责任归属的模糊和伦理问题的复杂化。
+
+现象解读：
+
+- 在AI行业，模型错误经常被重新定义为“幻觉”，这种做法不仅是修辞学上的巧妙转移，更是对技术责任的一种巧妙回避。这种话术将机器的失误美化为一种无害的“想象”，从而减轻了开发者和使用者在面对错误时的心理负担。同时，这种术语</description>
+      <content:encoded><![CDATA[
+        <p>
+随着AI技术的飞速发展，其责任归属和伦理问题逐渐成为公众讨论的焦点。今天的主题/趋势是：AI技术的进步带来了责任归属的模糊和伦理问题的复杂化。
+
+现象解读：
+
+- 在AI行业，模型错误经常被重新定义为“幻觉”，这种做法不仅是修辞学上的巧妙转移，更是对技术责任的一种巧妙回避。这种话术将机器的失误美化为一种无害的“想象”，从而减轻了开发者和使用者在面对错误时的心理负担。同时，这种术语</p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-13.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-03-12</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-03-12/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-03-12/</guid>
+      <pubDate>Thu, 12 Mar 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
+
+1. [AI不会犯错只会&apos;幻觉&apos;？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
+
+文章剖析AI行业如何将模型错误重新包装为&apos;幻觉&apos;</description>
+      <content:encoded><![CDATA[
+        <p>
+> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
+
+1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo
+
+文章剖析AI行业如何将模型错误重新包装为'幻觉'</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-03-12.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-03-12/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

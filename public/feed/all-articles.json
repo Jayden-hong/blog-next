@@ -1,8 +1,540 @@
 {
-  "date": "2026-03-08",
-  "totalSources": 268,
-  "totalArticles": 158,
+  "date": "2026-03-10",
+  "totalSources": 331,
+  "totalArticles": 190,
   "articles": [
+    {
+      "title": "AI不会犯错只会'幻觉'？揭秘术语背后的免责话术",
+      "slug": "ai",
+      "url": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "文章剖析AI行业如何将模型错误重新包装为'幻觉'，从修辞学角度揭示这一术语如何巧妙转移责任，并呼吁AI学会承认'我不知道'。",
+      "tags": [
+        "人工智能",
+        "AI幻觉",
+        "技术批评"
+      ],
+      "recommendReason": "戳破AI术语的修辞陷阱，用犀利视角重新审视'幻觉'背后的责任逃避问题。",
+      "score": 8.5
+    },
+    {
+      "title": "我拒绝了所有智能设备，不是因为穷",
+      "slug": "article-2026-03-10-2",
+      "url": "https://idiallo.com/blog/why-am-i-paranoid?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "作者拒绝使用Siri、Alexa和智能汽车，并非出于守旧，而是警惕科技巨头对数据的贪婪收集，探讨了便利与隐私的深层矛盾。",
+      "tags": [
+        "隐私保护",
+        "科技反思",
+        "数字权利"
+      ],
+      "recommendReason": "戳破智能便利背后的数据陷阱，给你一个拒绝“同意条款”的充分理由。",
+      "score": 8.5
+    },
+    {
+      "title": "当一个富人相信蠢事，百万人如何为此买单",
+      "slug": "article-2026-03-10-3",
+      "url": "https://pluralistic.net/2026/03/09/autocrats-of-trade-2/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "亿万富翁是「大规模生产政策失败的机器」。通过福特在亚马逊雨林建造美国小镇的失败实验，揭示财富如何将个人愚蠢转化为数百万人的苦难。",
+      "tags": [
+        "亿万富翁",
+        "权力批判",
+        "福特兰迪亚"
+      ],
+      "recommendReason": "用历史案例戳破「富人更聪明」的迷思，解释为什么财富集中度越高，社会容错率越低。",
+      "score": 8.5
+    },
+    {
+      "title": "结构化思维已死？AI替你想事的时代来了",
+      "slug": "ai",
+      "url": "https://shkspr.mobi/blog/2026/03/unstructured-data-and-the-joy-of-having-something-else-think-for-you/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "人们正从结构化应用转向自然语言交互，宁愿让AI处理繁琐的数据整理，揭示了认知外包时代的人性偏好与产品设计冲突。",
+      "tags": [
+        "人工智能",
+        "认知心理学",
+        "产品思维"
+      ],
+      "recommendReason": "深刻剖析AI时代用户行为背后的心理机制，为理解人机交互未来趋势提供独特视角。",
+      "score": 8.5
+    },
+    {
+      "title": "读完就忘？这本'不存在'的科幻神作竟出修订版",
+      "slug": "article-2026-03-10-5",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-there-is-no-antimemetics-division-by-qntm/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "书评推荐qntm《反模因部》修订版，讲述递归式模因恐怖故事，探讨记忆消除与认知威胁，写作和结局较原版大幅提升，是SCP宇宙独一无二的元叙事惊悚佳作。",
+      "tags": [
+        "科幻小说",
+        "SCP基金会",
+        "书评"
+      ],
+      "recommendReason": "将认知恐怖与元叙事完美融合，展现了科幻类型中罕见的递归式阅读体验。",
+      "score": 8.5
+    },
+    {
+      "title": "让AI自己写代码？我的Vibe Coding实战记录",
+      "slug": "ai-vibe-coding",
+      "url": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "开发者分享使用Vibe Coding方法，通过自然语言指令让AI自动生成代码，完成赞助商面板功能开发的完整实战记录与踩坑心得。",
+      "tags": [
+        "Vibe Coding",
+        "AI编程",
+        "前端开发"
+      ],
+      "recommendReason": "第一手展示AI驱动编程新范式的实战经验，揭示未来开发工作流从'写代码'向'审代码'转变的变革趋势。",
+      "score": 8.5
+    },
+    {
+      "title": "AI巨头起诉美国政府：这场官司揭穿了什么？",
+      "slug": "ai",
+      "url": "https://garymarcus.substack.com/p/anthropic-sues-us-government-with",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "Anthropic起诉美国国防部，反对政府随意打压合法企业。Gary Marcus发声支持，强调这一诉讼关乎科技公司与政府权力博弈的关键原则。",
+      "tags": [
+        "AI监管",
+        "Anthropic",
+        "科技政策"
+      ],
+      "recommendReason": "揭示AI时代政企博弈的底线原则，关乎整个科技行业的公平竞争环境。",
+      "score": 8.5
+    },
+    {
+      "title": "SymPy拒绝简化你的公式？90%用户踩过的复数陷阱",
+      "slug": "sympy-90",
+      "url": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "深入解析Python符号计算库SymPy的简化机制，揭秘双曲函数表达式背后的数学定义域陷阱，教你如何通过指定变量范围获得预期简化结果。",
+      "tags": [
+        "Python",
+        "SymPy",
+        "数学计算"
+      ],
+      "recommendReason": "不仅给代码方案，更讲清数学原理，避免你在符号计算中陷入'为什么化简不了'的困惑。",
+      "score": 8.5
+    },
+    {
+      "title": "Mathematica拒给√(x²-1)，竟藏着这个数学陷阱",
+      "slug": "mathematica-x-1",
+      "url": "https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "揭秘Mathematica为何不简化sinh(arccosh(x))，深入解析复平面上分支切割与反双曲函数定义的微妙关系。",
+      "tags": [
+        "Mathematica",
+        "复分析",
+        "双曲函数"
+      ],
+      "recommendReason": "从软件\"异常\"行为切入，用具体案例揭示复分析中分支切割的深层数学原理。",
+      "score": 8.5
+    },
+    {
+      "title": "sin(arccos(x))等于啥？一张表破解所有三角复合",
+      "slug": "sin-arccos-x",
+      "url": "https://www.johndcook.com/blog/2026/03/09/trig-composition-table/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "文章整理了三角函数与反函数复合的14种基本形式，提供6×6速查表及Python验证代码，用几何直观和随机点测试双重方法解决复杂计算记忆难题。",
+      "tags": [
+        "数学技巧",
+        "Python验证",
+        "三角函数"
+      ],
+      "recommendReason": "用几何直观和代码实证双重视角，彻底破解三角函数复合公式的记忆难题。",
+      "score": 8.5
+    },
+    {
+      "title": "3分钟倒计时逼你签\"卖身契\"：为什么你永远读不完用户协议？",
+      "slug": "3",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "网购门票遭遇3分钟倒计时强迫同意数千字条款，资深程序员犀利吐槽：这种设计本身就证明条款不该被强制执行。",
+      "tags": [
+        "用户体验",
+        "数字权益",
+        "设计伦理"
+      ],
+      "recommendReason": "用程序员视角犀利解构\"强迫同意\"的数字陷阱，既幽默又发人深省，每个点击\"同意\"的人都该看看。",
+      "score": 8.2
+    },
+    {
+      "title": "引入新库后代码突然崩了？揭秘C++运算符重载的隐蔽陷阱",
+      "slug": "c",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260309-00/?p=112118",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "Raymond Chen通过真实案例解析C++/WinRT项目中遇到的operator<<歧义错误，教你快速定位32位构建下的类型转换陷阱。",
+      "tags": [
+        "C++",
+        "编译器错误",
+        "调试技巧"
+      ],
+      "recommendReason": "通过具体案例教你如何解读晦涩的模板歧义错误，提升排障效率。",
+      "score": 8.2
+    },
+    {
+      "title": "这款时间管理App，把健康数据变成了日记？",
+      "slug": "app",
+      "url": "https://www.finalist.works/finalist-36/",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-09",
+      "description": "Finalist 3.6更新解析：新增子任务、日历书签，创新整合HealthKit健康数据至日记，支持锁屏与Siri快捷操作，重新定义智能日程管理。",
+      "tags": [
+        "效率工具",
+        "App推荐",
+        "时间管理"
+      ],
+      "recommendReason": "想找一个能把日程、日记和健康数据打通的iOS工具？Finalist 3.6的整合思路值得体验。",
+      "score": 8
+    },
+    {
+      "title": "穿短裤进IBM被嘲讽？微软工程师一句话回怼",
+      "slug": "ibm",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "微软工程师派驻IBM时因穿短裤被指\"着装随意\"，一句\"我每天都这么穿\"机智回应，展现了硅谷休闲文化与蓝色巨人严格规范的激烈碰撞。",
+      "tags": [
+        "科技史",
+        "企业文化",
+        "微软"
+      ],
+      "recommendReason": "一窥科技巨头间截然不同的企业文化差异与职场智慧。",
+      "score": 7.8
+    },
+    {
+      "title": "不用买新机！Neo绝美四色壁纸向所有Mac开放",
+      "slug": "neo-mac",
+      "url": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-09",
+      "description": "苹果在macOS Tahoe 26.4 Beta中解除限制，MacBook Neo独占的紫、蓝、粉、黄泡泡渐变壁纸全面下放，所有Mac用户可在系统设置中免费启用。",
+      "tags": [
+        "macOS",
+        "MacBook",
+        "壁纸"
+      ],
+      "recommendReason": "零成本获得新机同款视觉体验，四款渐变配色让桌面颜值瞬间拉满。",
+      "score": 7.5
+    },
+    {
+      "title": "Production query plans without production data",
+      "slug": "production-query-plans-without-production-data",
+      "url": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "Production query plans without production data Radim Marek describes the new pg_restore_relation_stats() and pg_restore_attribute_stats() functions th",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Perhaps not Boring Technology after all",
+      "slug": "perhaps-not-boring-technology-after-all",
+      "url": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-09",
+      "description": "A recurring concern I've seen regarding LLMs for programming is that they will push our technology choices towards the tools that are best represented",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "slug": "how-ai-assistants-are-moving-the-security-goalposts",
+      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any ",
+      "tags": [
+        "krebsonsecurity"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "★ The iPhone 17e",
+      "slug": "the-iphone-17e",
+      "url": "https://daringfireball.net/2026/03/the_iphone_17e",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-10",
+      "description": "Apple could have stopped with the addition of MagSafe alone, and the 17e would’ve been a successful year-over-year update over the 16e. But there’s ev",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Low-Wage Contractors in Kenya See What Users See While Using Meta’s AI Smart Glasses",
+      "slug": "low-wage-contractors-in-kenya-see-what-users-see-while-using-meta-s-ai-smart-glasses",
+      "url": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-09",
+      "description": "Naipanoi Lepapa, Ahmed Abdigadir, and Julia Lindblom, reporting for the Swedish publications Svenska Dagbladet and Göteborgs-Posten: It is stuffy at t",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "★ Thoughts and Observations on the MacBook Neo",
+      "slug": "thoughts-and-observations-on-the-macbook-neo",
+      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-10",
+      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
+      "slug": "pluralistic-ad-tech-is-fascist-tech-10-mar-2026",
+      "url": "https://pluralistic.net/2026/03/10/ice-tech/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "Today's links Ad-tech is fascist tech: Surveillance advertising is just surveillance. Hey look at this: Delights to delectate. Object permanence: Wash",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "“A spate of outages, including incidents tied to the use of AI coding tools”, right on schedule",
+      "slug": "a-spate-of-outages-including-incidents-tied-to-the-use-of-ai-coding-tools-right-on-schedule",
+      "url": "https://garymarcus.substack.com/p/a-spate-of-outages-including-incidents",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "Some with “high blast radius”",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32e -- Interventions: the learning rate",
+      "slug": "writing-an-llm-from-scratch-part-32e-interventions-the-learning-rate",
+      "url": "https://www.gilesthomas.com/2026/03/llm-from-scratch-32e-interventions-learning-rate",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-03-10",
+      "description": "I'm still working on improving the test loss for a from-scratch GPT-2 small base model, trained on code based on Sebastian Raschka 's book \" Build a L",
+      "tags": [
+        "gilesthomas"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "AI幻觉50年前就被预言了？",
+      "slug": "ai-50",
+      "url": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "ELIZA创造者Weizenbaum早在1976年警告：极短时间的简单程序接触就能让正常人产生强大妄想。这一洞见对理解当下AI时代的人机关系具有惊人预见性。",
+      "tags": [
+        "AI伦理",
+        "计算机历史",
+        "人机关系"
+      ],
+      "recommendReason": "来自AI先驱的历史警告，对理解当下大模型时代的用户心理与伦理边界具有深刻启示。",
+      "score": 8.5
+    },
+    {
+      "title": "告别繁琐配置？这行命令2分钟搞定用户认证",
+      "slug": "2",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-07",
+      "description": "WorkOS推出CLI安装工具，通过AI自动检测项目框架并配置AuthKit，自动完成SDK安装、路由创建和环境设置，让开发者告别手写认证代码的繁琐流程。",
+      "tags": [
+        "开发工具",
+        "身份认证",
+        "AI自动化"
+      ],
+      "recommendReason": "为开发者节省数小时认证系统集成时间，实现真正的'零配置'开发体验。",
+      "score": 8.5
+    },
+    {
+      "title": "120Hz+2000尼特！苹果新显示器杀疯了",
+      "slug": "120hz-2000",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-08",
+      "description": "苹果发布新款Studio Display与旗舰Studio Display XDR，搭载mini-LED背光、2000尼特峰值亮度及120Hz高刷，售价1599美元起。",
+      "tags": [
+        "苹果",
+        "显示器",
+        "Studio Display"
+      ],
+      "recommendReason": "详细解析苹果新款显示器技术升级与定价策略，帮助专业用户判断是否值得升级。",
+      "score": 8.5
+    },
+    {
+      "title": "当年捧GNU，如今骂AI：我们在双标什么？",
+      "slug": "gnu-ai",
+      "url": "\nhttp://antirez.com/news/162\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "文章对比90年代GNU重写UNIX与当今AI重写代码的争议，揭示历史重复性，探讨版权边界与clean room实现策略。",
+      "tags": [
+        "AI伦理",
+        "开源历史",
+        "软件版权"
+      ],
+      "recommendReason": "通过历史视角重新审视AI代码生成争议，为当前技术伦理讨论提供深度参照。",
+      "score": 8.5
+    },
+    {
+      "title": "当AI开始选择轰炸目标：科技领袖的谎言",
+      "slug": "ai",
+      "url": "https://garymarcus.substack.com/p/there-are-no-heroes-in-commercial",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "Gary Marcus深度揭露：Anthropic创始人Amodei虽标榜AI安全，其模型Claude却被用于军事目标识别，甚至卷入伊朗学校袭击事件，「人类在回路」为何无法阻止悲剧？",
+      "tags": [
+        "AI伦理",
+        "军事人工智能",
+        "科技批判"
+      ],
+      "recommendReason": "打破AI公司「好人vs坏人」的简单叙事，揭示商业AI军事化背后的伦理黑洞与过度信任危机。",
+      "score": 8.5
+    },
+    {
+      "title": "技术圈的血泪真相：那些扎心的Bug反而在成就你？",
+      "slug": "bug",
+      "url": "https://xeiaso.net/blog/2026/some-thorns-have-roses/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "作者以犀利笔触剖析技术行业的残酷与温柔，从系统故障和职业挫折中提炼出意外收获，带你看清困境背后隐藏的成长契机。",
+      "tags": [
+        "技术感悟",
+        "职业发展",
+        "成长思维"
+      ],
+      "recommendReason": "当你被需求折磨到想辞职时，这篇文章会让你重新理解'痛苦'的价值。",
+      "score": 8.2
+    },
+    {
+      "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
+      "slug": "can-coding-agents-relicense-open-source-through-a-clean-room-implementation-of-code",
+      "url": "https://simonwillison.net/2026/Mar/5/chardet/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-08",
+      "description": "Simon Willison: There are a lot of open questions about this, both ethically and legally. These appear to be coming to a head in the venerable chardet",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Donald Knuth on Claude Opus Solving a Computer Science Problem",
+      "slug": "donald-knuth-on-claude-opus-solving-a-computer-science-problem",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-08",
+      "description": "Donald Knuth, who, adorably, effectively blogs by posting TeX-typeset PDFs: Shock! Shock! I learned yesterday that an open problem I’d been working on",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Steve Lemay Hits Apple’s Leadership Page",
+      "slug": "steve-lemay-hits-apple-s-leadership-page",
+      "url": "https://www.apple.com/leadership/steve-lemay/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-08",
+      "description": "Help us Obi-Wan Lemay, you’re our only hope. (Also, as noted by Joe Rossignol, Eddy Cue got an updated headshot.) ★",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "What's the source of Einstein's \"citizen of the world\" quip?",
+      "slug": "what-s-the-source-of-einstein-s-citizen-of-the-world-quip",
+      "url": "https://shkspr.mobi/blog/2026/03/whats-the-source-of-einsteins-citizen-of-the-world-quip/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "I like digging through old archives and tracing my way through quotes. Here's a particularly good one from Albert Einstein which is often peppered aro",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "How much certainty is worthwhile?",
+      "slug": "how-much-certainty-is-worthwhile",
+      "url": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-08",
+      "description": "A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making m",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
     {
       "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
       "url": "https://pluralistic.net/2026/03/07/reader-mode/",
@@ -122,21 +654,6 @@
       ],
       "recommendReason": "微软元老级工程师亲授Windows文件监控的隐秘陷阱与解决方案，开发者的避坑指南。",
       "score": 8.5
-    },
-    {
-      "title": "一行命令集成企业级登录？这个CLI杀疯了",
-      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-07",
-      "description": "WorkOS发布AI驱动CLI工具，一行命令自动检测框架、安装SDK并生成集成代码，2分钟完成AuthKit企业级认证接入，告别繁琐配置。",
-      "tags": [
-        "前端开发",
-        "身份认证",
-        "CLI工具"
-      ],
-      "recommendReason": "开发者必备：将原本数小时的SSO集成工作压缩到2分钟，AI自动化生成代码，极大提升开发效率。",
-      "score": 8.2
     },
     {
       "title": "比游戏更惊艳的是包装？揭秘70年代这场被遗忘的设计革命",
@@ -266,19 +783,6 @@
       "author": "John Gruber",
       "date": "2026-03-06",
       "description": "Steve Jobs, on Apple’s quarterly results call back in October 2008 : There are some customers which we choose not to serve. We don’t know how to make ",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "★ Thoughts and Observations on the MacBook Neo",
-      "url": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-06",
-      "description": "The MacBook Neo is the first major new Mac aimed at the consumer market in the Apple Silicon era. It’s meant to make a dent — perhaps a minuscule dent",
       "tags": [
         "daringfireball"
       ],
@@ -538,19 +1042,6 @@
       "author": "John Gruber",
       "date": "2026-03-04",
       "description": "Jason Snell, Six Colors: Here’s the backstory: With every new generation of Apple’s Mac-series processors, I’ve gotten the impression from Apple execs",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-04",
-      "description": "Apple Newsroom: Apple today announced a new family of displays engineered to pair beautifully with Mac and meet the needs of everyone, from everyday u",
       "tags": [
         "daringfireball"
       ],
@@ -2274,8 +2765,8 @@
       ],
       "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
       "score": 8.8,
-      "translated": true,
-      "slug": "2026"
+      "translated": false,
+      "slug": null
     },
     {
       "title": "一个Issue标题劫持AI发布系统？",
@@ -2369,19 +2860,24 @@
     "AI军事",
     "AI安全",
     "AI工具",
+    "AI幻觉",
     "AI政策",
     "AI替代",
+    "AI监管",
     "AI编程",
     "AI编程助手",
     "AI自动化",
     "AI辅助",
     "AI辅助编程",
+    "AI隐私",
     "API技巧",
     "API设计",
     "Agent",
     "Anthropic",
+    "App推荐",
     "BlackHatWorld",
     "Block",
+    "C++",
     "CLI工具",
     "CSAM",
     "Claude",
@@ -2400,11 +2896,17 @@
     "LLM",
     "LLMs",
     "Linux",
+    "MacBook",
+    "MacBook Neo",
+    "Mathematica",
     "OLDPWD",
     "OpenAI",
     "Pebble",
     "Pebble手表",
+    "PostgreSQL",
     "Prompt Injection",
+    "Python",
+    "Python验证",
     "RLVR",
     "RSS",
     "Radiation Detection",
@@ -2413,12 +2915,16 @@
     "Redis",
     "Rodney",
     "Rust",
+    "SCP基金会",
     "SMPTE 2110",
     "Security",
+    "Studio Display",
+    "SymPy",
     "Tech",
     "UI设计",
     "USB测试仪",
     "Unicode",
+    "Vibe Coding",
     "Win32",
     "Win32开发",
     "Windows开发",
@@ -2428,13 +2934,16 @@
     "daringfireball",
     "dynomight",
     "garymarcus",
+    "gilesthomas",
     "iOS",
     "iOS开发",
     "iOS技巧",
     "idiallo",
     "jeffgeerling",
     "johndcook",
+    "krebsonsecurity",
     "macOS",
+    "macOS Tahoe",
     "oldnewthing",
     "pluralistic",
     "redis",
@@ -2443,6 +2952,7 @@
     "shkspr.mobi",
     "simonwillison",
     "xeiaso",
+    "三角函数",
     "个人博客",
     "个人网站",
     "书店文化",
@@ -2450,8 +2960,11 @@
     "二分查找",
     "二战",
     "交互式学习",
+    "产品思维",
     "产品更新",
     "人工智能",
+    "人机关系",
+    "亿万富翁",
     "付费服务",
     "代码审查",
     "代码审计",
@@ -2464,6 +2977,7 @@
     "僵尸网络",
     "免费工具",
     "军事AI",
+    "军事人工智能",
     "军事伦理",
     "减肥",
     "分布式拒绝服务(DDoS)",
@@ -2475,11 +2989,14 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "双曲函数",
     "反平台垄断",
     "命令行",
     "命令行技巧",
     "固件升级",
     "在线讨论",
+    "壁纸",
+    "复分析",
     "复古文化",
     "大模型",
     "天文摄影",
@@ -2497,9 +3014,11 @@
     "广告投放",
     "广播技术",
     "应用程序开发",
+    "开发工具",
     "开发者",
     "开源",
     "开源协议",
+    "开源历史",
     "微软",
     "微软补丁",
     "思维模型",
@@ -2509,8 +3028,11 @@
     "恶意软件",
     "情绪管理",
     "意识",
+    "成长思维",
     "技术债务",
     "技术公司",
+    "技术感悟",
+    "技术批评",
     "技术评论",
     "技术趋势",
     "技术革命",
@@ -2522,33 +3044,47 @@
     "播客",
     "政治观点",
     "效率",
+    "效率工具",
     "敏捷实践",
     "数字体育广播",
     "数字权利",
+    "数字权益",
+    "数学技巧",
     "数学科普",
+    "数学计算",
     "数据保存",
     "数据加密",
+    "数据库优化",
+    "数据标注",
     "数据结构",
     "文件系统监控",
     "文本生成",
+    "时间管理",
     "星际迷航",
+    "显示器",
     "智能手表",
     "智能硬件",
     "本地监控",
     "机器人",
     "机器学习",
+    "权力分析",
+    "权力批判",
+    "查询性能",
     "树莓派",
     "比特币",
     "气候变化",
     "水质",
     "法律",
     "法律争议",
+    "法律条款",
     "流媒体",
     "流程管理",
     "浏览器工具",
     "浏览器自动化",
     "消息循环",
     "消息过滤",
+    "消费者权益",
+    "深度书评",
     "深度学习",
     "游戏历史",
     "物联网",
@@ -2557,20 +3093,28 @@
     "生活便利",
     "生物多样性",
     "生物黑客",
+    "用户体验",
     "电池比较",
     "电话App",
     "短故事",
     "研究",
     "硅谷",
     "硬件评测",
+    "社会评论",
     "社群动态",
     "神经网络",
+    "福特兰迪亚",
     "种族",
     "科幻",
+    "科幻小说",
     "科技",
+    "科技伦理",
     "科技动态",
+    "科技反思",
     "科技史",
     "科技媒体",
+    "科技批判",
+    "科技政策",
     "科技新品",
     "科技评论",
     "科技诉讼",
@@ -2585,28 +3129,36 @@
     "编剧",
     "编程",
     "编程入门",
+    "编译器错误",
     "网站开发",
     "网站维护",
     "网络安全",
     "网页优化",
     "美国",
     "职业危机",
+    "职业发展",
     "职场失误",
     "自动化",
     "自动编程",
     "自媒体变现",
     "自我成长",
     "苹果",
+    "苹果壁纸",
     "融资",
     "裁员",
+    "计算机历史",
     "认知债",
+    "认知心理学",
     "认知科学",
     "记忆管理",
     "记忆辅助",
+    "设计伦理",
     "设计模式",
     "评测",
     "误炸事件",
     "误靶向",
+    "调试技巧",
+    "财富不平等",
     "身份认同",
     "身份认证",
     "软件2.0",
@@ -2622,6 +3174,8 @@
     "防机器人",
     "隐喻",
     "隐私",
+    "隐私保护",
+    "隐私安全",
     "隐私权",
     "零日漏洞",
     "静态网站",

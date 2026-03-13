@@ -1,9 +1,9 @@
 ﻿---
-title: "Daily Read · --help"
-date: "--helpT06:00:00Z"
+title: "Daily Read · 2026-03-09"
+date: "2026-03-09T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "daily-brief---help"
+slug: "daily-brief-2026-03-09"
 ---
 
 > 24 articles · 7.0/10 avg · 14 highlights (≥7.5)
@@ -139,4 +139,4 @@ As I wrote yesterday, Dario Amodei is no saint, but I fully support his company�
 A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making m
 
 ---
-*2026-03-10 15:36 UTC · Kimi K2 · 94 sources*
+*2026-03-09 22:24 UTC · Kimi K2 · 94 sources*

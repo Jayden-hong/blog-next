@@ -1,9 +1,9 @@
 ﻿---
-title: "Daily Read · 2026-03-13"
-date: "2026-03-13T06:00:00Z"
+title: "Daily Read · 2026-03-12"
+date: "2026-03-12T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "latest-brief"
+slug: "daily-brief-2026-03-12"
 ---
 
 > 24 articles · 7.1/10 avg · 15 highlights (≥7.5)
@@ -139,4 +139,4 @@ Some with “high blast radius”
 I'm still working on improving the test loss for a from-scratch GPT-2 small base model, trained on code based on Sebastian Raschka 's book " Build a L
 
 ---
-*2026-03-12 22:03 UTC · Kimi K2 · 94 sources*
+*2026-03-11 22:03 UTC · Kimi K2 · 94 sources*

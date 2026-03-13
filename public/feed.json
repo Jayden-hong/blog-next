@@ -7,31 +7,53 @@
   "language": "en",
   "items": [
     {
-      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/",
-      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/",
-      "title": "每日观点 · 2026年3月8日",
-      "content_text": "\n核心观点：\nAI 正在重塑攻击面与防御范式——从 Cline 的 prompt 注入供应链攻击，到 RSS 对抗互联网「恶化」的开放协议价值，再到 AI 公司道德人设与军事实战的张力，我们正处于技术伦理与安全的十字路口。\n\n现象解读：\n今日 RSS 聚合的 24 篇文章中，安全与权力结构主题尤为突出。Cline AI 被 prompt 注入攻击导致 NPM 密钥泄露，是首个公开的",
-      "date_published": "2026-03-08T08:00:00Z",
-      "tags": [
-        "每日观点",
-        "深度分析",
-        "AI安全",
-        "供应链攻击",
-        "开放协议"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-08.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-08/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-08/",
-      "title": "Daily Read · 2026-03-08",
-      "content_text": "\n> 23 articles · 6.6/10 avg · 11 highlights (≥7.5)\n\n1. [这个被谷歌'杀死'的技术，能拯救你的2026](https://pluralistic.net/2026/03/07/reader-mode/) · 8.8/10 · pluralistic\n\n揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断",
-      "date_published": "2026-03-08T06:00:00Z",
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-13/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-13/",
+      "title": "Daily Read · 2026-03-13",
+      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
+      "date_published": "2026-03-13T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-08.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-13.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/latest-brief/",
+      "url": "https://blog.zucchini.win/blog/latest-brief/",
+      "title": "Daily Read · 2026-03-13",
+      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
+      "date_published": "2026-03-13T06:00:00Z",
+      "tags": [
+        "daily-brief",
+        "rss"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/",
+      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/",
+      "title": "每日观点 - 2026-03-13",
+      "content_text": "\n随着AI技术的飞速发展，其责任归属和伦理问题逐渐成为公众讨论的焦点。今天的主题/趋势是：AI技术的进步带来了责任归属的模糊和伦理问题的复杂化。\n\n现象解读：\n\n- 在AI行业，模型错误经常被重新定义为“幻觉”，这种做法不仅是修辞学上的巧妙转移，更是对技术责任的一种巧妙回避。这种话术将机器的失误美化为一种无害的“想象”，从而减轻了开发者和使用者在面对错误时的心理负担。同时，这种术语",
+      "date_published": "2026-03-13",
+      "tags": [
+        "每日观点",
+        "AI",
+        "产品思考"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-13.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-12/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-12/",
+      "title": "Daily Read · 2026-03-12",
+      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
+      "date_published": "2026-03-12T06:00:00Z",
+      "tags": [
+        "daily-brief",
+        "rss"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-12.md"
     }
   ]
 }
