@@ -19,18 +19,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/clawdbot-product-review/</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-brief---help/</loc>
-    <lastmod>--help</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-13/</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -43,7 +31,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/</loc>
+    <loc>https://blog.zucchini.win/blog/clawdbot-product-review/</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -55,22 +43,10 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-12/</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-11/</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-11/</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-10/</loc>
@@ -79,46 +55,16 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-10/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-09/</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-09/</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-08/</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-07/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-07/</loc>
     <lastmod>2026-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-06/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-06/</loc>
@@ -145,22 +91,10 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-02/</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-02/</loc>
     <lastmod>2026-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-03-01/</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://blog.zucchini.win/blog/daily-brief-2026-03-01/</loc>
@@ -171,12 +105,6 @@
   <url>
     <loc>https://blog.zucchini.win/blog/rss-daily-2026-03-01/</loc>
     <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://blog.zucchini.win/blog/daily-thoughts-2026-02-28/</loc>
-    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

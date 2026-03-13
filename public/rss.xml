@@ -5,7 +5,7 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Mar 2026 05:30:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 05:32:39 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
@@ -55,31 +55,6 @@
 文章剖析AI行业如何将模型错误重新包装为'幻觉'</p>
         <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>每日观点 - 2026-03-13</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-    <category>每日观点</category>
-    <category>AI</category>
-    <category>产品思考</category>
-      <description>
-随着AI技术的飞速发展，其责任归属和伦理问题逐渐成为公众讨论的焦点。今天的主题/趋势是：AI技术的进步带来了责任归属的模糊和伦理问题的复杂化。
-
-现象解读：
-
-- 在AI行业，模型错误经常被重新定义为“幻觉”，这种做法不仅是修辞学上的巧妙转移，更是对技术责任的一种巧妙回避。这种话术将机器的失误美化为一种无害的“想象”，从而减轻了开发者和使用者在面对错误时的心理负担。同时，这种术语</description>
-      <content:encoded><![CDATA[
-        <p>
-随着AI技术的飞速发展，其责任归属和伦理问题逐渐成为公众讨论的焦点。今天的主题/趋势是：AI技术的进步带来了责任归属的模糊和伦理问题的复杂化。
-
-现象解读：
-
-- 在AI行业，模型错误经常被重新定义为“幻觉”，这种做法不仅是修辞学上的巧妙转移，更是对技术责任的一种巧妙回避。这种话术将机器的失误美化为一种无害的“想象”，从而减轻了开发者和使用者在面对错误时的心理负担。同时，这种术语</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-03-13.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-03-13/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
     <item>
