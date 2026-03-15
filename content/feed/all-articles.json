@@ -1,20 +1,23 @@
 {
-  "date": "2026-03-13",
-  "totalSources": 12,
-  "totalArticles": 221,
+  "date": "2026-03-15",
+  "totalSources": 8,
+  "totalArticles": 239,
   "allTags": [
     "AI",
+    "AI与社会",
     "AI伦理",
     "AI军事",
     "AI安全",
     "AI工具",
     "AI幻觉",
     "AI应用",
+    "AI投资",
     "AI政策",
     "AI替代",
     "AI编程",
     "AI编程助手",
     "AI自动化",
+    "AI转型",
     "AI辅助",
     "AI辅助编程",
     "AI隐私",
@@ -34,6 +37,7 @@
     "Epic Games",
     "F1赛车",
     "Frigate",
+    "GitHub",
     "Google Play",
     "HNSW",
     "HTML入门",
@@ -45,6 +49,7 @@
     "LLMs",
     "Linux",
     "MIPS架构",
+    "MacBook",
     "MacBook Neo",
     "Mathematica",
     "Meta",
@@ -105,6 +110,7 @@
     "书店文化",
     "书评",
     "二分查找",
+    "互联网历史",
     "交互式学习",
     "产品思维",
     "产品更新",
@@ -142,13 +148,17 @@
     "反平台垄断",
     "可视化",
     "命令行",
+    "商业分析",
     "固件升级",
+    "在线社区",
     "在线讨论",
     "复分析",
     "复古文化",
     "大模型",
     "大模型定价",
+    "大规模裁员",
     "天文摄影",
+    "太空探索",
     "奈飞",
     "安全",
     "实数理论",
@@ -168,6 +178,7 @@
     "开源",
     "开源协议",
     "开源历史",
+    "开源维护",
     "微软",
     "微软补丁",
     "思维模型",
@@ -213,6 +224,7 @@
     "文本生成",
     "时间管理",
     "星际迷航",
+    "智能体工程",
     "智能手表",
     "智能硬件",
     "本地监控",
@@ -295,15 +307,18 @@
     "职业趋势",
     "职场失误",
     "职场成长",
+    "职场趋势",
     "自动化",
     "自动编程",
     "自媒体变现",
     "自我成长",
     "苹果",
     "苹果壁纸",
+    "苹果战略",
     "融资",
     "行业变革",
     "裁员",
+    "裁员潮",
     "计算机乐谱",
     "计算机历史",
     "认知债",
@@ -344,6 +359,23 @@
     "鹦鹉孵化"
   ],
   "highlights": [
+    {
+      "title": "苹果拒绝烧钱6500亿，是愚蠢还是神操作？",
+      "slug": "苹果拒绝烧钱6500亿-是愚蠢还是神操作",
+      "url": "https://asymco.com/2026/03/10/the-most-brilliant-move-in-corporate-history/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "当亚马逊谷歌等巨头在AI基建上烧掉6500亿美元时，苹果仅支出140亿。Horace Dediu深度解析：在AI模型快速商品化的今天，拒绝将现金流转移给英伟达，或许是企业史上最清醒的反共识战略。",
+      "tags": [
+        "苹果战略",
+        "AI投资",
+        "商业分析"
+      ],
+      "recommendReason": "揭示反共识商业智慧：在全民AI军备竞赛中，克制比疯狂更需要勇气与洞察力。",
+      "score": 8.8,
+      "translated": false
+    },
     {
       "title": "7500人公司CEO亲自下场，用AI把核心引擎提速53%",
       "slug": "7500人公司ceo亲自下场-用ai把核心引擎提速53",
@@ -428,26 +460,295 @@
       "recommendReason": "不仅解决具体bug，更教你建立从编译器报错反推类型系统冲突的思维模型，堪称C++错误排查的显微镜。",
       "score": 8.7,
       "translated": false
-    },
-    {
-      "title": "逼近游戏：22/7与无理数",
-      "url": "https://lcamtuf.substack.com/p/approximation-game",
-      "source": "lcamtuf-substack",
-      "author": "",
-      "date": "2026-02-28",
-      "description": "用22/7和鸽群故事演示如何用有理数逼近无理数，揭示实数构造的惊喜。",
-      "tags": [
-        "数学科普",
-        "实数理论",
-        "逼近算法"
-      ],
-      "recommendReason": "故事化讲数学，让抽象实数理论瞬间看得见。",
-      "score": 8.7,
-      "translated": false,
-      "slug": "逼近游戏-22-7与无理数"
     }
   ],
   "articles": [
+    {
+      "title": "苹果拒绝烧钱6500亿，是愚蠢还是神操作？",
+      "slug": "苹果拒绝烧钱6500亿-是愚蠢还是神操作",
+      "url": "https://asymco.com/2026/03/10/the-most-brilliant-move-in-corporate-history/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "当亚马逊谷歌等巨头在AI基建上烧掉6500亿美元时，苹果仅支出140亿。Horace Dediu深度解析：在AI模型快速商品化的今天，拒绝将现金流转移给英伟达，或许是企业史上最清醒的反共识战略。",
+      "tags": [
+        "苹果战略",
+        "AI投资",
+        "商业分析"
+      ],
+      "recommendReason": "揭示反共识商业智慧：在全民AI军备竞赛中，克制比疯狂更需要勇气与洞察力。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "90%公司扩招却60%裁员，AI成了背锅侠？",
+      "slug": "90-公司扩招却60-裁员-ai成了背锅侠",
+      "url": "https://www.resume.org/the-great-turnover-9-in-10-companies-plan-to-hire-in-2026-yet-6-in-10-will-have-layoffs-2/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "揭示2026年职场悖论：九成企业计划招聘同时六成将裁员，剖析企业如何利用AI作为裁员挡箭牌的深层逻辑。",
+      "tags": [
+        "人工智能",
+        "职场趋势",
+        "裁员潮"
+      ],
+      "recommendReason": "戳破企业将AI当作裁员借口的营销泡沫，看清2026劳动力市场真相。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Meta大裁员曝光：AI成本压力下，20%员工将失业？",
+      "slug": "meta大裁员曝光-ai成本压力下-20-员工将失业",
+      "url": "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "路透社独家爆料，Meta计划裁员20%以上应对AI基础设施成本，并借AI提升效率，揭示科技巨头人力战略大转型。",
+      "tags": [
+        "Meta",
+        "大规模裁员",
+        "AI转型"
+      ],
+      "recommendReason": "揭示AI时代科技巨头人力战略转型的风向标，值得职场人和投资者关注。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "代码少个连字符，百亿探测器当场\"自杀\"？",
+      "slug": "代码少个连字符-百亿探测器当场-自杀",
+      "url": "https://shkspr.mobi/blog/2026/03/book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-15",
+      "description": "太空机器人探索史，从代码错误导致的灾难到政治博弈，揭秘探测器背后的技术悲剧与权力游戏。",
+      "tags": [
+        "太空探索",
+        "科技史",
+        "书评"
+      ],
+      "recommendReason": "揭露了太空探索中那些因小失大的技术悲剧和地缘政治角力，细节令人警醒。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "‘This Is Not the Computer for You’",
+      "slug": "this-is-not-the-computer-for-you",
+      "url": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "Sam Henri Gold: Nobody starts in the right place. You don’t begin with the correct tool and work sensibly within its constraints until you organically",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Matt Mullenweg Documents a Dastardly Clever Apple Account Phishing Scam",
+      "slug": "matt-mullenweg-documents-a-dastardly-clever-apple-account-phishing-scam",
+      "url": "https://ma.tt/2026/03/gone-almost-phishin/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "Matt Mullenweg: One evening last month, my Apple Watch, iPhone, and Mac all lit up with a message prompting me to reset my password. This came out of ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Langford series",
+      "slug": "langford-series",
+      "url": "https://www.johndcook.com/blog/2026/03/15/langford-series/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-15",
+      "description": "Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear tw",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "10个PR里9个是垃圾？AI正在杀死开源协作",
+      "slug": "10个pr里9个是垃圾-ai正在杀死开源协作",
+      "url": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "Jazzband因AI生成垃圾PR泛滥被迫关闭，curl漏洞赏金确认率跌破5%，GitHub开放协作模式在\"slopocalypse\"时代遭遇生存危机。",
+      "tags": [
+        "GitHub",
+        "开源维护",
+        "AI伦理"
+      ],
+      "recommendReason": "揭示了AI spam对开源基础设施的致命冲击，为平台治理和社区运营敲响警钟。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "AI编程已进化到第三阶段：不读代码？",
+      "slug": "ai编程已进化到第三阶段-不读代码",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "Simon Willison分享AI编程三阶段演进：从ChatGPT辅助到代理写代码，再到\"不读代码\"的争议实践，揭秘如何建立对AI的信任及测试驱动开发技巧。",
+      "tags": [
+        "AI编程",
+        "智能体工程",
+        "软件开发"
+      ],
+      "recommendReason": "顶级开发者一手实战经验，揭示AI编程从辅助到自主的临界点与风险边界。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "苹果放出平价大招，PC行业迎来大洗牌？",
+      "slug": "苹果放出平价大招-pc行业迎来大洗牌",
+      "url": "https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-14",
+      "description": "苹果即将推出平价版MacBook Neo，凭借极致性价比强势入局，Windows笔记本阵营面临巨大冲击，PC厂商们真的准备好了吗？",
+      "tags": [
+        "苹果",
+        "MacBook",
+        "笔记本电脑"
+      ],
+      "recommendReason": "深度剖析苹果平价策略对PC市场的颠覆性影响，为科技从业者和准备购机的用户提供关键决策参考。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "从Digg两次死亡看：AI正在毁灭互联网对话",
+      "slug": "从digg两次死亡看-ai正在毁灭互联网对话",
+      "url": "https://idiallo.com/byte-size/digg-is-gone-again?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "作者回顾Digg从辉煌到V4改版失败，再到2026年短暂复活后关闭的经历，揭示AI机器人如何摧毁在线社区，表达对互联网对话空间消失的忧虑。",
+      "tags": [
+        "互联网历史",
+        "AI与社会",
+        "在线社区"
+      ],
+      "recommendReason": "通过亲历者视角揭示AI机器人对互联网公共话语空间的破坏性影响，为理解当下社交媒体生态提供历史参照。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Big tech engineers need big egos",
+      "slug": "big-tech-engineers-need-big-egos",
+      "url": "https://seangoedecke.com/big-tech-needs-big-egos/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "",
+      "tags": [
+        "seangoedecke"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "iFixit’s MacBook Neo Teardown",
+      "slug": "ifixit-s-macbook-neo-teardown",
+      "url": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-14",
+      "description": "iFixit: Is Apple’s most affordable laptop ever also one of its most repairable? For years, opening a MacBook has usually meant fighting your way throu",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
+      "slug": "ars-technica-fires-reporter-benj-edwards-after-he-published-story-with-ai-fabricated-quotes",
+      "url": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-14",
+      "description": "Maggie Harrison Dupré, writing for Futurism: Earlier this month, Ars retracted the story after it was found to include fake quotes attributed to a rea",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Lil Finder Guy",
+      "slug": "lil-finder-guy",
+      "url": "https://basicappleguy.com/basicappleblog/lil-finder-guy",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-14",
+      "description": "Basic Apple Guy: Where I and the rest of the internet take this from here remains to be seen. All I know is that Apple should definitely keep this Lil",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Corrupt anticorruption (14 Mar 2026)",
+      "slug": "pluralistic-corrupt-anticorruption-14-mar-2026",
+      "url": "https://pluralistic.net/2026/03/14/ill-have-what-xis-having/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "Today's links Corrupt anticorruption: Notes from a target-rich environment. Hey look at this: Delights to delectate. Object permanence: Tentacle spher",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "How Can Governments Pay Open Source Maintainers?",
+      "slug": "how-can-governments-pay-open-source-maintainers",
+      "url": "https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "When I worked for the UK Government I was once asked if we could find a way to pay for all the Open Source Software we were using. It is a surprisingl",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "BREAKING: Expensive new evidence that scaling is not all you need",
+      "slug": "breaking-expensive-new-evidence-that-scaling-is-not-all-you-need",
+      "url": "https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-14",
+      "description": "Two more colossally expensive experiments have failed",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "7500人公司CEO亲自下场，用AI把核心引擎提速53%",
       "slug": "7500人公司ceo亲自下场-用ai把核心引擎提速53",
