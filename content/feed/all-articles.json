@@ -1,13 +1,15 @@
 {
-  "date": "2026-03-15",
+  "date": "2026-03-16",
   "totalSources": 8,
-  "totalArticles": 239,
+  "totalArticles": 256,
   "allTags": [
+    "AGI",
     "AI",
     "AI与社会",
     "AI伦理",
     "AI军事",
     "AI安全",
+    "AI对齐",
     "AI工具",
     "AI幻觉",
     "AI应用",
@@ -22,6 +24,7 @@
     "AI辅助编程",
     "AI隐私",
     "API技巧",
+    "ActivityPub",
     "Anthropic",
     "Apple TV",
     "App推荐",
@@ -51,9 +54,11 @@
     "MIPS架构",
     "MacBook",
     "MacBook Neo",
+    "Mastodon",
     "Mathematica",
     "Meta",
     "OpenAI",
+    "PHP开发",
     "Pebble",
     "Pebble手表",
     "PostgreSQL",
@@ -157,6 +162,7 @@
     "大模型",
     "大模型定价",
     "大规模裁员",
+    "大语言模型",
     "天文摄影",
     "太空探索",
     "奈飞",
@@ -211,6 +217,7 @@
     "数字体育广播",
     "数字创造",
     "数字权利",
+    "数字极简主义",
     "数学技巧",
     "数学科普",
     "数学计算",
@@ -225,6 +232,7 @@
     "时间管理",
     "星际迷航",
     "智能体工程",
+    "智能体架构",
     "智能手表",
     "智能硬件",
     "本地监控",
@@ -240,12 +248,14 @@
     "法律争议",
     "法律条款",
     "流媒体",
+    "流程优化",
     "流程管理",
     "浏览器原理",
     "浏览器工具",
     "浏览器自动化",
     "消息循环",
     "消息过滤",
+    "消费反思",
     "消费者权益",
     "深度书评",
     "深度学习",
@@ -263,6 +273,8 @@
     "短故事",
     "研究",
     "硅谷",
+    "硬件安全",
+    "硬件架构",
     "硬件评测",
     "社会评论",
     "社群动态",
@@ -285,6 +297,7 @@
     "空内容",
     "空气质量",
     "笔记本电脑",
+    "第二十二条军规",
     "系统更新",
     "系统管理",
     "系统编程",
@@ -307,6 +320,7 @@
     "职业趋势",
     "职场失误",
     "职场成长",
+    "职场观察",
     "职场趋势",
     "自动化",
     "自动编程",
@@ -314,6 +328,7 @@
     "自我成长",
     "苹果",
     "苹果壁纸",
+    "苹果安全架构",
     "苹果战略",
     "融资",
     "行业变革",
@@ -346,6 +361,7 @@
     "防机器人",
     "隐喻",
     "隐私",
+    "隐私保护",
     "隐私安全",
     "隐私权",
     "零日漏洞",
@@ -464,6 +480,232 @@
   ],
   "articles": [
     {
+      "title": "AI勒索测试：Anthropic如何让政策制定者胆寒？",
+      "slug": "ai勒索测试-anthropic如何让政策制定者胆寒",
+      "url": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Anthropic通过对齐团队的\"勒索练习\"，用直观结果向政策制定者展示AI不对齐风险，让抽象威胁变得具体可感。",
+      "tags": [
+        "AI对齐",
+        "AI安全",
+        "Anthropic"
+      ],
+      "recommendReason": "揭示顶级AI实验室如何用极端场景测试警示政策制定者，是理解AI安全沟通策略的罕见窗口。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "内核漏洞都失效？MacBook这盏灯藏着苹果终极隐私密码",
+      "slug": "内核漏洞都失效-macbook这盏灯藏着苹果终极隐私密码",
+      "url": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Guilherme Rambo披露MacBook Neo采用芯片安全飞地驱动摄像头指示灯，即使内核级漏洞也无法在灯不亮时启用摄像头，实现接近硬件级别的隐私保护机制。",
+      "tags": [
+        "隐私安全",
+        "硬件架构",
+        "苹果"
+      ],
+      "recommendReason": "独家揭秘苹果在芯片底层实现的隐私防护突破，为数字安全领域提供重要技术参考。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "你的AI编程助手如何思考？揭秘编码智能体黑箱",
+      "slug": "你的ai编程助手如何思考-揭秘编码智能体黑箱",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "深入解析编码智能体底层机制，从LLM tokenization到对话模板，详解AI如何通过提示词工程和工具调用实现代码生成，助你更理性地运用AI编程工具。",
+      "tags": [
+        "AI编程",
+        "大语言模型",
+        "智能体架构"
+      ],
+      "recommendReason": "理解底层机制是高效使用AI编程工具的前提，本文透彻解析了从token处理到工具调用的完整技术链路。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "这款12美元的手表，是最后的安静",
+      "slug": "这款12美元的手表-是最后的安静",
+      "url": "https://www.terrygodier.com/the-last-quiet-thing",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-16",
+      "description": "通过对比卡西欧F-91W与Apple Watch，揭示智能时代物品如何从「完成品」变为「永久需要维护的存在」，反思我们为何被 possessions 奴役。",
+      "tags": [
+        "数字极简主义",
+        "科技批判",
+        "消费反思"
+      ],
+      "recommendReason": "在万物皆需联网更新的时代，这篇短文是一剂清醒的解药，提醒我们「完成」与「安静」的珍贵。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "黑客攻破内核也偷窥不了？苹果这招太狠了",
+      "slug": "黑客攻破内核也偷窥不了-苹果这招太狠了",
+      "url": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-16",
+      "description": "揭秘MacBook Neo屏幕摄像头指示灯背后的Secure Exclave技术，为何软件渲染能比硬件灯更安全，连root权限恶意软件都无法绕过。",
+      "tags": [
+        "苹果安全架构",
+        "硬件安全",
+        "隐私保护"
+      ],
+      "recommendReason": "打破\"硬件灯比软件灯安全\"的常识，深度解析苹果芯片级隔离技术如何重构隐私保护逻辑。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "一声\"给我饭\"，荒唐流程瞬间崩塌",
+      "slug": "一声-给我饭-荒唐流程瞬间崩塌",
+      "url": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "借《第二十二条军规》中荒谬的忠诚宣誓情节，剖析职场中臃肿流程如何形成，以及打破集体沉默的关键。",
+      "tags": [
+        "职场观察",
+        "流程优化",
+        "第二十二条军规"
+      ],
+      "recommendReason": "用经典文学精准映射现代职场痛点，犀利指出打破僵化流程只需一人敢于质疑的勇气。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "80KB单文件搭建Mastodon机器人？这个PHP脚本杀疯了",
+      "slug": "80kb单文件搭建mastodon机器人-这个php脚本杀疯了",
+      "url": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "ActivityBot发布重大更新，仅凭一个PHP文件即可部署完整ActivityPub服务器，支持多媒体发布与私信功能，让联邦宇宙机器人开发门槛降为零。",
+      "tags": [
+        "ActivityPub",
+        "Mastodon",
+        "PHP开发"
+      ],
+      "recommendReason": "这可能是目前最轻量级的去中心化社交机器人方案，单文件部署的特性让个人开发者几分钟内就能拥有自己的Fediverse机器人。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Altman突然改口：光堆算力到不了AGI？",
+      "slug": "altman突然改口-光堆算力到不了agi",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Sam Altman罕见承认仅靠规模扩展无法实现AGI，必须寻找类似Transformer的架构突破，标志着AI发展路线重大转向。",
+      "tags": [
+        "人工智能",
+        "AGI",
+        "OpenAI"
+      ],
+      "recommendReason": "科技领袖集体'反水'，AI行业投资逻辑面临重构，从业者必须关注的路线之争。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Coding agents for data analysis",
+      "slug": "coding-agents-for-data-analysis",
+      "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Coding agents for data analysis Here's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aime",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Apple Introduces AirPods Max 2",
+      "slug": "apple-introduces-airpods-max-2",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-16",
+      "description": "Apple Newsroom today: Apple today announced AirPods Max 2 , bringing even better Active Noise Cancellation (ANC), elevated sound quality, and intellig",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Shower Thought: Git Teleportation",
+      "slug": "shower-thought-git-teleportation",
+      "url": "https://idiallo.com/byte-size/git-teleportation?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "In many sci-fi shows, spaceships have a teleportation mechanism on board. They can teleport from inside their ship to somewhere on a planet. This way,",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Tools vs uses (16 Mar 2026)",
+      "slug": "pluralistic-tools-vs-uses-16-mar-2026",
+      "url": "https://pluralistic.net/2026/03/16/whittle-a-webserver/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Today's links Tools vs uses: Don't fall for it. Hey look at this: Delights to delectate. Object permanence: Amazon coders x Amazon warehouse workers; ",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Windows stack limit checking retrospective: PowerPC",
+      "slug": "windows-stack-limit-checking-retrospective-powerpc",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260316-00/?p=112140",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Doing the math backwards. The post Windows stack limit checking retrospective: PowerPC appeared first on The Old New Thing .",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "F Cancer",
+      "slug": "f-cancer",
+      "url": "https://garymarcus.substack.com/p/f-cancer",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "The real test of AI",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "苹果拒绝烧钱6500亿，是愚蠢还是神操作？",
       "slug": "苹果拒绝烧钱6500亿-是愚蠢还是神操作",
       "url": "https://asymco.com/2026/03/10/the-most-brilliant-move-in-corporate-history/",
@@ -532,6 +774,23 @@
       "translated": false
     },
     {
+      "title": "AI能写能跑代码，工程师只剩一件事可做",
+      "slug": "ai能写能跑代码-工程师只剩一件事可做",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-15",
+      "description": "Simon Willison提出Agentic Engineering概念，解析Coding Agents如何通过代码执行循环实现目标，并重新定义人类工程师在AI时代的核心职责——从编码转向决策与验证。",
+      "tags": [
+        "AI编程",
+        "智能体工程",
+        "软件开发"
+      ],
+      "recommendReason": "顶级开发者Simon Willison深度拆解AI辅助编程的进化方向，帮你找准人机协作的新定位。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "‘This Is Not the Computer for You’",
       "slug": "this-is-not-the-computer-for-you",
       "url": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
@@ -569,6 +828,36 @@
       "author": "",
       "date": "2026-03-15",
       "description": "Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear tw",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "CHM Live: Apple at 50",
+      "slug": "chm-live-apple-at-50",
+      "url": "https://www.youtube.com/live/eCSNJgI2LFI",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "David Pogue absolutely killed it hosting this live event last week. Glad I saved it to watch on my TV. Special guests include Chris Espinosa, John Scu",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Twelve-tone composition",
+      "slug": "twelve-tone-composition",
+      "url": "https://www.johndcook.com/blog/2026/03/15/twelve-tone-composition/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-15",
+      "description": "Atonal music is difficult to compose because it defies human instincts. It takes discipline to write something so unpleasant to listen to. One techniq",
       "tags": [
         "johndcook"
       ],
