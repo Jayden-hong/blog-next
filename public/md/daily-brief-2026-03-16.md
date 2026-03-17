@@ -1,0 +1,110 @@
+﻿---
+title: "Daily Read · 2026-03-16"
+date: "2026-03-16T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-16"
+---
+
+> 19 articles · 6.7/10 avg · 9 highlights (≥7.5)
+
+**1. [苹果拒绝烧钱6500亿，是愚蠢还是神操作？](https://asymco.com/2026/03/10/the-most-brilliant-move-in-corporate-history/)** · 8.8/10 · daringfireball
+
+当亚马逊谷歌等巨头在AI基建上烧掉6500亿美元时，苹果仅支出140亿。Horace Dediu深度解析：在AI模型快速商品化的今天，拒绝将现金流转移给英伟达，或许是企业史上最清醒的反共识战略。
+
+> 揭示反共识商业智慧：在全民AI军备竞赛中，克制比疯狂更需要勇气与洞察力。
+
+**2. [10个PR里9个是垃圾？AI正在杀死开源协作](https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything)** · 8.5/10 · simonwillison
+
+Jazzband因AI生成垃圾PR泛滥被迫关闭，curl漏洞赏金确认率跌破5%，GitHub开放协作模式在"slopocalypse"时代遭遇生存危机。
+
+> 揭示了AI spam对开源基础设施的致命冲击，为平台治理和社区运营敲响警钟。
+
+**3. [AI编程已进化到第三阶段：不读代码？](https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything)** · 8.5/10 · simonwillison
+
+Simon Willison分享AI编程三阶段演进：从ChatGPT辅助到代理写代码，再到"不读代码"的争议实践，揭秘如何建立对AI的信任及测试驱动开发技巧。
+
+> 顶级开发者一手实战经验，揭示AI编程从辅助到自主的临界点与风险边界。
+
+**4. [苹果用户注意：这个被低估的日记功能杀疯了](https://www.finalist.works/finalist-36/)** · 8.5/10 · daringfireball
+
+Finalist 3.6重磅更新，子任务拆解、HealthKit健康数据可视化、一键记录位置照片，让日程管理从工具变生活方式。
+
+> 如果你受够了在日历、健康、备忘录App间反复横跳，这款All-in-one神器或许能终结你的效率焦虑。
+
+**5. [90%公司扩招却60%裁员，AI成了背锅侠？](https://www.resume.org/the-great-turnover-9-in-10-companies-plan-to-hire-in-2026-yet-6-in-10-will-have-layoffs-2/)** · 8.5/10 · daringfireball
+
+揭示2026年职场悖论：九成企业计划招聘同时六成将裁员，剖析企业如何利用AI作为裁员挡箭牌的深层逻辑。
+
+> 戳破企业将AI当作裁员借口的营销泡沫，看清2026劳动力市场真相。
+
+**6. [Meta大裁员曝光：AI成本压力下，20%员工将失业？](https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/)** · 8.5/10 · daringfireball
+
+路透社独家爆料，Meta计划裁员20%以上应对AI基础设施成本，并借AI提升效率，揭示科技巨头人力战略大转型。
+
+> 揭示AI时代科技巨头人力战略转型的风向标，值得职场人和投资者关注。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [苹果放出平价大招，PC行业迎来大洗牌？](https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth)** · 8.5/10 · daringfireball
+
+苹果即将推出平价版MacBook Neo，凭借极致性价比强势入局，Windows笔记本阵营面临巨大冲击，PC厂商们真的准备好了吗？
+
+> 深度剖析苹果平价策略对PC市场的颠覆性影响，为科技从业者和准备购机的用户提供关键决策参考。
+
+**8. [从Digg两次死亡看：AI正在毁灭互联网对话](https://idiallo.com/byte-size/digg-is-gone-again?src=feed)** · 8.5/10 · idiallo
+
+作者回顾Digg从辉煌到V4改版失败，再到2026年短暂复活后关闭的经历，揭示AI机器人如何摧毁在线社区，表达对互联网对话空间消失的忧虑。
+
+> 通过亲历者视角揭示AI机器人对互联网公共话语空间的破坏性影响，为理解当下社交媒体生态提供历史参照。
+
+**9. [代码少个连字符，百亿探测器当场"自杀"？](https://shkspr.mobi/blog/2026/03/book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson/)** · 8.5/10 · shkspr.mobi
+
+太空机器人探索史，从代码错误导致的灾难到政治博弈，揭秘探测器背后的技术悲剧与权力游戏。
+
+> 揭露了太空探索中那些因小失大的技术悲剧和地缘政治角力，细节令人警醒。
+
+**10. [Big tech engineers need big egos](https://seangoedecke.com/big-tech-needs-big-egos/)** · 5.0/10 · seangoedecke
+
+
+
+**11. [‘This Is Not the Computer for You’](https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me)** · 5.0/10 · daringfireball
+
+Sam Henri Gold: Nobody starts in the right place. You don’t begin with the correct tool and work sensibly within its constraints until you organically
+
+**12. [Matt Mullenweg Documents a Dastardly Clever Apple Account Phishing Scam](https://ma.tt/2026/03/gone-almost-phishin/)** · 5.0/10 · daringfireball
+
+Matt Mullenweg: One evening last month, my Apple Watch, iPhone, and Mac all lit up with a message prompting me to reset my password. This came out of 
+
+**13. [iFixit’s MacBook Neo Teardown](https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years)** · 5.0/10 · daringfireball
+
+iFixit: Is Apple’s most affordable laptop ever also one of its most repairable? For years, opening a MacBook has usually meant fighting your way throu
+
+**14. [Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes](https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes)** · 5.0/10 · daringfireball
+
+Maggie Harrison Dupré, writing for Futurism: Earlier this month, Ars retracted the story after it was found to include fake quotes attributed to a rea
+
+**15. [Lil Finder Guy](https://basicappleguy.com/basicappleblog/lil-finder-guy)** · 5.0/10 · daringfireball
+
+Basic Apple Guy: Where I and the rest of the internet take this from here remains to be seen. All I know is that Apple should definitely keep this Lil
+
+**16. [Pluralistic: Corrupt anticorruption (14 Mar 2026)](https://pluralistic.net/2026/03/14/ill-have-what-xis-having/)** · 5.0/10 · pluralistic
+
+Today's links Corrupt anticorruption: Notes from a target-rich environment. Hey look at this: Delights to delectate. Object permanence: Tentacle spher
+
+**17. [How Can Governments Pay Open Source Maintainers?](https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/)** · 5.0/10 · shkspr.mobi
+
+When I worked for the UK Government I was once asked if we could find a way to pay for all the Open Source Software we were using. It is a surprisingl
+
+**18. [BREAKING: Expensive new evidence that scaling is not all you need](https://garymarcus.substack.com/p/breaking-expensive-new-evidence-that)** · 5.0/10 · garymarcus
+
+Two more colossally expensive experiments have failed
+
+**19. [Langford series](https://www.johndcook.com/blog/2026/03/15/langford-series/)** · 5.0/10 · johndcook
+
+Notice anything special about the following sequence? 8 6 10 3 1 11 1 3 6 8 12 9 7 10 4 2 5 11 2 4 7 9 5 12 Each of the numbers 1 through 12 appear tw
+
+---
+*2026-03-15 22:17 UTC · Kimi K2 · 94 sources*

@@ -1,0 +1,174 @@
+﻿---
+title: "Daily Read · 2026-03-15"
+date: "2026-03-15T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-15"
+---
+
+> 31 articles · 6.9/10 avg · 17 highlights (≥7.5)
+
+**1. [7500人公司CEO亲自下场，用AI把核心引擎提速53%](https://simonwillison.net/2026/Mar/13/liquid/#atom-everything)** · 8.8/10 · simonwillison
+
+Shopify CEO用AI代理对20年历史的Liquid模板引擎进行120次自动化实验，实现解析渲染速度提升53%、内存分配减少61%，展现AI辅助编程如何让高层管理者重新掌控代码优化。
+
+> 揭秘AI代理如何攻克20年老代码库的性能瓶颈，为技术管理者提供可复现的自动化调优方法论。
+
+**2. [5天造出完美会计软件？他说这才是AI编程的终极形态](https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything)** · 8.7/10 · simonwillison
+
+作者Craig Mod耗时5天，借助Claude AI打造完全符合个人需求的本地化会计系统，支持多币种、自动分类和智能纠错，彻底告别通用软件的束缚。
+
+> 展示了AI时代个人如何通过'氛围编程'构建完全贴合自身需求的工具，告别通用软件妥协。
+
+**3. [百万token不加价，Claude这招让对手怎么接？](https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything)** · 8.5/10 · simonwillison
+
+Claude全面开放100万token上下文窗口且维持标准定价，直接挑战OpenAI和Gemini的长文本溢价策略，大模型定价战争出现重要转折。
+
+> 揭示了大模型长上下文定价策略的重大转折，对需要处理超长文档的开发者具有直接成本参考价值。
+
+**4. [告别手写代码？70位顶级开发者的AI生存报告](https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything)** · 8.5/10 · simonwillison
+
+纽约时报长文揭示AI编程真相：70位Google、Apple等大厂工程师深度访谈，有人欢呼有人忧虑，一个时代正在终结。
+
+> 汇集70位顶尖开发者的一线洞察，帮你看清AI重构编程行业后的真实未来与生存策略。
+
+**5. [手机+AI=算法可视化神器？7种排序同时跑](https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything)** · 8.5/10 · simonwillison
+
+Simon Willison用Claude Artifacts在手机上生成交互式排序算法动画，涵盖Timsort等7种算法，一键对比执行过程，展示AI辅助编程的极致效率。
+
+> 手把手展示如何用AI快速构建交互式教学工具，为算法学习提供直观新范式。
+
+**6. [Meta秘密武器哑火？新AI模型遭内部否决](https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html?unlocked_article_code=1.S1A.vI_6.4j717gwtFem0)** · 8.5/10 · daringfireball
+
+Meta代号Avocado的新模型在推理、编程等核心测试中表现不及OpenAI、谷歌竞品，公司决定推迟发布继续优化。
+
+> 独家揭秘科技巨头AI竞赛背后的真实技术差距与产品决策逻辑。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [三个月内，AI将写90%代码？Anthropic CEO放话](https://www.businessinsider.com/anthropic-ceo-ai-90-percent-code-3-to-6-months-2025-3)** · 8.5/10 · daringfireball
+
+Anthropic CEO预测AI将在3-6个月内承担90%编程工作，12个月内几乎完全替代人类程序员，并暗示这种变革将席卷所有行业。
+
+> AI领域顶级领袖的权威预测，关乎每个开发者的职业前景与科技行业的未来格局。
+
+**8. [不会写代码的他，如何用AI重建Twitter？](https://craigmod.com/essays/software_bonkers/)** · 8.5/10 · daringfireball
+
+作者借助Claude Code从"只会想不会写"到疯狂构建个性化工具，甚至重建理想中的Twitter，展现AI编程如何释放普通人的创造力。
+
+> 展示了AI如何将软件构建权从专业程序员手中解放给普通创作者，预示个性化软件时代的来临。
+
+**9. [旧Mac秒变新款？一键解锁Neo彩色强调色](https://mahdi.jp/apps/accents)** · 8.5/10 · daringfireball
+
+Accents应用让旧款Mac也能使用iMac/MacBook Neo的彩色强调色，无需购买新机即可个性化系统外观，免费下载体验。
+
+> 无需升级硬件，零成本让旧Mac获得新款Neo的视觉体验与个性化配色。
+
+**10. [为什么大学没教会我思考，仓库搬砖却教会了？](https://idiallo.com/blog/work-taught-me-how-to-think?src=feed)** · 8.5/10 · idiallo
+
+从CS课堂的应试困境到仓库工作中用VBScript自动化解决繁琐流程，作者用亲身经历揭示：真正培养编程思维和解决问题能力的，是实践而非学校教育。
+
+> 用一个真实的'课堂vs职场'对比故事，戳破应试教育的泡沫，给程序员和教育者关于真正学习方式的深刻启发。
+
+**11. [1000行代码挑战Chrome？他用C语言造了个极简浏览器](https://maurycyz.com/projects/tinyweb/)** · 8.5/10 · maurycyz
+
+作者用1000行C代码实现基础浏览器，对比Chromium的4900万行代码，展示如何剥离复杂性实现核心网页浏览功能。
+
+> 剥离现代软件臃肿外壳，用极简代码揭示浏览器核心原理的硬核技术实践。
+
+**12. [政府隐瞒的电费数据，被一封邮件破解？](https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/)** · 8.5/10 · shkspr.mobi
+
+博主通过信息自由请求成功获取Ofgem历史电价上限数据，揭示政府数据格式问题并整理开放下载，展现公民获取公共数据的权利与实践。
+
+> 这是一份罕见的FOI实战指南，既展示如何依法撬动政府隐藏数据，又提供数据清洗的实操经验，对数据记者和公共政策关注者极具参考价值。
+
+**13. [为什么你的文章越来越像PPT？](https://dynomight.net/formatting/)** · 8.5/10 · dynomight
+
+批判现代写作过度依赖小标题、 bullet points 和层级结构的碎片化趋势，对比展示流畅段落写作的优势，呼吁回归线性叙事。
+
+> 戳破格式化写作的幻觉，帮你重建连贯思维与清晰表达。
+
+**14. [这个 dirty 的调用约定，如何守护 Windows 栈安全？](https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136)** · 8.5/10 · oldnewthing
+
+深入解析Windows x86-32架构中`_chkstk`函数的历史实现，揭秘其独特的"callee-dirty"调用约定和通过触摸内存页实现栈扩展保护的底层机制。
+
+> 深入Windows底层机制，理解32位系统栈安全设计的精髓，对系统开发和逆向工程极具参考价值。
+
+**15. [苹果F1首战败ESPN？收视数据超出预期](https://www.hollywoodreporter.com/tv/tv-news/apple-tv-formula-1-ratings-eddy-cue-strong-start-1236529359/)** · 8.0/10 · daringfireball
+
+苹果高管透露Apple TV首场F1直播收视率超过去年ESPN，尽管拒绝公布具体数字，但流媒体体育转播展现强劲势头。
+
+> 独家披露苹果体育直播首战成绩，揭示流媒体与传统电视的收视博弈关键数据。
+
+**16. [比x86更聪明？Windows MIPS栈检查的隐藏优化](https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138)** · 8.0/10 · oldnewthing
+
+解析Windows在MIPS架构上独特的栈限制检查机制，揭示其通过短路策略避免无效内存访问的底层实现细节。
+
+> 深入剖析架构差异带来的性能优化思路，是理解操作系统底层内存管理的珍贵技术史料。
+
+**17. [AI识谱翻车实录：音符面目全非，歌名却猜对了？](https://www.johndcook.com/blog/2026/03/13/typesetting-sheet-music-with-ai/)** · 7.8/10 · johndcook
+
+实测Grok与ChatGPT将乐谱图片转为Lilypond代码，发现AI虽能精准识别曲目和作者，生成的音符却错漏百出，古典变“原创”，爵士改调性。
+
+> 揭示AI视觉音乐识别的真实能力边界，为音乐创作者评估AI工具提供一手实测参考。
+
+**18. [MALUS - Clean Room as a Service](https://simonwillison.net/2026/Mar/12/malus/#atom-everything)** · 5.0/10 · simonwillison
+
+MALUS - Clean Room as a Service Brutal satire on the whole vibe-porting license washing thing ( previously ): Finally, liberation from open source lic
+
+**19. [Quoting Les Orchard](https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything)** · 5.0/10 · simonwillison
+
+Here's what I think is happening: AI-assisted coding is exposing a divide among developers that was always there but maybe less visible. Before AI, bo
+
+**20. [Restoring an Xserve G5: When Apple built real servers](https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/)** · 5.0/10 · jeffgeerling
+
+Recently I came into posession of a few Apple Xserves. The one in question today is an Xserve G5, RackMac3,1 , which was built when Apple at the top—a
+
+**21. [Can the MacBook Neo replace my M4 Air?](https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/)** · 5.0/10 · jeffgeerling
+
+Many of us wonder if the MacBook Neo is 'the one'. Because I have a faster desktop (currently a M4 Max Mac Studio), I've always used a lower-end Mac l
+
+**22. [Sports Programming Accounts for Almost 30 Percent of All Ad-Supported TV Viewing](https://deadline.com/2026/03/sports-tv-viewing-advertising-nielsen-1236750721/)** · 5.0/10 · daringfireball
+
+Dade Hayes, reporting for Deadline: While the rise of sports programming in recent years has been well-documented, new figures from Nielsen illustrate
+
+**23. [‘Grief and the AI Split’](https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/)** · 5.0/10 · daringfireball
+
+Les Orchard: I started programming in 1982. Every language I’ve learned since then has been a means to an end — a new way to make computers do things 
+
+**24. [Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator](https://support.apple.com/guide/security/mac-on-screen-camera-indicator-light-sec75a2d237d/1/web/1)** · 5.0/10 · daringfireball
+
+Apple Platform Security Guide: MacBook Neo combines system software and dedicated silicon elements within A18 Pro to provide additional security for t
+
+**25. [MacBook Neo Teardown](https://www.youtube.com/watch?v=5k7Lv7f-5CQ)** · 5.0/10 · daringfireball
+
+Tech Re-Nu, on YouTube: That leaves us with a fully disassembled laptop. We’ve done this in less than 10 minutes, which is absolutely amazing for an A
+
+**26. [Software Proprioception](https://unsung.aresluna.org/software-proprioception/)** · 5.0/10 · daringfireball
+
+Marcin Wichary: There are fun things you can do in software when it is aware of the dimensions and features of its hardware. [...] The rule here would
+
+**27. [Pluralistic: Three more AI psychoses (12 Mar 2026)](https://pluralistic.net/2026/03/12/normal-technology/)** · 5.0/10 · pluralistic
+
+Today's links Three more AI psychoses: Everybody calm down. Hey look at this: Delights to delectate. Object permanence: "Jules, Penny and the Rooster"
+
+**28. [An odd font rendering bug in Firefox and Safari](https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/)** · 5.0/10 · shkspr.mobi
+
+First up, you should go and watch The Importance of Being Earnest with Ncuti Gatwa. It is a brilliant set of performances and a joy to see. While peru
+
+**29. [How much of HN is AI?](https://lcamtuf.substack.com/p/how-much-of-hn-is-ai)** · 5.0/10 · lcamtuf-substack
+
+I have a complicated relationship with Hacker News. The site is the most important aggregator of geek news and a major source of traffic to this blog.
+
+**30. [Is the US military actually afraid of Claude? A new theory of why Anthropic was labeled a supply chain risk.](https://garymarcus.substack.com/p/is-the-us-military-actually-afraid)** · 5.0/10 · garymarcus
+
+Unpacking a perplexing argument from the Pentagon
+
+**31. [Inverse cosine](https://www.johndcook.com/blog/2026/03/12/arccos/)** · 5.0/10 · johndcook
+
+In the previous two posts, we looked at why Mathematica and SymPy did not simplify sinh(arccosh(x)) to √(x² − 1) as one might expect. After understand
+
+---
+*2026-03-14 22:02 UTC · Kimi K2 · 94 sources*

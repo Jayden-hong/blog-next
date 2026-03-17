@@ -139,4 +139,4 @@ As I wrote yesterday, Dario Amodei is no saint, but I fully support his company�
 A couple weeks ago I wrote a post on a composition table, analogous to a multiplication table, for trig functions and inverse trig functions. Making m
 
 ---
-*2026-03-09 22:24 UTC · Kimi K2 · 94 sources*
+*2026-03-13 06:11 UTC · Kimi K2 · 94 sources*

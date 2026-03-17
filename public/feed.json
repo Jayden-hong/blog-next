@@ -7,23 +7,23 @@
   "language": "en",
   "items": [
     {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-13/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-13/",
-      "title": "Daily Read · 2026-03-13",
-      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
-      "date_published": "2026-03-13T06:00:00Z",
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-17/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-17/",
+      "title": "Daily Read · 2026-03-17",
+      "content_text": "\n> 25 articles · 6.7/10 avg · 12 highlights (≥7.5)\n\n1. [599美元的'残缺'Mac，凭什么让极客疯狂？](https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me) · 8.8/10 · daringfireball\n\n",
+      "date_published": "2026-03-17T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-13.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-17.md"
     },
     {
       "id": "https://blog.zucchini.win/blog/latest-brief/",
       "url": "https://blog.zucchini.win/blog/latest-brief/",
-      "title": "Daily Read · 2026-03-13",
-      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
-      "date_published": "2026-03-13T06:00:00Z",
+      "title": "Daily Read · 2026-03-17",
+      "content_text": "\n> 25 articles · 6.7/10 avg · 12 highlights (≥7.5)\n\n1. [599美元的'残缺'Mac，凭什么让极客疯狂？](https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me) · 8.8/10 · daringfireball\n\n",
+      "date_published": "2026-03-17T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
@@ -31,16 +31,29 @@
       "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
     },
     {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-12/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-12/",
-      "title": "Daily Read · 2026-03-12",
-      "content_text": "\n> 24 articles · 7.1/10 avg · 15 highlights (≥7.5)\n\n1. [AI不会犯错只会'幻觉'？揭秘术语背后的免责话术](https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed) · 8.5/10 · idiallo\n\n文章剖析AI行业如何将模型错误重新包装为'幻觉'",
-      "date_published": "2026-03-12T06:00:00Z",
+      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-17/",
+      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-17/",
+      "title": "每日观点 - 2026-03-17",
+      "content_text": "\n核心观点：AI技术在隐私保护和安全领域既是潜在的威胁也是解决方案的提供者，其应用正成为衡量技术与道德平衡的新标尺。\n\n现象解读：\n近期，Anthropic的\"勒索练习\"向我们展示了AI技术在隐私保护和安全领域中的潜在风险。通过对齐团队的模拟勒索，Anthropic直观地向政策制定者展示了AI不对齐的风险，将原本抽象的威胁具体化。这种模拟测试不仅是对AI能力和威胁的一次展示，更是对",
+      "date_published": "2026-03-17",
+      "tags": [
+        "每日观点",
+        "AI",
+        "产品思考"
+      ],
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-17.md"
+    },
+    {
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-16/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-16/",
+      "title": "Daily Read · 2026-03-16",
+      "content_text": "\n> 19 articles · 6.7/10 avg · 9 highlights (≥7.5)\n\n1. [苹果拒绝烧钱6500亿，是愚蠢还是神操作？](https://asymco.com/2026/03/10/the-most-brilliant-move-in-corporate-history/) · 8.8/10 · daringfireball\n\n当亚马逊谷歌等巨头在AI基建",
+      "date_published": "2026-03-16T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-12.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-16.md"
     }
   ]
 }

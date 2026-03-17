@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-16",
-  "totalSources": 8,
-  "totalArticles": 256,
+  "date": "2026-03-17",
+  "totalSources": 9,
+  "totalArticles": 271,
   "allTags": [
     "AGI",
     "AI",
@@ -16,6 +16,7 @@
     "AI投资",
     "AI政策",
     "AI替代",
+    "AI架构",
     "AI编程",
     "AI编程助手",
     "AI自动化",
@@ -25,6 +26,7 @@
     "AI隐私",
     "API技巧",
     "ActivityPub",
+    "Agent模式",
     "Anthropic",
     "Apple TV",
     "App推荐",
@@ -36,6 +38,7 @@
     "Claude",
     "C语言",
     "Dev",
+    "Django",
     "Electronics",
     "Epic Games",
     "F1赛车",
@@ -50,13 +53,16 @@
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
+    "LLM工程",
     "Linux",
     "MIPS架构",
+    "Mac",
     "MacBook",
     "MacBook Neo",
     "Mastodon",
     "Mathematica",
     "Meta",
+    "Mistral",
     "OpenAI",
     "PHP开发",
     "Pebble",
@@ -80,6 +86,8 @@
     "UI设计",
     "USB测试仪",
     "Unicode",
+    "VR技术",
+    "Vision Pro",
     "Win32",
     "Win32开发",
     "Windows内核",
@@ -157,8 +165,11 @@
     "固件升级",
     "在线社区",
     "在线讨论",
+    "基础设施",
+    "壁纸",
     "复分析",
     "复古文化",
+    "复古科技",
     "大模型",
     "大模型定价",
     "大规模裁员",
@@ -168,6 +179,7 @@
     "奈飞",
     "安全",
     "实数理论",
+    "家庭实验室",
     "对话框编程",
     "屏蔽提示",
     "崩溃监控",
@@ -178,12 +190,16 @@
     "广告投放",
     "广播技术",
     "应用程序开发",
+    "底层优化",
     "底层编程",
     "开发者",
+    "开发者工具",
     "开放数据",
     "开源",
     "开源协议",
     "开源历史",
+    "开源模型",
+    "开源治理",
     "开源维护",
     "微软",
     "微软补丁",
@@ -200,6 +216,7 @@
     "技术批评",
     "技术评论",
     "技术趋势",
+    "技术集成",
     "技术革命",
     "技能文件",
     "技能生成",
@@ -235,6 +252,7 @@
     "智能体架构",
     "智能手表",
     "智能硬件",
+    "服务器运维",
     "本地监控",
     "机器人",
     "机器学习",
@@ -334,6 +352,7 @@
     "行业变革",
     "裁员",
     "裁员潮",
+    "视频API",
     "计算机乐谱",
     "计算机历史",
     "认知债",
@@ -375,6 +394,40 @@
     "鹦鹉孵化"
   ],
   "highlights": [
+    {
+      "title": "AI上下文告急？这个工程模式让你省下80%token",
+      "slug": "ai上下文告急-这个工程模式让你省下80-token",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "详解Subagents子代理架构如何解决LLM上下文限制问题，以Claude Code为例展示如何通过任务分发让AI自动分工，突破百万token瓶颈。",
+      "tags": [
+        "AI架构",
+        "LLM工程",
+        "Agent模式"
+      ],
+      "recommendReason": "为AI应用开发者提供解决上下文瓶颈的实战级架构方案，直接提升复杂任务处理能力。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "微软为何悄悄修改这行汇编代码？栈优化背后的玄机",
+      "slug": "微软为何悄悄修改这行汇编代码-栈优化背后的玄机",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Windows x86-32栈检查机制深度解析：揭秘_chkstk函数从jmp到ret的微妙改动，如何巧妙平衡CPU分支预测性能与ABI兼容性。",
+      "tags": [
+        "Windows内核",
+        "底层优化",
+        "x86架构"
+      ],
+      "recommendReason": "微软资深工程师揭秘操作系统底层优化的工程智慧，一行汇编代码的改动背后是性能与兼容性的精妙权衡。",
+      "score": 8.8,
+      "translated": false
+    },
     {
       "title": "苹果拒绝烧钱6500亿，是愚蠢还是神操作？",
       "slug": "苹果拒绝烧钱6500亿-是愚蠢还是神操作",
@@ -442,43 +495,218 @@
       "score": 8.8,
       "translated": false,
       "slug": "一个issue标题劫持ai发布系统"
-    },
-    {
-      "title": "5天造出完美会计软件？他说这才是AI编程的终极形态",
-      "slug": "5天造出完美会计软件-他说这才是ai编程的终极形态",
-      "url": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-13",
-      "description": "作者Craig Mod耗时5天，借助Claude AI打造完全符合个人需求的本地化会计系统，支持多币种、自动分类和智能纠错，彻底告别通用软件的束缚。",
-      "tags": [
-        "AI辅助编程",
-        "个性化工具",
-        "效率革命"
-      ],
-      "recommendReason": "展示了AI时代个人如何通过'氛围编程'构建完全贴合自身需求的工具，告别通用软件妥协。",
-      "score": 8.7,
-      "translated": false
-    },
-    {
-      "title": "祖传代码引入新库就崩溃？这个C++陷阱90%人踩过",
-      "slug": "祖传代码引入新库就崩溃-这个c-陷阱90-人踩过",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260309-00/?p=112118",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-09",
-      "description": "旧项目引入C++/WinRT后，32位编译突然报运算符歧义错误。微软资深工程师深度解析LARGE_INTEGER类型转换陷阱，教你读懂编译器报错背后的真相。",
-      "tags": [
-        "C++",
-        "编译器错误",
-        "调试技巧"
-      ],
-      "recommendReason": "不仅解决具体bug，更教你建立从编译器报错反推类型系统冲突的思维模型，堪称C++错误排查的显微镜。",
-      "score": 8.7,
-      "translated": false
     }
   ],
   "articles": [
+    {
+      "title": "AI上下文告急？这个工程模式让你省下80%token",
+      "slug": "ai上下文告急-这个工程模式让你省下80-token",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "详解Subagents子代理架构如何解决LLM上下文限制问题，以Claude Code为例展示如何通过任务分发让AI自动分工，突破百万token瓶颈。",
+      "tags": [
+        "AI架构",
+        "LLM工程",
+        "Agent模式"
+      ],
+      "recommendReason": "为AI应用开发者提供解决上下文瓶颈的实战级架构方案，直接提升复杂任务处理能力。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "微软为何悄悄修改这行汇编代码？栈优化背后的玄机",
+      "slug": "微软为何悄悄修改这行汇编代码-栈优化背后的玄机",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Windows x86-32栈检查机制深度解析：揭秘_chkstk函数从jmp到ret的微妙改动，如何巧妙平衡CPU分支预测性能与ABI兼容性。",
+      "tags": [
+        "Windows内核",
+        "底层优化",
+        "x86架构"
+      ],
+      "recommendReason": "微软资深工程师揭秘操作系统底层优化的工程智慧，一行汇编代码的改动背后是性能与兼容性的精妙权衡。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "给时间而非token：AI正在扼杀开源社区的人性？",
+      "slug": "给时间而非token-ai正在扼杀开源社区的人性",
+      "url": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Django核心开发者警告：盲目使用LLM贡献代码会损害项目整体，与\"人类假象\"交流让审查者沮丧，开源协作需要真实的人性投入而非机器生成。",
+      "tags": [
+        "开源治理",
+        "AI伦理",
+        "Django"
+      ],
+      "recommendReason": "揭示了AI工具在协作开发中的隐性代价，提醒技术人勿因效率丧失社区温度。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Vision Pro被抛弃了？Fox 3D棒球决赛竟不用它",
+      "slug": "vision-pro被抛弃了-fox-3d棒球决赛竟不用它",
+      "url": "https://x.com/mlbonfox/status/2033902946174271992?s=46",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "Fox Sports将采用沉浸式3D技术转播世界棒球经典赛美委决赛，但出人意料地排除了苹果Vision Pro平台，引发对VR体育转播生态的猜测。",
+      "tags": [
+        "Vision Pro",
+        "体育转播",
+        "VR技术"
+      ],
+      "recommendReason": "揭示高端VR设备在体育内容分发领域的实际落地困境与平台博弈，看懂科技巨头与内容方的微妙关系。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "核心服务器停摆20天，技术大佬如何「绝地求生」？",
+      "slug": "核心服务器停摆20天-技术大佬如何-绝地求生",
+      "url": "https://xeiaso.net/notes/2026/homelab-is-down/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "知名极客博主宣布家庭实验室将长期离线，揭秘背后涉及的数据迁移、架构重构与容灾挑战，探讨个人基础设施的脆弱性与替代方案。",
+      "tags": [
+        "家庭实验室",
+        "服务器运维",
+        "基础设施"
+      ],
+      "recommendReason": "罕见披露个人技术栈长期停机实录，对自建服务依赖者极具参考价值。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "视频功能开发从月变分钟，开发者都在偷偷用这个",
+      "slug": "视频功能开发从月变分钟-开发者都在偷偷用这个",
+      "url": "https://www.mux.com/?utm_campaign=fireball&utm_source=DF",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-17",
+      "description": "Mux视频API让开发者几分钟内集成专业播放功能，支持智能截图、自动字幕和精准剪辑，几行代码搞定原本需要数月的开发工作。",
+      "tags": [
+        "开发者工具",
+        "视频API",
+        "技术集成"
+      ],
+      "recommendReason": "正在接入视频功能的开发者必读，能节省大量开发时间。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "Mac经典图标回归？这组5K壁纸让老用户瞬间泪目",
+      "slug": "mac经典图标回归-这组5k壁纸让老用户瞬间泪目",
+      "url": "https://512pixels.net/2026/03/lil-finder-5k-wallpapers/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "PCalc开发者James Thomson分享了一组5K分辨率经典Finder图标壁纸，完美适配现代Mac显示器，复古情怀拉满。",
+      "tags": [
+        "Mac",
+        "壁纸",
+        "复古科技"
+      ],
+      "recommendReason": "免费获取由知名开发者制作的高清复古Mac壁纸，一秒唤醒你的数字怀旧情怀。",
+      "score": 7.0,
+      "translated": false
+    },
+    {
+      "title": "Quoting Ken Jin",
+      "slug": "quoting-ken-jin",
+      "url": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Li",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "slug": "gpt-5-4-mini-and-gpt-5-4-nano-which-can-describe-76-000-photos-for-52",
+      "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show ",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Samsung Discontinues Its Galaxy Z TriFold After Just Three Months",
+      "slug": "samsung-discontinues-its-galaxy-z-trifold-after-just-three-months",
+      "url": "https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "Jess Weatherbed, The Verge: Samsung is preparing to axe its first three-panel foldable phone less than three months after launching the device in the ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
+      "slug": "pluralistic-william-gibson-vs-margaret-thatcher-17-mar-2026",
+      "url": "https://pluralistic.net/2026/03/17/technopolitics/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object p",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Powers don’t clear fractions",
+      "slug": "powers-don-t-clear-fractions",
+      "url": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "If a number has a finite but nonzero fractional part, so do all its powers. I recently ran across a proof in [1] that is shorter than I expected. Theo",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Tone row operations",
+      "slug": "tone-row-operations",
+      "url": "https://www.johndcook.com/blog/2026/03/17/tone-row-operations/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "The previous post introduced the idea of a twelve-tone row, a permutation of the twelve pitch classes of a chromatic scale. The earlier post also intr",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "AI勒索测试：Anthropic如何让政策制定者胆寒？",
       "slug": "ai勒索测试-anthropic如何让政策制定者胆寒",
@@ -616,6 +844,23 @@
       "translated": false
     },
     {
+      "title": "242GB开源巨兽？Mistral把三大旗舰模型合二为一",
+      "slug": "242gb开源巨兽-mistral把三大旗舰模型合二为一",
+      "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Mistral发布Small 4，Apache 2开源协议，119B参数MoE架构，首次统一推理、多模态与编程代理能力，支持多级推理模式。",
+      "tags": [
+        "Mistral",
+        "开源模型",
+        "大语言模型"
+      ],
+      "recommendReason": "详解Mistral首款三合一旗舰模型的架构亮点与实测体验，开源协议对开发者极具吸引力。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "Coding agents for data analysis",
       "slug": "coding-agents-for-data-analysis",
       "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
@@ -700,6 +945,21 @@
       "description": "The real test of AI",
       "tags": [
         "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Use subagents and custom agents in Codex",
+      "slug": "use-subagents-and-custom-agents-in-codex",
+      "url": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behin",
+      "tags": [
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0,
