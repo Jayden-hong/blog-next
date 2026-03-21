@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-20",
-  "totalSources": 12,
-  "totalArticles": 295,
+  "date": "2026-03-21",
+  "totalSources": 9,
+  "totalArticles": 298,
   "allTags": [
     "AGI",
     "AI",
@@ -27,6 +27,7 @@
     "AI辅助编程",
     "AI隐私",
     "API技巧",
+    "ARM64",
     "ActivityPub",
     "Agent模式",
     "Android系统",
@@ -114,6 +115,7 @@
     "johndcook",
     "krebsonsecurity",
     "lcamtuf-substack",
+    "lucumr-pocoo",
     "macOS",
     "macOS Tahoe",
     "oldnewthing",
@@ -621,6 +623,23 @@
       "translated": false
     },
     {
+      "title": "ARM64栈保护揭秘：Windows如何防栈溢出崩溃？",
+      "slug": "arm64栈保护揭秘-windows如何防栈溢出崩溃",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "深入解析Windows ARM64架构下的栈限制检查机制，揭秘chkstk汇编实现的底层逻辑与页探测技术细节。",
+      "tags": [
+        "Windows内核",
+        "ARM64",
+        "底层编程"
+      ],
+      "recommendReason": "Raymond Chen亲授Windows底层黑科技，搞懂ARM64栈保护机制对系统安全和编译器优化至关重要。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "1亿投资藏了11个月，是透明还是算计？",
       "slug": "1亿投资藏了11个月-是透明还是算计",
       "url": "https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j",
@@ -707,6 +726,36 @@
       "description": "The hardest part of using regular expressions is not crafting regular expressions per se. In my opinion, the two hardest parts are minor syntax variat",
       "tags": [
         "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "slug": "turbo-pascal-3-02a-deconstructed",
+      "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borlan",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Some Things Just Take Time",
+      "slug": "some-things-just-take-time",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "source": "lucumr-pocoo",
+      "author": "Armin Ronacher",
+      "date": "2026-03-20",
+      "description": "Trees take quite a while to grow. If someone 50 years ago planted a row of oaks or a chestnut tree on your plot of land, you have something that no am",
+      "tags": [
+        "lucumr-pocoo"
       ],
       "recommendReason": "",
       "score": 5.0,
