@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-22",
-  "totalSources": 3,
-  "totalArticles": 304,
+  "date": "2026-03-23",
+  "totalSources": 7,
+  "totalArticles": 320,
   "allTags": [
     "AGI",
     "AI",
@@ -14,6 +14,7 @@
     "AI工具",
     "AI幻觉",
     "AI应用",
+    "AI技术",
     "AI投资",
     "AI政策",
     "AI替代",
@@ -41,8 +42,11 @@
     "CLI工具",
     "CSAM",
     "Claude",
+    "Claude-Code",
+    "Cloudflare",
     "C语言",
     "DDoS攻击",
+    "DNS",
     "Dev",
     "Django",
     "Electronics",
@@ -71,6 +75,7 @@
     "Mathematica",
     "Meta",
     "Mistral",
+    "Node.js",
     "OpenAI",
     "PHP开发",
     "Paxos",
@@ -97,15 +102,18 @@
     "Unicode",
     "VR技术",
     "Vision Pro",
+    "WWDC 2026",
     "Web优化",
     "Win32",
     "Win32开发",
     "Windows内核",
+    "Windows安全",
     "Windows开发",
     "Windows编程",
     "bash技巧",
     "daringfireball",
     "dynomight",
+    "enshittification",
     "garymarcus",
     "gilesthomas",
     "iOS开发",
@@ -156,6 +164,7 @@
     "健康",
     "僵尸网络",
     "免费工具",
+    "全球经济",
     "共识算法",
     "内存管理",
     "内容创作",
@@ -165,9 +174,11 @@
     "减肥",
     "分布式拒绝服务(DDoS)",
     "分布式系统",
+    "前端优化",
     "前端开发",
     "前端性能",
     "加拿大",
+    "劳资关系",
     "化学卫生",
     "区块链",
     "博客",
@@ -179,7 +190,9 @@
     "可视化",
     "命令行",
     "商业分析",
+    "商业模式",
     "固件升级",
+    "在线广告",
     "在线社区",
     "在线讨论",
     "基础设施",
@@ -204,9 +217,11 @@
     "崩溃监控",
     "嵌入式开发",
     "工程师",
+    "平台经济",
     "平面设计",
     "并购",
     "幽默",
+    "广告技术",
     "广告投放",
     "广播技术",
     "应用程序开发",
@@ -265,6 +280,7 @@
     "数学计算",
     "数据保存",
     "数据加密",
+    "数据可视化",
     "数据库优化",
     "数据新闻",
     "数据标注",
@@ -283,12 +299,14 @@
     "机器人",
     "机器学习",
     "权力分析",
+    "权限管理",
     "查询性能",
     "树莓派",
     "模型量化",
     "比特币",
     "气候变化",
     "水质",
+    "沙盒安全",
     "法律",
     "法律争议",
     "法律条款",
@@ -345,12 +363,14 @@
     "科技新品",
     "科技评论",
     "科技诉讼",
+    "移动互联网",
     "程序员未来",
     "空内容",
     "空气质量",
     "笔记本电脑",
     "第二十二条军规",
     "系统更新",
+    "系统架构",
     "系统管理",
     "系统编程",
     "系统美化",
@@ -366,6 +386,7 @@
     "网站维护",
     "网络安全",
     "网页优化",
+    "网页性能",
     "美国",
     "美日关系",
     "职业危机",
@@ -375,6 +396,7 @@
     "职场成长",
     "职场观察",
     "职场趋势",
+    "能源经济",
     "自动化",
     "自动编程",
     "自媒体变现",
@@ -383,6 +405,7 @@
     "苹果MLX",
     "苹果壁纸",
     "苹果安全架构",
+    "苹果开发者大会",
     "苹果战略",
     "融资",
     "融资策略",
@@ -433,6 +456,23 @@
     "鹦鹉孵化"
   ],
   "highlights": [
+    {
+      "title": "运行不可信JS？这6种沙盒方案实测对决",
+      "slug": "运行不可信js-这6种沙盒方案实测对决",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "深入对比Node.js worker_threads、isolated-vm、vm2、QuickJS等主流沙盒方案，揭秘运行不可信代码的安全陷阱与最佳实践，附Claude Code完整研究过程。",
+      "tags": [
+        "JavaScript",
+        "沙盒安全",
+        "Node.js"
+      ],
+      "recommendReason": "系统性解决了'如何安全运行不可信JS代码'这一高频难题，技术选型参考价值极高。",
+      "score": 8.8,
+      "translated": false
+    },
     {
       "title": "AI上下文告急？这个工程模式让你省下80%token",
       "slug": "ai上下文告急-这个工程模式让你省下80-token",
@@ -517,26 +557,235 @@
       "score": 8.8,
       "translated": false,
       "slug": "这个被谷歌-杀死-的技术-能拯救你的2026"
-    },
-    {
-      "title": "一个Issue标题劫持AI发布系统？",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
-      "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
-      ],
-      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
-      "score": 8.8,
-      "translated": false,
-      "slug": "一个issue标题劫持ai发布系统"
     }
   ],
   "articles": [
+    {
+      "title": "美国油价竟比穷国还低？全球能源价格地图揭秘",
+      "slug": "美国油价竟比穷国还低-全球能源价格地图揭秘",
+      "url": "https://www.globalpetrolprices.com/gasoline_prices/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "全球汽油均价1.37美元/升，但国与国价格差异巨大。揭秘税收与补贴如何造就油价鸿沟，为何富国油贵、产油国反而便宜。",
+      "tags": [
+        "能源经济",
+        "全球经济",
+        "数据可视化"
+      ],
+      "recommendReason": "一张图看懂全球能源格局，揭秘油价差异背后的税收逻辑与地缘政治。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "十年前这篇文，说透了互联网广告的绝症",
+      "slug": "十年前这篇文-说透了互联网广告的绝症",
+      "url": "https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "Rene Ritchie揭露移动广告交换网络的失控困境，Gruber犀利点评：屏幕越小广告越烦，收入却越低，行业陷入恶性循环。",
+      "tags": [
+        "在线广告",
+        "移动互联网",
+        "商业模式"
+      ],
+      "recommendReason": "提前十年预言了内容变现的结构性困境，对理解当下广告与用户体验的矛盾极具穿透力。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "服务越来越差？这是资本 deliberate 的阴谋",
+      "slug": "服务越来越差-这是资本-deliberate-的阴谋",
+      "url": "https://pluralistic.net/2026/03/22/nobodys-home/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Cory Doctorow揭示人手不足不仅是成本削减，而是enshittification（恶化）的新形式：通过制造依赖和稀缺，系统性转移价值。",
+      "tags": [
+        "enshittification",
+        "平台经济",
+        "劳资关系"
+      ],
+      "recommendReason": "看透现代服务劣化背后的经济逻辑，理解资本如何通过'制造稀缺'实现价值转移。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "服务总被误杀？微软工程师道出残酷真相",
+      "slug": "服务总被误杀-微软工程师道出残酷真相",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "深入解析Windows安全架构悖论：为何反恶意软件拥有绝对生杀大权，以及为何技术上无法让服务对其免疫而不被恶意软件利用。",
+      "tags": [
+        "Windows安全",
+        "系统架构",
+        "权限管理"
+      ],
+      "recommendReason": "从内核权限角度厘清安全设计的根本逻辑，帮助开发者理解系统边界与风险权衡。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "WWDC 2026定档6月！苹果AI杀手锏要来了？",
+      "slug": "wwdc-2026定档6月-苹果ai杀手锏要来了",
+      "url": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "苹果官宣WWDC 2026将于6月8-12日举办，采用线上+线下混合模式，将重点展示AI技术突破与新软件工具，全球开发者可通过Apple Park特别活动参与。",
+      "tags": [
+        "WWDC 2026",
+        "苹果开发者大会",
+        "AI技术"
+      ],
+      "recommendReason": "作为苹果年度最重要技术盛会，WWDC 2026日期与重点方向的提前公布为开发者和科技爱好者提供了前瞻布局的关键信息。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "Quoting David Abram",
+      "slug": "quoting-david-abram",
+      "url": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding s",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Beats now have notes",
+      "slug": "beats-now-have-notes",
+      "url": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, se",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Starlette 1.0 skill",
+      "slug": "starlette-1-0-skill",
+      "url": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "slug": "canisterworm-springs-wiper-attack-targeting-iran",
+      "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly",
+      "tags": [
+        "krebsonsecurity"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The HTML Review: Issue 05",
+      "slug": "the-html-review-issue-05",
+      "url": "https://thehtml.review/05/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "What a lovely thing to drop amidst my recent consternation over the state of web design. To paraphrase Richard III: A horse, a horse! My kingdom for n",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Set intersection and difference at the command line",
+      "slug": "set-intersection-and-difference-at-the-command-line",
+      "url": "https://www.johndcook.com/blog/2026/03/23/intersection-difference/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two dra",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "运行不可信JS？这6种沙盒方案实测对决",
+      "slug": "运行不可信js-这6种沙盒方案实测对决",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "深入对比Node.js worker_threads、isolated-vm、vm2、QuickJS等主流沙盒方案，揭秘运行不可信代码的安全陷阱与最佳实践，附Claude Code完整研究过程。",
+      "tags": [
+        "JavaScript",
+        "沙盒安全",
+        "Node.js"
+      ],
+      "recommendReason": "系统性解决了'如何安全运行不可信JS代码'这一高频难题，技术选型参考价值极高。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "15KB正文膨胀到37MB？广告正在吞噬互联网",
+      "slug": "15kb正文膨胀到37mb-广告正在吞噬互联网",
+      "url": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "PCGamer一篇RSS文章审计显示：核心内容仅15KB，页面却达37MB并持续下载至200MB，82%流量来自广告追踪脚本，揭示现代网页严重的性能危机。",
+      "tags": [
+        "网页性能",
+        "前端优化",
+        "广告技术"
+      ],
+      "recommendReason": "用真实数据揭示广告技术如何摧毁网页体验，为开发者和产品经理敲响性能警钟。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "发现Cloudflare隐藏API后，我用AI五分钟搭了个神器",
+      "slug": "发现cloudflare隐藏api后-我用ai五分钟搭了个神器",
+      "url": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "作者意外发现Cloudflare 1.1.1.1 DNS服务提供CORS-enabled JSON接口，随即使用Claude Code快速构建UI工具，实现三款DNS解析器的实时对比查询。",
+      "tags": [
+        "DNS",
+        "Cloudflare",
+        "Claude-Code"
+      ],
+      "recommendReason": "揭秘冷门实用API与AI编程结合的快速开发范式，开发者可直接复现提升调试效率。",
+      "score": 8.5,
+      "translated": false
+    },
     {
       "title": "‘Good, I’m Glad He’s Dead.’",
       "slug": "good-i-m-glad-he-s-dead",
@@ -592,6 +841,36 @@
       "description": "I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my ac",
       "tags": [
         "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "slug": "experimenting-with-starlette-1-0-with-claude-skills",
+      "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low bra",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Merge State Visualizer",
+      "slug": "merge-state-visualizer",
+      "url": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Pyt",
+      "tags": [
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0,
