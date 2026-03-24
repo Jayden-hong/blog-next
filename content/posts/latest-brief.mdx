@@ -4,132 +4,146 @@ date: "2026-03-24T06:00:00Z"
 tags: ["daily-brief", "rss"]
 ---
 
-> 24 articles · 6.8/10 avg · 12 highlights (≥7.5)
+> 26 articles · 7.0/10 avg · 15 highlights (≥7.5)
 
-**1. [运行不可信JS？这6种沙盒方案实测对决](https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything)** · 8.8/10 · simonwillison
+**1. [同事发你AI原文？这是对你时间的羞辱](https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything)** · 8.5/10 · simonwillison
 
-深入对比Node.js worker_threads、isolated-vm、vm2、QuickJS等主流沙盒方案，揭秘运行不可信代码的安全陷阱与最佳实践，附Claude Code完整研究过程。
+引用Neurotica对"slop"的犀利定义：当内容消耗人类的精力比生产成本更高时，就是垃圾。直指滥用AI生成内容是对他人时间价值的侵犯。
 
-> 系统性解决了'如何安全运行不可信JS代码'这一高频难题，技术选型参考价值极高。
+> 用一个精准定义戳破AI滥用的泡沫，重新定义了数字时代的尊重边界。
 
-**2. [15KB正文膨胀到37MB？广告正在吞噬互联网](https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything)** · 8.5/10 · simonwillison
+**2. [文件直接拖进数据库？这个开源工具做到了](https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything)** · 8.5/10 · simonwillison
 
-PCGamer一篇RSS文章审计显示：核心内容仅15KB，页面却达37MB并持续下载至200MB，82%流量来自广告追踪脚本，揭示现代网页严重的性能危机。
+Datasette 插件发布重磅更新：支持多文件上传、CSV自动转数据表、图片自动生成缩略图，让数据管理告别命令行。
 
-> 用真实数据揭示广告技术如何摧毁网页体验，为开发者和产品经理敲响性能警钟。
+> 零代码实现文件入库与数据转换，大幅降低数据分析门槛的实用利器。
 
-**3. [发现Cloudflare隐藏API后，我用AI五分钟搭了个神器](https://simonwillison.net/2026/Mar/22/dns/#atom-everything)** · 8.5/10 · simonwillison
+**3. [机器学习不会替你做的那个关键决定](https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything)** · 8.5/10 · simonwillison
 
-作者意外发现Cloudflare 1.1.1.1 DNS服务提供CORS-enabled JSON接口，随即使用Claude Code快速构建UI工具，实现三款DNS解析器的实时对比查询。
+David Abram指出，LLMs虽能生成代码，却无法理解系统架构、做出关键决策。软件开发真正的价值在于判断该构建什么，而非仅仅如何构建。
 
-> 揭秘冷门实用API与AI编程结合的快速开发范式，开发者可直接复现提升调试效率。
+> 在AI编程工具泛滥的时代，清醒认识机器能力的边界，守住程序员不可替代的系统思考与决策能力。
 
-**4. [分析1000条评论，AI竟能生成你的精准画像？](https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything)** · 8.5/10 · simonwillison
+**4. [训练数据滞后怎么办？他用 Claude 技能破解 Starlette 1.0 适配难题](https://simonwillison.net/2026/Mar/22/starlette/#atom-everything)** · 8.5/10 · simonwillison
 
-Django联合创始人演示如何通过HN评论+Claude生成详细用户画像，揭示公开数据背后的隐私风险与AI分析能力。
+Starlette 1.0 正式发布带来破坏性变更，作者创新性地使用 Claude Skills 让 AI 生成兼容最新版代码，解决 LLM 训练数据过时痛点。
 
-> 揭示公开评论背后的隐私风险，展示LLM强大的文本分析能力，兼具技术实操与伦理思考价值。
+> 提供了应对 LLM 训练数据滞后问题的实用解决方案，对需要让 AI 生成最新 API 代码的开发者极具启发。
 
-**5. [别再死记Git命令！AI时代这样用Git才够聪明](https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything)** · 8.5/10 · simonwillison
+**5. [470行Python重写版本控制未来？这个工具让你秒懂CRDT](https://simonwillison.net/2026/Mar/22/manyana/#atom-everything)** · 8.5/10 · simonwillison
 
-Simon Willison分享与AI编程助手协作使用Git的新范式：无需记忆复杂命令，只需掌握核心概念和提示词技巧，让AI自动处理版本控制。
+BitTorrent之父Bram Cohen提出基于CRDT的版本控制新愿景，Simon Willison借助Claude解析代码，并用Pyodide打造浏览器交互式可视化工具，让复杂算法一目了然。
 
-> 揭示了AI时代Git使用范式的根本转变，提供可立即落地的提示词工程技巧。
+> 将抽象的分布式算法转化为可交互的网页演示，是理解下一代版本控制技术的绝佳入口。
 
-**6. [美国油价竟比穷国还低？全球能源价格地图揭秘](https://www.globalpetrolprices.com/gasoline_prices/)** · 8.5/10 · daringfireball
+**6. [云服务变武器？这个蠕虫正在删除伊朗数据](https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/)** · 8.5/10 · krebsonsecurity
 
-全球汽油均价1.37美元/升，但国与国价格差异巨大。揭秘税收与补贴如何造就油价鸿沟，为何富国油贵、产油国反而便宜。
+网络犯罪团伙TeamPCP利用暴露的Docker和Kubernetes漏洞传播CanisterWorm蠕虫，专门擦除伊朗时区及波斯语系统数据，此前还攻击了Trivy扫描器发动供应链攻击。
 
-> 一张图看懂全球能源格局，揭秘油价差异背后的税收逻辑与地缘政治。
+> 揭示了现代网络犯罪如何通过自动化武器化云服务漏洞，并警示企业暴露的云基础设施面临的巨大风险。
 
 ---
 
 **More articles from the past 24 hours:**
 
-**7. [十年前这篇文，说透了互联网广告的绝症](https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads)** · 8.5/10 · daringfireball
+**7. [同样的油，为什么有的国家贵3倍？真相让人意外](https://www.globalpetrolprices.com/gasoline_prices/)** · 8.5/10 · daringfireball
 
-Rene Ritchie揭露移动广告交换网络的失控困境，Gruber犀利点评：屏幕越小广告越烦，收入却越低，行业陷入恶性循环。
+揭秘全球汽油价格差异，平均1.37美元/升，但富国与穷国差距巨大。美国为何成为例外？税收与补贴政策如何影响你的钱包？
 
-> 提前十年预言了内容变现的结构性困境，对理解当下广告与用户体验的矛盾极具穿透力。
+> 通过详实数据揭示全球油价差异背后的税收逻辑，帮助读者理解能源政策与地缘经济的关系。
 
-**8. [视频开发从月缩到分钟？这个API把复杂藏在了...](https://www.mux.com/?utm_campaign=fireball&utm_source=DF)** · 8.5/10 · daringfireball
+**8. [WWDC 2026定档6月！苹果AI王炸要来了？](https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/)** · 8.5/10 · daringfireball
 
-Mux为开发者提供一站式视频API，支持嵌入、缩略图、字幕、剪辑等功能，几行代码即可实现专业视频处理能力，大幅提升开发效率。
+苹果官宣WWDC 2026将于6月8日至12日线上举行，Apple Park特别活动同日开启，将聚焦AI突破与全新开发工具。
 
-> 适合需要快速集成视频功能的技术团队，提供了从上传到播放的完整代码方案，能显著降低视频基础设施开发成本。
+> 开发者必读！提前锁定年度技术风向，把握AI与生态新机遇。
 
-**9. [融了1亿却藏了一年，Bluesky在怕什么？](https://bsky.social/about/blog/03-19-2026-series-b)** · 8.5/10 · daringfireball
+**9. [这个行业十年前就烂了，为什么我们还在忍？](https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads)** · 8.5/10 · daringfireball
 
-Bluesky刚刚披露2025年4月完成的1亿美元B轮融资，用户已从1300万暴涨至4300万，创始人转任首席创新官，去中心化社交协议生态扩张迅猛。
+十年前行业人士揭露广告交换平台黑箱操作，移动广告收入下滑导致出版商被迫增加侵入性广告，陷入用户体验与商业利益的两难困境。
 
-> 揭秘这家挑战推特的去中心化平台为何延迟一年公布巨额融资，以及其构建开放社交网络的野心与布局。
+> 揭示在线广告行业结构性矛盾的源头，帮助理解当前互联网内容付费与广告干扰困境的历史根源。
 
-**10. [服务越来越差？这是资本 deliberate 的阴谋](https://pluralistic.net/2026/03/22/nobodys-home/)** · 8.5/10 · pluralistic
+**10. [几分钟上线视频功能？开发者都在偷偷用这个API](https://www.mux.com/?utm_campaign=fireball&utm_source=DF)** · 8.5/10 · daringfireball
 
-Cory Doctorow揭示人手不足不仅是成本削减，而是enshittification（恶化）的新形式：通过制造依赖和稀缺，系统性转移价值。
+Mux视频API让开发者几分钟内集成高性能视频播放、智能缩略图、自动生成字幕和精准剪辑功能，告别数月开发周期。
 
-> 看透现代服务劣化背后的经济逻辑，理解资本如何通过'制造稀缺'实现价值转移。
+> 提供即插即用的视频处理方案，用几行代码替代数月开发，是构建视频功能的最短路径。
 
-**11. [服务总被误杀？微软工程师道出残酷真相](https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157)** · 8.5/10 · oldnewthing
+**11. [一篇文章吃掉半G流量？互联网广告失控实录](https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/)** · 8.5/10 · daringfireball
 
-深入解析Windows安全架构悖论：为何反恶意软件拥有绝对生杀大权，以及为何技术上无法让服务对其免疫而不被恶意软件利用。
+PC Gamer一篇推荐RSS阅读器的文章本身却充斥广告：初始加载37MB，5分钟内再下载近500MB广告。作者以此讽刺现代网页的臃肿，反衬RSS工具的纯净价值。
 
-> 从内核权限角度厘清安全设计的根本逻辑，帮助开发者理解系统边界与风险权衡。
+> 用震撼数据揭示现代网站的'广告癌'现象，直击信息消费痛点并提供RSS这一优雅解决方案。
 
-**12. [WWDC 2026定档6月！苹果AI杀手锏要来了？](https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/)** · 8.2/10 · daringfireball
+**12. [融资1亿却压箱底一年，Bluesky在憋什么大招](https://bsky.social/about/blog/03-19-2026-series-b)** · 8.5/10 · daringfireball
 
-苹果官宣WWDC 2026将于6月8-12日举办，采用线上+线下混合模式，将重点展示AI技术突破与新软件工具，全球开发者可通过Apple Park特别活动参与。
+Bluesky披露2025年4月完成的1亿美元B轮融资，用户已暴涨至4300万，创始人转任首席创新官，布局开放社交网络基础设施。
 
-> 作为苹果年度最重要技术盛会，WWDC 2026日期与重点方向的提前公布为开发者和科技爱好者提供了前瞻布局的关键信息。
+> 揭秘延迟披露背后的战略意图，看去中心化社交如何挑战传统平台格局。
 
-**13. [Quoting David Abram](https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything)** · 5.0/10 · simonwillison
+**13. [服务越来越差是故意的？揭秘资本'粪化'新手段](https://pluralistic.net/2026/03/22/nobodys-home/)** · 8.5/10 · pluralistic
 
-I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding s
+Cory Doctorow提出：企业通过故意人手不足榨取价值，将成本转嫁给员工和消费者，这是平台资本主义中'粪化'现象的物理形态。
 
-**14. [Beats now have notes](https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything)** · 5.0/10 · simonwillison
+> 揭示现代服务质量下滑背后的经济学阴谋，读懂资本如何将你的等待时间转化为股东利润。
+
+**14. [你家CEO敢打自己的客服电话吗？](https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/)** · 8.5/10 · shkspr.mobi
+
+通过对比大公司糟糕的AI客服与小公司高管亲自回访的案例，揭示产品自测（Dogfooding）的残酷真相：不仅要"吃狗粮"，更要体验那些让用户崩溃的困难流程。
+
+> 一针见血地戳破产品自测的盲区——团队只体验光鲜功能却回避痛苦流程，用生动比喻和真实案例揭示真正用户同理心的来源。
+
+**15. [为什么你的Windows服务永远无法“防杀”？](https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157)** · 7.8/10 · oldnewthing
+
+揭秘Windows系统安全设计的底层逻辑：为何连合法服务也无法免疫反恶意软件，以及内核级权限的终极边界与风险权衡。
+
+> 一针见血地戳破开发者常见的安全误区，理解操作系统权限设计的本质约束。
+
+**16. [Beats now have notes](https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything)** · 5.0/10 · simonwillison
 
 Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, se
 
-**15. [Starlette 1.0 skill](https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything)** · 5.0/10 · simonwillison
+**17. [Starlette 1.0 skill](https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything)** · 5.0/10 · simonwillison
 
 Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette
 
-**16. [Experimenting with Starlette 1.0 with Claude skills](https://simonwillison.net/2026/Mar/22/starlette/#atom-everything)** · 5.0/10 · simonwillison
+**18. [PCGamer Article Performance Audit](https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything)** · 5.0/10 · simonwillison
 
-Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low bra
+Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Dow
 
-**17. [Merge State Visualizer](https://simonwillison.net/2026/Mar/22/manyana/#atom-everything)** · 5.0/10 · simonwillison
+**19. [JavaScript Sandboxing Research](https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything)** · 5.0/10 · simonwillison
 
-Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Pyt
+Research: JavaScript Sandboxing Research Aaron Harper wrote about Node.js worker threads , which inspired me to run a research task to see if they mig
 
-**18. [‘CanisterWorm’ Springs Wiper Attack Targeting Iran](https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/)** · 5.0/10 · krebsonsecurity
+**20. [DNS Lookup](https://simonwillison.net/2026/Mar/22/dns/#atom-everything)** · 5.0/10 · simonwillison
 
-A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly
+Tool: DNS Lookup TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has
 
-**19. [The HTML Review: Issue 05](https://thehtml.review/05/)** · 5.0/10 · daringfireball
+**21. [[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps](https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026)** · 5.0/10 · daringfireball
+
+npx workos@latest launches an AI agent, powered by Claude , that reads your project, detects your framework, and writes a complete auth integration in
+
+**22. [The HTML Review: Issue 05](https://thehtml.review/05/)** · 5.0/10 · daringfireball
 
 What a lovely thing to drop amidst my recent consternation over the state of web design. To paraphrase Richard III: A horse, a horse! My kingdom for n
 
-**20. [‘Good, I’m Glad He’s Dead.’](https://truthsocial.com/@realDonaldTrump/116268334535345382)** · 5.0/10 · daringfireball
+**23. [‘Good, I’m Glad He’s Dead.’](https://truthsocial.com/@realDonaldTrump/116268334535345382)** · 5.0/10 · daringfireball
 
 The sitting president of the United States, on his blog: Robert Mueller just died. Good, I’m glad he’s dead. He can no longer hurt innocent people! Pr
 
-**21. [Half a Gigabyte of Ads](https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/)** · 5.0/10 · daringfireball
-
-Stuart Breckenridge, examining a web page at PC Gamer: Third, this is a whopping 37MB webpage on initial load. But that’s not the worst part. In the f
-
-**22. [Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’](https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/)** · 5.0/10 · daringfireball
+**24. [Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’](https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/)** · 5.0/10 · daringfireball
 
 Greg Bensinger, reporting for Reuters: The latest effort, known internally as “Transformer,” is being developed within its devices and services unit, 
 
-**23. [Bored of eating your own dogfood? Try smelling your own farts!](https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/)** · 5.0/10 · shkspr.mobi
-
-I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my ac
-
-**24. [Set intersection and difference at the command line](https://www.johndcook.com/blog/2026/03/23/intersection-difference/)** · 5.0/10 · johndcook
+**25. [Set intersection and difference at the command line](https://www.johndcook.com/blog/2026/03/23/intersection-difference/)** · 5.0/10 · johndcook
 
 A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two dra
 
+**26. [Writing an LLM from scratch, part 32f -- Interventions: weight decay](https://www.gilesthomas.com/2026/03/llm-from-scratch-32f-interventions-weight-decay)** · 5.0/10 · gilesthomas
+
+I'm still working on improving the test loss for a from-scratch GPT-2 small base model, trained on code based on Sebastian Raschka 's book " Build a L
+
 ---
-*2026-03-24 02:21 UTC · Kimi K2 · 94 sources*
+*2026-03-24 02:51 UTC · Kimi K2 · 94 sources*
 

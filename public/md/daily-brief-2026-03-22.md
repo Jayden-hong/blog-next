@@ -1,0 +1,84 @@
+﻿---
+title: "Daily Read · 2026-03-22"
+date: "2026-03-22T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-22"
+---
+
+> 14 articles · 6.5/10 avg · 6 highlights (≥7.5)
+
+**1. [300万台设备成帮凶？四国联合摧毁超级僵尸网络](https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/)** · 8.5/10 · krebsonsecurity
+
+美加德联合行动摧毁四大IoT僵尸网络，控制超300万台摄像头和路由器，发动数十万次DDoS攻击勒索巨额赎金，揭秘内网穿透新型攻击手法。
+
+> 深度拆解当代最猖獗的物联网僵尸网络运作内幕与国际执法破局关键，揭示内网设备面临的新型渗透威胁。
+
+**2. [4.9分小众浏览器，把iPhone自定义玩到极致](https://quiche.industries/browser/)** · 8.5/10 · daringfireball
+
+Quiche Browser是一款兼具极简美学与深度定制的iOS浏览器，支持按钮自由布局、菜单个性化设置及标签页灵活管理，在保持易用性的同时提供极致自定义体验，成为Safari的强力替代品。
+
+> 如果你厌倦了千篇一律的浏览器界面，这款支持深度自定义且隐私友好的iOS浏览器可能是Safari的最佳替代方案。
+
+**3. [当总统靠'冲动'治国：全世界都懂了，只有他装睡](https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I)** · 8.5/10 · daringfireball
+
+剖析特朗普非理性的决策模式如何导致国际危机，揭示其冲动行事、推诿责任的行为对全球秩序的破坏。
+
+> 深刻揭示个人决策风格如何引发地缘政治危机，是理解当代领导力困境的必读之作。
+
+**4. [ARM64栈保护揭秘：Windows如何防栈溢出崩溃？](https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154)** · 8.5/10 · oldnewthing
+
+深入解析Windows ARM64架构下的栈限制检查机制，揭秘chkstk汇编实现的底层逻辑与页探测技术细节。
+
+> Raymond Chen亲授Windows底层黑科技，搞懂ARM64栈保护机制对系统安全和编译器优化至关重要。
+
+**5. [Python 3.11 暗藏杀机？上千字符的正则突然报错...](https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/)** · 8.5/10 · johndcook
+
+揭秘嵌入式正则标志在 Python 3.11+ 中的破坏性变更，无需修改庞大正则表达式即可解决兼容性陷阱的实战方案。
+
+> 拯救遗留代码神器：不用改动千行正则就能搞定 Python 版本升级陷阱。
+
+**6. [融资1亿却秘而不宣，Bluesky在下一盘什么大棋？](https://bsky.social/about/blog/03-19-2026-series-b)** · 8.2/10 · daringfireball
+
+Bluesky披露一年前完成的1亿美元B轮融资，用户从1300万激增至4300万，AT Protocol生态爆发式增长，创始人转任新职。
+
+> 揭秘这家去中心化社交平台为何延迟一年披露巨额融资，以及其背后用户暴增和开源生态爆发的战略布局。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [Turbo Pascal 3.02A, deconstructed](https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything)** · 5.0/10 · simonwillison
+
+Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borlan
+
+**8. [Quoting Kimi.ai @Kimi_Moonshot](https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything)** · 5.0/10 · simonwillison
+
+Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effecti
+
+**9. [The best laptop Apple ever made](https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/)** · 5.0/10 · jeffgeerling
+
+Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11" MacBook Air. `.embed-container` CSS position relative padding
+
+**10. [Google Search Is Now Using AI to Rewrite Headlines](https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&utm_medium=gift-link)** · 5.0/10 · daringfireball
+
+Sean Hollister, The Verge (gift link): After doing something similar in its Google Discover news feed , it’s starting to mess with headlines in the tr
+
+**11. [Perhaps Bluesky’s Revelation of an 11-Month Ago $100 Million Investment Was, in Fact, an Act of Transparency](https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j)** · 5.0/10 · daringfireball
+
+Regarding my earlier post expressing confusion/discomfort with Bluesky announcing a $100 million funding round almost an entire year after it closed, 
+
+**12. [Why Is Everyone Supposed to Die If Machines Can Think?](https://idiallo.com/blog/everyone-is-supposed-to-die-when-machines-can-think?src=feed)** · 5.0/10 · idiallo
+
+If you only listen to spokespersons for AI companies, you'll have a skewed view of how AI is actually being integrated into the workplace. You probabl
+
+**13. [I'm OK being left behind, thanks!](https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/)** · 5.0/10 · shkspr.mobi
+
+Many years ago, someone tried to get me into cryptocurrencies. "They're the future of money!" they said. I replied saying that I'd rather wait until t
+
+**14. [Some Things Just Take Time](https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/)** · 5.0/10 · lucumr-pocoo
+
+Trees take quite a while to grow. If someone 50 years ago planted a row of oaks or a chestnut tree on your plot of land, you have something that no am
+
+---
+*2026-03-21 22:16 UTC · Kimi K2 · 94 sources*

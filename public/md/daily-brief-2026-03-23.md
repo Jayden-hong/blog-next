@@ -1,0 +1,48 @@
+﻿---
+title: "Daily Read · 2026-03-23"
+date: "2026-03-23T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-23"
+---
+
+> 8 articles · 5.0/10 avg · 0 highlights (≥7.5)
+
+**1. [Profiling Hacker News users based on their comments](https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything)** · 5.0/10 · simonwillison
+
+Here's a mildly dystopian prompt I've been experimenting with recently: "Profile this user", accompanied by a copy of their last 1,000 comments on Hac
+
+**2. [Using Git with coding agents](https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything)** · 5.0/10 · simonwillison
+
+Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes 
+
+**3. [Turbo Pascal 3.02A, deconstructed](https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything)** · 5.0/10 · simonwillison
+
+Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borlan
+
+**4. [Mux — Video API for Developers](https://www.mux.com/?utm_campaign=fireball&utm_source=DF)** · 5.0/10 · daringfireball
+
+My thanks to Mux for sponsoring last week at DF. Video isn’t just something to watch; it’s a boatload of context and data. Mux makes it easy to ship a
+
+**5. [‘Good, I’m Glad He’s Dead.’](https://truthsocial.com/@realDonaldTrump/116268334535345382)** · 5.0/10 · daringfireball
+
+The sitting president of the United States, on his blog: Robert Mueller just died. Good, I’m glad he’s dead. He can no longer hurt innocent people! Pr
+
+**6. [Half a Gigabyte of Ads](https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/)** · 5.0/10 · daringfireball
+
+Stuart Breckenridge, examining a web page at PC Gamer: Third, this is a whopping 37MB webpage on initial load. But that’s not the worst part. In the f
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’](https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/)** · 5.0/10 · daringfireball
+
+Greg Bensinger, reporting for Reuters: The latest effort, known internally as “Transformer,” is being developed within its devices and services unit, 
+
+**8. [Bored of eating your own dogfood? Try smelling your own farts!](https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/)** · 5.0/10 · shkspr.mobi
+
+I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my ac
+
+---
+*2026-03-22 22:12 UTC · Kimi K2 · 94 sources*

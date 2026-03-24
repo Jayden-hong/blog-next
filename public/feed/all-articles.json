@@ -1,8 +1,1244 @@
 {
-  "date": "2026-03-16",
-  "totalSources": 404,
-  "totalArticles": 256,
+  "date": "2026-03-23",
+  "totalSources": 513,
+  "totalArticles": 320,
   "articles": [
+    {
+      "title": "运行不可信JS？这6种沙盒方案实测对决",
+      "slug": "js-6",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "深入对比Node.js worker_threads、isolated-vm、vm2、QuickJS等主流沙盒方案，揭秘运行不可信代码的安全陷阱与最佳实践，附Claude Code完整研究过程。",
+      "tags": [
+        "JavaScript",
+        "沙盒安全",
+        "Node.js"
+      ],
+      "recommendReason": "系统性解决了'如何安全运行不可信JS代码'这一高频难题，技术选型参考价值极高。",
+      "score": 8.8
+    },
+    {
+      "title": "15KB正文膨胀到37MB？广告正在吞噬互联网",
+      "slug": "15kb-37mb",
+      "url": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "PCGamer一篇RSS文章审计显示：核心内容仅15KB，页面却达37MB并持续下载至200MB，82%流量来自广告追踪脚本，揭示现代网页严重的性能危机。",
+      "tags": [
+        "网页性能",
+        "前端优化",
+        "广告技术"
+      ],
+      "recommendReason": "用真实数据揭示广告技术如何摧毁网页体验，为开发者和产品经理敲响性能警钟。",
+      "score": 8.5
+    },
+    {
+      "title": "发现Cloudflare隐藏API后，我用AI五分钟搭了个神器",
+      "slug": "cloudflare-api-ai",
+      "url": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "作者意外发现Cloudflare 1.1.1.1 DNS服务提供CORS-enabled JSON接口，随即使用Claude Code快速构建UI工具，实现三款DNS解析器的实时对比查询。",
+      "tags": [
+        "DNS",
+        "Cloudflare",
+        "Claude-Code"
+      ],
+      "recommendReason": "揭秘冷门实用API与AI编程结合的快速开发范式，开发者可直接复现提升调试效率。",
+      "score": 8.5
+    },
+    {
+      "title": "分析1000条评论，AI竟能生成你的精准画像？",
+      "slug": "1000-ai",
+      "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-21",
+      "description": "Django联合创始人演示如何通过HN评论+Claude生成详细用户画像，揭示公开数据背后的隐私风险与AI分析能力。",
+      "tags": [
+        "AI应用",
+        "隐私安全",
+        "数据分析"
+      ],
+      "recommendReason": "揭示公开评论背后的隐私风险，展示LLM强大的文本分析能力，兼具技术实操与伦理思考价值。",
+      "score": 8.5
+    },
+    {
+      "title": "别再死记Git命令！AI时代这样用Git才够聪明",
+      "slug": "git-ai-git",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-21",
+      "description": "Simon Willison分享与AI编程助手协作使用Git的新范式：无需记忆复杂命令，只需掌握核心概念和提示词技巧，让AI自动处理版本控制。",
+      "tags": [
+        "Git",
+        "AI编程",
+        "开发工具"
+      ],
+      "recommendReason": "揭示了AI时代Git使用范式的根本转变，提供可立即落地的提示词工程技巧。",
+      "score": 8.5
+    },
+    {
+      "title": "美国油价竟比穷国还低？全球能源价格地图揭秘",
+      "slug": "article-2026-03-23-6",
+      "url": "https://www.globalpetrolprices.com/gasoline_prices/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "全球汽油均价1.37美元/升，但国与国价格差异巨大。揭秘税收与补贴如何造就油价鸿沟，为何富国油贵、产油国反而便宜。",
+      "tags": [
+        "能源经济",
+        "全球经济",
+        "数据可视化"
+      ],
+      "recommendReason": "一张图看懂全球能源格局，揭秘油价差异背后的税收逻辑与地缘政治。",
+      "score": 8.5
+    },
+    {
+      "title": "十年前这篇文，说透了互联网广告的绝症",
+      "slug": "article-2026-03-23-7",
+      "url": "https://daringfireball.net/linked/2015/07/09/ritchie-bad-ads",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "Rene Ritchie揭露移动广告交换网络的失控困境，Gruber犀利点评：屏幕越小广告越烦，收入却越低，行业陷入恶性循环。",
+      "tags": [
+        "在线广告",
+        "移动互联网",
+        "商业模式"
+      ],
+      "recommendReason": "提前十年预言了内容变现的结构性困境，对理解当下广告与用户体验的矛盾极具穿透力。",
+      "score": 8.5
+    },
+    {
+      "title": "视频开发从月缩到分钟？这个API把复杂藏在了...",
+      "slug": "api",
+      "url": "https://www.mux.com/?utm_campaign=fireball&utm_source=DF",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-22",
+      "description": "Mux为开发者提供一站式视频API，支持嵌入、缩略图、字幕、剪辑等功能，几行代码即可实现专业视频处理能力，大幅提升开发效率。",
+      "tags": [
+        "开发者工具",
+        "视频API",
+        "技术架构"
+      ],
+      "recommendReason": "适合需要快速集成视频功能的技术团队，提供了从上传到播放的完整代码方案，能显著降低视频基础设施开发成本。",
+      "score": 8.5
+    },
+    {
+      "title": "融了1亿却藏了一年，Bluesky在怕什么？",
+      "slug": "1-bluesky",
+      "url": "https://bsky.social/about/blog/03-19-2026-series-b",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "Bluesky刚刚披露2025年4月完成的1亿美元B轮融资，用户已从1300万暴涨至4300万，创始人转任首席创新官，去中心化社交协议生态扩张迅猛。",
+      "tags": [
+        "去中心化社交",
+        "Bluesky",
+        "融资披露"
+      ],
+      "recommendReason": "揭秘这家挑战推特的去中心化平台为何延迟一年公布巨额融资，以及其构建开放社交网络的野心与布局。",
+      "score": 8.5
+    },
+    {
+      "title": "服务越来越差？这是资本 deliberate 的阴谋",
+      "slug": "deliberate",
+      "url": "https://pluralistic.net/2026/03/22/nobodys-home/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Cory Doctorow揭示人手不足不仅是成本削减，而是enshittification（恶化）的新形式：通过制造依赖和稀缺，系统性转移价值。",
+      "tags": [
+        "enshittification",
+        "平台经济",
+        "劳资关系"
+      ],
+      "recommendReason": "看透现代服务劣化背后的经济逻辑，理解资本如何通过'制造稀缺'实现价值转移。",
+      "score": 8.5
+    },
+    {
+      "title": "服务总被误杀？微软工程师道出残酷真相",
+      "slug": "article-2026-03-23-11",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260323-00/?p=112157",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "深入解析Windows安全架构悖论：为何反恶意软件拥有绝对生杀大权，以及为何技术上无法让服务对其免疫而不被恶意软件利用。",
+      "tags": [
+        "Windows安全",
+        "系统架构",
+        "权限管理"
+      ],
+      "recommendReason": "从内核权限角度厘清安全设计的根本逻辑，帮助开发者理解系统边界与风险权衡。",
+      "score": 8.5
+    },
+    {
+      "title": "WWDC 2026定档6月！苹果AI杀手锏要来了？",
+      "slug": "wwdc-2026-6-ai",
+      "url": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "苹果官宣WWDC 2026将于6月8-12日举办，采用线上+线下混合模式，将重点展示AI技术突破与新软件工具，全球开发者可通过Apple Park特别活动参与。",
+      "tags": [
+        "WWDC 2026",
+        "苹果开发者大会",
+        "AI技术"
+      ],
+      "recommendReason": "作为苹果年度最重要技术盛会，WWDC 2026日期与重点方向的提前公布为开发者和科技爱好者提供了前瞻布局的关键信息。",
+      "score": 8.2
+    },
+    {
+      "title": "Quoting David Abram",
+      "slug": "quoting-david-abram",
+      "url": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding s",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Beats now have notes",
+      "slug": "beats-now-have-notes",
+      "url": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, se",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Starlette 1.0 skill",
+      "slug": "starlette-1-0-skill",
+      "url": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "slug": "experimenting-with-starlette-1-0-with-claude-skills",
+      "url": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low bra",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Merge State Visualizer",
+      "slug": "merge-state-visualizer",
+      "url": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Pyt",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "slug": "canisterworm-springs-wiper-attack-targeting-iran",
+      "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly",
+      "tags": [
+        "krebsonsecurity"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "The HTML Review: Issue 05",
+      "slug": "the-html-review-issue-05",
+      "url": "https://thehtml.review/05/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-23",
+      "description": "What a lovely thing to drop amidst my recent consternation over the state of web design. To paraphrase Richard III: A horse, a horse! My kingdom for n",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "‘Good, I’m Glad He’s Dead.’",
+      "slug": "good-i-m-glad-he-s-dead",
+      "url": "https://truthsocial.com/@realDonaldTrump/116268334535345382",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-22",
+      "description": "The sitting president of the United States, on his blog: Robert Mueller just died. Good, I’m glad he’s dead. He can no longer hurt innocent people! Pr",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Half a Gigabyte of Ads",
+      "slug": "half-a-gigabyte-of-ads",
+      "url": "https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-22",
+      "description": "Stuart Breckenridge, examining a web page at PC Gamer: Third, this is a whopping 37MB webpage on initial load. But that’s not the worst part. In the f",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Reuters: ‘Amazon Plans Smartphone Comeback More Than a Decade After Fire Phone Flop’",
+      "slug": "reuters-amazon-plans-smartphone-comeback-more-than-a-decade-after-fire-phone-flop",
+      "url": "https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-22",
+      "description": "Greg Bensinger, reporting for Reuters: The latest effort, known internally as “Transformer,” is being developed within its devices and services unit, ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Bored of eating your own dogfood? Try smelling your own farts!",
+      "slug": "bored-of-eating-your-own-dogfood-try-smelling-your-own-farts",
+      "url": "https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "I called a large company the other day. Did I know the information I wanted could be found on their website? And was I aware that I could manage my ac",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Set intersection and difference at the command line",
+      "slug": "set-intersection-and-difference-at-the-command-line",
+      "url": "https://www.johndcook.com/blog/2026/03/23/intersection-difference/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two dra",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "slug": "turbo-pascal-3-02a-deconstructed",
+      "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borlan",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "300万台设备成帮凶？四国联合摧毁超级僵尸网络",
+      "slug": "300",
+      "url": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "美加德联合行动摧毁四大IoT僵尸网络，控制超300万台摄像头和路由器，发动数十万次DDoS攻击勒索巨额赎金，揭秘内网穿透新型攻击手法。",
+      "tags": [
+        "网络安全",
+        "IoT安全",
+        "DDoS攻击"
+      ],
+      "recommendReason": "深度拆解当代最猖獗的物联网僵尸网络运作内幕与国际执法破局关键，揭示内网设备面临的新型渗透威胁。",
+      "score": 8.5
+    },
+    {
+      "title": "4.9分小众浏览器，把iPhone自定义玩到极致",
+      "slug": "4-9-iphone",
+      "url": "https://quiche.industries/browser/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-20",
+      "description": "Quiche Browser是一款兼具极简美学与深度定制的iOS浏览器，支持按钮自由布局、菜单个性化设置及标签页灵活管理，在保持易用性的同时提供极致自定义体验，成为Safari的强力替代品。",
+      "tags": [
+        "iOS应用",
+        "浏览器推荐",
+        "效率工具"
+      ],
+      "recommendReason": "如果你厌倦了千篇一律的浏览器界面，这款支持深度自定义且隐私友好的iOS浏览器可能是Safari的最佳替代方案。",
+      "score": 8.5
+    },
+    {
+      "title": "当总统靠'冲动'治国：全世界都懂了，只有他装睡",
+      "slug": "article-2026-03-21-3",
+      "url": "https://www.theatlantic.com/ideas/2026/03/trump-iran-war-allies/686423/?gift=aQyUJR7AIw1mJWdQ6Ed6yGfvOucd9Oa8W54yMDTtr2I",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-20",
+      "description": "剖析特朗普非理性的决策模式如何导致国际危机，揭示其冲动行事、推诿责任的行为对全球秩序的破坏。",
+      "tags": [
+        "特朗普",
+        "国际关系",
+        "政治分析"
+      ],
+      "recommendReason": "深刻揭示个人决策风格如何引发地缘政治危机，是理解当代领导力困境的必读之作。",
+      "score": 8.5
+    },
+    {
+      "title": "ARM64栈保护揭秘：Windows如何防栈溢出崩溃？",
+      "slug": "arm64-windows",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260320-00/?p=112154",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "深入解析Windows ARM64架构下的栈限制检查机制，揭秘chkstk汇编实现的底层逻辑与页探测技术细节。",
+      "tags": [
+        "Windows内核",
+        "ARM64",
+        "底层编程"
+      ],
+      "recommendReason": "Raymond Chen亲授Windows底层黑科技，搞懂ARM64栈保护机制对系统安全和编译器优化至关重要。",
+      "score": 8.5
+    },
+    {
+      "title": "Python 3.11 暗藏杀机？上千字符的正则突然报错...",
+      "slug": "python-3-11",
+      "url": "https://www.johndcook.com/blog/2026/03/20/embedded-regex-flags/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "揭秘嵌入式正则标志在 Python 3.11+ 中的破坏性变更，无需修改庞大正则表达式即可解决兼容性陷阱的实战方案。",
+      "tags": [
+        "Python",
+        "正则表达式",
+        "版本兼容"
+      ],
+      "recommendReason": "拯救遗留代码神器：不用改动千行正则就能搞定 Python 版本升级陷阱。",
+      "score": 8.5
+    },
+    {
+      "title": "Quoting Kimi.ai @Kimi_Moonshot",
+      "slug": "quoting-kimi-ai-kimi-moonshot",
+      "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effecti",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "The best laptop Apple ever made",
+      "slug": "the-best-laptop-apple-ever-made",
+      "url": "https://www.jeffgeerling.com/blog/2026/best-laptop-apple-ever-made/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "Today I posted a video titled The best laptop Apple ever made , and tl;dw 1 it's the 11\" MacBook Air. .embed-container { position: relative; padding-b",
+      "tags": [
+        "jeffgeerling"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Google Search Is Now Using AI to Rewrite Headlines",
+      "slug": "google-search-is-now-using-ai-to-rewrite-headlines",
+      "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0Q05IV0dlS3EiLCJwIjoiL3RlY2gvODk2NDkwL2dvb2dsZS1yZXBsYWNlLW5ld3MtaGVhZGxpbmVzLWluLXNlYXJjaC1jYW5hcnktY29hbC1taW5lLWV4cGVyaW1lbnQiLCJleHAiOjE3NzQ0NzIwOTAsImlhdCI6MTc3NDA0MDA5MH0.3exwHWG6qdR5YeFLjzS1qvUy3tgfASQhbFZDTbHrkKE&utm_medium=gift-link",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-20",
+      "description": "Sean Hollister, The Verge (gift link): After doing something similar in its Google Discover news feed , it’s starting to mess with headlines in the tr",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Perhaps Bluesky’s Revelation of an 11-Month Ago $100 Million Investment Was, in Fact, an Act of Transparency",
+      "slug": "perhaps-bluesky-s-revelation-of-an-11-month-ago-100-million-investment-was-in-fact-an-act-of-transpa",
+      "url": "https://bsky.app/profile/flooey.org/post/3mhiznh4d7c2j",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-20",
+      "description": "Regarding my earlier post expressing confusion/discomfort with Bluesky announcing a $100 million funding round almost an entire year after it closed, ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Why Is Everyone Supposed to Die If Machines Can Think?",
+      "slug": "why-is-everyone-supposed-to-die-if-machines-can-think",
+      "url": "https://idiallo.com/blog/everyone-is-supposed-to-die-when-machines-can-think?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "If you only listen to spokespersons for AI companies, you'll have a skewed view of how AI is actually being integrated into the workplace. You probabl",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "I'm OK being left behind, thanks!",
+      "slug": "i-m-ok-being-left-behind-thanks",
+      "url": "https://shkspr.mobi/blog/2026/03/im-ok-being-left-behind-thanks/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-20",
+      "description": "Many years ago, someone tried to get me into cryptocurrencies. \"They're the future of money!\" they said. I replied saying that I'd rather wait until t",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Some Things Just Take Time",
+      "slug": "some-things-just-take-time",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "source": "lucumr-pocoo",
+      "author": "Armin Ronacher",
+      "date": "2026-03-20",
+      "description": "Trees take quite a while to grow. If someone 50 years ago planted a row of oaks or a chestnut tree on your plot of land, you have something that no am",
+      "tags": [
+        "lucumr-pocoo"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "48GB电脑跑397B大模型？苹果这项技术藏不住了",
+      "slug": "48gb-397b",
+      "url": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-18",
+      "description": "开发者利用Apple的\"LLM in a Flash\"技术，通过动态流式加载专家权重和2-bit量化，在48GB MacBook Pro上成功运行397B参数的Qwen模型，速度达5.5 tokens/秒。",
+      "tags": [
+        "本地大模型",
+        "模型量化",
+        "苹果MLX"
+      ],
+      "recommendReason": "首次在消费级硬件上实现超大规模模型（397B）的本地流畅运行，为边缘AI部署提供了突破性工程范式。",
+      "score": 8.5
+    },
+    {
+      "title": "装个APP要等24小时？Google把安卓侧载锁死了",
+      "slug": "app-24-google",
+      "url": "https://www.androidauthority.com/google-android-sideloading-unverified-apps-new-rules-3650343/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-19",
+      "description": "Google推出Android侧载新规：未经认证开发者的应用需强制等待24小时，流程包括开启开发者模式、防胁迫确认及重启手机，旨在打击诈骗但大幅削弱系统开放性。",
+      "tags": [
+        "Android系统",
+        "侧载限制",
+        "隐私安全"
+      ],
+      "recommendReason": "Android生态迎来重大转向，提前了解未来安装第三方应用的复杂流程与合规风险。",
+      "score": 8.5
+    },
+    {
+      "title": "2比特也能播视频？8位单片机让废电视起死回生",
+      "slug": "2-8",
+      "url": "https://maurycyz.com/projects/lifetv/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "讲述如何用8位微控制器通过谐波利用和2比特DAC，在超薄CRT电视上实时运行康威生命游戏的技术实现。",
+      "tags": [
+        "电子工程",
+        "复古计算",
+        "嵌入式开发"
+      ],
+      "recommendReason": "展示了极限硬件编程的艺术，将8位微控制器的性能压榨到极致。",
+      "score": 8.5
+    },
+    {
+      "title": "爱说'对齐''颗粒度'？你的判断力可能正在下降",
+      "slug": "article-2026-03-20-8",
+      "url": "https://pluralistic.net/2026/03/19/jargon-watch/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "作者从语言演变角度，揭示热衷企业黑话与判断力差的关联，并以其创造的'enshittification'为例，批判语言纯正主义，探讨语义漂移如何反映思维质量。",
+      "tags": [
+        "语言哲学",
+        "企业文化",
+        "批判思维"
+      ],
+      "recommendReason": "揭示了企业话语体系与思维质量的关系，对职场人和语言爱好者都有启发。",
+      "score": 8.5
+    },
+    {
+      "title": "他烧了10倍预算，把50年前的算法变成实体开关墙",
+      "slug": "10-50",
+      "url": "https://lcamtuf.substack.com/p/conways-game-of-life-in-real-life",
+      "source": "lcamtuf-substack",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "技术宅将康威生命游戏实体化，用17×17带灯开关矩阵和AVR单片机，打造可交互的硬件装置，详解PCB设计与驱动电路实现过程。",
+      "tags": [
+        "硬件DIY",
+        "康威生命游戏",
+        "交互艺术"
+      ],
+      "recommendReason": "展示了从数字模拟到物理实体的完整硬件实现路径，技术细节扎实且富有极客浪漫。",
+      "score": 8.5
+    },
+    {
+      "title": "Windows栈保护机制揭秘：这一行汇编在守护你的程序",
+      "slug": "windows",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260319-00/?p=112152",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "深入解析Windows在amd64架构下的栈限制检查机制，对比msvcrt与ucrtbase两种运行时的chkstk实现差异，揭示底层内存保护原理。",
+      "tags": [
+        "Windows内核",
+        "底层编程",
+        "内存管理"
+      ],
+      "recommendReason": "Raymond Chen独家揭秘Windows底层机制，深入汇编代码解析栈保护原理，是系统程序员不可错过的技术内幕。",
+      "score": 8.5
+    },
+    {
+      "title": "Gamma函数还能这样定义？这个被遗忘的定理太优雅了",
+      "slug": "gamma",
+      "url": "https://www.johndcook.com/blog/2026/03/18/wielandt/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "除了经典的Bohr-Mollerup定理，数学家Wielandt用有界性条件替代对数凸性，给出了Gamma函数更简洁的复变刻画，揭示了这一特殊函数鲜为人知的优雅性质。",
+      "tags": [
+        "复分析",
+        "特殊函数",
+        "伽马函数"
+      ],
+      "recommendReason": "为理解Gamma函数提供了全新的复分析视角，打破了只有对数凸性才能特征化的固有认知。",
+      "score": 8.5
+    },
+    {
+      "title": "领导者宕机也能表决？一张棋盘图秒懂Paxos",
+      "slug": "paxos",
+      "url": "https://matklad.github.io/2026/03/19/consensus-board-game.html",
+      "source": "matklad",
+      "author": "Alex Kladov",
+      "date": "2026-03-19",
+      "description": "用委员会投票的比喻，通过可视化棋盘解释共识算法的数学原理，揭示如何解决投票分裂和领导者失效问题。",
+      "tags": [
+        "分布式系统",
+        "共识算法",
+        "Paxos"
+      ],
+      "recommendReason": "用直观的棋盘游戏可视化抽象共识问题，是理解Paxos算法最优雅的图解方式之一。",
+      "score": 8.5
+    },
+    {
+      "title": "特朗普拿珍珠港开涮，日本领导人笑了？",
+      "slug": "article-2026-03-20-14",
+      "url": "https://www.nytimes.com/2026/03/19/us/politics/trump-japan-pearl-harbor-oval-office-takaichi.html?unlocked_article_code=1.UVA.zau0.UZ5WnBjtPHot",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-19",
+      "description": "特朗普就美以袭击伊朗未通报盟友一事，在与日领导人会面时调侃珍珠港历史，称日本最懂偷袭，现场传出笑声。",
+      "tags": [
+        "特朗普",
+        "外交争议",
+        "美日关系"
+      ],
+      "recommendReason": "揭示非常规政治沟通的风险：当敏感历史议题被当作外交场合的'黑色幽默'，折射出当代国际政治中的底线模糊与舆论博弈。",
+      "score": 8.2
+    },
+    {
+      "title": "一个网页竟占49MB？Hacker News热议数字肥胖危机",
+      "slug": "49mb-hacker-news",
+      "url": "https://news.ycombinator.com/item?id=47390945",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-19",
+      "description": "Hacker News热议网页体积失控，从49MB单页到750MB预加载，开发者分享慢速网络测试方法与低配置设备的生存困境。",
+      "tags": [
+        "前端性能",
+        "Web优化",
+        "开发者工具"
+      ],
+      "recommendReason": "用极端案例揭示现代Web膨胀病，附赠低配设备和慢网测试的实用生存指南。",
+      "score": 8.2
+    },
+    {
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "slug": "thoughts-on-openai-acquiring-astral-and-uv-ruff-ty",
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-19",
+      "description": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company b",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "StopTheMadness Pro and StopTheScript Extensions for Safari",
+      "slug": "stopthemadness-pro-and-stopthescript-extensions-for-safari",
+      "url": "https://mastodon.social/@lapcatsoftware/116252960395480568",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-19",
+      "description": "Jeff Johnson, linking to my “ Your Frustration Is the Product ” piece: My browser extension StopTheMadness Pro stops autoplaying videos and hides Sign",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "The Day Mark Simonson Discovered Type Design",
+      "slug": "the-day-mark-simonson-discovered-type-design",
+      "url": "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-19",
+      "description": "Mark Simonson: Just by coincidence, I discovered a copy of U&lc magazine in the graphics classroom. U&lc was published by ITC, the International Typef",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "AI上下文告急？这个工程模式让你省下80%token",
+      "slug": "ai-80-token",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "详解Subagents子代理架构如何解决LLM上下文限制问题，以Claude Code为例展示如何通过任务分发让AI自动分工，突破百万token瓶颈。",
+      "tags": [
+        "AI架构",
+        "LLM工程",
+        "Agent模式"
+      ],
+      "recommendReason": "为AI应用开发者提供解决上下文瓶颈的实战级架构方案，直接提升复杂任务处理能力。",
+      "score": 8.8
+    },
+    {
+      "title": "微软为何悄悄修改这行汇编代码？栈优化背后的玄机",
+      "slug": "article-2026-03-17-2",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Windows x86-32栈检查机制深度解析：揭秘_chkstk函数从jmp到ret的微妙改动，如何巧妙平衡CPU分支预测性能与ABI兼容性。",
+      "tags": [
+        "Windows内核",
+        "底层优化",
+        "x86架构"
+      ],
+      "recommendReason": "微软资深工程师揭秘操作系统底层优化的工程智慧，一行汇编代码的改动背后是性能与兼容性的精妙权衡。",
+      "score": 8.8
+    },
+    {
+      "title": "给时间而非token：AI正在扼杀开源社区的人性？",
+      "slug": "token-ai",
+      "url": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Django核心开发者警告：盲目使用LLM贡献代码会损害项目整体，与\"人类假象\"交流让审查者沮丧，开源协作需要真实的人性投入而非机器生成。",
+      "tags": [
+        "开源治理",
+        "AI伦理",
+        "Django"
+      ],
+      "recommendReason": "揭示了AI工具在协作开发中的隐性代价，提醒技术人勿因效率丧失社区温度。",
+      "score": 8.5
+    },
+    {
+      "title": "242GB开源巨兽？Mistral把三大旗舰模型合二为一",
+      "slug": "242gb-mistral",
+      "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Mistral发布Small 4，Apache 2开源协议，119B参数MoE架构，首次统一推理、多模态与编程代理能力，支持多级推理模式。",
+      "tags": [
+        "Mistral",
+        "开源模型",
+        "大语言模型"
+      ],
+      "recommendReason": "详解Mistral首款三合一旗舰模型的架构亮点与实测体验，开源协议对开发者极具吸引力。",
+      "score": 8.5
+    },
+    {
+      "title": "Anthropic秘密演练：一场AI勒索实验背后的真相",
+      "slug": "anthropic-ai",
+      "url": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Anthropic对齐团队通过模拟勒索场景，用震撼结果向政策制定者直观展示AI不对齐风险，让抽象威胁变得触手可及。",
+      "tags": [
+        "AI安全",
+        "Anthropic",
+        "AI对齐"
+      ],
+      "recommendReason": "揭示了顶尖AI实验室如何通过创造性实验影响政策制定，为理解AI治理与风险沟通提供了独特视角。",
+      "score": 8.5
+    },
+    {
+      "title": "黑客入侵也偷窥不了你？MacBook Neo这项隐私黑科技绝了",
+      "slug": "macbook-neo",
+      "url": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Guilherme Rambo透露MacBook Neo摄像头指示灯运行于芯片安全飞地，即使内核级漏洞也无法绕过，实现接近硬件级的隐私保护。",
+      "tags": [
+        "隐私安全",
+        "MacBook",
+        "苹果硬件"
+      ],
+      "recommendReason": "揭示了苹果在硬件隐私保护上的深层设计，对关注数字安全的用户极具参考价值。",
+      "score": 8.5
+    },
+    {
+      "title": "Vision Pro被抛弃了？Fox 3D棒球决赛竟不用它",
+      "slug": "vision-pro-fox-3d",
+      "url": "https://x.com/mlbonfox/status/2033902946174271992?s=46",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "Fox Sports将采用沉浸式3D技术转播世界棒球经典赛美委决赛，但出人意料地排除了苹果Vision Pro平台，引发对VR体育转播生态的猜测。",
+      "tags": [
+        "Vision Pro",
+        "体育转播",
+        "VR技术"
+      ],
+      "recommendReason": "揭示高端VR设备在体育内容分发领域的实际落地困境与平台博弈，看懂科技巨头与内容方的微妙关系。",
+      "score": 8.5
+    },
+    {
+      "title": "降噪翻倍+无损音频，AirPods Max 2值得冲吗？",
+      "slug": "airpods-max-2",
+      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-16",
+      "description": "苹果发布AirPods Max 2，H2芯片带来1.5倍降噪和24bit无损音频，新增实时翻译与录音功能，五大配色可选。",
+      "tags": [
+        "苹果",
+        "AirPods",
+        "耳机评测"
+      ],
+      "recommendReason": "深度解析AirPods Max 2六大升级点，帮你判断这波是否值得换新。",
+      "score": 8.5
+    },
+    {
+      "title": "日程管理还能这样玩？Finalist 3.6实测",
+      "slug": "finalist-3-6",
+      "url": "https://www.finalist.works/finalist-36/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "Finalist 3.6发布重大更新，新增子任务嵌套、日历书签快速切换、HealthKit健康数据整合及日记快捷操作，让日程管理与健康追踪无缝融合。",
+      "tags": [
+        "效率工具",
+        "应用更新",
+        "时间管理"
+      ],
+      "recommendReason": "对于追求高效生活的iOS用户，Finalist 3.6通过独特的健康数据日记化和智能日历管理，提供了比原生提醒事项更优雅的解决方案。",
+      "score": 8.5
+    },
+    {
+      "title": "一句「给我吃的」，如何瓦解整个官僚体系？",
+      "slug": "article-2026-03-17-10",
+      "url": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "借《第二十二条军规》中荒谬的「忠诚誓言运动」寓言，揭示职场中盲目跟从臃肿流程的怪圈，指出打破沉默、敢于质疑才是破局关键。",
+      "tags": [
+        "职场反思",
+        "流程优化",
+        "管理寓言"
+      ],
+      "recommendReason": "用经典文学映照现代职场荒诞，告诉你打破无效流程只需要一次勇敢的「发声」。",
+      "score": 8.5
+    },
+    {
+      "title": "你以为的法律漏洞，其实是精心设计的掠夺工具",
+      "slug": "article-2026-03-17-11",
+      "url": "https://pluralistic.net/2026/03/16/whittle-a-webserver/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "揭秘特朗普减税法案与音乐版权修正案背后的真相：法律漏洞并非起草失误，而是权贵阶层系统性掠夺普通人利益的精密武器。",
+      "tags": [
+        "法律与政治",
+        "社会公平",
+        "经济分析"
+      ],
+      "recommendReason": "深刻揭露法律技术细节背后的权力不平等，帮助读者识别系统性掠夺的伪装与机制。",
+      "score": 8.5
+    },
+    {
+      "title": "80KB单文件造Mastodon机器人？这个PHP工具杀疯了",
+      "slug": "80kb-mastodon-php",
+      "url": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "ActivityBot发布重大更新，仅需80KB单PHP文件即可部署完整ActivityPub服务器，支持多媒体发布、私信、线程等功能，零门槛搭建Fediverse机器人。",
+      "tags": [
+        "ActivityPub",
+        "Mastodon",
+        "开源工具"
+      ],
+      "recommendReason": "史上最低门槛部署Fediverse机器人的方案，单文件即可实现全功能社交媒体自动化，适合个人开发者快速搭建Bot。",
+      "score": 8.5
+    },
+    {
+      "title": "Scaling Law崩塌？Altman亲口承认AGI需要新架构",
+      "slug": "scaling-law-altman-agi",
+      "url": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Sam Altman罕见改口，承认仅靠扩展无法实现AGI，必须寻找Transformer级别的架构突破，多位科技巨头CEO集体转向。",
+      "tags": [
+        "人工智能",
+        "OpenAI",
+        "AGI"
+      ],
+      "recommendReason": "揭示AI发展路线图的重大转向，对理解行业技术趋势与投资风险具有关键参考价值。",
+      "score": 8.5
+    },
+    {
+      "title": "用群论作曲是什么体验？答案令人不适",
+      "slug": "article-2026-03-17-14",
+      "url": "https://www.johndcook.com/blog/2026/03/15/twelve-tone-composition/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-15",
+      "description": "解析十二音作曲法的数学原理，从12!排列到Z2×Z2群结构，揭示无调性音乐背后的组合数学与对称性。",
+      "tags": [
+        "音乐数学",
+        "十二音技法",
+        "群论"
+      ],
+      "recommendReason": "从群论视角解构现代音乐作曲技法，展现数学严谨性与艺术反直觉性的迷人碰撞。",
+      "score": 8.5
+    },
+    {
+      "title": "核心服务器停摆20天，技术大佬如何「绝地求生」？",
+      "slug": "20",
+      "url": "https://xeiaso.net/notes/2026/homelab-is-down/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "知名极客博主宣布家庭实验室将长期离线，揭秘背后涉及的数据迁移、架构重构与容灾挑战，探讨个人基础设施的脆弱性与替代方案。",
+      "tags": [
+        "家庭实验室",
+        "服务器运维",
+        "基础设施"
+      ],
+      "recommendReason": "罕见披露个人技术栈长期停机实录，对自建服务依赖者极具参考价值。",
+      "score": 8.2
+    },
+    {
+      "title": "负数申请栈空间？揭秘Windows PowerPC的逆向设计",
+      "slug": "windows-powerpc",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260316-00/?p=112140",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "揭秘Windows在PowerPC架构上独特的栈检查机制：为何使用负值表示栈帧大小，以及内核与用户模式下的底层实现差异。",
+      "tags": [
+        "Windows内核",
+        "PowerPC架构",
+        "汇编语言"
+      ],
+      "recommendReason": "Raymond Chen亲述Windows NT跨架构设计的精妙细节，读懂底层栈管理的极致优化思路。",
+      "score": 8
+    },
+    {
+      "title": "Mac经典图标回归？这组5K壁纸让老用户瞬间泪目",
+      "slug": "mac-5k",
+      "url": "https://512pixels.net/2026/03/lil-finder-5k-wallpapers/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "PCalc开发者James Thomson分享了一组5K分辨率经典Finder图标壁纸，完美适配现代Mac显示器，复古情怀拉满。",
+      "tags": [
+        "Mac",
+        "壁纸",
+        "复古科技"
+      ],
+      "recommendReason": "免费获取由知名开发者制作的高清复古Mac壁纸，一秒唤醒你的数字怀旧情怀。",
+      "score": 7
+    },
+    {
+      "title": "Quoting Ken Jin",
+      "slug": "quoting-ken-jin",
+      "url": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Li",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "slug": "gpt-5-4-mini-and-gpt-5-4-nano-which-can-describe-76-000-photos-for-52",
+      "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show ",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Use subagents and custom agents in Codex",
+      "slug": "use-subagents-and-custom-agents-in-codex",
+      "url": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Use subagents and custom agents in Codex Subagents were announced in general availability today for OpenAI Codex, after several weeks of preview behin",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Coding agents for data analysis",
+      "slug": "coding-agents-for-data-analysis",
+      "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Coding agents for data analysis Here's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aime",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "How coding agents work",
+      "slug": "how-coding-agents-work",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "Agentic Engineering Patterns > As with any tool, understanding how coding agents work under the hood can help you make better decisions about how to a",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Samsung Discontinues Its Galaxy Z TriFold After Just Three Months",
+      "slug": "samsung-discontinues-its-galaxy-z-trifold-after-just-three-months",
+      "url": "https://www.theverge.com/tech/895879/samsung-galaxy-z-trifold-discontinued-stock-sold-out",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "Jess Weatherbed, The Verge: Samsung is preparing to axe its first three-panel foldable phone less than three months after launching the device in the ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "‘The Last Quiet Thing’",
+      "slug": "the-last-quiet-thing",
+      "url": "https://www.terrygodier.com/the-last-quiet-thing",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-16",
+      "description": "Another crackerjack essay on design and attention from Terry Godier. (Note that the Casio in the essay not only shows the actual time, but has functio",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "★ Apple Exclaves and the Secure Design of the MacBook Neo’s On-Screen Camera Indicator",
+      "slug": "apple-exclaves-and-the-secure-design-of-the-macbook-neo-s-on-screen-camera-indicator",
+      "url": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-17",
+      "description": "“What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen.”",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "CHM Live: Apple at 50",
+      "slug": "chm-live-apple-at-50",
+      "url": "https://www.youtube.com/live/eCSNJgI2LFI",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "David Pogue absolutely killed it hosting this live event last week. Glad I saved it to watch on my TV. Special guests include Chris Espinosa, John Scu",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "iFixit’s MacBook Neo Teardown",
+      "slug": "ifixit-s-macbook-neo-teardown",
+      "url": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-15",
+      "description": "iFixit: Is Apple’s most affordable laptop ever also one of its most repairable? For years, opening a MacBook has usually meant fighting your way throu",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Shower Thought: Git Teleportation",
+      "slug": "shower-thought-git-teleportation",
+      "url": "https://idiallo.com/byte-size/git-teleportation?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "In many sci-fi shows, spaceships have a teleportation mechanism on board. They can teleport from inside their ship to somewhere on a planet. This way,",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Pluralistic: William Gibson vs Margaret Thatcher (17 Mar 2026)",
+      "slug": "pluralistic-william-gibson-vs-margaret-thatcher-17-mar-2026",
+      "url": "https://pluralistic.net/2026/03/17/technopolitics/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Today's links William Gibson vs Margaret Thatcher: The Street Finds Its Own Alternatives For Things. Hey look at this: Delights to delectate. Object p",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "F Cancer",
+      "slug": "f-cancer",
+      "url": "https://garymarcus.substack.com/p/f-cancer",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-16",
+      "description": "The real test of AI",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Powers don’t clear fractions",
+      "slug": "powers-don-t-clear-fractions",
+      "url": "https://www.johndcook.com/blog/2026/03/17/powers-dont-clear-fractions/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "If a number has a finite but nonzero fractional part, so do all its powers. I recently ran across a proof in [1] that is shorter than I expected. Theo",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
+    {
+      "title": "Tone row operations",
+      "slug": "tone-row-operations",
+      "url": "https://www.johndcook.com/blog/2026/03/17/tone-row-operations/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "The previous post introduced the idea of a twelve-tone row, a permutation of the twelve pitch classes of a chromatic scale. The earlier post also intr",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5
+    },
     {
       "title": "599美元的'残缺'Mac，凭什么让极客疯狂？",
       "slug": "599-mac",
@@ -36,54 +1272,6 @@
       "score": 8.8
     },
     {
-      "title": "AI勒索测试：Anthropic如何让政策制定者胆寒？",
-      "slug": "ai-anthropic",
-      "url": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Anthropic通过对齐团队的\"勒索练习\"，用直观结果向政策制定者展示AI不对齐风险，让抽象威胁变得具体可感。",
-      "tags": [
-        "AI对齐",
-        "AI安全",
-        "Anthropic"
-      ],
-      "recommendReason": "揭示顶级AI实验室如何用极端场景测试警示政策制定者，是理解AI安全沟通策略的罕见窗口。",
-      "score": 8.5
-    },
-    {
-      "title": "内核漏洞都失效？MacBook这盏灯藏着苹果终极隐私密码",
-      "slug": "macbook",
-      "url": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Guilherme Rambo披露MacBook Neo采用芯片安全飞地驱动摄像头指示灯，即使内核级漏洞也无法在灯不亮时启用摄像头，实现接近硬件级别的隐私保护机制。",
-      "tags": [
-        "隐私安全",
-        "硬件架构",
-        "苹果"
-      ],
-      "recommendReason": "独家揭秘苹果在芯片底层实现的隐私防护突破，为数字安全领域提供重要技术参考。",
-      "score": 8.5
-    },
-    {
-      "title": "你的AI编程助手如何思考？揭秘编码智能体黑箱",
-      "slug": "ai",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "深入解析编码智能体底层机制，从LLM tokenization到对话模板，详解AI如何通过提示词工程和工具调用实现代码生成，助你更理性地运用AI编程工具。",
-      "tags": [
-        "AI编程",
-        "大语言模型",
-        "智能体架构"
-      ],
-      "recommendReason": "理解底层机制是高效使用AI编程工具的前提，本文透彻解析了从token处理到工具调用的完整技术链路。",
-      "score": 8.5
-    },
-    {
       "title": "AI能写能跑代码，工程师只剩一件事可做",
       "slug": "ai",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
@@ -97,38 +1285,6 @@
         "软件开发"
       ],
       "recommendReason": "顶级开发者Simon Willison深度拆解AI辅助编程的进化方向，帮你找准人机协作的新定位。",
-      "score": 8.5
-    },
-    {
-      "title": "这款12美元的手表，是最后的安静",
-      "slug": "12",
-      "url": "https://www.terrygodier.com/the-last-quiet-thing",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-16",
-      "description": "通过对比卡西欧F-91W与Apple Watch，揭示智能时代物品如何从「完成品」变为「永久需要维护的存在」，反思我们为何被 possessions 奴役。",
-      "tags": [
-        "数字极简主义",
-        "科技批判",
-        "消费反思"
-      ],
-      "recommendReason": "在万物皆需联网更新的时代，这篇短文是一剂清醒的解药，提醒我们「完成」与「安静」的珍贵。",
-      "score": 8.5
-    },
-    {
-      "title": "黑客攻破内核也偷窥不了？苹果这招太狠了",
-      "slug": "article-2026-03-16-8",
-      "url": "https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-16",
-      "description": "揭秘MacBook Neo屏幕摄像头指示灯背后的Secure Exclave技术，为何软件渲染能比硬件灯更安全，连root权限恶意软件都无法绕过。",
-      "tags": [
-        "苹果安全架构",
-        "硬件安全",
-        "隐私保护"
-      ],
-      "recommendReason": "打破\"硬件灯比软件灯安全\"的常识，深度解析苹果芯片级隔离技术如何重构隐私保护逻辑。",
       "score": 8.5
     },
     {
@@ -146,110 +1302,6 @@
       ],
       "recommendReason": "揭示AI投资热潮下科技大厂的生存悖论：巨额算力支出迫使企业精简人力，预示“AI替代白领”已从预测变为现实。",
       "score": 8.5
-    },
-    {
-      "title": "一声\"给我饭\"，荒唐流程瞬间崩塌",
-      "slug": "article-2026-03-16-10",
-      "url": "https://idiallo.com/blog/loyalty-oath-crusade-speak-up?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "借《第二十二条军规》中荒谬的忠诚宣誓情节，剖析职场中臃肿流程如何形成，以及打破集体沉默的关键。",
-      "tags": [
-        "职场观察",
-        "流程优化",
-        "第二十二条军规"
-      ],
-      "recommendReason": "用经典文学精准映射现代职场痛点，犀利指出打破僵化流程只需一人敢于质疑的勇气。",
-      "score": 8.5
-    },
-    {
-      "title": "80KB单文件搭建Mastodon机器人？这个PHP脚本杀疯了",
-      "slug": "80kb-mastodon-php",
-      "url": "https://shkspr.mobi/blog/2026/03/some-updates-to-activitybot/",
-      "source": "shkspr.mobi",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "ActivityBot发布重大更新，仅凭一个PHP文件即可部署完整ActivityPub服务器，支持多媒体发布与私信功能，让联邦宇宙机器人开发门槛降为零。",
-      "tags": [
-        "ActivityPub",
-        "Mastodon",
-        "PHP开发"
-      ],
-      "recommendReason": "这可能是目前最轻量级的去中心化社交机器人方案，单文件部署的特性让个人开发者几分钟内就能拥有自己的Fediverse机器人。",
-      "score": 8.5
-    },
-    {
-      "title": "Altman突然改口：光堆算力到不了AGI？",
-      "slug": "altman-agi",
-      "url": "https://garymarcus.substack.com/p/breaking-sam-altman-concedes-that",
-      "source": "garymarcus",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Sam Altman罕见承认仅靠规模扩展无法实现AGI，必须寻找类似Transformer的架构突破，标志着AI发展路线重大转向。",
-      "tags": [
-        "人工智能",
-        "AGI",
-        "OpenAI"
-      ],
-      "recommendReason": "科技领袖集体'反水'，AI行业投资逻辑面临重构，从业者必须关注的路线之争。",
-      "score": 8.5
-    },
-    {
-      "title": "Coding agents for data analysis",
-      "slug": "coding-agents-for-data-analysis",
-      "url": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Coding agents for data analysis Here's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aime",
-      "tags": [
-        "simonwillison"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Apple Introduces AirPods Max 2",
-      "slug": "apple-introduces-airpods-max-2",
-      "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-16",
-      "description": "Apple Newsroom today: Apple today announced AirPods Max 2 , bringing even better Active Noise Cancellation (ANC), elevated sound quality, and intellig",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "CHM Live: Apple at 50",
-      "slug": "chm-live-apple-at-50",
-      "url": "https://www.youtube.com/live/eCSNJgI2LFI",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-15",
-      "description": "David Pogue absolutely killed it hosting this live event last week. Glad I saved it to watch on my TV. Special guests include Chris Espinosa, John Scu",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Finalist 3.6",
-      "slug": "finalist-3-6",
-      "url": "https://www.finalist.works/finalist-36/",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-15",
-      "description": "My thanks to Finalist for sponsoring last week at Daring Fireball. Finalist is a remarkable, ambitious, and novel app for iPhone, iPad, and the Mac fr",
-      "tags": [
-        "daringfireball"
-      ],
-      "recommendReason": "",
-      "score": 5
     },
     {
       "title": "Blaming AI for Layoffs: ‘It Plays Better’",
@@ -280,34 +1332,6 @@
       "score": 5
     },
     {
-      "title": "Shower Thought: Git Teleportation",
-      "slug": "shower-thought-git-teleportation",
-      "url": "https://idiallo.com/byte-size/git-teleportation?src=feed",
-      "source": "idiallo",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "In many sci-fi shows, spaceships have a teleportation mechanism on board. They can teleport from inside their ship to somewhere on a planet. This way,",
-      "tags": [
-        "idiallo"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Pluralistic: Tools vs uses (16 Mar 2026)",
-      "slug": "pluralistic-tools-vs-uses-16-mar-2026",
-      "url": "https://pluralistic.net/2026/03/16/whittle-a-webserver/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Today's links Tools vs uses: Don't fall for it. Hey look at this: Delights to delectate. Object permanence: Amazon coders x Amazon warehouse workers; ",
-      "tags": [
-        "pluralistic"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
       "title": "Book Review: Robots in Space - The Secret Lives of Our Planetary Explorers by Dr Ezzy Pearson ★★★⯪☆",
       "slug": "book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson",
       "url": "https://shkspr.mobi/blog/2026/03/book-review-robots-in-space-the-secret-lives-of-our-planetary-explorers-by-dr-ezzy-pearson/",
@@ -317,48 +1341,6 @@
       "description": "Mars is the only planet entirely populated by robots. This book is a catalogue of the history of robotic explorers. Nary a human-crewed mission is men",
       "tags": [
         "shkspr.mobi"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Windows stack limit checking retrospective: PowerPC",
-      "slug": "windows-stack-limit-checking-retrospective-powerpc",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260316-00/?p=112140",
-      "source": "oldnewthing",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "Doing the math backwards. The post Windows stack limit checking retrospective: PowerPC appeared first on The Old New Thing .",
-      "tags": [
-        "oldnewthing"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "F Cancer",
-      "slug": "f-cancer",
-      "url": "https://garymarcus.substack.com/p/f-cancer",
-      "source": "garymarcus",
-      "author": "",
-      "date": "2026-03-16",
-      "description": "The real test of AI",
-      "tags": [
-        "garymarcus"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "Twelve-tone composition",
-      "slug": "twelve-tone-composition",
-      "url": "https://www.johndcook.com/blog/2026/03/15/twelve-tone-composition/",
-      "source": "johndcook",
-      "author": "",
-      "date": "2026-03-15",
-      "description": "Atonal music is difficult to compose because it defies human instincts. It takes discipline to write something so unpleasant to listen to. One techniq",
-      "tags": [
-        "johndcook"
       ],
       "recommendReason": "",
       "score": 5
@@ -451,20 +1433,6 @@
       "description": "",
       "tags": [
         "seangoedecke"
-      ],
-      "recommendReason": "",
-      "score": 5
-    },
-    {
-      "title": "iFixit’s MacBook Neo Teardown",
-      "slug": "ifixit-s-macbook-neo-teardown",
-      "url": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
-      "source": "daringfireball",
-      "author": "John Gruber",
-      "date": "2026-03-14",
-      "description": "iFixit: Is Apple’s most affordable laptop ever also one of its most repairable? For years, opening a MacBook has usually meant fighting your way throu",
-      "tags": [
-        "daringfireball"
       ],
       "recommendReason": "",
       "score": 5
@@ -3740,6 +4708,57 @@
   ],
   "highlights": [
     {
+      "title": "运行不可信JS？这6种沙盒方案实测对决",
+      "slug": "js-6",
+      "url": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-22",
+      "description": "深入对比Node.js worker_threads、isolated-vm、vm2、QuickJS等主流沙盒方案，揭秘运行不可信代码的安全陷阱与最佳实践，附Claude Code完整研究过程。",
+      "tags": [
+        "JavaScript",
+        "沙盒安全",
+        "Node.js"
+      ],
+      "recommendReason": "系统性解决了'如何安全运行不可信JS代码'这一高频难题，技术选型参考价值极高。",
+      "score": 8.8,
+      "translated": true
+    },
+    {
+      "title": "AI上下文告急？这个工程模式让你省下80%token",
+      "slug": "ai-80-token",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "详解Subagents子代理架构如何解决LLM上下文限制问题，以Claude Code为例展示如何通过任务分发让AI自动分工，突破百万token瓶颈。",
+      "tags": [
+        "AI架构",
+        "LLM工程",
+        "Agent模式"
+      ],
+      "recommendReason": "为AI应用开发者提供解决上下文瓶颈的实战级架构方案，直接提升复杂任务处理能力。",
+      "score": 8.8,
+      "translated": true
+    },
+    {
+      "title": "微软为何悄悄修改这行汇编代码？栈优化背后的玄机",
+      "slug": "article-2026-03-20-2",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260317-00/?p=112144",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-17",
+      "description": "Windows x86-32栈检查机制深度解析：揭秘_chkstk函数从jmp到ret的微妙改动，如何巧妙平衡CPU分支预测性能与ABI兼容性。",
+      "tags": [
+        "Windows内核",
+        "底层优化",
+        "x86架构"
+      ],
+      "recommendReason": "微软资深工程师揭秘操作系统底层优化的工程智慧，一行汇编代码的改动背后是性能与兼容性的精妙权衡。",
+      "score": 8.8,
+      "translated": true
+    },
+    {
       "title": "599美元的'残缺'Mac，凭什么让极客疯狂？",
       "slug": "599-mac",
       "url": "https://samhenri.gold/blog/20260312-this-is-not-the-computer-for-you/?ref=birchtree.me",
@@ -3789,57 +4808,6 @@
       "recommendReason": "揭秘AI代理如何攻克20年老代码库的性能瓶颈，为技术管理者提供可复现的自动化调优方法论。",
       "score": 8.8,
       "translated": true
-    },
-    {
-      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
-      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-07",
-      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
-      "tags": [
-        "RSS",
-        "数字权利",
-        "反平台垄断"
-      ],
-      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
-      "score": 8.8,
-      "translated": false,
-      "slug": null
-    },
-    {
-      "title": "一个Issue标题劫持AI发布系统？",
-      "url": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-06",
-      "description": "黑客利用Prompt注入操控Cline的AI issue分类器，通过GitHub缓存投毒窃取NPM发布密钥，最终劫持官方包发布恶意版本。",
-      "tags": [
-        "AI安全",
-        "提示词注入",
-        "供应链攻击"
-      ],
-      "recommendReason": "揭示了AI自动化工作流的新型攻击面：当AI获得代码执行权限时，简单的prompt注入即可演变为完整的供应链投毒。",
-      "score": 8.8,
-      "translated": false,
-      "slug": null
-    },
-    {
-      "title": "5天造出完美会计软件？他说这才是AI编程的终极形态",
-      "slug": "5-ai",
-      "url": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-13",
-      "description": "作者Craig Mod耗时5天，借助Claude AI打造完全符合个人需求的本地化会计系统，支持多币种、自动分类和智能纠错，彻底告别通用软件的束缚。",
-      "tags": [
-        "AI辅助编程",
-        "个性化工具",
-        "效率革命"
-      ],
-      "recommendReason": "展示了AI时代个人如何通过'氛围编程'构建完全贴合自身需求的工具，告别通用软件妥协。",
-      "score": 8.7,
-      "translated": true
     }
   ],
   "allTags": [
@@ -3847,6 +4815,7 @@
     "AI",
     "AI与社会",
     "AI伦理",
+    "AI内容生成",
     "AI军事",
     "AI安全",
     "AI对齐",
@@ -3854,12 +4823,15 @@
     "AI幻觉",
     "AI应用",
     "AI战略",
+    "AI技术",
     "AI投资",
     "AI政策",
     "AI替代",
+    "AI架构",
     "AI监管",
     "AI编程",
     "AI编程助手",
+    "AI职场",
     "AI自动化",
     "AI转型",
     "AI辅助",
@@ -3867,47 +4839,67 @@
     "AI隐私",
     "API技巧",
     "API设计",
+    "ARM64",
     "ActivityPub",
     "Agent",
+    "Agent模式",
+    "AirPods",
+    "Android系统",
     "Anthropic",
     "Apple TV",
     "App推荐",
     "BlackHatWorld",
     "Block",
+    "Bluesky",
     "C++",
     "CLI工具",
     "CSAM",
     "Claude",
+    "Claude-Code",
+    "Cloudflare",
     "Code",
     "C语言",
+    "DDoS攻击",
+    "DNS",
     "Dev",
+    "Django",
     "Electronics",
     "Epic Games",
     "F1赛车",
+    "FOMO心理",
     "Frigate",
+    "Git",
     "GitHub",
     "Google Play",
+    "Google搜索",
     "HNSW",
     "HTML入门",
     "HTTP Range",
+    "IoT安全",
     "Ionizing Radiation",
     "JavaScript",
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
+    "LLM工程",
     "Linux",
     "MIPS架构",
+    "Mac",
     "MacBook",
     "MacBook Neo",
     "Mastodon",
     "Mathematica",
     "Meta",
+    "Mistral",
+    "Node.js",
     "OLDPWD",
     "OpenAI",
     "PHP开发",
+    "Paxos",
     "Pebble",
     "Pebble手表",
     "PostgreSQL",
+    "PowerPC架构",
     "Prompt Injection",
     "Python",
     "Python验证",
@@ -3929,19 +4921,26 @@
     "UI设计",
     "USB测试仪",
     "Unicode",
+    "VR技术",
     "Vibe Coding",
+    "Vision Pro",
+    "WWDC 2026",
+    "Web优化",
     "Win32",
     "Win32开发",
     "Windows内核",
+    "Windows安全",
     "Windows开发",
     "Windows编程",
     "bash",
     "bash技巧",
     "daringfireball",
     "dynomight",
+    "enshittification",
     "garymarcus",
     "gilesthomas",
     "iOS",
+    "iOS应用",
     "iOS开发",
     "iOS技巧",
     "idiallo",
@@ -3949,6 +4948,7 @@
     "johndcook",
     "krebsonsecurity",
     "lcamtuf-substack",
+    "lucumr-pocoo",
     "macOS",
     "macOS Tahoe",
     "oldnewthing",
@@ -3971,6 +4971,7 @@
     "二战",
     "互联网历史",
     "交互式学习",
+    "交互艺术",
     "产品思维",
     "产品更新",
     "人工智能",
@@ -3983,12 +4984,16 @@
     "企业文化",
     "伦理责任",
     "估值争议",
+    "伽马函数",
     "体育转播",
     "供应链攻击",
+    "侧载限制",
     "信息自由法",
     "健康",
     "僵尸网络",
     "免费工具",
+    "全球经济",
+    "共识算法",
     "内存管理",
     "内容创作",
     "写作技巧",
@@ -3997,27 +5002,40 @@
     "军事伦理",
     "减肥",
     "分布式拒绝服务(DDoS)",
+    "分布式系统",
     "创造力",
+    "前端优化",
     "前端开发",
+    "前端性能",
     "加拿大",
+    "劳资关系",
     "化学卫生",
     "区块链",
+    "十二音技法",
     "博客",
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "去中心化社交",
     "双曲函数",
     "反平台垄断",
     "可视化",
     "命令行",
     "命令行技巧",
     "商业分析",
+    "商业模式",
     "固件升级",
+    "国际关系",
+    "在线广告",
     "在线社区",
     "在线讨论",
+    "基础设施",
     "壁纸",
     "复分析",
     "复古文化",
+    "复古科技",
+    "复古计算",
+    "外交争议",
     "大模型",
     "大模型定价",
     "大规模裁员",
@@ -4027,24 +5045,36 @@
     "奈飞",
     "安全",
     "实数理论",
+    "家庭实验室",
     "对话框编程",
     "屏蔽提示",
     "崩溃报告",
     "崩溃监控",
+    "嵌入式开发",
     "工程师",
+    "平台经济",
     "平面设计",
     "并购",
     "幽默",
+    "广告技术",
     "广告投放",
     "广播技术",
+    "应用更新",
     "应用程序开发",
+    "底层优化",
     "底层编程",
+    "康威生命游戏",
+    "开发实践",
     "开发工具",
     "开发者",
+    "开发者工具",
     "开放数据",
     "开源",
     "开源协议",
     "开源历史",
+    "开源工具",
+    "开源模型",
+    "开源治理",
     "开源维护",
     "微软",
     "微软补丁",
@@ -4056,12 +5086,16 @@
     "情绪管理",
     "意识",
     "成长思维",
+    "批判思维",
     "技术债务",
     "技术公司",
+    "技术哲学",
     "技术感悟",
     "技术批评",
+    "技术架构",
     "技术评论",
     "技术趋势",
+    "技术集成",
     "技术革命",
     "技能文件",
     "技能生成",
@@ -4070,6 +5104,7 @@
     "提示工程",
     "提示词注入",
     "播客",
+    "政治分析",
     "政治观点",
     "效率",
     "效率工具",
@@ -4078,6 +5113,7 @@
     "教育反思",
     "数字体育广播",
     "数字创造",
+    "数字媒体",
     "数字权利",
     "数字权益",
     "数字极简主义",
@@ -4085,7 +5121,9 @@
     "数学科普",
     "数学计算",
     "数据保存",
+    "数据分析",
     "数据加密",
+    "数据可视化",
     "数据库优化",
     "数据新闻",
     "数据标注",
@@ -4099,18 +5137,26 @@
     "智能体架构",
     "智能手表",
     "智能硬件",
+    "服务器运维",
+    "本地大模型",
     "本地监控",
     "机器人",
     "机器学习",
     "权力分析",
     "权力批判",
+    "权限管理",
     "极客文化",
     "查询性能",
     "树莓派",
+    "模型量化",
+    "正则表达式",
     "比特币",
     "气候变化",
     "水质",
+    "汇编语言",
+    "沙盒安全",
     "法律",
+    "法律与政治",
     "法律争议",
     "法律条款",
     "流媒体",
@@ -4118,6 +5164,7 @@
     "流程管理",
     "浏览器原理",
     "浏览器工具",
+    "浏览器推荐",
     "浏览器自动化",
     "消息循环",
     "消息过滤",
@@ -4127,21 +5174,29 @@
     "深度学习",
     "深度思考",
     "游戏历史",
+    "版本兼容",
     "物联网",
+    "物联网安全",
     "特朗普",
+    "特殊函数",
     "环保",
     "生活便利",
     "生物多样性",
     "生物黑客",
     "用户体验",
+    "电子工程",
     "电池比较",
     "电话App",
     "短故事",
     "研究",
     "硅谷",
+    "硬件DIY",
     "硬件安全",
+    "硬件改装",
     "硬件架构",
     "硬件评测",
+    "社交媒体",
+    "社会公平",
     "社会评论",
     "社群动态",
     "神经网络",
@@ -4151,28 +5206,34 @@
     "科幻小说",
     "科技",
     "科技伦理",
+    "科技公关",
     "科技内幕",
     "科技动态",
     "科技反思",
     "科技史",
     "科技媒体",
+    "科技怀旧",
     "科技批判",
     "科技政策",
     "科技新品",
     "科技裁员",
     "科技评论",
     "科技诉讼",
+    "移动互联网",
     "程序员未来",
     "空内容",
     "空气质量",
     "笔记本电脑",
     "第二十二条军规",
+    "管理寓言",
     "系统更新",
+    "系统架构",
     "系统管理",
     "系统编程",
     "系统美化",
     "纪念日",
     "组织并购",
+    "经济分析",
     "经济影响",
     "编剧",
     "编程",
@@ -4183,26 +5244,39 @@
     "网站维护",
     "网络安全",
     "网页优化",
+    "网页性能",
     "美国",
+    "美日关系",
+    "群论",
+    "耳机评测",
     "职业危机",
     "职业发展",
     "职业趋势",
+    "职场反思",
     "职场失误",
     "职场成长",
     "职场观察",
     "职场趋势",
+    "能源经济",
     "自动化",
     "自动编程",
     "自媒体变现",
     "自我成长",
     "苹果",
+    "苹果MLX",
     "苹果壁纸",
     "苹果安全架构",
+    "苹果开发者大会",
     "苹果战略",
+    "苹果硬件",
     "融资",
+    "融资动态",
+    "融资披露",
+    "融资策略",
     "行业变革",
     "裁员",
     "裁员潮",
+    "视频API",
     "计算机乐谱",
     "计算机历史",
     "认知债",
@@ -4213,6 +5287,7 @@
     "设计伦理",
     "设计模式",
     "评测",
+    "语言哲学",
     "误炸事件",
     "误靶向",
     "调试技巧",
@@ -4231,6 +5306,7 @@
     "链式思维",
     "错误处理",
     "长上下文",
+    "长期主义",
     "防机器人",
     "隐喻",
     "隐私",
@@ -4240,6 +5316,7 @@
     "零日漏洞",
     "静态网站",
     "非程序员",
+    "音乐数学",
     "音乐科技",
     "项目管理",
     "预后准确性",

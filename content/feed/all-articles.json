@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-23",
-  "totalSources": 7,
-  "totalArticles": 320,
+  "date": "2026-03-24",
+  "totalSources": 8,
+  "totalArticles": 324,
   "allTags": [
     "AGI",
     "AI",
@@ -204,6 +204,7 @@
     "外交争议",
     "大模型",
     "大模型定价",
+    "大模型训练",
     "大规模裁员",
     "大语言模型",
     "天文摄影",
@@ -561,6 +562,21 @@
   ],
   "articles": [
     {
+      "title": "[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps",
+      "slug": "sponsor-npx-workos-from-auth-integration-to-environment-management-zero-clickops",
+      "url": "https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-24",
+      "description": "npx workos@latest launches an AI agent, powered by Claude , that reads your project, detects your framework, and writes a complete auth integration in",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "美国油价竟比穷国还低？全球能源价格地图揭秘",
       "slug": "美国油价竟比穷国还低-全球能源价格地图揭秘",
       "url": "https://www.globalpetrolprices.com/gasoline_prices/",
@@ -625,6 +641,23 @@
         "权限管理"
       ],
       "recommendReason": "从内核权限角度厘清安全设计的根本逻辑，帮助开发者理解系统边界与风险权衡。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "手写GPT-2第32集：Loss卡住了？这个参数调对是关键",
+      "slug": "手写gpt-2第32集-loss卡住了-这个参数调对是关键",
+      "url": "https://www.gilesthomas.com/2026/03/llm-from-scratch-32f-interventions-weight-decay",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "作者从零实现GPT-2小模型时，深入实验权重衰减（weight decay）对测试损失的影响，揭秘正则化在LLM训练中的真实作用与调优陷阱。",
+      "tags": [
+        "AI",
+        "大模型训练",
+        "深度学习"
+      ],
+      "recommendReason": "极客硬核系列的深度实践篇，手把手教你理解LLM训练中最容易被忽视的正则化细节。",
       "score": 8.5,
       "translated": false
     },
@@ -730,6 +763,36 @@
       "description": "A few years ago I wrote about comm, a utility that lets you do set theory at the command line. It’s a really useful little program, but it has two dra",
       "tags": [
         "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Quoting Neurotica",
+      "slug": "quoting-neurotica",
+      "url": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-files 0.1a2",
+      "slug": "datasette-files-0-1a2",
+      "url": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-23",
+      "description": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a ",
+      "tags": [
+        "simonwillison"
       ],
       "recommendReason": "",
       "score": 5.0,
