@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-24",
+  "date": "2026-03-26",
   "totalSources": 8,
-  "totalArticles": 324,
+  "totalArticles": 348,
   "allTags": [
     "AGI",
     "AI",
@@ -30,9 +30,11 @@
     "API技巧",
     "ARM64",
     "ActivityPub",
+    "Agent安全",
     "Agent模式",
     "Android系统",
     "Anthropic",
+    "App Store",
     "Apple TV",
     "App推荐",
     "BlackHatWorld",
@@ -42,6 +44,7 @@
     "CLI工具",
     "CSAM",
     "Claude",
+    "Claude Code",
     "Claude-Code",
     "Cloudflare",
     "C语言",
@@ -95,6 +98,7 @@
     "Rust",
     "SCP基金会",
     "SMPTE 2110",
+    "Sora",
     "SymPy",
     "Tech",
     "UI设计",
@@ -105,7 +109,9 @@
     "WWDC 2026",
     "Web优化",
     "Win32",
+    "Win32 API",
     "Win32开发",
+    "Win32编程",
     "Windows内核",
     "Windows安全",
     "Windows开发",
@@ -118,6 +124,7 @@
     "gilesthomas",
     "iOS开发",
     "iOS技巧",
+    "iOS更新",
     "idiallo",
     "jeffgeerling",
     "johndcook",
@@ -152,6 +159,7 @@
     "付费服务",
     "代码审查",
     "代码审计",
+    "代码生成",
     "代码质量",
     "企业文化",
     "伦理责任",
@@ -186,6 +194,7 @@
     "历史",
     "历史分析",
     "双曲函数",
+    "反垄断",
     "反平台垄断",
     "可视化",
     "命令行",
@@ -249,6 +258,7 @@
     "意识",
     "成长思维",
     "批判思维",
+    "批判性思维",
     "技术债务",
     "技术公司",
     "技术哲学",
@@ -264,6 +274,8 @@
     "推理速度",
     "提示工程",
     "提示词注入",
+    "插值法",
+    "插值算法",
     "播客",
     "政治观点",
     "效率",
@@ -271,11 +283,13 @@
     "效率革命",
     "敏捷实践",
     "教育反思",
+    "数值分析",
     "数字体育广播",
     "数字创造",
     "数字媒体",
     "数字权利",
     "数字极简主义",
+    "数学",
     "数学技巧",
     "数学科普",
     "数学计算",
@@ -310,12 +324,14 @@
     "沙盒安全",
     "法律",
     "法律争议",
+    "法律执行",
     "法律条款",
     "流媒体",
     "流程优化",
     "流程管理",
     "浏览器原理",
     "浏览器工具",
+    "浏览器性能",
     "浏览器自动化",
     "消息循环",
     "消息过滤",
@@ -349,6 +365,7 @@
     "社群动态",
     "神经网络",
     "种族",
+    "科学计算",
     "科幻",
     "科幻小说",
     "科技",
@@ -362,6 +379,7 @@
     "科技怀旧",
     "科技批判",
     "科技新品",
+    "科技评测",
     "科技评论",
     "科技诉讼",
     "移动互联网",
@@ -426,6 +444,7 @@
     "语言哲学",
     "误靶向",
     "调试技巧",
+    "谷歌",
     "财富不平等",
     "身份认同",
     "身份认证",
@@ -434,6 +453,7 @@
     "软件开发",
     "软件版权",
     "进化",
+    "迪士尼",
     "通行密钥",
     "逼近算法",
     "链式思维",
@@ -457,6 +477,23 @@
     "鹦鹉孵化"
   ],
   "highlights": [
+    {
+      "title": "对话框消息循环卡死？这个Windows隐藏机制能救场",
+      "slug": "对话框消息循环卡死-这个windows隐藏机制能救场",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "微软老员工Raymond Chen揭秘如何通过WM_ENTERIDLE消息劫持对话框消息循环，用MsgWaitForMultipleObjects替代GetMessage，实现模态对话框等待内核对象的高级技巧。",
+      "tags": [
+        "Windows开发",
+        "Win32编程",
+        "消息循环"
+      ],
+      "recommendReason": "深入Windows对话框内部机制，教你用WM_ENTERIDLE巧妙解决模态对话框无法等待多线程/内核对象的难题，是UI线程同步的高级实战技巧。",
+      "score": 8.8,
+      "translated": false
+    },
     {
       "title": "运行不可信JS？这6种沙盒方案实测对决",
       "slug": "运行不可信js-这6种沙盒方案实测对决",
@@ -541,26 +578,393 @@
       "recommendReason": "揭秘AI代理如何攻克20年老代码库的性能瓶颈，为技术管理者提供可复现的自动化调优方法论。",
       "score": 8.8,
       "translated": false
-    },
-    {
-      "title": "这个被谷歌'杀死'的技术，能拯救你的2026",
-      "url": "https://pluralistic.net/2026/03/07/reader-mode/",
-      "source": "pluralistic",
-      "author": "",
-      "date": "2026-03-07",
-      "description": "揭秘Google关闭Reader如何加速互联网恶化，论证RSS作为开放协议对抗平台垄断的不可替代价值，提供逃离算法茧房的具体方案。",
-      "tags": [
-        "RSS",
-        "数字权利",
-        "反平台垄断"
-      ],
-      "recommendReason": "Cory Doctorow犀利剖析互联网如何从开放走向封闭，为信息过载时代提供了一条回归自主的技术解药。",
-      "score": 8.8,
-      "translated": false,
-      "slug": "这个被谷歌-杀死-的技术-能拯救你的2026"
     }
   ],
   "articles": [
+    {
+      "title": "不写屎山代码反而升职快？工程师职场真相",
+      "slug": "不写屎山代码反而升职快-工程师职场真相",
+      "url": "https://seangoedecke.com/simple-work-gets-rewarded/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "反驳复杂代码保饭碗的迷思，通过对比两种工程师的长期表现，论证简单代码因交付快、可维护性强，反而更容易建立声誉获得晋升。",
+      "tags": [
+        "软件工程",
+        "职业发展",
+        "代码质量"
+      ],
+      "recommendReason": "戳破技术职场最大误区：可维护性比复杂度更能赢得非技术经理的信任与晋升机会。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "多一步才能更新？iOS 26.4这个反直觉设计",
+      "slug": "多一步才能更新-ios-26-4这个反直觉设计",
+      "url": "https://daringfireball.net/linked/2026/03/24/ios-264",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "iOS 26.4 App Store重构更新入口，从个人页底部移至独立分区，虽需多一次点击但逻辑更清晰，满足手动更新用户的需求。",
+      "tags": [
+        "iOS更新",
+        "App Store",
+        "用户体验"
+      ],
+      "recommendReason": "揭示苹果重构更新入口背后的产品逻辑，对关注iOS生态和交互设计的人有参考价值。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Sora突然死亡！迪士尼10亿美元为何打水漂？",
+      "slug": "sora突然死亡-迪士尼10亿美元为何打水漂",
+      "url": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "OpenAI突然关闭AI视频应用Sora，迪士尼随即取消10亿美元投资计划，双方仅合作三个月便分道扬镳。",
+      "tags": [
+        "OpenAI",
+        "Sora",
+        "迪士尼"
+      ],
+      "recommendReason": "独家揭秘AI巨头与娱乐巨头合作破裂背后的商业风险与行业变数。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "安卓跑分全球第一？谷歌这操作细思极恐",
+      "slug": "安卓跑分全球第一-谷歌这操作细思极恐",
+      "url": "https://blog.chromium.org/2026/03/android-sets-new-record-for-mobile-web.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Google宣称Android浏览器性能创纪录，却被发现使用未公开设备测试。这场「跑分盛宴」背后藏着哪些猫腻？为何记者集体翻车？",
+      "tags": [
+        "科技评测",
+        "批判性思维",
+        "浏览器性能"
+      ],
+      "recommendReason": "揭秘大厂性能营销背后的测试陷阱，培养独立技术判断力",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "独家揭秘：苹果如何“掏空”谷歌Gemini模型",
+      "slug": "独家揭秘-苹果如何-掏空-谷歌gemini模型",
+      "url": "https://www.theinformation.com/newsletters/ai-agenda/apple-can-distill-googles-big-gemini-model?rc=jfy0lk",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "报道披露苹果不仅可微调谷歌Gemini模型，更在其数据中心拥有完全访问权限，可自主蒸馏出符合自身需求的小型AI模型，揭示两家巨头不为人知的深度合作。",
+      "tags": [
+        "人工智能",
+        "苹果",
+        "谷歌"
+      ],
+      "recommendReason": "独家揭秘苹果与谷歌在AI领域的隐秘技术合作细节，看懂科技巨头间的博弈与共生。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "MessageBox竟偷偷禁用了这个消息？",
+      "slug": "messagebox竟偷偷禁用了这个消息",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260326-00/?p=112167",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "深入解析Windows消息循环机制，揭示MessageBox通过DS_NOIDLEMSG样式抑制WM_ENTERIDLE消息的底层原理，以及对话框消息循环控制的奥秘。",
+      "tags": [
+        "Windows编程",
+        "Win32 API",
+        "消息循环"
+      ],
+      "recommendReason": "揭示Windows对话框消息循环的隐藏机制，帮助开发者深入理解Win32 API的内部实现细节与陷阱。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "从155到1000万：插值误差的隐藏陷阱",
+      "slug": "从155到1000万-插值误差的隐藏陷阱",
+      "url": "https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "解析Lebesgue常数如何量化插值误差放大效应，对比等距网格与Chebyshev节点的巨大差异，警示高阶插值风险。",
+      "tags": [
+        "数值分析",
+        "插值法",
+        "数学"
+      ],
+      "recommendReason": "用惊人数据揭示高阶多项式插值的潜在灾难，指导如何选择节点避免误差爆炸。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "数学表隐藏精度：99%的人用错了插值方法",
+      "slug": "数学表隐藏精度-99-的人用错了插值方法",
+      "url": "https://www.johndcook.com/blog/2026/03/26/table-precision/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "深入解析如何通过高阶插值从表格中榨取极限精度，揭示过度追求高阶反而导致误差爆炸的数值分析陷阱。",
+      "tags": [
+        "数值分析",
+        "插值算法",
+        "科学计算"
+      ],
+      "recommendReason": "掌握精度与稳定性的平衡法则，让你在工程计算中做出更聪明的插值决策。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Quantization from the ground up",
+      "slug": "quantization-from-the-ground-up",
+      "url": "https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "Quantization from the ground up Sam Rose continues his streak of publishing spectacularly informative interactive essays, this time explaining how qua",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The Apple Charging Situation",
+      "slug": "the-apple-charging-situation",
+      "url": "https://randsinrepose.com/guides/apple-charging-guide.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Speaking of power adapters , this information guide from Rands in Repose is both useful and enlightening. ★",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "NYT: ‘Melania Trump Appears With a Robot, Saying More Children Should Be Educated by Them’",
+      "slug": "nyt-melania-trump-appears-with-a-robot-saying-more-children-should-be-educated-by-them",
+      "url": "https://www.nytimes.com/2026/03/25/us/politics/melania-trump-robot.html?smid=nytcore-ios-share",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Well, at least we know who taught her to talk like that . ★",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Katie Notopoulos Bids Farewell to Sora: ‘You Were Too Beautiful and Stupid for This World’",
+      "slug": "katie-notopoulos-bids-farewell-to-sora-you-were-too-beautiful-and-stupid-for-this-world",
+      "url": "https://www.businessinsider.com/sora-openai-chatgpt-sam-altman-ai-shutting-down-farewell-why-2026-3",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Katie Notopoulos, my favorite Sora user, at Business Insider (paywalled, alas, but available via News+ ): Eventually, my friends all seemed to get bor",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "MacOS 26.4 Adds ‘Slow Charger’ Indicator for MacBooks",
+      "slug": "macos-26-4-adds-slow-charger-indicator-for-macbooks",
+      "url": "https://www.macrumors.com/2026/03/25/macos-tahoe-26-4-slow-charger-macbooks/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Tim Hardwick at MacRumors: macOS Tahoe 26.4 includes a new slow charger indicator that tells MacBook users when their charging setup isn’t delivering ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Jennifer Daniel on the New ‘Distorted Face’ Emoji",
+      "slug": "jennifer-daniel-on-the-new-distorted-face-emoji",
+      "url": "https://jenniferdaniel.substack.com/p/new-emoji-distorted-face",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "Jennifer Daniel, on her “Did Someone Say Emoji?” blog: First came Melting Face 🫠, our collective surrender to the liquid state. Then Dotted Line Face ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The Yankees Almost Signed Another P.E.D. Cheater",
+      "slug": "the-yankees-almost-signed-another-p-e-d-cheater",
+      "url": "https://www.mlb.com/news/how-barry-bonds-was-nearly-a-yankee",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-26",
+      "description": "One more nugget from last night’s 7-0 Yankees win over the Giants: During the sixth inning of Wednesday’s Opening Night matchup between two historic f",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Adding human.json to WordPress",
+      "slug": "adding-human-json-to-wordpress",
+      "url": "https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say \"I, Alice, know and trust Bob\". Bob can say \"I know an",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "对话框消息循环卡死？这个Windows隐藏机制能救场",
+      "slug": "对话框消息循环卡死-这个windows隐藏机制能救场",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "微软老员工Raymond Chen揭秘如何通过WM_ENTERIDLE消息劫持对话框消息循环，用MsgWaitForMultipleObjects替代GetMessage，实现模态对话框等待内核对象的高级技巧。",
+      "tags": [
+        "Windows开发",
+        "Win32编程",
+        "消息循环"
+      ],
+      "recommendReason": "深入Windows对话框内部机制，教你用WM_ENTERIDLE巧妙解决模态对话框无法等待多线程/内核对象的难题，是UI线程同步的高级实战技巧。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "一天2万行代码的诅咒：AI编程正在失控？",
+      "slug": "一天2万行代码的诅咒-ai编程正在失控",
+      "url": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "Pi框架创始人警示：无节制使用AI编码代理正导致技术债务指数级累积，专家建议限制每日代码生成量并手工把控架构。",
+      "tags": [
+        "AI编程",
+        "代码生成",
+        "软件工程"
+      ],
+      "recommendReason": "来自一线框架作者的权威反思，揭示速度崇拜背后的认知债务陷阱，为AI时代编程提供关键平衡策略。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "为什么反垄断法总是形同虚设？",
+      "slug": "为什么反垄断法总是形同虚设",
+      "url": "https://pluralistic.net/2026/03/25/fact-intensive/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "文章揭示'市场定义'如何通过增加事实认定难度，使反垄断法在执法层面陷入瘫痪，成为对企业最友好的'保护罩'。",
+      "tags": [
+        "反垄断",
+        "法律执行",
+        "商业分析"
+      ],
+      "recommendReason": "从执法可操作性角度拆解反垄断困境，揭示法律文本与执行现实之间的致命鸿沟。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "datasette-files-s3 0.1a1",
+      "slug": "datasette-files-s3-0-1a1",
+      "url": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release add",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-llm 0.1a1",
+      "slug": "datasette-llm-0-1a1",
+      "url": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "Release: datasette-llm 0.1a1 New release of the base plugin that makes models from LLM available for use by other Datasette plugins such as datasette-",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "LiteLLM Hack: Were You One of the 47,000?",
+      "slug": "litellm-hack-were-you-one-of-the-47-000",
+      "url": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteL",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "War and AI, the death of Sora, and 3 ways you can catch me live today",
+      "slug": "war-and-ai-the-death-of-sora-and-3-ways-you-can-catch-me-live-today",
+      "url": "https://garymarcus.substack.com/p/war-and-ai-the-death-of-sora-and",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-25",
+      "description": "With apologies for the short notice, a few quick announcements:",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "无需危险权限！Claude自动模式竟用AI监督AI",
+      "slug": "无需危险权限-claude自动模式竟用ai监督ai",
+      "url": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-24",
+      "description": "Claude Code推出auto mode，用Claude Sonnet 4.6作为分类器自动审查操作权限，内置详细允许/拒绝规则，平衡自动化与安全性。",
+      "tags": [
+        "AI编程",
+        "Claude Code",
+        "Agent安全"
+      ],
+      "recommendReason": "揭秘Claude如何通过'AI监督AI'机制解决自动化编程工具的安全与效率矛盾，附完整权限规则解析。",
+      "score": 8.5,
+      "translated": false
+    },
     {
       "title": "[Sponsor] npx workos: From Auth Integration to Environment Management, Zero ClickOps",
       "slug": "sponsor-npx-workos-from-auth-integration-to-environment-management-zero-clickops",
