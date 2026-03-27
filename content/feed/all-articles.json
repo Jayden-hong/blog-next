@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-26",
+  "date": "2026-03-27",
   "totalSources": 8,
-  "totalArticles": 348,
+  "totalArticles": 359,
   "allTags": [
     "AGI",
     "AI",
@@ -25,6 +25,7 @@
     "AI自动化",
     "AI转型",
     "AI辅助",
+    "AI辅助开发",
     "AI辅助编程",
     "AI隐私",
     "API技巧",
@@ -72,11 +73,14 @@
     "Linux",
     "MIPS架构",
     "Mac",
+    "Mac Pro",
+    "Mac Studio",
     "MacBook",
     "MacBook Neo",
     "Mastodon",
     "Mathematica",
     "Meta",
+    "MiniDV",
     "Mistral",
     "Node.js",
     "OpenAI",
@@ -86,7 +90,9 @@
     "Pebble手表",
     "PostgreSQL",
     "Python",
+    "Python安全",
     "Python验证",
+    "RAG",
     "RLVR",
     "RSS",
     "Radiation Detection",
@@ -99,12 +105,14 @@
     "SCP基金会",
     "SMPTE 2110",
     "Sora",
+    "SwiftUI",
     "SymPy",
     "Tech",
     "UI设计",
     "USB测试仪",
     "Unicode",
     "VR技术",
+    "Vibe Coding",
     "Vision Pro",
     "WWDC 2026",
     "Web优化",
@@ -143,6 +151,7 @@
     "xeiaso",
     "三角函数",
     "个人博客",
+    "个人叙事",
     "个人工具",
     "个人网站",
     "个性化工具",
@@ -161,11 +170,13 @@
     "代码审计",
     "代码生成",
     "代码质量",
+    "代码迁移",
     "企业文化",
     "伦理责任",
     "估值争议",
     "伽马函数",
     "体育转播",
+    "供应链安全",
     "供应链攻击",
     "侧载限制",
     "信息自由法",
@@ -189,6 +200,7 @@
     "劳资关系",
     "化学卫生",
     "区块链",
+    "医疗体系",
     "博客",
     "卡卡波鹦鹉",
     "历史",
@@ -256,6 +268,7 @@
     "恶意软件",
     "情绪管理",
     "意识",
+    "成本优化",
     "成长思维",
     "批判思维",
     "批判性思维",
@@ -301,6 +314,7 @@
     "数据标注",
     "数据结构",
     "文件系统监控",
+    "文化观察",
     "文本生成",
     "时间管理",
     "星际迷航",
@@ -361,6 +375,7 @@
     "硬件改装",
     "硬件架构",
     "硬件评测",
+    "社会观察",
     "社会评论",
     "社群动态",
     "神经网络",
@@ -407,6 +422,7 @@
     "网页优化",
     "网页性能",
     "美国",
+    "美国医保",
     "美日关系",
     "职业危机",
     "职业发展",
@@ -426,6 +442,7 @@
     "苹果安全架构",
     "苹果开发者大会",
     "苹果战略",
+    "苹果硬件",
     "融资",
     "融资策略",
     "行业变革",
@@ -452,6 +469,7 @@
     "软件工程",
     "软件开发",
     "软件版权",
+    "软件许可",
     "进化",
     "迪士尼",
     "通行密钥",
@@ -581,6 +599,155 @@
     }
   ],
   "articles": [
+    {
+      "title": "告别Xcode！纯对话开发SwiftUI应用实测",
+      "slug": "告别xcode-纯对话开发swiftui应用实测",
+      "url": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "资深开发者Simon Willison展示如何仅用自然语言对话，让Claude和GPT编写完整的SwiftUI应用，无需打开Xcode即可构建菜单栏工具。",
+      "tags": [
+        "AI编程",
+        "SwiftUI",
+        "Vibe Coding"
+      ],
+      "recommendReason": "展示了AI辅助编程的极致形态，预示未来软件开发模式的根本性变革。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "400美元换50万年省，AI重写代码这笔账怎么算？",
+      "slug": "400美元换50万年省-ai重写代码这笔账怎么算",
+      "url": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "Reco团队仅用7小时、400美元API费用，借AI将JSONata移植至Go语言，经影子部署验证后，实现年省50万美元运维成本的迁移实战。",
+      "tags": [
+        "AI编程",
+        "代码迁移",
+        "成本优化"
+      ],
+      "recommendReason": "提供了AI辅助遗留系统迁移的完整方法论与惊人ROI实证，对技术团队评估AI落地价值极具参考意义。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "废弃DV机别扔！树莓派让它秒变数字摄影机",
+      "slug": "废弃dv机别扔-树莓派让它秒变数字摄影机",
+      "url": "https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "用Raspberry Pi 5+FireWire HAT+电池组打造便携式数字录制单元，替代老式MiniDV摄像机的磁带功能，既能直接录制数字视频，又能数字化备份旧磁带。",
+      "tags": [
+        "复古科技",
+        "树莓派",
+        "MiniDV"
+      ],
+      "recommendReason": "为持有老式DV设备的用户提供了低成本的数字化生存方案，完美解决苹果放弃FireWire支持后的兼容性问题。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "6.9万成绝唱！苹果突然砍掉最顶级 Mac",
+      "slug": "6-9万成绝唱-苹果突然砍掉最顶级-mac",
+      "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-27",
+      "description": "苹果正式确认停产Mac Pro并移除官网链接，这款始于2019年的高端工作站终成历史。Mac Studio将全面接管专业级桌面市场。",
+      "tags": [
+        "苹果硬件",
+        "Mac Pro",
+        "Mac Studio"
+      ],
+      "recommendReason": "专业用户必读：苹果最高端产品线战略转向的标志性信号",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "当世界上有另一个你：我的同名者奇遇记",
+      "slug": "当世界上有另一个你-我的同名者奇遇记",
+      "url": "https://idiallo.com/blog/sharing-a-name?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "程序员Ibrahim Diallo讲述因罕见西非名字与全球陌生人产生的奇妙交集，从误投的银行卡到保加利亚的老照片，探讨身份识别与UUID的有趣联想。",
+      "tags": [
+        "个人叙事",
+        "身份认同",
+        "文化观察"
+      ],
+      "recommendReason": "以幽默笔触探讨全球化时代的身份巧合，用程序员视角串联生活轶事与技术思考，既有趣味性又有深度。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "大模型搜不到的答案，Ctrl+F一秒找到？",
+      "slug": "大模型搜不到的答案-ctrl-f一秒找到",
+      "url": "https://www.johndcook.com/blog/2026/03/27/an-ai-odyssey-part-3-lost-needle-in-the-haystack/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "作者实测发现，电商AI购物助手无法回答产品细节问题，传统关键词搜索却能瞬间从评论中找到答案，揭示RAG在实际应用中的尴尬困境。",
+      "tags": [
+        "AI",
+        "RAG",
+        "用户体验"
+      ],
+      "recommendReason": "揭示AI落地应用的残酷现实：技术先进不等于体验优秀，值得产品经理和AI从业者深思。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "LGPLv3作者重磅发声：Python著名库无需强制开源？",
+      "slug": "lgplv3作者重磅发声-python著名库无需强制开源",
+      "url": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "Richard Fontana（LGPLv3共同作者）针对chardet 7.0.0许可争议发表权威观点，指出目前无证据表明该版本必须遵循LGPL协议发布。",
+      "tags": [
+        "开源协议",
+        "软件许可",
+        "Python"
+      ],
+      "recommendReason": "开源法律权威一手解读许可证争议，为开发者和企业合规提供关键参考。",
+      "score": 8.0,
+      "translated": false
+    },
+    {
+      "title": "★ Apple Giveth, Apple Taketh Away",
+      "slug": "apple-giveth-apple-taketh-away",
+      "url": "https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-27",
+      "description": "Safari is no longer breaking my menu-item-icon despising heart on MacOS 26 Tahoe, but the best trick to block the Tahoe “upgrade” notice on MacOS 15 S",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Computing sine and cosine of complex arguments with only real functions",
+      "slug": "computing-sine-and-cosine-of-complex-arguments-with-only-real-functions",
+      "url": "https://www.johndcook.com/blog/2026/03/27/complex-argument/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using P",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "不写屎山代码反而升职快？工程师职场真相",
       "slug": "不写屎山代码反而升职快-工程师职场真相",
@@ -714,6 +881,40 @@
         "科学计算"
       ],
       "recommendReason": "掌握精度与稳定性的平衡法则，让你在工程计算中做出更聪明的插值决策。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "逐分钟复盘：AI如何揪出PyPI供应链攻击",
+      "slug": "逐分钟复盘-ai如何揪出pypi供应链攻击",
+      "url": "https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "PyPI供应链遭投毒，开发者用Claude逐分钟分析LiteLLM恶意代码，完整还原从发现到上报的安全响应全过程。",
+      "tags": [
+        "供应链安全",
+        "Python安全",
+        "AI辅助开发"
+      ],
+      "recommendReason": "真实案例展示AI如何加速供应链安全威胁的识别与响应",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "从交医保到恨透社会，只需生一次病",
+      "slug": "从交医保到恨透社会-只需生一次病",
+      "url": "https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-26",
+      "description": "软件工程师痛陈美国医保陷阱：每月缴费却在生病时遭拒赔，系统性掠夺如何将守法公民逼向极端？",
+      "tags": [
+        "美国医保",
+        "社会观察",
+        "医疗体系"
+      ],
+      "recommendReason": "揭示美国医保系统性腐败的残酷真相，理解当代社会愤怒情绪的经济根源。",
       "score": 8.5,
       "translated": false
     },
