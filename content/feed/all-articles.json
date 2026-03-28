@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-28",
   "totalSources": 8,
-  "totalArticles": 359,
+  "totalArticles": 372,
   "allTags": [
     "AGI",
     "AI",
@@ -82,6 +82,7 @@
     "Meta",
     "MiniDV",
     "Mistral",
+    "Netflix",
     "Node.js",
     "OpenAI",
     "PHP开发",
@@ -133,6 +134,7 @@
     "iOS开发",
     "iOS技巧",
     "iOS更新",
+    "iPhone隐私",
     "idiallo",
     "jeffgeerling",
     "johndcook",
@@ -166,11 +168,13 @@
     "人工智能",
     "人机关系",
     "付费服务",
+    "付费订阅",
     "代码审查",
     "代码审计",
     "代码生成",
     "代码质量",
     "代码迁移",
+    "企业数字化",
     "企业文化",
     "伦理责任",
     "估值争议",
@@ -208,6 +212,7 @@
     "双曲函数",
     "反垄断",
     "反平台垄断",
+    "反间谍软件",
     "可视化",
     "命令行",
     "商业分析",
@@ -231,6 +236,7 @@
     "天文摄影",
     "太空探索",
     "奈飞",
+    "媒体转型",
     "安全",
     "实数理论",
     "家庭实验室",
@@ -298,10 +304,12 @@
     "教育反思",
     "数值分析",
     "数字体育广播",
+    "数字出版",
     "数字创造",
     "数字媒体",
     "数字权利",
     "数字极简主义",
+    "数字营销",
     "数学",
     "数学技巧",
     "数学科普",
@@ -319,6 +327,7 @@
     "时间管理",
     "星际迷航",
     "智能体工程",
+    "智能体开发",
     "智能体架构",
     "智能手表",
     "智能硬件",
@@ -421,8 +430,10 @@
     "网络安全",
     "网页优化",
     "网页性能",
+    "美元",
     "美国",
     "美国医保",
+    "美国政治",
     "美日关系",
     "职业危机",
     "职业发展",
@@ -442,6 +453,7 @@
     "苹果安全架构",
     "苹果开发者大会",
     "苹果战略",
+    "苹果生态",
     "苹果硬件",
     "融资",
     "融资策略",
@@ -468,6 +480,7 @@
     "软件2.0",
     "软件工程",
     "软件开发",
+    "软件架构",
     "软件版权",
     "软件许可",
     "进化",
@@ -600,6 +613,153 @@
   ],
   "articles": [
     {
+      "title": "AI狂烧万亿token？架构师正在取代程序员",
+      "slug": "ai狂烧万亿token-架构师正在取代程序员",
+      "url": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-28",
+      "description": "Matt Webb指出AI智能体虽能暴力破解问题，但真正的价值在于架构设计——当AI接管实现细节，程序员正从写代码转向设计可维护、可组合的底层架构。",
+      "tags": [
+        "AI编程",
+        "软件架构",
+        "智能体开发"
+      ],
+      "recommendReason": "这篇文章揭示了AI编程时代的核心转变：当智能体能暴力求解任何问题时，人类程序员的价值将彻底转向架构设计能力。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "美元要改版了？特朗普签名即将登上美钞",
+      "slug": "美元要改版了-特朗普签名即将登上美钞",
+      "url": "https://www.nytimes.com/2026/03/26/us/politics/trump-signature-us-dollars.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "美国财政部宣布，特朗普签名将于今年晚些时候出现在美元纸币上。这一史无前例的决定打破250年惯例，使他成为首位在任期间获此\"殊荣\"的总统。",
+      "tags": [
+        "特朗普",
+        "美元",
+        "美国政治"
+      ],
+      "recommendReason": "这不仅是一次货币设计变更，更是政治符号与美国财政史的重磅交汇，关乎每一位持有美元者的钱包符号。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "18万付费用户蒸发，媒体转型为何总翻车？",
+      "slug": "18万付费用户蒸发-媒体转型为何总翻车",
+      "url": "https://www.status.news/p/business-insider-subscription-decline-data",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "独家内部数据显示，Business Insider订阅业务持续萎缩，从流量驱动转向付费新闻的三年转型遭遇重创。",
+      "tags": [
+        "媒体转型",
+        "付费订阅",
+        "数字出版"
+      ],
+      "recommendReason": "独家揭秘头部媒体付费墙崩塌内幕，为内容创业与转型提供关键避坑指南。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "四年零失守！iPhone这个隐藏开关让黑客绝望",
+      "slug": "四年零失守-iphone这个隐藏开关让黑客绝望",
+      "url": "https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked-with-spyware/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "苹果官宣Lockdown Mode自推出以来从未被间谍软件攻破，连Amnesty International也证实该功能可有效抵御政府级监控攻击。",
+      "tags": [
+        "网络安全",
+        "iPhone隐私",
+        "反间谍软件"
+      ],
+      "recommendReason": "官方首次证实零被破记录，高净值人群和记者的必备安全设置指南。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "苹果地图开始卖广告？背后野心藏不住了",
+      "slug": "苹果地图开始卖广告-背后野心藏不住了",
+      "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "苹果推出一体化企业平台Apple Business，集成设备管理、企业邮箱，并宣布今夏在美国加拿大推出地图本地广告服务。",
+      "tags": [
+        "苹果生态",
+        "数字营销",
+        "企业数字化"
+      ],
+      "recommendReason": "揭示苹果从硬件销售向企业服务与广告收入转型的战略信号，对商家和数字营销从业者具有重要参考价值。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "快进要多按一次？Netflix这波更新把Apple TV用户惹毛了",
+      "slug": "快进要多按一次-netflix这波更新把apple-tv用户惹毛了",
+      "url": "https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "Netflix更新tvOS应用，将快进/快退操作从一键改为两键，打破用户肌肉记忆，被批为 pointless update（毫无意义的更新）。",
+      "tags": [
+        "Netflix",
+        "Apple TV",
+        "用户体验"
+      ],
+      "recommendReason": "揭示流媒体巨头如何通过微小交互改动影响千万用户习惯，值得产品设计师和Apple TV用户关注。",
+      "score": 8,
+      "translated": false
+    },
+    {
+      "title": "‘How Apple Became Apple: The Definitive Oral History of the Company’s Earliest Days’",
+      "slug": "how-apple-became-apple-the-definitive-oral-history-of-the-company-s-earliest-days",
+      "url": "https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "This feature from Harry McCracken is just spectacularly good. (And it’s a gift link that’ll get you past Fast Company’s paywall.) 50 years is a long t",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "New York Post: ‘Trump Considers Renaming Strait of Hormuz’",
+      "slug": "new-york-post-trump-considers-renaming-strait-of-hormuz",
+      "url": "https://nypost.com/2026/03/27/us-news/trump-considers-renaming-strait-of-hormuz-after-either-america-or-himself-once-he-evicts-iran/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "The New York Post (I’m not sure if I should tell you to take this with a grain of salt, because it’s the Post and their journalistic standards are low",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "OpenBenches hits 40k",
+      "slug": "openbenches-hits-40k",
+      "url": "https://shkspr.mobi/blog/2026/03/openbenches-hits-40k/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-28",
+      "description": "Back in November 2023, our crowdsourced website of memorial benches reached 30,000 entries. At the start of March this year, I was delighted when long",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "告别Xcode！纯对话开发SwiftUI应用实测",
       "slug": "告别xcode-纯对话开发swiftui应用实测",
       "url": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
@@ -702,6 +862,23 @@
       "translated": false
     },
     {
+      "title": "对话框想\"截胡\"自己的消息？Win32高手这样玩",
+      "slug": "对话框想-截胡-自己的消息-win32高手这样玩",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260327-00/?p=112172",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "深入解析对话框如何通过子类化所有者窗口拦截WM_ENTERIDLE消息，实现自定义消息循环的高级Win32技巧。",
+      "tags": [
+        "Windows编程",
+        "Win32 API",
+        "消息循环"
+      ],
+      "recommendReason": "Raymond Chen揭秘Win32消息机制的暗黑操作，对话框自我劫持的极致技巧。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "LGPLv3作者重磅发声：Python著名库无需强制开源？",
       "slug": "lgplv3作者重磅发声-python著名库无需强制开源",
       "url": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
@@ -743,6 +920,51 @@
       "description": "Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using P",
       "tags": [
         "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-showboat 0.1a2",
+      "slug": "datasette-showboat-0-1a2",
+      "url": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Working on products people hate",
+      "slug": "working-on-products-people-hate",
+      "url": "https://seangoedecke.com/working-on-products-people-hate/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-03-27",
+      "description": "",
+      "tags": [
+        "seangoedecke"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Netflix Raises Prices Again",
+      "slug": "netflix-raises-prices-again",
+      "url": "https://variety.com/2026/tv/news/why-netflix-hiked-prices-explained-chart-1236701365/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-27",
+      "description": "Todd Spangler, Variety: Under the new pricing, effective March 26 for new users and rolling out to current customers depending on their billing cycle,",
+      "tags": [
+        "daringfireball"
       ],
       "recommendReason": "",
       "score": 5.0,
