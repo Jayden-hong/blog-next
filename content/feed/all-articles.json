@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-28",
-  "totalSources": 8,
-  "totalArticles": 372,
+  "date": "2026-03-29",
+  "totalSources": 5,
+  "totalArticles": 382,
   "allTags": [
     "AGI",
     "AI",
@@ -64,6 +64,7 @@
     "HNSW",
     "HTML入门",
     "HTTP Range",
+    "IBM",
     "Ionizing Radiation",
     "JavaScript",
     "KrebsOnSecurity",
@@ -92,6 +93,7 @@
     "PostgreSQL",
     "Python",
     "Python安全",
+    "Python开发",
     "Python验证",
     "RAG",
     "RLVR",
@@ -149,6 +151,7 @@
     "seangoedecke",
     "shkspr.mobi",
     "simonwillison",
+    "tvOS",
     "x86架构",
     "xeiaso",
     "三角函数",
@@ -237,6 +240,7 @@
     "太空探索",
     "奈飞",
     "媒体转型",
+    "学术写作",
     "安全",
     "实数理论",
     "家庭实验室",
@@ -254,6 +258,7 @@
     "广播技术",
     "应用程序开发",
     "底层优化",
+    "底层架构",
     "底层编程",
     "康威生命游戏",
     "开发实践",
@@ -263,6 +268,7 @@
     "开源",
     "开源协议",
     "开源历史",
+    "开源工具",
     "开源模型",
     "开源治理",
     "开源维护",
@@ -281,6 +287,7 @@
     "技术债务",
     "技术公司",
     "技术哲学",
+    "技术工具",
     "技术感悟",
     "技术批评",
     "技术评论",
@@ -447,6 +454,7 @@
     "自动编程",
     "自媒体变现",
     "自我成长",
+    "航空航天",
     "苹果",
     "苹果MLX",
     "苹果壁纸",
@@ -460,6 +468,7 @@
     "行业变革",
     "裁员",
     "裁员潮",
+    "视觉大模型",
     "视频API",
     "计算机乐谱",
     "计算机历史",
@@ -613,6 +622,136 @@
   ],
   "articles": [
     {
+      "title": "不测DOM也能算文本高度？这个库让浏览器性能暴涨",
+      "slug": "不测dom也能算文本高度-这个库让浏览器性能暴涨",
+      "url": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-29",
+      "description": "React核心开发者发布Pretext库，通过离屏canvas和智能缓存策略，在不触碰DOM的情况下快速计算文本高度，解决了浏览器文本测量的性能瓶颈，支持多语言且经过《盖茨比》全文验证。",
+      "tags": [
+        "前端开发",
+        "JavaScript",
+        "性能优化"
+      ],
+      "recommendReason": "由React核心开发者打造的突破性方案，揭示了不触碰DOM即可精准测量文本的黑科技实现，对追求极致渲染性能的前端工程师极具启发价值。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "这个被LaTeX掩盖的神器，正在悄悄改变学术出版",
+      "slug": "这个被latex掩盖的神器-正在悄悄改变学术出版",
+      "url": "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-29",
+      "description": "Simon Willison深入解析Pretext工具底层原理，揭示其在学术写作和技术文档领域的独特优势与架构设计。",
+      "tags": [
+        "学术写作",
+        "技术工具",
+        "底层架构"
+      ],
+      "recommendReason": "技术大牛Simon Willison带你揭秘Pretext核心机制，学术写作者必读的效率提升指南。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "你的Python项目藏了多少雷？3秒查出所有漏洞",
+      "slug": "你的python项目藏了多少雷-3秒查出所有漏洞",
+      "url": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-29",
+      "description": "Simon Willison推出开源工具，支持上传requirements.txt直接扫描依赖库安全漏洞，调用OSV.dev数据库实时显示风险等级和修复方案。",
+      "tags": [
+        "Python开发",
+        "网络安全",
+        "开源工具"
+      ],
+      "recommendReason": "供应链安全必备：无需安装，粘贴即扫，一键发现项目依赖中的已知漏洞和版本风险。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "挑战者号坠海后，NASA为何紧急打捞这些IBM计算机？",
+      "slug": "挑战者号坠海后-nasa为何紧急打捞这些ibm计算机",
+      "url": "http://www.righto.com/feeds/542341856603240438/comments/default",
+      "source": "righto",
+      "author": "Ken Shirriff",
+      "date": "2026-03-29",
+      "description": "揭秘IBM 4 Pi航空计算机的太空往事：从阿波罗任务控制到航天飞机AP-101，探索HAL/S语言、矢量字体与核心存储器背后的硬核技术史。",
+      "tags": [
+        "计算机历史",
+        "航空航天",
+        "IBM"
+      ],
+      "recommendReason": "罕见的航天计算机硬件考古，揭秘美国载人航天背后的IBM技术体系与失传的工程细节。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "不看图也能拿冠军？斯坦福实锤AI视觉骗局",
+      "slug": "不看图也能拿冠军-斯坦福实锤ai视觉骗局",
+      "url": "https://garymarcus.substack.com/p/the-mirage-of-visual-understanding",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-29",
+      "description": "斯坦福最新研究揭露，前沿AI模型无需查看图像就能在医学影像问答中取得高分，暴露“幻象推理”缺陷，视觉理解能力或被严重高估。",
+      "tags": [
+        "人工智能",
+        "视觉大模型",
+        "AI幻觉"
+      ],
+      "recommendReason": "戳破AI视觉能力泡沫，为医疗AI应用和职业替代焦虑提供理性判断依据。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "The Talk Show: ‘You’re Going to Have the Niggles’",
+      "slug": "the-talk-show-you-re-going-to-have-the-niggles",
+      "url": "https://daringfireball.net/thetalkshow/2026/03/29/ep-444",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-29",
+      "description": "For your weekend listening enjoyment: Christina Warren returns to the show to discuss Apple big month of product announcements — in particular, the iP",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Version History: ‘The Macintosh’",
+      "slug": "version-history-the-macintosh",
+      "url": "https://www.theverge.com/podcast/903068/macintosh-1984-version-history",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-29",
+      "description": "For your weekend viewing enjoyment: But in almost every way that mattered, the Macintosh was right . Right about how we’d use computers going forward.",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The Verge: ‘Rank the Best Apple Products From the Last 50 Years’",
+      "slug": "the-verge-rank-the-best-apple-products-from-the-last-50-years",
+      "url": "https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-29",
+      "description": "Look, I’m all for democracy, but a poll whose results currently have the Extended Keyboard II down at #47 is a poll that makes me angry. ★",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "AI狂烧万亿token？架构师正在取代程序员",
       "slug": "ai狂烧万亿token-架构师正在取代程序员",
       "url": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
@@ -698,6 +837,23 @@
       "translated": false
     },
     {
+      "title": "三击遥控器就能开字幕？大部分App竟不支持",
+      "slug": "三击遥控器就能开字幕-大部分app竟不支持",
+      "url": "https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "揭露tvOS生态痛点：Netflix等应用因自定义播放器不支持系统级字幕快捷切换，导致用户体验割裂，呼吁Apple建立强制标准。",
+      "tags": [
+        "Apple TV",
+        "tvOS",
+        "用户体验"
+      ],
+      "recommendReason": "深入剖析平台生态标准缺失如何影响日常观影体验，为Apple TV用户提供实用快捷键技巧的同时，揭示流媒体巨头与系统原生功能的兼容性鸿沟。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
       "title": "快进要多按一次？Netflix这波更新把Apple TV用户惹毛了",
       "slug": "快进要多按一次-netflix这波更新把apple-tv用户惹毛了",
       "url": "https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/",
@@ -754,6 +910,21 @@
       "description": "Back in November 2023, our crowdsourced website of memorial benches reached 30,000 entries. At the start of March this year, I was delighted when long",
       "tags": [
         "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The 2019 Intel Mac Pro’s Unfortunate Timing",
+      "slug": "the-2019-intel-mac-pro-s-unfortunate-timing",
+      "url": "https://512pixels.net/2026/03/how-apple-could-have-saved-the-mac-pro/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-28",
+      "description": "Stephen Hackett, at 512 Pixels: I’ve thought a lot about the bad timing Jones mentions. Had Apple stuck to the original timeline, and killed off the 2",
+      "tags": [
+        "daringfireball"
       ],
       "recommendReason": "",
       "score": 5.0,
