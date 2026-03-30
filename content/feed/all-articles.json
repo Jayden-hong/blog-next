@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-29",
-  "totalSources": 5,
-  "totalArticles": 382,
+  "date": "2026-03-30",
+  "totalSources": 9,
+  "totalArticles": 395,
   "allTags": [
     "AGI",
     "AI",
@@ -78,6 +78,7 @@
     "Mac Studio",
     "MacBook",
     "MacBook Neo",
+    "Macintosh",
     "Mastodon",
     "Mathematica",
     "Meta",
@@ -212,12 +213,15 @@
     "卡卡波鹦鹉",
     "历史",
     "历史分析",
+    "历史文本",
     "双曲函数",
     "反垄断",
     "反平台垄断",
     "反间谍软件",
+    "古典跨界",
     "可视化",
     "命令行",
+    "品牌批判",
     "商业分析",
     "商业模式",
     "固件升级",
@@ -339,12 +343,15 @@
     "智能手表",
     "智能硬件",
     "服务器运维",
+    "本地AI",
     "本地大模型",
     "本地监控",
     "机器人",
     "机器学习",
+    "机械表",
     "权力分析",
     "权限管理",
+    "极客文化",
     "查询性能",
     "树莓派",
     "模型量化",
@@ -371,10 +378,12 @@
     "深度学习",
     "深度思考",
     "游戏历史",
+    "演出评测",
     "物联网",
     "物联网安全",
     "特朗普",
     "特殊函数",
+    "独立制表",
     "环保",
     "生活便利",
     "生物多样性",
@@ -509,6 +518,7 @@
     "零日漏洞",
     "静态网站",
     "非程序员",
+    "音乐现场",
     "音乐科技",
     "项目管理",
     "预后准确性",
@@ -621,6 +631,209 @@
     }
   ],
   "articles": [
+    {
+      "title": "Paul Graham错了？机械表市场的真相令人意外",
+      "slug": "paul-graham错了-机械表市场的真相令人意外",
+      "url": "https://paulgraham.com/brandage.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-30",
+      "description": "Paul Graham认为品牌主导的世界很糟糕，但作者以机械表行业为例，指出独立制表品牌的崛起正让市场更有趣，挑战了传统奢侈品牌霸权。",
+      "tags": [
+        "品牌批判",
+        "机械表",
+        "独立制表"
+      ],
+      "recommendReason": "挑战权威观点，揭示小众品牌如何在品牌霸权时代开辟新天地，对消费选择有启发。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "全场起立的五星演出，这支乐队居然根本不存在？",
+      "slug": "全场起立的五星演出-这支乐队居然根本不存在",
+      "url": "https://shkspr.mobi/blog/2026/03/gig-review-vitamin-string-quartet-at-the-barbican/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "揭秘Vitamin String Quartet如何用流动阵容演绎现代金曲，在Barbican打造五星之夜，以及顶级音乐厅里不得不说的厕所排队尴尬。",
+      "tags": [
+        "音乐现场",
+        "古典跨界",
+        "演出评测"
+      ],
+      "recommendReason": "给音乐爱好者的一手观演报告，揭秘“幽灵乐队”的爆款公式与伦敦顶级音乐厅的真实体验。",
+      "score": 8.0,
+      "translated": false
+    },
+    {
+      "title": "狄更斯附体？这个AI吃了28000本古籍",
+      "slug": "狄更斯附体-这个ai吃了28000本古籍",
+      "url": "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "基于超过28,000篇维多利亚时代英国文本训练的本地AI模型Mr. Chatterbox发布，可在个人电脑上体验19世纪文风对话。",
+      "tags": [
+        "大语言模型",
+        "本地AI",
+        "历史文本"
+      ],
+      "recommendReason": "罕见的复古AI实验，探索大模型与 Victorian 时代文学结合的奇特趣味。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "比鼠标还小的Mac？我见过最疯狂的尺寸对决",
+      "slug": "比鼠标还小的mac-我见过最疯狂的尺寸对决",
+      "url": "https://scottknaster.substack.com/p/macs-of-unusual-size",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-03-30",
+      "description": "作者同时拥有世界最小（比鼠标还小）和超大号（22倍尺寸）的Macintosh，在计算机历史博物馆展示这两台真能开机的极端Mac。",
+      "tags": [
+        "复古计算",
+        "Macintosh",
+        "极客文化"
+      ],
+      "recommendReason": "见识极客如何将Mac压缩到极限尺寸又放大到夸张比例，感受硬件改装的创意与复古科技的魅力。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "Quoting Georgi Gerganov",
+      "slug": "quoting-georgi-gerganov",
+      "url": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-llm 0.1a3",
+      "slug": "datasette-llm-0-1a3",
+      "url": "https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "Release: datasette-llm 0.1a3 Adds the ability to configure which LLMs are available for which purpose , which means you can restrict the list of model",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+      "slug": "mr-chatterbox-is-a-weak-victorian-era-ethically-trained-model-you-can-run-on-your-own-computer",
+      "url": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "[Sponsor] Material Security",
+      "slug": "sponsor-material-security",
+      "url": "https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-03-30",
+      "description": "Stop scaling headcount. Scale your workspace. Most security teams don’t have a talent problem, they have a noise problem. Manual phishing remediation,",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "How Do We Get Developers to Read the Docs",
+      "slug": "how-do-we-get-developers-to-read-the-docs",
+      "url": "https://idiallo.com/blog/how-do-we-get-developers-to-read-the-docs?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "When I reviewed this PR, I had tears in my eyes. We had done it. We had finally created the perfect API. To top it off, the senior developer who worke",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Market participation is exhausting (30 Mar 2026)",
+      "slug": "pluralistic-market-participation-is-exhausting-30-mar-2026",
+      "url": "https://pluralistic.net/2026/03/30/players-of-games/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanen",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Small note about AI 'GPUs'",
+      "slug": "small-note-about-ai-gpus",
+      "url": "https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/",
+      "source": "xeiaso",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "They are graphical processing units that can't process graphics.",
+      "tags": [
+        "xeiaso"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "A question about the maximimum number of values in a registry key raises questions about the question",
+      "slug": "a-question-about-the-maximimum-number-of-values-in-a-registry-key-raises-questions-about-the-questio",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260330-00/?p=112175",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "Why is this even a question? The post A question about the maximimum number of values in a registry key raises questions about the question appeared f",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "“CEO said a thing!”",
+      "slug": "ceo-said-a-thing",
+      "url": "https://garymarcus.substack.com/p/ceo-said-a-thing",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-03-30",
+      "description": "A blistering guide to what lazy journalism too often looks like",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "不测DOM也能算文本高度？这个库让浏览器性能暴涨",
       "slug": "不测dom也能算文本高度-这个库让浏览器性能暴涨",
