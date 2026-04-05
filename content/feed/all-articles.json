@@ -1,7 +1,7 @@
 {
-  "date": "2026-03-31",
-  "totalSources": 11,
-  "totalArticles": 410,
+  "date": "2026-04-05",
+  "totalSources": 9,
+  "totalArticles": 430,
   "allTags": [
     "AGI",
     "AI",
@@ -30,6 +30,7 @@
     "AI辅助编程",
     "AI隐私",
     "API技巧",
+    "API设计",
     "ARM64",
     "ActivityPub",
     "Agent安全",
@@ -45,6 +46,7 @@
     "C++",
     "CLI工具",
     "CSAM",
+    "ChatGPT",
     "Claude",
     "Claude Code",
     "Claude-Code",
@@ -137,6 +139,7 @@
     "enshittification",
     "garymarcus",
     "gilesthomas",
+    "iOS 26",
     "iOS开发",
     "iOS技巧",
     "iOS更新",
@@ -169,11 +172,13 @@
     "书评",
     "二分查找",
     "互联网历史",
+    "互联网文化",
     "交互式学习",
     "交互艺术",
     "产品思维",
     "产品更新",
     "人工智能",
+    "人文阅读",
     "人机关系",
     "付费服务",
     "付费订阅",
@@ -205,6 +210,7 @@
     "减肥",
     "分布式拒绝服务(DDoS)",
     "分布式系统",
+    "创业真相",
     "前端优化",
     "前端开发",
     "前端性能",
@@ -213,17 +219,21 @@
     "化学卫生",
     "区块链",
     "医疗体系",
+    "医疗健康",
     "博客",
     "卡卡波鹦鹉",
+    "卡尔曼滤波",
     "历史",
     "历史分析",
     "历史文本",
     "双曲函数",
     "反垄断",
     "反平台垄断",
+    "反焦虑",
     "反间谍软件",
     "古典跨界",
     "可视化",
+    "后端架构",
     "后量子密码学",
     "命令行",
     "品牌批判",
@@ -233,6 +243,7 @@
     "在线广告",
     "在线社区",
     "在线讨论",
+    "地缘政治",
     "基础设施",
     "壁纸",
     "复分析",
@@ -257,7 +268,9 @@
     "屏蔽提示",
     "崩溃监控",
     "嵌入式开发",
+    "工作流引擎",
     "工程师",
+    "平台数据",
     "平台经济",
     "平面设计",
     "并购",
@@ -274,6 +287,7 @@
     "开发工具",
     "开发者",
     "开发者工具",
+    "开发者生态",
     "开放数据",
     "开源",
     "开源协议",
@@ -296,6 +310,7 @@
     "批判性思维",
     "技术债务",
     "技术公司",
+    "技术反思",
     "技术哲学",
     "技术工具",
     "技术感悟",
@@ -321,6 +336,7 @@
     "敏捷实践",
     "教育反思",
     "数值分析",
+    "数字主权",
     "数字体育广播",
     "数字出版",
     "数字创造",
@@ -329,15 +345,18 @@
     "数字极简主义",
     "数字营销",
     "数学",
+    "数学之美",
     "数学技巧",
     "数学科普",
     "数学计算",
     "数据保存",
     "数据加密",
     "数据可视化",
+    "数据安全",
     "数据库优化",
     "数据新闻",
     "数据标注",
+    "数据泄露",
     "数据结构",
     "文件系统监控",
     "文化观察",
@@ -394,6 +413,7 @@
     "独立制表",
     "环保",
     "生活便利",
+    "生活方式",
     "生物多样性",
     "生物黑客",
     "用户体验",
@@ -423,6 +443,7 @@
     "科技动态",
     "科技反思",
     "科技史",
+    "科技垄断",
     "科技媒体",
     "科技怀旧",
     "科技批判",
@@ -482,6 +503,7 @@
     "苹果战略",
     "苹果生态",
     "苹果硬件",
+    "苹果系统",
     "融资",
     "融资策略",
     "行业变革",
@@ -502,6 +524,7 @@
     "误靶向",
     "调试技巧",
     "谷歌",
+    "贝叶斯统计",
     "财富不平等",
     "身份认同",
     "身份认证",
@@ -528,6 +551,7 @@
     "隐私保护",
     "隐私安全",
     "隐私权",
+    "集体诉讼",
     "零日漏洞",
     "静态网站",
     "非程序员",
@@ -540,6 +564,23 @@
     "鹦鹉孵化"
   ],
   "highlights": [
+    {
+      "title": "你的手机正在成为武器？美欧科技战致命妥协",
+      "slug": "你的手机正在成为武器-美欧科技战致命妥协",
+      "url": "https://pluralistic.net/2026/04/04/digital-subjugation/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-04",
+      "description": "文章揭露欧盟准备向特朗普屈服的风险，警示美国科技巨头已将OTA更新变成地缘政治武器，可随时远程瘫痪他国政府系统和关键基础设施。",
+      "tags": [
+        "数字主权",
+        "地缘政治",
+        "科技垄断"
+      ],
+      "recommendReason": "揭示硅谷如何将软件更新变成数字时代的核武器，一针见血剖析科技殖民主义的新形态。",
+      "score": 8.8,
+      "translated": false
+    },
     {
       "title": "对话框消息循环卡死？这个Windows隐藏机制能救场",
       "slug": "对话框消息循环卡死-这个windows隐藏机制能救场",
@@ -624,26 +665,335 @@
       "recommendReason": "揭示反共识商业智慧：在全民AI军备竞赛中，克制比疯狂更需要勇气与洞察力。",
       "score": 8.8,
       "translated": false
-    },
-    {
-      "title": "7500人公司CEO亲自下场，用AI把核心引擎提速53%",
-      "slug": "7500人公司ceo亲自下场-用ai把核心引擎提速53",
-      "url": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
-      "source": "simonwillison",
-      "author": "",
-      "date": "2026-03-13",
-      "description": "Shopify CEO用AI代理对20年历史的Liquid模板引擎进行120次自动化实验，实现解析渲染速度提升53%、内存分配减少61%，展现AI辅助编程如何让高层管理者重新掌控代码优化。",
-      "tags": [
-        "AI编程",
-        "性能优化",
-        "Ruby"
-      ],
-      "recommendReason": "揭秘AI代理如何攻克20年老代码库的性能瓶颈，为技术管理者提供可复现的自动化调优方法论。",
-      "score": 8.8,
-      "translated": false
     }
   ],
   "articles": [
+    {
+      "title": "深夜问诊ChatGPT：200万人的无声医疗危机",
+      "slug": "深夜问诊chatgpt-200万人的无声医疗危机",
+      "url": "https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "OpenAI内部数据曝光，70%医疗咨询发生在诊所关门外，偏远地区用户正把AI当救命稻草。",
+      "tags": [
+        "人工智能",
+        "医疗健康",
+        "ChatGPT"
+      ],
+      "recommendReason": "揭示AI如何填补美国医疗资源鸿沟，预示未来医疗场景的范式转移。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "西蒙用AI拆解四大LLM API，发现了什么？",
+      "slug": "西蒙用ai拆解四大llm-api-发现了什么",
+      "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "顶级开发者Simon Willison使用Claude Code系统性研究Anthropic、OpenAI、Gemini和Mistral的HTTP API，提取流式与非流式原始JSON数据，开源完整研究资料。",
+      "tags": [
+        "LLM",
+        "API设计",
+        "开源工具"
+      ],
+      "recommendReason": "顶级开发者分享如何用AI工具系统性反编译主流LLM接口，附完整脚本与原始数据，是构建LLM应用的必读参考资料。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "iOS 26只是换皮？深度对比后我发现...",
+      "slug": "ios-26只是换皮-深度对比后我发现",
+      "url": "https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-05",
+      "description": "苹果罕见为iOS 18推送安全补丁，知名果粉博主实测对比新旧系统，发现iOS 26改动微小，甚至调侃macOS 26设计糟糕。",
+      "tags": [
+        "iOS 26",
+        "苹果系统",
+        "科技评测"
+      ],
+      "recommendReason": "权威科技博主亲测对比新旧iOS系统，为犹豫是否升级的用户提供独特决策参考。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "无痕模式是骗局？你的AI对话正被卖给谷歌",
+      "slug": "无痕模式是骗局-你的ai对话正被卖给谷歌",
+      "url": "https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-05",
+      "description": "Perplexity AI遭集体诉讼，指控其\"无痕模式\"实为骗局，即使用户开启隐私保护，对话内容及身份信息仍被秘密共享给Google和Meta用于广告追踪。",
+      "tags": [
+        "AI隐私",
+        "集体诉讼",
+        "数据安全"
+      ],
+      "recommendReason": "揭秘AI工具\"无痕模式\"背后的隐私陷阱，打破虚假隐私保护承诺的认知误区。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "注册时留了个心眼，我抓出了这家公司的内鬼",
+      "slug": "注册时留了个心眼-我抓出了这家公司的内鬼",
+      "url": "https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "开发者使用专属邮箱注册BrowserStack，意外追踪到数据被卖给Apollo.io，揭露企业内部数据泄露的黑产链条。",
+      "tags": [
+        "隐私安全",
+        "数据泄露",
+        "网络安全"
+      ],
+      "recommendReason": "教你用'蜜罐'邮箱追踪数据泄露源头，揭开企业贩卖用户数据的隐秘链条。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "18亿估值竟是骗局？揭秘'一人AI公司'真相",
+      "slug": "18亿估值竟是骗局-揭秘-一人ai公司-真相",
+      "url": "https://garymarcus.substack.com/p/the-back-story-behind-the-first-18",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "当《纽约时报》盛赞一人打造18亿AI公司时，深扒发现其面临垃圾邮件诉讼、欺诈质疑，揭示了AI炒作背后的风险与真相。",
+      "tags": [
+        "人工智能",
+        "创业真相",
+        "科技伦理"
+      ],
+      "recommendReason": "撕开AI造神运动的面具，用批判性思维审视技术炒作与法律风险的残酷现实。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "深夜独处：比创业更上瘾的事",
+      "slug": "深夜独处-比创业更上瘾的事",
+      "url": "https://idiallo.com/blog/its-not-that-deep?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "一位程序员在周日晚间的独处时光中，通过阅读非商业化的个人博客，找到了比追逐技术创业更治愈的快乐，提醒人们在焦虑时代享受简单的人文时刻。",
+      "tags": [
+        "生活方式",
+        "反焦虑",
+        "人文阅读"
+      ],
+      "recommendReason": "在功利主义盛行的当下，这篇文章用温柔的笔触提醒我们：不是所有时间都要用来改变世界，安静地读一篇有人性的文字，也是一种珍贵的生活智慧。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "Syntaqlite Playground",
+      "slug": "syntaqlite-playground",
+      "url": "https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of b",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "scan-for-secrets 0.2",
+      "slug": "scan-for-secrets-0-2",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "Release: scan-for-secrets 0.2 CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "scan-for-secrets 0.1.1",
+      "slug": "scan-for-secrets-0-1-1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "scan-for-secrets 0.1",
+      "slug": "scan-for-secrets-0-1",
+      "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-05",
+      "description": "Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize",
+      "slug": "an-easter-morning-message-of-hope-from-the-winner-of-the-fifa-peace-prize",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/116351998782539414",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-05",
+      "description": "Donald Trump, sitting president of the United States, on his blog: Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran. Th",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "你的手机正在成为武器？美欧科技战致命妥协",
+      "slug": "你的手机正在成为武器-美欧科技战致命妥协",
+      "url": "https://pluralistic.net/2026/04/04/digital-subjugation/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-04",
+      "description": "文章揭露欧盟准备向特朗普屈服的风险，警示美国科技巨头已将OTA更新变成地缘政治武器，可随时远程瘫痪他国政府系统和关键基础设施。",
+      "tags": [
+        "数字主权",
+        "地缘政治",
+        "科技垄断"
+      ],
+      "recommendReason": "揭示硅谷如何将软件更新变成数字时代的核武器，一针见血剖析科技殖民主义的新形态。",
+      "score": 8.8,
+      "translated": false
+    },
+    {
+      "title": "这个搜索引擎找不到的秘密，只开放给RSS订阅者",
+      "slug": "这个搜索引擎找不到的秘密-只开放给rss订阅者",
+      "url": "https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-04",
+      "description": "介绍RSS Club概念——仅通过RSS订阅传播、对搜索引擎和社交媒体隐藏的内容，探讨反算法时代的信息获取方式。",
+      "tags": [
+        "RSS",
+        "互联网文化",
+        "隐私保护"
+      ],
+      "recommendReason": "揭示了在算法主导的时代，依然存在一种私密、纯粹的信息获取方式，为厌倦了社交媒体噪声的读者提供新思路。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": " abandon复杂中间件！5个月生产验证的纯Postgres工作流系统",
+      "slug": "abandon复杂中间件-5个月生产验证的纯postgres工作流系统",
+      "url": "https://lucumr.pocoo.org/2026/4/4/absurd-in-production/",
+      "source": "lucumr-pocoo",
+      "author": "Armin Ronacher",
+      "date": "2026-04-04",
+      "description": "Armin Ronacher分享Absurd系统实战：仅用SQL文件和轻量SDK实现durable execution，无需额外服务即可支撑长时任务、断点续传与子任务编排。",
+      "tags": [
+        "后端架构",
+        "PostgreSQL",
+        "工作流引擎"
+      ],
+      "recommendReason": "生产级经验揭示如何用单一数据库替代复杂分布式中间件，为中小团队提供极简可靠的任务编排方案。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "算个平均分，背后竟藏着贝叶斯和卡尔曼滤波？",
+      "slug": "算个平均分-背后竟藏着贝叶斯和卡尔曼滤波",
+      "url": "https://www.johndcook.com/blog/2026/04/04/kalman-bayes/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-04",
+      "description": "通过一个成绩平均分的更新公式，揭秘贝叶斯统计与卡尔曼滤波背后惊人的数学统一性。",
+      "tags": [
+        "贝叶斯统计",
+        "卡尔曼滤波",
+        "数学之美"
+      ],
+      "recommendReason": "用一道中学数学题，串起贝叶斯统计与卡尔曼滤波的深层联系。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "GitHub数据爆炸：每周21亿分钟，开发者正在疯狂...",
+      "slug": "github数据爆炸-每周21亿分钟-开发者正在疯狂",
+      "url": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-04",
+      "description": "GitHub COO Kyle Daigle透露最新数据：平台commit量预计将达140亿次，Actions使用量从5亿暴涨至21亿分钟/周，开发者活跃度呈指数级增长。",
+      "tags": [
+        "GitHub",
+        "开发者生态",
+        "平台数据"
+      ],
+      "recommendReason": "来自GitHub高管的一手增长数据，精准揭示了开发者工具使用量的爆发式趋势，对判断2026年技术生态走向具有重要参考价值。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "当AI接管编码，你的大脑会发生什么？",
+      "slug": "当ai接管编码-你的大脑会发生什么",
+      "url": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-03",
+      "description": "探讨AI编码代理如何改变开发者认知模式，以及效率提升背后可能产生的认知债务问题。",
+      "tags": [
+        "AI编程",
+        "认知科学",
+        "技术反思"
+      ],
+      "recommendReason": "从认知科学角度审视AI编程工具的隐性成本，帮助开发者在效率与思维深度间找到平衡。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Vulnerability Research Is Cooked",
+      "slug": "vulnerability-research-is-cooked",
+      "url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-03",
+      "description": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerab",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32h -- Interventions: full fat float32",
+      "slug": "writing-an-llm-from-scratch-part-32h-interventions-full-fat-float32",
+      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-03",
+      "description": "This is the last of the interventions I'm trying out to see if I can improve the test loss for a from-scratch GPT-2 small base model, trained on code ",
+      "tags": [
+        "gilesthomas"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "My ramblings are available over gopher",
       "slug": "my-ramblings-are-available-over-gopher",
