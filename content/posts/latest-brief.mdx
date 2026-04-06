@@ -4,128 +4,152 @@ date: "2026-04-07T06:00:00Z"
 tags: ["daily-brief", "rss"]
 ---
 
-> 22 articles · 7.2/10 avg · 14 highlights (≥7.5)
+> 28 articles · 6.7/10 avg · 14 highlights (≥7.5)
 
-**1. [你的手机正在成为武器？美欧科技战致命妥协](https://pluralistic.net/2026/04/04/digital-subjugation/)** · 8.8/10 · pluralistic
+**1. [分享代码前怕泄露？这个工具能自动打码](https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything)** · 8.5/10 · simonwillison
 
-文章揭露欧盟准备向特朗普屈服的风险，警示美国科技巨头已将OTA更新变成地缘政治武器，可随时远程瘫痪他国政府系统和关键基础设施。
+scan-for-secrets 0.3 发布，新增智能脱敏功能。可自动识别文件中的密钥/密码，确认后批量替换为 REDACTED，并正确处理转义规则，支持 Python API 调用。
 
-> 揭示硅谷如何将软件更新变成数字时代的核武器，一针见血剖析科技殖民主义的新形态。
+> 提供自动化敏感信息脱敏方案，彻底解决分享代码片段时的密钥泄露风险
 
-**2. [深夜问诊ChatGPT：200万人的无声医疗危机](https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything)** · 8.5/10 · simonwillison
+**2. [终端开太多找不到服务？一行命令找回所有Datasette实例](https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything)** · 8.5/10 · simonwillison
 
-OpenAI内部数据曝光，70%医疗咨询发生在诊所关门外，偏远地区用户正把AI当救命稻草。
+Simon Willison发布datasette-ports工具，可自动扫描并列出所有运行中的Datasette实例，显示端口、版本、数据库及插件信息，解决多项目开发时的端口管理混乱问题。
 
-> 揭示AI如何填补美国医疗资源鸿沟，预示未来医疗场景的范式转移。
+> 针对同时维护多个Datasette项目的开发者，提供极简的端口管理方案，体现'先写文档再开发'的高效实践。
 
-**3. [西蒙用AI拆解四大LLM API，发现了什么？](https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything)** · 8.5/10 · simonwillison
+**3. [AI编程3个月速成后，他为何全部推倒重来？](https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything)** · 8.5/10 · simonwillison
 
-顶级开发者Simon Willison使用Claude Code系统性研究Anthropic、OpenAI、Gemini和Mistral的HTTP API，提取流式与非流式原始JSON数据，开源完整研究资料。
+开发者用AI将8年构想3个月实现，却选择推倒重来。深度复盘AI编程在架构设计上的致命短板与破局之道。
 
-> 顶级开发者分享如何用AI工具系统性反编译主流LLM接口，附完整脚本与原始数据，是构建LLM应用的必读参考资料。
+> 不仅展示AI效率，更深刻反思AI在复杂系统设计中的边界，是AI时代开发者的必读避坑指南。
 
-**4. [当AI接管编码，你的大脑会发生什么？](https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything)** · 8.5/10 · simonwillison
+**4. [每周200万条救命消息？ChatGPT正填补美国医疗鸿沟](https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything)** · 8.5/10 · simonwillison
 
-探讨AI编码代理如何改变开发者认知模式，以及效率提升背后可能产生的认知债务问题。
+OpenAI内部数据揭示：偏远地区用户深夜向AI咨询健康保险，70%对话发生在诊所关闭后，AI正成为"医疗荒漠"的急诊室。
 
-> 从认知科学角度审视AI编程工具的隐性成本，帮助开发者在效率与思维深度间找到平衡。
+> 独家数据揭露AI在医疗公平中的真实价值，对关注数字健康与政策制定者具有前瞻性参考意义。
 
-**5. [iOS 26只是换皮？深度对比后我发现...](https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts)** · 8.5/10 · daringfireball
+**5. [把C代码塞进浏览器？这个AI写的SQL神器免安装就能用](https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything)** · 8.5/10 · simonwillison
 
-苹果罕见为iOS 18推送安全补丁，知名果粉博主实测对比新旧系统，发现iOS 26改动微小，甚至调侃macOS 26设计糟糕。
+介绍syntaqlite工具如何通过WebAssembly在浏览器运行，支持SQLite语法格式化、AST解析和验证，无需安装即可体验AI辅助开发的SQL分析利器。
 
-> 权威科技博主亲测对比新旧iOS系统，为犹豫是否升级的用户提供独特决策参考。
+> 对于需要处理SQLite SQL的开发者，这个零配置、浏览器即开即用的playground能大幅提升调试效率，且展示了AI+WebAssembly的技术融合趋势。
 
-**6. [无痕模式是骗局？你的AI对话正被卖给谷歌](https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/)** · 8.5/10 · daringfireball
+**6. [双重勒索鼻祖被开盒：31岁俄罗斯黑客身份大揭秘](https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/)** · 8.5/10 · krebsonsecurity
 
-Perplexity AI遭集体诉讼，指控其"无痕模式"实为骗局，即使用户开启隐私保护，对话内容及身份信息仍被秘密共享给Google和Meta用于广告追踪。
+德国警方揭露俄罗斯黑客Daniil Shchukin即为勒索软件团伙GandCrab和REvil的头目"UNKN"，该团伙曾通过双重勒索手段造成数千万欧元损失。
 
-> 揭秘AI工具"无痕模式"背后的隐私陷阱，打破虚假隐私保护承诺的认知误区。
+> 揭秘全球最大勒索软件团伙头目的真实身份，展现国际网络安全执法的重大突破。
 
 ---
 
 **More articles from the past 24 hours:**
 
-**7. [注册时留了个心眼，我抓出了这家公司的内鬼](https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/)** · 8.5/10 · shkspr.mobi
+**7. [一套字体终结大小字号之争？Zed的包容性设计革命](https://www.typotheque.com/blog/zed-a-sans-for-the-needs-of-21century/?utm_source=df)** · 8.5/10 · daringfireball
 
-开发者使用专属邮箱注册BrowserStack，意外追踪到数据被卖给Apollo.io，揭露企业内部数据泄露的黑产链条。
+Zed字体家族通过文本与展示双版本设计，彻底解决20世纪无衬线字体的大小字号妥协问题，以无障碍和包容性设计成为21世纪排版新标准。
 
-> 教你用'蜜罐'邮箱追踪数据泄露源头，揭开企业贩卖用户数据的隐秘链条。
+> 这是少数真正从可访问性出发设计的字体系统，为追求极致阅读体验的设计师提供了全新解决方案。
 
-**8. [这个搜索引擎找不到的秘密，只开放给RSS订阅者](https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/)** · 8.5/10 · shkspr.mobi
+**8. [9个视频吸粉百万，苹果"小蓝人"什么来头](https://www.macrumors.com/2026/04/02/little-finder-guy-tiktok-youtube/)** · 8.5/10 · daringfireball
 
-介绍RSS Club概念——仅通过RSS订阅传播、对搜索引擎和社交媒体隐藏的内容，探讨反算法时代的信息获取方式。
+苹果全新吉祥物"Little Finder Guy"意外走红，通过9条TikTok短视频推广MacBook Neo，展示Mac使用技巧，引发粉丝二创热潮。
 
-> 揭示了在算法主导的时代，依然存在一种私密、纯粹的信息获取方式，为厌倦了社交媒体噪声的读者提供新思路。
+> 揭示科技巨头如何用萌系IP和短视频平台重塑产品营销，值得品牌运营者关注。
 
-**9. [ abandon复杂中间件！5个月生产验证的纯Postgres工作流系统](https://lucumr.pocoo.org/2026/4/4/absurd-in-production/)** · 8.5/10 · lucumr-pocoo
+**9. [一周11000美元，科技圈最硬核广告位凭什么？](https://daringfireball.net/feeds/sponsors/)** · 8.5/10 · daringfireball
 
-Armin Ronacher分享Absurd系统实战：仅用SQL文件和轻量SDK实现durable execution，无需额外服务即可支撑长时任务、断点续传与子任务编排。
+Daring Fireball开放年度赞助档期，一周11000美元接触200万精英受众，揭秘顶级科技博客的变现逻辑与稀缺价值。
 
-> 生产级经验揭示如何用单一数据库替代复杂分布式中间件，为中小团队提供极简可靠的任务编排方案。
+> 揭秘顶级科技博客的精英受众价值与稀缺广告位商业模式，对内容变现和品牌精准投放具有参考意义。
 
-**10. [18亿估值竟是骗局？揭秘'一人AI公司'真相](https://garymarcus.substack.com/p/the-back-story-behind-the-first-18)** · 8.5/10 · garymarcus
+**10. [AI生成5000行代码后，我花10小时收拾残局](https://idiallo.com/blog/it-took-me-10-hours-to-fix-ai-code?src=feed)** · 8.5/10 · idiallo
 
-当《纽约时报》盛赞一人打造18亿AI公司时，深扒发现其面临垃圾邮件诉讼、欺诈质疑，揭示了AI炒作背后的风险与真相。
+资深开发者亲述：AI用12分钟生成5000行PHP代码，却充满"意大利面条"式混乱，最终花费10小时审查修复，揭示AI编程背后隐藏的技术债务陷阱。
 
-> 撕开AI造神运动的面具，用批判性思维审视技术炒作与法律风险的残酷现实。
+> 用真实案例警示开发者：AI的速度可能意味着未来要偿还的技术债务。
 
-**11. [算个平均分，背后竟藏着贝叶斯和卡尔曼滤波？](https://www.johndcook.com/blog/2026/04/04/kalman-bayes/)** · 8.5/10 · johndcook
+**11. [监控时代：你的工资正被算法偷偷打折](https://pluralistic.net/2026/04/06/empiricism-washing/)** · 8.5/10 · pluralistic
 
-通过一个成绩平均分的更新公式，揭秘贝叶斯统计与卡尔曼滤波背后惊人的数学统一性。
+揭露「监控定价」如何演变为「监控工资」，通过数字 surveillance 实现同工不同酬，剖析平台垄断与监管缺失如何联手侵蚀劳动者权益。
 
-> 用一道中学数学题，串起贝叶斯统计与卡尔曼滤波的深层联系。
+> 揭示数字资本主义下隐蔽的薪资歧视机制，为劳动者理解自身数据如何被反向利用提供关键视角。
 
-**12. [GitHub数据爆炸：每周21亿分钟，开发者正在疯狂...](https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything)** · 8.2/10 · simonwillison
+**12. [我用一个专属邮箱，钓出了这家公司的数据内鬼](https://shkspr.mobi/blog/2026/04/someone-at-browserstack-is-leaking-users-email-address/)** · 8.5/10 · shkspr.mobi
 
-GitHub COO Kyle Daigle透露最新数据：平台commit量预计将达140亿次，Actions使用量从5亿暴涨至21亿分钟/周，开发者活跃度呈指数级增长。
+技术博主用唯一邮箱注册BrowserStack，意外收到第三方营销邮件，经调查发现企业涉嫌泄露用户数据，揭示了数据黑产链条。
 
-> 来自GitHub高管的一手增长数据，精准揭示了开发者工具使用量的爆发式趋势，对判断2026年技术生态走向具有重要参考价值。
+> 教你用'唯一邮箱'技术追踪数据泄露源头，手把手揭露企业数据交易黑幕的实战指南。
 
-**13. [深夜独处：比创业更上瘾的事](https://idiallo.com/blog/its-not-that-deep?src=feed)** · 8.2/10 · idiallo
+**13. [1人2个月18亿，AI神话还是精心骗局？](https://garymarcus.substack.com/p/the-back-story-behind-the-first-18)** · 8.5/10 · garymarcus
 
-一位程序员在周日晚间的独处时光中，通过阅读非商业化的个人博客，找到了比追逐技术创业更治愈的快乐，提醒人们在焦虑时代享受简单的人文时刻。
+揭露被媒体热捧的"一人AI独角兽"背后的法律纠纷与道德争议，警示AI技术被滥用的风险，还原18亿美元估值背后的真相。
 
-> 在功利主义盛行的当下，这篇文章用温柔的笔触提醒我们：不是所有时间都要用来改变世界，安静地读一篇有人性的文字，也是一种珍贵的生活智慧。
+> 撕开AI创业神话的伪装，用法律诉讼和事实证据揭示"一人独角兽"背后的风险与泡沫，为盲目追捧AI变现的创业者和投资者敲响警钟。
 
-**14. [谷歌微软原生安全不够？这个方案填补缺口](https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball)** · 7.8/10 · daringfireball
+**14. [周日深夜，我决定不再追求深刻](https://idiallo.com/blog/its-not-that-deep?src=feed)** · 8.0/10 · idiallo
 
-介绍Material Security平台如何超越传统邮件网关，为Google Workspace和M365提供深度威胁检测、自动化修复及影子AI管控的现代企业安全方案。
+作者在周日独处时反思从创业焦虑到简单阅读的转变，推荐几个充满人味的个人博客，提醒我们不必事事追求宏大意义，适时放松也是一种生活智慧。
 
-> 揭示传统邮件网关的局限性，展示与云办公平台深度集成的下一代安全防护思路。
+> 在功利主义盛行的当下，这篇文章像一剂镇静剂，用温柔的笔触提醒我们不必时刻追求宏大叙事，简单的阅读和快乐本身就是意义。
 
-**15. [Syntaqlite Playground](https://simonwillison.net/2026/Apr/5/syntaqlite/#atom-everything)** · 5.0/10 · simonwillison
+**15. [Google AI Edge Gallery](https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything)** · 5.0/10 · simonwillison
 
-Tool: Syntaqlite Playground Lalit Maganti's syntaqlite is currently being discussed on Hacker News thanks to Eight years of wanting, three months of b
+Google AI Edge Gallery Terrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus so
 
-**16. [scan-for-secrets 0.2](https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything)** · 5.0/10 · simonwillison
+**16. [datasette-ports 0.2](https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything)** · 5.0/10 · simonwillison
+
+Release: datasette-ports 0.2 No longer requires Datasette - running uvx datasette-ports now works as well. Installing it as a Datasette plugin continu
+
+**17. [Cleanup Claude Code Paste](https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything)** · 5.0/10 · simonwillison
+
+Tool: Cleanup Claude Code Paste Super-niche tool this. I sometimes copy prompts out of the Claude Code terminal app and they come out with a bunch of 
+
+**18. [scan-for-secrets 0.2](https://simonwillison.net/2026/Apr/5/scan-for-secrets/#atom-everything)** · 5.0/10 · simonwillison
 
 Release: scan-for-secrets 0.2 CLI tool now streams results as they are found rather than waiting until the end, which is better for large directories.
 
-**17. [scan-for-secrets 0.1.1](https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything)** · 5.0/10 · simonwillison
+**19. [scan-for-secrets 0.1.1](https://simonwillison.net/2026/Apr/5/scan-for-secrets-2/#atom-everything)** · 5.0/10 · simonwillison
 
 Release: scan-for-secrets 0.1.1 Added documentation of the escaping schemes that are also scanned. Removed unnecessary repr escaping scheme, which was
 
-**18. [scan-for-secrets 0.1](https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything)** · 5.0/10 · simonwillison
+**20. [Anthropic Accidentally Leaked the Entire Claude Code CLI Source Code](https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/)** · 5.0/10 · daringfireball
 
-Release: scan-for-secrets 0.1 I like publishing transcripts of local Claude Code sessions using my claude-code-transcripts tool but I'm often paranoid
+Samual Axon, reporting last week for Ars Technica: Early this morning, Anthropic published version 2.1.88 of Claude Code npm package — but it was quic
 
-**19. [Vulnerability Research Is Cooked](https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything)** · 5.0/10 · simonwillison
-
-Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerab
-
-**20. [An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize](https://truthsocial.com/@realDonaldTrump/posts/116351998782539414)** · 5.0/10 · daringfireball
+**21. [An Easter Morning Message of Hope From the Winner of the FIFA Peace Prize](https://truthsocial.com/@realDonaldTrump/posts/116351998782539414)** · 5.0/10 · daringfireball
 
 Donald Trump, sitting president of the United States, on his blog: Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran. Th
 
-**21. [Sponsorship Openings for Daring Fireball](https://daringfireball.net/feeds/sponsors/)** · 5.0/10 · daringfireball
+**22. [Material Security](https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball)** · 5.0/10 · daringfireball
 
-Sponsorships have been selling briskly, of late . Knock on wood. As of yesterday, the next opening on the schedule wasn’t until the very end of July. 
+My thanks to Material Security for sponsoring this week at DF. Most security teams don’t have a talent problem, they have a noise problem. Manual phis
 
-**22. [Writing an LLM from scratch, part 32h -- Interventions: full fat float32](https://www.gilesthomas.com/2026/04/llm-from-scratch-32h-interventions-full-fat-float32)** · 5.0/10 · gilesthomas
+**23. [iOS 26 Feels Faster Than iOS 18](https://daringfireball.net/linked/2026/04/03/ios-18-update-for-holdouts)** · 5.0/10 · daringfireball
 
-This is the last of the interventions I'm trying out to see if I can improve the test loss for a from-scratch GPT-2 small base model, trained on code 
+One more follow-up point after I spent two days using an iPhone 16 Pro running iOS 18.7.7 as my main phone. At some point late in the iOS 26 beta cycl
+
+**24. [Class Action Lawsuit Says Perplexity’s ‘Incognito Mode’ Is a ‘Sham’](https://arstechnica.com/tech-policy/2026/04/perplexitys-incognito-mode-is-a-sham-lawsuit-says/)** · 5.0/10 · daringfireball
+
+Ashley Belanger, reporting for Ars Technica: Using developer tools, the lawsuit found that opening prompts are always shared, as are any follow-up que
+
+**25. [[RSS Club] Banana for scale](https://shkspr.mobi/blog/2026/04/rss-club-banana-for-scale/)** · 5.0/10 · shkspr.mobi
+
+This post is exclusive to RSS feed subscribers. Enjoy! I've had this idea stuck in my head for a while, so I decided to make it. This is "Scan Slowly 
+
+**26. [Learning to read C++ compiler errors: Illegal use of -> when there is no -> in sight](https://devblogs.microsoft.com/oldnewthing/20260406-00/?p=112208)** · 5.0/10 · oldnewthing
+
+If the compiler is complaining about things you didn't write, find out who wrote them. The post Learning to read C++ compiler errors: Illegal use of -
+
+**27. [Sam Altman, unconstrained by the truth](https://garymarcus.substack.com/p/sam-altman-unconstrained-by-the-truth)** · 5.0/10 · garymarcus
+
+New reporting from the New Yorker vindicates concerns that were first raised here
+
+**28. [HIPAA compliant AI](https://www.johndcook.com/blog/2026/04/05/hipaa-compliant-ai/)** · 5.0/10 · johndcook
+
+The best way to run AI and remain HIPAA compliant is to run it locally on your own hardware, instead of transferring protected health information (PHI
 
 ---
-*2026-04-06 19:34 UTC · Kimi K2 · 94 sources*
+*2026-04-06 22:36 UTC · Kimi K2 · 94 sources*
 
