@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-08",
+  "date": "2026-04-09",
   "totalSources": 11,
-  "totalArticles": 469,
+  "totalArticles": 485,
   "allTags": [
     "AGI",
     "AI",
@@ -24,6 +24,7 @@
     "AI编程助手",
     "AI职场",
     "AI自动化",
+    "AI评测",
     "AI转型",
     "AI辅助",
     "AI辅助开发",
@@ -33,6 +34,7 @@
     "API设计",
     "ARM64",
     "ActivityPub",
+    "Adobe",
     "Agent安全",
     "Agent模式",
     "Android系统",
@@ -49,6 +51,7 @@
     "ChatGPT",
     "Claude",
     "Claude Code",
+    "Claude Mythos",
     "Claude-Code",
     "Cloudflare",
     "C语言",
@@ -175,9 +178,11 @@
     "个人工具",
     "个人网站",
     "个性化工具",
+    "习惯养成",
     "书店文化",
     "书评",
     "二分查找",
+    "云计算",
     "互联网历史",
     "互联网基础设施",
     "互联网文化",
@@ -186,6 +191,7 @@
     "产品思维",
     "产品更新",
     "人工智能",
+    "人工智能安全",
     "人文阅读",
     "人机关系",
     "付费服务",
@@ -198,6 +204,7 @@
     "企业数字化",
     "企业文化",
     "伦理责任",
+    "伪科学揭秘",
     "估值争议",
     "伽马函数",
     "体育转播",
@@ -213,16 +220,20 @@
     "内存管理",
     "内容创作",
     "写作技巧",
+    "写作方法",
     "军事AI",
     "军事人工智能",
+    "冷知识",
     "减肥",
     "分布式拒绝服务(DDoS)",
     "分布式系统",
+    "分形几何",
     "创业真相",
     "前端优化",
     "前端开发",
     "前端性能",
     "剧院评论",
+    "加密战争",
     "加拿大",
     "劳工权益",
     "劳资关系",
@@ -263,6 +274,7 @@
     "复古科技",
     "复古计算",
     "外交争议",
+    "多线程同步",
     "大模型",
     "大模型定价",
     "大模型训练",
@@ -315,6 +327,7 @@
     "开源维护",
     "微软",
     "微软补丁",
+    "心理学",
     "思维模型",
     "性能优化",
     "性能追踪",
@@ -332,6 +345,7 @@
     "技术工具",
     "技术感悟",
     "技术批评",
+    "技术监控",
     "技术评论",
     "技术趋势",
     "技术集成",
@@ -351,6 +365,7 @@
     "故障排查",
     "效率",
     "效率工具",
+    "效率神器",
     "效率革命",
     "敏捷实践",
     "教育反思",
@@ -366,6 +381,7 @@
     "数字营销",
     "数学",
     "数学之美",
+    "数学可视化",
     "数学技巧",
     "数学科普",
     "数学计算",
@@ -408,6 +424,7 @@
     "气候变化",
     "水质",
     "沙盒安全",
+    "沟通技巧",
     "法律",
     "法律争议",
     "法律执行",
@@ -426,6 +443,7 @@
     "消费者权益",
     "深度书评",
     "深度学习",
+    "深度学习实践",
     "深度思考",
     "游戏历史",
     "演出评测",
@@ -459,6 +477,7 @@
     "社群动态",
     "神经网络",
     "种族",
+    "科学史",
     "科学计算",
     "科幻",
     "科幻小说",
@@ -488,6 +507,7 @@
     "笔记本电脑",
     "第二十二条军规",
     "算法剥削",
+    "算法艺术",
     "系统更新",
     "系统架构",
     "系统管理",
@@ -703,6 +723,236 @@
   ],
   "articles": [
     {
+      "title": "手写LLM第32集：他在云端训练出了更强模型？",
+      "slug": "手写llm第32集-他在云端训练出了更强模型",
+      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32j-interventions-trying-to-train-a-better-model-in-the-cloud",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "资深开发者Giles Thomas分享从零构建大模型系列的最新实战，详述在云环境中优化训练策略、提升模型性能的关键技巧与踩坑经验。",
+      "tags": [
+        "大模型训练",
+        "云计算",
+        "深度学习实践"
+      ],
+      "recommendReason": "罕见的手写LLM深度连载最新章，揭秘云训练中的真实优化技巧与工程细节。",
+      "score": 8.7,
+      "translated": false
+    },
+    {
+      "title": "Adobe偷偷查你电脑？hosts文件背后的监控秘密",
+      "slug": "adobe偷偷查你电脑-hosts文件背后的监控秘密",
+      "url": "https://old.reddit.com/r/webdev/comments/1sb6hzk/adobe_wrote_to_my_hosts_file_ive_never_had_an_app/oe1ap9h/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-09",
+      "description": "文章揭露Adobe通过检测用户本地hosts文件中的DNS条目，判断用户是否安装Creative Cloud，涉及软件厂商隐秘的监控技术手段。",
+      "tags": [
+        "隐私安全",
+        "Adobe",
+        "技术监控"
+      ],
+      "recommendReason": "揭示大厂利用hosts文件检测用户软件安装情况的隐秘机制，对关注数字隐私和系统安全的读者具有重要警示价值。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "为什么你说了很多，别人却根本听不懂？",
+      "slug": "为什么你说了很多-别人却根本听不懂",
+      "url": "https://idiallo.com/blog/what-are-you-trying-to-say?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "当沟通陷入混乱时，一个简单的自我追问能帮你剥离修饰与废话，直达信息本质。本文揭示了从复杂表达到清晰传递的关键思维工具。",
+      "tags": [
+        "沟通技巧",
+        "写作方法",
+        "思维模型"
+      ],
+      "recommendReason": "提供了一种立即可用的表达优化方法，帮助你在写作和演讲中快速抓住核心，避免自说自话的陷阱。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "代码即言论？这场官司改变了整个互联网",
+      "slug": "代码即言论-这场官司改变了整个互联网",
+      "url": "https://pluralistic.net/2026/04/09/bernstein-2/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "Cory Doctorow推荐EFF总监Cindy Cohn回忆录，揭秘数字权利斗争史与Bernstein加密案幕后，见证代码如何成为受宪法保护的言论自由。",
+      "tags": [
+        "数字权利",
+        "加密战争",
+        "互联网历史"
+      ],
+      "recommendReason": "第一手亲历者视角揭开改变互联网的加密战争内幕，为理解当下隐私危机提供关键历史坐标。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "一年滴酒不沾，我发现了比戒酒更难的事",
+      "slug": "一年滴酒不沾-我发现了比戒酒更难的事",
+      "url": "https://dynomight.net/drinking/",
+      "source": "dynomight",
+      "author": "dynomight",
+      "date": "2026-04-09",
+      "description": "作者因一时愤怒挑战戒酒一年，却发现彻底戒断比偶尔小酌更轻松，揭示了决策疲劳与心理渴求的深层机制。",
+      "tags": [
+        "生活方式",
+        "心理学",
+        "习惯养成"
+      ],
+      "recommendReason": "用亲身经历证明“彻底戒断比适度控制更容易”的反直觉原理，为习惯改变提供颠覆性视角。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "多线程等待列表如何热更新？这个Windows暗坑90%人中招",
+      "slug": "多线程等待列表如何热更新-这个windows暗坑90-人中招",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260409-00/?p=112220",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "微软工程师揭秘：在WaitForMultipleObjects运行时动态增删句柄的正确姿势，使用双缓冲列表与DuplicateHandle避免句柄竞争陷阱。",
+      "tags": [
+        "Windows编程",
+        "多线程同步",
+        "Win32 API"
+      ],
+      "recommendReason": "微软资深工程师深度解析Windows底层多线程机制，提供生产级动态管理等待对象的优雅方案。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Claude Mythos被吹过头？三大实锤揭露真相",
+      "slug": "claude-mythos被吹过头-三大实锤揭露真相",
+      "url": "https://garymarcus.substack.com/p/three-reasons-to-think-that-the-claude",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "Gary Marcus质疑Anthropic新模型被过度炒作，指出测试环境简化、开源模型可复现能力、性能仅渐进提升三大问题，认为市场不必过度恐慌。",
+      "tags": [
+        "AI评测",
+        "Claude Mythos",
+        "人工智能安全"
+      ],
+      "recommendReason": "在AI能力炒作浪潮中提供冷静的技术解构，帮助读者理性分辨演示效果与实际能力边界。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "重心还是内心？六边形分形的隐藏密码",
+      "slug": "重心还是内心-六边形分形的隐藏密码",
+      "url": "https://www.johndcook.com/blog/2026/04/09/random-hexagon-fractal/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "介绍通过随机选取六边形边线生成三角形的分形算法，探索重心与内心等不同中心定义如何产生截然不同的几何图案，揭示混沌与秩序的数学之美。",
+      "tags": [
+        "分形几何",
+        "数学可视化",
+        "算法艺术"
+      ],
+      "recommendReason": "用极简算法生成复杂美学图案，展现数学与艺术的跨界魅力，适合程序员和数理爱好者拓展思维。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "GitHub偷偷隐藏的数据，被我用这个工具扒出来了",
+      "slug": "github偷偷隐藏的数据-被我用这个工具扒出来了",
+      "url": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "GitHub界面不显示仓库体积，但API其实开放了这个数据。介绍一个零门槛工具，粘贴链接即可查看任意仓库大小，免去克隆庞大代码包的烦恼。",
+      "tags": [
+        "GitHub",
+        "开发工具",
+        "效率神器"
+      ],
+      "recommendReason": "解决开发者痛点：无需下载即可预判仓库体积，避免误克隆GB级代码库的尴尬。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "金字塔藏着光速密码？真相让人意外",
+      "slug": "金字塔藏着光速密码-真相让人意外",
+      "url": "https://www.johndcook.com/blog/2026/04/09/pyramid-speed-of-light/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "吉萨金字塔纬度29.979°竟与光速299792458完全吻合，是古埃及人的超前智慧还是惊人巧合？作者用数学思维揭开这一流传甚广的谣言背后真相。",
+      "tags": [
+        "冷知识",
+        "科学史",
+        "伪科学揭秘"
+      ],
+      "recommendReason": "用理性思维拆解看似神秘的数字巧合，既满足猎奇心理又建立科学认知。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "asgi-gzip 0.3",
+      "slug": "asgi-gzip-0-3",
+      "url": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "Release: asgi-gzip 0.3 I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance was us",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Lickspittle of the Week: Todd Blanche",
+      "slug": "lickspittle-of-the-week-todd-blanche",
+      "url": "https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-09",
+      "description": "Acting Attorney General Todd Blanche, speaking of the president of the United States in a totally normal way: I love working for President Trump. It’s",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Book Review: Small Comfort by Ia Genberg ★★☆☆☆",
+      "slug": "book-review-small-comfort-by-ia-genberg",
+      "url": "https://shkspr.mobi/blog/2026/04/book-review-small-comfort-by-ia-genberg/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "I was left somewhat unconvinced by this book. I liked the concept - a series of interrelated stories all told in different styles. Much like the film ",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Root prime gap",
+      "slug": "root-prime-gap",
+      "url": "https://www.johndcook.com/blog/2026/04/08/andrica/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-09",
+      "description": "I recently found out about Andrica’s conjecture: the square roots of consecutive primes are less than 1 apart. In symbols, Andrica’s conjecture says t",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "太危险？Anthropic新模型强到不敢公开",
       "slug": "太危险-anthropic新模型强到不敢公开",
       "url": "https://red.anthropic.com/2026/mythos-preview/",
@@ -827,6 +1077,36 @@
       "description": "Not many facts are on the ground, but here are some starting points for sober thinking",
       "tags": [
         "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "slug": "meta-s-new-model-is-muse-spark-and-meta-ai-chat-has-some-interesting-tools",
+      "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-08",
+      "description": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is cur",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "A Three- and a Four- Body Problem",
+      "slug": "a-three-and-a-four-body-problem",
+      "url": "https://www.johndcook.com/blog/2026/04/08/artemis-1-apollo-12/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-08",
+      "description": "Last week I wrote about the orbit of Artemis II. The orbit of Artemis I was much more interesting. Because Artemis I was unmanned, it could spend a lo",
+      "tags": [
+        "johndcook"
       ],
       "recommendReason": "",
       "score": 5.0,
