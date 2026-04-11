@@ -1,0 +1,138 @@
+﻿---
+title: "Daily Read · 2026-03-31"
+date: "2026-03-31T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-31"
+---
+
+> 25 articles · 6.4/10 avg · 11 highlights (≥7.5)
+
+**1. [不看图也能拿第一？AI视觉理解的致命幻觉](https://garymarcus.substack.com/p/the-mirage-of-visual-understanding)** · 8.8/10 · garymarcus
+
+斯坦福研究揭露：前沿AI模型无需查看图像即可在医疗影像问答中夺冠，暴露"幻觉推理"缺陷。真正的视觉理解尚未实现，相关职业短期内不会被取代。
+
+> 揭穿当前AI"视觉理解"的能力假象，为医疗AI应用和职业替代焦虑提供冷静判断。
+
+**2. [粘贴requirements.txt，所有漏洞立刻现形？](https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything)** · 8.5/10 · simonwillison
+
+介绍一款基于OSV.dev的Python漏洞扫描工具，支持直接粘贴依赖文件或GitHub仓库链接，秒级识别项目中的已知安全漏洞及严重程度。
+
+> 开发者必备：无需安装，一键检测项目依赖中的高危漏洞，提前规避供应链攻击风险。
+
+**3. [Paul Graham错了？机械表市场的真相令人意外](https://paulgraham.com/brandage.html)** · 8.5/10 · daringfireball
+
+Paul Graham认为品牌主导的世界很糟糕，但作者以机械表行业为例，指出独立制表品牌的崛起正让市场更有趣，挑战了传统奢侈品牌霸权。
+
+> 挑战权威观点，揭示小众品牌如何在品牌霸权时代开辟新天地，对消费选择有启发。
+
+**4. [一行命令搞定身份验证？这个AI安装器让集成时间从小时变分钟](https://workos.com/docs/authkit/cli-installer?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q12026)** · 8.5/10 · daringfireball
+
+介绍 WorkOS 全新 AI Installer，通过单行命令自动检测框架、配置环境并完成 AuthKit 集成，让身份验证部署从繁琐配置简化为两分钟自动化流程。
+
+> 为开发者节省数小时集成时间的自动化神器，特别适合需要快速接入企业级Auth的初创团队。
+
+**5. [那个让乔布斯被赶出苹果的产品，最初只是个副业？](https://www.theverge.com/podcast/903068/macintosh-1984-version-history)** · 8.5/10 · daringfireball
+
+揭秘Macintosh如何从苹果内部副业项目成长为改变世界的传奇电脑，回顾那个著名的1984年超级碗广告背后不为人知的故事。
+
+> 通过一手历史视角揭示Macintosh从边缘项目到改变计算机行业的传奇历程，为理解现代计算设备演变提供关键历史坐标。
+
+**6. [iPhone竟不是第一？苹果50年神机大PK](https://www.theverge.com/cs/tech/900477/apple-50-anniversary-rank-products)** · 8.5/10 · daringfireball
+
+The Verge发起社区投票，用ELO算法让用户两两对比，从苹果50年历史产品中选出真正的王者。
+
+> 用科学算法+大众投票，揭晓苹果50年最具里程碑意义的产品，引发集体科技回忆杀。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [50年了，他还在苹果：车库时代的真实故事](https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl)** · 8.5/10 · daringfireball
+
+Fast Company深度口述史，采访苹果早期核心成员，还原从Byte Shop到科技巨头的创业细节，揭秘仍在职的元老级员工视角。
+
+> 第一手史料还原硅谷神话背后的真实决策与人物关系，适合所有科技从业者了解创新基因的起源。
+
+**8. [全场起立的五星演出，这支乐队居然根本不存在？](https://shkspr.mobi/blog/2026/03/gig-review-vitamin-string-quartet-at-the-barbican/)** · 8.0/10 · shkspr.mobi
+
+揭秘Vitamin String Quartet如何用流动阵容演绎现代金曲，在Barbican打造五星之夜，以及顶级音乐厅里不得不说的厕所排队尴尬。
+
+> 给音乐爱好者的一手观演报告，揭秘“幽灵乐队”的爆款公式与伦敦顶级音乐厅的真实体验。
+
+**9. [狄更斯附体？这个AI吃了28000本古籍](https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything)** · 7.8/10 · simonwillison
+
+基于超过28,000篇维多利亚时代英国文本训练的本地AI模型Mr. Chatterbox发布，可在个人电脑上体验19世纪文风对话。
+
+> 罕见的复古AI实验，探索大模型与 Victorian 时代文学结合的奇特趣味。
+
+**10. [比鼠标还小的Mac？我见过最疯狂的尺寸对决](https://scottknaster.substack.com/p/macs-of-unusual-size)** · 7.8/10 · daringfireball
+
+作者同时拥有世界最小（比鼠标还小）和超大号（22倍尺寸）的Macintosh，在计算机历史博物馆展示这两台真能开机的极端Mac。
+
+> 见识极客如何将Mac压缩到极限尺寸又放大到夸张比例，感受硬件改装的创意与复古科技的魅力。
+
+**11. [三击遥控就能切字幕？Netflix用户却用不了](https://daringfireball.net/2024/03/quickly_toggling_closed_captions_on_apple_tv)** · 7.8/10 · daringfireball
+
+文章揭露tvOS系统级字幕快捷键在Netflix等主流App中失效的问题，实测仅2家支持，并提供Siri控制和辅助功能设置的替代方案。
+
+> 揭露了tvOS生态中平台标准与第三方应用之间的体验割裂，并提供了实用的系统级字幕控制技巧。
+
+**12. [Quoting Georgi Gerganov](https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything)** · 5.0/10 · simonwillison
+
+Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model
+
+**13. [datasette-llm 0.1a3](https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything)** · 5.0/10 · simonwillison
+
+Release: datasette-llm 0.1a3 Adds the ability to configure which LLMs are available for which purpose , which means you can restrict the list of model
+
+**14. [Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer](https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-everything)** · 5.0/10 · simonwillison
+
+Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes
+
+**15. [Pretext](https://simonwillison.net/2026/Mar/29/pretext/#atom-everything)** · 5.0/10 · simonwillison
+
+Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library.
+
+**16. [Pretext — Under the Hood](https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything)** · 5.0/10 · simonwillison
+
+Tool: Pretext — Under the Hood See my notes on Pretext here .
+
+**17. [[Sponsor] Material Security](https://material.security/lp-cloud-office-security?utm_source=third-party&utm_medium=email&utm_campaign=20260330-daringfireball)** · 5.0/10 · daringfireball
+
+Stop scaling headcount. Scale your workspace. Most security teams don’t have a talent problem, they have a noise problem. Manual phishing remediation,
+
+**18. [The Talk Show: ‘You’re Going to Have the Niggles’](https://daringfireball.net/thetalkshow/2026/03/29/ep-444)** · 5.0/10 · daringfireball
+
+For your weekend listening enjoyment: Christina Warren returns to the show to discuss Apple big month of product announcements — in particular, the iP
+
+**19. [The 2019 Intel Mac Pro’s Unfortunate Timing](https://512pixels.net/2026/03/how-apple-could-have-saved-the-mac-pro/)** · 5.0/10 · daringfireball
+
+Stephen Hackett, at 512 Pixels: I’ve thought a lot about the bad timing Jones mentions. Had Apple stuck to the original timeline, and killed off the 2
+
+**20. [How Do We Get Developers to Read the Docs](https://idiallo.com/blog/how-do-we-get-developers-to-read-the-docs?src=feed)** · 5.0/10 · idiallo
+
+When I reviewed this PR, I had tears in my eyes. We had done it. We had finally created the perfect API. To top it off, the senior developer who worke
+
+**21. [Pluralistic: Market participation is exhausting (30 Mar 2026)](https://pluralistic.net/2026/03/30/players-of-games/)** · 5.0/10 · pluralistic
+
+Today's links Market participation is exhausting: No one wants to be the sucker at the table. Hey look at this: Delights to delectate. Object permanen
+
+**22. [Small note about AI 'GPUs'](https://xeiaso.net/notes/2026/ai-gpus-cant-process-graphics/)** · 5.0/10 · xeiaso
+
+They are graphical processing units that can't process graphics.
+
+**23. [A question about the maximimum number of values in a registry key raises questions about the question](https://devblogs.microsoft.com/oldnewthing/20260330-00/?p=112175)** · 5.0/10 · oldnewthing
+
+Why is this even a question? The post A question about the maximimum number of values in a registry key raises questions about the question appeared f
+
+**24. [The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history](http://www.righto.com/feeds/542341856603240438/comments/default)** · 5.0/10 · righto
+
+The morning of April 12, 1981, 20 years to the day after Yuri Gagarin became the first person in space, the Space Shuttle thundered into the Florida s
+
+**25. [“CEO said a thing!”](https://garymarcus.substack.com/p/ceo-said-a-thing)** · 5.0/10 · garymarcus
+
+A blistering guide to what lazy journalism too often looks like
+
+---
+*2026-03-30 22:24 UTC · Kimi K2 · 94 sources*

@@ -1,9 +1,9 @@
 ﻿---
-title: "Daily Read · 2026-04-11"
-date: "2026-04-11T06:00:00Z"
+title: "Daily Read · 2026-04-10"
+date: "2026-04-10T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "latest-brief"
+slug: "daily-brief-2026-04-10"
 ---
 
 > 26 articles · 6.9/10 avg · 14 highlights (≥7.5)
@@ -145,4 +145,4 @@ I recently found out about Andrica’s conjecture: the square roots of consecuti
 Last week I wrote about the orbit of Artemis II. The orbit of Artemis I was much more interesting. Because Artemis I was unmanned, it could spend a lo
 
 ---
-*2026-04-10 22:41 UTC · Kimi K2 · 94 sources*
+*2026-04-09 22:33 UTC · Kimi K2 · 94 sources*

@@ -1,9 +1,9 @@
 ﻿---
-title: "Daily Read · 2026-03-24"
-date: "2026-03-24T06:00:00Z"
+title: "Daily Read · 2026-03-26"
+date: "2026-03-26T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "daily-brief-2026-03-24"
+slug: "daily-brief-2026-03-26"
 ---
 
 > 26 articles · 7.0/10 avg · 15 highlights (≥7.5)
@@ -147,4 +147,4 @@ A few years ago I wrote about comm, a utility that lets you do set theory at the
 I'm still working on improving the test loss for a from-scratch GPT-2 small base model, trained on code based on Sebastian Raschka 's book " Build a L
 
 ---
-*2026-03-24 02:51 UTC · Kimi K2 · 94 sources*
+*2026-03-25 22:02 UTC · Kimi K2 · 94 sources*

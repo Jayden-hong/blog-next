@@ -7,23 +7,23 @@
   "language": "en",
   "items": [
     {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-24/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-24/",
-      "title": "Daily Read · 2026-03-24",
-      "content_text": "\n> 24 articles · 6.8/10 avg · 12 highlights (≥7.5)\n\n1. [运行不可信JS？这6种沙盒方案实测对决](https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/atom-everything) · 8.8/10 · simonwillison\n\n深入对比No",
-      "date_published": "2026-03-24T06:00:00Z",
+      "id": "https://blog.zucchini.win/blog/daily-brief-2026-04-11/",
+      "url": "https://blog.zucchini.win/blog/daily-brief-2026-04-11/",
+      "title": "Daily Read · 2026-04-11",
+      "content_text": "\n> 26 articles · 6.9/10 avg · 14 highlights (≥7.5)\n\n1. [能找出27年漏洞的AI，Anthropic为何不敢公开？](https://red.anthropic.com/2026/mythos-preview/) · 9.0/10 · daringfireball\n\nAnthropic发布Claude Mythos Preview，该模",
+      "date_published": "2026-04-11T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-24.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-04-11.md"
     },
     {
       "id": "https://blog.zucchini.win/blog/latest-brief/",
       "url": "https://blog.zucchini.win/blog/latest-brief/",
-      "title": "Daily Read · 2026-03-24",
-      "content_text": "\n> 24 articles · 6.8/10 avg · 12 highlights (≥7.5)\n\n1. [运行不可信JS？这6种沙盒方案实测对决](https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/atom-everything) · 8.8/10 · simonwillison\n\n深入对比No",
-      "date_published": "2026-03-24T06:00:00Z",
+      "title": "Daily Read · 2026-04-11",
+      "content_text": "\n> 26 articles · 6.9/10 avg · 14 highlights (≥7.5)\n\n1. [能找出27年漏洞的AI，Anthropic为何不敢公开？](https://red.anthropic.com/2026/mythos-preview/) · 9.0/10 · daringfireball\n\nAnthropic发布Claude Mythos Preview，该模",
+      "date_published": "2026-04-11T06:00:00Z",
       "tags": [
         "daily-brief",
         "rss"
@@ -31,29 +31,17 @@
       "_agent_friendly": "https://blog.zucchini.win/md/latest-brief.md"
     },
     {
-      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-24/",
-      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-03-24/",
-      "title": "每日观点 - 2026-03-24",
-      "content_text": "\n核心观点：AI技术的发展正在重新定义隐私、安全与性能的交点，带来了前所未有的挑战和机遇。\n\n现象解读\n最近，技术界出现了几件引人注目的事件，凸显了人工智能（AI）在隐私、安全和性能方面交织影响的新趋势。首先，Simon Willison 发现了Cloudflare的1.1.1.1 DNS服务隐藏的CORS-enabled JSON接口，并利用Claude Code",
-      "date_published": "2026-03-24",
+      "id": "https://blog.zucchini.win/blog/daily-thoughts-2026-04-11/",
+      "url": "https://blog.zucchini.win/blog/daily-thoughts-2026-04-11/",
+      "title": "每日观点 - 2026-04-11",
+      "content_text": "\n核心观点：AI技术在网络安全领域的双重性，既是防御新边疆的利器，也是潜在威胁放大器。\n\n现象解读：\nAnthropic公司最近发布的一款AI模型Claude Mythos Preview引起了业界的广泛关注。这款模型不仅能够自主发现并利用零日漏洞，更令人震惊的是，它甚至能找出存在长达27年的隐藏漏洞。这一突破性的技术进步展示了AI在网络安全领域的巨大潜力，同时也暴露出了其",
+      "date_published": "2026-04-11",
       "tags": [
         "每日观点",
         "AI",
         "产品思考"
       ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-03-24.md"
-    },
-    {
-      "id": "https://blog.zucchini.win/blog/daily-brief-2026-03-23/",
-      "url": "https://blog.zucchini.win/blog/daily-brief-2026-03-23/",
-      "title": "Daily Read · 2026-03-23",
-      "content_text": "\n> 8 articles · 5.0/10 avg · 0 highlights (≥7.5)\n\n1. [Profiling Hacker News users based on their comments](https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/atom-everything) · 5.0",
-      "date_published": "2026-03-23T06:00:00Z",
-      "tags": [
-        "daily-brief",
-        "rss"
-      ],
-      "_agent_friendly": "https://blog.zucchini.win/md/daily-brief-2026-03-23.md"
+      "_agent_friendly": "https://blog.zucchini.win/md/daily-thoughts-2026-04-11.md"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-09",
-  "totalSources": 11,
-  "totalArticles": 485,
+  "date": "2026-04-11",
+  "totalSources": 9,
+  "totalArticles": 502,
   "allTags": [
     "AGI",
     "AI",
@@ -19,6 +19,7 @@
     "AI政策",
     "AI替代",
     "AI架构",
+    "AI模型能力",
     "AI硬件危机",
     "AI编程",
     "AI编程助手",
@@ -54,6 +55,7 @@
     "Claude Mythos",
     "Claude-Code",
     "Cloudflare",
+    "Creative Commons",
     "C语言",
     "DDoS攻击",
     "DNS",
@@ -118,6 +120,7 @@
     "Rust",
     "SCP基金会",
     "SMPTE 2110",
+    "SQL",
     "SQLite",
     "Sora",
     "SwiftUI",
@@ -144,6 +147,7 @@
     "bash技巧",
     "daringfireball",
     "dynomight",
+    "eSIM",
     "enshittification",
     "garymarcus",
     "gilesthomas",
@@ -203,6 +207,7 @@
     "代码迁移",
     "企业数字化",
     "企业文化",
+    "众筹创新",
     "伦理责任",
     "伪科学揭秘",
     "估值争议",
@@ -229,6 +234,7 @@
     "分布式系统",
     "分形几何",
     "创业真相",
+    "创业认知",
     "前端优化",
     "前端开发",
     "前端性能",
@@ -275,6 +281,7 @@
     "复古计算",
     "外交争议",
     "多线程同步",
+    "多线程编程",
     "大模型",
     "大模型定价",
     "大模型训练",
@@ -336,8 +343,10 @@
     "意识",
     "成本优化",
     "成长思维",
+    "执行力",
     "批判思维",
     "批判性思维",
+    "技术伦理",
     "技术债务",
     "技术公司",
     "技术反思",
@@ -355,6 +364,7 @@
     "排序算法",
     "排版",
     "推理速度",
+    "推荐算法",
     "提示工程",
     "提示词注入",
     "插值法",
@@ -377,6 +387,7 @@
     "数字媒体",
     "数字权利",
     "数字极简主义",
+    "数字版权",
     "数字监控",
     "数字营销",
     "数学",
@@ -389,6 +400,7 @@
     "数据加密",
     "数据可视化",
     "数据安全",
+    "数据库",
     "数据库优化",
     "数据库并发",
     "数据新闻",
@@ -462,6 +474,7 @@
     "电子工程",
     "电池比较",
     "电话App",
+    "省钱攻略",
     "知识产权",
     "短故事",
     "短视频策略",
@@ -486,6 +499,7 @@
     "科技公关",
     "科技内幕",
     "科技动态",
+    "科技博物馆",
     "科技反思",
     "科技史",
     "科技垄断",
@@ -510,6 +524,7 @@
     "算法艺术",
     "系统更新",
     "系统架构",
+    "系统漏洞",
     "系统管理",
     "系统编程",
     "系统美化",
@@ -546,8 +561,10 @@
     "自我成长",
     "航空航天",
     "芯片短缺",
+    "英国手机号",
     "苹果",
     "苹果MLX",
+    "苹果历史",
     "苹果壁纸",
     "苹果安全架构",
     "苹果开发者大会",
@@ -566,6 +583,7 @@
     "计算机乐谱",
     "计算机历史",
     "认知债",
+    "认知偏差",
     "认知心理学",
     "认知科学",
     "记忆管理",
@@ -723,6 +741,264 @@
   ],
   "articles": [
     {
+      "title": "SQLite 终于能随意改约束了？3.53.0 这更新我等了五年",
+      "slug": "sqlite-终于能随意改约束了-3-53-0-这更新我等了五年",
+      "url": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "SQLite 3.53.0 重磅发布：ALTER TABLE 支持增删 NOT NULL/CHECK 约束，告别重建表；新增 json_array_insert 函数；CLI 格式化全面升级，作者还用 Claude 做了 WebAssembly 版在线体验工具。",
+      "tags": [
+        "SQLite",
+        "数据库",
+        "SQL"
+      ],
+      "recommendReason": "解决了 SQLite 多年痛点——无需重建表即可修改约束，CLI 体验大幅提升，附带作者手搓的 WebAssembly  playground 可直接体验新功能。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "你的朋友为什么对你隐瞒好想法？真相扎心",
+      "slug": "你的朋友为什么对你隐瞒好想法-真相扎心",
+      "url": "https://idiallo.com/blog/your-friends-are-hiding-their-ideas?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "人们分享创业想法只为寻求认可而非执行，AI的即时赞美和快速Demo工具正让好想法永远停留在\"讲述\"阶段。",
+      "tags": [
+        "创业认知",
+        "人工智能",
+        "执行力"
+      ],
+      "recommendReason": "戳破\"想法验证\"的幻觉，揭示AI时代创业的新陷阱：即时满足正在杀死真正的创新。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "1999年，我们本可以拥有不被操控的推荐算法",
+      "slug": "1999年-我们本可以拥有不被操控的推荐算法",
+      "url": "https://pluralistic.net/2026/04/11/obvious-terrible-ideas/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "Cory Doctorow回忆创立Opencola的经历，追溯早期P2P推荐系统如何预示今日互联网，反思技术伦理与关键历史节点的抉择。",
+      "tags": [
+        "互联网历史",
+        "推荐算法",
+        "技术伦理"
+      ],
+      "recommendReason": "从 dotcom 亲历者视角揭示算法推荐被忽视的另一种可能，理解当下科技垄断格局的历史根源。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "10英镑保号22年？英国eSIM零月租秘籍",
+      "slug": "10英镑保号22年-英国esim零月租秘籍",
+      "url": "https://shkspr.mobi/blog/2026/04/cheapest-way-to-keep-a-uk-mobile-number-using-an-esim/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "手把手教你用Lyca Mobile eSIM仅花10英镑保留英国手机号，通过每120天消耗1MB数据（15便士），理论上可维持22年，彻底告别月租。",
+      "tags": [
+        "eSIM",
+        "英国手机号",
+        "省钱攻略"
+      ],
+      "recommendReason": "揭秘海外华人保号冷知识，用一杯咖啡钱永久保留英国号码的保姆级教程。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "为什么“中立派”对AI的偏见最深？",
+      "slug": "为什么-中立派-对ai的偏见最深",
+      "url": "https://lucumr.pocoo.org/2026/4/11/the-center-has-a-bias/",
+      "source": "lucumr-pocoo",
+      "author": "Armin Ronacher",
+      "date": "2026-04-11",
+      "description": "在AI编程工具的争议中，批评者往往缺乏实践经验，拥护者已沉没成本。作者指出中间立场并非真正中立，而是偏向“参与 bias”，唯有深度使用才能形成有效判断。",
+      "tags": [
+        "AI编程",
+        "技术批评",
+        "认知偏差"
+      ],
+      "recommendReason": "戳破技术讨论中的“旁观者清”幻觉，揭示亲身体验对技术判断的决定性作用。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "SQLite Query Result Formatter Demo",
+      "slug": "sqlite-query-result-formatter-demo",
+      "url": "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "Tool: SQLite Query Result Formatter Demo See my notes on SQLite 3.53.0 . This playground provides a UI for trying out the various rendering options fo",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pan American Luggage Labels",
+      "slug": "pan-american-luggage-labels",
+      "url": "https://ellafreire.com/collections/pan-american-luggage-labels",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-11",
+      "description": "Some graphic design fun for the weekend: achingly gorgeous art pieces recreating vintage Pan Am luggage tags, by Ella Freire. I love them all. The col",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The biggest advance in AI since the LLM",
+      "slug": "the-biggest-advance-in-ai-since-the-llm",
+      "url": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-11",
+      "description": "Why Claude Code changes everything",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "语音模式反而更笨？ChatGPT这个设计骗了所有人",
+      "slug": "语音模式反而更笨-chatgpt这个设计骗了所有人",
+      "url": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "揭秘OpenAI语音模式背后的模型陷阱：你以为的'最智能交互'其实是GPT-4o旧模型，而文本/Code模型早已进化到能重构代码库、挖掘漏洞。",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "AI模型能力"
+      ],
+      "recommendReason": "戳破'语音即最强'的认知误区，解释为什么你的语音助手总在犯蠢，帮你避开AI使用陷阱。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "50年苹果秘史，竟藏在这座荷兰小城？",
+      "slug": "50年苹果秘史-竟藏在这座荷兰小城",
+      "url": "https://applemuseum.nl/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-10",
+      "description": "探访荷兰乌得勒支的苹果博物馆，从Apple I原型到Apple Watch，完整重现乔布斯车库精神与50年创新脉络，科技迷的朝圣地。",
+      "tags": [
+        "科技博物馆",
+        "苹果历史",
+        "极客文化"
+      ],
+      "recommendReason": "一站式纵览苹果从车库到万亿帝国的完整创新图谱，比官方档案更生动的科技史教科书。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "他把免费素材做成了收藏级孤品？",
+      "slug": "他把免费素材做成了收藏级孤品",
+      "url": "https://pluralistic.net/2026/04/10/canny-valley/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "Cory Doctorow介绍其新书众筹限量版特典《Canny Valley》：一本完全由Creative Commons和公共领域素材制作的拼贴画集，探讨数字时代版权与实体收藏的创造性结合。",
+      "tags": [
+        "Creative Commons",
+        "众筹创新",
+        "数字版权"
+      ],
+      "recommendReason": "为创作者展示了如何在尊重开源协议的前提下，通过实体工艺和限量策略创造独特商业价值，提供了开源商业化的创新范式。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "WaitForMultipleObjects隐藏陷阱：删了的句柄还在发信号？",
+      "slug": "waitformultipleobjects隐藏陷阱-删了的句柄还在发信号",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260410-00/?p=112223",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "Windows开发专家Raymond Chen深度解析动态句柄管理的竞态条件风险，揭秘异步移除句柄后仍触发通知的底层原因，并提供基于原子等待的同步确认解决方案。",
+      "tags": [
+        "Windows开发",
+        "多线程编程",
+        "Win32 API"
+      ],
+      "recommendReason": "Windows核心工程师亲授生产级句柄管理方案，帮你规避难以复现的并发Bug。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Kākāpō parrots",
+      "slug": "k-k-p-parrots",
+      "url": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots! <video src=\"https://static.simonwillison.net/s",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead",
+      "slug": "let-us-learn-to-show-our-friendship-for-a-man-when-he-is-alive-and-not-after-he-is-dead",
+      "url": "https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-10",
+      "description": "Regarding Ronan Farrow and Andrew Marantz’s epic profile of Sam Altman in The New Yorker.",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "[RSS Club] Why do you use RSS rather than Atom?",
+      "slug": "rss-club-why-do-you-use-rss-rather-than-atom",
+      "url": "https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called \"XML-based distributed f",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Distribution of digits in fractions",
+      "slug": "distribution-of-digits-in-fractions",
+      "url": "https://www.johndcook.com/blog/2026/04/10/fraction-digits/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-10",
+      "description": "There’s a lot of mathematics just off the beaten path. You can spend a career in math and yet not know all there is to know about even the most basic ",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "手写LLM第32集：他在云端训练出了更强模型？",
       "slug": "手写llm第32集-他在云端训练出了更强模型",
       "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32j-interventions-trying-to-train-a-better-model-in-the-cloud",
@@ -855,6 +1131,23 @@
         "算法艺术"
       ],
       "recommendReason": "用极简算法生成复杂美学图案，展现数学与艺术的跨界魅力，适合程序员和数理爱好者拓展思维。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Mac藏了定时炸弹？49天不关机必崩溃",
+      "slug": "mac藏了定时炸弹-49天不关机必崩溃",
+      "url": "https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-09",
+      "description": "开发者发现macOS致命bug：连续运行49天17小时后，内核32位整数溢出导致TCP时钟冻结，除ping外全部失效，必须强制重启。",
+      "tags": [
+        "macOS",
+        "系统漏洞",
+        "服务器运维"
+      ],
+      "recommendReason": "揭露苹果系统深藏49天的'死亡倒计时'，为长期运行的Mac服务器提供关键预警。",
       "score": 8.5,
       "translated": false
     },

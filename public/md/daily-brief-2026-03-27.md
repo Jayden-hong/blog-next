@@ -1,0 +1,136 @@
+﻿---
+title: "Daily Read · 2026-03-27"
+date: "2026-03-27T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-27"
+---
+
+> 24 articles · 6.8/10 avg · 12 highlights (≥7.5)
+
+**1. [对话框消息循环卡死？这个Windows隐藏机制能救场](https://devblogs.microsoft.com/oldnewthing/20260325-00/?p=112165)** · 8.8/10 · oldnewthing
+
+微软老员工Raymond Chen揭秘如何通过WM_ENTERIDLE消息劫持对话框消息循环，用MsgWaitForMultipleObjects替代GetMessage，实现模态对话框等待内核对象的高级技巧。
+
+> 深入Windows对话框内部机制，教你用WM_ENTERIDLE巧妙解决模态对话框无法等待多线程/内核对象的难题，是UI线程同步的高级实战技巧。
+
+**2. [一天2万行代码的诅咒：AI编程正在失控？](https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything)** · 8.5/10 · simonwillison
+
+Pi框架创始人警示：无节制使用AI编码代理正导致技术债务指数级累积，专家建议限制每日代码生成量并手工把控架构。
+
+> 来自一线框架作者的权威反思，揭示速度崇拜背后的认知债务陷阱，为AI时代编程提供关键平衡策略。
+
+**3. [无需危险权限！Claude自动模式竟用AI监督AI](https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything)** · 8.5/10 · simonwillison
+
+Claude Code推出auto mode，用Claude Sonnet 4.6作为分类器自动审查操作权限，内置详细允许/拒绝规则，平衡自动化与安全性。
+
+> 揭秘Claude如何通过'AI监督AI'机制解决自动化编程工具的安全与效率矛盾，附完整权限规则解析。
+
+**4. [不写屎山代码反而升职快？工程师职场真相](https://seangoedecke.com/simple-work-gets-rewarded/)** · 8.5/10 · seangoedecke
+
+反驳复杂代码保饭碗的迷思，通过对比两种工程师的长期表现，论证简单代码因交付快、可维护性强，反而更容易建立声誉获得晋升。
+
+> 戳破技术职场最大误区：可维护性比复杂度更能赢得非技术经理的信任与晋升机会。
+
+**5. [多一步才能更新？iOS 26.4这个反直觉设计](https://daringfireball.net/linked/2026/03/24/ios-264)** · 8.5/10 · daringfireball
+
+iOS 26.4 App Store重构更新入口，从个人页底部移至独立分区，虽需多一次点击但逻辑更清晰，满足手动更新用户的需求。
+
+> 揭示苹果重构更新入口背后的产品逻辑，对关注iOS生态和交互设计的人有参考价值。
+
+**6. [Sora突然死亡！迪士尼10亿美元为何打水漂？](https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/)** · 8.5/10 · daringfireball
+
+OpenAI突然关闭AI视频应用Sora，迪士尼随即取消10亿美元投资计划，双方仅合作三个月便分道扬镳。
+
+> 独家揭秘AI巨头与娱乐巨头合作破裂背后的商业风险与行业变数。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [安卓跑分全球第一？谷歌这操作细思极恐](https://blog.chromium.org/2026/03/android-sets-new-record-for-mobile-web.html)** · 8.5/10 · daringfireball
+
+Google宣称Android浏览器性能创纪录，却被发现使用未公开设备测试。这场「跑分盛宴」背后藏着哪些猫腻？为何记者集体翻车？
+
+> 揭秘大厂性能营销背后的测试陷阱，培养独立技术判断力
+
+**8. [独家揭秘：苹果如何“掏空”谷歌Gemini模型](https://www.theinformation.com/newsletters/ai-agenda/apple-can-distill-googles-big-gemini-model?rc=jfy0lk)** · 8.5/10 · daringfireball
+
+报道披露苹果不仅可微调谷歌Gemini模型，更在其数据中心拥有完全访问权限，可自主蒸馏出符合自身需求的小型AI模型，揭示两家巨头不为人知的深度合作。
+
+> 独家揭秘苹果与谷歌在AI领域的隐秘技术合作细节，看懂科技巨头间的博弈与共生。
+
+**9. [为什么反垄断法总是形同虚设？](https://pluralistic.net/2026/03/25/fact-intensive/)** · 8.5/10 · pluralistic
+
+文章揭示'市场定义'如何通过增加事实认定难度，使反垄断法在执法层面陷入瘫痪，成为对企业最友好的'保护罩'。
+
+> 从执法可操作性角度拆解反垄断困境，揭示法律文本与执行现实之间的致命鸿沟。
+
+**10. [MessageBox竟偷偷禁用了这个消息？](https://devblogs.microsoft.com/oldnewthing/20260326-00/?p=112167)** · 8.5/10 · oldnewthing
+
+深入解析Windows消息循环机制，揭示MessageBox通过DS_NOIDLEMSG样式抑制WM_ENTERIDLE消息的底层原理，以及对话框消息循环控制的奥秘。
+
+> 揭示Windows对话框消息循环的隐藏机制，帮助开发者深入理解Win32 API的内部实现细节与陷阱。
+
+**11. [从155到1000万：插值误差的隐藏陷阱](https://www.johndcook.com/blog/2026/03/26/lebesgue-constants/)** · 8.5/10 · johndcook
+
+解析Lebesgue常数如何量化插值误差放大效应，对比等距网格与Chebyshev节点的巨大差异，警示高阶插值风险。
+
+> 用惊人数据揭示高阶多项式插值的潜在灾难，指导如何选择节点避免误差爆炸。
+
+**12. [数学表隐藏精度：99%的人用错了插值方法](https://www.johndcook.com/blog/2026/03/26/table-precision/)** · 8.5/10 · johndcook
+
+深入解析如何通过高阶插值从表格中榨取极限精度，揭示过度追求高阶反而导致误差爆炸的数值分析陷阱。
+
+> 掌握精度与稳定性的平衡法则，让你在工程计算中做出更聪明的插值决策。
+
+**13. [Quantization from the ground up](https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything)** · 5.0/10 · simonwillison
+
+Quantization from the ground up Sam Rose continues his streak of publishing spectacularly informative interactive essays, this time explaining how qua
+
+**14. [datasette-files-s3 0.1a1](https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything)** · 5.0/10 · simonwillison
+
+Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release add
+
+**15. [datasette-llm 0.1a1](https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything)** · 5.0/10 · simonwillison
+
+Release: datasette-llm 0.1a1 New release of the base plugin that makes models from LLM available for use by other Datasette plugins such as datasette-
+
+**16. [LiteLLM Hack: Were You One of the 47,000?](https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything)** · 5.0/10 · simonwillison
+
+LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteL
+
+**17. [The Apple Charging Situation](https://randsinrepose.com/guides/apple-charging-guide.html)** · 5.0/10 · daringfireball
+
+Speaking of power adapters , this information guide from Rands in Repose is both useful and enlightening. ★
+
+**18. [NYT: ‘Melania Trump Appears With a Robot, Saying More Children Should Be Educated by Them’](https://www.nytimes.com/2026/03/25/us/politics/melania-trump-robot.html?smid=nytcore-ios-share)** · 5.0/10 · daringfireball
+
+Well, at least we know who taught her to talk like that . ★
+
+**19. [Katie Notopoulos Bids Farewell to Sora: ‘You Were Too Beautiful and Stupid for This World’](https://www.businessinsider.com/sora-openai-chatgpt-sam-altman-ai-shutting-down-farewell-why-2026-3)** · 5.0/10 · daringfireball
+
+Katie Notopoulos, my favorite Sora user, at Business Insider (paywalled, alas, but available via News+ ): Eventually, my friends all seemed to get bor
+
+**20. [MacOS 26.4 Adds ‘Slow Charger’ Indicator for MacBooks](https://www.macrumors.com/2026/03/25/macos-tahoe-26-4-slow-charger-macbooks/)** · 5.0/10 · daringfireball
+
+Tim Hardwick at MacRumors: macOS Tahoe 26.4 includes a new slow charger indicator that tells MacBook users when their charging setup isn’t delivering 
+
+**21. [Jennifer Daniel on the New ‘Distorted Face’ Emoji](https://jenniferdaniel.substack.com/p/new-emoji-distorted-face)** · 5.0/10 · daringfireball
+
+Jennifer Daniel, on her “Did Someone Say Emoji?” blog: First came Melting Face 🫠, our collective surrender to the liquid state. Then Dotted Line Face 
+
+**22. [The Yankees Almost Signed Another P.E.D. Cheater](https://www.mlb.com/news/how-barry-bonds-was-nearly-a-yankee)** · 5.0/10 · daringfireball
+
+One more nugget from last night’s 7-0 Yankees win over the Giants: During the sixth inning of Wednesday’s Opening Night matchup between two historic f
+
+**23. [Adding human.json to WordPress](https://shkspr.mobi/blog/2026/03/adding-human-json-to-wordpress/)** · 5.0/10 · shkspr.mobi
+
+Every few years, someone reinvents FOAF. The idea behind Friend-Of-A-Friend is that You can say "I, Alice, know and trust Bob". Bob can say "I know an
+
+**24. [War and AI, the death of Sora, and 3 ways you can catch me live today](https://garymarcus.substack.com/p/war-and-ai-the-death-of-sora-and)** · 5.0/10 · garymarcus
+
+With apologies for the short notice, a few quick announcements:
+
+---
+*2026-03-26 22:27 UTC · Kimi K2 · 94 sources*

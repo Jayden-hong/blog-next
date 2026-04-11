@@ -1,0 +1,134 @@
+﻿---
+title: "Daily Read · 2026-03-29"
+date: "2026-03-29T06:00:00Z"
+author: "Jayden"
+tags: ["daily-brief", "rss"]
+slug: "daily-brief-2026-03-29"
+---
+
+> 24 articles · 6.6/10 avg · 11 highlights (≥7.5)
+
+**1. [AI狂烧万亿token？架构师正在取代程序员](https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything)** · 8.5/10 · simonwillison
+
+Matt Webb指出AI智能体虽能暴力破解问题，但真正的价值在于架构设计——当AI接管实现细节，程序员正从写代码转向设计可维护、可组合的底层架构。
+
+> 这篇文章揭示了AI编程时代的核心转变：当智能体能暴力求解任何问题时，人类程序员的价值将彻底转向架构设计能力。
+
+**2. [不写一行代码，我用AI做出了两个macOS工具？](https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything)** · 8.5/10 · simonwillison
+
+开发者Simon Willison分享如何用Claude和GPT通过"vibe coding"方式，无需打开Xcode、无需编写代码，仅通过自然语言对话就快速构建出功能完整的网络监控和GPU监控macOS菜单栏应用。
+
+> 展示了AI辅助编程的极致形态，让非专业开发者也能在几小时内构建实用系统工具，预示着软件开发范式的根本性转变。
+
+**3. [美元要改版了？特朗普签名即将登上美钞](https://www.nytimes.com/2026/03/26/us/politics/trump-signature-us-dollars.html)** · 8.5/10 · daringfireball
+
+美国财政部宣布，特朗普签名将于今年晚些时候出现在美元纸币上。这一史无前例的决定打破250年惯例，使他成为首位在任期间获此"殊荣"的总统。
+
+> 这不仅是一次货币设计变更，更是政治符号与美国财政史的重磅交汇，关乎每一位持有美元者的钱包符号。
+
+**4. [18万付费用户蒸发，媒体转型为何总翻车？](https://www.status.news/p/business-insider-subscription-decline-data)** · 8.5/10 · daringfireball
+
+独家内部数据显示，Business Insider订阅业务持续萎缩，从流量驱动转向付费新闻的三年转型遭遇重创。
+
+> 独家揭秘头部媒体付费墙崩塌内幕，为内容创业与转型提供关键避坑指南。
+
+**5. [四年零失守！iPhone这个隐藏开关让黑客绝望](https://techcrunch.com/2026/03/27/apple-says-no-one-using-lockdown-mode-has-been-hacked-with-spyware/)** · 8.5/10 · daringfireball
+
+苹果官宣Lockdown Mode自推出以来从未被间谍软件攻破，连Amnesty International也证实该功能可有效抵御政府级监控攻击。
+
+> 官方首次证实零被破记录，高净值人群和记者的必备安全设置指南。
+
+**6. [苹果地图开始卖广告？背后野心藏不住了](https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/)** · 8.5/10 · daringfireball
+
+苹果推出一体化企业平台Apple Business，集成设备管理、企业邮箱，并宣布今夏在美国加拿大推出地图本地广告服务。
+
+> 揭示苹果从硬件销售向企业服务与广告收入转型的战略信号，对商家和数字营销从业者具有重要参考价值。
+
+---
+
+**More articles from the past 24 hours:**
+
+**7. [Mac Pro彻底死亡？苹果专业线大洗牌](https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/)** · 8.5/10 · daringfireball
+
+苹果正式确认停产Mac Pro且无后续计划，这款专业工作站退出历史舞台。Mac Studio接棒成为旗舰桌面机，配合Thunderbolt 5集群技术，苹果重构专业级Mac生态。
+
+> 揭示苹果专业硬件战略重大转向，帮助专业用户理解产品线变化并做出购买决策。
+
+**8. [枪杀CEO背后：美国医疗如何逼疯普通人？](https://idiallo.com/byte-size/how-to-get-radicalized-in-america?src=feed)** · 8.5/10 · idiallo
+
+从Luigi案切入，揭露美国医保体系如何通过系统性拒赔将中产逼入绝境，解释为何"生病即激进化"成为美国新常态。
+
+> 一针见血指出医疗资本异化是社会对立的根源，帮你理解美国当下愤怒情绪的底层逻辑。
+
+**9. [对话框想"截胡"自己的消息？Win32高手这样玩](https://devblogs.microsoft.com/oldnewthing/20260327-00/?p=112172)** · 8.5/10 · oldnewthing
+
+深入解析对话框如何通过子类化所有者窗口拦截WM_ENTERIDLE消息，实现自定义消息循环的高级Win32技巧。
+
+> Raymond Chen揭秘Win32消息机制的暗黑操作，对话框自我劫持的极致技巧。
+
+**10. [花大钱做的AI助手，竟不如Ctrl+F？](https://www.johndcook.com/blog/2026/03/27/an-ai-odyssey-part-3-lost-needle-in-the-haystack/)** · 8.5/10 · johndcook
+
+作者在电商网站实测发现，昂贵的AI购物助手回答不了的问题，传统关键词搜索瞬间解决，揭示RAG检索短板。
+
+> 用真实踩坑经历戳破AI搜索泡沫，给盲目迷信大模型的产品经理当头棒喝。
+
+**11. [快进要多按一次？Netflix这波更新把Apple TV用户惹毛了](https://www.pocket-lint.com/netflix-just-made-their-app-worse-and-theres-no-way-to-fix-it/)** · 8/10 · daringfireball
+
+Netflix更新tvOS应用，将快进/快退操作从一键改为两键，打破用户肌肉记忆，被批为 pointless update（毫无意义的更新）。
+
+> 揭示流媒体巨头如何通过微小交互改动影响千万用户习惯，值得产品设计师和Apple TV用户关注。
+
+**12. [datasette-showboat 0.1a2](https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything)** · 5.0/10 · simonwillison
+
+Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote
+
+**13. [Quoting Richard Fontana](https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything)** · 5.0/10 · simonwillison
+
+FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one i
+
+**14. [We Rewrote JSONata with AI in a Day, Saved $500K/Year](https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything)** · 5.0/10 · simonwillison
+
+We Rewrote JSONata with AI in a Day, Saved $500K/Year Bit of a hyperbolic framing but this looks like another case study of vibe porting , this time s
+
+**15. [My minute-by-minute response to the LiteLLM malware attack](https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything)** · 5.0/10 · simonwillison
+
+My minute-by-minute response to the LiteLLM malware attack Callum McMahon reported the LiteLLM malware attack to PyPI. Here he shares the Claude trans
+
+**16. [Bring back MiniDV with this Raspberry Pi FireWire HAT](https://www.jeffgeerling.com/blog/2026/minidv-with-raspberry-pi-firewire-hat/)** · 5.0/10 · jeffgeerling
+
+In my last post, I showed you to use FireWire on a Raspberry Pi with a PCI Express IEEE 1394 adapter. Now I'll show you how I'm using a new FireWire H
+
+**17. [Working on products people hate](https://seangoedecke.com/working-on-products-people-hate/)** · 5.0/10 · seangoedecke
+
+
+
+**18. [‘How Apple Became Apple: The Definitive Oral History of the Company’s Earliest Days’](https://www.fastcompany.com/91514404/apple-founding-50th-anniversary-apple-1-apple-ii-jobs-wozniak?mvgt=E5Loo3fO74zl)** · 5.0/10 · daringfireball
+
+This feature from Harry McCracken is just spectacularly good. (And it’s a gift link that’ll get you past Fast Company’s paywall.) 50 years is a long t
+
+**19. [New York Post: ‘Trump Considers Renaming Strait of Hormuz’](https://nypost.com/2026/03/27/us-news/trump-considers-renaming-strait-of-hormuz-after-either-america-or-himself-once-he-evicts-iran/)** · 5.0/10 · daringfireball
+
+The New York Post (I’m not sure if I should tell you to take this with a grain of salt, because it’s the Post and their journalistic standards are low
+
+**20. [Netflix Raises Prices Again](https://variety.com/2026/tv/news/why-netflix-hiked-prices-explained-chart-1236701365/)** · 5.0/10 · daringfireball
+
+Todd Spangler, Variety: Under the new pricing, effective March 26 for new users and rolling out to current customers depending on their billing cycle,
+
+**21. [★ Apple Giveth, Apple Taketh Away](https://daringfireball.net/2026/03/apple_giveth_apple_taketh_away)** · 5.0/10 · daringfireball
+
+Safari is no longer breaking my menu-item-icon despising heart on MacOS 26 Tahoe, but the best trick to block the Tahoe “upgrade” notice on MacOS 15 S
+
+**22. [Sharing a Name](https://idiallo.com/blog/sharing-a-name?src=feed)** · 5.0/10 · idiallo
+
+My bank card never arrived. I called the bank and, after being redirected through several departments, was assured that it had been mailed. Then we ar
+
+**23. [OpenBenches hits 40k](https://shkspr.mobi/blog/2026/03/openbenches-hits-40k/)** · 5.0/10 · shkspr.mobi
+
+Back in November 2023, our crowdsourced website of memorial benches reached 30,000 entries. At the start of March this year, I was delighted when long
+
+**24. [Computing sine and cosine of complex arguments with only real functions](https://www.johndcook.com/blog/2026/03/27/complex-argument/)** · 5.0/10 · johndcook
+
+Suppose you have a calculator or math library that only handles real arguments but you need to evaluate sin(3 + 4i). What do you do? If you’re using P
+
+---
+*2026-03-28 22:20 UTC · Kimi K2 · 94 sources*
