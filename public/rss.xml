@@ -5,10 +5,81 @@
     <link>https://blog.zucchini.win</link>
     <description>Your attention is valuable. Every day: must-reads, plus latest writing.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Apr 2026 07:34:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 05:41:18 GMT</lastBuildDate>
     <atom:link href="https://blog.zucchini.win/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://blog.zucchini.win/feed.json" rel="alternate" type="application/json"/>
 
+    <item>
+      <title>Daily Read · 2026-04-12</title>
+      <link>https://blog.zucchini.win/blog/daily-brief-2026-04-12/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-brief-2026-04-12/</guid>
+      <pubDate>Sun, 12 Apr 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 18 articles · 7.1/10 avg · 11 highlights (≥7.5)
+
+1. [SQLite 终于能随意改约束了？3.53.0 这更新我等了五年](https://simonwillison.net/2026/Apr/11/sqlite/atom-everything) · 8.5/10 · simonwillison
+
+SQLite 3.53.0 重磅发</description>
+      <content:encoded><![CDATA[
+        <p>
+> 18 articles · 7.1/10 avg · 11 highlights (≥7.5)
+
+1. [SQLite 终于能随意改约束了？3.53.0 这更新我等了五年](https://simonwillison.net/2026/Apr/11/sqlite/atom-everything) · 8.5/10 · simonwillison
+
+SQLite 3.53.0 重磅发</p>
+        <p><a href="https://blog.zucchini.win/md/daily-brief-2026-04-12.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-04-12/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Daily Read · 2026-04-12</title>
+      <link>https://blog.zucchini.win/blog/latest-brief/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
+      <pubDate>Sun, 12 Apr 2026 06:00:00 GMT</pubDate>
+    <category>daily-brief</category>
+    <category>rss</category>
+      <description>
+&gt; 18 articles · 7.1/10 avg · 11 highlights (≥7.5)
+
+1. [SQLite 终于能随意改约束了？3.53.0 这更新我等了五年](https://simonwillison.net/2026/Apr/11/sqlite/atom-everything) · 8.5/10 · simonwillison
+
+SQLite 3.53.0 重磅发</description>
+      <content:encoded><![CDATA[
+        <p>
+> 18 articles · 7.1/10 avg · 11 highlights (≥7.5)
+
+1. [SQLite 终于能随意改约束了？3.53.0 这更新我等了五年](https://simonwillison.net/2026/Apr/11/sqlite/atom-everything) · 8.5/10 · simonwillison
+
+SQLite 3.53.0 重磅发</p>
+        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>每日观点 - 2026-04-12</title>
+      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-04-12/</link>
+      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-04-12/</guid>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+    <category>每日观点</category>
+    <category>AI</category>
+    <category>产品思考</category>
+      <description>
+核心观点 - 技术进步在追求更高效、更智能的过程中，不断挑战着用户隐私和体验的边界，而找到平衡点成为行业发展的关键。
+
+现象解读：
+- 首先，我们可以看到在语音识别技术的应用中，尽管用户期望获得更智能的交互体验，但实际上可能得到的是相对落后的技术版本。Simon Willison的文章揭示了OpenAI在语音模式中使用旧版GPT模型的现象，这不仅影响了用户体验，也暴露了技</description>
+      <content:encoded><![CDATA[
+        <p>
+核心观点 - 技术进步在追求更高效、更智能的过程中，不断挑战着用户隐私和体验的边界，而找到平衡点成为行业发展的关键。
+
+现象解读：
+- 首先，我们可以看到在语音识别技术的应用中，尽管用户期望获得更智能的交互体验，但实际上可能得到的是相对落后的技术版本。Simon Willison的文章揭示了OpenAI在语音模式中使用旧版GPT模型的现象，这不仅影响了用户体验，也暴露了技</p>
+        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-04-12.md">Agent-friendly Markdown version (70% smaller)</a></p>
+        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-04-12/">Read on blog →</a></p>
+      ]]></content:encoded>
+    </item>
     <item>
       <title>Daily Read · 2026-04-11</title>
       <link>https://blog.zucchini.win/blog/daily-brief-2026-04-11/</link>
@@ -31,53 +102,6 @@ Anthropic发布Claude Mythos Preview，该模</description>
 Anthropic发布Claude Mythos Preview，该模</p>
         <p><a href="https://blog.zucchini.win/md/daily-brief-2026-04-11.md">Agent-friendly Markdown version (70% smaller)</a></p>
         <p><a href="https://blog.zucchini.win/blog/daily-brief-2026-04-11/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>Daily Read · 2026-04-11</title>
-      <link>https://blog.zucchini.win/blog/latest-brief/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/latest-brief/</guid>
-      <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
-    <category>daily-brief</category>
-    <category>rss</category>
-      <description>
-&gt; 26 articles · 6.9/10 avg · 14 highlights (≥7.5)
-
-1. [能找出27年漏洞的AI，Anthropic为何不敢公开？](https://red.anthropic.com/2026/mythos-preview/) · 9.0/10 · daringfireball
-
-Anthropic发布Claude Mythos Preview，该模</description>
-      <content:encoded><![CDATA[
-        <p>
-> 26 articles · 6.9/10 avg · 14 highlights (≥7.5)
-
-1. [能找出27年漏洞的AI，Anthropic为何不敢公开？](https://red.anthropic.com/2026/mythos-preview/) · 9.0/10 · daringfireball
-
-Anthropic发布Claude Mythos Preview，该模</p>
-        <p><a href="https://blog.zucchini.win/md/latest-brief.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/latest-brief/">Read on blog →</a></p>
-      ]]></content:encoded>
-    </item>
-    <item>
-      <title>每日观点 - 2026-04-11</title>
-      <link>https://blog.zucchini.win/blog/daily-thoughts-2026-04-11/</link>
-      <guid isPermaLink="true">https://blog.zucchini.win/blog/daily-thoughts-2026-04-11/</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>
-    <category>每日观点</category>
-    <category>AI</category>
-    <category>产品思考</category>
-      <description>
-核心观点：AI技术在网络安全领域的双重性，既是防御新边疆的利器，也是潜在威胁放大器。
-
-现象解读：
-Anthropic公司最近发布的一款AI模型Claude Mythos Preview引起了业界的广泛关注。这款模型不仅能够自主发现并利用零日漏洞，更令人震惊的是，它甚至能找出存在长达27年的隐藏漏洞。这一突破性的技术进步展示了AI在网络安全领域的巨大潜力，同时也暴露出了其</description>
-      <content:encoded><![CDATA[
-        <p>
-核心观点：AI技术在网络安全领域的双重性，既是防御新边疆的利器，也是潜在威胁放大器。
-
-现象解读：
-Anthropic公司最近发布的一款AI模型Claude Mythos Preview引起了业界的广泛关注。这款模型不仅能够自主发现并利用零日漏洞，更令人震惊的是，它甚至能找出存在长达27年的隐藏漏洞。这一突破性的技术进步展示了AI在网络安全领域的巨大潜力，同时也暴露出了其</p>
-        <p><a href="https://blog.zucchini.win/md/daily-thoughts-2026-04-11.md">Agent-friendly Markdown version (70% smaller)</a></p>
-        <p><a href="https://blog.zucchini.win/blog/daily-thoughts-2026-04-11/">Read on blog →</a></p>
       ]]></content:encoded>
     </item>
   </channel>

@@ -3,7 +3,7 @@ title: "Daily Read · 2026-04-12"
 date: "2026-04-12T06:00:00Z"
 author: "Jayden"
 tags: ["daily-brief", "rss"]
-slug: "latest-brief"
+slug: "daily-brief-2026-04-12"
 ---
 
 > 18 articles · 7.1/10 avg · 11 highlights (≥7.5)
@@ -82,10 +82,6 @@ Adobe被曝通过加载特定图片检测用户hosts文件，以此判断访客�
 
 Tool: SQLite Query Result Formatter Demo See my notes on SQLite 3.53.0 . This playground provides a UI for trying out the various rendering options fo
 
-**13. [Kākāpō parrots](https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything)** · 5.0/10 · simonwillison
-
-Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots! <video src="https://static.simonwillison.net/s
-
 **14. [Pan American Luggage Labels](https://ellafreire.com/collections/pan-american-luggage-labels)** · 5.0/10 · daringfireball
 
 Some graphic design fun for the weekend: achingly gorgeous art pieces recreating vintage Pan Am luggage tags, by Ella Freire. I love them all. The col
@@ -93,10 +89,6 @@ Some graphic design fun for the weekend: achingly gorgeous art pieces recreating
 **15. [★ Let Us Learn to Show Our Friendship for a Man When He Is Alive and Not After He Is Dead](https://daringfireball.net/2026/04/when_he_is_alive_and_not_after_he_is_dead)** · 5.0/10 · daringfireball
 
 Regarding Ronan Farrow and Andrew Marantz’s epic profile of Sam Altman in The New Yorker.
-
-**16. [[RSS Club] Why do you use RSS rather than Atom?](https://shkspr.mobi/blog/2026/04/rss-club-why-do-you-use-rss-rather-than-atom/)** · 5.0/10 · shkspr.mobi
-
-This post is exclusive to feed subscribers. Enjoy! This whole experiment is called RSS Club - but perhaps it should be called "XML-based distributed f
 
 **17. [The biggest advance in AI since the LLM](https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the)** · 5.0/10 · garymarcus
 
