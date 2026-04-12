@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-11",
-  "totalSources": 9,
-  "totalArticles": 502,
+  "date": "2026-04-12",
+  "totalSources": 8,
+  "totalArticles": 506,
   "allTags": [
     "AGI",
     "AI",
@@ -82,6 +82,7 @@
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
+    "LLM局限性",
     "LLM工程",
     "Linux",
     "MIPS架构",
@@ -186,6 +187,7 @@
     "书店文化",
     "书评",
     "二分查找",
+    "云服务",
     "云计算",
     "互联网历史",
     "互联网基础设施",
@@ -196,6 +198,7 @@
     "产品更新",
     "人工智能",
     "人工智能安全",
+    "人工智能推理",
     "人文阅读",
     "人机关系",
     "付费服务",
@@ -254,6 +257,7 @@
     "历史",
     "历史分析",
     "历史文本",
+    "历法科普",
     "双曲函数",
     "反垄断",
     "反平台垄断",
@@ -296,6 +300,7 @@
     "学术写作",
     "安全",
     "安全扫描",
+    "宗教文化",
     "实数理论",
     "家庭实验室",
     "宽带政策",
@@ -357,6 +362,7 @@
     "技术监控",
     "技术评论",
     "技术趋势",
+    "技术选型",
     "技术集成",
     "技术革命",
     "技能文件",
@@ -396,6 +402,7 @@
     "数学技巧",
     "数学科普",
     "数学计算",
+    "数学趣味",
     "数据保存",
     "数据加密",
     "数据可视化",
@@ -488,6 +495,7 @@
     "社会观察",
     "社会评论",
     "社群动态",
+    "神经符号AI",
     "神经网络",
     "种族",
     "科学史",
@@ -548,6 +556,7 @@
     "美日关系",
     "职业危机",
     "职业发展",
+    "职业思考",
     "职业焦虑",
     "职业趋势",
     "职场失误",
@@ -740,6 +749,72 @@
     }
   ],
   "articles": [
+    {
+      "title": "花万元考的AWS证书，只是让你成为免费销售？",
+      "slug": "花万元考的aws证书-只是让你成为免费销售",
+      "url": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-12",
+      "description": "揭秘AWS认证背后的商业逻辑：复杂界面与免费套餐如何构建护城河，为何简单便宜的VPS往往比庞大的云服务更实用。",
+      "tags": [
+        "云服务",
+        "技术选型",
+        "职业思考"
+      ],
+      "recommendReason": "跳出技术细节审视云服务本质，帮助开发者避免'过度工程化'陷阱，做出更理性的架构决策。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "被群嘲的苹果论文，竟预言了AI的未来？",
+      "slug": "被群嘲的苹果论文-竟预言了ai的未来",
+      "url": "https://garymarcus.substack.com/p/even-more-good-news-for-the-future",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-12",
+      "description": "文章揭示大语言模型在复杂推理任务中的根本性缺陷，支持神经符号混合架构才是实现真正AGI的可靠路径。",
+      "tags": [
+        "神经符号AI",
+        "LLM局限性",
+        "人工智能推理"
+      ],
+      "recommendReason": "为当前大模型热潮提供冷静的技术批判，揭示通往真正通用人工智能的可能路径。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "相差5周！东西方复活节为何总不同步？",
+      "slug": "相差5周-东西方复活节为何总不同步",
+      "url": "https://www.johndcook.com/blog/2026/04/12/orthodox-western-easter/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-12",
+      "description": "揭秘Julian历与Gregorian历的百年漂移，解释为何东正教复活节永远晚于西方，以及日期差距只能是0、1、4、5周的数学原理。",
+      "tags": [
+        "历法科普",
+        "宗教文化",
+        "数学趣味"
+      ],
+      "recommendReason": "用精确数学视角解读文化差异，揭示历法背后优雅的天文计算逻辑。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Golden Tickets",
+      "slug": "golden-tickets",
+      "url": "https://www.presentandcorrect.com/blogs/blog/golden-tickets",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-12",
+      "description": "More vintage graphic-design weekend fun — this time, a collection of Milwaukee bus tickets from the late 1940s to early 1950s, collected on the Presen",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "SQLite 终于能随意改约束了？3.53.0 这更新我等了五年",
       "slug": "sqlite-终于能随意改约束了-3-53-0-这更新我等了五年",
