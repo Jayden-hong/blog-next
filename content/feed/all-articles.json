@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-12",
+  "date": "2026-04-13",
   "totalSources": 8,
-  "totalArticles": 506,
+  "totalArticles": 524,
   "allTags": [
     "AGI",
     "AI",
@@ -20,6 +20,7 @@
     "AI替代",
     "AI架构",
     "AI模型能力",
+    "AI泡沫",
     "AI硬件危机",
     "AI编程",
     "AI编程助手",
@@ -69,6 +70,7 @@
     "FOMO心理",
     "Frigate",
     "GDPR合规",
+    "Gemma",
     "GitHub",
     "Google Play",
     "Google搜索",
@@ -86,6 +88,7 @@
     "LLM工程",
     "Linux",
     "MIPS架构",
+    "MLX",
     "Mac",
     "Mac Pro",
     "Mac Studio",
@@ -123,6 +126,7 @@
     "SMPTE 2110",
     "SQL",
     "SQLite",
+    "Servo",
     "Sora",
     "SwiftUI",
     "SymPy",
@@ -257,6 +261,7 @@
     "历史",
     "历史分析",
     "历史文本",
+    "历法",
     "历法科普",
     "双曲函数",
     "反垄断",
@@ -265,6 +270,7 @@
     "反间谍软件",
     "古典跨界",
     "可视化",
+    "可访问性",
     "后端架构",
     "后量子密码学",
     "命令行",
@@ -291,6 +297,7 @@
     "大模型训练",
     "大规模裁员",
     "大语言模型",
+    "天文学",
     "天文摄影",
     "太空探索",
     "奈飞",
@@ -377,6 +384,7 @@
     "插值算法",
     "播客",
     "操作系统历史",
+    "政治经济学",
     "政治观点",
     "故障排查",
     "效率",
@@ -453,6 +461,7 @@
     "流程管理",
     "浏览器原理",
     "浏览器工具",
+    "浏览器引擎",
     "浏览器性能",
     "浏览器自动化",
     "消息循环",
@@ -536,8 +545,10 @@
     "系统管理",
     "系统编程",
     "系统美化",
+    "紧缩政策",
     "纪念日",
     "组织并购",
+    "组织管理",
     "经济影响",
     "编剧",
     "编程",
@@ -588,9 +599,11 @@
     "裁员",
     "裁员潮",
     "视觉大模型",
+    "视觉记录",
     "视频API",
     "计算机乐谱",
     "计算机历史",
+    "计算理论",
     "认知债",
     "认知偏差",
     "认知心理学",
@@ -600,6 +613,7 @@
     "设计模式",
     "评测",
     "语言哲学",
+    "语音识别",
     "误靶向",
     "调试技巧",
     "谷歌",
@@ -750,6 +764,243 @@
   ],
   "articles": [
     {
+      "title": "浏览器引擎能当Rust库用了？我实测了Servo 0.1.0的惊喜与局限",
+      "slug": "浏览器引擎能当rust库用了-我实测了servo-0-1-0的惊喜与局限",
+      "url": "https://simonwillison.net/2026/Apr/13/servo-crate-exploration/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "Simon Willison深度测试刚发布的Servo crate，成功构建headless截图工具servo-shot，但发现WebAssembly编译之路被堵死。",
+      "tags": [
+        "Rust",
+        "Servo",
+        "浏览器引擎"
+      ],
+      "recommendReason": "一手实测刚发布的Servo crate，提供可运行的截图工具代码和WebAssembly可行性分析，对想嵌入浏览器引擎的开发者极具参考价值。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "万亿AI泡沫炸裂后，为何独裁者会崛起？",
+      "slug": "万亿ai泡沫炸裂后-为何独裁者会崛起",
+      "url": "https://pluralistic.net/2026/04/12/always-great/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "作者警告AI投资泡沫破裂将引发金融危机，而危机后的紧缩政策将滋生法西斯主义，历史正在重演。",
+      "tags": [
+        "AI泡沫",
+        "政治经济学",
+        "紧缩政策"
+      ],
+      "recommendReason": "以独特视角揭示技术泡沫背后的政治危机，预警金融危机如何通过紧缩政策滑向威权主义。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "只用1个函数和数字1，就能重建整个数学世界？",
+      "slug": "只用1个函数和数字1-就能重建整个数学世界",
+      "url": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "最新数学研究表明，仅凭单一函数与常数1即可推导出加减乘除、三角函数及指数对数，为神经网络精确计算提供全新思路。",
+      "tags": [
+        "数学",
+        "计算理论",
+        "深度学习"
+      ],
+      "recommendReason": "揭示数学本质的极简之美，并意外连接深度学习精确计算需求，颠覆你对数学基础构造的认知。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Google工程师AI使用率竟和拖拉机厂持平？",
+      "slug": "google工程师ai使用率竟和拖拉机厂持平",
+      "url": "https://simonwillison.net/2026/Apr/13/steve-yegge/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "前工程师Steve Yegge爆料：Google AI采用呈现20%深度用户、60%仅基础使用的分布，18个月招聘冻结导致组织失去外部视角，工程能力趋于平庸。",
+      "tags": [
+        "人工智能",
+        "组织管理",
+        "科技评论"
+      ],
+      "recommendReason": "揭示科技巨头在AI转型中的组织惰性，为大企业技术落地困境提供内部视角。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "macOS这功能越帮越忙？实测发现图层更难看清",
+      "slug": "macos这功能越帮越忙-实测发现图层更难看清",
+      "url": "https://mastodon.social/@tuomas_h/116397694769738857",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-13",
+      "description": "深度剖析macOS“减少透明度”辅助功能的设计悖论：本应提升可读性的设置，为何反而让界面层级变得模糊难辨？",
+      "tags": [
+        "macOS",
+        "UI设计",
+        "可访问性"
+      ],
+      "recommendReason": "揭示苹果系统隐藏的设计矛盾，帮你避开这个适得其反的辅助功能设置。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "142张照片揭秘：巨型计算机博物馆里有什么？",
+      "slug": "142张照片揭秘-巨型计算机博物馆里有什么",
+      "url": "https://flickr.com/photos/mwichary/albums/72177720332956990/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-13",
+      "description": "Marcin Wichary探访大型系统博物馆，用镜头记录下那些曾改变世界的巨型计算机和工业设备，展现科技历史的震撼现场与工业美学。",
+      "tags": [
+        "科技考古",
+        "计算机历史",
+        "视觉记录"
+      ],
+      "recommendReason": "罕见的大型计算机视觉档案，满足极客好奇心，用影像保存即将消失的科技遗产。",
+      "score": 7.8,
+      "translated": false
+    },
+    {
+      "title": "Quoting Bryan Cantrill",
+      "slug": "quoting-bryan-cantrill",
+      "url": "https://simonwillison.net/2026/Apr/13/bryan-cantrill/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "The problem is that LLMs inherently lack the virtue of laziness . Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or ",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "[Sponsor] WorkOS FGA: The Authorization Layer for AI Agents",
+      "slug": "sponsor-workos-fga-the-authorization-layer-for-ai-agents",
+      "url": "https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026",
+      "source": "daringfireball",
+      "author": "Daring Fireball Department of Commerce",
+      "date": "2026-04-13",
+      "description": "Every AI agent demo looks magical, but most hit a wall in enterprise deployment. It’s not model quality or latency. It’s authorization. Authentication",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "John Martellaro, RIP",
+      "slug": "john-martellaro-rip",
+      "url": "https://geektells.com/john-martellaro-remembrance/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-13",
+      "description": "Bryan Chaffin, two weeks ago: John Martellaro was good man. He was not only a better man than me, he was one of the best people I knew. It is with a h",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "MacOS Tip: Enable the Zoom ‘Peek’ Gesture",
+      "slug": "macos-tip-enable-the-zoom-peek-gesture",
+      "url": "https://unsung.aresluna.org/testing-tip-enable-the-zoom-peek-gesture/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-13",
+      "description": "Marcin Wichary, at Unsung: Go to Settings > Accessibility > Zoom, and then turn on “Use scroll gesture with modifier keys to zoom.” Then, at any momen",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "FT: ‘Meta Builds AI Version of Mark Zuckerberg to Interact With Staff’",
+      "slug": "ft-meta-builds-ai-version-of-mark-zuckerberg-to-interact-with-staff",
+      "url": "https://www.ft.com/content/02107c23-6c7a-4c19-b8e2-b45f4bb9ce5f",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-13",
+      "description": "Hannah Murphy, reporting for the Financial Times (paywalled, but Ars Technica has a no-paywall syndicated copy ): The company recently began prioritis",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "You paid for it, you should be comfortable in it",
+      "slug": "you-paid-for-it-you-should-be-comfortable-in-it",
+      "url": "https://idiallo.com/blog/you-paid-for-it-you-should-be-comfortable-in-it?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "A friend of mine bought a Tesla Roadster back in the early 2010s. At the time, spotting a Tesla on the road was a rare event. Maybe even occasion enou",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Android now stops you sharing your location in photos",
+      "slug": "android-now-stops-you-sharing-your-location-in-photos",
+      "url": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "My wife and I run OpenBenches. It's a niche little site which lets people share photos of memorial benches and their locations. Most modern phones emb",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Finding a duplicated item in an array of N integers in the range 1 to N − 1",
+      "slug": "finding-a-duplicated-item-in-an-array-of-n-integers-in-the-range-1-to-n-1",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260413-00/?p=112227",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "Taking advantage of special characteristics of the array. The post Finding a duplicated item in an array of N integers in the range 1 to N − 1 appeare",
+      "tags": [
+        "oldnewthing"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Claude Mythos, evaluated",
+      "slug": "claude-mythos-evaluated",
+      "url": "https://garymarcus.substack.com/p/claude-mythos-evaluated",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-13",
+      "description": "How afraid should we be?",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "花万元考的AWS证书，只是让你成为免费销售？",
       "slug": "花万元考的aws证书-只是让你成为免费销售",
       "url": "https://idiallo.com/byte-size/we-are-aws-salesmen?src=feed",
@@ -801,6 +1052,40 @@
       "translated": false
     },
     {
+      "title": "一行命令本地跑音频转录？Gemma 4+MLX实测效果",
+      "slug": "一行命令本地跑音频转录-gemma-4-mlx实测效果",
+      "url": "https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-12",
+      "description": "Simon Willison 分享在 macOS 上使用 MLX 和 uv 运行 Gemma 4 E2B 模型进行本地语音转录的完整方案，包含可直接复制的命令代码及实测效果对比。",
+      "tags": [
+        "Gemma",
+        "MLX",
+        "语音识别"
+      ],
+      "recommendReason": "无需复杂配置即可在本地运行 10GB 大模型进行语音转录，适合注重隐私和离线需求的开发者。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "复活节日期为何飘忽不定？秘密藏在这个小数里",
+      "slug": "复活节日期为何飘忽不定-秘密藏在这个小数里",
+      "url": "https://www.johndcook.com/blog/2026/04/12/lunations/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-12",
+      "description": "解析复活节计算的数学原理，探讨朔望月29.53天的近似难题，回顾古希腊天文学家Meton和Callippus的周期算法，揭示分数近似与复杂度的权衡艺术。",
+      "tags": [
+        "数学",
+        "天文学",
+        "历法"
+      ],
+      "recommendReason": "揭秘历法背后的数学智慧，看古人如何用简单分数解决复杂的月球周期计算难题。",
+      "score": 8.0,
+      "translated": false
+    },
+    {
       "title": "Golden Tickets",
       "slug": "golden-tickets",
       "url": "https://www.presentandcorrect.com/blogs/blog/golden-tickets",
@@ -808,6 +1093,21 @@
       "author": "John Gruber",
       "date": "2026-04-12",
       "description": "More vintage graphic-design weekend fun — this time, a collection of Milwaukee bus tickets from the late 1940s to early 1950s, collected on the Presen",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Viktor Orban Loses Election in Hungary, Concedes Defeat, Congratulates Opposition Winners",
+      "slug": "viktor-orban-loses-election-in-hungary-concedes-defeat-congratulates-opposition-winners",
+      "url": "https://www.nytimes.com/2026/04/12/world/europe/hungary-election-orban-magyar.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-12",
+      "description": "The New York Times: In a surprisingly early and gracious concession speech in Budapest, Mr. Orban congratulated the opposition saying, “The responsibi",
       "tags": [
         "daringfireball"
       ],
