@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-14",
-  "totalSources": 9,
-  "totalArticles": 542,
+  "date": "2026-04-16",
+  "totalSources": 12,
+  "totalArticles": 576,
   "allTags": [
     "AGI",
     "AI",
@@ -20,6 +20,7 @@
     "AI替代",
     "AI架构",
     "AI模型能力",
+    "AI模型评测",
     "AI泡沫",
     "AI硬件危机",
     "AI编程",
@@ -27,6 +28,7 @@
     "AI职场",
     "AI自动化",
     "AI评测",
+    "AI语音",
     "AI转型",
     "AI辅助",
     "AI辅助开发",
@@ -45,7 +47,9 @@
     "App Store",
     "Apple",
     "Apple TV",
+    "Apple生态",
     "App推荐",
+    "Arm PC",
     "BlackHatWorld",
     "Block",
     "Bluesky",
@@ -71,9 +75,11 @@
     "Epic Games",
     "F1赛车",
     "FOMO心理",
+    "Framework",
     "Frigate",
     "GDPR合规",
     "GPS定位",
+    "Gemini",
     "Gemma",
     "GitHub",
     "Google Play",
@@ -152,6 +158,7 @@
     "Win32 API",
     "Win32开发",
     "Win32编程",
+    "Windows",
     "Windows内核",
     "Windows安全",
     "Windows开发",
@@ -169,6 +176,7 @@
     "iOS开发",
     "iOS技巧",
     "iOS更新",
+    "iPhone",
     "iPhone Ultra",
     "iPhone历史",
     "iPhone隐私",
@@ -209,6 +217,7 @@
     "互联网文化",
     "交互式学习",
     "交互艺术",
+    "产品命名",
     "产品命名策略",
     "产品思维",
     "产品更新",
@@ -233,10 +242,12 @@
     "伪科学揭秘",
     "估值争议",
     "伽马函数",
+    "位置共享",
     "体育转播",
     "供应链安全",
     "供应链攻击",
     "侧载限制",
+    "信息安全",
     "信息自由法",
     "健康",
     "僵尸网络",
@@ -263,6 +274,7 @@
     "加密战争",
     "加密货币",
     "加拿大",
+    "励志故事",
     "劳工权益",
     "劳资关系",
     "勒索软件",
@@ -295,11 +307,13 @@
     "商业分析",
     "商业模式",
     "固件升级",
+    "国际局势",
     "国际执法",
     "圆锥曲线",
     "在线广告",
     "在线社区",
     "在线讨论",
+    "地理围栏",
     "地缘政治",
     "基础设施",
     "壁纸",
@@ -312,6 +326,7 @@
     "多线程编程",
     "大模型",
     "大模型定价",
+    "大模型应用",
     "大模型训练",
     "大规模裁员",
     "大语言模型",
@@ -320,6 +335,7 @@
     "太空探索",
     "奈飞",
     "媒体控制",
+    "媒体评论",
     "媒体转型",
     "字体设计",
     "学术写作",
@@ -355,6 +371,7 @@
     "开发者",
     "开发者工具",
     "开发者生态",
+    "开发者趋势",
     "开放数据",
     "开源",
     "开源协议",
@@ -390,6 +407,7 @@
     "技术评论",
     "技术趋势",
     "技术选型",
+    "技术问责",
     "技术集成",
     "技术革命",
     "技能文件",
@@ -405,6 +423,7 @@
     "播客",
     "操作系统历史",
     "政治经济学",
+    "政治观察",
     "政治观点",
     "故障排查",
     "效率",
@@ -446,6 +465,8 @@
     "文件系统监控",
     "文化观察",
     "文本生成",
+    "文本转语音",
+    "无障碍科技",
     "无障碍设计",
     "时间管理",
     "星际迷航",
@@ -455,9 +476,11 @@
     "智能手表",
     "智能硬件",
     "服务器运维",
+    "未来职业",
     "本地AI",
     "本地大模型",
     "本地监控",
+    "本地部署",
     "机器人",
     "机器学习",
     "机械表",
@@ -524,11 +547,13 @@
     "硬件改装",
     "硬件架构",
     "硬件评测",
+    "社交隐私",
     "社会观察",
     "社会评论",
     "社群动态",
     "神经符号AI",
     "神经网络",
+    "私域运营",
     "种族",
     "科学史",
     "科学计算",
@@ -547,6 +572,7 @@
     "科技并购",
     "科技怀旧",
     "科技批判",
+    "科技批评",
     "科技政策",
     "科技新品",
     "科技考古",
@@ -570,6 +596,7 @@
     "系统美化",
     "紧缩政策",
     "纪念日",
+    "线程",
     "组织并购",
     "组织管理",
     "经济影响",
@@ -622,6 +649,7 @@
     "融资",
     "融资策略",
     "行业变革",
+    "行业观察",
     "裁员",
     "裁员潮",
     "视觉大模型",
@@ -642,6 +670,7 @@
     "语言哲学",
     "语音识别",
     "误靶向",
+    "调试",
     "调试技巧",
     "谷歌",
     "贝叶斯统计",
@@ -790,6 +819,552 @@
     }
   ],
   "articles": [
+    {
+      "title": "21GB本地模型干翻Claude Opus？实测结果出乎意料",
+      "slug": "21gb本地模型干翻claude-opus-实测结果出乎意料",
+      "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "知名开发者Simon Willison实测发现，笔记本本地运行的Qwen3.6-35B-A3B在生成SVG图像任务上表现优于Anthropic最新旗舰Claude Opus 4.7，引发对AI模型评估标准的思考。",
+      "tags": [
+        "AI模型评测",
+        "本地部署",
+        "Claude"
+      ],
+      "recommendReason": "用一个幽默而深刻的'鹈鹕测试'，揭示了模型基准测试的局限性和实用AI选型的反直觉真相。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "YAML 总写错？我用 Claude 30 秒搭了个可视化编辑器",
+      "slug": "yaml-总写错-我用-claude-30-秒搭了个可视化编辑器",
+      "url": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "Datasette 作者 Simon Willison 展示如何用 Claude Artifacts 快速构建新闻预览工具，让 YAML 编辑告别格式错误，体现 AI 辅助开发的高效实践。",
+      "tags": [
+        "AI编程",
+        "Claude",
+        "开发工具"
+      ],
+      "recommendReason": " vibe-coding 的绝佳案例：展示如何用 AI 秒级解决实际开发痛点，对想提升工作效率的开发者极具启发性。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "叙事的终结：特朗普终于骗不下去了？",
+      "slug": "叙事的终结-特朗普终于骗不下去了",
+      "url": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html?unlocked_article_code=1.bVA.EB30.mygpleorcQhg&smid=url-share",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "当政治宣传撞上伊朗战火，《纽约时报》为何此时才点破皇帝的新衣？剖析媒体与权力的微妙博弈。",
+      "tags": [
+        "政治观察",
+        "媒体评论",
+        "国际局势"
+      ],
+      "recommendReason": "一针见血地揭示了政治叙事与残酷现实的鸿沟，以及主流媒体在面对权力时的迟滞与觉醒。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Apple TV用户集体退订？Netflix这次玩脱了",
+      "slug": "apple-tv用户集体退订-netflix这次玩脱了",
+      "url": "https://9to5mac.com/2026/04/15/netflix-ruined-its-apple-tv-app-by-switching-to-a-custom-video-player/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "Netflix在Apple TV切换自定义播放器，导致操作繁琐并缺失平台专属功能，引发用户不满与退订潮。",
+      "tags": [
+        "Netflix",
+        "Apple TV",
+        "用户体验"
+      ],
+      "recommendReason": "揭示大厂为追求跨平台一致性而牺牲用户体验的典型案例，对产品设计有重要警示意义。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "苹果折叠屏千万别叫Fold？Ultra背后的命名心机",
+      "slug": "苹果折叠屏千万别叫fold-ultra背后的命名心机",
+      "url": "https://daringfireball.net/linked/2026/04/14/name-of-foldable-iphone",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "科技评论家Gruber断言苹果可折叠手机绝不会叫\"iPhone Fold\"，而会选择\"iPhone Ultra\"——好名字传达情感而非功能，Ultra比Fold更显奢华定位。",
+      "tags": [
+        "苹果",
+        "iPhone",
+        "产品命名"
+      ],
+      "recommendReason": "科技从业者必读：从苹果折叠屏命名之争，看懂顶级品牌如何用\"情感价值\"打败\"功能描述\"。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "16岁失明后，他如何用iPhone考上大学？",
+      "slug": "16岁失明后-他如何用iphone考上大学",
+      "url": "https://www.apple.com/education/college-students/success-stories/goss/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "北爱尔兰少年Rory Goss突发眼疾视力丧失95%，借助Apple设备的辅助功能完成高考并考入大学，展现科技如何重塑视障者的教育与人生可能。",
+      "tags": [
+        "无障碍科技",
+        "励志故事",
+        "Apple生态"
+      ],
+      "recommendReason": "真实案例展示科技无障碍功能的实际价值，为视障群体提供数字化生存参考，也让普通用户看见技术的人文温度。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "GPT跑100万次也找不到？AI安全的残酷真相",
+      "slug": "gpt跑100万次也找不到-ai安全的残酷真相",
+      "url": "\nhttp://antirez.com/news/163\n",
+      "source": "antirez",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "antirez指出AI漏洞挖掘与工作量证明本质不同，仅靠堆叠算力无法弥补模型智能差距，并以OpenBSD SACK漏洞为例证明只有高智能模型才能发现复杂漏洞。",
+      "tags": [
+        "AI安全",
+        "网络安全",
+        "大模型应用"
+      ],
+      "recommendReason": "揭示了AI安全领域'算力迷信'的误区，指明模型质量而非数量才是漏洞挖掘的关键。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "别再怕AI接管世界，危险早已在身边",
+      "slug": "别再怕ai接管世界-危险早已在身边",
+      "url": "https://pluralistic.net/2026/04/16/pascals-wager/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "Cory Doctorow指出，AI末日论如同帕斯卡的赌注，掩盖了科技巨头当下正在进行的监控与剥削。与图灵奖得主Bengio辩论，揭示真正的威胁不是未来的超级智能，而是现在的企业权力滥用。",
+      "tags": [
+        "AI伦理",
+        "科技批评",
+        "数字权利"
+      ],
+      "recommendReason": "打破非黑即白的AI论战，提醒我们关注当下技术垄断的现实危害而非遥远的科幻场景。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "这个WordPress隐藏玩法，正在悄悄宠爱RSS读者",
+      "slug": "这个wordpress隐藏玩法-正在悄悄宠爱rss读者",
+      "url": "https://shkspr.mobi/blog/2026/04/rss-club-for-wordpress/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "揭秘RSS Club玩法：在WordPress创建仅订阅者可见的专属内容，打造秘密社群，提升用户粘性与订阅价值。",
+      "tags": [
+        "WordPress",
+        "RSS",
+        "私域运营"
+      ],
+      "recommendReason": "提供了一种低成本提升订阅价值的创新思路，让RSS成为专属社群的入场券。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "安全专家为何集体失语？圈内人的残酷真相",
+      "slug": "安全专家为何集体失语-圈内人的残酷真相",
+      "url": "https://lcamtuf.substack.com/p/why-i-refrain-from-infosec-punditry",
+      "source": "lcamtuf-substack",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "资深安全研究者lcamtuf直言：信息安全评论充斥公关噪音与短期热点，真正的技术突破被忽视，行业punditry只是制造忙碌幻觉。",
+      "tags": [
+        "信息安全",
+        "行业观察",
+        "技术评论"
+      ],
+      "recommendReason": "戳破安全圈的媒体泡沫与虚假忙碌，看清真正改变行业格局的技术力量。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "程序莫名崩溃？你可能占用了Windows的保留地",
+      "slug": "程序莫名崩溃-你可能占用了windows的保留地",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260416-00/?p=112240",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "客户程序在XP上突然失效，竟因私自占用了Windows系统保留的消息ID。Raymond Chen用\"办公室储物柜\"比喻，揭示了系统编程中一个常见但危险的误区。",
+      "tags": [
+        "Windows开发",
+        "系统编程",
+        "调试技巧"
+      ],
+      "recommendReason": "揭示了Win32开发中系统消息范围的隐藏陷阱，用生动比喻讲透了为什么不能随意占用系统保留资源",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "llm-anthropic 0.25",
+      "slug": "llm-anthropic-0-25",
+      "url": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "Release: llm-anthropic 0.25 New model: claude-opus-4.7 , which supports thinking_effort : xhigh . #66 New thinking_display and thinking_adaptive boole",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "How to Format 10-Digit Phone Numbers",
+      "slug": "how-to-format-10-digit-phone-numbers",
+      "url": "https://www.threads.com/@apstylebook/post/DXKtXVXEh7T",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "The Associated Press Stylebook, on Threads: We updated our style for telephone numbers in 2024 to drop parentheses. We now recommend the form: 212-621",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Apple Pay Express Transit Mode, When Used With a Visa Card, Is Vulnerable to Scam Tap-to-Pay Readers",
+      "slug": "apple-pay-express-transit-mode-when-used-with-a-visa-card-is-vulnerable-to-scam-tap-to-pay-readers",
+      "url": "https://www.macrumors.com/2026/04/15/apple-pay-visa-transit-exploit/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "Juli Clover, MacRumors: The process requires the victim to have Express Transit Mode enabled for payments, and a Visa card linked for those payments, ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "So Close to Getting It",
+      "slug": "so-close-to-getting-it",
+      "url": "https://www.theverge.com/tech/906873/sofa-app-track-tv-movies-installer",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "David Pierce, last week in his Installer column/newsletter for The Verge, singing the praises of the version 5.0 update to Sofa (the praises of which ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Sofa 5.0",
+      "slug": "sofa-5-0",
+      "url": "https://www.sofahq.com/5",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-16",
+      "description": "Shawn Hickman: A show you started last month. A book on your nightstand. A game you keep meaning to get back to. Finding something new is easy. Rememb",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "The Secret Life of Circuits",
+      "slug": "the-secret-life-of-circuits",
+      "url": "https://lcamtuf.substack.com/p/the-secret-life-of-circuits",
+      "source": "lcamtuf-substack",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "Many of you follow this blog because of the regular features about electronic circuit design.",
+      "tags": [
+        "lcamtuf-substack"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Newton diameters",
+      "slug": "newton-diameters",
+      "url": "https://www.johndcook.com/blog/2026/04/16/newton-diameters/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-16",
+      "description": "Let f(x, y) be an nth degree polynomial in x and y. In general, a straight line will cross the zero set of f in n locations [1]. Newton defined a diam",
+      "tags": [
+        "johndcook"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Datasette 1.0倒计时：这个安全改动为何让插件开发者欢呼？",
+      "slug": "datasette-1-0倒计时-这个安全改动为何让插件开发者欢呼",
+      "url": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Datasette发布1.0a27，彻底告别Django式CSRF令牌改用现代浏览器安全机制，并新增表重命名事件支持，为插件生态带来重大突破。",
+      "tags": [
+        "Python",
+        "Datasette",
+        "开源工具"
+      ],
+      "recommendReason": "对使用Datasette处理数据的Python开发者而言，这是向1.0正式版迈进的关键更新，尤其是插件开发者和关注应用安全的工程师必读。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "苹果最大护城河正在崩塌？开发者揭秘真相",
+      "slug": "苹果最大护城河正在崩塌-开发者揭秘真相",
+      "url": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "John Gruber指出苹果真正优势在于优质原生应用生态，但如今开发者动力衰退导致应用质量下滑，平台吸引力正悄然减弱。",
+      "tags": [
+        "苹果生态",
+        "App Store",
+        "开发者趋势"
+      ],
+      "recommendReason": "资深评论家Gruber犀利指出苹果生态衰退的深层原因，值得每个科技从业者深思",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "AI时代最黑暗的新职业：人肉盾牌？",
+      "slug": "ai时代最黑暗的新职业-人肉盾牌",
+      "url": "https://simonwillison.net/2026/Apr/15/kyle-kingsbury/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Kyle Kingsbury预测未来将出现\"人肉盾牌\"职业，人类被迫为AI系统错误承担问责，从算法审核到法律背锅，揭示技术狂欢背后的责任真空与伦理困境。",
+      "tags": [
+        "AI伦理",
+        "未来职业",
+        "技术问责"
+      ],
+      "recommendReason": "犀利揭示AI发展中隐秘的权力不对等与职业风险，警示算法决策背后的责任转嫁机制。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "一台笔记本塞下三种架构？实测Framework Arm主板",
+      "slug": "一台笔记本塞下三种架构-实测framework-arm主板",
+      "url": "https://www.jeffgeerling.com/blog/2026/arm-mainboard-for-framework-laptop/",
+      "source": "jeffgeerling",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "评测MetaComputing AI PC主板，Cix P1 12核Arm处理器实测，对比x86/RISC-V方案，探讨模块化笔记本的终极形态与Arm PC现状。",
+      "tags": [
+        "Framework",
+        "Arm PC",
+        "硬件评测"
+      ],
+      "recommendReason": "罕见的三架构横向评测，揭示模块化笔记本的未来可能性与Arm PC生态现状。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "为什么你的手机知道你在哪，却帮你找不到朋友？",
+      "slug": "为什么你的手机知道你在哪-却帮你找不到朋友",
+      "url": "https://shkspr.mobi/blog/2026/04/why-is-it-so-hard-to-passively-stalk-my-friends-locations/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "探讨基于位置的朋友发现功能为何难以普及，剖析技术可行性与社交尴尬、隐私保护之间的深层矛盾。",
+      "tags": [
+        "位置共享",
+        "社交隐私",
+        "地理围栏"
+      ],
+      "recommendReason": "揭示了技术理想与现实社交礼仪之间的深刻冲突，对理解数字时代的社交边界极具启发。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "线程已退出，Wait却卡住60秒？Windows暗藏的陷阱",
+      "slug": "线程已退出-wait却卡住60秒-windows暗藏的陷阱",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260415-00/?p=112235",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "揭示WaitForSingleObject等待线程退出时延迟的真正原因，深入剖析DLL_THREAD_DETACH通知与加载器锁机制。",
+      "tags": [
+        "Windows",
+        "线程",
+        "调试"
+      ],
+      "recommendReason": "深入剖析Windows线程生命周期盲区，助你快速定位诡异的线程等待问题。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "AI配音能导演了？Gemini新模型支持语气和停顿控制",
+      "slug": "ai配音能导演了-gemini新模型支持语气和停顿控制",
+      "url": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Google发布Gemini 3.1 Flash TTS语音模型，支持多角色对话和[whisper]等导演标签，让AI语音更自然可控，开发者可直接调用API生成WAV音频。",
+      "tags": [
+        "AI语音",
+        "Gemini",
+        "文本转语音"
+      ],
+      "recommendReason": "语音合成进入可控时代，开发者可精细调节AI说话的语气和节奏",
+      "score": 8.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-export-database 0.3a1",
+      "slug": "datasette-export-database-0-3a1",
+      "url": "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Release: datasette-export-database 0.3a1 This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS",
+      "slug": "gemini-3-1-flash-tts",
+      "url": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Gemini 3.1 Flash TTS Google released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts. It's presented via the",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "datasette-ports 0.3",
+      "slug": "datasette-ports-0-3",
+      "url": "https://simonwillison.net/2026/Apr/15/datasette-ports/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Release: datasette-ports 0.3 A small update for my tool for helping me figure out what all of the Datasette instances on my laptop are up to. Show wor",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Lisa Melton: ‘Memories of Steve’ (and Memories of Safari’s Unique Page-Loading Indicator in Particular)",
+      "slug": "lisa-melton-memories-of-steve-and-memories-of-safari-s-unique-page-loading-indicator-in-particular",
+      "url": "https://lisamelton.net/2023/10/05/memories-of-steve/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-15",
+      "description": "Lisa Melton, who ran the team that created Safari, regarding her interactions with Steve Jobs: When Steve asked you a question? You didn’t ramble and,",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "★ David Pierce Tried a Bunch of Android Phones and Then Bought an iPhone Again",
+      "slug": "david-pierce-tried-a-bunch-of-android-phones-and-then-bought-an-iphone-again",
+      "url": "https://daringfireball.net/2026/04/piece_android_iphone_apps",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-15",
+      "description": "The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn ",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Rights for robots (15 Apr 2026)",
+      "slug": "pluralistic-rights-for-robots-15-apr-2026",
+      "url": "https://pluralistic.net/2026/04/15/artificial-lifeforms/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "Today's links Rights for robots: Not everything deserves moral consideration. Hey look at this: Delights to delectate. Object permanence: 7 years unde",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
+      "slug": "simdutf-can-now-be-used-without-libc-or-libc-abi",
+      "url": "https://mitchellh.com/writing/simdutf-no-libcxx",
+      "source": "mitchellh",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "",
+      "tags": [
+        "mitchellh"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Peak absurdity, Part II",
+      "slug": "peak-absurdity-part-ii",
+      "url": "https://garymarcus.substack.com/p/peak-absurdity-part-ii",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "You can’t make this up",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32k -- Interventions: training a better model locally with gradient accumulation",
+      "slug": "writing-an-llm-from-scratch-part-32k-interventions-training-a-better-model-locally-with-gradient-acc",
+      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32k-interventions-training-our-best-model-locally-gradient-accumulation",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-15",
+      "description": "I've been working on a GPT-2-small-style LLM based on Sebastian Raschka 's book \" Build a Large Language Model (from Scratch) \". I've trained various ",
+      "tags": [
+        "gilesthomas"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "当网络安全变成算力游戏，谁烧得起钱？",
       "slug": "当网络安全变成算力游戏-谁烧得起钱",
