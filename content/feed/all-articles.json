@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-16",
-  "totalSources": 12,
-  "totalArticles": 576,
+  "date": "2026-04-17",
+  "totalSources": 8,
+  "totalArticles": 581,
   "allTags": [
     "AGI",
     "AI",
@@ -122,6 +122,7 @@
     "PostgreSQL",
     "Python",
     "Python安全",
+    "Python工具",
     "Python开发",
     "Python数学",
     "Python验证",
@@ -360,6 +361,7 @@
     "广告技术",
     "广告投放",
     "广播技术",
+    "应用商店",
     "应用商店审核",
     "应用程序开发",
     "底层优化",
@@ -547,6 +549,7 @@
     "硬件改装",
     "硬件架构",
     "硬件评测",
+    "社交媒体",
     "社交隐私",
     "社会观察",
     "社会评论",
@@ -587,6 +590,7 @@
     "笔记本电脑",
     "第二十二条军规",
     "算法剥削",
+    "算法推荐",
     "算法艺术",
     "系统更新",
     "系统架构",
@@ -819,6 +823,87 @@
     }
   ],
   "articles": [
+    {
+      "title": "榜单第二的'赚钱神器'，竟是披着羊皮的隐私黑洞？",
+      "slug": "榜单第二的-赚钱神器-竟是披着羊皮的隐私黑洞",
+      "url": "https://techcrunch.com/2026/04/14/how-the-rewards-app-freecash-scammed-its-way-to-the-top-of-the-app-stores/",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-17",
+      "description": "Freecash通过虚假营销登顶应用商店，暗中收集用户种族、健康等敏感数据充当数据中介，终遭苹果谷歌联手下架。",
+      "tags": [
+        "网络安全",
+        "隐私保护",
+        "应用商店"
+      ],
+      "recommendReason": "揭露了看似无害的奖励应用背后隐藏的数据收集黑幕，提醒用户警惕'轻松赚钱'类应用的隐私风险。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "扎克伯格的'人质'，被TikTok意外解放？",
+      "slug": "扎克伯格的-人质-被tiktok意外解放",
+      "url": "https://pluralistic.net/2026/04/17/for-youze/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "揭露Facebook靠制造愤怒赚钱，而TikTok用算法推荐非对抗性内容，意外打破了社交媒体的操控逻辑。",
+      "tags": [
+        "社交媒体",
+        "算法推荐",
+        "平台经济"
+      ],
+      "recommendReason": "犀利剖析TikTok与Facebook的本质差异，揭示算法权力如何意外转向。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Datasette翻车后紧急救火：Claude Opus 4.7竟这样修复致命Bug",
+      "slug": "datasette翻车后紧急救火-claude-opus-4-7竟这样修复致命bug",
+      "url": "https://simonwillison.net/2026/Apr/17/datasette/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "Datasette 1.0a28紧急发布，修复上一版本兼容性崩溃与资源泄漏问题，新增自动清理机制，并首次披露核心代码由Claude AI辅助开发完成。",
+      "tags": [
+        "Datasette",
+        "Python工具",
+        "AI编程"
+      ],
+      "recommendReason": "不仅提供了关键的技术修复方案，更展示了AI辅助开源开发的实战案例，对关注AI编程与数据工具开发者具有双重参考价值。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "App Store Reviews Are Busted",
+      "slug": "app-store-reviews-are-busted",
+      "url": "https://blog.terrygodier.com/2026/04/13/app-store-reviews-are-busted.html",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-17",
+      "description": "Terry Godier: For example, if you have a 4.1 star rating in the App Store, any 4 star review is going to decrease that average . In other words, leavi",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Book Review: How To Kill A Witch - A Guide For The Patriarchy by Claire Mitchell and Zoe Venditozzi ★★★⯪☆",
+      "slug": "book-review-how-to-kill-a-witch-a-guide-for-the-patriarchy-by-claire-mitchell-and-zoe-venditozzi",
+      "url": "https://shkspr.mobi/blog/2026/04/book-review-how-to-kill-a-witch-a-guide-for-the-patriarchy-by-claire-mitchell-and-zoe-venditozzi/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "After reading The Wicked of the Earth, I wanted to understand some of the history behind the stories. Why were women accused of being witches? What re",
+      "tags": [
+        "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
     {
       "title": "21GB本地模型干翻Claude Opus？实测结果出乎意料",
       "slug": "21gb本地模型干翻claude-opus-实测结果出乎意料",
