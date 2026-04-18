@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-17",
-  "totalSources": 8,
-  "totalArticles": 581,
+  "date": "2026-04-18",
+  "totalSources": 11,
+  "totalArticles": 596,
   "allTags": [
     "AGI",
     "AI",
@@ -27,6 +27,7 @@
     "AI编程助手",
     "AI职场",
     "AI自动化",
+    "AI训练机制",
     "AI评测",
     "AI语音",
     "AI转型",
@@ -45,6 +46,7 @@
     "Android系统",
     "Anthropic",
     "App Store",
+    "App Store审核",
     "Apple",
     "Apple TV",
     "Apple生态",
@@ -97,10 +99,12 @@
     "LLMs",
     "LLM局限性",
     "LLM工程",
+    "LLM量化",
     "Linux",
     "MIPS架构",
     "MLX",
     "Mac",
+    "Mac Mini",
     "Mac Pro",
     "Mac Studio",
     "MacBook",
@@ -126,6 +130,7 @@
     "Python开发",
     "Python数学",
     "Python验证",
+    "QLoRA",
     "RAG",
     "RLVR",
     "RSS",
@@ -245,6 +250,7 @@
     "伽马函数",
     "位置共享",
     "体育转播",
+    "供应链",
     "供应链安全",
     "供应链攻击",
     "侧载限制",
@@ -424,6 +430,7 @@
     "插值算法",
     "播客",
     "操作系统历史",
+    "政治光谱",
     "政治经济学",
     "政治观察",
     "政治观点",
@@ -485,12 +492,14 @@
     "本地部署",
     "机器人",
     "机器学习",
+    "机械工程",
     "机械表",
     "权力分析",
     "权限管理",
     "极客文化",
     "查询性能",
     "树莓派",
+    "模型压缩",
     "模型量化",
     "比特币",
     "气候变化",
@@ -510,6 +519,7 @@
     "浏览器引擎",
     "浏览器性能",
     "浏览器自动化",
+    "浮点数",
     "消息循环",
     "消息过滤",
     "消费反思",
@@ -535,6 +545,7 @@
     "生物多样性",
     "生物黑客",
     "用户体验",
+    "用户增长",
     "电子工程",
     "电池比较",
     "电话App",
@@ -634,6 +645,7 @@
     "自动编程",
     "自媒体变现",
     "自我成长",
+    "航空技术",
     "航空航天",
     "芯片短缺",
     "英国手机号",
@@ -662,6 +674,7 @@
     "计算几何",
     "计算机乐谱",
     "计算机历史",
+    "计算机史",
     "计算理论",
     "认知债",
     "认知偏差",
@@ -824,6 +837,187 @@
   ],
   "articles": [
     {
+      "title": "一句Prompt让AI自动编程？这个实战技巧太绝了",
+      "slug": "一句prompt让ai自动编程-这个实战技巧太绝了",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "Simon Willison演示如何用Claude Code通过单条prompt让AI自动克隆参考代码、修改项目功能并完成测试，展现AI编程助手的高效实战技巧。",
+      "tags": [
+        "AI编程",
+        "Claude Code",
+        "智能体工程"
+      ],
+      "recommendReason": "揭示了AI编程时代的高效工作流，教你如何用精准Prompt让AI自主完成复杂开发任务。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "反AI的隐秘真相：左派在用右翼逻辑？",
+      "slug": "反ai的隐秘真相-左派在用右翼逻辑",
+      "url": "https://seangoedecke.com/many-anti-ai-arguments-are-conservative/",
+      "source": "seangoedecke",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "文章揭示反AI言论虽表面左翼，实则蕴含保守主义内核：从知识产权、艺术本质到就业保护，这些论证结构与右翼传统立场惊人相似。",
+      "tags": [
+        "AI伦理",
+        "政治光谱",
+        "技术哲学"
+      ],
+      "recommendReason": "颠覆认知的政治分析，帮你厘清AI争议中左右阵营的真实立场与逻辑矛盾。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "大内存Mac集体失踪，苹果供应链出事了？",
+      "slug": "大内存mac集体失踪-苹果供应链出事了",
+      "url": "https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-18",
+      "description": "Mac Mini M4大内存版本全球断货，发货延迟长达12周，Mac Studio也告急，究竟是产能危机还是苹果故意的？",
+      "tags": [
+        "苹果",
+        "Mac Mini",
+        "供应链"
+      ],
+      "recommendReason": "揭秘苹果高端Mac缺货背后的真实原因，为持币待购者提供关键决策参考。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "为什么你的评分弹窗会被苹果下架？",
+      "slug": "为什么你的评分弹窗会被苹果下架",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews#Best-practices",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-18",
+      "description": "详解苹果官方评分指南，教你合规请求用户好评，避免审核被拒，提升App Store转化率。",
+      "tags": [
+        "iOS开发",
+        "App Store审核",
+        "用户增长"
+      ],
+      "recommendReason": "掌握苹果评分机制官方规则，既能避免审核风险又能提升用户好评率。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "你的4星好评，正在杀死这款App？",
+      "slug": "你的4星好评-正在杀死这款app",
+      "url": "https://daringfireball.net/linked/2026/04/16/app-store-reviews-are-busted",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-18",
+      "description": "揭秘App Store评分机制悖论：4星评价会拉低4.1分以上应用平均分，导致用户评价意图与实际效果相悖。作者建议改用二进制评价并废除应用内评分弹窗。",
+      "tags": [
+        "产品设计",
+        "App Store",
+        "用户体验"
+      ],
+      "recommendReason": "揭示评分系统反直觉的设计缺陷与激励扭曲，为开发者和产品人提供关于评价机制设计的深度洞察。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "没芯片怎么导航？揭秘B-52的机械星图大脑",
+      "slug": "没芯片怎么导航-揭秘b-52的机械星图大脑",
+      "url": "http://www.righto.com/feeds/8382904110431912671/comments/default",
+      "source": "righto",
+      "author": "Ken Shirriff",
+      "date": "2026-04-18",
+      "description": "揭秘B-52轰炸机星跟踪器内的机电角度计算机，看60年前纯机械齿轮如何实现精密天文导航，以及现代团队如何修复这台冷战黑科技。",
+      "tags": [
+        "计算机史",
+        "航空技术",
+        "机械工程"
+      ],
+      "recommendReason": "硬核技术史佳作，展现机械计算机时代的工程巅峰与精密之美。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "4bit量化背后，为什么非要'正态分布'不可？",
+      "slug": "4bit量化背后-为什么非要-正态分布-不可",
+      "url": "https://www.johndcook.com/blog/2026/04/18/qlora/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "解析QLoRA的NF4量化格式，揭示其利用高斯分布特性优化LLM权重存储的数学原理，以及与传统FP4的本质差异。",
+      "tags": [
+        "LLM量化",
+        "QLoRA",
+        "模型压缩"
+      ],
+      "recommendReason": "深入浅出地揭示了NF4量化格式的设计哲学与数学基础，帮助开发者理解为何高斯分布能显著提升4bit LLM的精度与效率。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "4比特奇迹：AI模型缩水的秘密武器",
+      "slug": "4比特奇迹-ai模型缩水的秘密武器",
+      "url": "https://www.johndcook.com/blog/2026/04/17/fp4/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "揭秘神经网络为何抛弃64位高精度，拥抱4位浮点数FP4。从E2M1格式到硬件支持，看懂AI模型压缩的底层逻辑与内存优化之道。",
+      "tags": [
+        "深度学习",
+        "模型压缩",
+        "浮点数"
+      ],
+      "recommendReason": "读懂FP4如何在极低精度下维持AI模型性能，是理解大模型轻量化与端侧部署的关键技术视角。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "★ ‘A Reading Room on Wheels, a Lover’s Lane, and, After 11 PM, a Flophouse’",
+      "slug": "a-reading-room-on-wheels-a-lover-s-lane-and-after-11-pm-a-flophouse",
+      "url": "https://daringfireball.net/2026/04/kubrick_new_york_subway",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-18",
+      "description": "Photos from the New York Subway in the 1940s, by teenage Stanley Kubrick.",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "We Are All Playing Politics at Work",
+      "slug": "we-are-all-playing-politics-at-work",
+      "url": "https://idiallo.com/blog/we-are-playing-politics?src=feed",
+      "source": "idiallo",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "Politics is any discussion where the truth doesn't steer the course of action. Most of us like to think we are above it. We believe that in our daily ",
+      "tags": [
+        "idiallo"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Pluralistic: Georgia's voting technology blunder (18 Apr 2026)",
+      "slug": "pluralistic-georgia-s-voting-technology-blunder-18-apr-2026",
+      "url": "https://pluralistic.net/2026/04/18/dominion-sucks-actually/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-18",
+      "description": "Today's links Georgia's voting technology blunder: It's possible for Dominion machines to suck, but not in the way that Tucker Carlson says they do. H",
+      "tags": [
+        "pluralistic"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "榜单第二的'赚钱神器'，竟是披着羊皮的隐私黑洞？",
       "slug": "榜单第二的-赚钱神器-竟是披着羊皮的隐私黑洞",
       "url": "https://techcrunch.com/2026/04/14/how-the-rewards-app-freecash-scammed-its-way-to-the-top-of-the-app-stores/",
@@ -854,6 +1048,40 @@
         "平台经济"
       ],
       "recommendReason": "犀利剖析TikTok与Facebook的本质差异，揭示算法权力如何意外转向。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "加个列表框卡成PPT？这个被遗忘的API能救你",
+      "slug": "加个列表框卡成ppt-这个被遗忘的api能救你",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260417-00/?p=112243",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "Win32列表框添加百项数据就卡顿？Raymond Chen揭秘LB_INITSTORAGE的内部机制，教你如何通过预分配内存避免性能陷阱。",
+      "tags": [
+        "Win32 API",
+        "性能优化",
+        "Windows编程"
+      ],
+      "recommendReason": "深入浅出剖析古老API的内存管理智慧，对理解底层系统优化和历史性Windows编程仍有启发意义。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "LLM何时突然变聪明？训练中的临界点揭秘",
+      "slug": "llm何时突然变聪明-训练中的临界点揭秘",
+      "url": "https://www.gilesthomas.com/2026/04/how-an-llm-becomes-more-coherent-over-training",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "深入解析大语言模型在训练过程中如何从生成混乱文本逐渐获得逻辑连贯性，揭示AI能力涌现背后的动态机制。",
+      "tags": [
+        "大语言模型",
+        "AI训练机制",
+        "深度学习"
+      ],
+      "recommendReason": "从训练动态角度解释LLM连贯性形成的本质，帮助理解模型'顿悟'时刻的发生条件。",
       "score": 8.5,
       "translated": false
     },
@@ -899,6 +1127,36 @@
       "description": "After reading The Wicked of the Earth, I wanted to understand some of the history behind the stories. Why were women accused of being witches? What re",
       "tags": [
         "shkspr.mobi"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "slug": "join-us-at-pycon-us-2026-in-long-beach-we-have-new-ai-and-security-tracks-this-year",
+      "url": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial an",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Taking down my site on purpose:",
+      "slug": "taking-down-my-site-on-purpose",
+      "url": "https://maurycyz.com/misc/v6day/",
+      "source": "maurycyz",
+      "author": "",
+      "date": "2026-04-17",
+      "description": "Skip the history If you have multiple computers, you'll quickly run into the problem of having data on one but needing it on the other. Because of thi",
+      "tags": [
+        "maurycyz"
       ],
       "recommendReason": "",
       "score": 5.0,
