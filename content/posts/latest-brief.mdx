@@ -4,112 +4,142 @@ date: "2026-04-22T06:00:00Z"
 tags: ["daily-brief", "rss"]
 ---
 
-> 19 articles · 7.1/10 avg · 12 highlights (≥7.5)
+> 26 articles · 6.7/10 avg · 12 highlights (≥7.5)
 
-**1. [Google Sheets直接跑SQL？这3个技巧让数据获取效率翻倍](https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything)** · 8.5/10 · simonwillison
+**1. [64KB除不尽3字节：24位色在古早显卡上的生死局](https://devblogs.microsoft.com/oldnewthing/20260420-00/?p=112245)** · 8.6/10 · oldnewthing
 
-介绍通过importdata()、命名函数和Apps Script三种方式，无需编程即可在Google Sheets中直接查询Datasette数据库的实用方法。
+揭示Windows 95 VFLATD驱动如何处理24位色像素跨越64KB bank边界的底层机制，阐述内存对齐在bank-switched显存架构中的关键作用。
 
-> 无需编程即可实现表格与数据库实时同步，大幅提升数据获取效率的实战技巧
+> 深入解析古早显卡bank-switched内存架构与24位色格式的兼容性难题，揭示现代开发者陌生的底层硬件约束与对齐原则。
 
-**2. [Claude 4.7偷偷涨价40%？新tokenizer实测成本暴涨真相](https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything)** · 8.5/10 · simonwillison
+**2. [Kimi 2.6刚上架就能玩？这个LLM插件隐藏功能太香了](https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything)** · 8.5/10 · simonwillison
 
-Simon Willison实测发现，Claude Opus 4.7的新tokenizer使相同输入token数增加40%，尽管API定价不变，实际使用成本显著上升，且图像处理逻辑也有重大变化。
+llm-openrouter 0.6发布，新增refresh命令打破缓存限制，开发者可秒级切换OpenRouter最新模型，作者亲测生成会动的鹈鹕骑车HTML页面。
 
-> 提供了开发者必须了解的Claude 4.7隐性成本变化细节，帮助准确估算API开支。
+> 解决开发者等待模型缓存的痛点，提供抢先体验最新AI模型的实用技巧。
 
-**3. [Salesforce突然宣布：API就是UI，SaaS定价要崩？](https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything)** · 8.5/10 · simonwillison
+**3. [3行代码搞定！Sheets直连SQL数据库的骚操作](https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything)** · 8.5/10 · simonwillison
 
-当AI代理不再需要点击浏览器，而是直接通过API调用服务，传统按人头收费的SaaS模式面临颠覆。Salesforce推出Headless 360，API-first经济迎来第二春。
+介绍在Google Sheets中直接查询Datasette数据库的三种方案，从基础公式到带认证的脚本，实现零代码数据同步。
 
-> 揭示了AI时代软件交付形态的根本转变，API正从'技术细节'变为决定产品竞争力的'核心卖点'。
+> 告别复制粘贴，让表格秒变数据库客户端的实用教程。
 
-**4. [Claude后台指令泄密：AI开始学会"先干再问"？](https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything)** · 8.5/10 · simonwillison
+**4. [Claude 4.7token暴涨46%，同样的钱少聊一半？](https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything)** · 8.5/10 · simonwillison
 
-Anthropic罕见公开Claude 4.7系统提示词变更，揭示AI从"询问模式"转向"行动模式"，新增儿童安全强制指令，不再挽留想离开的用户。
+Simon Willison实测发现，Claude Opus 4.7新tokenizer让输入token暴涨46%，同样定价下实际成本增加40%，图像处理最高翻3倍。
 
-> 揭示了顶级AI产品如何通过系统提示词微调来改变用户体验和交互逻辑，对理解下一代AI助手设计思路至关重要。
+> 揭示Claude 4.7隐藏成本陷阱，帮你精准计算API预算
 
-**5. [库克突然卸任！苹果新掌门人身份曝光](https://www.apple.com/community-letter-from-tim/)** · 8.5/10 · daringfireball
+**5. [24岁黑客登顶犯罪排行榜，如今面临20年铁窗](https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/)** · 8.5/10 · krebsonsecurity
 
-蒂姆·库克宣布将于9月卸任苹果CEO，转任执行董事长，由硬件工程负责人约翰·特纳斯接任。他回顾15年来每天阅读用户邮件的经历，感谢社区支持。
+Scattered Spider核心成员Tylerb认罪，承认2022年通过短信钓鱼入侵Twilio、LastPass等科技巨头，窃取数千万美元加密货币，揭秘顶级英语黑客组织的社会工程学攻击内幕。
 
-> 见证科技史上最成功CEO之一的权力交接时刻，解读苹果未来十年的战略走向。
+> 独家深度披露针对科技巨头的顶级黑客组织落网细节，了解现代网络犯罪中最难防御的'人性漏洞'攻击手法。
 
-**6. [AI代理正在失控？这个授权层能救命](https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026)** · 8.5/10 · daringfireball
+**6. [马斯克不是天才而是症状？这本书揭开科技寡头的黑暗家谱](https://pluralistic.net/2026/04/21/torment-nexusism/)** · 8.5/10 · pluralistic
 
-WorkOS推出专为AI代理设计的细粒度授权方案，解决传统权限模型在机器速度下的'Confused Deputy'安全漏洞，防止AI越权访问。
+揭示马斯克现象背后的意识形态根源，剖析种族隔离、技术威权与家族历史如何塑造当代科技寡头政治。
 
-> 揭示AI代理普及背后的权限失控风险，为企业级AI部署提供安全架构新思路。
+> 戳破硅谷造神运动，从历史纵深揭示技术威权主义的危险未来。
 
 ---
 
 **More articles from the past 24 hours:**
 
-**7. [旧相机别扔！这串代码让你的视频秒变VR](https://shkspr.mobi/blog/2026/04/reprojecting-dual-fisheye-videos-to-equirectangular-lg-360/)** · 8.5/10 · shkspr.mobi
+**7. [明明SUB更优，为何程序员偏爱XOR清零？](https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247)** · 8.5/10 · oldnewthing
 
-教你用ffmpeg将LG 360双鱼眼视频转换为VR播放器兼容的等距柱状投影格式，详解189度FOV参数调试技巧与元数据注入方法。
+揭秘x86汇编最经典的xor清零指令背后，为何性能相同的sub被冷落？Raymond Chen深度解析编译器选择背后的历史偶然性。
 
-> 手把手的命令行教程，不仅给出现成方案更解释参数原理，让旧设备拍的素材也能在主流播放器中正确显示。
+> 从一条机器指令读懂计算机系统演化的历史偶然性与技术惯性。
 
-**8. [3字节像素如何逼疯Windows 95显卡驱动？](https://devblogs.microsoft.com/oldnewthing/20260420-00/?p=112245)** · 8.5/10 · oldnewthing
+**8. [AI写了60%代码后，我发现的最大陷阱](https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/)** · 8.5/10 · johndcook
 
-揭秘24位色深显卡在银行切换内存架构下的致命陷阱：当像素跨越64KB边界时，为何会触发无限死循环？
+作者亲测AI编码助手效率从20%跃升至60%，揭秘其惊人能力背后的隐患与学习价值。
 
-> 深入剖析早期Windows图形编程的底层陷阱，展现内存对齐在系统架构中的关键作用。
+> 基于真实使用经验的深度反思，既肯定AI编码助手的生产力飞跃，又坦诚技术债务与思维退化风险，为开发者提供务实的使用策略。
 
-**9. [五次方程画出的直线奥秘，牛顿300年前就发现了？](https://www.johndcook.com/blog/2026/04/20/newton-diameter-quintic/)** · 8.5/10 · johndcook
+**9. [指令微调失效了？手写LLM第32章揭秘](https://www.gilesthomas.com/2026/04/llm-from-scratch-32l-interventions-instruction-fine-tuning-tests)** · 8.5/10 · gilesthomas
 
-揭秘牛顿直径定理：当平行线与n次曲线相交，交点重心竟神奇共线。通过五次多项式实例验证，展现平行线无需等距但需满足相交次数的几何之美。
+资深开发者历时数月从零构建大模型，第32章深度剖析指令微调的最新实验数据与关键优化策略。
 
-> 用可视化方式揭秘鲜为人知的牛顿几何定理，展现数学规律的优雅与严谨，适合对高等几何感兴趣的读者。
+> 不依赖现成框架，纯手工实现LLM的第32篇实战记录，揭秘指令微调的真实陷阱与破局思路。
 
-**10. [他用256行代码，揪出了共识算法的致命缺陷](https://matklad.github.io/2026/04/20/test-case-minimization.html)** · 8.5/10 · matklad
+**10. [256行代码揭穿算法漏洞？这个测试库太狠了](https://matklad.github.io/2026/04/20/test-case-minimization.html)** · 8.5/10 · matklad
 
-作者用极简Zig代码手搓属性测试库，不仅替代了庞大的PBT框架，更在几小时内发现了传统测试难以触及的深层算法漏洞。
+技术大神用256行Zig代码手搓属性测试库，不仅极简还能深挖自身算法缺陷，展现高功率重量比的工程美学。
 
-> 展示如何用极简代码实现强大的属性测试，揭示测试框架的本质复杂度与偶然复杂度之分，适合追求'power-to-weight'的工程师。
+> 用极致简洁的代码实现强大测试能力，是理解属性测试本质与工程权衡的绝佳范本。
 
-**11. [他谈百万身价，她忙孩子掉凳：这场对话谁赢了](https://idiallo.com/blog/advice-from-a-millionaire?src=feed)** · 8.0/10 · idiallo
+**11. [30%回收材料+零塑料包装！苹果环保是噱头还是动真格？](https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/)** · 8.2/10 · daringfireball
 
-目击一位百万富翁在咖啡店向疲惫母亲灌输成功哲学，孩子哭闹与财富密码的荒诞对照，揭示成功学话语背后的自我中心主义。
+苹果发布2025环境报告：产品回收材料占比创纪录达30%，MacBook Neo达60%，电池100%使用回收钴，包装全面去塑料化，碳排放较2015年降超60%。
 
-> 用冷静笔触解剖成功学叙事的表演性，在咖啡店的微小权力场中看见性别与阶层的无声碰撞。
+> 揭秘科技巨头如何通过供应链创新与材料技术突破，兑现2030碳中和承诺，对关注可持续发展与消费电子趋势的读者极具参考价值。
 
-**12. [因刺杀事件停播的禁忌剧集，Apple终于敢放了？](https://variety.com/2026/tv/columns/jessica-chastain-apple-tv-finally-release-the-savant-after-postponement-charlie-kirk-assassination-1236725384/)** · 7.8/10 · daringfireball
+**12. [告别机器人声！Linux用户终于等到免费AI语音](https://shkspr.mobi/blog/2026/04/better-tts-on-linux/)** · 8.2/10 · shkspr.mobi
 
-Jessica Chastain主演的政治惊悚剧《The Savant》在经历Charlie Kirk遇刺事件导致的推迟后，终于定档7月上线Apple TV。
+介绍开源TTS工具Piper，解决eSpeak机械音痛点，无需联网或高端显卡，通过Pied GUI一键安装，让Linux拥有自然流畅的本地语音合成体验。
 
-> 揭秘敏感题材剧集如何在现实政治风波后重返屏幕，影后的暗网卧底戏值得等待。
+> 为Linux用户提供了免费、本地、高质量的语音合成方案，既保护隐私又无需昂贵硬件，是无障碍使用和生产力提升的利器。
 
-**13. [DF Paraphernalia: T-Shirts and Hoodies Are Back](https://store.daringfireball.net/)** · 5.0/10 · daringfireball
+**13. [$39的极客信仰？那个让乔布斯服气的博客周边回归了](https://store.daringfireball.net/)** · 7.0/10 · daringfireball
 
-Daring Fireball t-shirts and hoodies are back. Order now, and we’ll start printing shirts at the end of this week and shipping them out next week. Go 
+Daring Fireball重新上架经典T恤与连帽衫，39美元起售，这是科技圈最具辨识度的文化符号之一。
 
-**14. [Apple: ‘Tim Cook to Become Apple Executive Chairman; John Ternus to Become Apple CEO’](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)** · 5.0/10 · daringfireball
+> 对科技爱好者而言，这是拥有互联网文化符号的难得机会，也是向经典科技博客致敬的最佳方式。
+
+**14. [Where's the raccoon with the ham radio? (ChatGPT Images 2.0)](https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything)** · 5.0/10 · simonwillison
+
+OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gp
+
+**15. [Quoting Andreas Påhlsson-Notini](https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything)** · 5.0/10 · simonwillison
+
+AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The cur
+
+**16. [scosman/pelicans_riding_bicycles](https://simonwillison.net/2026/Apr/21/scosman/#atom-everything)** · 5.0/10 · simonwillison
+
+scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most
+
+**17. [Trump on Tim Apple](https://truthsocial.com/@realDonaldTrump/posts/116442276577696798)** · 5.0/10 · daringfireball
+
+The president of the United States, on his blog this morning (all capitalization, punctuation, and missing/wrong words verbatim): I have always been a
+
+**18. [★ Another Day Has Come](https://daringfireball.net/2026/04/another_day_has_come)** · 5.0/10 · daringfireball
+
+If you agree that Apple itself was It’s hard to imagine a more orderly, confidence-inspiring, exciting-but-not-at-all-surprising, this-feels-right way
+
+**19. [‘Community Letter From Tim’](https://www.apple.com/community-letter-from-tim/)** · 5.0/10 · daringfireball
+
+Tim Cook, in a letter addressed, simply, “To the Apple community”: For the past 15 years I’ve started just about every morning the same way. I open my
+
+**20. [Apple: ‘Tim Cook to Become Apple Executive Chairman; John Ternus to Become Apple CEO’](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)** · 5.0/10 · daringfireball
 
 Apple Newsroom, with a veritable “boom”: Apple announced that Tim Cook will become executive chairman of Apple’s board of directors and John Ternus, s
 
-**15. [Apple’s Annual Environmental Progress Report](https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/)** · 5.0/10 · daringfireball
+**21. [Advice from a millionaire](https://idiallo.com/blog/advice-from-a-millionaire?src=feed)** · 5.0/10 · idiallo
 
-Apple Newsroom: In its annual Environmental Progress Report released today, Apple marked progress toward Apple 2030, the company’s ambitious goal to b
+#storytime "Is this seat taken?" A man dressed in a black suit and a coffee in hand asked. He was already halfway into the chair when he said it. I wa
 
-**16. [WorkOS FGA: The Authorization Layer for AI Agents](https://workos.com/blog/agents-need-authorization-not-just-authentication?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026)** · 5.0/10 · daringfireball
-
-My thanks to WorkOS for sponsoring last week at DF. Every AI agent demo looks magical, but most hit a wall in enterprise deployment. It’s not model qu
-
-**17. [Mac Mini and Mac Studio Supply Shortages](https://www.wsj.com/tech/personal-tech/apple-mac-mini-supply-3e7a7509?st=fKpr4Q)** · 5.0/10 · daringfireball
-
-Nicole Nguyen, writing for The Wall Street Journal (gift link): Mac Minis with larger-capacity RAM chips — a base M4 model with 32GB of RAM, starting 
-
-**18. [Pluralistic: Comrade Trump (20 Apr 2026)](https://pluralistic.net/2026/04/20/praxis/)** · 5.0/10 · pluralistic
+**22. [Pluralistic: Comrade Trump (20 Apr 2026)](https://pluralistic.net/2026/04/20/praxis/)** · 5.0/10 · pluralistic
 
 Today's links Comrade Trump: Burning down the American empire to save it. Hey look at this: Delights to delectate. Object permanence: MPAA's threat-ba
 
-**19. [Book Review: Up - A scientist's guide to the magic above us by Dr Lucy Rogers ★★★★★](https://shkspr.mobi/blog/2026/04/book-review-up-a-scientists-guide-to-the-magic-above-us-by-dr-lucy-rogers/)** · 5.0/10 · shkspr.mobi
+**23. [Book Review: Up - A scientist's guide to the magic above us by Dr Lucy Rogers ★★★★★](https://shkspr.mobi/blog/2026/04/book-review-up-a-scientists-guide-to-the-magic-above-us-by-dr-lucy-rogers/)** · 5.0/10 · shkspr.mobi
 
 My mate Dr Lucy Rogers has written a book! This is a charming and thought provoking exploration of everything that goes on above our heads. This isn't
 
+**24. [Please don’t trust your chatbot for medical advice](https://garymarcus.substack.com/p/please-dont-trust-your-chatbot-for)** · 5.0/10 · garymarcus
+
+Four separate studies all point in the same direction
+
+**25. [More on Newton’s diameter theorem](https://www.johndcook.com/blog/2026/04/20/newton-diameter-quintic/)** · 5.0/10 · johndcook
+
+A few days ago I wrote a post on Newton’s diameter theorem. The theorem says to plot the curve formed by the solutions to f(x, y) = 0 where f is a pol
+
+**26. [Writing an LLM from scratch, part 32m -- Interventions: conclusion](https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion)** · 5.0/10 · gilesthomas
+
+Last November, when I finished the main body of " Build a Large Language Model (from Scratch) ", I set myself a number of follow-on goals . One was "t
+
 ---
-*2026-04-21 22:00 UTC · Kimi K2 · 94 sources*
+*2026-04-21 22:27 UTC · Kimi K2 · 94 sources*
 

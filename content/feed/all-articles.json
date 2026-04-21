@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-20",
-  "totalSources": 8,
-  "totalArticles": 612,
+  "date": "2026-04-21",
+  "totalSources": 11,
+  "totalArticles": 626,
   "allTags": [
     "AGI",
     "AI",
@@ -16,6 +16,7 @@
     "AI工具",
     "AI幻觉",
     "AI应用",
+    "AI开发工具",
     "AI技术",
     "AI投资",
     "AI政策",
@@ -100,6 +101,7 @@
     "Ionizing Radiation",
     "JavaScript",
     "Jessica Chastain",
+    "Kimi",
     "KrebsOnSecurity",
     "LLM",
     "LLMs",
@@ -125,6 +127,7 @@
     "Netflix",
     "Node.js",
     "OpenAI",
+    "OpenRouter",
     "PHP开发",
     "Paxos",
     "Pebble",
@@ -153,10 +156,12 @@
     "SQL",
     "SQLite",
     "SaaS变革",
+    "Scattered Spider",
     "Servo",
     "Sora",
     "SwiftUI",
     "SymPy",
+    "TTS语音合成",
     "Tech",
     "UI/UX",
     "UI设计",
@@ -216,6 +221,7 @@
     "simonwillison",
     "tvOS",
     "x86架构",
+    "x86汇编",
     "xeiaso",
     "三角函数",
     "个人博客",
@@ -413,6 +419,7 @@
     "恶意软件",
     "情绪管理",
     "意识",
+    "意识形态分析",
     "成功学批判",
     "成本优化",
     "成长思维",
@@ -582,6 +589,7 @@
     "硬件评测",
     "社交媒体",
     "社交隐私",
+    "社会工程学",
     "社会观察",
     "社会评论",
     "社群动态",
@@ -641,11 +649,13 @@
     "编程",
     "编程入门",
     "编程思维",
+    "编译器原理",
     "编译器错误",
     "网站优化",
     "网站开发",
     "网站维护",
     "网络安全",
+    "网络犯罪",
     "网页优化",
     "网页性能",
     "美元",
@@ -754,6 +764,7 @@
     "项目管理",
     "预后准确性",
     "马头星云",
+    "马斯克",
     "验证页面",
     "鹦鹉孵化"
   ],
@@ -863,6 +874,196 @@
   ],
   "articles": [
     {
+      "title": "24岁黑客登顶犯罪排行榜，如今面临20年铁窗",
+      "slug": "24岁黑客登顶犯罪排行榜-如今面临20年铁窗",
+      "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+      "source": "krebsonsecurity",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "Scattered Spider核心成员Tylerb认罪，承认2022年通过短信钓鱼入侵Twilio、LastPass等科技巨头，窃取数千万美元加密货币，揭秘顶级英语黑客组织的社会工程学攻击内幕。",
+      "tags": [
+        "网络犯罪",
+        "Scattered Spider",
+        "社会工程学"
+      ],
+      "recommendReason": "独家深度披露针对科技巨头的顶级黑客组织落网细节，了解现代网络犯罪中最难防御的'人性漏洞'攻击手法。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "马斯克不是天才而是症状？这本书揭开科技寡头的黑暗家谱",
+      "slug": "马斯克不是天才而是症状-这本书揭开科技寡头的黑暗家谱",
+      "url": "https://pluralistic.net/2026/04/21/torment-nexusism/",
+      "source": "pluralistic",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "揭示马斯克现象背后的意识形态根源，剖析种族隔离、技术威权与家族历史如何塑造当代科技寡头政治。",
+      "tags": [
+        "科技批判",
+        "意识形态分析",
+        "马斯克"
+      ],
+      "recommendReason": "戳破硅谷造神运动，从历史纵深揭示技术威权主义的危险未来。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "明明SUB更优，为何程序员偏爱XOR清零？",
+      "slug": "明明sub更优-为何程序员偏爱xor清零",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247",
+      "source": "oldnewthing",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "揭秘x86汇编最经典的xor清零指令背后，为何性能相同的sub被冷落？Raymond Chen深度解析编译器选择背后的历史偶然性。",
+      "tags": [
+        "底层优化",
+        "x86汇编",
+        "编译器原理"
+      ],
+      "recommendReason": "从一条机器指令读懂计算机系统演化的历史偶然性与技术惯性。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "AI写了60%代码后，我发现的最大陷阱",
+      "slug": "ai写了60-代码后-我发现的最大陷阱",
+      "url": "https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/",
+      "source": "johndcook",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "作者亲测AI编码助手效率从20%跃升至60%，揭秘其惊人能力背后的隐患与学习价值。",
+      "tags": [
+        "AI编程",
+        "软件开发",
+        "效率工具"
+      ],
+      "recommendReason": "基于真实使用经验的深度反思，既肯定AI编码助手的生产力飞跃，又坦诚技术债务与思维退化风险，为开发者提供务实的使用策略。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "告别机器人声！Linux用户终于等到免费AI语音",
+      "slug": "告别机器人声-linux用户终于等到免费ai语音",
+      "url": "https://shkspr.mobi/blog/2026/04/better-tts-on-linux/",
+      "source": "shkspr.mobi",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "介绍开源TTS工具Piper，解决eSpeak机械音痛点，无需联网或高端显卡，通过Pied GUI一键安装，让Linux拥有自然流畅的本地语音合成体验。",
+      "tags": [
+        "Linux",
+        "TTS语音合成",
+        "开源工具"
+      ],
+      "recommendReason": "为Linux用户提供了免费、本地、高质量的语音合成方案，既保护隐私又无需昂贵硬件，是无障碍使用和生产力提升的利器。",
+      "score": 8.2,
+      "translated": false
+    },
+    {
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "slug": "where-s-the-raccoon-with-the-ham-radio-chatgpt-images-2-0",
+      "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gp",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Quoting Andreas Påhlsson-Notini",
+      "slug": "quoting-andreas-p-hlsson-notini",
+      "url": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "AI agents are already too human. Not in the romantic sense, not because they love or fear or dream, but in the more banal and frustrating one. The cur",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "scosman/pelicans_riding_bicycles",
+      "slug": "scosman-pelicans-riding-bicycles",
+      "url": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "scosman/pelicans_riding_bicycles I firmly approve of Steve Cosman's efforts to pollute the training set of pelicans riding bicycles. (To be fair, most",
+      "tags": [
+        "simonwillison"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Trump on Tim Apple",
+      "slug": "trump-on-tim-apple",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/116442276577696798",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-21",
+      "description": "The president of the United States, on his blog this morning (all capitalization, punctuation, and missing/wrong words verbatim): I have always been a",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "★ Another Day Has Come",
+      "slug": "another-day-has-come",
+      "url": "https://daringfireball.net/2026/04/another_day_has_come",
+      "source": "daringfireball",
+      "author": "John Gruber",
+      "date": "2026-04-21",
+      "description": "If you agree that Apple itself was It’s hard to imagine a more orderly, confidence-inspiring, exciting-but-not-at-all-surprising, this-feels-right way",
+      "tags": [
+        "daringfireball"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Please don’t trust your chatbot for medical advice",
+      "slug": "please-don-t-trust-your-chatbot-for-medical-advice",
+      "url": "https://garymarcus.substack.com/p/please-dont-trust-your-chatbot-for",
+      "source": "garymarcus",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "Four separate studies all point in the same direction",
+      "tags": [
+        "garymarcus"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32m -- Interventions: conclusion",
+      "slug": "writing-an-llm-from-scratch-part-32m-interventions-conclusion",
+      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-21",
+      "description": "Last November, when I finished the main body of \" Build a Large Language Model (from Scratch) \", I set myself a number of follow-on goals . One was \"t",
+      "tags": [
+        "gilesthomas"
+      ],
+      "recommendReason": "",
+      "score": 5.0,
+      "translated": false
+    },
+    {
       "title": "Google Sheets直接跑SQL？这3个技巧让数据获取效率翻倍",
       "slug": "google-sheets直接跑sql-这3个技巧让数据获取效率翻倍",
       "url": "https://simonwillison.net/2026/Apr/20/datasette-sql/#atom-everything",
@@ -961,6 +1162,40 @@
         "测试用例最小化"
       ],
       "recommendReason": "展示如何用极简代码实现强大的属性测试，揭示测试框架的本质复杂度与偶然复杂度之分，适合追求'power-to-weight'的工程师。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "Kimi 2.6刚上架就能玩？这个LLM插件隐藏功能太香了",
+      "slug": "kimi-2-6刚上架就能玩-这个llm插件隐藏功能太香了",
+      "url": "https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything",
+      "source": "simonwillison",
+      "author": "",
+      "date": "2026-04-20",
+      "description": "llm-openrouter 0.6发布，新增refresh命令打破缓存限制，开发者可秒级切换OpenRouter最新模型，作者亲测生成会动的鹈鹕骑车HTML页面。",
+      "tags": [
+        "AI开发工具",
+        "OpenRouter",
+        "Kimi"
+      ],
+      "recommendReason": "解决开发者等待模型缓存的痛点，提供抢先体验最新AI模型的实用技巧。",
+      "score": 8.5,
+      "translated": false
+    },
+    {
+      "title": "指令微调失效了？手写LLM第32章揭秘",
+      "slug": "指令微调失效了-手写llm第32章揭秘",
+      "url": "https://www.gilesthomas.com/2026/04/llm-from-scratch-32l-interventions-instruction-fine-tuning-tests",
+      "source": "gilesthomas",
+      "author": "",
+      "date": "2026-04-20",
+      "description": "资深开发者历时数月从零构建大模型，第32章深度剖析指令微调的最新实验数据与关键优化策略。",
+      "tags": [
+        "AI技术",
+        "大模型训练",
+        "深度学习"
+      ],
+      "recommendReason": "不依赖现成框架，纯手工实现LLM的第32篇实战记录，揭秘指令微调的真实陷阱与破局思路。",
       "score": 8.5,
       "translated": false
     },
